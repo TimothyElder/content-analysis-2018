@@ -1,0 +1,1582 @@
+
+% Default to the notebook output style
+
+    
+
+
+% Inherit from the specified cell style.
+
+
+
+
+    
+\documentclass[11pt]{article}
+
+    
+    
+    \usepackage[T1]{fontenc}
+    % Nicer default font (+ math font) than Computer Modern for most use cases
+    \usepackage{mathpazo}
+
+    % Basic figure setup, for now with no caption control since it's done
+    % automatically by Pandoc (which extracts ![](path) syntax from Markdown).
+    \usepackage{graphicx}
+    % We will generate all images so they have a width \maxwidth. This means
+    % that they will get their normal width if they fit onto the page, but
+    % are scaled down if they would overflow the margins.
+    \makeatletter
+    \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+    \else\Gin@nat@width\fi}
+    \makeatother
+    \let\Oldincludegraphics\includegraphics
+    % Set max figure width to be 80% of text width, for now hardcoded.
+    \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=.8\maxwidth]{#1}}
+    % Ensure that by default, figures have no caption (until we provide a
+    % proper Figure object with a Caption API and a way to capture that
+    % in the conversion process - todo).
+    \usepackage{caption}
+    \DeclareCaptionLabelFormat{nolabel}{}
+    \captionsetup{labelformat=nolabel}
+
+    \usepackage{adjustbox} % Used to constrain images to a maximum size 
+    \usepackage{xcolor} % Allow colors to be defined
+    \usepackage{enumerate} % Needed for markdown enumerations to work
+    \usepackage{geometry} % Used to adjust the document margins
+    \usepackage{amsmath} % Equations
+    \usepackage{amssymb} % Equations
+    \usepackage{textcomp} % defines textquotesingle
+    % Hack from http://tex.stackexchange.com/a/47451/13684:
+    \AtBeginDocument{%
+        \def\PYZsq{\textquotesingle}% Upright quotes in Pygmentized code
+    }
+    \usepackage{upquote} % Upright quotes for verbatim code
+    \usepackage{eurosym} % defines \euro
+    \usepackage[mathletters]{ucs} % Extended unicode (utf-8) support
+    \usepackage[utf8x]{inputenc} % Allow utf-8 characters in the tex document
+    \usepackage{fancyvrb} % verbatim replacement that allows latex
+    \usepackage{grffile} % extends the file name processing of package graphics 
+                         % to support a larger range 
+    % The hyperref package gives us a pdf with properly built
+    % internal navigation ('pdf bookmarks' for the table of contents,
+    % internal cross-reference links, web links for URLs, etc.)
+    \usepackage{hyperref}
+    \usepackage{longtable} % longtable support required by pandoc >1.10
+    \usepackage{booktabs}  % table support for pandoc > 1.12.2
+    \usepackage[inline]{enumitem} % IRkernel/repr support (it uses the enumerate* environment)
+    \usepackage[normalem]{ulem} % ulem is needed to support strikethroughs (\sout)
+                                % normalem makes italics be italics, not underlines
+    
+
+    
+    
+    % Colors for the hyperref package
+    \definecolor{urlcolor}{rgb}{0,.145,.698}
+    \definecolor{linkcolor}{rgb}{.71,0.21,0.01}
+    \definecolor{citecolor}{rgb}{.12,.54,.11}
+
+    % ANSI colors
+    \definecolor{ansi-black}{HTML}{3E424D}
+    \definecolor{ansi-black-intense}{HTML}{282C36}
+    \definecolor{ansi-red}{HTML}{E75C58}
+    \definecolor{ansi-red-intense}{HTML}{B22B31}
+    \definecolor{ansi-green}{HTML}{00A250}
+    \definecolor{ansi-green-intense}{HTML}{007427}
+    \definecolor{ansi-yellow}{HTML}{DDB62B}
+    \definecolor{ansi-yellow-intense}{HTML}{B27D12}
+    \definecolor{ansi-blue}{HTML}{208FFB}
+    \definecolor{ansi-blue-intense}{HTML}{0065CA}
+    \definecolor{ansi-magenta}{HTML}{D160C4}
+    \definecolor{ansi-magenta-intense}{HTML}{A03196}
+    \definecolor{ansi-cyan}{HTML}{60C6C8}
+    \definecolor{ansi-cyan-intense}{HTML}{258F8F}
+    \definecolor{ansi-white}{HTML}{C5C1B4}
+    \definecolor{ansi-white-intense}{HTML}{A1A6B2}
+
+    % commands and environments needed by pandoc snippets
+    % extracted from the output of `pandoc -s`
+    \providecommand{\tightlist}{%
+      \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+    \DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+    % Add ',fontsize=\small' for more characters per line
+    \newenvironment{Shaded}{}{}
+    \newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
+    \newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{{#1}}}}
+    \newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
+    \newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
+    \newcommand{\RegionMarkerTok}[1]{{#1}}
+    \newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\NormalTok}[1]{{#1}}
+    
+    % Additional commands for more recent versions of Pandoc
+    \newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{{#1}}}
+    \newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{{#1}}}
+    \newcommand{\ImportTok}[1]{{#1}}
+    \newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{{#1}}}}
+    \newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{{#1}}}
+    \newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{{#1}}}
+    \newcommand{\BuiltInTok}[1]{{#1}}
+    \newcommand{\ExtensionTok}[1]{{#1}}
+    \newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{{#1}}}
+    \newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{{#1}}}
+    \newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    
+    
+    % Define a nice break command that doesn't care if a line doesn't already
+    % exist.
+    \def\br{\hspace*{\fill} \\* }
+    % Math Jax compatability definitions
+    \def\gt{>}
+    \def\lt{<}
+    % Document parameters
+    \title{1-intro}
+    
+    
+    
+
+    % Pygments definitions
+    
+\makeatletter
+\def\PY@reset{\let\PY@it=\relax \let\PY@bf=\relax%
+    \let\PY@ul=\relax \let\PY@tc=\relax%
+    \let\PY@bc=\relax \let\PY@ff=\relax}
+\def\PY@tok#1{\csname PY@tok@#1\endcsname}
+\def\PY@toks#1+{\ifx\relax#1\empty\else%
+    \PY@tok{#1}\expandafter\PY@toks\fi}
+\def\PY@do#1{\PY@bc{\PY@tc{\PY@ul{%
+    \PY@it{\PY@bf{\PY@ff{#1}}}}}}}
+\def\PY#1#2{\PY@reset\PY@toks#1+\relax+\PY@do{#2}}
+
+\expandafter\def\csname PY@tok@w\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.73,0.73}{##1}}}
+\expandafter\def\csname PY@tok@c\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.74,0.48,0.00}{##1}}}
+\expandafter\def\csname PY@tok@k\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.69,0.00,0.25}{##1}}}
+\expandafter\def\csname PY@tok@o\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ow\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@ne\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.82,0.25,0.23}{##1}}}
+\expandafter\def\csname PY@tok@nv\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@no\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ni\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.60,0.60,0.60}{##1}}}
+\expandafter\def\csname PY@tok@na\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.49,0.56,0.16}{##1}}}
+\expandafter\def\csname PY@tok@nt\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@s\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sd\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@si\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@se\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sr\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@ss\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sx\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@m\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@gh\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gu\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.50,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gr\endcsname{\def\PY@tc##1{\textcolor[rgb]{1.00,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ge\endcsname{\let\PY@it=\textit}
+\expandafter\def\csname PY@tok@gs\endcsname{\let\PY@bf=\textbf}
+\expandafter\def\csname PY@tok@gp\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@go\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.53,0.53}{##1}}}
+\expandafter\def\csname PY@tok@gt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.27,0.87}{##1}}}
+\expandafter\def\csname PY@tok@err\endcsname{\def\PY@bc##1{\setlength{\fboxsep}{0pt}\fcolorbox[rgb]{1.00,0.00,0.00}{1,1,1}{\strut ##1}}}
+\expandafter\def\csname PY@tok@kc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kd\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kr\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@bp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@fm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@vc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vg\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sa\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@dl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@s2\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@s1\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@mb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@il\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mo\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ch\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cm\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cpf\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@c1\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cs\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+
+\def\PYZbs{\char`\\}
+\def\PYZus{\char`\_}
+\def\PYZob{\char`\{}
+\def\PYZcb{\char`\}}
+\def\PYZca{\char`\^}
+\def\PYZam{\char`\&}
+\def\PYZlt{\char`\<}
+\def\PYZgt{\char`\>}
+\def\PYZsh{\char`\#}
+\def\PYZpc{\char`\%}
+\def\PYZdl{\char`\$}
+\def\PYZhy{\char`\-}
+\def\PYZsq{\char`\'}
+\def\PYZdq{\char`\"}
+\def\PYZti{\char`\~}
+% for compatibility with earlier versions
+\def\PYZat{@}
+\def\PYZlb{[}
+\def\PYZrb{]}
+\makeatother
+
+
+    % Exact colors from NB
+    \definecolor{incolor}{rgb}{0.0, 0.0, 0.5}
+    \definecolor{outcolor}{rgb}{0.545, 0.0, 0.0}
+
+
+
+    
+    % Prevent overflowing lines due to hard-to-break entities
+    \sloppy 
+    % Setup hyperref package
+    \hypersetup{
+      breaklinks=true,  % so long urls are correctly broken across lines
+      colorlinks=true,
+      urlcolor=urlcolor,
+      linkcolor=linkcolor,
+      citecolor=citecolor,
+      }
+    % Slightly bigger margins than the latex defaults
+    
+    \geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+    
+    
+
+    \begin{document}
+    
+    
+    \maketitle
+    
+    
+
+    
+    \section{Week 1 - Retreiving and Preparing Text for
+Machines}\label{week-1---retreiving-and-preparing-text-for-machines}
+
+This week, we begin by "begging, borrowing and stealing" text from
+several contexts of human communication (e.g., PDFs, HTML, Word) and
+preparing it for machines to "read" and analyze. This notebook outlines
+scraping text from the web, PDF and Word documents. Then we detail
+"spidering" or walking through hyperlinks to build samples of online
+content, and using APIs, Application Programming Interfaces, provided by
+webservices to access their content. Along the way, we will use regular
+expressions, outlined in the reading, to remove unwanted formatting and
+ornamentation. Finally, we discuss various text encodings, filtering and
+data structures in which text can be placed for analysis.
+
+For this notebook we will be using the following packages:
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}1}]:} \PY{c+c1}{\PYZsh{}Special module written for this class}
+        \PY{c+c1}{\PYZsh{}This provides access to data and to helper functions from previous weeks}
+        \PY{k+kn}{import} \PY{n+nn}{lucem\PYZus{}illud} \PY{c+c1}{\PYZsh{}pip install git+git://github.com/Computational\PYZhy{}Content\PYZhy{}Analysis\PYZhy{}2018/lucem\PYZus{}illud.git}
+        
+        \PY{c+c1}{\PYZsh{}All these packages need to be installed from pip}
+        \PY{k+kn}{import} \PY{n+nn}{requests} \PY{c+c1}{\PYZsh{}for http requests}
+        \PY{k+kn}{import} \PY{n+nn}{bs4} \PY{c+c1}{\PYZsh{}called `beautifulsoup4`, an html parser}
+        \PY{k+kn}{import} \PY{n+nn}{pandas} \PY{c+c1}{\PYZsh{}gives us DataFrames}
+        \PY{k+kn}{import} \PY{n+nn}{docx} \PY{c+c1}{\PYZsh{}reading MS doc files, install as `python\PYZhy{}docx`}
+        
+        \PY{c+c1}{\PYZsh{}Stuff for pdfs}
+        \PY{c+c1}{\PYZsh{}Install as `pdfminer2`}
+        \PY{k+kn}{import} \PY{n+nn}{pdfminer}\PY{n+nn}{.}\PY{n+nn}{pdfinterp}
+        \PY{k+kn}{import} \PY{n+nn}{pdfminer}\PY{n+nn}{.}\PY{n+nn}{converter}
+        \PY{k+kn}{import} \PY{n+nn}{pdfminer}\PY{n+nn}{.}\PY{n+nn}{layout}
+        \PY{k+kn}{import} \PY{n+nn}{pdfminer}\PY{n+nn}{.}\PY{n+nn}{pdfpage}
+        
+        \PY{c+c1}{\PYZsh{}These come with Python}
+        \PY{k+kn}{import} \PY{n+nn}{re} \PY{c+c1}{\PYZsh{}for regexs}
+        \PY{k+kn}{import} \PY{n+nn}{urllib}\PY{n+nn}{.}\PY{n+nn}{parse} \PY{c+c1}{\PYZsh{}For joining urls}
+        \PY{k+kn}{import} \PY{n+nn}{io} \PY{c+c1}{\PYZsh{}for making http requests look like files}
+        \PY{k+kn}{import} \PY{n+nn}{json} \PY{c+c1}{\PYZsh{}For Tumblr API responses}
+        \PY{k+kn}{import} \PY{n+nn}{os}\PY{n+nn}{.}\PY{n+nn}{path} \PY{c+c1}{\PYZsh{}For checking if files exist}
+        \PY{k+kn}{import} \PY{n+nn}{os} \PY{c+c1}{\PYZsh{}For making directories}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}2}]:} \PY{n}{wikipedia\PYZus{}base\PYZus{}url} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://en.wikipedia.org}\PY{l+s+s1}{\PYZsq{}}
+        \PY{n}{wikipedia\PYZus{}content\PYZus{}analysis} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://en.wikipedia.org/wiki/Content\PYZus{}analysis}\PY{l+s+s1}{\PYZsq{}}
+        \PY{n}{content\PYZus{}analysis\PYZus{}save} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{wikipedia\PYZus{}content\PYZus{}analysis.html}\PY{l+s+s1}{\PYZsq{}}
+        \PY{n}{example\PYZus{}text\PYZus{}file} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{sometextfile.txt}\PY{l+s+s1}{\PYZsq{}}
+        \PY{n}{information\PYZus{}extraction\PYZus{}pdf} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://github.com/Computational\PYZhy{}Content\PYZhy{}Analysis\PYZhy{}2018/Data\PYZhy{}Files/raw/master/1\PYZhy{}intro/Content}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{20Analysis}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{2018.pdf}\PY{l+s+s1}{\PYZsq{}}
+        \PY{n}{example\PYZus{}docx} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://github.com/Computational\PYZhy{}Content\PYZhy{}Analysis\PYZhy{}2018/Data\PYZhy{}Files/raw/master/1\PYZhy{}intro/macs6000\PYZus{}connecting\PYZus{}to\PYZus{}midway.docx}\PY{l+s+s1}{\PYZsq{}}
+        \PY{n}{example\PYZus{}docx\PYZus{}save} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{example.docx}\PY{l+s+s1}{\PYZsq{}}
+\end{Verbatim}
+
+
+    \section{Scraping}\label{scraping}
+
+Before we can start analyzing content we need to obtain it. Sometimes it
+will be provided to us from a pre-curated text archive, but sometimes we
+will need to download it. As a starting example we will attempt to
+download the wikipedia page on content analysis. The page is located at
+\href{https://en.wikipedia.org/wiki/Content_analysis}{https://en.wikipedia.org/wiki/
+Content\_analysis} so lets start with that.
+
+We can do this by making an HTTP GET request to that url, a GET request
+is simply a request to the server to provide the contents given by some
+url. The other request we will be using in this class is called a POST
+request and requests the server to take some content we provide. While
+the Python standard library does have the ability do make GET requests
+we will be using the
+\href{http://docs.python-requests.org/en/master/}{\emph{requests}}
+package as it is \emph{'the only Non-GMO HTTP library for
+Python'}...also it provides a nicer interface.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}3}]:} \PY{c+c1}{\PYZsh{}wikipedia\PYZus{}content\PYZus{}analysis = \PYZsq{}https://en.wikipedia.org/wiki/Content\PYZus{}analysis\PYZsq{}}
+        \PY{n}{requests}\PY{o}{.}\PY{n}{get}\PY{p}{(}\PY{n}{wikipedia\PYZus{}content\PYZus{}analysis}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}3}]:} <Response [200]>
+\end{Verbatim}
+            
+    \texttt{\textquotesingle{}Response\ {[}200{]}\textquotesingle{}} means
+the server responded with what we asked for. If you get another number
+(e.g. 404) it likely means there was some kind of error, these codes are
+called HTTP response codes and a list of them can be found
+\href{https://en.wikipedia.org/wiki/List_of_HTTP_status_codes}{here}.
+The response object contains all the data the server sent including the
+website's contents and the HTTP header. We are interested in the
+contents which we can access with the \texttt{.text} attribute.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}7}]:} \PY{c+c1}{\PYZsh{}why is the bracketed number 1000? What does changing it do substantively?}
+        \PY{n}{wikiContentRequest} \PY{o}{=} \PY{n}{requests}\PY{o}{.}\PY{n}{get}\PY{p}{(}\PY{n}{wikipedia\PYZus{}content\PYZus{}analysis}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{wikiContentRequest}\PY{o}{.}\PY{n}{text}\PY{p}{[}\PY{p}{:}\PY{l+m+mi}{1000}\PY{p}{]}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Content analysis - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(\^{}|\textbackslash{}s)client-nojs(\textbackslash{}s|\$)/, "\$1client-js\$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function()\{mw.config.set(\{"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Content\_analysis","wgTitle":"Content analysis","wgCurRevisionId":818592713,"wgRevisionId":818592713,"wgArticleId":473317,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing cleanup from April 2008","All pages needing cleanup","Cleanup tagged articles without a reason field from April 2008","Wikipedia pages needing cleanup from April 2008","Articles needing expert attention with no reason or talk parameter","Articles needing expert attention from April 2008","All articles
+
+    \end{Verbatim}
+
+    This is not what we were looking for, because it is the start of the
+HTML that makes up the website. This is HTML and is meant to be read by
+computers. Luckily we have a computer to parse it for us. To do the
+parsing we will use
+\href{https://www.crummy.com/software/BeautifulSoup/}{\emph{Beautiful
+Soup}} which is a better parser than the one in the standard library.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}13}]:} \PY{n}{wikiContentSoup} \PY{o}{=} \PY{n}{bs4}\PY{o}{.}\PY{n}{BeautifulSoup}\PY{p}{(}\PY{n}{wikiContentRequest}\PY{o}{.}\PY{n}{text}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{html.parser}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{n}{wikiContentSoup}\PY{o}{.}\PY{n}{text}\PY{p}{[}\PY{p}{:}\PY{l+m+mi}{200}\PY{p}{]}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+
+
+
+
+Content analysis - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(\^{}|\textbackslash{}s)client-nojs(\textbackslash{}s|\$)/, "\$1client-js\$2" );
+(window.RLQ=window.RLQ||[]).push(functio
+
+    \end{Verbatim}
+
+    This is better but there's still random whitespace and we have more than
+just the text of the article. This is because what we requested is the
+whole webpage, not just the text for the article.
+
+We want to extract only the text we care about, and in order to do this
+we will need to inspect the html. One way to do this is simply to go to
+the website with a browser and use its inspection or view source tool.
+If javascript or other dynamic loading occurs on the page, however, it
+is likely that what Python receives is not what you will see, so we will
+need to inspect what Python receives. To do this we can save the html
+\texttt{requests} obtained.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}15}]:} \PY{c+c1}{\PYZsh{}content\PYZus{}analysis\PYZus{}save = \PYZsq{}wikipedia\PYZus{}content\PYZus{}analysis.html\PYZsq{}}
+         
+         \PY{k}{with} \PY{n+nb}{open}\PY{p}{(}\PY{n}{content\PYZus{}analysis\PYZus{}save}\PY{p}{,} \PY{n}{mode}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{w}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{encoding}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{utf\PYZhy{}8}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} \PY{k}{as} \PY{n}{f}\PY{p}{:}
+             \PY{n}{f}\PY{o}{.}\PY{n}{write}\PY{p}{(}\PY{n}{wikiContentRequest}\PY{o}{.}\PY{n}{text}\PY{p}{)}
+\end{Verbatim}
+
+
+    Now lets open the file (\texttt{wikipedia\_content\_analysis.html}) we
+just created with a web browser. It should look sort of like the
+original but without the images and formatting.
+
+As there is very little standardization on structuring webpages,
+figuring out how best to extract what you want is an art. Looking at
+this page it looks like all the main textual content is inside
+\texttt{\textless{}p\textgreater{}}(paragraph) tags within the
+\texttt{\textless{}body\textgreater{}} tag.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}21}]:} \PY{n}{contentPTags} \PY{o}{=} \PY{n}{wikiContentSoup}\PY{o}{.}\PY{n}{body}\PY{o}{.}\PY{n}{findAll}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{p}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{k}{for} \PY{n}{pTag} \PY{o+ow}{in} \PY{n}{contentPTags}\PY{p}{[}\PY{p}{:}\PY{l+m+mi}{3}\PY{p}{]}\PY{p}{:}
+             \PY{n+nb}{print}\PY{p}{(}\PY{n}{pTag}\PY{o}{.}\PY{n}{text}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+
+Content analysis is a research method for studying documents and communication artifacts, which can be texts of various formats, pictures, audio or video. Social scientists use content analysis to quantify patterns in communication, in a replicable and systematic manner.[1] One of the key advantage of this research method is to analyse social phenomena in a non-invasive way, in contrast to simulating social experiences or collecting survey answers.
+Practices and philosophies of content analysis vary between scholarly communities. They all involve systematic reading or observation of texts or artifacts which are assigned labels (sometimes called codes) to indicate the presence of interesting, meaningful patterns.[2][3] After labeling a large set of media, a researcher is able to statistically estimate the proportions of patterns in the texts, as well as correlations between patterns.
+Computers are increasingly used in content analysis, to automate the labeling (or coding) of documents. Simple computational techniques can provide descriptive data such as word frequencies and document lengths. Machine learning classifiers can greatly increase the number of texts which can be labeled, but the scientific utility of doing so is a matter of debate.
+
+    \end{Verbatim}
+
+    We now have all the text from the page, split up by paragraph. If we
+wanted to get the section headers or references as well it would require
+a bit more work, but is doable.
+
+There is one more thing we might want to do before sending this text to
+be processed, remove the references indicators (\texttt{{[}2{]}},
+\texttt{{[}3{]}} , etc). To do this we can use a short regular
+expression (regex).
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}13}]:} \PY{n}{contentParagraphs} \PY{o}{=} \PY{p}{[}\PY{p}{]}
+         \PY{k}{for} \PY{n}{pTag} \PY{o+ow}{in} \PY{n}{contentPTags}\PY{p}{:}
+             \PY{c+c1}{\PYZsh{}strings starting with r are raw so their \PYZbs{}\PYZsq{}s are not modifier characters}
+             \PY{c+c1}{\PYZsh{}If we didn\PYZsq{}t start with r the string would be: \PYZsq{}\PYZbs{}\PYZbs{}[\PYZbs{}\PYZbs{}d+\PYZbs{}\PYZbs{}]\PYZsq{}}
+             \PY{n}{contentParagraphs}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{re}\PY{o}{.}\PY{n}{sub}\PY{p}{(}\PY{l+s+sa}{r}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZbs{}}\PY{l+s+s1}{[}\PY{l+s+s1}{\PYZbs{}}\PY{l+s+s1}{d+}\PY{l+s+s1}{\PYZbs{}}\PY{l+s+s1}{]}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{pTag}\PY{o}{.}\PY{n}{text}\PY{p}{)}\PY{p}{)}
+         
+         \PY{c+c1}{\PYZsh{}convert to a DataFrame}
+         \PY{n}{contentParagraphsDF} \PY{o}{=} \PY{n}{pandas}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{paragraph\PYZhy{}text}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{n}{contentParagraphs}\PY{p}{\PYZcb{}}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{n}{contentParagraphsDF}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+                                       paragraph-text
+0   \textbackslash{}nContent analysis is a research method for st{\ldots}
+1   Practices and philosophies of content analysis{\ldots}
+2   Computers are increasingly used in content ana{\ldots}
+3                                                    
+4                                                    
+5   Content analysis is best understood as a broad{\ldots}
+6   The simplest and most objective form of conten{\ldots}
+7   A further step in analysis is the distinction {\ldots}
+8   More generally, content analysis is research u{\ldots}
+9   By having contents of communication available {\ldots}
+10  Robert Weber notes: "To make valid inferences {\ldots}
+11  There are five types of texts in content analy{\ldots}
+12  Over the years, content analysis has been appl{\ldots}
+13  In recent times, particularly with the advent {\ldots}
+14  Quantitative content analysis has enjoyed a re{\ldots}
+15  Recently, Arash Heydarian Pashakhanlou has arg{\ldots}
+16  Content analysis can also be described as stud{\ldots}
+17  The method of content analysis enables the res{\ldots}
+18  Since the 1980s, content analysis has become a{\ldots}
+19  The creation of coding frames is intrinsically{\ldots}
+20  Mimetic Convergence aims to show the process o{\ldots}
+21  Every content analysis should depart from a hy{\ldots}
+22  As an evaluation approach, content analysis is{\ldots}
+23  Qualitative content analysis is "a systematic,{\ldots}
+24  Holsti groups fifteen uses of content analysis{\ldots}
+25  He also places these uses into the context of {\ldots}
+26  The following table shows fifteen uses of cont{\ldots}
+27                                                   
+
+    \end{Verbatim}
+
+    Now we have a \texttt{DataFrame} containing all relevant text from the
+page ready to be processed
+
+If you are not familiar with regex, it is a way of specifying searches
+in text. A regex engine takes in the search pattern, in the above case
+\texttt{\textquotesingle{}\textbackslash{}{[}\textbackslash{}d+\textbackslash{}{]}\textquotesingle{}}
+and some string, the paragraph texts. Then it reads the input string one
+character at a time checking if it matches the search. Here the regex
+\texttt{\textquotesingle{}\textbackslash{}d\textquotesingle{}} matches
+number characters (while
+\texttt{\textquotesingle{}\textbackslash{}{[}\textquotesingle{}} and
+\texttt{\textquotesingle{}\textbackslash{}{]}\textquotesingle{}} capture
+the braces on either side).
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}14}]:} \PY{n}{findNumber} \PY{o}{=} \PY{l+s+sa}{r}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZbs{}}\PY{l+s+s1}{d}\PY{l+s+s1}{\PYZsq{}}
+         \PY{n}{regexResults} \PY{o}{=} \PY{n}{re}\PY{o}{.}\PY{n}{search}\PY{p}{(}\PY{n}{findNumber}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{not a number, not a number, numbers 2134567890, not a number}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{regexResults}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}14}]:} <\_sre.SRE\_Match object; span=(36, 37), match='2'>
+\end{Verbatim}
+            
+    In Python the regex package (\texttt{re}) usually returns \texttt{Match}
+objects (you can have multiple pattern hits in a a single
+\texttt{Match}), to get the string that matched our pattern we can use
+the \texttt{.group()} method, and as we want the first one we will ask
+for the 0'th group.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}15}]:} \PY{n+nb}{print}\PY{p}{(}\PY{n}{regexResults}\PY{o}{.}\PY{n}{group}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+2
+
+    \end{Verbatim}
+
+    That gives us the first number, if we wanted the whole block of numbers
+we can add a wildcard \texttt{\textquotesingle{}+\textquotesingle{}}
+which requests 1 or more instances of the preceding character.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}16}]:} \PY{n}{findNumbers} \PY{o}{=} \PY{l+s+sa}{r}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZbs{}}\PY{l+s+s1}{d+}\PY{l+s+s1}{\PYZsq{}}
+         \PY{n}{regexResults} \PY{o}{=} \PY{n}{re}\PY{o}{.}\PY{n}{search}\PY{p}{(}\PY{n}{findNumbers}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{not a number, not a number, numbers 2134567890, not a number}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{n}{regexResults}\PY{o}{.}\PY{n}{group}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+2134567890
+
+    \end{Verbatim}
+
+    Now we have the whole block of numbers, there are a huge number of
+special characters in regex, for the full description of Python's
+implementation look at the
+\href{https://docs.python.org/3/library/re.html}{re docs} there is also
+a short
+\href{https://docs.python.org/3/howto/regex.html\#regex-howto}{tutorial}.
+
+    \section{\texorpdfstring{{Section 1}}{Section 1}}\label{section-1}
+
+{Construct cells immediately below this that describe and download
+webcontent relating to your anticipated final project. Use beautiful
+soup and at least five regular expressions to extract relevant,
+nontrivial \emph{chunks} of that content (e.g., cleaned sentences,
+paragraphs, etc.) to a pandas \texttt{Dataframe}.}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}22}]:} \PY{n}{plosone\PYZus{}content\PYZus{}analysis} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0069841}\PY{l+s+s1}{\PYZsq{}}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}23}]:} \PY{n}{requests}\PY{o}{.}\PY{n}{get}\PY{p}{(}\PY{n}{plosone\PYZus{}content\PYZus{}analysis}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}23}]:} <Response [200]>
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}33}]:} \PY{n}{plosone\PYZus{}ContentRequest} \PY{o}{=} \PY{n}{requests}\PY{o}{.}\PY{n}{get}\PY{p}{(}\PY{n}{plosone\PYZus{}content\PYZus{}analysis}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{n}{plos\PYZus{}one\PYZus{}ContentRequest}\PY{o}{.}\PY{n}{text}\PY{p}{[}\PY{p}{:}\PY{l+m+mi}{1000}\PY{p}{]}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:doi="http://dx.doi.org/"
+      lang="en" xml:lang="en"
+      itemscope itemtype="http://schema.org/Article"
+      class="no-js">
+
+
+
+<head prefix="og: http://ogp.me/ns\#">
+  <title>Facebook Use Predicts Declines in Subjective Well-Being in Young Adults</title>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/plosone/resource/compiled/asset\_2THVWSLUIGPEBLCOO5S4DDGUSVLSNVHZ.css" />
+
+  <!-- allows for  extra head tags -->
+
+
+<!-- hello -->
+<link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600">
+
+<link media="print" rel="stylesheet" type="text/css"  href="/plosone/resource/css/print.css"/>
+    <script type="text/javascript">
+        var siteUrlPrefix = "/plosone/";
+    </script>
+<script src="/plosone/resource/compiled/asset\_SC5JIUGEUPR4P4P6VBUINUVOVUSU3NRY.js"></script>
+
+  <link rel="shortcut icon" href="/plosone/resource/img/favico
+
+    \end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}37}]:} \PY{n}{plosoneContentSoup} \PY{o}{=} \PY{n}{bs4}\PY{o}{.}\PY{n}{BeautifulSoup}\PY{p}{(}\PY{n}{plosone\PYZus{}ContentRequest}\PY{o}{.}\PY{n}{text}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{html.parser}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{n}{plosoneContentSoup}\PY{o}{.}\PY{n}{text}\PY{p}{[}\PY{p}{:}\PY{l+m+mi}{2000}\PY{p}{]}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+
+
+
+
+Facebook Use Predicts Declines in Subjective Well-Being in Young Adults
+
+
+
+
+
+
+        var siteUrlPrefix = "/plosone/";
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  var googletag = googletag || \{\};
+  googletag.cmd = googletag.cmd || [];
+  (function() \{
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+        '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  \})();
+
+
+
+    googletag.cmd.push(function() \{
+  googletag.defineSlot('/75507958/PONE\_728x90\_ATF', [728, 90], 'div-gpt-ad-1458247671871-0').addService(googletag.pubads());
+  googletag.defineSlot('/75507958/PONE\_160x600\_BTF', [160, 600], 'div-gpt-ad-1458247671871-1').addService(googletag.pubads());
+      googletag.pubads().enableSingleRequest();
+      googletag.enableServices();
+    \});
+  
+
+    var WombatConfig = WombatConfig || \{\};
+    WombatConfig.resourcePath = "/plosone/resource/";
+    WombatConfig.imgPath = "/plosone/resource/img/";
+    WombatConfig.journalKey = "PLoSONE";
+    WombatConfig.figurePath = "/plosone/article/figure/image";
+    WombatConfig.figShareInstitutionString = "plos";
+    WombatConfig.doiResolverPrefix = "http://dx.plos.org/";
+
+
+  var WombatConfig = WombatConfig || \{\};
+  WombatConfig.metrics = WombatConfig.metrics || \{\};
+  WombatConfig.metrics.referenceUrl      = "http://lagotto.io/plos";
+  WombatConfig.metrics.googleScholarUrl  = "http://scholar.google.com/scholar";
+  WombatConfig.metrics.googleScholarCitationUrl  = WombatConfig.metrics.googleScholarUrl + "?hl=en\&lr=\&cites=";
+  WombatConfig.metrics.crossrefUrl  = "http://www.crossref.org";
+
+window.jQuery || document.write('<script src="/plosone/resource/js/vendor/jquery-2.1.4.min.js""><\textbackslash{}/script>')
+
+
+
+
+  dataLayer = [\{
+    'mobileSite':
+
+    \end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}39}]:} \PY{n}{content\PYZus{}analysis\PYZus{}save} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{plosone\PYZus{}content\PYZus{}analysis.html}\PY{l+s+s1}{\PYZsq{}}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}41}]:} \PY{k}{with} \PY{n+nb}{open}\PY{p}{(}\PY{n}{content\PYZus{}analysis\PYZus{}save}\PY{p}{,} \PY{n}{mode}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{w}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{encoding}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{utf\PYZhy{}8}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} \PY{k}{as} \PY{n}{f}\PY{p}{:}
+             \PY{n}{f}\PY{o}{.}\PY{n}{write}\PY{p}{(}\PY{n}{plosone\PYZus{}ContentRequest}\PY{o}{.}\PY{n}{text}\PY{p}{)}
+\end{Verbatim}
+
+
+    \section{Spidering}\label{spidering}
+
+What if we want to to get a bunch of different pages from wikipedia. We
+would need to get the url for each of the pages we want. Typically, we
+want pages that are linked to by other pages and so we will need to
+parse pages and identify the links. Right now we will be retrieving all
+links in the body of the content analysis page.
+
+To do this we will need to find all the
+\texttt{\textless{}a\textgreater{}} (anchor) tags with \texttt{href}s
+(hyperlink references) inside of \texttt{\textless{}p\textgreater{}}
+tags. \texttt{href} can have many
+\href{http://stackoverflow.com/questions/4855168/what-is-href-and-why-is-\%20it-used}{different}
+\href{https://en.wikipedia.org/wiki/Hyperlink\#Hyperlinks_in_HTML}{forms}
+so dealing with them can be tricky, but generally, you will want to
+extract absolute or relative links. An absolute link is one you can
+follow without modification, while a relative link requires a base url
+that you will then append. Wikipedia uses relative urls for its internal
+links: below is an example for dealing with them.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}17}]:} \PY{c+c1}{\PYZsh{}wikipedia\PYZus{}base\PYZus{}url = \PYZsq{}https://en.wikipedia.org\PYZsq{}}
+         
+         \PY{n}{otherPAgeURLS} \PY{o}{=} \PY{p}{[}\PY{p}{]}
+         \PY{c+c1}{\PYZsh{}We also want to know where the links come from so we also will get:}
+         \PY{c+c1}{\PYZsh{}the paragraph number}
+         \PY{c+c1}{\PYZsh{}the word the link is in}
+         \PY{k}{for} \PY{n}{paragraphNum}\PY{p}{,} \PY{n}{pTag} \PY{o+ow}{in} \PY{n+nb}{enumerate}\PY{p}{(}\PY{n}{contentPTags}\PY{p}{)}\PY{p}{:}
+             \PY{c+c1}{\PYZsh{}we only want hrefs that link to wiki pages}
+             \PY{n}{tagLinks} \PY{o}{=} \PY{n}{pTag}\PY{o}{.}\PY{n}{findAll}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{a}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{href}\PY{o}{=}\PY{n}{re}\PY{o}{.}\PY{n}{compile}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{/wiki/}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{,} \PY{n}{class\PYZus{}}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
+             \PY{k}{for} \PY{n}{aTag} \PY{o+ow}{in} \PY{n}{tagLinks}\PY{p}{:}
+                 \PY{c+c1}{\PYZsh{}We need to extract the url from the \PYZlt{}a\PYZgt{} tag}
+                 \PY{n}{relurl} \PY{o}{=} \PY{n}{aTag}\PY{o}{.}\PY{n}{get}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{href}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+                 \PY{n}{linkText} \PY{o}{=} \PY{n}{aTag}\PY{o}{.}\PY{n}{text}
+                 \PY{c+c1}{\PYZsh{}wikipedia\PYZus{}base\PYZus{}url is the base we can use the urllib joining function to merge them}
+                 \PY{c+c1}{\PYZsh{}Giving a nice structured tupe like this means we can use tuple expansion later}
+                 \PY{n}{otherPAgeURLS}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{p}{(}
+                     \PY{n}{urllib}\PY{o}{.}\PY{n}{parse}\PY{o}{.}\PY{n}{urljoin}\PY{p}{(}\PY{n}{wikipedia\PYZus{}base\PYZus{}url}\PY{p}{,} \PY{n}{relurl}\PY{p}{)}\PY{p}{,}
+                     \PY{n}{paragraphNum}\PY{p}{,}
+                     \PY{n}{linkText}\PY{p}{,}
+                 \PY{p}{)}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{n}{otherPAgeURLS}\PY{p}{[}\PY{p}{:}\PY{l+m+mi}{10}\PY{p}{]}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+[('https://en.wikipedia.org/wiki/Document', 0, 'documents'), ('https://en.wikipedia.org/wiki/Text\_(literary\_theory)', 1, 'texts'), ('https://en.wikipedia.org/wiki/Semantics', 1, 'meaningful'), ('https://en.wikipedia.org/wiki/Machine\_learning', 2, 'Machine learning'), ('https://en.wikipedia.org/wiki/Klaus\_Krippendorff', 5, 'Klaus Krippendorff'), ('https://en.wikipedia.org/wiki/Radio', 6, 'radio'), ('https://en.wikipedia.org/wiki/Television', 6, 'television'), ('https://en.wikipedia.org/wiki/Key\_Word\_in\_Context', 6, 'Keyword In Context'), ('https://en.wikipedia.org/wiki/Synonym', 6, 'synonyms'), ('https://en.wikipedia.org/wiki/Homonym', 6, 'homonyms')]
+
+    \end{Verbatim}
+
+    We will be adding these new texts to our DataFrame
+\texttt{contentParagraphsDF} so we will need to add 2 more columns to
+keep track of paragraph numbers and sources.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}18}]:} \PY{n}{contentParagraphsDF}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{source}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{n}{wikipedia\PYZus{}content\PYZus{}analysis}\PY{p}{]} \PY{o}{*} \PY{n+nb}{len}\PY{p}{(}\PY{n}{contentParagraphsDF}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{paragraph\PYZhy{}text}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}
+         \PY{n}{contentParagraphsDF}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{paragraph\PYZhy{}number}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{contentParagraphsDF}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{paragraph\PYZhy{}text}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{p}{)}
+         
+         \PY{n}{contentParagraphsDF}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}18}]:}                                        paragraph-text  \textbackslash{}
+         0   \textbackslash{}nContent analysis is a research method for st{\ldots}   
+         1   Practices and philosophies of content analysis{\ldots}   
+         2   Computers are increasingly used in content ana{\ldots}   
+         3                                                       
+         4                                                       
+         5   Content analysis is best understood as a broad{\ldots}   
+         6   The simplest and most objective form of conten{\ldots}   
+         7   A further step in analysis is the distinction {\ldots}   
+         8   More generally, content analysis is research u{\ldots}   
+         9   By having contents of communication available {\ldots}   
+         10  Robert Weber notes: "To make valid inferences {\ldots}   
+         11  There are five types of texts in content analy{\ldots}   
+         12  Over the years, content analysis has been appl{\ldots}   
+         13  In recent times, particularly with the advent {\ldots}   
+         14  Quantitative content analysis has enjoyed a re{\ldots}   
+         15  Recently, Arash Heydarian Pashakhanlou has arg{\ldots}   
+         16  Content analysis can also be described as stud{\ldots}   
+         17  The method of content analysis enables the res{\ldots}   
+         18  Since the 1980s, content analysis has become a{\ldots}   
+         19  The creation of coding frames is intrinsically{\ldots}   
+         20  Mimetic Convergence aims to show the process o{\ldots}   
+         21  Every content analysis should depart from a hy{\ldots}   
+         22  As an evaluation approach, content analysis is{\ldots}   
+         23  Qualitative content analysis is "a systematic,{\ldots}   
+         24  Holsti groups fifteen uses of content analysis{\ldots}   
+         25  He also places these uses into the context of {\ldots}   
+         26  The following table shows fifteen uses of cont{\ldots}   
+         27                                                      
+         
+                                                     source  paragraph-number  
+         0   https://en.wikipedia.org/wiki/Content\_analysis                 0  
+         1   https://en.wikipedia.org/wiki/Content\_analysis                 1  
+         2   https://en.wikipedia.org/wiki/Content\_analysis                 2  
+         3   https://en.wikipedia.org/wiki/Content\_analysis                 3  
+         4   https://en.wikipedia.org/wiki/Content\_analysis                 4  
+         5   https://en.wikipedia.org/wiki/Content\_analysis                 5  
+         6   https://en.wikipedia.org/wiki/Content\_analysis                 6  
+         7   https://en.wikipedia.org/wiki/Content\_analysis                 7  
+         8   https://en.wikipedia.org/wiki/Content\_analysis                 8  
+         9   https://en.wikipedia.org/wiki/Content\_analysis                 9  
+         10  https://en.wikipedia.org/wiki/Content\_analysis                10  
+         11  https://en.wikipedia.org/wiki/Content\_analysis                11  
+         12  https://en.wikipedia.org/wiki/Content\_analysis                12  
+         13  https://en.wikipedia.org/wiki/Content\_analysis                13  
+         14  https://en.wikipedia.org/wiki/Content\_analysis                14  
+         15  https://en.wikipedia.org/wiki/Content\_analysis                15  
+         16  https://en.wikipedia.org/wiki/Content\_analysis                16  
+         17  https://en.wikipedia.org/wiki/Content\_analysis                17  
+         18  https://en.wikipedia.org/wiki/Content\_analysis                18  
+         19  https://en.wikipedia.org/wiki/Content\_analysis                19  
+         20  https://en.wikipedia.org/wiki/Content\_analysis                20  
+         21  https://en.wikipedia.org/wiki/Content\_analysis                21  
+         22  https://en.wikipedia.org/wiki/Content\_analysis                22  
+         23  https://en.wikipedia.org/wiki/Content\_analysis                23  
+         24  https://en.wikipedia.org/wiki/Content\_analysis                24  
+         25  https://en.wikipedia.org/wiki/Content\_analysis                25  
+         26  https://en.wikipedia.org/wiki/Content\_analysis                26  
+         27  https://en.wikipedia.org/wiki/Content\_analysis                27  
+\end{Verbatim}
+            
+    Then we can add two more columns to our \texttt{Dataframe} and define a
+function to parse each linked page and add its text to our DataFrame.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}19}]:} \PY{n}{contentParagraphsDF}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{source\PYZhy{}paragraph\PYZhy{}number}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{k+kc}{None}\PY{p}{]} \PY{o}{*} \PY{n+nb}{len}\PY{p}{(}\PY{n}{contentParagraphsDF}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{paragraph\PYZhy{}text}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}
+         \PY{n}{contentParagraphsDF}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{source\PYZhy{}paragraph\PYZhy{}text}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{k+kc}{None}\PY{p}{]} \PY{o}{*} \PY{n+nb}{len}\PY{p}{(}\PY{n}{contentParagraphsDF}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{paragraph\PYZhy{}text}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}
+         
+         \PY{k}{def} \PY{n+nf}{getTextFromWikiPage}\PY{p}{(}\PY{n}{targetURL}\PY{p}{,} \PY{n}{sourceParNum}\PY{p}{,} \PY{n}{sourceText}\PY{p}{)}\PY{p}{:}
+             \PY{c+c1}{\PYZsh{}Make a dict to store data before adding it to the DataFrame}
+             \PY{n}{parsDict} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{source}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{p}{[}\PY{p}{]}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{paragraph\PYZhy{}number}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{p}{[}\PY{p}{]}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{paragraph\PYZhy{}text}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{p}{[}\PY{p}{]}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{source\PYZhy{}paragraph\PYZhy{}number}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{p}{[}\PY{p}{]}\PY{p}{,}  \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{source\PYZhy{}paragraph\PYZhy{}text}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{p}{[}\PY{p}{]}\PY{p}{\PYZcb{}}
+             \PY{c+c1}{\PYZsh{}Now we get the page}
+             \PY{n}{r} \PY{o}{=} \PY{n}{requests}\PY{o}{.}\PY{n}{get}\PY{p}{(}\PY{n}{targetURL}\PY{p}{)}
+             \PY{n}{soup} \PY{o}{=} \PY{n}{bs4}\PY{o}{.}\PY{n}{BeautifulSoup}\PY{p}{(}\PY{n}{r}\PY{o}{.}\PY{n}{text}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{html.parser}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+             \PY{c+c1}{\PYZsh{}enumerating gives use the paragraph number}
+             \PY{k}{for} \PY{n}{parNum}\PY{p}{,} \PY{n}{pTag} \PY{o+ow}{in} \PY{n+nb}{enumerate}\PY{p}{(}\PY{n}{soup}\PY{o}{.}\PY{n}{body}\PY{o}{.}\PY{n}{findAll}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{p}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{)}\PY{p}{:}
+                 \PY{c+c1}{\PYZsh{}same regex as before}
+                 \PY{n}{parsDict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{paragraph\PYZhy{}text}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{re}\PY{o}{.}\PY{n}{sub}\PY{p}{(}\PY{l+s+sa}{r}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZbs{}}\PY{l+s+s1}{[}\PY{l+s+s1}{\PYZbs{}}\PY{l+s+s1}{d+}\PY{l+s+s1}{\PYZbs{}}\PY{l+s+s1}{]}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{pTag}\PY{o}{.}\PY{n}{text}\PY{p}{)}\PY{p}{)}
+                 \PY{n}{parsDict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{paragraph\PYZhy{}number}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{parNum}\PY{p}{)}
+                 \PY{n}{parsDict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{source}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{targetURL}\PY{p}{)}
+                 \PY{n}{parsDict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{source\PYZhy{}paragraph\PYZhy{}number}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{sourceParNum}\PY{p}{)}
+                 \PY{n}{parsDict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{source\PYZhy{}paragraph\PYZhy{}text}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{sourceText}\PY{p}{)}
+             \PY{k}{return} \PY{n}{pandas}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{parsDict}\PY{p}{)}
+\end{Verbatim}
+
+
+    And run it on our list of link tags
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}20}]:} \PY{k}{for} \PY{n}{urlTuple} \PY{o+ow}{in} \PY{n}{otherPAgeURLS}\PY{p}{[}\PY{p}{:}\PY{l+m+mi}{3}\PY{p}{]}\PY{p}{:}
+             \PY{c+c1}{\PYZsh{}ignore\PYZus{}index means the indices will not be reset after each append}
+             \PY{n}{contentParagraphsDF} \PY{o}{=} \PY{n}{contentParagraphsDF}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{getTextFromWikiPage}\PY{p}{(}\PY{o}{*}\PY{n}{urlTuple}\PY{p}{)}\PY{p}{,}\PY{n}{ignore\PYZus{}index}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}
+         \PY{n}{contentParagraphsDF}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}20}]:}     paragraph-number                                     paragraph-text  \textbackslash{}
+         0                  0  \textbackslash{}nContent analysis is a research method for st{\ldots}   
+         1                  1  Practices and philosophies of content analysis{\ldots}   
+         2                  2  Computers are increasingly used in content ana{\ldots}   
+         3                  3                                                      
+         4                  4                                                      
+         5                  5  Content analysis is best understood as a broad{\ldots}   
+         6                  6  The simplest and most objective form of conten{\ldots}   
+         7                  7  A further step in analysis is the distinction {\ldots}   
+         8                  8  More generally, content analysis is research u{\ldots}   
+         9                  9  By having contents of communication available {\ldots}   
+         10                10  Robert Weber notes: "To make valid inferences {\ldots}   
+         11                11  There are five types of texts in content analy{\ldots}   
+         12                12  Over the years, content analysis has been appl{\ldots}   
+         13                13  In recent times, particularly with the advent {\ldots}   
+         14                14  Quantitative content analysis has enjoyed a re{\ldots}   
+         15                15  Recently, Arash Heydarian Pashakhanlou has arg{\ldots}   
+         16                16  Content analysis can also be described as stud{\ldots}   
+         17                17  The method of content analysis enables the res{\ldots}   
+         18                18  Since the 1980s, content analysis has become a{\ldots}   
+         19                19  The creation of coding frames is intrinsically{\ldots}   
+         20                20  Mimetic Convergence aims to show the process o{\ldots}   
+         21                21  Every content analysis should depart from a hy{\ldots}   
+         22                22  As an evaluation approach, content analysis is{\ldots}   
+         23                23  Qualitative content analysis is "a systematic,{\ldots}   
+         24                24  Holsti groups fifteen uses of content analysis{\ldots}   
+         25                25  He also places these uses into the context of {\ldots}   
+         26                26  The following table shows fifteen uses of cont{\ldots}   
+         27                27                                                      
+         28                 0  A document is a written, drawn, presented, or {\ldots}   
+         29                 1                                                      
+         ..               {\ldots}                                                {\ldots}   
+         49                 6  Relying on literary theory, the notion of text{\ldots}   
+         50                 0  Semantics (from Ancient Greek: σημαντικός sēma{\ldots}   
+         51                 1  In international scientific vocabulary semanti{\ldots}   
+         52                 2  The formal study of semantics intersects with {\ldots}   
+         53                 3  Semantics contrasts with syntax, the study of {\ldots}   
+         54                 4                                                      
+         55                 5                                                      
+         56                 6  In linguistics, semantics is the subfield that{\ldots}   
+         57                 7  In the late 1960s, Richard Montague proposed a{\ldots}   
+         58                 8  Despite its elegance, Montague grammar was lim{\ldots}   
+         59                 9  In Chomskyan linguistics there was no mechanis{\ldots}   
+         60                10  This view of semantics, as an innate finite me{\ldots}   
+         61                11  A concrete example of the latter phenomenon is{\ldots}   
+         62                12  Each of a set of synonyms like redouter ('to d{\ldots}   
+         63                13  and may go back to earlier Indian views on lan{\ldots}   
+         64                14  An attempt to defend a system based on proposi{\ldots}   
+         65                15  Another set of concepts related to fuzziness i{\ldots}   
+         66                16  Systems of categories are not objectively out {\ldots}   
+         67                17  Originates from Montague's work (see above). A{\ldots}   
+         68                18  Pioneered by the philosopher Donald Davidson, {\ldots}   
+         69                19  This theory is an effort to explain properties{\ldots}   
+         70                20  A linguistic theory that investigates word mea{\ldots}   
+         71                21  Computational semantics is focused on the proc{\ldots}   
+         72                22  In computer science, the term semantics refers{\ldots}   
+         73                23  The semantics of programming languages and oth{\ldots}   
+         74                24  For instance, the following statements use dif{\ldots}   
+         75                25  Various ways have been developed to describe t{\ldots}   
+         76                26  The Semantic Web refers to the extension of th{\ldots}   
+         77                27  In psychology, semantic memory is memory for m{\ldots}   
+         78                28  Ideasthesia is a psychological phenomenon in w{\ldots}   
+         
+                                                        source source-paragraph-number  \textbackslash{}
+         0      https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         1      https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         2      https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         3      https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         4      https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         5      https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         6      https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         7      https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         8      https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         9      https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         10     https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         11     https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         12     https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         13     https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         14     https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         15     https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         16     https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         17     https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         18     https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         19     https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         20     https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         21     https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         22     https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         23     https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         24     https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         25     https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         26     https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         27     https://en.wikipedia.org/wiki/Content\_analysis                    None   
+         28             https://en.wikipedia.org/wiki/Document                       0   
+         29             https://en.wikipedia.org/wiki/Document                       0   
+         ..                                                {\ldots}                     {\ldots}   
+         49  https://en.wikipedia.org/wiki/Text\_(literary\_t{\ldots}                       1   
+         50            https://en.wikipedia.org/wiki/Semantics                       1   
+         51            https://en.wikipedia.org/wiki/Semantics                       1   
+         52            https://en.wikipedia.org/wiki/Semantics                       1   
+         53            https://en.wikipedia.org/wiki/Semantics                       1   
+         54            https://en.wikipedia.org/wiki/Semantics                       1   
+         55            https://en.wikipedia.org/wiki/Semantics                       1   
+         56            https://en.wikipedia.org/wiki/Semantics                       1   
+         57            https://en.wikipedia.org/wiki/Semantics                       1   
+         58            https://en.wikipedia.org/wiki/Semantics                       1   
+         59            https://en.wikipedia.org/wiki/Semantics                       1   
+         60            https://en.wikipedia.org/wiki/Semantics                       1   
+         61            https://en.wikipedia.org/wiki/Semantics                       1   
+         62            https://en.wikipedia.org/wiki/Semantics                       1   
+         63            https://en.wikipedia.org/wiki/Semantics                       1   
+         64            https://en.wikipedia.org/wiki/Semantics                       1   
+         65            https://en.wikipedia.org/wiki/Semantics                       1   
+         66            https://en.wikipedia.org/wiki/Semantics                       1   
+         67            https://en.wikipedia.org/wiki/Semantics                       1   
+         68            https://en.wikipedia.org/wiki/Semantics                       1   
+         69            https://en.wikipedia.org/wiki/Semantics                       1   
+         70            https://en.wikipedia.org/wiki/Semantics                       1   
+         71            https://en.wikipedia.org/wiki/Semantics                       1   
+         72            https://en.wikipedia.org/wiki/Semantics                       1   
+         73            https://en.wikipedia.org/wiki/Semantics                       1   
+         74            https://en.wikipedia.org/wiki/Semantics                       1   
+         75            https://en.wikipedia.org/wiki/Semantics                       1   
+         76            https://en.wikipedia.org/wiki/Semantics                       1   
+         77            https://en.wikipedia.org/wiki/Semantics                       1   
+         78            https://en.wikipedia.org/wiki/Semantics                       1   
+         
+            source-paragraph-text  
+         0                   None  
+         1                   None  
+         2                   None  
+         3                   None  
+         4                   None  
+         5                   None  
+         6                   None  
+         7                   None  
+         8                   None  
+         9                   None  
+         10                  None  
+         11                  None  
+         12                  None  
+         13                  None  
+         14                  None  
+         15                  None  
+         16                  None  
+         17                  None  
+         18                  None  
+         19                  None  
+         20                  None  
+         21                  None  
+         22                  None  
+         23                  None  
+         24                  None  
+         25                  None  
+         26                  None  
+         27                  None  
+         28             documents  
+         29             documents  
+         ..                   {\ldots}  
+         49                 texts  
+         50            meaningful  
+         51            meaningful  
+         52            meaningful  
+         53            meaningful  
+         54            meaningful  
+         55            meaningful  
+         56            meaningful  
+         57            meaningful  
+         58            meaningful  
+         59            meaningful  
+         60            meaningful  
+         61            meaningful  
+         62            meaningful  
+         63            meaningful  
+         64            meaningful  
+         65            meaningful  
+         66            meaningful  
+         67            meaningful  
+         68            meaningful  
+         69            meaningful  
+         70            meaningful  
+         71            meaningful  
+         72            meaningful  
+         73            meaningful  
+         74            meaningful  
+         75            meaningful  
+         76            meaningful  
+         77            meaningful  
+         78            meaningful  
+         
+         [79 rows x 5 columns]
+\end{Verbatim}
+            
+    \section{\texorpdfstring{{Section 2}}{Section 2}}\label{section-2}
+
+{Construct cells immediately below this that spider webcontent from
+another site with content relating to your anticipated final project.
+Specifically, identify urls on a core page, then follow and extract
+content from them into a pandas \texttt{Dataframe}. In addition,
+demonstrate a \emph{recursive} spider, which follows more than one level
+of links (i.e., follows links from a site, then follows links on
+followed sites to new sites, etc.), making sure to define a reasonable
+endpoint so that you do not wander the web forever :-).}
+
+    \subsection{API (Tumblr)}\label{api-tumblr}
+
+Generally website owners do not like you scraping their sites. If done
+badly, scarping can act like a DOS attack so you should be careful how
+often you make calls to a site. Some sites want automated tools to
+access their data, so they create
+\href{https://en.wikipedia.org/wiki/Application_programming_interface}{application
+programming interface (APIs)}. An API specifies a procedure for an
+application (or script) to access their data. Often this is though a
+\href{https://en.wikipedia.org/wiki/Representational_state_transfer}{representational
+state transfer (REST)} web service, which just means if you make
+correctly formatted HTTP requests they will return nicely formatted
+data.
+
+A nice example for us to study is \href{https://www.tumblr.com}{Tumblr},
+they have a \href{https://www.tumblr.com/docs/en/api/v1}{simple RESTful
+API} that allows you to read posts without any complicated html parsing.
+
+We can get the first 20 posts from a blog by making an http GET request
+to
+\texttt{\textquotesingle{}http://\{blog\}.tumblr.com/api/read/json\textquotesingle{}},
+were \texttt{\{blog\}} is the name of the target blog. Lets try and get
+the posts from
+\href{http://lolcats-lol-cat.tumblr.com/}{http://lolcats-lol-
+cat.tumblr.com/} (Note the blog says at the top 'One hour one pic
+lolcats', but the canonical name that Tumblr uses is in the URL
+'lolcats-lol-cat').
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{tumblrAPItarget} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{http://}\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s1}{.tumblr.com/api/read/json}\PY{l+s+s1}{\PYZsq{}}
+        
+        \PY{n}{r} \PY{o}{=} \PY{n}{requests}\PY{o}{.}\PY{n}{get}\PY{p}{(}\PY{n}{tumblrAPItarget}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{lolcats\PYZhy{}lol\PYZhy{}cat}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{)}
+        
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{r}\PY{o}{.}\PY{n}{text}\PY{p}{[}\PY{p}{:}\PY{l+m+mi}{1000}\PY{p}{]}\PY{p}{)}
+\end{Verbatim}
+
+
+    This might not look very good on first inspection, but it has far fewer
+angle braces than html, which makes it easier to parse. What we have is
+\href{https://en.wikipedia.org/wiki/JSON}{JSON} a 'human readable' text
+based data transmission format based on javascript. Luckily, we can
+readily convert it to a python \texttt{dict}.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}We need to load only the stuff between the curly braces}
+        \PY{n}{d} \PY{o}{=} \PY{n}{json}\PY{o}{.}\PY{n}{loads}\PY{p}{(}\PY{n}{r}\PY{o}{.}\PY{n}{text}\PY{p}{[}\PY{n+nb}{len}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{var tumblr\PYZus{}api\PYZus{}read = }\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{:}\PY{o}{\PYZhy{}}\PY{l+m+mi}{2}\PY{p}{]}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{d}\PY{o}{.}\PY{n}{keys}\PY{p}{(}\PY{p}{)}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{d}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{posts}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    If we read the \href{https://www.tumblr.com/docs/en/api/v1}{API
+specification}, we will see there are a lot of things we can get if we
+add things to our GET request. First we can retrieve posts by their id
+number. Let's first get post \texttt{146020177084}.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{r} \PY{o}{=} \PY{n}{requests}\PY{o}{.}\PY{n}{get}\PY{p}{(}\PY{n}{tumblrAPItarget}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{lolcats\PYZhy{}lol\PYZhy{}cat}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{,} \PY{n}{params} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{id}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{l+m+mi}{146020177084}\PY{p}{\PYZcb{}}\PY{p}{)}
+        \PY{n}{d} \PY{o}{=} \PY{n}{json}\PY{o}{.}\PY{n}{loads}\PY{p}{(}\PY{n}{r}\PY{o}{.}\PY{n}{text}\PY{p}{[}\PY{n+nb}{len}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{var tumblr\PYZus{}api\PYZus{}read = }\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{:}\PY{o}{\PYZhy{}}\PY{l+m+mi}{2}\PY{p}{]}\PY{p}{)}
+        \PY{n}{d}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{posts}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{o}{.}\PY{n}{keys}\PY{p}{(}\PY{p}{)}
+        \PY{n}{d}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{posts}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{photo\PYZhy{}url\PYZhy{}1280}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+        
+        \PY{k}{with} \PY{n+nb}{open}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{lolcat.gif}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{wb}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} \PY{k}{as} \PY{n}{f}\PY{p}{:}
+            \PY{n}{gifRequest} \PY{o}{=} \PY{n}{requests}\PY{o}{.}\PY{n}{get}\PY{p}{(}\PY{n}{d}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{posts}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{photo\PYZhy{}url\PYZhy{}1280}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,} \PY{n}{stream} \PY{o}{=} \PY{k+kc}{True}\PY{p}{)}
+            \PY{n}{f}\PY{o}{.}\PY{n}{write}\PY{p}{(}\PY{n}{gifRequest}\PY{o}{.}\PY{n}{content}\PY{p}{)}
+\end{Verbatim}
+
+
+    Such beauty; such vigor (If you can't see it you have to refresh the
+page). Now we could retrieve the text from all posts as well as related
+metadata, like the post date, caption or tags. We could also get links
+to all the images.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}Putting a max in case the blog has millions of images}
+        \PY{c+c1}{\PYZsh{}The given max will be rounded up to the nearest multiple of 50}
+        \PY{k}{def} \PY{n+nf}{tumblrImageScrape}\PY{p}{(}\PY{n}{blogName}\PY{p}{,} \PY{n}{maxImages} \PY{o}{=} \PY{l+m+mi}{200}\PY{p}{)}\PY{p}{:}
+            \PY{c+c1}{\PYZsh{}Restating this here so the function isn\PYZsq{}t dependent on any external variables}
+            \PY{n}{tumblrAPItarget} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{http://}\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s1}{.tumblr.com/api/read/json}\PY{l+s+s1}{\PYZsq{}}
+        
+            \PY{c+c1}{\PYZsh{}There are a bunch of possible locations for the photo url}
+            \PY{n}{possiblePhotoSuffixes} \PY{o}{=} \PY{p}{[}\PY{l+m+mi}{1280}\PY{p}{,} \PY{l+m+mi}{500}\PY{p}{,} \PY{l+m+mi}{400}\PY{p}{,} \PY{l+m+mi}{250}\PY{p}{,} \PY{l+m+mi}{100}\PY{p}{]}
+        
+            \PY{c+c1}{\PYZsh{}These are the pieces of information we will be gathering,}
+            \PY{c+c1}{\PYZsh{}at the end we will convert this to a DataFrame.}
+            \PY{c+c1}{\PYZsh{}There are a few other datums we could gather like the captions}
+            \PY{c+c1}{\PYZsh{}you can read the Tumblr documentation to learn how to get them}
+            \PY{c+c1}{\PYZsh{}https://www.tumblr.com/docs/en/api/v1}
+            \PY{n}{postsData} \PY{o}{=} \PY{p}{\PYZob{}}
+                \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{id}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{p}{[}\PY{p}{]}\PY{p}{,}
+                \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{photo\PYZhy{}url}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{p}{[}\PY{p}{]}\PY{p}{,}
+                \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{date}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{p}{[}\PY{p}{]}\PY{p}{,}
+                \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{tags}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{p}{[}\PY{p}{]}\PY{p}{,}
+                \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{photo\PYZhy{}type}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{p}{[}\PY{p}{]}
+            \PY{p}{\PYZcb{}}
+        
+            \PY{c+c1}{\PYZsh{}Tumblr limits us to a max of 50 posts per request}
+            \PY{k}{for} \PY{n}{requestNum} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n}{maxImages} \PY{o}{/}\PY{o}{/} \PY{l+m+mi}{50}\PY{p}{)}\PY{p}{:}
+                \PY{n}{requestParams} \PY{o}{=} \PY{p}{\PYZob{}}
+                    \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{start}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{n}{requestNum} \PY{o}{*} \PY{l+m+mi}{50}\PY{p}{,}
+                    \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{num}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{l+m+mi}{50}\PY{p}{,}
+                    \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{type}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{photo}\PY{l+s+s1}{\PYZsq{}}
+                \PY{p}{\PYZcb{}}
+                \PY{n}{r} \PY{o}{=} \PY{n}{requests}\PY{o}{.}\PY{n}{get}\PY{p}{(}\PY{n}{tumblrAPItarget}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{blogName}\PY{p}{)}\PY{p}{,} \PY{n}{params} \PY{o}{=} \PY{n}{requestParams}\PY{p}{)}
+                \PY{n}{requestDict} \PY{o}{=} \PY{n}{json}\PY{o}{.}\PY{n}{loads}\PY{p}{(}\PY{n}{r}\PY{o}{.}\PY{n}{text}\PY{p}{[}\PY{n+nb}{len}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{var tumblr\PYZus{}api\PYZus{}read = }\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{:}\PY{o}{\PYZhy{}}\PY{l+m+mi}{2}\PY{p}{]}\PY{p}{)}
+                \PY{k}{for} \PY{n}{postDict} \PY{o+ow}{in} \PY{n}{requestDict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{posts}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{:}
+                    \PY{c+c1}{\PYZsh{}We are dealing with uncleaned data, we can\PYZsq{}t trust it.}
+                    \PY{c+c1}{\PYZsh{}Specifically, not all posts are guaranteed to have the fields we want}
+                    \PY{k}{try}\PY{p}{:}
+                        \PY{n}{postsData}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{postDict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}
+                        \PY{n}{postsData}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{date}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{postDict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{date}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}
+                        \PY{n}{postsData}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{tags}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{postDict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{tags}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}
+                    \PY{k}{except} \PY{n+ne}{KeyError} \PY{k}{as} \PY{n}{e}\PY{p}{:}
+                        \PY{k}{raise} \PY{n+ne}{KeyError}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Post }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{ from }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{ is missing: }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{\PYZdq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{postDict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,} \PY{n}{blogName}\PY{p}{,} \PY{n}{e}\PY{p}{)}\PY{p}{)}
+        
+                    \PY{n}{foundSuffix} \PY{o}{=} \PY{k+kc}{False}
+                    \PY{k}{for} \PY{n}{suffix} \PY{o+ow}{in} \PY{n}{possiblePhotoSuffixes}\PY{p}{:}
+                        \PY{k}{try}\PY{p}{:}
+                            \PY{n}{photoURL} \PY{o}{=} \PY{n}{postDict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{photo\PYZhy{}url\PYZhy{}}\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{suffix}\PY{p}{)}\PY{p}{]}
+                            \PY{n}{postsData}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{photo\PYZhy{}url}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{photoURL}\PY{p}{)}
+                            \PY{n}{postsData}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{photo\PYZhy{}type}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{photoURL}\PY{o}{.}\PY{n}{split}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{[}\PY{o}{\PYZhy{}}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}
+                            \PY{n}{foundSuffix} \PY{o}{=} \PY{k+kc}{True}
+                            \PY{k}{break}
+                        \PY{k}{except} \PY{n+ne}{KeyError}\PY{p}{:}
+                            \PY{k}{pass}
+                    \PY{k}{if} \PY{o+ow}{not} \PY{n}{foundSuffix}\PY{p}{:}
+                        \PY{c+c1}{\PYZsh{}Make sure your error messages are useful}
+                        \PY{c+c1}{\PYZsh{}You will be one of the users}
+                        \PY{k}{raise} \PY{n+ne}{KeyError}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Post }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{ from }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{ is missing a photo url}\PY{l+s+s2}{\PYZdq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{postDict}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{id}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,} \PY{n}{blogName}\PY{p}{)}\PY{p}{)}
+        
+            \PY{k}{return} \PY{n}{pandas}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{postsData}\PY{p}{)}
+        \PY{n}{tumblrImageScrape}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{lolcats\PYZhy{}lol\PYZhy{}cat}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+m+mi}{50}\PY{p}{)}
+\end{Verbatim}
+
+
+    Now we have the urls of a bunch of images and can run OCR on them to
+gather compelling meme narratives, accompanied by cats.
+
+\section{Files}\label{files}
+
+What if the text we want isn't on a webpage? There are a many other
+sources of text available, typically organized into \emph{files}.
+
+\subsection{Raw text (and encoding)}\label{raw-text-and-encoding}
+
+The most basic form of storing text is as a \emph{raw text} document.
+Source code (\texttt{.py}, \texttt{.r}, etc) is usually raw text as are
+text files (\texttt{.txt}) and those with many other extension (e.g.,
+.csv, .dat, etc.). Opening an unknown file with a text editor is often a
+great way of learning what the file is.
+
+We can create a text file in python with the \texttt{open()} function
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}example\PYZus{}text\PYZus{}file = \PYZsq{}sometextfile.txt\PYZsq{}}
+        \PY{c+c1}{\PYZsh{}stringToWrite = \PYZsq{}A line\PYZbs{}nAnother line\PYZbs{}nA line with a few unusual symbols \PYZbs{}u2421 \PYZbs{}u241B \PYZbs{}u20A0 \PYZbs{}u20A1 \PYZbs{}u20A2 \PYZbs{}u20A3 \PYZbs{}u0D60\PYZbs{}n\PYZsq{}}
+        \PY{n}{stringToWrite} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{A line}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{Another line}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{A line with a few unusual symbols ␡ ␛ ₠ ₡ ₢ ₣ ൠ}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{\PYZsq{}}
+        
+        \PY{k}{with} \PY{n+nb}{open}\PY{p}{(}\PY{n}{example\PYZus{}text\PYZus{}file}\PY{p}{,} \PY{n}{mode} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{w}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{encoding}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{utf\PYZhy{}8}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} \PY{k}{as} \PY{n}{f}\PY{p}{:}
+            \PY{n}{f}\PY{o}{.}\PY{n}{write}\PY{p}{(}\PY{n}{stringToWrite}\PY{p}{)}
+\end{Verbatim}
+
+
+    Notice the \texttt{encoding=\textquotesingle{}utf-8\textquotesingle{}}
+argument, which specifies how we map the bits from the file to the
+glyphs (and whitespace characters like tab
+(\texttt{\textquotesingle{}\textbackslash{}t\textquotesingle{}}) or
+newline
+(\texttt{\textquotesingle{}\textbackslash{}n\textquotesingle{}})) on the
+screen. When dealing only with latin letters, arabic numerals and the
+other symbols on America keyboards you usually do not have to worry
+about encodings as the ones used today are backwards compatible with
+\href{https://en.wikipedia.org/wiki/ASCII}{ASCII}, which gives the
+binary representation of 128 characters.
+
+Some of you, however, will want to use other characters (e.g., Chinese
+characters). To solve this there is
+\href{https://en.wikipedia.org/wiki/Unicode}{Unicode} which assigns
+numbers to symbols, e.g., 041 is
+\texttt{\textquotesingle{}A\textquotesingle{}} and 03A3 is
+\texttt{\textquotesingle{}Σ\textquotesingle{}} (numbers starting with 0
+are hexadecimal). Often non/beyond-ASCII characters are called Unicode
+characters. Unicode contains 1,114,112 characters, about 10\% of which
+have been assigned. Unfortunately there are many ways used to map
+combinations of bits to Unicode symbols. The ones you are likely to
+encounter are called by Python \emph{utf-8}, \emph{utf-16} and
+\emph{latin-1}. \emph{utf-8} is the standard for Linux and Mac OS while
+both \emph{utf-16} and \emph{latin-1} are used by windows. If you use
+the wrong encoding, characters can appear wrong, sometimes change in
+number or Python could raise an exception. Lets see what happens when we
+open the file we just created with different encodings.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{with} \PY{n+nb}{open}\PY{p}{(}\PY{n}{example\PYZus{}text\PYZus{}file}\PY{p}{,} \PY{n}{encoding}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{utf\PYZhy{}8}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} \PY{k}{as} \PY{n}{f}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{This is with the correct encoding:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{f}\PY{o}{.}\PY{n}{read}\PY{p}{(}\PY{p}{)}\PY{p}{)}
+        
+        \PY{k}{with} \PY{n+nb}{open}\PY{p}{(}\PY{n}{example\PYZus{}text\PYZus{}file}\PY{p}{,} \PY{n}{encoding}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{latin\PYZhy{}1}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} \PY{k}{as} \PY{n}{f}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{This is with the wrong encoding:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{f}\PY{o}{.}\PY{n}{read}\PY{p}{(}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    Notice that with \emph{latin-1} the unicode characters are mixed up and
+there are too many of them. You need to keep in mind encoding when
+obtaining text files. Determining the encoding can sometime involve
+substantial work.
+
+    We can also load many text files at once. LEts tart by looking at the
+Shakespeare files in the \texttt{data} directory
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{with} \PY{n+nb}{open}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{../data/Shakespeare/midsummer\PYZus{}nights\PYZus{}dream.txt}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} \PY{k}{as} \PY{n}{f}\PY{p}{:}
+            \PY{n}{midsummer} \PY{o}{=} \PY{n}{f}\PY{o}{.}\PY{n}{read}\PY{p}{(}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{midsummer}\PY{p}{[}\PY{o}{\PYZhy{}}\PY{l+m+mi}{700}\PY{p}{:}\PY{p}{]}\PY{p}{)}
+\end{Verbatim}
+
+
+    Then to load all the files in \texttt{../data/Shakespeare} we can use a
+for loop with \texttt{scandir}:
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{targetDir} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{../data/Shakespeare}\PY{l+s+s1}{\PYZsq{}} \PY{c+c1}{\PYZsh{}Change this to your own directory of texts}
+        \PY{n}{shakespearText} \PY{o}{=} \PY{p}{[}\PY{p}{]}
+        \PY{n}{shakespearFileName} \PY{o}{=} \PY{p}{[}\PY{p}{]}
+        
+        \PY{k}{for} \PY{n}{file} \PY{o+ow}{in} \PY{p}{(}\PY{n}{file} \PY{k}{for} \PY{n}{file} \PY{o+ow}{in} \PY{n}{os}\PY{o}{.}\PY{n}{scandir}\PY{p}{(}\PY{n}{targetDir}\PY{p}{)} \PY{k}{if} \PY{n}{file}\PY{o}{.}\PY{n}{is\PYZus{}file}\PY{p}{(}\PY{p}{)} \PY{o+ow}{and} \PY{o+ow}{not} \PY{n}{file}\PY{o}{.}\PY{n}{name}\PY{o}{.}\PY{n}{startswith}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{)}\PY{p}{:}
+            \PY{k}{with} \PY{n+nb}{open}\PY{p}{(}\PY{n}{file}\PY{o}{.}\PY{n}{path}\PY{p}{)} \PY{k}{as} \PY{n}{f}\PY{p}{:}
+                \PY{n}{shakespearText}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{f}\PY{o}{.}\PY{n}{read}\PY{p}{(}\PY{p}{)}\PY{p}{)}
+            \PY{n}{shakespearFileName}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{file}\PY{o}{.}\PY{n}{name}\PY{p}{)}
+\end{Verbatim}
+
+
+    Then we can put them all in pandas DataFrame
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{shakespear\PYZus{}df} \PY{o}{=} \PY{n}{pandas}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{text}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{n}{shakespearText}\PY{p}{\PYZcb{}}\PY{p}{,} \PY{n}{index} \PY{o}{=} \PY{n}{shakespearFileName}\PY{p}{)}
+        \PY{n}{shakespear\PYZus{}df}
+\end{Verbatim}
+
+
+    Getting your text in a format like this is the first step of most
+analysis
+
+    \subsection{PDF}\label{pdf}
+
+Another common way text will be stored is in a PDF file. First we will
+download a pdf in Python. To do that lets grab a chapter from
+\emph{Speech and Language Processing}, chapter 21 is on Information
+Extraction which seems apt. It is stored as a pdf at
+\href{https://web.stanford.edu/~jurafsky/slp3/21.pdf}{https://web.stanford.edu/\textasciitilde{}jurafsky/slp3/21.
+pdf} although we are downloading from a copy just in case Jurafsky
+changes their website.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}information\PYZus{}extraction\PYZus{}pdf = \PYZsq{}https://github.com/KnowledgeLab/content\PYZus{}analysis/raw/data/21.pdf\PYZsq{}}
+        
+        \PY{n}{infoExtractionRequest} \PY{o}{=} \PY{n}{requests}\PY{o}{.}\PY{n}{get}\PY{p}{(}\PY{n}{information\PYZus{}extraction\PYZus{}pdf}\PY{p}{,} \PY{n}{stream}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{infoExtractionRequest}\PY{o}{.}\PY{n}{text}\PY{p}{[}\PY{p}{:}\PY{l+m+mi}{1000}\PY{p}{]}\PY{p}{)}
+\end{Verbatim}
+
+
+    It says \texttt{\textquotesingle{}pdf\textquotesingle{}}, so thats a
+good sign. The rest though looks like we are having issues with an
+encoding. The random characters are not caused by our encoding being
+wrong, however. They are cause by there not being an encoding for those
+parts at all. PDFs are nominally binary files, meaning there are
+sections of binary that are specific to pdf and nothing else so you need
+something that knows about pdf to read them. To do that we will be using
+\href{https://github.com/mstamy2/PyPDF2}{\texttt{PyPDF2}}, a PDF
+processing library for Python 3.
+
+Because PDFs are a very complicated file format pdfminer requires a
+large amount of boilerplate code to extract text, we have written a
+function that takes in an open PDF file and returns the text so you
+don't have to.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{def} \PY{n+nf}{readPDF}\PY{p}{(}\PY{n}{pdfFile}\PY{p}{)}\PY{p}{:}
+            \PY{c+c1}{\PYZsh{}Based on code from http://stackoverflow.com/a/20905381/4955164}
+            \PY{c+c1}{\PYZsh{}Using utf\PYZhy{}8, if there are a bunch of random symbols try changing this}
+            \PY{n}{codec} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{utf\PYZhy{}8}\PY{l+s+s1}{\PYZsq{}}
+            \PY{n}{rsrcmgr} \PY{o}{=} \PY{n}{pdfminer}\PY{o}{.}\PY{n}{pdfinterp}\PY{o}{.}\PY{n}{PDFResourceManager}\PY{p}{(}\PY{p}{)}
+            \PY{n}{retstr} \PY{o}{=} \PY{n}{io}\PY{o}{.}\PY{n}{StringIO}\PY{p}{(}\PY{p}{)}
+            \PY{n}{layoutParams} \PY{o}{=} \PY{n}{pdfminer}\PY{o}{.}\PY{n}{layout}\PY{o}{.}\PY{n}{LAParams}\PY{p}{(}\PY{p}{)}
+            \PY{n}{device} \PY{o}{=} \PY{n}{pdfminer}\PY{o}{.}\PY{n}{converter}\PY{o}{.}\PY{n}{TextConverter}\PY{p}{(}\PY{n}{rsrcmgr}\PY{p}{,} \PY{n}{retstr}\PY{p}{,} \PY{n}{laparams} \PY{o}{=} \PY{n}{layoutParams}\PY{p}{,} \PY{n}{codec} \PY{o}{=} \PY{n}{codec}\PY{p}{)}
+            \PY{c+c1}{\PYZsh{}We need a device and an interpreter}
+            \PY{n}{interpreter} \PY{o}{=} \PY{n}{pdfminer}\PY{o}{.}\PY{n}{pdfinterp}\PY{o}{.}\PY{n}{PDFPageInterpreter}\PY{p}{(}\PY{n}{rsrcmgr}\PY{p}{,} \PY{n}{device}\PY{p}{)}
+            \PY{n}{password} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZsq{}}
+            \PY{n}{maxpages} \PY{o}{=} \PY{l+m+mi}{0}
+            \PY{n}{caching} \PY{o}{=} \PY{k+kc}{True}
+            \PY{n}{pagenos}\PY{o}{=}\PY{n+nb}{set}\PY{p}{(}\PY{p}{)}
+            \PY{k}{for} \PY{n}{page} \PY{o+ow}{in} \PY{n}{pdfminer}\PY{o}{.}\PY{n}{pdfpage}\PY{o}{.}\PY{n}{PDFPage}\PY{o}{.}\PY{n}{get\PYZus{}pages}\PY{p}{(}\PY{n}{pdfFile}\PY{p}{,} \PY{n}{pagenos}\PY{p}{,} \PY{n}{maxpages}\PY{o}{=}\PY{n}{maxpages}\PY{p}{,} \PY{n}{password}\PY{o}{=}\PY{n}{password}\PY{p}{,}\PY{n}{caching}\PY{o}{=}\PY{n}{caching}\PY{p}{,} \PY{n}{check\PYZus{}extractable}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}\PY{p}{:}
+                \PY{n}{interpreter}\PY{o}{.}\PY{n}{process\PYZus{}page}\PY{p}{(}\PY{n}{page}\PY{p}{)}
+            \PY{n}{device}\PY{o}{.}\PY{n}{close}\PY{p}{(}\PY{p}{)}
+            \PY{n}{returnedString} \PY{o}{=} \PY{n}{retstr}\PY{o}{.}\PY{n}{getvalue}\PY{p}{(}\PY{p}{)}
+            \PY{n}{retstr}\PY{o}{.}\PY{n}{close}\PY{p}{(}\PY{p}{)}
+            \PY{k}{return} \PY{n}{returnedString}
+\end{Verbatim}
+
+
+    First we need to take the response object and convert it into a 'file
+like' object so that pdfminer can read it. To do this we will use
+\texttt{io}'s \texttt{BytesIO}.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{infoExtractionBytes} \PY{o}{=} \PY{n}{io}\PY{o}{.}\PY{n}{BytesIO}\PY{p}{(}\PY{n}{infoExtractionRequest}\PY{o}{.}\PY{n}{content}\PY{p}{)}
+\end{Verbatim}
+
+
+    Now we can give it to pdfminer.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n+nb}{print}\PY{p}{(}\PY{n}{readPDF}\PY{p}{(}\PY{n}{infoExtractionBytes}\PY{p}{)}\PY{p}{[}\PY{p}{:}\PY{l+m+mi}{550}\PY{p}{]}\PY{p}{)}
+\end{Verbatim}
+
+
+    From here we can either look at the full text or fiddle with our PDF
+reader and get more information about individual blocks of text.
+
+\subsection{Word Docs}\label{word-docs}
+
+The other type of document you are likely to encounter is the
+\texttt{.docx}, these are actually a version of
+\href{https://en.wikipedia.org/wiki/Office_Open_XML}{XML}, just like
+HTML, and like HTML we will use a specialized parser.
+
+For this class we will use
+\href{https://python-\%20docx.readthedocs.io/en/latest/}{\texttt{python-docx}}
+which provides a nice simple interface for reading \texttt{.docx} files
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{c+c1}{\PYZsh{}example\PYZus{}docx = \PYZsq{}https://github.com/KnowledgeLab/content\PYZus{}analysis/raw/data/example\PYZus{}doc.docx\PYZsq{}}
+        
+        \PY{n}{r} \PY{o}{=} \PY{n}{requests}\PY{o}{.}\PY{n}{get}\PY{p}{(}\PY{n}{example\PYZus{}docx}\PY{p}{,} \PY{n}{stream}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}
+        \PY{n}{d} \PY{o}{=} \PY{n}{docx}\PY{o}{.}\PY{n}{Document}\PY{p}{(}\PY{n}{io}\PY{o}{.}\PY{n}{BytesIO}\PY{p}{(}\PY{n}{r}\PY{o}{.}\PY{n}{content}\PY{p}{)}\PY{p}{)}
+        \PY{k}{for} \PY{n}{paragraph} \PY{o+ow}{in} \PY{n}{d}\PY{o}{.}\PY{n}{paragraphs}\PY{p}{[}\PY{p}{:}\PY{l+m+mi}{7}\PY{p}{]}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{paragraph}\PY{o}{.}\PY{n}{text}\PY{p}{)}
+\end{Verbatim}
+
+
+    This procedure uses the \texttt{io.BytesIO} class again, since
+\texttt{docx.Document} expects a file. Another way to do it is to save
+the document to a file and then read it like any other file. If we do
+this we can either delete the file afterwords, or save it and avoid
+downloading the following time.
+
+This function is useful as a part of many different tasks so it and
+others like it will be added to the helper package \texttt{lucem\_illud}
+so we can use it later without having to retype it.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{def} \PY{n+nf}{downloadIfNeeded}\PY{p}{(}\PY{n}{targetURL}\PY{p}{,} \PY{n}{outputFile}\PY{p}{,} \PY{o}{*}\PY{o}{*}\PY{n}{openkwargs}\PY{p}{)}\PY{p}{:}
+            \PY{k}{if} \PY{o+ow}{not} \PY{n}{os}\PY{o}{.}\PY{n}{path}\PY{o}{.}\PY{n}{isfile}\PY{p}{(}\PY{n}{outputFile}\PY{p}{)}\PY{p}{:}
+                \PY{n}{outputDir} \PY{o}{=} \PY{n}{os}\PY{o}{.}\PY{n}{path}\PY{o}{.}\PY{n}{dirname}\PY{p}{(}\PY{n}{outputFile}\PY{p}{)}
+                \PY{c+c1}{\PYZsh{}This function is a more general os.mkdir()}
+                \PY{k}{if} \PY{n+nb}{len}\PY{p}{(}\PY{n}{outputDir}\PY{p}{)} \PY{o}{\PYZgt{}} \PY{l+m+mi}{0}\PY{p}{:}
+                    \PY{n}{os}\PY{o}{.}\PY{n}{makedirs}\PY{p}{(}\PY{n}{outputDir}\PY{p}{,} \PY{n}{exist\PYZus{}ok} \PY{o}{=} \PY{k+kc}{True}\PY{p}{)}
+                \PY{n}{r} \PY{o}{=} \PY{n}{requests}\PY{o}{.}\PY{n}{get}\PY{p}{(}\PY{n}{targetURL}\PY{p}{,} \PY{n}{stream}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}
+                \PY{c+c1}{\PYZsh{}Using a closure like this is generally better than having to}
+                \PY{c+c1}{\PYZsh{}remember to close the file. There are ways to make this function}
+                \PY{c+c1}{\PYZsh{}work as a closure too}
+                \PY{k}{with} \PY{n+nb}{open}\PY{p}{(}\PY{n}{outputFile}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{wb}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} \PY{k}{as} \PY{n}{f}\PY{p}{:}
+                    \PY{n}{f}\PY{o}{.}\PY{n}{write}\PY{p}{(}\PY{n}{r}\PY{o}{.}\PY{n}{content}\PY{p}{)}
+            \PY{k}{return} \PY{n+nb}{open}\PY{p}{(}\PY{n}{outputFile}\PY{p}{,} \PY{o}{*}\PY{o}{*}\PY{n}{openkwargs}\PY{p}{)}
+\end{Verbatim}
+
+
+    This function will download, save and open \texttt{outputFile} as
+\texttt{outputFile} or just open it if \texttt{outputFile} exists. By
+default \texttt{open()} will open the file as read only text with the
+local encoding, which may cause issues if its not a text file.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{k}{try}\PY{p}{:}
+            \PY{n}{d} \PY{o}{=} \PY{n}{docx}\PY{o}{.}\PY{n}{Document}\PY{p}{(}\PY{n}{downloadIfNeeded}\PY{p}{(}\PY{n}{example\PYZus{}docx}\PY{p}{,} \PY{n}{example\PYZus{}docx\PYZus{}save}\PY{p}{)}\PY{p}{)}
+        \PY{k}{except} \PY{n+ne}{Exception} \PY{k}{as} \PY{n}{e}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{e}\PY{p}{)}
+\end{Verbatim}
+
+
+    We need to tell \texttt{open()} to read in binary mode
+(\texttt{\textquotesingle{}rb\textquotesingle{}}), this is why we added
+\texttt{**openkwargs}, this allows us to pass any keyword arguments
+(kwargs) from \texttt{downloadIfNeeded} to \texttt{open()}.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor} }]:} \PY{n}{d} \PY{o}{=} \PY{n}{docx}\PY{o}{.}\PY{n}{Document}\PY{p}{(}\PY{n}{downloadIfNeeded}\PY{p}{(}\PY{n}{example\PYZus{}docx}\PY{p}{,} \PY{n}{example\PYZus{}docx\PYZus{}save}\PY{p}{,} \PY{n}{mode} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{rb}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{)}
+        \PY{k}{for} \PY{n}{paragraph} \PY{o+ow}{in} \PY{n}{d}\PY{o}{.}\PY{n}{paragraphs}\PY{p}{[}\PY{p}{:}\PY{l+m+mi}{7}\PY{p}{]}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{n}{paragraph}\PY{o}{.}\PY{n}{text}\PY{p}{)}
+\end{Verbatim}
+
+
+    Now we can read the file with \texttt{docx.Document} and not have to
+wait for it to be downloaded every time.
+
+    \section{\texorpdfstring{{Section 3}}{Section 3}}\label{section-3}
+
+{Construct cells immediately below this that extract and organize
+textual content from text, PDF or Word into a pandas dataframe.}
+
+
+    % Add a bibliography block to the postdoc
+    
+    
+    
+    \end{document}
