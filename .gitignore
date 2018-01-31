@@ -1,3 +1,25 @@
+data/SampleJobAds.csv
+data/resumeAll.*
+data/ASCO_abstracts.csv
+data/supplement.zip
+data/supplement/
+
+data/scikit_learn_data/*
+data/1992embeddings_hs_new3.sg
+
+data/corpora/*
+data/stemmers/*
+data/models/*
+data/help/*
+data/chunkers/*
+data/misc/*
+data/sentiment/*
+data/grammars/*
+data/taggers/*
+data/tokenizers/*
+*.mm
+*.mm.index
+
 launch-nb.sh
 nb_sessions/
 
