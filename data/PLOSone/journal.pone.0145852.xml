@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article article-type="research-article" dtd-version="3.0" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-15-42843</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0145852</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Neurotransmitter Specific, Cellular-Resolution Functional Brain Mapping Using Receptor Coated Nanoparticles: Assessment of the Possibility</article-title>
+<alt-title alt-title-type="running-head">Neurotransmitter Detection Using Nanoparticles</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Forati</surname> <given-names>Ebrahim</given-names></name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Sabouni</surname> <given-names>Abas</given-names></name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Ray</surname> <given-names>Supriyo</given-names></name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Head</surname> <given-names>Brian</given-names></name>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Schoen</surname> <given-names>Christian</given-names></name>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Sievenpiper</surname> <given-names>Dan</given-names></name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001">
+<label>1</label>
+<addr-line>Electrical and Computer Engineering Department, University of California San Diego, La Jolla, CA 92098, United States of America</addr-line>
+</aff>
+<aff id="aff002">
+<label>2</label>
+<addr-line>Biomedical Sciences, University of California San Diego, La Jolla, CA 92098, United States of America</addr-line>
+</aff>
+<aff id="aff003">
+<label>3</label>
+<addr-line>Department of Anesthesiology, University of California San Diego, La Jolla, CA 92098, United States of America</addr-line>
+</aff>
+<aff id="aff004">
+<label>4</label>
+<addr-line>Nanopartz Inc., Loveland, CO 80537, United States of America</addr-line>
+</aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Rozhkova</surname> <given-names>Elena A.</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1">
+<addr-line>Argonne National Laboratory, UNITED STATES</addr-line>
+</aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>One of the authors, Christian Schoen, is CEO of Nanopartz Inc. This does not alter the authors’ adherence to PLOS ONE policies on sharing data and materials.</p>
+</fn>
+<fn fn-type="con" id="contrib001">
+<p>Conceived and designed the experiments: EF DS
+. Performed the experiments: SR CS. Analyzed the data: EF AS DS. Wrote the paper: EF AS SR. Supervised the study: DS BH. Reviewed the manuscript: EF AS SR BH CS DS
+.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">forati@ieee.org</email></corresp>
+</author-notes>
+<pub-date pub-type="collection">
+<year>2015</year>
+</pub-date>
+<pub-date pub-type="epub">
+<day>30</day>
+<month>12</month>
+<year>2015</year>
+</pub-date>
+<volume>10</volume>
+<issue>12</issue>
+<elocation-id>e0145852</elocation-id>
+<history>
+<date date-type="received">
+<day>29</day>
+<month>9</month>
+<year>2015</year>
+</date>
+<date date-type="accepted">
+<day>9</day>
+<month>12</month>
+<year>2015</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2015</copyright-year>
+<copyright-holder>Forati et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0145852"/>
+<abstract>
+<p>Receptor coated resonant nanoparticles and quantum dots are proposed to provide a cellular-level resolution image of neural activities inside the brain. The functionalized nanoparticles and quantum dots in this approach will selectively bind to different neurotransmitters in the extra-synaptic regions of neurons. This allows us to detect neural activities in real time by monitoring the nanoparticles and quantum dots optically. Gold nanoparticles (GNPs) with two different geometries (sphere and rod) and quantum dots (QDs) with different sizes were studied along with three different neurotransmitters: dopamine, gamma-Aminobutyric acid (GABA), and glycine. The absorption/emission spectra of GNPs and QDs before and after binding of neurotransmitters and their corresponding receptors are reported. The results using QDs and nanorods with diameter 25<italic>nm</italic> and aspect rations larger than three were promising for the development of the proposed functional brain mapping approach.</p>
+</abstract>
+<funding-group>
+<funding-statement>This work was funded by UC San Diego Center for Brain Activity Mapping. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="8"/>
+<table-count count="2"/>
+<page-count count="13"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Chemical messengers released by neurons, known as neurotransmitters, enable nerve fibers to communicate signals to the other nerves in their vicinity. Since various aspects of brain circuitry are modulated by neurotransmitters [<xref ref-type="bibr" rid="pone.0145852.ref001">1</xref>], an understanding of neurotransmitter’s dynamics helps to comprehend brain functions. This is difficult to study due to their small size and low concentration. So far scientists have identified more than 100 neurotransmitters and more are yet to be discovered. Dopaminergic neurons, which use dopamine as a neurotransmitter for neural signaling [<xref ref-type="bibr" rid="pone.0145852.ref002">2</xref>], are of special importance as defects in this type of neural signaling have been associated with various disorders such as Parkinson’s disease [<xref ref-type="bibr" rid="pone.0145852.ref003">3</xref>], Alzheimer’s disease [<xref ref-type="bibr" rid="pone.0145852.ref004">4</xref>], and schizophrenia [<xref ref-type="bibr" rid="pone.0145852.ref005">5</xref>–<xref ref-type="bibr" rid="pone.0145852.ref008">8</xref>].</p>
+<p>In recent years investigators have developed a number of methods to detect acute changes in neurotransmission [<xref ref-type="bibr" rid="pone.0145852.ref009">9</xref>]. Most of these methods were based on molecular imaging techniques, in which changes in receptor kinetic parameters were detected by administering a radio-labeled ligand and measuring its concentration by Positron Emission Tomography (PET), Single Photon Emission Computed Tomography (SPECT) camera, or Functional MRI (FMRI) [<xref ref-type="bibr" rid="pone.0145852.ref010">10</xref>–<xref ref-type="bibr" rid="pone.0145852.ref015">15</xref>].</p>
+<p>The idea in this work is to develop a technique whereby extra-synaptic dopamine (and other types of neurotransmitters) can be detected with cellular level resolution based on the optical properties of plasmonic nanoparticels, i.e. Localized Surface Plasmon Resonance (LSPR), or QDs. One advantage of this approach is that multiple neurotransmitters can potentially be identified simultaneously by using different nanoparticles. Resonant nanoparticles and QDs in this approach are functionalized with the appropriate receptors, as shown in <xref ref-type="fig" rid="pone.0145852.g001">Fig 1</xref>. This paper is specifically focused on developing solution-based dopamine sensors. As <xref ref-type="fig" rid="pone.0145852.g002">Fig 2</xref> depicts the proposed idea schematically, functionalized nanoparticles are to be distributed over the neurons and within the synapses. During neural activities, the sparsely released dopamine in the extra-synaptic region of neurons will bind to the functionalized nanoparticles and will be detected optically by means of spectroscopy (reflection or photoluminescence). It is expected that the binding of neurotransmitters to the nanoparticles would change the optically reflected/transmitted light that can be detected effectively. In the following, we first study GNPs as the neurotransmitter’s detectors. Then, in the last section, we consider QDs and compare them with GNPs.</p>
+<fig id="pone.0145852.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0145852.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Two different nanorods functionalized with different receptors.</title>
+<p>Neurotransmitters selectively bind to the associated nanorods. Figure is drawn by E.F.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0145852.g001" xlink:type="simple"/>
+</fig>
+<fig id="pone.0145852.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0145852.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>The proposed concept of optical real time imaging of neural activities using functionalized resonant nano-structures.</title>
+<p>Figure is drawn by A.S.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0145852.g002" xlink:type="simple"/>
+</fig>
+<p>Surface Plasmons (SPs) are the collective charge oscillations at the surface of plasmonic materials. SPs coupled with photons form the composite quasi-particles known as Surface Plasmon Polaritons (SPPs) [<xref ref-type="bibr" rid="pone.0145852.ref016">16</xref>–<xref ref-type="bibr" rid="pone.0145852.ref018">18</xref>]. Theoretically, by solving Maxwell’s equations on both sides of a surface, it is easy to show that 3D materials with negative bulk permittivities (e.g., noble metals) or 2D materials with non-zero imaginary surface conductivities (e.g., graphene [<xref ref-type="bibr" rid="pone.0145852.ref019">19</xref>]) are essential in order to support the SPP. In addition, if the size of the 3D plasmonic material is limited (i.e. it forms a particle), the geometrical resonance of the particle will combine with the SPP to form LSPR. Unlike SPR, the excitation of LSPR can be easily done by plane waves which makes them suitable for practical applications [<xref ref-type="bibr" rid="pone.0145852.ref020">20</xref>, <xref ref-type="bibr" rid="pone.0145852.ref021">21</xref>]. In other words, under illumination with a broadband source, plasmonic particles generate high intensity localized electric fields bound to their surface, making them good candidates for label-free bio-sensing applications [<xref ref-type="bibr" rid="pone.0145852.ref022">22</xref>, <xref ref-type="bibr" rid="pone.0145852.ref023">23</xref>]. The shape, size, and material of the particle determine the localized electric field properties such as the intensity, the frequency, and the spatial distribution. Due to the inherent loss in plasmonic materials, and the loss in the material surrounding the particles, portions of the excitation wave will be absorbed and converted to heat in and around the surface of the nanoparticles. Besides being used in heat ablation therapy techniques [<xref ref-type="bibr" rid="pone.0145852.ref024">24</xref>–<xref ref-type="bibr" rid="pone.0145852.ref026">26</xref>], the absorbed energy can be used for sensing applications, simply by monitoring its absorption frequency spectrum [<xref ref-type="bibr" rid="pone.0145852.ref027">27</xref>–<xref ref-type="bibr" rid="pone.0145852.ref029">29</xref>]. At frequencies closer to the particle’s LSPR, the localized electric field and therefore the energy absorption (conversion to heat) is stronger. That is, any changes in the dielectric properties of the material in the immediate vicinity of nanoparticles will be reflected in the the absorption spectrum of the mixture either as a shift and/or as a change in its curvature. The sensitivity of the absorption spectrum of nanoparticles to the dielectric properties of their immediate vicinity is proportional to their localized electric field intensity which is in turn limited by their resonance quality factor defined as [<xref ref-type="bibr" rid="pone.0145852.ref029">29</xref>]
+<disp-formula id="pone.0145852.e001"><alternatives><graphic id="pone.0145852.e001g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0145852.e001" xlink:type="simple"/><mml:math display="block" id="M1"><mml:mrow><mml:mi>Q</mml:mi> <mml:mo>=</mml:mo> <mml:mfrac><mml:msub><mml:mi>E</mml:mi> <mml:mrow><mml:mi>L</mml:mi> <mml:mi>o</mml:mi> <mml:mi>c</mml:mi> <mml:mi>a</mml:mi> <mml:mi>l</mml:mi></mml:mrow></mml:msub> <mml:msub><mml:mi>E</mml:mi> <mml:mrow><mml:mi>i</mml:mi> <mml:mi>n</mml:mi> <mml:mi>c</mml:mi> <mml:mi>i</mml:mi> <mml:mi>d</mml:mi> <mml:mi>e</mml:mi> <mml:mi>n</mml:mi> <mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mfrac></mml:mrow></mml:math></alternatives> <label>(1)</label></disp-formula>
+in which <italic>E</italic><sub><italic>local</italic></sub> and <italic>E</italic><sub><italic>incident</italic></sub> are the intensity of the localized and the incident electric fields, respectively [<xref ref-type="bibr" rid="pone.0145852.ref030">30</xref>–<xref ref-type="bibr" rid="pone.0145852.ref032">32</xref>]. Among different noble metals, silver provides the highest electric filed concentration, as it has the lowest loss and can provide the highest resonant quality factor. However, silver nanoparticles have practical issues such as fast oxidization. The next suitable noble metal is gold, which is the most common material in LSPR based sensors. Gold has higher loss compared to silver, but has less practical limitations. Finding the resonance quality factor of plasmonic nanoparticles can be done using the classical computational (and sometimes analytical) electromagnetic techniques. As a known result, the quality factor of spheroids (and rods) increases as their aspect ratio increases [<xref ref-type="bibr" rid="pone.0145852.ref033">33</xref>, <xref ref-type="bibr" rid="pone.0145852.ref034">34</xref>]. That is, prolate spheroids have larger quality factor than spheres and oblate spheroids.</p>
+</sec>
+<sec id="sec002">
+<title>Methodology (GNPs)</title>
+<p>Several gold nanoparticles were functionalized using different neurotransmitter receptors, and their absorption spectra are reported pre and post binding of neurotransmitters. We used commercially available GNPs (both spheres and rods) in order to keep the experiments reproducible for future investigations without concerns about the variabilities in nanoparticles synthesis. <xref ref-type="table" rid="pone.0145852.t001">Table 1</xref> lists the nanoparticles used along with their basic characteristics and <xref ref-type="table" rid="pone.0145852.t002">Table 2</xref> contains the different neurotransmitters and receptors which were used in this study. Sample TEM images of the studied GNPs are shown in <xref ref-type="fig" rid="pone.0145852.g003">Fig 3</xref> as well.</p>
+<fig id="pone.0145852.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0145852.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Example TEM images of the studies GNPs: NR6 (left), and NS5 (right) as introduced in <xref ref-type="table" rid="pone.0145852.t001">Table 1</xref>.</title>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0145852.g003" xlink:type="simple"/>
+</fig>
+<table-wrap id="pone.0145852.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0145852.t001</object-id>
+<label>Table 1</label>
+<caption>
+<title>The studied GNPs (from Nanopartz Inc.).</title>
+</caption>
+<alternatives>
+<graphic id="pone.0145852.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0145852.t001" xlink:type="simple"/>
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Type</th>
+<th align="left">Label</th>
+<th align="left">Diameter [<italic>nm</italic>]</th>
+<th align="left">Aspect ratio</th>
+<th align="left">First abs. peak [<italic>nm</italic>]</th>
+<th align="left">Second abs. peak [<italic>nm</italic>]</th>
+<th align="left">Part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Rod</td>
+<td align="left">NR3</td>
+<td align="left">25</td>
+<td align="left">2.9</td>
+<td align="left">518</td>
+<td align="left">689</td>
+<td align="left">C12-25-700</td>
+</tr>
+<tr>
+<td align="left">Rod</td>
+<td align="left">NR5</td>
+<td align="left">25</td>
+<td align="left">2.4</td>
+<td align="left">517</td>
+<td align="left">662</td>
+<td align="left">C12-25-650</td>
+</tr>
+<tr>
+<td align="left">Rod</td>
+<td align="left">NR6</td>
+<td align="left">10</td>
+<td align="left">5.9</td>
+<td align="left">511</td>
+<td align="left">946</td>
+<td align="left">C12-10-980</td>
+</tr>
+<tr>
+<td align="left">Sphere</td>
+<td align="left">NS5</td>
+<td align="left">80</td>
+<td align="left">1</td>
+<td align="left">546</td>
+<td align="left">-</td>
+<td align="left">C11-80</td>
+</tr>
+<tr>
+<td align="left">Sphere</td>
+<td align="left">NS6</td>
+<td align="left">125</td>
+<td align="left">1</td>
+<td align="left">606</td>
+<td align="left">-</td>
+<td align="left">C11-125</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<table-wrap id="pone.0145852.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0145852.t002</object-id>
+<label>Table 2</label>
+<caption>
+<title>List of the studied Neurotransmitters and receptors.</title>
+</caption>
+<alternatives>
+<graphic id="pone.0145852.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0145852.t002" xlink:type="simple"/>
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Type</th>
+<th align="left">Label</th>
+<th align="left">Provider</th>
+<th align="left">Part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Dopamine</td>
+<td align="left">Neurotransmitter</td>
+<td align="left">Dop</td>
+<td align="left">Sigma-Aldrich</td>
+<td align="left">H8502</td>
+</tr>
+<tr>
+<td align="left">GABA</td>
+<td align="left">Neurotransmitter</td>
+<td align="left">Gab</td>
+<td align="left">Sigma-Aldrich</td>
+<td align="left">A2129</td>
+</tr>
+<tr>
+<td align="left">Glycine</td>
+<td align="left">Neurotransmitter</td>
+<td align="left">Gly</td>
+<td align="left">Sigma-Aldrich</td>
+<td align="left">G7126</td>
+</tr>
+<tr>
+<td align="left">Anti-GABA antibody</td>
+<td align="left">Receptor</td>
+<td align="left">Antigab</td>
+<td align="left">Sigma-Aldrich</td>
+<td align="left">A2052</td>
+</tr>
+<tr>
+<td align="left">Anti-Dopamine antibody</td>
+<td align="left">Receptor</td>
+<td align="left">Antidop</td>
+<td align="left">abcam</td>
+<td align="left">ab6427</td>
+</tr>
+<tr>
+<td align="left">Anti-Glycine antibody</td>
+<td align="left">Receptor</td>
+<td align="left">Antigly</td>
+<td align="left">abcam</td>
+<td align="left">ab9442</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>To standardize the method, we used antibody against dopamine (Antidop) and cleaned it off using abcam anitbody cleaning kit. It is to be noted that Antidop would act as a receptor for dopamine released at the synaptic cleft. After determining the concentration, we used 3<italic>μg</italic>/<italic>ml</italic> concentration of antibodies to conjugate it to nanospheres. We left it overnight in cold room with gentle shaking for the antibodies to conjugate and then washed prior conjugating it with dopamine. The dopamine was freshly constituted in PBS and 100 micromoles were added to the antibodies bound to nanospheres accompanied by gentle shaking. The mixture was let to stand for 45 minutes followed intermittent gentle shaking. Carbonyl groups at the C-terminal of the Antidop interacts with the free amine groups of the nanopheres through electrostatic interaction. In spherical GNPs, the antibody cysteine could bind to the Au displacing the adsorbed citrate or other carboxylic acids used as capping agents. However, nanorods were capped by a Hexadecyltrimethylammonium bromide (CTAB) micelle which does lend itself to antibody cysteine binding. Therefore, the CTAB was replaced with a 12-Mercaptododecanoic acid NHS ester added at 1<italic>μg</italic> per 50 OD-mL of nanorods. After purification via centrifugation, 100 micrograms of Antidop were added and the mixture vortexed for 30 minutes. The NHS binds to the primary amines of the Antidop within 10–15 minutes. Three more purifications via centrifugation were used. All conjugations (spheres and nanorods) were done at 25 C and pH 7.4. Then, the sample was transferred into the well of 96 well plate and the absorption spectrum is recorded using Tecan infinite m200 plate reader.</p>
+<p>We defined our standard results set as the comparison among three measured absorption spectra for each GNP: 1) bare GNP, 2) functionalized GNP with the receptor, and 3) neurotransmitter bound to the functionalized GNP. All of the absorption spectra were normalized to their maxima as we only relied on the frequency shifts. In each standard results set, the frequency shift (often redshift) in the GNP’s absorption spectrum after functionalizing ensured the proper attachment of the receptor.</p>
+</sec>
+<sec id="sec003">
+<title>Results and Discussion (GNPs)</title>
+<p><xref ref-type="fig" rid="pone.0145852.g004">Fig 4(a)</xref> shows the standard results set for NS5 and NS6 with Antidop and Dop as the receptor and the neurotransmitter, respectively. It is evident that both nanospheres’ spectra showed detectable redshifts after adding Dop to the functionalized nanospheres. Moreover, as was expected, the larger nanosphere exhibited larger redshifts due to the larger surface area. <xref ref-type="fig" rid="pone.0145852.g004">Fig 4(b)</xref> also reports the standard results set for NS5 and NS6 but using Antigly and Gly as the receptor and the analyte, respectively, which showed redshifts 1<italic>nm</italic> post binding of the analyte. As a verification, the same result was repeated using the same size nanosphere from a different company (Innova Bioscience Inc.) and similar results were observed. It is worth mentioning that, due to the extreme confinement of the localized electric fields of LSPRs to the GNP’s surface, GNPs could only interact with the neurotransmitters if they were bound to each other.</p>
+<fig id="pone.0145852.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0145852.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>The standard results set for NS5 and NS6 nanospheres using a) Antidop as the receptor and Dop as the neurotransmitter, and b) Antigab as the receptor and Gab as the neurotransmitter.</title>
+<p>The numbers in parenthesizes report the peak wavelength of each curve in units of <italic>nm</italic>.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0145852.g004" xlink:type="simple"/>
+</fig>
+<p>After repeating the same experiments with smaller nanospheres than 80<italic>nm</italic>, we concluded that the shifts are too small to be detectable. The redshift in nanospheres with sizes larger than 80<italic>nm</italic> were repeatable and therefore proved the proposed concept. However, the sensitivity was still too small (2<italic>nm</italic> for NS6) to be useful in practical instrument designs. Besides increasing their surface area, the sensitivity of GNPs to neurotransmitters can be enhanced by choosing GNPs with higher resonance quality factor which in turn increases the localized electric fields intensities on the GNPs’ surface. <xref ref-type="fig" rid="pone.0145852.g005">Fig 5</xref> reveals the standard results set for NR3 using Antidop and Dop as the receptor and the neurotransmitter, respectively. A redshift of 10<italic>nm</italic> post binding of Dop to the functionalized nanorod was observable in the second absorption peak in <xref ref-type="fig" rid="pone.0145852.g005">Fig 5</xref>. The enhanced shift in the spectrum of the nanorod compared to nanospheres is due to its higher resonance quality factor which in turn leads to a higher localized electric field based on <xref ref-type="disp-formula" rid="pone.0145852.e001">Eq (1)</xref>. Equivalently, by forming and solving an electromagnetic scattering problem, it is straight forward to show that prolate spheroids (which can be approximated by nanorods) have higher absorption cross section than spheres and oblate spheroids [<xref ref-type="bibr" rid="pone.0145852.ref034">34</xref>]. In fact, in the extreme limits of a spheroid, the absorption cross section of a lossy needle is several orders of magnitude larger than that of a disk (see Fig 2 in [<xref ref-type="bibr" rid="pone.0145852.ref034">34</xref>] which applied to any lossy spheroid on a different scale). Higher light absorption means stronger interaction with light, larger localized electric fields around the particle, and higher sensitivity to the environment.</p>
+<fig id="pone.0145852.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0145852.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>The standard results set for NR3 using Antidop as the receptor and Dop as the neurotransmitter.</title>
+<p>The numbers in parenthesizes report the peak wavelengths of each curve in units of <italic>nm</italic>.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0145852.g005" xlink:type="simple"/>
+</fig>
+<p>The first and the second absorption peaks in nanorods’ absorption spectra were associated with transverse and longitudinal resonance modes, respectively. As a control, Gab was also added to the NR3 functionalized with Antidop which did not have any noticeable effect on its spectrum. Gab (GABA) is also a neurotransmitter which acts on inhibitory synapse.</p>
+<p>As a further investigation, NR5 and NR6 were functionalized with Antidop and Antigly, respectively. The two functionalized GNPs were then mixed together and Gly or Dop was added to the mixture consequently. The idea in this measurement set was to examine the possibility of discerning neurotransmitters using a mixture GNPs with different sizes so that each size was functionalized with a specific receptor. <xref ref-type="fig" rid="pone.0145852.g006">Fig 6(a)</xref> shows the spectra of NR5 and NR6 before and after binding to the receptors. The shift in the peak wavelength confirmed proper GNP functionalizations. Note that unlike the nanorods with diameter 25<italic>nm</italic> (and nanospheres), the longitudinal resonance of the nanorods with diameter 10<italic>nm</italic> experienced a blue-shift post binding of Antidop (this was also observed in measurements using different nanorods). On the other hand, after mixing the two functionalized GNPs, both of the longitudinal peaks experienced a larger redshift (canceling the blue shift of the second peak), which could be due to the charge effects in the solution. <xref ref-type="fig" rid="pone.0145852.g006">Fig 6(b)</xref> includes the spectrum of the mixture of the bare nanorods with two longitudinal resonance peaks at 667<italic>nm</italic> and 957<italic>nm</italic> which the first peak moved to 683<italic>nm</italic> post binding of antibodies. The first and the second peaks redshifted 7<italic>nm</italic> and 33<italic>nm</italic>, respectively, post binding of Gly which were different form the 13<italic>nm</italic> and the 52<italic>nm</italic> redshifts post binding of Dop.</p>
+<fig id="pone.0145852.g006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0145852.g006</object-id>
+<label>Fig 6</label>
+<caption>
+<title>a) Absorption spectra of NR5 and NR6 before and after functionalizing with the receptors, and b) using the mixture of the functionalized GNPs to detect both Dop and Gab.</title>
+<p>The numbers in parenthesizes report the peak wavelengths of each curve in units of <italic>nm</italic>.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0145852.g006" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec004">
+<title>Replacing GNPs with QDs</title>
+<p>The absorption spectra of gold nanorods showed around 10<italic>nm</italic> redshift after binding to neurotransmitters. However, the peak in GNPs spectra is wide, due to the loss, which is not desirable in detecting the peak shift. In other words, the ratio of the peak shift (after binding to the analyte) to the peak width is a better measure of detection convenience in our approach. Therefore, nanoparticles with much higher resonance quality factor are preferred in this method. Alternatively, instead of GNPs, we can use QDs which typically have very narrow emission spectra. Quantum dots are two/multi level quantum systems which can emit photons with energies equal or greater than their bandgap, if pumped with high enough energy photons. The bandgap of a QD, as well as its excited and ground levels quantization, are mainly controlled by its size and material. However, particles in the vicinity of QD, along with the ambient medium, impose extra restrictions on the emitted spectrum, which is often explained via the Purcell effect [<xref ref-type="bibr" rid="pone.0145852.ref035">35</xref>]. In [<xref ref-type="bibr" rid="pone.0145852.ref036">36</xref>, <xref ref-type="bibr" rid="pone.0145852.ref037">37</xref>], effects of plasmonic materials (GNPs and graphene) on the emission spectrum of a quantum dot are studied theoretically by forming and solving a quantum master equation [<xref ref-type="bibr" rid="pone.0145852.ref036">36</xref>, <xref ref-type="bibr" rid="pone.0145852.ref038">38</xref>]. We studied two commercially available CdSSe/ZnS core/shell QDs from Ocean NanoTech [<xref ref-type="bibr" rid="pone.0145852.ref039">39</xref>] with emission peaks at 450<italic>nm</italic> (part no. QSA-450) and 540<italic>nm</italic> (part no. QSA-540). The full width of half maximum (FWHM) of the emission spectra of the studied QDs were 35<italic>nm</italic>. QDs were sourced from Ocean NanoTech, and were amine capped. 1:1 Molar ratio of active amine sites were activated with Thermo Fisher BS3 and then conjugated to the antibody. BS3 (Sulfo-DSS) is bis(sulfosuccinimidyl)suberate, an amine-to-amine crosslinker that is homobifunctional and water soluble. Excess 5:1 antibody was added and then purification was performed by dialysis. It was determined that extra amine groups were not readily purified when the QDs were received. Therefore, a pre-purification using dialysis was completed. all conjugations were performed at 25 C and pH 7.4 in PBS. QDs were pumped at 300<italic>nm</italic> wavelength and their emission spectra were measured using a florescence spectrophotometer. <xref ref-type="fig" rid="pone.0145852.g007">Fig 7</xref> shows the standard results set for QSA-450 using Antigly as the receptor and Gly as the neurotransmitter. The emission peak of QSA-450 was shifted 6<italic>nm</italic> after binding to the neurotransmitter. The ratio of the peak shift to the FWHM for QSA-450 is 0.18, which is twice as the 0.09 ratio for NR6. This makes QD a definitely better choice than GNP to be used in our approach. Moreover, the excitation and emission wavelengths are different in QDs (the excitation is at a smaller wavelength, 300<italic>nm</italic> in our experiments) which makes emission detection much easier. This is a great advantage over GNPs whose scattering is at the same wavelength and much weaker than the excitation. Similar to GNPs, mixture of different QDs coated with different receptors can be used to discern neurotransmitters. <xref ref-type="fig" rid="pone.0145852.g008">Fig 8</xref> includes the emission spectrum of the mixture of QSA-450 and QSA-540 with peaks at 451<italic>nm</italic> and 538<italic>nm</italic>. Then, QSA-450 and QSA-540 were coated with Antigly and Antidop, respectively. The emission spectra of the functionalized mixture before and after adding Gly and Dop are shown in <xref ref-type="fig" rid="pone.0145852.g008">Fig 8</xref>. The first peak in the spectrum of the functionalized mixture shifts 6<italic>nm</italic> post binding of Gly while the second peak remains almost at the same wavelength (with the tolerence of 1<italic>nm</italic>). Likewise, the second peak shifts 8<italic>nm</italic> post biding of Dop. This is exactly what we intended, as Dop(Gly) can only attach to and interact with QSA-540(QSA-450). Therefore, only the peak associated with QSA-540(QSA-450) changes in the mixture emission spectrum. Dop(Gly) cannot interact with QSA-540(QSA-450) because their distance is too large (since they are not brought together by receptors).</p>
+<fig id="pone.0145852.g007" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0145852.g007</object-id>
+<label>Fig 7</label>
+<caption>
+<title>a) The standard results set for QSA-450 using Antigab as the receptor and Gab as the neurotransmitter.</title>
+<p>The pump wavelength was 300<italic>nm</italic> and the numbers in parenthesizes report the peak wavelength of each curve in units of <italic>nm</italic>.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0145852.g007" xlink:type="simple"/>
+</fig>
+<fig id="pone.0145852.g008" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0145852.g008</object-id>
+<label>Fig 8</label>
+<caption>
+<title>a) Emission spectra of the mixture of QSA-450 and QSA-540 functionalized with Antigab and Antidop, respectively.</title>
+<p>Dop and Gab are added to the mixture separately. The pump wavelength was 300<italic>nm</italic> and the numbers in parenthesizes report the peak wavelengths of each curve in units of <italic>nm</italic>.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0145852.g008" xlink:type="simple"/>
+</fig>
+<p>In summary, this paper provides a good solid lead for functional brain mapping using GNPs and QDs for dopamine, glycine and GABA sensing neurons. The large frequency shifts in the spectrum of the mixture of nanorods, as well as its specificity to different neurotransmitters, confirmed the proposed functional brain mapping techniques. However, the broad absorption peak of GNPs is an obstacle in detecting the peak shift. Finding a set of nanoparticles with much higher quality factor (e.g. dimers) and a range of resonance frequencies can ensure practicality of using GNPs. As another approach, in order to improve detection, QDs were used instead of GNPs. Since the emission spectrum of a QD is narrow, its peak shift to its FWHP ratio is large, which helps the detection of neurotransmitters. Moreover, the excitation wavelength of QDs is different than their emission spectra, which benefits the detection further. Whether these GNPs and QDs are toxic to the cells and tissues is yet to be confirmed. It will be also important to test the sensitivity of these GNPs and QDs once they penetrate the tissues.</p>
+</sec>
+</body>
+<back>
+<ack>
+<p>This work was funded by UC San Diego Center for Brain Activity Mapping. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0145852.ref001">
+<label>1</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>D Badgaiyan</surname> <given-names>R</given-names></name>. <article-title>Neurotransmitter imaging: basic concepts and future perspectives</article-title>. <source>Current Medical Imaging Reviews</source>. <year>2011</year>;<volume>7</volume>(<issue>2</issue>):<fpage>98</fpage>–<lpage>103</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0145852.ref002">
+<label>2</label>
+<mixed-citation publication-type="book" xlink:type="simple">
+<name name-style="western"><surname>Fischman</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Badgaiyan</surname> <given-names>RD</given-names></name>. <chapter-title>Neurotransmitter imaging</chapter-title>. In: <source>Pediatric PET Imaging</source>. <publisher-name>Springer</publisher-name>; <year>2006</year>. p. <fpage>385</fpage>–<lpage>403</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0145852.ref003">
+<label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Kim</surname> <given-names>JH</given-names></name>, <name name-style="western"><surname>Auerbach</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Rodríguez-Gómez</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Velasco</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Gavin</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Lumelsky</surname> <given-names>N</given-names></name>, <etal>et al</etal>. <article-title>Dopamine neurons derived from embryonic stem cells function in an animal model of Parkinson’s disease</article-title>. <source>Nature</source>. <year>2002</year>;<volume>418</volume>(<issue>6893</issue>):<fpage>50</fpage>–<lpage>56</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nature00900" xlink:type="simple">10.1038/nature00900</ext-link></comment> <object-id pub-id-type="pmid">12077607</object-id></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref004">
+<label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Devasena</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Francis</surname> <given-names>AP</given-names></name>. <article-title>Alzheimers Disease &amp; Parkinsonism</article-title>. <source>brain</source>. <year>2015</year>;<volume>29</volume>:<fpage>31</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0145852.ref005">
+<label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Howes</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>McCutcheon</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Stone</surname> <given-names>J</given-names></name>. <article-title>Glutamate and dopamine in schizophrenia: An update for the 21st century</article-title>. <source>Journal of Psychopharmacology</source>. <year>2015</year>;<volume>29</volume>(<issue>2</issue>):<fpage>97</fpage>–<lpage>115</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1177/0269881114563634" xlink:type="simple">10.1177/0269881114563634</ext-link></comment> <object-id pub-id-type="pmid">25586400</object-id></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref006">
+<label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Groves</surname> <given-names>PM</given-names></name>. <article-title>Self-Inhibition by Dopaminergic Neurons An alternative to the neuronal feedback loop hypothesis for the mode of action of certain psychotropic drugs</article-title>. Philip M. Groves, Charles J. Wilson, Stephen J. Young, George V. Rebec Department of Psychology, University of Colorado, Boulder, CO 80302 USA. <source>Science</source>. <year>1975</year>;<volume>190</volume>:<fpage>522</fpage>–<lpage>528</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0145852.ref007">
+<label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Saller</surname> <given-names>CF</given-names></name>, <name name-style="western"><surname>Chiodo</surname> <given-names>LA</given-names></name>. <article-title>Glucose suppresses basal firing and haloperidol-induced increases in the firing rate of central dopaminergic neurons</article-title>. <source>Science</source>. <year>1980</year>;<volume>210</volume>(<issue>4475</issue>):<fpage>1269</fpage>–<lpage>1271</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1126/science.6254155" xlink:type="simple">10.1126/science.6254155</ext-link></comment> <object-id pub-id-type="pmid">6254155</object-id></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref008">
+<label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Mozley</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Stubbs</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Plossl</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Dresel</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Barraclough</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Araujo</surname> <given-names>L</given-names></name>, <etal>et al</etal>.; <article-title>VA 20190-5316 USA SOC NUCLEAR MEDICINE INC 1850 SAMUEL MORSE DR. The biodistribution and dosimetry of a technetium-99m labeled tropane for imaging dopamine transporters</article-title>. <source>Journal of Nuclear Medicine</source>. <year>1998</year>;<volume>39</volume>(<issue>5</issue>):<fpage>221P</fpage>–<lpage>221P</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0145852.ref009">
+<label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Tsai</surname> <given-names>GE</given-names></name>, <name name-style="western"><surname>Ragan</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Chang</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Linnoila</surname> <given-names>VMI</given-names></name>, <name name-style="western"><surname>Coyle</surname> <given-names>JT</given-names></name>. <article-title>Increased glutamatergic neurotransmission and oxidative stress after alcohol withdrawal</article-title>. <source>American Journal of Psychiatry</source>. <year>2014</year>;<volume>155</volume>(<issue>6</issue>):<fpage>726</fpage>–<lpage>732</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0145852.ref010">
+<label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Shariatgorji</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Nilsson</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Goodwin</surname> <given-names>RJ</given-names></name>, <name name-style="western"><surname>Källback</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Schintu</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>X</given-names></name>, <etal>et al</etal>. <article-title>Direct Targeted Quantitative Molecular Imaging of Neurotransmitters in Brain Tissue Sections</article-title>. <source>Neuron</source>. <year>2014</year>;<volume>84</volume>(<issue>4</issue>):<fpage>697</fpage>–<lpage>707</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.neuron.2014.10.011" xlink:type="simple">10.1016/j.neuron.2014.10.011</ext-link></comment> <object-id pub-id-type="pmid">25453841</object-id></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref011">
+<label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Kruss</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Landry</surname> <given-names>MP</given-names></name>, <name name-style="western"><surname>Vander Ende</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Lima</surname> <given-names>BM</given-names></name>, <name name-style="western"><surname>Reuel</surname> <given-names>NF</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Neurotransmitter detection using corona phase molecular recognition on fluorescent single-walled carbon nanotube sensors</article-title>. <source>Journal of the American Chemical Society</source>. <year>2014</year>;<volume>136</volume>(<issue>2</issue>):<fpage>713</fpage>–<lpage>724</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1021/ja410433b" xlink:type="simple">10.1021/ja410433b</ext-link></comment> <object-id pub-id-type="pmid">24354436</object-id></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref012">
+<label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Aquilonius</surname> <given-names>SM</given-names></name>, <name name-style="western"><surname>Bertröm</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Eckernäs</surname> <given-names>SÅ</given-names></name>, <name name-style="western"><surname>Hartvig</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Leenders</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Lundquist</surname> <given-names>H</given-names></name>, <etal>et al</etal>. <article-title>In vivo evaluation of striatal dopamine reuptake sites using 11C-nomifensine and positron emission tomography</article-title>. <source>Acta neurologica scandinavica</source>. <year>1987</year>;<volume>76</volume>(<issue>4</issue>):<fpage>283</fpage>–<lpage>287</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1600-0404.1987.tb03582.x" xlink:type="simple">10.1111/j.1600-0404.1987.tb03582.x</ext-link></comment> <object-id pub-id-type="pmid">2961191</object-id></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref013">
+<label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Fowler</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Volkow</surname> <given-names>ND</given-names></name>, <name name-style="western"><surname>Wolf</surname> <given-names>AP</given-names></name>, <name name-style="western"><surname>Dewey</surname> <given-names>SL</given-names></name>, <name name-style="western"><surname>Schlyer</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>MacGregor</surname> <given-names>RR</given-names></name>, <etal>et al</etal>. <article-title>Mapping cocaine binding sites in human and baboon brain in vivo</article-title>. <source>Synapse</source>. <year>1989</year>;<volume>4</volume>(<issue>4</issue>):<fpage>371</fpage>–<lpage>377</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/syn.890040412" xlink:type="simple">10.1002/syn.890040412</ext-link></comment> <object-id pub-id-type="pmid">2557686</object-id></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref014">
+<label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Laruelle</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Baldwin</surname> <given-names>RM</given-names></name>, <name name-style="western"><surname>Malison</surname> <given-names>RT</given-names></name>, <name name-style="western"><surname>Zea-Ponce</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Zoghbi</surname> <given-names>SS</given-names></name>, <name name-style="western"><surname>Al-Tikeriti</surname> <given-names>MS</given-names></name>, <etal>et al</etal>. <article-title>SPECT imaging of dopamine and serotonin transporters with [123I] <italic>β</italic>-CIT: Pharmacological characterization of brain uptake in nonhuman primates</article-title>. <source>Synapse</source>. <year>1993</year>;<volume>13</volume>(<issue>4</issue>):<fpage>295</fpage>–<lpage>309</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/syn.890130402" xlink:type="simple">10.1002/syn.890130402</ext-link></comment> <object-id pub-id-type="pmid">7683143</object-id></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref015">
+<label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Innis</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Seibyl</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Scanley</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Laruelle</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Abi-Dargham</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Wallace</surname> <given-names>E</given-names></name>, <etal>et al</etal>. <article-title>Single photon emission computed tomographic imaging demonstrates loss of striatal dopamine transporters in Parkinson disease</article-title>. <source>Proceedings of the National Academy of Sciences</source>. <year>1993</year>;<volume>90</volume>(<issue>24</issue>):<fpage>11965</fpage>–<lpage>11969</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.90.24.11965" xlink:type="simple">10.1073/pnas.90.24.11965</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref016">
+<label>16</label>
+<mixed-citation publication-type="book" xlink:type="simple">
+<name name-style="western"><surname>Raether</surname> <given-names>H</given-names></name>. <source>Surface plasmons on smooth surfaces</source>. <publisher-name>Springer</publisher-name>; <year>1988</year>.</mixed-citation>
+</ref>
+<ref id="pone.0145852.ref017">
+<label>17</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Maier</surname> <given-names>SA</given-names></name>, <name name-style="western"><surname>Atwater</surname> <given-names>HA</given-names></name>. <article-title>Plasmonics: Localization and guiding of electromagnetic energy in metal/dielectric structures</article-title>. <source>Journal of Applied Physics</source>. <year>2005</year>;<volume>98</volume>(<issue>1</issue>):<fpage>011101</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1063/1.1951057" xlink:type="simple">10.1063/1.1951057</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref018">
+<label>18</label>
+<mixed-citation publication-type="book" xlink:type="simple">
+<name name-style="western"><surname>Maier</surname> <given-names>SA</given-names></name>. <chapter-title>Plasmonics: fundamentals and applications: fundamentals and applications</chapter-title>. <source>Springer Science &amp; Business Media</source>; <year>2007</year>.</mixed-citation>
+</ref>
+<ref id="pone.0145852.ref019">
+<label>19</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Hanson</surname> <given-names>GW</given-names></name>, <name name-style="western"><surname>Forati</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Linz</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Yakovlev</surname> <given-names>AB</given-names></name>. <article-title>Excitation of terahertz surface plasmons on graphene surfaces by an elementary dipole and quantum emitter: Strong electrodynamic effect of dielectric support</article-title>. <source>Physical Review B</source>. <year>2012</year>;<volume>86</volume>(<issue>23</issue>):<fpage>235440</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1103/PhysRevB.86.235440" xlink:type="simple">10.1103/PhysRevB.86.235440</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref020">
+<label>20</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Zayats</surname> <given-names>AV</given-names></name>, <name name-style="western"><surname>Smolyaninov</surname> <given-names>II</given-names></name>. <article-title>Near-field photonics: surface plasmon polaritons and localized surface plasmons</article-title>. <source>Journal of Optics A: Pure and Applied Optics</source>. <year>2003</year>;<volume>5</volume>(<issue>4</issue>):S16. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1088/1464-4258/5/4/353" xlink:type="simple">10.1088/1464-4258/5/4/353</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref021">
+<label>21</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Willets</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Van Duyne</surname> <given-names>RP</given-names></name>. <article-title>Localized surface plasmon resonance spectroscopy and sensing</article-title>. <source>Annu Rev Phys Chem</source>. <year>2007</year>;<volume>58</volume>:<fpage>267</fpage>–<lpage>297</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1146/annurev.physchem.58.032806.104607" xlink:type="simple">10.1146/annurev.physchem.58.032806.104607</ext-link></comment> <object-id pub-id-type="pmid">17067281</object-id></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref022">
+<label>22</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Vollmer</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Arnold</surname> <given-names>S</given-names></name>. <article-title>Whispering-gallery-mode biosensing: label-free detection down to single molecules</article-title>. <source>Nature methods</source>. <year>2008</year>;<volume>5</volume>(<issue>7</issue>):<fpage>591</fpage>–<lpage>596</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nmeth.1221" xlink:type="simple">10.1038/nmeth.1221</ext-link></comment> <object-id pub-id-type="pmid">18587317</object-id></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref023">
+<label>23</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Nath</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Chilkoti</surname> <given-names>A</given-names></name>. <article-title>Label-free biosensing by surface plasmon resonance of nanoparticles on glass: optimization of nanoparticle size</article-title>. <source>Analytical Chemistry</source>. <year>2004</year>;<volume>76</volume>(<issue>18</issue>):<fpage>5370</fpage>–<lpage>5378</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1021/ac049741z" xlink:type="simple">10.1021/ac049741z</ext-link></comment> <object-id pub-id-type="pmid">15362894</object-id></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref024">
+<label>24</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Zhang</surname> <given-names>JZ</given-names></name>. <article-title>Biomedical applications of shape-controlled plasmonic nanostructures: a case study of hollow gold nanospheres for photothermal ablation therapy of cancer</article-title>. <source>The Journal of Physical Chemistry Letters</source>. <year>2010</year>;<volume>1</volume>(<issue>4</issue>):<fpage>686</fpage>–<lpage>695</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1021/jz900366c" xlink:type="simple">10.1021/jz900366c</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref025">
+<label>25</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Liao</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Nehl</surname> <given-names>CL</given-names></name>, <name name-style="western"><surname>Hafner</surname> <given-names>JH</given-names></name>. <article-title>Biomedical applications of plasmon resonant metal nanoparticles</article-title>. <source>Nanomedicine</source>. <year>2006</year>;<volume>1</volume>(<issue>2</issue>):<fpage>201</fpage>–<lpage>208</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.2217/17435889.1.2.201" xlink:type="simple">10.2217/17435889.1.2.201</ext-link></comment> <object-id pub-id-type="pmid">17716109</object-id></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref026">
+<label>26</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Hanson</surname> <given-names>GW</given-names></name>, <name name-style="western"><surname>Patch</surname> <given-names>S</given-names></name>. <article-title>Optimum electromagnetic heating of nanoparticle thermal contrast agents at rf frequencies</article-title>. <source>Journal of Applied Physics</source>. <year>2009</year>;<volume>106</volume>(<issue>5</issue>):<fpage>054309</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1063/1.3204653" xlink:type="simple">10.1063/1.3204653</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref027">
+<label>27</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Khurgin</surname> <given-names>JB</given-names></name>, <name name-style="western"><surname>Boltasseva</surname> <given-names>A</given-names></name>. <article-title>Reflecting upon the losses in plasmonics and metamaterials</article-title>. <source>MRS bulletin</source>. <year>2012</year>;<volume>37</volume>(<issue>08</issue>):<fpage>768</fpage>–<lpage>779</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1557/mrs.2012.173" xlink:type="simple">10.1557/mrs.2012.173</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref028">
+<label>28</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Atwater</surname> <given-names>HA</given-names></name>. <article-title>The promise of plasmonics</article-title>. <source>Scientific American</source>. <year>2007</year>;<volume>296</volume>(<issue>4</issue>):<fpage>56</fpage>–<lpage>62</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/scientificamerican0907-56sp" xlink:type="simple">10.1038/scientificamerican0907-56sp</ext-link></comment> <object-id pub-id-type="pmid">17479631</object-id></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref029">
+<label>29</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>West</surname> <given-names>PR</given-names></name>, <name name-style="western"><surname>Ishii</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Naik</surname> <given-names>GV</given-names></name>, <name name-style="western"><surname>Emani</surname> <given-names>NK</given-names></name>, <name name-style="western"><surname>Shalaev</surname> <given-names>VM</given-names></name>, <name name-style="western"><surname>Boltasseva</surname> <given-names>A</given-names></name>. <article-title>Searching for better plasmonic materials</article-title>. <source>Laser &amp; Photonics Reviews</source>. <year>2010</year>;<volume>4</volume>(<issue>6</issue>):<fpage>795</fpage>–<lpage>808</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/lpor.200900055" xlink:type="simple">10.1002/lpor.200900055</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref030">
+<label>30</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Lee</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Hua</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Park</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Ha</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Fan</surname> <given-names>Z</given-names></name>, <etal>et al</etal>. <article-title>Tailoring surface plasmons of high-density gold nanostar assemblies on metal films for surface-enhanced Raman spectroscopy</article-title>. <source>Nanoscale</source>. <year>2014</year>;<volume>6</volume>(<issue>1</issue>):<fpage>616</fpage>–<lpage>623</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1039/C3NR04752K" xlink:type="simple">10.1039/C3NR04752K</ext-link></comment> <object-id pub-id-type="pmid">24247586</object-id></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref031">
+<label>31</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Khurgin</surname> <given-names>JB</given-names></name>. <article-title>How to deal with the loss in plasmonics and metamaterials</article-title>. <source>Nature nanotechnology</source>. <year>2015</year>;<volume>10</volume>(<issue>1</issue>):<fpage>2</fpage>–<lpage>6</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nnano.2014.310" xlink:type="simple">10.1038/nnano.2014.310</ext-link></comment> <object-id pub-id-type="pmid">25559961</object-id></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref032">
+<label>32</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Khurgin</surname> <given-names>JB</given-names></name>, <name name-style="western"><surname>Sun</surname> <given-names>G</given-names></name>. <article-title>Comparative analysis of spasers, vertical-cavity surface-emitting lasers and surface-plasmon-emitting diodes</article-title>. <source>Nature Photonics</source>. <year>2014</year>;<volume>8</volume>(<issue>6</issue>):<fpage>468</fpage>–<lpage>473</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nphoton.2014.94" xlink:type="simple">10.1038/nphoton.2014.94</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref033">
+<label>33</label>
+<mixed-citation publication-type="book" xlink:type="simple">
+<name name-style="western"><surname>Bohren</surname> <given-names>CF</given-names></name>, <name name-style="western"><surname>Huffman</surname> <given-names>DR</given-names></name>. <source>Absorption and scattering of light by small particles</source>. <publisher-name>John Wiley &amp; Sons</publisher-name>; <year>2008</year>.</mixed-citation>
+</ref>
+<ref id="pone.0145852.ref034">
+<label>34</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Li</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Jung</surname> <given-names>YS</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>HK</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Geller</surname> <given-names>DA</given-names></name>, <name name-style="western"><surname>Shuba</surname> <given-names>MV</given-names></name>, <etal>et al</etal>. <article-title>The Effect of Sample Holder Geometry on Electromagnetic Heating of Nanoparticle and NaCl Solutions at 13.56 MHz</article-title>. <source>IEEE Transactions on Biomedical Engineering</source>. <year>2012</year>;<volume>59</volume>(<issue>12</issue>):<fpage>3468</fpage>–<lpage>3474</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1109/TBME.2012.2219049" xlink:type="simple">10.1109/TBME.2012.2219049</ext-link></comment> <object-id pub-id-type="pmid">22997262</object-id></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref035">
+<label>35</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Purcell</surname> <given-names>EM</given-names></name>. <article-title>Spontaneous emission probabilities at radio frequencies</article-title>. <source>Physical Review</source>. <year>1946</year>;<volume>69</volume>:<fpage>681</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0145852.ref036">
+<label>36</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Ge</surname> <given-names>RC</given-names></name>, <name name-style="western"><surname>Van Vlack</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Yao</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Young</surname> <given-names>JF</given-names></name>, <name name-style="western"><surname>Hughes</surname> <given-names>S</given-names></name>. <article-title>Accessing quantum nanoplasmonics in a hybrid quantum dot–metal nanosystem: Mollow triplet of a quantum dot near a metal nanoparticle</article-title>. <source>Physical Review B</source>. <year>2013</year>;<volume>87</volume>(<issue>20</issue>):<fpage>205425</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1103/PhysRevB.87.205425" xlink:type="simple">10.1103/PhysRevB.87.205425</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref037">
+<label>37</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Forati</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Hanson</surname> <given-names>GW</given-names></name>, <name name-style="western"><surname>Hughes</surname> <given-names>S</given-names></name>. <article-title>Graphene as a tunable THz reservoir for shaping the Mollow triplet of an artificial atom via plasmonic effects</article-title>. <source>Physical Review B</source>. <year>2014</year>;<volume>90</volume>(<issue>8</issue>):<fpage>085414</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1103/PhysRevB.90.085414" xlink:type="simple">10.1103/PhysRevB.90.085414</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref038">
+<label>38</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Gangaraj</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Nemilentsau</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Hanson</surname> <given-names>GW</given-names></name>, <name name-style="western"><surname>Hughes</surname> <given-names>S</given-names></name>. <article-title>Transient and steady-state entanglement mediated by three-dimensional plasmonic waveguides</article-title>. <source>Optics Express</source>. <year>2015</year>;<volume>23</volume>(<issue>17</issue>):<fpage>22330</fpage>–<lpage>22346</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1364/OE.23.022330" xlink:type="simple">10.1364/OE.23.022330</ext-link></comment> <object-id pub-id-type="pmid">26368204</object-id></mixed-citation>
+</ref>
+<ref id="pone.0145852.ref039">
+<label>39</label>
+<mixed-citation publication-type="other" xlink:type="simple">Ocean NanoTech, LLC, <ext-link ext-link-type="uri" xlink:href="http://www.oceannanotech.com" xlink:type="simple">http://www.oceannanotech.com</ext-link>;.</mixed-citation>
+</ref>
+</ref-list>
+</back>
+</article>

@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title>PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-14-25823</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0114232</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline-v2"><subject>Biology and life sciences</subject><subj-group><subject>Agriculture</subject></subj-group><subj-group><subject>Physiology</subject></subj-group><subj-group><subject>Plant science</subject></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Ideotype Population Exploration: Growth, Photosynthesis, and Yield Components at Different Planting Densities in Winter Oilseed Rape (<italic>Brassica napus</italic> L.)</article-title>
+<alt-title alt-title-type="running-head">Ideotype Population of Winter Oilseed Rape</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Ma</surname><given-names>Ni</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Yuan</surname><given-names>Jinzhan</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Li</surname><given-names>Ming</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Li</surname><given-names>Jun</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Zhang</surname><given-names>Liyan</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Liu</surname><given-names>Lixin</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Naeem</surname><given-names>Muhammad Shahbaz</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Zhang</surname><given-names>Chunlei</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label><addr-line>Oil Crops Research Institute Chinese Academy of Agricultural Science, Key Laboratory of Oil Crop Biology of the Ministry of Agriculture, Key Laboratory of Crop Cultivation and Physiology, Ministry of Agriculture, Wuhan, China</addr-line></aff>
+<aff id="aff2"><label>2</label><addr-line>Key Laboratory of Crop Ecophysiology and Farming System in the Middle Reaches of the Yangtze River, Ministry of Agriculture, Huazhong Agricultural University, Wuhan, China</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Li</surname><given-names>Maoteng</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Huazhong university of Science and Technology, China</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">zhangchunlei@caas.cn</email></corresp>
+<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: NM CLZ. Performed the experiments: NM JZY. Analyzed the data: NM ML. Contributed reagents/materials/analysis tools: JL LYZ LXL. Wrote the paper: NM. Revised the manuscript: MSN.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2014</year></pub-date>
+<pub-date pub-type="epub"><day>17</day><month>12</month><year>2014</year></pub-date>
+<volume>9</volume>
+<issue>12</issue>
+<elocation-id>e114232</elocation-id>
+<history>
+<date date-type="received"><day>16</day><month>7</month><year>2014</year></date>
+<date date-type="accepted"><day>4</day><month>11</month><year>2014</year></date>
+</history>
+<permissions>
+<copyright-year>2014</copyright-year>
+<copyright-holder>Ma et al</copyright-holder><license xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract>
+<p>Rapeseed is one of the most important edible oil crops in the world and the seed yield has lagged behind the increasing demand driven by population growth. Winter oilseed rape (<italic>Brassica napus</italic> L.) is widely cultivated with relatively low yield in China, so it is necessary to find the strategies to improve the expression of yield potential. Planting density has great effects on seed yield of crops. Hence, field experiments were conducted in Wuhan in the Yangtze River basin with one conventional variety (Zhongshuang 11, ZS11) and one hybrid variety (Huayouza 9, HYZ9) at five planting densities (27.0×10<sup>4</sup>, 37.5×10<sup>4</sup>, 48.0×10<sup>4</sup>, 58.5×10<sup>4</sup>, 69.0×10<sup>4</sup> plants ha<sup>–1</sup>) during 2010–2012 to investigate the yield components. The physiological traits for high-yield and normal-yield populations were measured during 2011–2013. Our results indicated that planting densities of 58.5×10<sup>4</sup> plants ha<sup>–1</sup> in ZS11 and 48.0×10<sup>4</sup> plants ha<sup>–1</sup> in HYZ9 have significantly higher yield compared with the density of 27.0×10<sup>4</sup> plants ha<sup>–1</sup>for both varieties. The ideal silique numbers for ZS11 and HYZ9 were ∼0.9×10<sup>4</sup> (n m<sup>–2</sup>) and ∼1×10<sup>4</sup> (n m<sup>-2</sup>), respectively, and ideal primary branches for ZS11 and HYZ9 were ∼250 (n m<sup>–2</sup>) and ∼300 (n m<sup>–2</sup>), respectively. The highest leaf area index (LAI) and silique wall area index (SAI) was ∼5.0 and 7.0, respectively. Moreover, higher leaf net photosynthetic rate (Pn) and water use efficiency (WUE) were observed in the high-yield populations. A significantly higher level of silique wall photosynthesis and rapid dry matter accumulation were supposed to result in the maximum seed yield. Our results suggest that increasing the planting density within certain range is a feasible approach for higher seed yield in winter rapeseed in China.</p>
+</abstract>
+<funding-group><funding-statement>Funding was provided by the National Natural Science Foundation of China (Nos. 31071372, 31271671). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="15"/></counts><custom-meta-group><custom-meta id="data-availability" xlink:type="simple"><meta-name>Data Availability</meta-name><meta-value>The authors confirm that all data underlying the findings are fully available without restriction. All relevant data are within the paper and its Supporting Information files.</meta-value></custom-meta></custom-meta-group></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>Rapeseed is cultivated worldwide and plays an important role in guaranteeing an adequate food supply. Moreover, the increasing demand is fueled by its growing use as a renewable energy source <xref ref-type="bibr" rid="pone.0114232-Ademsen1">[1]</xref>–<xref ref-type="bibr" rid="pone.0114232-Durrett1">[2]</xref>. In recent years, the yield is insufficient to meet the increasing demands, especially in China <xref ref-type="bibr" rid="pone.0114232-Wang1">[3]</xref>. Winter oilseed rape (<italic>Brassica napus</italic> L.) is widely planted in the Yangtze River region, accounting for 89% of total rapeseed yields in China <xref ref-type="bibr" rid="pone.0114232-Wang1">[3]</xref>–<xref ref-type="bibr" rid="pone.0114232-Wang2">[4]</xref>, whereas the yield per unit area decreased over past few years <xref ref-type="bibr" rid="pone.0114232-Ma1">[5]</xref>. Therefore, it is necessary to find the strategies to improve the expression of yield potential.</p>
+<p>The crop yield is influenced by the crop species, environmental conditions and agronomic factors <xref ref-type="bibr" rid="pone.0114232-Hiltbrunner1">[6]</xref>–<xref ref-type="bibr" rid="pone.0114232-Ciampitti1">[7]</xref>. Planting density is an important crop management that affects the seed yield <xref ref-type="bibr" rid="pone.0114232-Ciampitti1">[7]</xref>–<xref ref-type="bibr" rid="pone.0114232-Hammer1">[10]</xref>. High planting density results in strong competition and also increases the potential for cooperation, thus creating a difference between individual and group performance that can be utilized <xref ref-type="bibr" rid="pone.0114232-LpezBellido1">[8]</xref>, <xref ref-type="bibr" rid="pone.0114232-Weiner1">[11]</xref>. As the planting density increases, the effective number of branches and pods per plant decrease, accompanied by the adjustment of yield components per unit area <xref ref-type="bibr" rid="pone.0114232-LpezBellido1">[8]</xref>–<xref ref-type="bibr" rid="pone.0114232-Diepenbrock1">[9]</xref>, <xref ref-type="bibr" rid="pone.0114232-Momoh1">[12]</xref>. It was reported that the transplanting of seedlings was commonly practiced in all kinds of agricultural systems and a relatively low yield was obtained only at the planting density of 10–15 plants m<sup>-2</sup> in rapeseed <xref ref-type="bibr" rid="pone.0114232-Momoh1">[12]</xref>. However, in Europe, the optimal planting density was about 80–150 plants m<sup>-2</sup> before winter and 60–80 plants m<sup>-2</sup> at the beginning of spring, respectively <xref ref-type="bibr" rid="pone.0114232-Rathke1">[13]</xref>. Since mechanical production has been popularized along the Yangtze River, it's the need of time to reform the traditional rapeseed cultivation system by optimizing the planting density to have maximum seed yield of the crop.</p>
+<p>Planting density influences the yield by regulating growth, yield components, and photosynthesis, which are the target traits closely related to the ideotype of crops <xref ref-type="bibr" rid="pone.0114232-Donald1">[14]</xref>–<xref ref-type="bibr" rid="pone.0114232-Peng1">[15]</xref>. The morphological ideotype traits of “super” rice were reflected in its moderate tillering capacity, heavy and drooping panicles, and a leaf area index (LAI) of ∼6.0 in the top three leaves <xref ref-type="bibr" rid="pone.0114232-Peng1">[15]</xref>. The contributing traits and mechanisms suggest that an increase in total biomass accumulation, better partitioning efficiency, and sustained photosynthesis are the major physiological determinants of yield increases <xref ref-type="bibr" rid="pone.0114232-Katsura1">[16]</xref>–<xref ref-type="bibr" rid="pone.0114232-Tollenaar1">[18]</xref>. In rapeseed, the leaf is the photosynthetic source before anthesis, whereas it is the lower part of the plant after anthesis, which receives less radiation due to the development of the silique canopy, and the green silique wall photosynthesis during seed-filling contributes ∼2/3 of the total dry matter of the seeds <xref ref-type="bibr" rid="pone.0114232-Rao1">[19]</xref>. Other studies have also highlighted the important role of silique wall photosynthesis in the regulation of seed oil content <xref ref-type="bibr" rid="pone.0114232-Hua1">[20]</xref>.</p>
+<p>Few studies have described the ideal population structure in winter rapeseed. To provide useful information for high seed yield cultivation and breeding, and for the mechanical production as well, understanding the ideotype traits is necessary. The objectives of this study were to optimize the yield and yield components of two elite winter varieties that were commonly grown in the Yangtze River basin under several planting densities and to identify the physiological mechanisms that contribute to the high yield.</p>
+</sec><sec id="s2" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="s2a">
+<title>Experimental design</title>
+<p>Two field trials were conducted in 2010–2013 at Yangluo Experimental Station of the Oil Crops Research Institute, Chinese Academy of Agricultural Science in Wuhan, Hubei Province, China (30°6′N, 114°1′E), which is located approximately in the center of the Yangtze River basin. The soil in the experimental field was representative of the area. The soil type was yellow-brown and soil samples were collected between 0 and 30 cm. Soil samples were air dried, ground, and analyzed for pH, dissolved organic carbon (DOC), total nitrogen, alkaline digested N, available phosphorus, available potassium, and available boron (<xref ref-type="supplementary-material" rid="pone.0114232.s001">S1 Table</xref>).</p>
+<p>The first experiments which were conducted in 2010–2011 and 2011–2012 were aimed to study the effects of planting densities on seed yield and yield components. The sowing dates were on 25 September in 2010 and 2011, respectively. The conventional winter rapeseed variety Zhongshuang 11 (ZS11) and the hybrid variety Huayouza 9 (HYZ9) were used and planted with a split-plot design with three replicates. The main plots were established with five planting densities (27.0×10<sup>4</sup>, 37.5×10<sup>4</sup>, 48.0×10<sup>4</sup>, 58.5×10<sup>4</sup>, and 69.0×10<sup>4</sup> plants ha<sup>–1</sup>) with the codes of D1–D5, and the subplots were varieties. In 2 m×10 m sized subplots and in rows about 30–35 cm apart (three rows per meter), the plants were finalized by hand when the seedlings had fully developed 4–5 true leaves and the spaces were ranged from 4 m to 11 m to achieve different planting densities. Each plot was fertilized at the average level in the Yangtze River basin with urea (195 kg ha<sup>–1</sup> N), superphosphate (75 kg ha<sup>–1</sup> P<sub>2</sub>O<sub>5</sub>), potassium chloride (105 kg ha<sup>–1</sup> K<sub>2</sub>O), and borax (9 kg ha<sup>–1</sup> boron). The nitrogen was applied in a split way, 60% at sowing and 40% at the seedling stage, whereas the phosphorus, potassium, and borax were all applied at sowing.</p>
+<p>On the bases of the first experiment, the second experiment was conducted in 2011–2012 and 2012–2013 to study the physiological traits of different populations. As the relatively low seed yield was observed at a planting density of 27.0×10<sup>4</sup> plants ha<sup>–1</sup>, it was referred as the traditionally normal yield population. However, the highest seed yield was obtained at increasing planting densities in the first experiment, 58.5×10<sup>4</sup> plants ha<sup>–1</sup> and 48.0×10<sup>4</sup> plants ha<sup>–1</sup> were referred as high yield population in ZS11 and HYZ9, respectively (<xref ref-type="fig" rid="pone-0114232-g001">Fig. 1</xref>). In 2012–2013, the seeds were sown on 28 September 2012 by using densities of high-yield and normal-yield populations, as described above. A randomized complete block design with three replicates was established, and 12 plots were designed for the two varieties. The plot area was 2 m long ×10 cm wide and consisted of 30 rows. A 1m wide border was left around each plot. The rates of application of N, P<sub>2</sub>O<sub>5</sub>, and K<sub>2</sub>O were the same as those in the first experiment.</p>
+<fig id="pone-0114232-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0114232.g001</object-id><label>Figure 1</label><caption>
+<title>Seed yield of ZS11 and HYZ9 in 2010–2011 and 2011–2012 growing seasons.</title>
+<p>(A) The seed yield of ZS11 and HYZ9 in 2010–2011. (B) The seed yield of ZS11 and HYZ9 in 2011–2012. The planting densities were designed as D1, 27.0×10<sup>4</sup> plants ha<sup>-1</sup>; D2, 37.5×10<sup>4</sup> plants ha<sup>-1</sup>; D3, 48.0×10<sup>4</sup> plants ha<sup>-1</sup>; D4, 58.5×10<sup>4</sup> plants ha<sup>-1</sup>; D5, 69.0×10<sup>4</sup> plants ha<sup>-1</sup>. Different lower case letters indicate significant pairwise differences between means (p&lt;0.05; Duncan's test).</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0114232.g001" position="float" xlink:type="simple"/></fig></sec><sec id="s2b">
+<title>Data collection and analysis</title>
+<sec id="s2b1">
+<title>Yield, yield components, and seed quality</title>
+<p>At maturity, plants from an area of 1 m<sup>2</sup> (1 m×1 m) of each plot were sampled to determine the yield components (i.e., the silique numbers, number of seeds per silique, and 1000-seed weights on the main inflorescences and branches), and the numbers of branches per plant and per unit area were counted as well. The plants in the plots were harvested, and the seed yields per unit area were calculated. The seed yield was adjusted to account for 9% moisture content. We measured the seed oil content from the main inflorescences, branches, and each plot following the Chinese National Standard Method for the determination of the oil content in oilseeds (GB/T 14488.1-93).</p>
+</sec><sec id="s2b2">
+<title>Leaf area index (LAI), silique wall area index (SAI), and photosynthesis</title>
+<p>At 90, 120, 150, 180, and 210 days after sowing as well as at 7-day intervals after peak anthesis, the measurement of leaf area index (LAI) and a gas exchange analysis were conducted. The green leaf area was measured by passing the leaves through a LI-3100 leaf area meter (LiCor, Lincoln, NE, USA). At the seed-filling stage, the silique wall area index (SAI) and silique wall photosynthesis were measured at 7-day intervals after peak anthesis. Fifty siliques on the main inflorescences and all of the branches were randomly sampled to measure the silique length and width, and the silique wall area was calculated according to <xref ref-type="bibr" rid="pone.0114232-Clark1">[21]</xref>. The LAI and SAI were then determined on a ground area basis.</p>
+<p>The photosynthetic parameters were determined on the fifth leaves at 90 days after sowing and on the first short petiole leave of the plants from 120 to 210 days after sowing in the high-yield and normal-yield population. The gas exchange analysis was conducted using a Portable Photosynthesis System (LI-6400; LiCor) on the leaves and pods from 09:00 to 11:00. The net photosynthetic rates (Pn), stomatal conductance (Gs), intercellular CO<sub>2</sub> concentration (Ci), and transpiration rate (Tr) were determined. Water use efficiency (WUE) was calculated as the ratio of Pn to Tr. The data were collected automatically every 2–3 min with 10 replications for each plot.</p>
+</sec><sec id="s2b3">
+<title>Dry matter accumulation</title>
+<p>All the plants per unit area (1 m<sup>2</sup>) in each normal-yield and high-yield population were selected, and the aerial parts were collected at 2 weeks pre-anthesis and 2 weeks post-anthesis. All of the aerial parts were dried at 105°C for 30 min and then at 70°C to constant weight. At maturity, the stems, silique wall and seeds at the same squares were separated and dried at 70°C to constant weight.</p>
+</sec><sec id="s2b4">
+<title>Statistical analysis</title>
+<p>We performed multi-way ANOVAs with critical values of <italic>p</italic> = 0.05 using Statistix 8. Significant pairwise differences between means were identified by Duncan's multiple range test (<italic>p</italic>&lt;0.05) using SPSS software (version 16.0; SPSS Inc., Chicago, IL, USA). The correlation analysis between the seed yield with the yield components (e.g., silique number and number of primary branches per unit area), with the growth parameters (e.g., LAI, SAI and dry matter biomass) as well as with the physiological traits (e.g., leaf photosynthesis and silique wall photosynthesis) were carried out.</p>
+</sec></sec></sec><sec id="s3">
+<title>Results</title>
+<sec id="s3a">
+<title>Yield components of main inflorescences and branches</title>
+<p>Planting density did not affect the number of siliques on the main inflorescences, seeds per silique, or 1000-seed weight in ZS11 and HYZ9 in either year. In comparison of the growing seasons, the numbers of siliques and seeds per silique were significantly higher in 2011–2012 than in 2010–2011 (<xref ref-type="supplementary-material" rid="pone.0114232.s002">S2 Table</xref>). The experimental treatments had more pronounced effects on the yield components of branches than on the main inflorescences. As shown in <xref ref-type="table" rid="pone-0114232-t001">Table 1</xref>, at the individual level, the number of primary branches decreased significantly with an increase in planting densities in both seasons. The lowest number of primary branches was observed at the highest planting density (D5). Increasing the planting density also dramatically decreased the number of siliques and the seeds per silique. However, the 1000-seed weight was not affected. It was notably that the 1000-seed weight of the main inflorescences was 1.0–1.5 g higher than that of the branches. The ANOVAs results showed that the yield components were obviously affected not only by the year, variety and planting density but also by their interactions. The number of primary branches, silique number and seed per silique varied significantly for interactions between any two of year, variety and planting density. However, no significant differences were observed for 1000-seed weight.</p>
+<table-wrap id="pone-0114232-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0114232.t001</object-id><label>Table 1</label><caption>
+<title>Yield components of branches in ZS11 and HYZ9 in 2010–2011 and 2011–2012 growing seasons.</title>
+</caption><alternatives><graphic id="pone-0114232-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0114232.t001" xlink:type="simple"/>
+<table><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Variety</td>
+<td align="left" rowspan="1" colspan="1">Planting density (×10<sup>4</sup> plants ha<sup>-1</sup>)</td>
+<td align="left" rowspan="1" colspan="1">Number of primary branches (n plant<sup>-1</sup>)</td>
+<td align="left" rowspan="1" colspan="1">Silique numbers (n plant<sup>-1</sup>)</td>
+<td align="left" rowspan="1" colspan="1">Seeds per silique</td>
+<td align="left" rowspan="1" colspan="1">1000-seed weight (g)</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">2010–2011</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">ZS11</td>
+<td align="left" rowspan="1" colspan="1">27.0</td>
+<td align="left" rowspan="1" colspan="1">7.3a</td>
+<td align="left" rowspan="1" colspan="1">152.1a</td>
+<td align="left" rowspan="1" colspan="1">18.4a</td>
+<td align="left" rowspan="1" colspan="1">3.77a</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">37.5</td>
+<td align="left" rowspan="1" colspan="1">6.0b</td>
+<td align="left" rowspan="1" colspan="1">128.8b</td>
+<td align="left" rowspan="1" colspan="1">16.2b</td>
+<td align="left" rowspan="1" colspan="1">3.55a</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">48.0</td>
+<td align="left" rowspan="1" colspan="1">5.0c</td>
+<td align="left" rowspan="1" colspan="1">102.8c</td>
+<td align="left" rowspan="1" colspan="1">15.8b</td>
+<td align="left" rowspan="1" colspan="1">3.55a</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">58.5</td>
+<td align="left" rowspan="1" colspan="1">4.4d</td>
+<td align="left" rowspan="1" colspan="1">88.5d</td>
+<td align="left" rowspan="1" colspan="1">15.2c</td>
+<td align="left" rowspan="1" colspan="1">3.28a</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">69.0</td>
+<td align="left" rowspan="1" colspan="1">3.2e</td>
+<td align="left" rowspan="1" colspan="1">50.2e</td>
+<td align="left" rowspan="1" colspan="1">14.0d</td>
+<td align="left" rowspan="1" colspan="1">3.37a</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">HYZ9</td>
+<td align="left" rowspan="1" colspan="1">27.0</td>
+<td align="left" rowspan="1" colspan="1">7.6a</td>
+<td align="left" rowspan="1" colspan="1">204.4a</td>
+<td align="left" rowspan="1" colspan="1">18.9a</td>
+<td align="left" rowspan="1" colspan="1">3.33a</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">37.5</td>
+<td align="left" rowspan="1" colspan="1">6.8b</td>
+<td align="left" rowspan="1" colspan="1">168.3b</td>
+<td align="left" rowspan="1" colspan="1">18.1b</td>
+<td align="left" rowspan="1" colspan="1">3.22a</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">48.0</td>
+<td align="left" rowspan="1" colspan="1">6.2b</td>
+<td align="left" rowspan="1" colspan="1">138.4c</td>
+<td align="left" rowspan="1" colspan="1">17.2c</td>
+<td align="left" rowspan="1" colspan="1">3.20a</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">58.5</td>
+<td align="left" rowspan="1" colspan="1">5.0c</td>
+<td align="left" rowspan="1" colspan="1">92.0d</td>
+<td align="left" rowspan="1" colspan="1">16.0d</td>
+<td align="left" rowspan="1" colspan="1">3.08a</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">69.0</td>
+<td align="left" rowspan="1" colspan="1">4.2d</td>
+<td align="left" rowspan="1" colspan="1">62.8e</td>
+<td align="left" rowspan="1" colspan="1">14.3e</td>
+<td align="left" rowspan="1" colspan="1">2.92a</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">2011–2012</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">ZS11</td>
+<td align="left" rowspan="1" colspan="1">27.0</td>
+<td align="left" rowspan="1" colspan="1">7.9a</td>
+<td align="left" rowspan="1" colspan="1">177.4a</td>
+<td align="left" rowspan="1" colspan="1">19.3a</td>
+<td align="left" rowspan="1" colspan="1">3.89a</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">37.5</td>
+<td align="left" rowspan="1" colspan="1">6.4b</td>
+<td align="left" rowspan="1" colspan="1">151.6b</td>
+<td align="left" rowspan="1" colspan="1">19.5a</td>
+<td align="left" rowspan="1" colspan="1">3.66a</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">48.0</td>
+<td align="left" rowspan="1" colspan="1">5.3c</td>
+<td align="left" rowspan="1" colspan="1">117.8c</td>
+<td align="left" rowspan="1" colspan="1">17.6b</td>
+<td align="left" rowspan="1" colspan="1">3.65a</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">58.5</td>
+<td align="left" rowspan="1" colspan="1">4.5d</td>
+<td align="left" rowspan="1" colspan="1">88.9d</td>
+<td align="left" rowspan="1" colspan="1">15.9c</td>
+<td align="left" rowspan="1" colspan="1">3.37a</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">69.0</td>
+<td align="left" rowspan="1" colspan="1">3.5d</td>
+<td align="left" rowspan="1" colspan="1">59.7e</td>
+<td align="left" rowspan="1" colspan="1">15.6c</td>
+<td align="left" rowspan="1" colspan="1">3.32a</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">HYZ9</td>
+<td align="left" rowspan="1" colspan="1">27.0</td>
+<td align="left" rowspan="1" colspan="1">8.1a</td>
+<td align="left" rowspan="1" colspan="1">202.0a</td>
+<td align="left" rowspan="1" colspan="1">19.9a</td>
+<td align="left" rowspan="1" colspan="1">3.32a</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">37.5</td>
+<td align="left" rowspan="1" colspan="1">6.7b</td>
+<td align="left" rowspan="1" colspan="1">182.5b</td>
+<td align="left" rowspan="1" colspan="1">19.2a</td>
+<td align="left" rowspan="1" colspan="1">3.23a</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">48.0</td>
+<td align="left" rowspan="1" colspan="1">6.4b</td>
+<td align="left" rowspan="1" colspan="1">150.3c</td>
+<td align="left" rowspan="1" colspan="1">18.2b</td>
+<td align="left" rowspan="1" colspan="1">3.20a</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">58.5</td>
+<td align="left" rowspan="1" colspan="1">5.2c</td>
+<td align="left" rowspan="1" colspan="1">99.0d</td>
+<td align="left" rowspan="1" colspan="1">16.3c</td>
+<td align="left" rowspan="1" colspan="1">3.11a</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">69.0</td>
+<td align="left" rowspan="1" colspan="1">4.4d</td>
+<td align="left" rowspan="1" colspan="1">65.4e</td>
+<td align="left" rowspan="1" colspan="1">15.8c</td>
+<td align="left" rowspan="1" colspan="1">3.00a</td>
+</tr>
+<tr>
+<td colspan="2" align="left" rowspan="1">Year (Y)</td>
+<td align="left" rowspan="1" colspan="1">*</td>
+<td align="left" rowspan="1" colspan="1">**</td>
+<td align="left" rowspan="1" colspan="1">**</td>
+<td align="left" rowspan="1" colspan="1"><sup>†</sup>NS</td>
+</tr>
+<tr>
+<td colspan="2" align="left" rowspan="1">Variety (V)</td>
+<td align="left" rowspan="1" colspan="1">*</td>
+<td align="left" rowspan="1" colspan="1">**</td>
+<td align="left" rowspan="1" colspan="1">**</td>
+<td align="left" rowspan="1" colspan="1"><sup>†</sup>NS</td>
+</tr>
+<tr>
+<td colspan="2" align="left" rowspan="1">Year (Y) × variety (V)</td>
+<td align="left" rowspan="1" colspan="1">**</td>
+<td align="left" rowspan="1" colspan="1">*</td>
+<td align="left" rowspan="1" colspan="1">**</td>
+<td align="left" rowspan="1" colspan="1"><sup>†</sup>NS</td>
+</tr>
+<tr>
+<td colspan="2" align="left" rowspan="1">Year (Y) × density (D)</td>
+<td align="left" rowspan="1" colspan="1">**</td>
+<td align="left" rowspan="1" colspan="1">**</td>
+<td align="left" rowspan="1" colspan="1">**</td>
+<td align="left" rowspan="1" colspan="1"><sup>†</sup>NS</td>
+</tr>
+<tr>
+<td colspan="2" align="left" rowspan="1">V×D</td>
+<td align="left" rowspan="1" colspan="1">**</td>
+<td align="left" rowspan="1" colspan="1">**</td>
+<td align="left" rowspan="1" colspan="1">**</td>
+<td align="left" rowspan="1" colspan="1"><sup>†</sup>NS</td>
+</tr>
+<tr>
+<td colspan="2" align="left" rowspan="1">Y×V×D</td>
+<td align="left" rowspan="1" colspan="1">**</td>
+<td align="left" rowspan="1" colspan="1">**</td>
+<td align="left" rowspan="1" colspan="1">**</td>
+<td align="left" rowspan="1" colspan="1"><sup>†</sup>NS</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt101"><label/><p>Different letters within the same column indicate significant differences between the means determined by Duncan's multiple range test (<italic>p</italic>&lt;0.05). For the interaction terms: *, ** show the significance at 0.05 and 0.01 levels, <sup>†</sup>NS not significant.</p></fn></table-wrap-foot></table-wrap></sec><sec id="s3b">
+<title>Silique numbers, primary branches, and yields per unit area</title>
+<p>The number of primary branches per unit area initially increased as the planting density increased and then decreased rapidly in ZS11. The maximum number of branches was observed at the planting density D4. The results also indicated that the highest number of primary branches occurred at the planting density D3 and decreased steadily as the planting density increased in HYZ9 (<xref ref-type="fig" rid="pone-0114232-g002">Fig. 2A</xref> and <xref ref-type="fig" rid="pone-0114232-g002">B</xref>). The number of siliques on the main inflorescences increased with increasing planting density in both years (<xref ref-type="fig" rid="pone-0114232-g002">Fig. 2C</xref> and <xref ref-type="fig" rid="pone-0114232-g002">D</xref>), whereas those on branches initially increased with increasing planting density and then decreased significantly at the highest planting density in both varieties. The maximum number of siliques was observed at the densities of D4 and D3 in ZS11 and HYZ9, respectively. Consequently, the seed yields per unit area were also initially positively affected and then negatively affected by increasing the planting density in both years. In 2010–2011, the seed yield at the planting density D4 was 29.5% higher than at the planting density D1 in ZS11, and the seed yield at D3 was 29.2% higher than that at D1 in HYZ9 (<xref ref-type="fig" rid="pone-0114232-g001">Fig. 1A</xref>). In 2011–2012, the planting density D4 resulted in a 26.7% higher seed yield than D1 in ZS11, and D3 gave a 25.9% higher seed yield than D1 in HYZ9 (<xref ref-type="fig" rid="pone-0114232-g001">Fig. 1B</xref>). The number of primary branches and the total number of silique per unit area were extremely significantly correlated with the seed yield (r = 0.7754**and r = 0.8524**, respectively).</p>
+<fig id="pone-0114232-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0114232.g002</object-id><label>Figure 2</label><caption>
+<title>Numbers of primary branches and siliques per unit area of ZS11 and HYZ9 at five planting densities in 2010–2011 and 2011–2012 growing seasons.</title>
+<p>(A) and (B) Number of primary branches per unit area of ZS11 and HYZ9 in 2010–2011 and 2011–2012, respectively. (C) and (D) Number of siliques per unit area of ZS11 and HYZ9 in 2010–2011 and 2011–2012, respectively. Different lower case letters indicate significant pairwise differences between means (p&lt;0.05; Duncan's test).</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0114232.g002" position="float" xlink:type="simple"/></fig>
+<p>Neither the seed oil content of the main inflorescences nor branches displayed significant differences among the different planting densities, whereas the seed oil content from the main inflorescences was 1.0–2.5% higher than from the branches. Notably, the oil content per plot increased significantly with increased planting density (<xref ref-type="supplementary-material" rid="pone.0114232.s003">S3 Table</xref>).</p>
+</sec><sec id="s3c">
+<title>LAI, SAI, and photosynthesis</title>
+<p>The LAI increased from 90 to 180 days after sowing and then decreased. The values were higher in the high-yield population than in the normal-yield population, and in 2011–2012, the maximum values of 5.11 and 5.82 were recorded 180 days after sowing in ZS11 and HYZ9, respectively (<xref ref-type="fig" rid="pone-0114232-g003">Fig. 3A</xref>). In 2012–2013, the maximum values of 4.83 and 5.35 were obtained in ZS11 and HYZ9, respectively (<xref ref-type="fig" rid="pone-0114232-g003">Fig. 3B</xref>). The LAI decreased rapidly in the high-yield population after anthesis, and no apparent difference was observed after 14 days of the peak anthesis between the two populations in either year (<xref ref-type="fig" rid="pone-0114232-g003">Fig. 3C and D</xref>).</p>
+<fig id="pone-0114232-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0114232.g003</object-id><label>Figure 3</label><caption>
+<title>Leaf area index (LAI) at different growing stages and post-anthesis in the normal-yield (NY) and high-yield (HY) populations of ZS11 and HYZ9 in 2011–2012 and 2012–2013 growing seasons.</title>
+<p>(A) and (B) LAI at different growing stages in the NY and HY populations of ZS11 and HYZ9 in 2011–2012 and 2012–2013, respectively. (C) and (D) LAI at post-anthesis in the NY and HY populations of ZS11 and HYZ9 in 2011–2012 and 2012–2013, respectively. The arrows indicate the flowering stage.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0114232.g003" position="float" xlink:type="simple"/></fig>
+<p>In both seasons, the net photosynthetic rate (Pn), stomatal conductance (Gs), and intercellular CO<sub>2</sub> concentration (Ci) of leaves increased rapidly from 150 to 180 days after sowing in the high-yield population. However, the transpiration rate (Tr) was significantly lower (data not shown), which resulted in a higher water use efficiency (WUE) (<xref ref-type="fig" rid="pone-0114232-g004">Fig. 4A</xref> and <xref ref-type="fig" rid="pone-0114232-g004">B</xref>; <xref ref-type="fig" rid="pone-0114232-g005">Fig. 5A</xref> and <xref ref-type="fig" rid="pone-0114232-g005">B</xref>). Pn decreased rapidly 14 days after peak anthesis in the high-yield population, and the WUE was higher but decreased rapidly as well (<xref ref-type="fig" rid="pone-0114232-g004">Fig. 4C</xref> and <xref ref-type="fig" rid="pone-0114232-g004">D</xref>; <xref ref-type="fig" rid="pone-0114232-g005">Fig. 5C</xref> and <xref ref-type="fig" rid="pone-0114232-g005">D</xref>).</p>
+<fig id="pone-0114232-g004" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0114232.g004</object-id><label>Figure 4</label><caption>
+<title>The net photosynthetic rates (Pn), and water use efficiency (WUE) of leaves at different growing stages and post-anthesis in the normal-yield (NY) and high-yield (HY) populations of ZS11 and HYZ9 in 2011–2012 growing season.</title>
+<p>(A) and (B) Pn and WUE of leaves at different growing stages in the NY and HY populations of ZS11 and HYZ9, respectively. (C) and (D) Pn and WUE of leaves at post-anthesis in the NY and HY populations of ZS11 and HYZ9, respectively. The arrows indicate the flowering stage.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0114232.g004" position="float" xlink:type="simple"/></fig><fig id="pone-0114232-g005" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0114232.g005</object-id><label>Figure 5</label><caption>
+<title>The net photosynthetic rates (Pn), and water use efficiency (WUE) of leaves at different growing stages and post-anthesis in the normal-yield (NY) and high-yield (HY) populations of ZS11 and HYZ9 in 2012–2013 growing season.</title>
+<p>(A) and (B) Pn and WUE of leaves at different growing stages in the NY and HY populations of ZS11 and HYZ9, respectively. (C) and (D) Pn and WUE of leaves at post-anthesis in the NY and HY populations of ZS11 and HYZ9, respectively. The arrows indicate the flowering stage.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0114232.g005" position="float" xlink:type="simple"/></fig>
+<p>Within all the populations, the SAI increased rapidly from 7 to 21 days and reached a maximum ∼28 days after peak anthesis. Apparent difference was observed between the high-yield and normal-yield populations from 21 to 42 days after peak anthesis in either variety (<xref ref-type="fig" rid="pone-0114232-g006">Fig. 6A</xref> and <xref ref-type="fig" rid="pone-0114232-g006">B</xref>). The change trend of silique wall photosynthesis was similar to that of the SAI from 7 to 28 days, and the high-yield populations had longer duration of high photosynthetic rates from 21 to 35 days in both varieties (<xref ref-type="fig" rid="pone-0114232-g006">Fig. 6C</xref> and <xref ref-type="fig" rid="pone-0114232-g006">D</xref>).</p>
+<fig id="pone-0114232-g006" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0114232.g006</object-id><label>Figure 6</label><caption>
+<title>The silique wall area index (SAI) and silique wall photosynthesis in the normal-yield (NY) and high-yield (HY) populations of ZS11 and HYZ9 in 2011–2012 and 2012–2013 growing seasons.</title>
+<p>(A) and (B) SAI in the NY and HY populations of ZS11 and HYZ9 in 2011–2012 and 2012–2013, respectively. (C) and (D) The silique wall photosynthesis in the NY and HY populations of ZS11 and HYZ9 in 2011–2012 and 2012–2013, respectively.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0114232.g006" position="float" xlink:type="simple"/></fig>
+<p>Not only LAI at peak anthesis, but also the leaf photosynthesis, SAI and silique wall photosynthesis showed significant correlations with the seed yield (r = 0.9583**, r = 0.9338**, r = 0.9100** and r = 0.9541**, respectively).</p>
+</sec><sec id="s3d">
+<title>Dry matter accumulation</title>
+<p>For the dry matter biomass at 2 weeks pre-anthesis and 2 weeks post-anthesis (<xref ref-type="fig" rid="pone-0114232-g007">Fig. 7</xref>), the values of dry matter per unit area at pre-anthesis were 706 g m<sup>–2</sup> and 903.5 g m<sup>–2</sup>, and 1416.1 g m<sup>–2</sup> and 2154.3 g m<sup>–2</sup> at post-anthesis in the normal- and high-yield ZS11 populations in 2011–2012, respectively, with the ratios of pre-anthesis to post-anthesis dry matter 0.50 and 0.42. In the normal- and high-yield HYZ9 populations, the values of dry matter per unit area were 742.9 g m<sup>–2</sup> and 1002.5 g m<sup>–2</sup> at pre-anthesis, and 1522.1 g m<sup>–2</sup> and 2539.5 g m<sup>–2</sup> at post-anthesis, respectively, having the pre-anthesis to post-anthesis dry matter ratios of 0.49 and 0.39.</p>
+<fig id="pone-0114232-g007" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0114232.g007</object-id><label>Figure 7</label><caption>
+<title>Dry matter biomass at pre-anthesis and post-anthesis in the normal-yield (NY) and high-yield (HY) populations of ZS11 and HYZ9 in 2011–2012 and 2012–2013 growing seasons.</title>
+<p>(A) Dry matter biomass at pre-anthesis and post-anthesis in the NY and HY populations of ZS11 and HYZ9 in 2011–2012. (B) Dry matter biomass at pre-anthesis and post-anthesis in the NY and HY populations of ZS11 and HYZ9 in 2012–2013. Different lower case letters indicate significant pairwise differences between means (p&lt;0.05; Duncan's test).</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0114232.g007" position="float" xlink:type="simple"/></fig>
+<p>For the normal- and high-yield ZS11 populations in 2012–2013, the values of dry matter per unit area were 601 g m<sup>–2</sup> and 774 g m<sup>–2</sup> at pre-anthesis and 1277.5 g m<sup>–2</sup> and 1865.6 g m<sup>–2</sup> at post-anthesis, respectively, showing the pre-anthesis to post-anthesis dry matter ratios of 0.47 and 0.41. In the two HYZ9 populations, the values of dry matter per unit area were 675 g m<sup>–2</sup> and 906 g m<sup>–2</sup> at pre-anthesis and1365.4 g m<sup>–2</sup> and 2243.8 g m<sup>–2</sup> at post-anthesis, respectively, with the pre-anthesis to post-anthesis ratios of 0.49 and 0.40. The dry matter weights at pre-anthesis and post-anthesis were extremely significantly correlated with seed yield (r = 0.8739**and r = 0.9336**, respectively).</p>
+</sec></sec><sec id="s4">
+<title>Discussion</title>
+<p>Yield improvement can be achieved by adjusting elements of the growing system, such as the planting density <xref ref-type="bibr" rid="pone.0114232-Hiltbrunner1">[6]</xref>, <xref ref-type="bibr" rid="pone.0114232-Diepenbrock1">[9]</xref>, <xref ref-type="bibr" rid="pone.0114232-Rathke1">[13]</xref>, <xref ref-type="bibr" rid="pone.0114232-Brahim1">[22]</xref>. The results of this study indicate that variations in the planting density can significantly affect the seed yield and yield components of winter rapeseed. Moreover, this study is also showing that planting density has great effects on the yield components of primary branches than the main inflorescences. The number of siliques per plant and the number of siliques per unit area are known to be the most variable and dominant yield components <xref ref-type="bibr" rid="pone.0114232-LpezBellido1">[8]</xref>, <xref ref-type="bibr" rid="pone.0114232-Leach1">[23]</xref>–<xref ref-type="bibr" rid="pone.0114232-PeltonenSainio1">[25]</xref>. In this study, the highest seed yield was associated with the highest number of primary branches and the total number of siliques per unit area at the planting densities of 58.5×10<sup>4</sup> plants ha<sup>–1</sup> and 48.0×10<sup>4</sup> plants ha<sup>–1</sup> in ZS11 and HYZ9, respectively, which are much higher than the planting densities currently used in large-scale cultivation in China.</p>
+<p>The seed oil content of the main inflorescences and branches increased only slightly and insignificantly at the higher planting density, whereas the content per plot increased significantly. These results contrasted the others <xref ref-type="bibr" rid="pone.0114232-Momoh1">[12]</xref>, possibly owing to the facts that the seed oil content of main inflorescences was 1.0–2.5% higher than that of branches and the proportion of yield accounted for by the main inflorescence rising with increased planting density from 35 to 60% (data not shown). Furthermore, with the increase in planting densities, the production of pod-bearing branches decreased and the development of pods and seeds were synchronized, which might result in more uniform maturation and higher seed quality <xref ref-type="bibr" rid="pone.0114232-Leach1">[23]</xref>. Taken together, seed yield and oil content could be simultaneously improved at relatively high planting densities in the modern cultivation system.</p>
+<p>Physiological traits could directly contribute to higher yields <xref ref-type="bibr" rid="pone.0114232-Marshall1">[26]</xref>. The planting density influences the crop canopy structure and radiation interception <xref ref-type="bibr" rid="pone.0114232-Thurling1">[27]</xref>. The population with a high LAI is likely to intercept light because radiation is better distributed throughout the canopy, thus resulting in higher use efficiency <xref ref-type="bibr" rid="pone.0114232-Hammer1">[10]</xref>,<xref ref-type="bibr" rid="pone.0114232-Tollenaar1">[18]</xref>. In our study, the highest LAI was ∼5.0 at the high planting density, which suggests that the plants grow rapidly at high planting densities and provide a larger photosynthetic area. A significantly higher Pn and WUE were observed at the higher planting density from 150 to 180 days after sowing in both varieties. The rapid decrease in LAI and Pn in the high-yield population after anthesis was likely due to the high amount of translocation of carbohydrates from vegetative to reproductive organs, which indicates early leaf senescence. The postponement of silique wall photosynthesis senescence was a consequence of the better radiation distribution throughout the canopy with moderate number of siliques that comprised the optimal number of main inflorescences and branches. It is suggested that the high silique wall photosynthetic rate and its longer duration are likely to promote dry matter accumulation and be responsible for the increase in yield and oil content <xref ref-type="bibr" rid="pone.0114232-Katsura1">[16]</xref>, <xref ref-type="bibr" rid="pone.0114232-Tollenaar1">[18]</xref>, <xref ref-type="bibr" rid="pone.0114232-Hua1">[20]</xref>. Taken together, the high seed yield highlights the successful alteration of high leaf photosynthesis before anthesis and longer duration of high silique wall photosynthesis after peak anthesis.</p>
+<p>To better understand the plant growth contributing to the high seed yield, the dry matter biomass was investigated, for many studies have indicated that the high yield was associated with dry matter production before <xref ref-type="bibr" rid="pone.0114232-Katsura1">[16]</xref>, <xref ref-type="bibr" rid="pone.0114232-Takai1">[28]</xref> and after heading <xref ref-type="bibr" rid="pone.0114232-Murchie1">[29]</xref>–<xref ref-type="bibr" rid="pone.0114232-Alessandro1">[31]</xref>. In our study, the high-yield populations had high dry matter biomass at both pre-anthesis and post-anthesis, with the latter likely largely contributes to yield increase. Therefore, it is supposed that high planting densities promote the development of vegetative organs before anthesis and effective nutrition uptake dynamics to the reproductive organs after anthesis, which strongly impact the increase of seed yield.</p>
+<p>The design of plant ideotype is an important step toward improving yields <xref ref-type="bibr" rid="pone.0114232-Abuelgasim1">[32]</xref>. The ideotypes of some cereal crops, such as rice and maize were simulated <xref ref-type="bibr" rid="pone.0114232-LpezBellido1">[8]</xref>, <xref ref-type="bibr" rid="pone.0114232-Mock1">[33]</xref>. Meanwhile, an ideotype may require a degree of crop management to fully express its yield potential <xref ref-type="bibr" rid="pone.0114232-Mock1">[33]</xref>–<xref ref-type="bibr" rid="pone.0114232-Virk1">[34]</xref>. It is proposed that the maize (<italic>Zea mays</italic> L.) ideotype will maximally utilize an optimal production environment including high planting densities and be characterized by maximum photosynthetic efficiency and efficient conversion of photosynthate to grain <xref ref-type="bibr" rid="pone.0114232-Mock1">[33]</xref>. In our study, the ideal morphological and physiological traits (LAI, SAI, photosynthesis, WUE) of rapeseed population were observed at the higher planting density, which would greatly benefit the mechanical production and yield potential.</p>
+</sec><sec id="s5">
+<title>Conclusions</title>
+<p>To explore the ideotype population of winter rapeseed in the central part of the Yangtze River basin, the yield components, morphological and physiological traits of two elite cultivars were investigated under field conditions. The results showed that the planting density had no significant effect on the yield components of the main inflorescences but it clearly affected the branch number, silique number, and seeds per silique on the branches per plant. The ideal morphological traits of the two varieties were moderate number of siliques and primary branches per plant as well as high number of siliques and primary branches per unit area. Furthermore, higher LAI (∼5.0), Pn, and WUE were observed in the high-yield population, whereas they decreased more rapidly after anthesis compared with the normal-yield population. It was suggested that the higher SAI (∼7.0) and longer duration of high silique wall photosynthesis likely resulted in a significantly higher biomass at the seed-filling stage and a subsequently higher seed yield. Wholly, the improvement of the seed yield and oil content of winter rapeseed is possible by managing higher planting density and ideotype population.</p>
+</sec><sec id="s6">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0114232.s001" mimetype="application/msword" xlink:href="info:doi/10.1371/journal.pone.0114232.s001" position="float" xlink:type="simple"><label>S1 Table</label><caption>
+<p>Soil properties at the beginning of the 2010–2011, 2011–2012, and 2012–2013 growing seasons.</p>
+<p>(DOC)</p>
+</caption></supplementary-material><supplementary-material id="pone.0114232.s002" mimetype="application/msword" xlink:href="info:doi/10.1371/journal.pone.0114232.s002" position="float" xlink:type="simple"><label>S2 Table</label><caption>
+<p>Yield components of the main inflorescences in ZS11 and HYZ9 in 2010–2011 and 2011–2012 growing seasons.</p>
+<p>(DOC)</p>
+</caption></supplementary-material><supplementary-material id="pone.0114232.s003" mimetype="application/msword" xlink:href="info:doi/10.1371/journal.pone.0114232.s003" position="float" xlink:type="simple"><label>S3 Table</label><caption>
+<p>Seed oil content of ZS11 and HYZ9 in 2010–2011 and 2011–2012 growing seasons.</p>
+<p>(DOC)</p>
+</caption></supplementary-material></sec></body>
+<back>
+<ack>
+<p>We express our thanks to Hanzhong Wang for providing the seeds of Zhongshuang 11, Guangsheng Yang for providing the seeds of Huayouza 9. We thank Dr. Yi Huang for helpful suggestions and careful reading of the manuscript.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0114232-Ademsen1"><label>1</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ademsen</surname><given-names>FJ</given-names></name>, <name name-style="western"><surname>Coffelt</surname><given-names>TA</given-names></name> (<year>2005</year>) <article-title>Planting date effects on flowering, seed yield, and oil content of rape and crambe cultivars</article-title>. <source>Ind Crop Prod</source> <volume>21</volume>:<fpage>293</fpage>–<lpage>307</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Durrett1"><label>2</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Durrett</surname><given-names>TP</given-names></name>, <name name-style="western"><surname>Benning</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Ohlrogge</surname><given-names>J</given-names></name> (<year>2008</year>) <article-title>Plant triacylglycerols as feedstocks for the production of biofuels</article-title>. <source>Plant J</source> <volume>54</volume>:<fpage>593</fpage>–<lpage>607</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Wang1"><label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>HZ</given-names></name> (<year>2007</year>) <article-title>Strategy of rapeseed industry development based on the analysis of rapeseed production and demand in China (in Chinese)</article-title>. <source>Chin J Oil Crop Sci</source> <volume>29</volume>:<fpage>101</fpage>–<lpage>105</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Wang2"><label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>HZ</given-names></name> (<year>2002</year>) <article-title>Rapeseed industry in China after joining WTO (in Chinese)</article-title>. <source>Chin J Oil Crop Sci</source> <volume>24</volume>:<fpage>82</fpage>–<lpage>86</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Ma1"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ma</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>CL</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>MH</given-names></name>, <name name-style="western"><surname>Cheng</surname><given-names>YG</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Mechanical harvesting effects on seed yield loss, quality traits and profitability of winter oilseed rape (<italic>Brassica napus</italic> L.)</article-title>. <source>J Integra Agric</source> <volume>11</volume>:<fpage>1297</fpage>–<lpage>1304</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Hiltbrunner1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hiltbrunner</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Streit</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Liedgens</surname><given-names>M</given-names></name> (<year>2007</year>) <article-title>Are seeding densities an opportunity to increase grain yield of winter wheat in a living mulch of white clover?</article-title> <source>Field Crop Res</source> <volume>102</volume>:<fpage>163</fpage>–<lpage>171</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Ciampitti1"><label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ciampitti</surname><given-names>IA</given-names></name>, <name name-style="western"><surname>Vyn</surname><given-names>TJ</given-names></name> (<year>2011</year>) <article-title>A comprehensive study of plant density consequences on nitrogen uptake dynamics of maize plants from vegetative to reproductive stages</article-title>. <source>Field Crop Res</source> <volume>121</volume>:<fpage>2</fpage>–<lpage>18</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-LpezBellido1"><label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>López-Bellido</surname><given-names>FJ</given-names></name>, <name name-style="western"><surname>López-Bellido</surname><given-names>L</given-names></name>, <name name-style="western"><surname>López-Bellido</surname><given-names>RJ</given-names></name> (<year>2005</year>) <article-title>Competition, growth and yield of faba bean (<italic>Vicia faba</italic> L.)</article-title>. <source>Eur J Agron</source> <volume>23</volume>:<fpage>359</fpage>–<lpage>378</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Diepenbrock1"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Diepenbrock</surname><given-names>W</given-names></name> (<year>2000</year>) <article-title>Yield analysis of winter oilseed rape (<italic>Brassica napus</italic> L.): a review</article-title>. <source>Field Crop Res</source> <volume>67</volume>:<fpage>35</fpage>–<lpage>49</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Hammer1"><label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hammer</surname><given-names>GL</given-names></name>, <name name-style="western"><surname>Dong</surname><given-names>ZS</given-names></name>, <name name-style="western"><surname>McLean</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Dohert</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Messina</surname><given-names>C</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Can changes in canopy and/or root system architecture explain historical maize yield trends in the U.S. corn belt?</article-title> <source>Crop Sci</source> <volume>49</volume>:<fpage>299</fpage>–<lpage>312</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Weiner1"><label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Weiner</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Andersen</surname><given-names>SB</given-names></name>, <name name-style="western"><surname>Wille</surname><given-names>WKM</given-names></name>, <name name-style="western"><surname>Griepentrog</surname><given-names>HW</given-names></name>, <name name-style="western"><surname>Olsen</surname><given-names>JM</given-names></name> (<year>2010</year>) <article-title>Evolutionary agroecology: the potential for cooperative, high density, weed-suppressing cereals</article-title>. <source>Evol Appl</source> <volume>3</volume>:<fpage>473</fpage>–<lpage>479</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Momoh1"><label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Momoh</surname><given-names>EJJ</given-names></name>, <name name-style="western"><surname>Zhou</surname><given-names>W</given-names></name> (<year>2001</year>) <article-title>Growth and yield responses to plant density and stage of transplanting in winter oilseed rape (<italic>Brassica napus</italic> L.)</article-title>. <source>J Agron Crop Sci</source> <volume>186</volume>:<fpage>253</fpage>–<lpage>259</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Rathke1"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rathke</surname><given-names>GW</given-names></name>, <name name-style="western"><surname>Behrens</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Diepenbrock</surname><given-names>W</given-names></name> (<year>2006</year>) <article-title>Integrated nitrogen management strategies to improve seed yield, oil content and nitrogen efficiency of winter oilseed rape (<italic>Brassica napus</italic> L.): a review</article-title>. <source>Agr Ecosyst Environ</source> <volume>117</volume>:<fpage>80</fpage>–<lpage>108</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Donald1"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Donald</surname><given-names>CM</given-names></name> (<year>1968</year>) <article-title>The breeding of crop ideotypes</article-title>. <source>Euphytica</source> <volume>17</volume>:<fpage>385</fpage>–<lpage>403</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Peng1"><label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Peng</surname><given-names>SB</given-names></name>, <name name-style="western"><surname>Khush</surname><given-names>GS</given-names></name>, <name name-style="western"><surname>Virk</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Tang</surname><given-names>QY</given-names></name>, <name name-style="western"><surname>Zou</surname><given-names>YB</given-names></name> (<year>2008</year>) <article-title>Progress in ideotype breeding to increase rice yield potential</article-title>. <source>Field Crop Res</source> <volume>108</volume>:<fpage>32</fpage>–<lpage>38</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Katsura1"><label>16</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Katsura</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Maeda</surname><given-names>SH</given-names></name>, <name name-style="western"><surname>Horie</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Shiraiwa</surname><given-names>T</given-names></name> (<year>2007</year>) <article-title>Analysis of yield attributes and crop physiological traits of Liangyoupeijiu, a hybrid rice recently bred in China</article-title>. <source>Field Crop Res</source> <volume>103</volume>:<fpage>170</fpage>–<lpage>177</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Tandon1"><label>17</label>
+<mixed-citation publication-type="other" xlink:type="simple">Tandon JP, Jain HK (2004) Plant ideotype: the concept and application. Plant Breed 585–600.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Tollenaar1"><label>18</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tollenaar</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Lee</surname><given-names>EA</given-names></name> (<year>2006</year>) <article-title>Dissection of physiological processes underlying yield in maize by examining genetic improvement and heterosis</article-title>. <source>Maydica</source> <volume>51</volume>:<fpage>399</fpage>–<lpage>408</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Rao1"><label>19</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rao</surname><given-names>MS</given-names></name>, <name name-style="western"><surname>Mendham</surname><given-names>NJ</given-names></name>, <name name-style="western"><surname>Buzza</surname><given-names>GC</given-names></name> (<year>1991</year>) <article-title>Effect of the apetalous flower character on radiation distribution in the crop canopy, yield and its components in oilseed rape (<italic>Brassica napus</italic>)</article-title>. <source>J Agric Sci</source> <volume>117</volume>:<fpage>189</fpage>–<lpage>196</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Hua1"><label>20</label>
+<mixed-citation publication-type="other" xlink:type="simple">Hua W, Li RJ, Zhan GM, Liu J, Li J, <etal>et al</etal>.<bold>.</bold> (2012) Maternal control of seed oil content in <italic>Brassica napus</italic>: the role of silique wall photosynthesis. Plant J <volume>69</volume>:: 432–444.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Clark1"><label>21</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Clark</surname><given-names>JM</given-names></name> (<year>1978</year>) <article-title>The effect of leaf removal on yield components of <italic>Brassica napus</italic></article-title>. <source>Can J Plant Sci</source> <volume>58</volume>:<fpage>1103</fpage>–<lpage>1105</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Brahim1"><label>22</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brahim</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Ray</surname><given-names>DT</given-names></name>, <name name-style="western"><surname>Dierig</surname><given-names>DA</given-names></name> (<year>1998</year>) <article-title>Growth and yield characteristics of <italic>Lesquerella fendleri</italic> as a function of plant density</article-title>. <source>Ind Crop Prod</source> <volume>9</volume>:<fpage>63</fpage>–<lpage>71</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Leach1"><label>23</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Leach</surname><given-names>JE</given-names></name>, <name name-style="western"><surname>Stevenson</surname><given-names>HJ</given-names></name>, <name name-style="western"><surname>Rainbow</surname><given-names>AJ</given-names></name>, <name name-style="western"><surname>Mullen</surname><given-names>LA</given-names></name> (<year>1999</year>) <article-title>Effects of high plant populations on the growth and yield of winter oilseed rape (<italic>Brassica napus</italic> L.)</article-title>. <source>J Agric Sci</source> <volume>132</volume>:<fpage>173</fpage>–<lpage>180</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Sieling1"><label>24</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sieling</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Christen</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Nemati</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Hanus</surname><given-names>H</given-names></name> (<year>1997</year>) <article-title>Effects of previous cropping on seed yield and yield components of oilseed rape (<italic>Brassica napus</italic> L.)</article-title>. <source>Eur J Agron</source> <volume>6</volume>:<fpage>215</fpage>–<lpage>223</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-PeltonenSainio1"><label>25</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Peltonen-Sainio</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Jauhiainen</surname><given-names>L</given-names></name> (<year>2008</year>) <article-title>Association of growth dynamics, yield components and seed quality in long-term trails covering rapeseed cultivation history at high latitudes</article-title>. <source>Field Crop Res</source> <volume>108</volume>:<fpage>101</fpage>–<lpage>108</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Marshall1"><label>26</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><collab xlink:type="simple">Marshall</collab> (<year>1991</year>) <article-title>Alternative approaches and perspectives in breeding for higher yields</article-title>. <source>Field Crop Res</source> <volume>26</volume>:<fpage>171</fpage>–<lpage>190</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Thurling1"><label>27</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Thurling</surname><given-names>N</given-names></name> (<year>1991</year>) <article-title>Application of the ideotype concept in breeding for higher yield in the oilseed brassicas</article-title>. <source>Field Crop Res</source> <volume>26</volume>:<fpage>201</fpage>–<lpage>219</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Takai1"><label>28</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Takai</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Matsuura</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Nishio</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Ohsumi</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Shiraiwa</surname><given-names>T</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>Rice yield potential is closely related to crop growth rate during late reproductive period</article-title>. <source>Field Crop Res</source> <volume>96</volume>:<fpage>328</fpage>–<lpage>335</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Murchie1"><label>29</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Murchie</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Yang</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Hubbart</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Horton</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Peng</surname><given-names>S</given-names></name> (<year>2002</year>) <article-title>Are there associations between grain-filling rate and photosynthesis in the flag leaves of field-grown rice?</article-title> <source>J Exp Bot</source> <volume>53</volume>:<fpage>2217</fpage>–<lpage>2224</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Zhang1"><label>30</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhang</surname><given-names>YB</given-names></name>, <name name-style="western"><surname>Tang</surname><given-names>QY</given-names></name>, <name name-style="western"><surname>Zou</surname><given-names>YB</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>DQ</given-names></name>, <name name-style="western"><surname>Qin</surname><given-names>JQ</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Yield potential and radiation use efficiency of “super” hybrid rice grown under subtropical conditions</article-title>. <source>Field Crop Res</source> <volume>114</volume>:<fpage>91</fpage>–<lpage>98</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Alessandro1"><label>31</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Alessandro</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Laura</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Marco</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Iduna</surname><given-names>A</given-names></name> (<year>2007</year>) <article-title>Post-anthesis accumulation and remobilization of dry matter, nitrogen and phosphorus in durum wheat as affected by soil type</article-title>. <source>Eur J Agron</source> <volume>26</volume>:<fpage>179</fpage>–<lpage>186</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Abuelgasim1"><label>32</label>
+<mixed-citation publication-type="other" xlink:type="simple">Abuelgasim EH (1991) Plant type concept in crop improvement. Advances in Plant Breed, vol. 2. CBS Publishers, Delhi, pp. 254–260.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Mock1"><label>33</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mock</surname><given-names>JJ</given-names></name>, <name name-style="western"><surname>Pearce</surname><given-names>RB</given-names></name> (<year>1975</year>) <article-title>An ideotype of maize</article-title>. <source>Euphytica</source> <volume>24</volume>:<fpage>613</fpage>–<lpage>623</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0114232-Virk1"><label>34</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Virk</surname><given-names>PS</given-names></name>, <name name-style="western"><surname>Khush</surname><given-names>GS</given-names></name>, <name name-style="western"><surname>Peng</surname><given-names>S</given-names></name> (<year>2004</year>) <article-title>Breeding to enhance yield potential of rice at IRRI: the ideotype approach</article-title>. <source>IRRN</source> <volume>29</volume>:<fpage>5</fpage>–<lpage>9</lpage>.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

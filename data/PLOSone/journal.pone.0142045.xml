@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0142045</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-15-21054</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Impaired Glucose Tolerance or Newly Diagnosed Diabetes Mellitus Diagnosed during Admission Adversely Affects Prognosis after Myocardial Infarction: An Observational Study</article-title>
+<alt-title alt-title-type="running-head">Worse Prognosis with Glucose Intolerance Post Myocardial Infarction</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>George</surname>
+<given-names>Anish</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Bhatia</surname>
+<given-names>Raghav T.</given-names>
+</name>
+<xref rid="aff002" ref-type="aff"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Buchanan</surname>
+<given-names>Gill L.</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Whiteside</surname>
+<given-names>Anne</given-names>
+</name>
+<xref rid="aff003" ref-type="aff"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Moisey</surname>
+<given-names>Robert S.</given-names>
+</name>
+<xref rid="aff004" ref-type="aff"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Beer</surname>
+<given-names>Stephen F.</given-names>
+</name>
+<xref rid="aff003" ref-type="aff"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Chattopadhyay</surname>
+<given-names>Sudipta</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Sathyapalan</surname>
+<given-names>Thozhukat</given-names>
+</name>
+<xref rid="aff005" ref-type="aff"><sup>5</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>John</surname>
+<given-names>Joseph</given-names>
+</name>
+<xref rid="aff002" ref-type="aff"><sup>2</sup></xref>
+<xref rid="cor001" ref-type="corresp">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Department of Cardiology, Scunthorpe General Hospital, Scunthorpe, United Kingdom</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Department of Cardiology, Castle Hill Hospital, Kingston upon Hull, United Kingdom</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Department of Diabetes and Endocrinology, Scunthorpe General Hospital, Scunthorpe, United Kingdom</addr-line></aff>
+<aff id="aff004"><label>4</label> <addr-line>Department of Diabetes and Endocrinology, Calderdale and Huddersfield NHS Foundation Trust, Huddersfield, United Kingdom</addr-line></aff>
+<aff id="aff005"><label>5</label> <addr-line>Department of Academic Endocrinology, Diabetes and Metabolism, Hull York Medical School, University of Hull, Kingston upon Hull, United Kingdom</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Taniyama</surname>
+<given-names>Yoshiaki</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Osaka University Graduate School of Medicine, JAPAN</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="con" id="contrib001">
+<p>Conceived and designed the experiments: RSM SFB TS JJ SC AG RTB. Performed the experiments: AG RTB GLB AW TS JJ. Analyzed the data: AG RTB SC. Contributed reagents/materials/analysis tools: AG RTB SC. Wrote the paper: AG RTB GLB AW RSM SFB TS JJ SC. Acting as guarantors: AG JJ SC.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">Joseph.John@hey.nhs.uk</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>16</day>
+<month>11</month>
+<year>2015</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2015</year>
+</pub-date>
+<volume>10</volume>
+<issue>11</issue>
+<elocation-id>e0142045</elocation-id>
+<history>
+<date date-type="received">
+<day>1</day>
+<month>6</month>
+<year>2015</year>
+</date>
+<date date-type="accepted">
+<day>17</day>
+<month>10</month>
+<year>2015</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2015</copyright-year>
+<copyright-holder>George et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0142045" xlink:type="simple"/>
+<abstract>
+<sec id="sec001">
+<title>Objective</title>
+<p>To investigate the prognostic effect of newly diagnosed diabetes mellitus (NDM) and impaired glucose tolerance (IGT) post myocardial infarction (MI).</p>
+</sec>
+<sec id="sec002">
+<title>Research Design and Methods</title>
+<p>Retrospective cohort study of 768 patients without preexisting diabetes mellitus post-MI at one centre in Yorkshire between November 2005 and October 2008. Patients were categorised as normal glucose tolerance (NGT n = 337), IGT (n = 279) and NDM (n = 152) on pre- discharge oral glucose tolerance test (OGTT). Primary end-point was the first occurrence of major adverse cardiovascular events (MACE) including cardiovascular death, non-fatal MI, severe heart failure (HF) or non-haemorrhagic stroke. Secondary end-points were all cause mortality and individual components of MACE.</p>
+</sec>
+<sec id="sec003">
+<title>Results</title>
+<p>Prevalence of NGT, impaired fasting glucose (IFG), IGT and NDM changed from 90%, 6%, 0% and 4% on fasting plasma glucose (FPG) to 43%, 1%, 36% and 20% respectively after OGTT. 102 deaths from all causes (79 as first events of which 46 were cardiovascular), 95 non fatal MI, 18 HF and 9 non haemorrhagic strokes occurred during 47.2 ± 9.4 months follow up. Event free survival was lower in IGT and NDM groups. IGT (HR 1.54, 95% CI: 1.06–2.24, p = 0.024) and NDM (HR 2.15, 95% CI: 1.42–3.24, p = 0.003) independently predicted MACE free survival. IGT and NDM also independently predicted incidence of MACE. NDM but not IGT increased the risk of secondary end-points.</p>
+</sec>
+<sec id="sec004">
+<title>Conclusion</title>
+<p>Presence of IGT and NDM in patients presenting post-MI, identified using OGTT, is associated with increased incidence of MACE and is associated with adverse outcomes despite adequate secondary prevention.</p>
+</sec>
+</abstract>
+<funding-group>
+<funding-statement>The authors have no support or funding to report.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="1"/>
+<table-count count="4"/>
+<page-count count="12"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability" xlink:type="simple">
+<meta-name>Data Availability</meta-name>
+<meta-value>Ethical restrictions prevent the publication of data. Data are available from the Department of Cardiology at Scunthorpe District General Hospital and Department of Cardiology at Castle Hill Hospital for researchers who meet the criteria for access to confidential information. Please send requests for data access to Dr. Anish George (<email xlink:type="simple">anish26g@yahoo.com</email>).</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec005" sec-type="intro">
+<title>Introduction</title>
+<p>Newly diagnosed diabetes mellitus (NDM) and impaired glucose tolerance (IGT) diagnosed on pre-discharge oral glucose tolerance test (OGTT) are common in patients with myocardial infarction (MI) [<xref rid="pone.0142045.ref001" ref-type="bibr">1</xref>–<xref rid="pone.0142045.ref003" ref-type="bibr">3</xref>] and coronary artery disease (CAD) [<xref rid="pone.0142045.ref004" ref-type="bibr">4</xref>]. Current evidence suggests worse post- MI prognosis in both patients with preexisting diabetes mellitus and pre-diabetic states diagnosed on elevated admission blood glucose [<xref rid="pone.0142045.ref005" ref-type="bibr">5</xref>–<xref rid="pone.0142045.ref010" ref-type="bibr">10</xref>] and fasting blood glucose [<xref rid="pone.0142045.ref011" ref-type="bibr">11</xref>–<xref rid="pone.0142045.ref014" ref-type="bibr">14</xref>].</p>
+<p>The effect of post challenge hyperglycaemia on major adverse cardiovascular events (MACE) after MI is uncertain. Abnormal glucose tolerance (AGT) in some studies [<xref rid="pone.0142045.ref015" ref-type="bibr">15</xref>, <xref rid="pone.0142045.ref016" ref-type="bibr">16</xref>], but only NDM in others [<xref rid="pone.0142045.ref017" ref-type="bibr">17</xref>, <xref rid="pone.0142045.ref018" ref-type="bibr">18</xref>] increased the risk of MACE. NDM but neither impaired fasting glucose (IFG) nor IGT in patients with CAD was associated with an increased MACE in the Euro Heart Survey on diabetes and the heart [<xref rid="pone.0142045.ref004" ref-type="bibr">4</xref>]. In patients with ST-elevation MI (STEMI) treated with primary percutaneous coronary intervention (PPCI) OGTT determined glucometabolic status does not seem to independently affect prognosis [<xref rid="pone.0142045.ref019" ref-type="bibr">19</xref>, <xref rid="pone.0142045.ref020" ref-type="bibr">20</xref>]. Studies suggesting the adverse effect of newly diagnosed abnormal glucometabolic state on post-MI prognosis [<xref rid="pone.0142045.ref015" ref-type="bibr">15</xref>–<xref rid="pone.0142045.ref018" ref-type="bibr">18</xref>] recruited small number of patients before the widespread use of dual anti-platelet therapy, statin and drug eluting stent and did not clarify the independent effect of IGT or 2 hour post-load glucose on prognosis or test the relative ability of fasting and 2 hour post-load glucose in predicting prognosis.</p>
+<p>In our study, we aspire to bridge this gap in the evidence base- by analysing data collected on patients admitted with MI who underwent pre-discharge OGTT. We aim to evaluate the relationship between their glucometabolic status and long-term prognosis.</p>
+</sec>
+<sec id="sec006">
+<title>Research Design and Methods</title>
+<sec id="sec007">
+<title>Patient cohort</title>
+<p>After the GAMI study [<xref rid="pone.0142045.ref001" ref-type="bibr">1</xref>,<xref rid="pone.0142045.ref015" ref-type="bibr">15</xref>] and according to guidelines [<xref rid="pone.0142045.ref021" ref-type="bibr">21</xref>, <xref rid="pone.0142045.ref022" ref-type="bibr">22</xref>, <xref rid="pone.0142045.ref023" ref-type="bibr">23</xref>] all patients without preexisting diabetes mellitus admitted to our unit with a confirmed MI underwent pre-discharge OGTT as part of routine clinical care. This observational study includes all consecutive patients admitted to our unit between November 2005 and October 2008 who underwent OGTT and were prospectively followed up. Data on demographics, risk factors for CAD, history of confirmed CAD, pre-hospital and discharge medications, troponin I levels, and revascularisation status of every patient was prospectively entered into a local database for contribution to the Myocardial Infarction National Audit Project. Patients who died before the OGTT, were admitted under the surgeons, transferred to another centre for urgent revascularisation or did not tolerate the glucose drink for the OGTT were excluded. Mortality data was collected from the hospital care records for patients who died in hospital. For patients who died in the community, mortality data was obtained from the general practitioner medical records and confirmed by the data provided by the office of public health intelligence. As this study retrospectively reported on routinely collected anonymised data on standard clinical practice to contribute to a National Audit database, the East Yorkshire and North Lincolnshire Research Ethics Committee confirmed that formal patient consent and ethical approval was not required. We registered this study as an audit with the Local Audit and Clinical Governance Department.</p>
+<p>On or after the third day of admission, venous plasma glucose was measured after an overnight fast of ≥8 hours (FPG). A standardised OGTT (venous plasma glucose measured 2 hours after administration of 75g glucose (2-h PG) in 200 ml water) was performed on the same day. Plasma glucose was enzymatically determined using the glucose oxidase method. Intravenous glucose solutions were not allowed, but anti-adrenergic agents were used if clinically indicated. Patients, who were clinically too unstable for the test on day 3, were tested later during that admission. All patients diagnosed with IGT and NDM were advised lifestyle modification including diet, physical activity and referred to the diabetologists for appropriate management that was overseen by them as out-patients.</p>
+</sec>
+</sec>
+<sec id="sec008">
+<title>Definitions</title>
+<p>MI was diagnosed according to the universal definition [<xref rid="pone.0142045.ref024" ref-type="bibr">24</xref>]. A smoker was a person currently smoking or had stopped for &lt;2 years, hypertensive if treated for or newly diagnosed with hypertension, hypercholesterolaemic if total cholesterol &gt;5 mmol/l or treated for it. History of CAD included a history of confirmed MI and/ or PCI or coronary artery bypass grafting. The glucometabolic state was classified as follows: normal glucose tolerance (NGT): FPG &lt;6.1 mmol/l and a 2-h PG &lt;7.8 mmol/l; imapired fasting glucose (IFG): FPG 6.1–6.9 mmol/l and 2-h PG &lt;7.8 mmol/l; IGT: FPG &lt;7 mmol/l and 2-h PG 7.8–11 mmol/l. NDM: FPG ≥7.0 and/or 2-h PG ≥11.1 mmol/l. AGT was defined as patients with IGT or NDM. Patients with a clinical diagnosis of diabetes mellitus prior to the index admission were excluded. Patients were classified as having diabetes on the basis of history, regardless of duration of disease or need for anti-diabetic agents. The diagnosis was established if the patient had been informed of the diagnosis by a physician before the admission or was taking oral hypoglycaemic agents, insulin, or receiving dietary therapy. Although current guidelines supports the use of glycosylated haemoglobin (HbA1c) in diagnosing diabetes, for the purpose of this study it was not incorporated into the methodology since it was not recommended in contemporary guidance and was not available for routine use at our center at the time of the study [<xref rid="pone.0142045.ref021" ref-type="bibr">21</xref>, <xref rid="pone.0142045.ref025" ref-type="bibr">25</xref>, <xref rid="pone.0142045.ref026" ref-type="bibr">26</xref>, <xref rid="pone.0142045.ref027" ref-type="bibr">27</xref>].</p>
+<sec id="sec009">
+<title>Outcome measures</title>
+<p>All participants were followed up for a median of 48 months for outcomes. Follow-up data was complete for all patients. Completeness of follow up was ensured by manual review of hospital and general practice records. Importantly each event was recorded at the first occurrence only. Cardiovascular death was defined as death from myocardial infarction, heart failure, non-haemorrhagic stroke and sudden death without any obvious reason. A non-fatal re-infarction was defined as a non-fatal MI occurring later than 72 h after the index infarction. Stroke was defined as a neurological deficit persisting &gt;24 hours as observed by a physician with radiological confirmation of haemorrhagic or non-haemorrhagic stroke. Severe heart failure (HF) was recognised when causing hospital admission requiring intensification of or additional treatment. The primary end-point was a composite outcome defined as the first occurrence of a MACE including cardiovascular death, non-fatal re-infarction, severe heart failure or non-haemorrhagic stroke. Secondary end-points were all cause mortality, cardiovascular mortality, non-fatal re-infarctions, severe heart failure or stroke.</p>
+</sec>
+<sec id="sec010">
+<title>Statistical analysis</title>
+<p>Continuous variables are presented as medians (inter-quartile range) and categorical variables as counts and proportions (%). Differences in baseline characteristics between the three groups were compared using the one-way analysis of variance and Kruskal-Wallis test for parametric and non-parametric data respectively for continuous variables and chi-squared test for categorical variables. Event free survival was estimated in the three glucometabolic categories from Kaplan–Meier curves that were compared using the Log-rank test. Cox proportional-hazards regression modeling was used to analyse the effect of several variables on event free survival. All covariates known to affect prognosis after MI including age, gender, smoking status, hypercholesterolaemia, hypertension, history of previous acute myocardial infarction, diagnosis at discharge, discharge prescription of aspirin, clopidogrel, beta-blockers, angiotensin-converting enzyme inhibitors and statins, revascularisation status and glucometabolic status were “entered” into the model. Results are reported as hazard ratios (HRs) with associated 95% confidence intervals (CIs). Multivariate logistic regression models were used to calculate odds ratios (ORs) and 95% confidence intervals (CIs) for events in each glucometabolic categories after adjustment for all the other clinical characteristics.</p>
+</sec>
+</sec>
+<sec id="sec011" sec-type="results">
+<title>Results</title>
+<sec id="sec012">
+<title>Patients</title>
+<p>About 90% of the 1489 index admissions with raised troponin between November 2005 and October 2008 had a diagnosis of MI confirmed. Patients previously known to have diabetes (n = 289) were excluded. The baseline characteristics of 768 patients without preexisting diabetes mellitus with MI who had the OGTT are shown in <xref rid="pone.0142045.t001" ref-type="table">Table 1</xref>. Patients with IGT and NDM were older but all other clinical characteristics were similar in the 3 groups. OGTT was done on day 3 in 63.3% patients, day 4–7 in 33.3% and rest later. Patients who had their OGTT on day 3 had similar FPG (5.28 ± 0.75 v 5.20 ± 0.89, p = 0.17) and 2h-PG (8.75 ± 3.07 v 8.76 ± 3.14, p = 0.99) to those done later. About 63% of STEMI and 64% of NSTEMI patients had OGTT done on day three. The OGTT was done later in admission in STEMI than in NSTEMI patients (4.07±1.67 days v 3.82±1.37 days, p = 0.02). FPG (5.32 ± 0.80 v 5.21 ± 0.81, p = 0.06) and 2h-PG (8.76 ± 3.08 v 8.76 ± 3.11, p = 0.99) were similar in patients with NSTEMI and STEMI respectively. About 76% of patients presenting with STEMI were thrombolysed of which about 23% needed rescue PCI. Another 2% had PPCI. The rest were ineligible for thrombolysis and were not reperfused. Of the STEMI patients that did not undergo revascularisation acutely, 29% had ischaemia driven revascularisation (PCI in 72%). All patients with NSTEMI had coronary angiogram and 41% were revascularised (92% had PCI). Overall 42% of patients were revascularised (PCI 37%, CABG 5%). About 36% and 7% patients with STEMI and 38% and 3% with NSTEMI underwent PCI and CABG respectively.</p>
+<table-wrap id="pone.0142045.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0142045.t001</object-id>
+<label>Table 1</label> <caption><title>Clinical characteristics of the study population.</title></caption>
+<alternatives>
+<graphic id="pone.0142045.t001g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0142045.t001" xlink:type="simple"/>
+<table>
+<colgroup span="1">
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" rowspan="1" colspan="1"/>
+<th align="left" rowspan="1" colspan="1">NGT(n = 337)</th>
+<th align="left" rowspan="1" colspan="1">IGT(n = 279)</th>
+<th align="left" rowspan="1" colspan="1">NDM(n = 152)</th>
+<th align="center" rowspan="1" colspan="1">p</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Age (years; median; IQR)</td>
+<td align="left" rowspan="1" colspan="1">62(17)</td>
+<td align="left" rowspan="1" colspan="1">68(18)</td>
+<td align="left" rowspan="1" colspan="1">68(19)</td>
+<td align="char" char="." rowspan="1" colspan="1">&lt;0.001</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Male n (%)</td>
+<td align="left" rowspan="1" colspan="1">236(70)</td>
+<td align="left" rowspan="1" colspan="1">204(73)</td>
+<td align="left" rowspan="1" colspan="1">109(72)</td>
+<td align="char" char="." rowspan="1" colspan="1">0.70</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Current smoker</td>
+<td align="left" rowspan="1" colspan="1">101(30.0)</td>
+<td align="left" rowspan="1" colspan="1">96(34.4)</td>
+<td align="left" rowspan="1" colspan="1">46(30.3)</td>
+<td align="char" char="." rowspan="1" colspan="1">0.46</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Hypertension</td>
+<td align="left" rowspan="1" colspan="1">122(36.2)</td>
+<td align="left" rowspan="1" colspan="1">117(41.9)</td>
+<td align="left" rowspan="1" colspan="1">59(38.8)</td>
+<td align="char" char="." rowspan="1" colspan="1">0.35</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Hypercholesterolaemia</td>
+<td align="left" rowspan="1" colspan="1">151(44.8)</td>
+<td align="left" rowspan="1" colspan="1">134(48.0)</td>
+<td align="left" rowspan="1" colspan="1">67(44.1)</td>
+<td align="char" char="." rowspan="1" colspan="1">0.65</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Previous myocardial infarction</td>
+<td align="left" rowspan="1" colspan="1">51(15.1)</td>
+<td align="left" rowspan="1" colspan="1">59(21.1)</td>
+<td align="left" rowspan="1" colspan="1">29(19.1)</td>
+<td align="char" char="." rowspan="1" colspan="1">0.15</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Known IHD</td>
+<td align="left" rowspan="1" colspan="1">85(25.2)</td>
+<td align="left" rowspan="1" colspan="1">89(31.9)</td>
+<td align="left" rowspan="1" colspan="1">50(32.9)</td>
+<td align="char" char="." rowspan="1" colspan="1">0.10</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Family history</td>
+<td align="left" rowspan="1" colspan="1">138(40.9)</td>
+<td align="left" rowspan="1" colspan="1">115(41.2)</td>
+<td align="left" rowspan="1" colspan="1">65(42.8)</td>
+<td align="char" char="." rowspan="1" colspan="1">0.93</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Discharge diagnosis of NSTEMI</td>
+<td align="left" rowspan="1" colspan="1">196(58.2)</td>
+<td align="left" rowspan="1" colspan="1">159(57.0)</td>
+<td align="left" rowspan="1" colspan="1">92(60.5)</td>
+<td align="char" char="." rowspan="1" colspan="1">0.78</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Discharge medications</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"> Aspirin</td>
+<td align="left" rowspan="1" colspan="1">308(91.4)</td>
+<td align="left" rowspan="1" colspan="1">255(91.4)</td>
+<td align="left" rowspan="1" colspan="1">142(93.4)</td>
+<td align="char" char="." rowspan="1" colspan="1">0.72</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"> Clopidogrel</td>
+<td align="left" rowspan="1" colspan="1">280(83.1)</td>
+<td align="left" rowspan="1" colspan="1">222(79.6)</td>
+<td align="left" rowspan="1" colspan="1">129(84.9)</td>
+<td align="char" char="." rowspan="1" colspan="1">0.33</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"> Dual anti-platelet</td>
+<td align="left" rowspan="1" colspan="1">265(78.6)</td>
+<td align="left" rowspan="1" colspan="1">207(74.2)</td>
+<td align="left" rowspan="1" colspan="1">121(79.6)</td>
+<td align="char" char="." rowspan="1" colspan="1">0.31</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"> Beta-blocker</td>
+<td align="left" rowspan="1" colspan="1">260(77.2)</td>
+<td align="left" rowspan="1" colspan="1">211(75.6)</td>
+<td align="left" rowspan="1" colspan="1">116(76.3)</td>
+<td align="char" char="." rowspan="1" colspan="1">0.90</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"> ACEI/ARB</td>
+<td align="left" rowspan="1" colspan="1">270(80.1)</td>
+<td align="left" rowspan="1" colspan="1">236(84.6)</td>
+<td align="left" rowspan="1" colspan="1">128(84.2)</td>
+<td align="char" char="." rowspan="1" colspan="1">0.29</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"> Statin</td>
+<td align="left" rowspan="1" colspan="1">325(96.4)</td>
+<td align="left" rowspan="1" colspan="1">264(94.6)</td>
+<td align="left" rowspan="1" colspan="1">142(93.4)</td>
+<td align="char" char="." rowspan="1" colspan="1">0.30</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Revascularised</td>
+<td align="left" rowspan="1" colspan="1">147(43.6)</td>
+<td align="left" rowspan="1" colspan="1">118(42.3)</td>
+<td align="left" rowspan="1" colspan="1">58(38.2)</td>
+<td align="char" char="." rowspan="1" colspan="1">0.52</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Troponin I (μg/l; median; IQR)</td>
+<td align="left" rowspan="1" colspan="1">2.8(13.2)</td>
+<td align="left" rowspan="1" colspan="1">3.2(11.0)</td>
+<td align="left" rowspan="1" colspan="1">3.0(15.5)</td>
+<td align="char" char="." rowspan="1" colspan="1">0.82</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">FBG (mmol/l; median; IQR)</td>
+<td align="left" rowspan="1" colspan="1">4.9(0.5)</td>
+<td align="left" rowspan="1" colspan="1">5.1(0.8)</td>
+<td align="left" rowspan="1" colspan="1">5.7(1.3)</td>
+<td align="char" char="." rowspan="1" colspan="1">&lt;0.001</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">2HBG (mmol/l; median; IQR)</td>
+<td align="left" rowspan="1" colspan="1">6.3(1.6)</td>
+<td align="left" rowspan="1" colspan="1">9.2(1.9)</td>
+<td align="left" rowspan="1" colspan="1">12.9(2.7)</td>
+<td align="char" char="." rowspan="1" colspan="1">&lt;0.001</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>FPG categorised 689 (89.7%) patients as NGT, 48 (6.3%) as IFG and 31 (4.0%) as NDM. After OGTT, 328 (42.7%) patients had NGT, 9(1.2%) had IFG, 279 (36.3%) had IGT and 152 (19.8%) were NDM. As the 9 IFG patients by definition did not have post-load hyperglycaemia, they were included in the NGT group for purposes of the analysis. Of the 689 patients diagnosed normal on FPG alone, 261 (37.9%) had IGT and 100 (14.5%) had NDM. Of the 48 patients diagnosed IFG on FPG alone, 17 (37.4%) had IGT and 22 (45.8%) had NDM. Of the 431 (56.1%) patients with post- load hyperglycaemia, 361 (83.8%) had normal FPG.</p>
+</sec>
+<sec id="sec013">
+<title>Outcomes</title>
+<p><xref rid="pone.0142045.t002" ref-type="table">Table 2</xref> summarises all first events during 47.2 ± 9.4 months of follow up. A total of 224 events (102 deaths from all causes, 95 non fatal myocardial infarctions, 18 heart failure admissions and 9 non haemorrhagic strokes) occurred during follow up. Of the 102 deaths from all causes 32 (9.5%) with NGT, 44 (15.8%) with IGT and 26 (17.1%) with NDM), 79 occurred as the first event. A further 23 deaths occurred during follow up of patients who reached a non-fatal end-point. Of these 13 were cardiovascular deaths (3 in NGT, 8 in IGT and 2 in NDM groups), 4 cancer, 3 sepsis, 2 haemorrhagic strokes and 1 chronic obstructive pulmonary disease. Of the 33 non-cardiovascular deaths that that occurred as first event, 13 were due to cancer, 6 haemorrhagic stroke, 7 pneumonia, 3 sepsis, 2 acute renal failure, 1 gastrointestinal bleed and 1 chronic obstructive pulmonary disease.</p>
+<table-wrap id="pone.0142045.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0142045.t002</object-id>
+<label>Table 2</label> <caption><title>First cardiovascular events in relation to glucometabolic status.</title> <p>Events that occurred until death or Feb 1, 2011. Each event was recorded only once.</p></caption>
+<alternatives>
+<graphic id="pone.0142045.t002g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0142045.t002" xlink:type="simple"/>
+<table>
+<colgroup span="1">
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" rowspan="1" colspan="1"/>
+<th align="center" rowspan="1" colspan="1">NGT (n = 337)</th>
+<th align="center" rowspan="1" colspan="1">IGT (n = 279)</th>
+<th align="center" rowspan="1" colspan="1">NDM (n = 152)</th>
+<th align="center" rowspan="1" colspan="1">p</th>
+<th align="center" rowspan="1" colspan="1">Total (n = 768)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Death</td>
+<td align="left" rowspan="1" colspan="1">24(7.1)</td>
+<td align="left" rowspan="1" colspan="1">33(11.8)</td>
+<td align="left" rowspan="1" colspan="1">22(14.5)</td>
+<td align="char" char="." rowspan="1" colspan="1">0.027</td>
+<td align="left" rowspan="1" colspan="1">79(10.3)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Non-cardiovascular</td>
+<td align="left" rowspan="1" colspan="1">13(3.9)</td>
+<td align="left" rowspan="1" colspan="1">12(4.3)</td>
+<td align="left" rowspan="1" colspan="1">8(5.3)</td>
+<td align="char" char="." rowspan="1" colspan="1">0.778</td>
+<td align="left" rowspan="1" colspan="1">33(4.3)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Cardiovascular</td>
+<td align="left" rowspan="1" colspan="1">11(3.3)</td>
+<td align="left" rowspan="1" colspan="1">21(7.5)</td>
+<td align="left" rowspan="1" colspan="1">14(9.2)</td>
+<td align="char" char="." rowspan="1" colspan="1">0.015</td>
+<td align="left" rowspan="1" colspan="1">46(6.0)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Non-fatal re-infarction</td>
+<td align="left" rowspan="1" colspan="1">31(9.2)</td>
+<td align="left" rowspan="1" colspan="1">35(12.5)</td>
+<td align="left" rowspan="1" colspan="1">29(19.1)</td>
+<td align="char" char="." rowspan="1" colspan="1">0.009</td>
+<td align="left" rowspan="1" colspan="1">95(12.4)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Non-haemorrhagic stroke</td>
+<td align="left" rowspan="1" colspan="1">1(0.3)</td>
+<td align="left" rowspan="1" colspan="1">6(2.2)</td>
+<td align="left" rowspan="1" colspan="1">2(1.3)</td>
+<td align="char" char="." rowspan="1" colspan="1">0.102</td>
+<td align="left" rowspan="1" colspan="1">9(1.2)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Heart failure re-admission</td>
+<td align="left" rowspan="1" colspan="1">5(1.5)</td>
+<td align="left" rowspan="1" colspan="1">9(3.2)</td>
+<td align="left" rowspan="1" colspan="1">4(2.6)</td>
+<td align="char" char="." rowspan="1" colspan="1">0.351</td>
+<td align="left" rowspan="1" colspan="1">18(2.3)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">MACE<xref rid="t002fn001" ref-type="table-fn">*</xref></td>
+<td align="left" rowspan="1" colspan="1">48(14.2)</td>
+<td align="left" rowspan="1" colspan="1">71(25.5)</td>
+<td align="left" rowspan="1" colspan="1">49(32.2)</td>
+<td align="char" char="." rowspan="1" colspan="1">0.000</td>
+<td align="left" rowspan="1" colspan="1">168(21.8)</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p>* Major adverse cardiovascular events: first occurrence of cardiovascular death, non- fatal re-infarction, non-haemorrhagic stroke or severe heart failure.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>The incidence of adverse events progressively increased from the NGT to the NDM group (<xref rid="pone.0142045.t002" ref-type="table">Table 2</xref>). Event-free survival was significantly different in the three groups (<xref rid="pone.0142045.g001" ref-type="fig">Fig 1</xref>). After adjustment for covariates using Cox proportional hazard modeling (<xref rid="pone.0142045.t002" ref-type="table">Table 2</xref>), NDM and IGT were strong independent predictors of survival free of the primary end-point. NDM also independently predicted all cause mortality (HR 2.14, 95% CI: 1.17–3.94; p = 0.0145), cardiovascular mortality (HR 2.83, 95% CI: 1.24–6.45; p = 0.0135), non-fatal MI (HR 1.96, 95% CI: 1.16–3.29; p = 0.0121) and combined cardiovascular death or non-fatal MI (HR 2.17, 95% CI: 1.39–3.38; p = 0.0007). Absence of AGT predicted reduced cardiovascular deaths (HR 0.45, 95% CI: 0.23–0.91; p = 0.0257), combined cardiovascular death or non-fatal MI (HR 0.62, 95% CI: 0.43–0.90; p = 0.0125) and combined cardiovascular death or non-fatal MI or heart failure (HR 0.61, 95% CI: 0.43–0.87; p = 0.0069). The adjusted ORs for MACE were significantly higher in the IGT, NDM and AGT groups. The odds of the secondary end-points increased with NDM and AGT but not IGT (<xref rid="pone.0142045.t003" ref-type="table">Table 3</xref>).</p>
+<fig id="pone.0142045.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0142045.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Kaplan–Meier estimates for the three groups showing survival free of all cause mortality.</title>
+<p>Numbers below graph are the number of patients at risk. Survival compared using log-rank test.</p>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0142045.g001" position="float" xlink:type="simple"/>
+</fig>
+<table-wrap id="pone.0142045.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0142045.t003</object-id>
+<label>Table 3</label> <caption><title>Candidate predictors of major cardiovascular events free survival for the entire study population using Cox proportional hazard modelling.</title></caption>
+<alternatives>
+<graphic id="pone.0142045.t003g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0142045.t003" xlink:type="simple"/>
+<table>
+<colgroup span="1">
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" rowspan="1" colspan="1">Covariates</th>
+<th align="center" rowspan="1" colspan="1">p</th>
+<th align="center" rowspan="1" colspan="1">HR</th>
+<th align="left" rowspan="1" colspan="1">95% CI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Age</td>
+<td align="char" char="." rowspan="1" colspan="1">&lt;0.0001</td>
+<td align="char" char="." rowspan="1" colspan="1">1.037</td>
+<td align="left" rowspan="1" colspan="1">1.02–1.05</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Previous myocardial infarction</td>
+<td align="char" char="." rowspan="1" colspan="1">&lt;0.0001</td>
+<td align="char" char="." rowspan="1" colspan="1">2.281</td>
+<td align="left" rowspan="1" colspan="1">1.63–3.18</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Newly diagnosed DM</td>
+<td align="char" char="." rowspan="1" colspan="1">0.0003</td>
+<td align="char" char="." rowspan="1" colspan="1">2.148</td>
+<td align="left" rowspan="1" colspan="1">1.42–3.24</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Newly diagnosed IGT</td>
+<td align="char" char="." rowspan="1" colspan="1">0.0242</td>
+<td align="char" char="." rowspan="1" colspan="1">1.543</td>
+<td align="left" rowspan="1" colspan="1">1.06–2.24</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Discharged without beta-blockers</td>
+<td align="char" char="." rowspan="1" colspan="1">0.0365</td>
+<td align="char" char="." rowspan="1" colspan="1">1.446</td>
+<td align="left" rowspan="1" colspan="1">1.03–2.04</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Discharge diagnosis of STEMI</td>
+<td align="char" char="." rowspan="1" colspan="1">0.0475</td>
+<td align="char" char="." rowspan="1" colspan="1">1.382</td>
+<td align="left" rowspan="1" colspan="1">1.01–1.90</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Discharged without ACEI</td>
+<td align="char" char="." rowspan="1" colspan="1">0.0614</td>
+<td align="char" char="." rowspan="1" colspan="1">1.442</td>
+<td align="left" rowspan="1" colspan="1">0.98–2.11</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Hypertension</td>
+<td align="char" char="." rowspan="1" colspan="1">0.1001</td>
+<td align="char" char="." rowspan="1" colspan="1">1.303</td>
+<td align="left" rowspan="1" colspan="1">0.95–1.78</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Discharged without Aspirin</td>
+<td align="char" char="." rowspan="1" colspan="1">0.1297</td>
+<td align="char" char="." rowspan="1" colspan="1">1.447</td>
+<td align="left" rowspan="1" colspan="1">0.90–2.33</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Revascularised</td>
+<td align="char" char="." rowspan="1" colspan="1">0.1407</td>
+<td align="char" char="." rowspan="1" colspan="1">1.273</td>
+<td align="left" rowspan="1" colspan="1">0.92–1.75</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Hypercholesterolaemia</td>
+<td align="char" char="." rowspan="1" colspan="1">0.3550</td>
+<td align="char" char="." rowspan="1" colspan="1">0.860</td>
+<td align="left" rowspan="1" colspan="1">0.63–1.18</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Discharged without clopidogrel</td>
+<td align="char" char="." rowspan="1" colspan="1">0.4246</td>
+<td align="char" char="." rowspan="1" colspan="1">1.162</td>
+<td align="left" rowspan="1" colspan="1">0.80–1.68</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Female gender</td>
+<td align="char" char="." rowspan="1" colspan="1">0.4765</td>
+<td align="char" char="." rowspan="1" colspan="1">0.879</td>
+<td align="left" rowspan="1" colspan="1">0.62–1.25</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Current smoker</td>
+<td align="char" char="." rowspan="1" colspan="1">0.6055</td>
+<td align="char" char="." rowspan="1" colspan="1">0.904</td>
+<td align="left" rowspan="1" colspan="1">0.62–1.32</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Discharged without statin</td>
+<td align="char" char="." rowspan="1" colspan="1">0.6460</td>
+<td align="char" char="." rowspan="1" colspan="1">1.152</td>
+<td align="left" rowspan="1" colspan="1">0.63–2.10</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>Log-likelihood ratio tests were used to compare the fit of predictive models using categories based on FPG and OGTT only and in combination (<xref rid="pone.0142045.t004" ref-type="table">Table 4</xref>). Comparing nested models showed that including the OGTT categories significantly improved the predictability of the model based on FPG categories and above noted risk factors, for MACE (χ2 = 26.41, df = 3, p = 0.00), cardiovascular death (χ2 = 9.1, df = 3, p = 0.03), non- fatal MI (χ2 = 11.75, df = 3, p = 0.01) and combined end-point of cardiovascular deaths and non-fatal MI (χ2 = 19.18, df = 3, p = 0.00). In contrast, the addition of categories based on FPG only to the model based on OGTT categories and risk factors did not significantly improve the prediction of the model for MACE (χ2 = 0.44, df = 2, p = 0.80), cardiovascular deaths (χ2 = 0.59, df = 2, p = 0.74), non-fatal MI (χ2 = 0.08, df = 2, p = 0.96) and combined end-point of cardiovascular deaths and non-fatal MI (χ2 = 0.13, df = 2, p = 0.94).</p>
+<table-wrap id="pone.0142045.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0142045.t004</object-id>
+<label>Table 4</label> <caption><title>Adjusted logistic regression for the primary and secondary end-points at the end of follow up according to glucometabolic state after the oral glucose tolerance test.</title></caption>
+<alternatives>
+<graphic id="pone.0142045.t004g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0142045.t004" xlink:type="simple"/>
+<table>
+<colgroup span="1">
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" rowspan="1" colspan="1"/>
+<th align="left" rowspan="1" colspan="1">NGT</th>
+<th colspan="3" align="left" rowspan="1">IGT</th>
+<th colspan="3" align="left" rowspan="1">DM</th>
+</tr>
+<tr>
+<th align="left" rowspan="1" colspan="1"/>
+<th align="left" rowspan="1" colspan="1"/>
+<th align="left" rowspan="1" colspan="1">OR<xref rid="t004fn001" ref-type="table-fn">*</xref>(OR<xref rid="t004fn002" ref-type="table-fn">**</xref>)</th>
+<th align="left" rowspan="1" colspan="1">95% CI</th>
+<th align="left" rowspan="1" colspan="1">p</th>
+<th align="left" rowspan="1" colspan="1">OR<xref rid="t004fn001" ref-type="table-fn">*</xref> (OR<xref rid="t004fn002" ref-type="table-fn">**</xref>)</th>
+<th align="left" rowspan="1" colspan="1">95% CI</th>
+<th align="left" rowspan="1" colspan="1">p</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">All death</td>
+<td align="char" char="." rowspan="1" colspan="1">1.00</td>
+<td align="left" rowspan="1" colspan="1">1.28 (1.75)</td>
+<td align="left" rowspan="1" colspan="1">0.69–2.40 (1.01–3.04)</td>
+<td align="left" rowspan="1" colspan="1">0.436 (0.047)</td>
+<td align="left" rowspan="1" colspan="1">2.05 (2.21)</td>
+<td align="left" rowspan="1" colspan="1">0.99–4.28 (1.19–4.08)</td>
+<td align="left" rowspan="1" colspan="1">0.055(0.011)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Cardiovascular death</td>
+<td align="char" char="." rowspan="1" colspan="1">1.00</td>
+<td align="left" rowspan="1" colspan="1">1.83 (2.41)</td>
+<td align="left" rowspan="1" colspan="1">0.81–4.09 (1.14–5.09)</td>
+<td align="left" rowspan="1" colspan="1">0.144(0.021)</td>
+<td align="left" rowspan="1" colspan="1">3.40 (3.01)</td>
+<td align="left" rowspan="1" colspan="1">1.31–8.85 (1.33–6.79)</td>
+<td align="left" rowspan="1" colspan="1">0.012(0.008)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Non-fatal MI</td>
+<td align="char" char="." rowspan="1" colspan="1">1.00</td>
+<td align="left" rowspan="1" colspan="1">1.19 (1.42)</td>
+<td align="left" rowspan="1" colspan="1">0.69–2.06 (0.85–2.36)</td>
+<td align="left" rowspan="1" colspan="1">0.527 (0.183)</td>
+<td align="left" rowspan="1" colspan="1">2.09 (2.33)</td>
+<td align="left" rowspan="1" colspan="1">1.17–3.75 (1.35–4.03)</td>
+<td align="left" rowspan="1" colspan="1">0.013(0.002)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">CVS death or non-fatal MI</td>
+<td align="char" char="." rowspan="1" colspan="1">1.00</td>
+<td align="left" rowspan="1" colspan="1">1.41(1.76)</td>
+<td align="left" rowspan="1" colspan="1">0.87–2.28 (1.14–2.73)</td>
+<td align="left" rowspan="1" colspan="1">0.159(0.011)</td>
+<td align="left" rowspan="1" colspan="1">2.59 (2.77)</td>
+<td align="left" rowspan="1" colspan="1">1.53–4.40 (1.72–4.47)</td>
+<td align="left" rowspan="1" colspan="1">0.000(0.000)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">CVS death, non-fatal MI or CCF</td>
+<td align="char" char="." rowspan="1" colspan="1">1.00</td>
+<td align="left" rowspan="1" colspan="1">1.52(1.87)</td>
+<td align="left" rowspan="1" colspan="1">0.96–2.40 (1.24–2.84)</td>
+<td align="left" rowspan="1" colspan="1">0.071 (0.003)</td>
+<td align="left" rowspan="1" colspan="1">2.52 (2.76)</td>
+<td align="left" rowspan="1" colspan="1">1.51–4.20 (1.74–4.38)</td>
+<td align="left" rowspan="1" colspan="1">0.000(0.000)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">MACE</td>
+<td align="char" char="." rowspan="1" colspan="1">1.00</td>
+<td align="left" rowspan="1" colspan="1">1.74 (2.05)</td>
+<td align="left" rowspan="1" colspan="1">1.11–2.72 (1.36–3.08)</td>
+<td align="left" rowspan="1" colspan="1">0.016 (0.000)</td>
+<td align="left" rowspan="1" colspan="1">2.71 (2.86)</td>
+<td align="left" rowspan="1" colspan="1">1.63–4.50 (1.81–4.52)</td>
+<td align="left" rowspan="1" colspan="1">0.000(0.000)</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t004fn001"><p>* Odds ratio adjusted for age, gender, previous history of myocardial infarction, smoking status, hyperlipidaemia, hypertension, discharge diagnosis (STEMI, NSTEMI), discharge medications i.e. aspirin, clopidogrel, statin, ACEI or ARB and beta-blockers and revascularisation.</p></fn>
+<fn id="t004fn002"><p>**Unadjusted Odds ratio.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+</sec>
+<sec id="sec014" sec-type="conclusions">
+<title>Conclusion</title>
+<p>Our study confirms that (1) a large proportion of patients without preexisting diabetes mellitus admitted with MI have new DM and IGT that would remain undiagnosed on FPG only, (2) the incidence of MACE after MI progressively increases from the patients with NGT to NDM, (3) MACE-free survival in these patients is worse not only with NDM but also with IGT and (4) both NDM and IGT are strong predictors of MACE.</p>
+<p>It is well recognized that the vascular risk associated with glucometabolic disorders appear early in the course of the disease spectrum, and years ahead of the development of diabetes [<xref rid="pone.0142045.ref028" ref-type="bibr">28</xref>]. The high prevalence rate of IGT in our study is in keeping with this and suggests that risk of MI extends to patients with pre-diabetic conditions as well.</p>
+<p>This is by far the largest study assessing the effect of newly diagnosed AGT on prognosis after MI. Most previous studies [<xref rid="pone.0142045.ref015" ref-type="bibr">15</xref>–<xref rid="pone.0142045.ref017" ref-type="bibr">17</xref>] recruited fewer patients before the widespread use of statins, clopidogrel and drug eluting stents. The effect of IGT on prognosis remained unclear in previous studies. Although both the GAMI group [<xref rid="pone.0142045.ref001" ref-type="bibr">1</xref>, <xref rid="pone.0142045.ref015" ref-type="bibr">15</xref>] and Tamita et al [<xref rid="pone.0142045.ref016" ref-type="bibr">16</xref>] suggest the independent effect of AGT on MACE, neither study report the adjusted hazard of MACE in patients with IGT and NDM separately. Thus it is unclear whether IGT affected prognosis in these studies. Kitada et al [<xref rid="pone.0142045.ref017" ref-type="bibr">17</xref>] reported similar MACE rates in the NGT and IGT groups with higher MACE rates in NDM. MACE predominantly consisted of revascularisation for restenosis and de novo lesions with very few cardiovascular events. Euro Heart Survey [<xref rid="pone.0142045.ref004" ref-type="bibr">4</xref>] reported prognosis in 2515 non-diabetic patients with CAD, included 1029 with MI classified based on OGTT. Within the whole population, NDM but not IGT independently increased the risk of death but not the other end-points. As MACE in the MI patients has not been published separately, it is impossible to infer the prognostic effect of the glucometabolic states in these patients from this study. Our study clearly demonstrates that not only NDM but also IGT independently adversely affects prognosis after MI. This study confirms previous reports [<xref rid="pone.0142045.ref001" ref-type="bibr">1</xref>, <xref rid="pone.0142045.ref016" ref-type="bibr">16</xref>, <xref rid="pone.0142045.ref027" ref-type="bibr">27</xref>, <xref rid="pone.0142045.ref029" ref-type="bibr">29</xref>] that FPG alone underestimates the prevalence of abnormal glucometabolic state. About 90% of our patients were diagnosed normal by FPG only and 84% of patients with AGT had normal FPG. In the DECODE study, about 37% of NDM diagnosed on OGTT were normal on FPG criteria [<xref rid="pone.0142045.ref027" ref-type="bibr">27</xref>]. In the GAMI population [<xref rid="pone.0142045.ref001" ref-type="bibr">1</xref>], 10% had NDM on FPG criteria compared to 31% on OGTT criteria. The reliability of pre-discharge OGTT in reflecting “true” glucometabolic state may be dependent on its timing in relation to the cardiac event and the severity of the event itself. The pre-discharge glucometabolic category may [<xref rid="pone.0142045.ref019" ref-type="bibr">19</xref>, <xref rid="pone.0142045.ref020" ref-type="bibr">20</xref>, <xref rid="pone.0142045.ref029" ref-type="bibr">29</xref>] or may not [<xref rid="pone.0142045.ref030" ref-type="bibr">30</xref>, <xref rid="pone.0142045.ref031" ref-type="bibr">31</xref>] change in the medium to long term in these patients. Glucometabolic categories based on OGTT done within 24 hours of a STEMI changed in 46% patients at 3 months post-discharge [<xref rid="pone.0142045.ref029" ref-type="bibr">29</xref>]. Glucometabolic abnormality seems to be overestimated within the first 24 hours after STEMI [<xref rid="pone.0142045.ref019" ref-type="bibr">19</xref>, <xref rid="pone.0142045.ref029" ref-type="bibr">29</xref>]. However, OGTT done at or after 5 days seems to reliably predict long term glucometabolic state [<xref rid="pone.0142045.ref030" ref-type="bibr">30</xref>, <xref rid="pone.0142045.ref031" ref-type="bibr">31</xref>]. This may be related to the subsidence of the acute responses between 2–5 days with no further decrease thereafter [<xref rid="pone.0142045.ref031" ref-type="bibr">31</xref>]. Hage et al [<xref rid="pone.0142045.ref032" ref-type="bibr">32</xref>] suggested a somewhat better reproducibility of OGTT in patients with subendocardial than transmural infarction. All our patients had the OGTT at least three days (37% ≥ day 4) after the index event. This makes it likely that the results would reliably predict long term glucometabolic state. Irrespective of its relation to long term glucometabolic status, pre-charge OGTT based classification independently predicted prognosis in our post-MI patients.</p>
+<p>While the measurement of HbA1c would have improved the understanding of the glucometabolic status of these patients, especially with regard to the role of stress induced hyperglycaemia in the prevalence of abnormal glucose tolerance; this was not available for use at our center on a routine basis. Furthermore, while HbA1c identifies patients with NDM, it has limited use in the identification of patients with intermediate hyperglycaemia or IGT. Recent studies have shown an increased incidence of adverse events in non-diabetic post MI patients with elevated HbA1c, suggesting that the underlying mechanism is not entirely a stress mediated response [<xref rid="pone.0142045.ref028" ref-type="bibr">28</xref>]. Furthermore, the purpose of the study was to ascertain the prognostic risk of post challenge hyperglycaemia in patients following acute MI, irrespective of the underlying pathophysiology.</p>
+<p>There are some differences in baseline characteristics across the three groups, which could have influenced the results. Patients with IGT and NDM were older than the patients in NGT group, which was noted to be statistically significant. Although we have adjusted for this in the cox proportional hazard regression model and while it is unlikely to explain the increased incidence of adverse events in the IGT and NDM group; it is difficult to be certain if there any residual confounding in the final result. Similar baseline variation, especially in age, between NGT and AGT has been noted in other similar studies as well [<xref rid="pone.0142045.ref015" ref-type="bibr">15</xref>, <xref rid="pone.0142045.ref019" ref-type="bibr">19</xref>].</p>
+<p>The MACE rates in our study are similar to those previously reported [<xref rid="pone.0142045.ref015" ref-type="bibr">15</xref>–<xref rid="pone.0142045.ref017" ref-type="bibr">17</xref>, <xref rid="pone.0142045.ref019" ref-type="bibr">19</xref>]. Contrary to some [<xref rid="pone.0142045.ref016" ref-type="bibr">16</xref>, <xref rid="pone.0142045.ref017" ref-type="bibr">17</xref>], our study suggests that clinical events rather non-target vessel revascularisation may predominate MACE in post-MI patients newly diagnosed with IGT or DM. The management of our patients matched contemporary published data [<xref rid="pone.0142045.ref004" ref-type="bibr">4</xref>, <xref rid="pone.0142045.ref015" ref-type="bibr">15</xref>]. The revascularisation rate was similar to the GRACE registry [<xref rid="pone.0142045.ref032" ref-type="bibr">32</xref>]. Compared to the EHS-ACS II survey [<xref rid="pone.0142045.ref033" ref-type="bibr">33</xref>], PCI rates were lower in STEMI, as most patients were thrombolysed, but similar in NSTEMI patients.</p>
+<p>In the absence of robust evidence for prognostic, benefits of intensive glycaemic control [<xref rid="pone.0142045.ref034" ref-type="bibr">34</xref>], none of our patients underwent in- hospital intensive glucose lowering therapy. They were not discharged on hypoglycaemic agents due to the uncertainty whether the dysglycaemia detected pre-discharge truly reflected the “true” glucometabolic status. All IGT and NDM patients were advised lifestyle modification including diet, physical activity and were referred to the cardiac rehabilitation service. They were also referred to the diabetologists for appropriate management that was overseen by them as out-patients.</p>
+</sec>
+<sec id="sec015">
+<title>Limitations</title>
+<p>Being an observational longitudinal cohort study using retrospective analysis of prospectively collected data from a single centre, it has its limitations. In line with all other studies [<xref rid="pone.0142045.ref004" ref-type="bibr">4</xref>, <xref rid="pone.0142045.ref015" ref-type="bibr">15</xref>– <xref rid="pone.0142045.ref017" ref-type="bibr">17</xref>], we did not explore the interaction between either acute revascularisation and post-challenge hyperglycaemia or post-discharge management of the glucometabolic status and prognosis. As OGTT was not repeated pre- or post- discharge, it is uncertain whether random fluctuation in glycaemia or stress associated hyperglycaemia affected results. However, as pre-discharge post-challenge hyperglycaemia, irrespective of its pathophysiological mechanism, diagnosed on these measurements predicted outcomes in post-MI patients, the reproducibility of these measurements and its relation to long term glucometabolic status may be less relevant when assessing prognostic risk. Though we could not include a small proportion of non-diabetic post-MI patients admitted to our institution who could not have OGTT for valid reasons, we feel that it would be acceptable to extend the results of this study to the whole population.</p>
+<p>In summary, our study suggests for the first time that risk of MACE after an MI is increased not only in newly diagnosed DM but also in IGT. It provides further evidence to support the previous finding that dysglycaemia is common post MI in patients without preexisting diabetes mellitus. Importantly as the glucometabolic status of a large proportion of patients would be misdiagnosed on FPG only, an appropriately timed OGTT after MI, may be helpful in assessing prognostic risk and plan future management.</p>
+</sec>
+</body>
+<back>
+<ack>
+<p>We thank the patients involved and are grateful to Scunthorpe General Hospital NHS Trust for their support. The authors have no conflict of interests.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0142045.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Norhammar</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Tenerz</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Nilsson</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Hamsten</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Efendic</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Ryden</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>Glucose metabolism in patients with acute myocardial infarction and no previous diagnosis of diabetes mellitus: a prospective study</article-title>. <source>Lancet</source> <year>2002</year>, <volume>359</volume>:<fpage>2140</fpage>–<lpage>2144</lpage>. <object-id pub-id-type="pmid">12090978</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bartnik</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Malmberg</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Hamsten</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Efendic</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Norhammar</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Silveira</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Abnormal glucose tolerance—a common risk factor in patients with acute myocardial infarction in comparison with population-based controls</article-title>. <source>J Intern Med</source> <year>2004</year>, <volume>256</volume>:<fpage>288</fpage>–<lpage>297</lpage>. <object-id pub-id-type="pmid">15367171</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hashimoto</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Ikewaki</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Yagi</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Nagasawa</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Imamoto</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Shibata</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Glucose intolerance is common in Japanese patients with acute coronary syndrome who were not previously diagnosed with diabetes</article-title>. <source>Diabetes Care</source> <year>2005</year>, <volume>28</volume>:<fpage>1182</fpage>–<lpage>1186</lpage>. <object-id pub-id-type="pmid">15855586</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lenzen</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ryden</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Ohrvik</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Bartnik</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Malmberg</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Scholte Op</surname> <given-names>RW</given-names></name>, <etal>et al</etal>. <article-title>Diabetes known or newly detected, but not impaired glucose regulation, has a negative influence on 1-year outcome in patients with coronary artery disease: a report from the Euro Heart Survey on diabetes and the heart</article-title>. <source>Eur Heart J</source> <year>2006</year>, <volume>27</volume>:<fpage>2969</fpage>–<lpage>2974</lpage>. <object-id pub-id-type="pmid">17090612</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Stranders</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Diamant</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>van Gelder</surname> <given-names>RE</given-names></name>, <name name-style="western"><surname>Spruijt</surname> <given-names>HJ</given-names></name>, <name name-style="western"><surname>Twisk</surname> <given-names>JW</given-names></name>, <name name-style="western"><surname>Heine</surname> <given-names>RJ</given-names></name>, <etal>et al</etal>. <article-title>Admission blood glucose level as risk indicator of death after myocardial infarction in patients with and without diabetes mellitus</article-title>. <source>Arch Intern Med</source> <year>2004</year>, <volume>164</volume>:<fpage>982</fpage>–<lpage>988</lpage>. <object-id pub-id-type="pmid">15136307</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Norhammar</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Ryden</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Malmberg</surname> <given-names>K</given-names></name>. <article-title>Admission plasma glucose. Independent risk factor for long-term prognosis after myocardial infarction even in nondiabetic patients</article-title>. <source>Diabetes Care</source> <year>1999</year>, <volume>22</volume>:<fpage>1827</fpage>–<lpage>1831</lpage>. <object-id pub-id-type="pmid">10546015</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wahab</surname> <given-names>NN</given-names></name>, <name name-style="western"><surname>Cowden</surname> <given-names>EA</given-names></name>, <name name-style="western"><surname>Pearce</surname> <given-names>NJ</given-names></name>, <name name-style="western"><surname>Gardner</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Merry</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Cox</surname> <given-names>JL</given-names></name>. <article-title>Is blood glucose an independent predictor of mortality in acute myocardial infarction in the thrombolytic era?</article-title> <source>J Am Coll Cardiol</source> <year>2002</year>, <volume>40</volume>:<fpage>1748</fpage>–<lpage>1754</lpage>. <object-id pub-id-type="pmid">12446057</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bolk</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>van der</surname> <given-names>PT</given-names></name>, <name name-style="western"><surname>Cornel</surname> <given-names>JH</given-names></name>, <name name-style="western"><surname>Arnold</surname> <given-names>AE</given-names></name>, <name name-style="western"><surname>Sepers</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Umans</surname> <given-names>VA</given-names></name>. <article-title>Impaired glucose metabolism predicts mortality after a myocardial infarction</article-title>. <source>Int J Cardiol</source> <year>2001</year>, <volume>79</volume>:<fpage>207</fpage>–<lpage>214</lpage>. <object-id pub-id-type="pmid">11461743</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bellodi</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Manicardi</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Malavasi</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Veneri</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Bernini</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Bossini</surname> <given-names>P</given-names></name>, <etal>et al</etal>. <article-title>Hyperglycemia and prognosis of acute myocardial infarction in patients without diabetes mellitus</article-title>. <source>Am J Cardiol</source> <year>1989</year>, <volume>64</volume>:<fpage>885</fpage>–<lpage>888</lpage>. <object-id pub-id-type="pmid">2801556</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Leor</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Goldbourt</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Reicher-Reiss</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Kaplinsky</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Behar</surname> <given-names>S</given-names></name>. <article-title>Cardiogenic shock complicating acute myocardial infarction in patients without heart failure on admission: incidence, risk factors, and outcome. SPRINT Study Group</article-title>. <source>Am J Med</source> <year>1993</year>, <volume>94</volume>:<fpage>265</fpage>–<lpage>273</lpage>. <object-id pub-id-type="pmid">8452150</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sinnaeve</surname> <given-names>PR</given-names></name>, <name name-style="western"><surname>Steg</surname> <given-names>PG</given-names></name>, <name name-style="western"><surname>Fox</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Van de</surname> <given-names>WF</given-names></name>, <name name-style="western"><surname>Montalescot</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Granger</surname> <given-names>CB</given-names></name>, <etal>et al</etal>. <article-title>Association of elevated fasting glucose with increased short-term and 6- month mortality in ST-segment elevation and non-ST-segment elevation acute coronary syndromes: the Global Registry of Acute Coronary Events</article-title>. <source>Arch Intern Med</source> <year>2009</year>, <volume>169</volume>:<fpage>402</fpage>–<lpage>409</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1001/archinternmed.2008.572" xlink:type="simple">10.1001/archinternmed.2008.572</ext-link></comment> <object-id pub-id-type="pmid">19237725</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Suleiman</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Hammerman</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Boulos</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kapeliovich</surname> <given-names>MR</given-names></name>, <name name-style="western"><surname>Suleiman</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Agmon</surname> <given-names>Y</given-names></name>, <etal>et al</etal>. <article-title>Fasting glucose is an important independent risk factor for 30-day mortality in patients with acute myocardial infarction: a prospective study</article-title>. <source>Circulation</source> <year>2005</year>, <volume>111</volume>:<fpage>754</fpage>–<lpage>760</lpage>. <object-id pub-id-type="pmid">15699267</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>O'Sullivan</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>Conroy</surname> <given-names>RM</given-names></name>, <name name-style="western"><surname>Robinson</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Hickey</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Mulcahy</surname> <given-names>R</given-names></name>. <article-title>In-hospital prognosis of patients with fasting hyperglycemia after first myocardial infarction</article-title>. <source>Diabetes Care</source> <year>1991</year>, <volume>14</volume>:<fpage>758</fpage>–<lpage>760</lpage>. <object-id pub-id-type="pmid">1954815</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Otten</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Kline-Rogers</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Meier</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Dumasia</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Fang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>May</surname> <given-names>N</given-names></name>, <etal>et al</etal>. <article-title>Impact of pre-diabetic state on clinical outcomes in patients with acute coronary syndrome</article-title>. <source>Heart</source> <year>2005</year>, <volume>91</volume>:<fpage>1466</fpage>–<lpage>1468</lpage>. <object-id pub-id-type="pmid">16230445</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bartnik</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Malmberg</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Norhammar</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Tenerz</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Ohrvik</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Ryden</surname> <given-names>L</given-names></name>. <article-title>Newly detected abnormal glucose tolerance: an important predictor of long-term outcome after myocardial infarction</article-title>. <source>Eur Heart J</source> <year>2004</year>, <volume>25</volume>:<fpage>1990</fpage>–<lpage>1997</lpage>. <object-id pub-id-type="pmid">15541834</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tamita</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Katayama</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Takagi</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Akasaka</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Yamamuro</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Kaji</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Impact of newly diagnosed abnormal glucose tolerance on long-term prognosis in patients with acute myocardial infarction</article-title>. <source>Circ J</source> <year>2007</year>, <volume>71</volume>:<fpage>834</fpage>–<lpage>841</lpage>. <object-id pub-id-type="pmid">17526977</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kitada</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Otsuka</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Kokubu</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Kasahara</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Kataoka</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Noguchi</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Post- load hyperglycemia as an important predictor of long-term adverse cardiac events after acute myocardial infarction: a scientific study</article-title>. <source>Cardiovasc Diabetol</source> <year>2010</year>, <volume>9</volume>:<fpage>75</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1475-2840-9-75" xlink:type="simple">10.1186/1475-2840-9-75</ext-link></comment> <object-id pub-id-type="pmid">21070650</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hofsten</surname> <given-names>DE</given-names></name>, <name name-style="western"><surname>Logstrup</surname> <given-names>BB</given-names></name>, <name name-style="western"><surname>Moller</surname> <given-names>JE</given-names></name>, <name name-style="western"><surname>Pellikka</surname> <given-names>PA</given-names></name>, <name name-style="western"><surname>Egstrup</surname> <given-names>K</given-names></name>. <article-title>Abnormal glucose metabolism in acute myocardial infarction: influence on left ventricular function and prognosis</article-title>. <source>JACC Cardiovasc Imaging</source> <year>2009</year>, <volume>2</volume>:<fpage>592</fpage>–<lpage>599</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jcmg.2009.03.007" xlink:type="simple">10.1016/j.jcmg.2009.03.007</ext-link></comment> <object-id pub-id-type="pmid">19442946</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Knudsen</surname> <given-names>EC</given-names></name>, <name name-style="western"><surname>Seljeflot</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Abdelnoor</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Eritsland</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Mangschau</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Muller</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Impact of newly diagnosed abnormal glucose regulation on long-term prognosis in low risk patients with ST-elevation myocardial infarction: A follow-up study</article-title>. <source>BMC Endocr Disord</source> <year>2011</year>, <volume>11</volume>:<fpage>14</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1472-6823-11-14" xlink:type="simple">10.1186/1472-6823-11-14</ext-link></comment> <object-id pub-id-type="pmid">21801387</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mazurek</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kowalczyk</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Lenarczyk</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Zielinska</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Sedkowska</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Pruszkowska-Skrzep</surname> <given-names>P</given-names></name>, <etal>et al</etal>. <article-title>The prognostic value of different glucose abnormalities in patients with acute myocardial infarction treated invasively</article-title>. <source>Cardiovasc Diabetol</source> <year>2012</year>, <volume>11</volume>:<fpage>78</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1475-2840-11-78" xlink:type="simple">10.1186/1475-2840-11-78</ext-link></comment> <object-id pub-id-type="pmid">22741568</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ryden</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Standl</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Bartnik</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Van den</surname> <given-names>BG</given-names></name>, <name name-style="western"><surname>Betteridge</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>de Boer</surname> <given-names>MJ</given-names></name>, <etal>et al</etal>. <article-title>Guidelines on diabetes, pre-diabetes, and cardiovascular diseases: executive summary. The Task Force on Diabetes and Cardiovascular Diseases of the European Society of Cardiology (ESC) and of the European Association for the Study of Diabetes (EASD)</article-title>. <source>Eur Heart J</source> <year>2007</year>, <volume>28</volume>:<fpage>88</fpage>–<lpage>136</lpage>. <object-id pub-id-type="pmid">17220161</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Van de</surname> <given-names>WF</given-names></name>, <name name-style="western"><surname>Bax</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Betriu</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Blomstrom-Lundqvist</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Crea</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Falk</surname> <given-names>V</given-names></name>, <etal>et al</etal>. <article-title>Management of acute myocardial infarction in patients presenting with persistent ST-segment elevation: the Task Force on the Management of ST-Segment Elevation Acute Myocardial Infarction of the European Society of Cardiology</article-title>. <source>Eur Heart J</source> <year>2008</year>, <volume>29</volume>:<fpage>2909</fpage>–<lpage>2945</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/eurheartj/ehn416" xlink:type="simple">10.1093/eurheartj/ehn416</ext-link></comment> <object-id pub-id-type="pmid">19004841</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rydén</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Grant</surname> <given-names>PJ</given-names></name>, <name name-style="western"><surname>Anker</surname> <given-names>SD</given-names></name>, <name name-style="western"><surname>Berne</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Cosentino</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Danchin</surname> <given-names>N</given-names></name>, <etal>et al</etal>. <article-title>ESC Guidelines on diabetes, pre-diabetes and cardiovascular diseases developed in collaboration with EASD: the task force on diabetes, pre-diabetes and cardiovascular diseases of the European Society of Cardiology (ESC) and developed in collaboration with the European Association for the Study of Diabetes (EASD)</article-title>. <source>Eur Heart J</source> <year>2013</year>, <volume>34</volume>(<issue>39</issue>):<fpage>3035</fpage>–<lpage>87</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/eurheartj/eht108" xlink:type="simple">10.1093/eurheartj/eht108</ext-link></comment> <object-id pub-id-type="pmid">23996285</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Thygesen</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Alpert</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>White</surname> <given-names>HD</given-names></name>. <article-title>Universal definition of myocardial infarction</article-title>. <source>Eur Heart J</source> <year>2007</year>, <volume>28</volume>:<fpage>2525</fpage>–<lpage>2538</lpage>. <object-id pub-id-type="pmid">17951287</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><article-title>Report of the Expert Committee on the Diagnosis and Classification of Diabetes Mellitus</article-title>: <source>Diabetes Care</source> <year>1997</year>, <volume>20</volume>:<fpage>1183</fpage>–<lpage>1197</lpage>. <object-id pub-id-type="pmid">9203460</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Genuth</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Alberti</surname> <given-names>KG</given-names></name>, <name name-style="western"><surname>Bennett</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Buse</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Defronzo</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Kahn</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Follow-up report on the diagnosis of diabetes mellitus</article-title>. <source>Diabetes Care</source> <year>2003</year>, <volume>26</volume>:<fpage>3160</fpage>–<lpage>3167</lpage>. <object-id pub-id-type="pmid">14578255</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><collab xlink:type="simple">The DECODE Study Group</collab>. <article-title>Glucose tolerance and cardiovascular mortality: comparison of fasting and 2-hour diagnostic criteria</article-title>. <source>Arch Intern Med</source> <year>2001</year>, <volume>161</volume>:<fpage>397</fpage>–<lpage>405</lpage>. <object-id pub-id-type="pmid">11176766</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Timmer</surname> <given-names>JR</given-names></name>, <name name-style="western"><surname>Hoekstra</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Nijsten</surname> <given-names>MW</given-names></name>, <name name-style="western"><surname>van dH</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Ottervanger</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Slingerland</surname> <given-names>RJ</given-names></name>, <etal>et al</etal>. <article-title>Prognostic value of admission glycosylated hemoglobin and glucose in nondiabetic patients with ST-segment-elevation myocardial infarction treated with percutaneous coronary intervention</article-title>. <source>Circulation</source> <year>2011</year>, <volume>124</volume>:<fpage>704</fpage>–<lpage>711</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1161/CIRCULATIONAHA.110.985911" xlink:type="simple">10.1161/CIRCULATIONAHA.110.985911</ext-link></comment> <object-id pub-id-type="pmid">21768543</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Knudsen</surname> <given-names>EC</given-names></name>, <name name-style="western"><surname>Seljeflot</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Abdelnoor</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Eritsland</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Mangschau</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Arnesen</surname> <given-names>H</given-names></name>, <etal>et al</etal>. <article-title>Abnormal glucose regulation in patients with acute ST- elevation myocardial infarction-a cohort study on 224 patients</article-title>. <source>Cardiovasc Diabetol</source> <year>2009</year>, <volume>8</volume>:<fpage>6</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1475-2840-8-6" xlink:type="simple">10.1186/1475-2840-8-6</ext-link></comment> <object-id pub-id-type="pmid">19183453</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wallander</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Malmberg</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Norhammar</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Ryden</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Tenerz</surname> <given-names>A</given-names></name>. <article-title>Oral glucose tolerance test: a reliable tool for early detection of glucose abnormalities in patients with acute myocardial infarction in clinical practice: a report on repeated oral glucose tolerance tests from the GAMI study</article-title>. <source>Diabetes Care</source> <year>2008</year>, <volume>31</volume>:<fpage>36</fpage>–<lpage>38</lpage>. <object-id pub-id-type="pmid">17909086</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tenerz</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Norhammar</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Silveira</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Hamsten</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Nilsson</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Ryden</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>Diabetes, insulin resistance, and the metabolic syndrome in patients with acute myocardial infarction without previously known diabetes</article-title>. <source>Diabetes Care</source> <year>2003</year>, <volume>26</volume>:<fpage>2770</fpage>–<lpage>2776</lpage>. <object-id pub-id-type="pmid">14514578</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hage</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Malmberg</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Ryden</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Wallander</surname> <given-names>M</given-names></name>. <article-title>The impact of infarct type on the reliability of early oral glucose tolerance testing in patients with myocardial infarction</article-title>. <source>Int J Cardiol</source> <year>2010</year>, <volume>145</volume>:<fpage>259</fpage>–<lpage>260</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.ijcard.2009.09.469" xlink:type="simple">10.1016/j.ijcard.2009.09.469</ext-link></comment> <object-id pub-id-type="pmid">19850366</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Avezum</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Makdisse</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Spencer</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Gore</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Fox</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Montalescot</surname> <given-names>G</given-names></name>, <etal>et al</etal>. <article-title>Impact of age on management and outcome of acute coronary syndrome: observations from the Global Registry of Acute Coronary Events (GRACE)</article-title>. <source>Am Heart J</source> <year>2005</year>, <volume>149</volume>:<fpage>67</fpage>–<lpage>73</lpage>. <object-id pub-id-type="pmid">15660036</object-id></mixed-citation></ref>
+<ref id="pone.0142045.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mandelzweig</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Battler</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Boyko</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Bueno</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Danchin</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Filippatos</surname> <given-names>G</given-names></name>, <etal>et al</etal>. <article-title>The second Euro Heart Survey on acute coronary syndromes: Characteristics, treatment, and outcome of patients with ACS in Europe and the Mediterranean Basin in 2004</article-title>. <source>Eur Heart J</source> <year>2006</year>, <volume>27</volume>:<fpage>2285</fpage>–<lpage>2293</lpage>. <object-id pub-id-type="pmid">16908490</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

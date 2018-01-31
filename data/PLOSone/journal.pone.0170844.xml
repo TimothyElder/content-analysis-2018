@@ -1,0 +1,395 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0170844</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-16-39831</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Integumentary system</subject><subj-group><subject>Skin</subject><subj-group><subject>Epidermis</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Integumentary system</subject><subj-group><subject>Skin</subject><subj-group><subject>Epidermis</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Spectrum analysis techniques</subject><subj-group><subject>Absorption spectroscopy</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Integumentary system</subject><subj-group><subject>Skin</subject><subj-group><subject>Dermis</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Integumentary system</subject><subj-group><subject>Skin</subject><subj-group><subject>Dermis</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Histology</subject><subj-group><subject>Histological examination</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Histology</subject><subj-group><subject>Histological examination</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Spectrum analysis techniques</subject><subj-group><subject>Infrared spectroscopy</subject><subj-group><subject>Fourier transform infrared spectroscopy</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Diagnostic medicine</subject><subj-group><subject>Clinical laboratory sciences</subject><subj-group><subject>Forensics</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social sciences</subject><subj-group><subject>Law and legal sciences</subject><subj-group><subject>Forensics</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Chemistry</subject><subj-group><subject>Chemical compounds</subject><subj-group><subject>Organic compounds</subject><subj-group><subject>Amides</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Chemistry</subject><subj-group><subject>Organic chemistry</subject><subj-group><subject>Organic compounds</subject><subj-group><subject>Amides</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pathology and laboratory medicine</subject><subj-group><subject>Anatomical pathology</subject><subj-group><subject>Forensic pathology</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Diagnostic medicine</subject><subj-group><subject>Clinical laboratory sciences</subject><subj-group><subject>Forensics</subject><subj-group><subject>Forensic pathology</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social sciences</subject><subj-group><subject>Law and legal sciences</subject><subj-group><subject>Forensics</subject><subj-group><subject>Forensic pathology</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Identification of Skin Electrical Injury Using Infrared Imaging: A Possible Complementary Tool for Histological Examination</article-title>
+<alt-title alt-title-type="running-head">Identification of Electrical Mark by Infrared Spectroscopy</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Zhang</surname>
+<given-names>Ji</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Lin</surname>
+<given-names>Wei</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Lin</surname>
+<given-names>Hancheng</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Wang</surname>
+<given-names>Zhenyuan</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Dong</surname>
+<given-names>Hongmei</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Department of Forensic Pathology, College of Forensic Medicine, Xi’an Jiaotong University, Xi’an, Shaanxi Province, China</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Department of Forensic Medicine, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei Province, China</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Haass</surname>
+<given-names>Nikolas K.</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>University of Queensland Diamantina Institute, AUSTRALIA</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="con">
+<p><list list-type="simple"><list-item><p><bold>Conceptualization:</bold> HD ZW.</p></list-item> <list-item><p><bold>Data curation:</bold> JZ WL.</p></list-item> <list-item><p><bold>Formal analysis:</bold> JZ.</p></list-item> <list-item><p><bold>Funding acquisition:</bold> JZ ZW HD.</p></list-item> <list-item><p><bold>Investigation:</bold> JZ WL HL.</p></list-item> <list-item><p><bold>Methodology:</bold> JZ WL.</p></list-item> <list-item><p><bold>Project administration:</bold> JZ.</p></list-item> <list-item><p><bold>Resources:</bold> JZ WL.</p></list-item> <list-item><p><bold>Software:</bold> JZ.</p></list-item> <list-item><p><bold>Supervision:</bold> HD ZW.</p></list-item> <list-item><p><bold>Validation:</bold> JZ.</p></list-item> <list-item><p><bold>Visualization:</bold> WL.</p></list-item> <list-item><p><bold>Writing – original draft:</bold> JZ.</p></list-item> <list-item><p><bold>Writing – review &amp; editing:</bold> JZ.</p></list-item></list>
+</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">wzy218@xjtu.edu.cn</email> (ZW); <email xlink:type="simple">hongmeidong1@hotmail.com</email> (HD)</corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>24</day>
+<month>1</month>
+<year>2017</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2017</year>
+</pub-date>
+<volume>12</volume>
+<issue>1</issue>
+<elocation-id>e0170844</elocation-id>
+<history>
+<date date-type="received">
+<day>6</day>
+<month>10</month>
+<year>2016</year>
+</date>
+<date date-type="accepted">
+<day>11</day>
+<month>1</month>
+<year>2017</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2017</copyright-year>
+<copyright-holder>Zhang et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0170844"/>
+<abstract>
+<p>In forensic practice, determination of electrocution as a cause of death usually depends on the conventional histological examination of electrical mark in the body skin, but the limitation of this method includes subjective bias by different forensic pathologists, especially for identifying suspicious electrical mark. The aim of our work is to introduce Fourier transform infrared (FTIR) spectroscopy in combination with chemometrics as a complementary tool for providing an relatively objective diagnosis. The results of principle component analysis (PCA) showed that there were significant differences of protein structural profile between electrical mark and normal skin in terms of α-helix, antiparallel β-sheet and β-sheet content. Then a partial least square (PLS) model was established based on this spectral dataset and used to discriminate electrical mark from normal skin areas in independent tissue sections as revealed by color-coded digital maps, making the visualization of electrical injury more intuitively. Our pilot study demonstrates the potential of FTIR spectroscopy as a complementary tool for diagnosis of electrical mark.</p>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution>the National Science Foundation of China</institution>
+</funding-source>
+<award-id>81273335</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Wang</surname>
+<given-names>Zhenyuan</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award002">
+<funding-source>
+<institution>the National Science Foundation of China</institution>
+</funding-source>
+<award-id>81471819</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Wang</surname>
+<given-names>Zhenyuan</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award003">
+<funding-source>
+<institution>China Postdoctoral Science Foundation Grant</institution>
+</funding-source>
+<award-id>2016M592801</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Zhang</surname>
+<given-names>Ji</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award004">
+<funding-source>
+<institution>the National Science Foundation of China</institution>
+</funding-source>
+<award-id>81471821</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Dong</surname>
+<given-names>Hongmei</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>The work is funded by the National Science Foundation of China (No. 81273335, 81471819, 81471821) and China Postdoctoral Science Foundation Grant (No. 2016M592801). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="6"/>
+<table-count count="1"/>
+<page-count count="11"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>One of the most important aspects in forensic science is electrocution diagnosis. As electrical fatalities are generally caused by cardiac arrhythmia, respiratory arrest and damage to brainstem, autopsy findings are not evident or non-specific in the multiple vital organs [<xref ref-type="bibr" rid="pone.0170844.ref001">1</xref>, <xref ref-type="bibr" rid="pone.0170844.ref002">2</xref>]. Electrical mark reflects the fact that the skin contacts with electrical conductors. Its pathological examination is crucial for diagnosis of fatal electrocution, especially when the death circumstances are suspicious [<xref ref-type="bibr" rid="pone.0170844.ref003">3</xref>, <xref ref-type="bibr" rid="pone.0170844.ref004">4</xref>]. Histologically, it is well-known that epidermal nuclear elongation is a typical hallmark of electrical mark and of great diagnostic value for electrocution. However, histological examination is primarily dependent upon the individual subjective judgement, and thus forensic pathologists usually incorporate other methods with routine histopathology for determination of this mark[<xref ref-type="bibr" rid="pone.0170844.ref005">5</xref>], such as computerized image analysis[<xref ref-type="bibr" rid="pone.0170844.ref006">6</xref>] and detection of metallization by scanning electron microscopy[<xref ref-type="bibr" rid="pone.0170844.ref007">7</xref>]. But few provide more insights into the electrical mark at the molecular level, and make an objective diagnosis.</p>
+<p>Typical imaging methods such as confocal laser microscopy and multiphoton microscopy have been instrumental to exploit certain structures and molecules of the skin without the need for tissue processing[<xref ref-type="bibr" rid="pone.0170844.ref008">8</xref>–<xref ref-type="bibr" rid="pone.0170844.ref010">10</xref>]. Despite their high sensitivity and spatial resolution, it is almost impossible with them to make a globally chemical analysis in biological tissues. Vibrational spectroscopy is a bio-analytical tool capable of detecting component and structural alterations that occur in molecules within samples according to their chemical bonds. The complimentary techniques mainly include Raman and Fourier transform infrared (FTIR) spectroscopy. Since various macromolecules in biological tissues have their specific absorption bands in an infrared spectrum, the use of vibrational spectroscopy as a valuable tool is becoming widespread in biomedicine. Combination of this spectroscopic method with an infrared microscopy achieves stain free biochemical imaging and chemical analysis in a small area of tissue sections, thus providing an ideal platform by which diseased or abnormal areas can be investigated at the molecular level. Using chemometrics, multiple histological classes on the spectroscopic image can be identified and visualized as a digitally classified image[<xref ref-type="bibr" rid="pone.0170844.ref011">11</xref>, <xref ref-type="bibr" rid="pone.0170844.ref012">12</xref>].</p>
+<p>To the best of our knowledge, few attempts to characterize electrical mark using vibrational spectroscopy has been made[<xref ref-type="bibr" rid="pone.0170844.ref013">13</xref>], especially in combination with chemometrics for automatic diagnosis. In contrast to Raman spectroscopy, FTIR spectroscopy appears to provide more bioinformation with higher signal-noise ratio. Therefore, we performed a FTIR investigation on paraffin sections of human hands by principle component analysis (PCA) in order to determine variance of protein structures between electrical mark and normal skin. Subsequently, a partial least square (PLS) model based on the acquired spectral data was established to identify the electrical mark intuitively in the form of spectral pseudo color image.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="sec003">
+<title>Sample collection and preparation</title>
+<p>The work involving the use of human specimens was performed after informed written consents were obtained from family members of the victims. The ethics committee of Xi’an Jiaotong University specifically approved this study. Skin samples were collected from 23 autoptic electrocution cases admitted to the college of forensic medicine at Xi’an Jiaotong University. In these cases, the corpses were stored at 4°C within 24h postmortem. All the victims died in their own home, and the hand electrical marks were caused by domestic power supply of China at a voltage of 220 volts. In the control group, the normal skins were sampled at the contralateral hand from the same corpses.</p>
+<p>Upon fixing with 4% buffered paraformaldehyde for 24h, the skin specimens were embedded in paraffin and cut into 6 μm-thick slices by a microtome. The sections were mounted on 3 mm-thick infrared transparent slides for FTIR analysis, which were made by the <ext-link ext-link-type="uri" xlink:href="http://cn.bing.com/dict/search?q=Barium&amp;FORM=BDVSP6&amp;mkt=zh-cn" xlink:type="simple">barium</ext-link> <ext-link ext-link-type="uri" xlink:href="http://cn.bing.com/dict/search?q=fluoride&amp;FORM=BDVSP6&amp;mkt=zh-cn" xlink:type="simple">fluoride</ext-link> (BaF<sub>2</sub>), (Beijing optical instrument factory, Beijing, China) and then dewaxed and dehydrated with xylene and ethanol respectively. Adjacent sections at the same samples were mounted on standard glass slides for histological examination. In this study, the skin samples in 16 cases were used as the calibration group while those in the remaining 7 cases served as the validation group.</p>
+</sec>
+<sec id="sec004">
+<title>FTIR data collection and pre-processing</title>
+<p>FTIR spectra within the mid-IR region of 900–4000 cm<sup>-1</sup> were acquired in transmission mode using an FTIR spectrometer (Thermo Scientific Nicolet TM 5700-II, MIT, USA) coupled to an infrared microscope (Nicolet Continue μmXL, MIT, USA), equipped with liquid nitrogen cooled Mercury Cadmium Telluride (MCT) high sensitive detection and a high-intensity long-lasting ETC EverGlo<sup>※</sup>mid-IR source. An area of 140 × 200 μm<sup>2</sup> on a tissue section was scanned with microscopic aperture of 40×40 μm<sup>2</sup> at a step of 10 μm, where each spectrum was obtained at a resolution of 16 cm<sup>-1</sup> and 8 scans. To get rid of the interference of atmospheric water vapor, background spectra were collected on the blank area of BaF<sub>2</sub> slides and then automatically subtracted from each spectrum under a relative humidity of 20%.</p>
+<p>FTIR spectral collection was carried out using the OMNIC Picta 8.0 (Thermo Fisher, U.S.A) and data pre-processing was performed with the Matlab 2014a (MathWorks, U.S.A) equipped with PLS Toolbox 8.1.1 (Eigenvector Research, Inc.). The raw spectra were normalized by extended multiplicative signal correction (EMSC) and then transformed to the second derivatives using a Savitzky-Golay smoothing function (9 points) in order to minimize baseline offset and the difference of thickness on the tissue sections. FTIR imaging on the tissue section was constructed using “jet” color scheme, showing the intensity distribution of peak absorbance from different protein secondary structures as reflected in the Amide I band (1710–1585 cm<sup>-1</sup>) in a spectrum. The red color indicated the highest relative concentration while blue color represented the lowest intensity.</p>
+</sec>
+<sec id="sec005">
+<title>Multivariable statistical analysis</title>
+<p>Multivariable statistical analysis was also conducted using the Matlab 2014a (MathWorks, U.S.A) equipped with PLS Toolbox 8.1.1 (Eigenvector Research, Inc.). Our investigation was primarily focused on the spectral range from 1710 to 1585 cm<sup>-1</sup> as it was strongly associated with protein conformation in biological tissues.</p>
+<p>PCA was employed to interpret the covariance structure of data using a small number of components which are linear combination of original variables[<xref ref-type="bibr" rid="pone.0170844.ref014">14</xref>]. Specifically, PCA extracts a set of correlated variables and then converts them into a smaller set of uncorrelated variables named as principle components (PCs), while maintaining as much of the information in the original data as possible. The classification result is expressed by the projection of the samples on a set of orthogonal PCs, and the contribution of variables into the classification can be evaluated by loading plots associated with corresponding PCs. In the calibration group, 35 spectra were obtained randomly within the areas of electrical mark while 46 spectra were acquired within the normal epidermal areas. These spectral dataset were pre-processed as described above. Leave-one-out cross-validation (LOOCV) was performed, and eight PCs were selected for initial PCA decomposition. Two dimensional score plot along two principle components (PCs), and corresponding loading plot were graphed in order to identify the potential spectral features for discrimination between normal epidermis and electrical mark.</p>
+<p>Unlike PCA, PLS model can extract simultaneously components called as latent factors from the predictor variables X and the response variables Y for constructing a predictive model. In this study, the spectra from the areas of electrical mark (35 spectra), normal dermis (27 spectra) and epidermis (34 spectra) were collected respectively in the calibration group for PLS modelling. The predictor variables X corresponded to the matrix of spectral intensity while the response variables Y were represented by the dummy variables of 1, 2 and 3 for normal epidermis, electrical mark and normal dermis respectively. LOOCV was performed to evaluate the classification among groups as revealed in PLS score plot. In order to provide more accurate prediction, it is essential to determine the Y value range of different groups and evaluate the performance of the developed model. Therefore, an internal predication was performed by the initial PLS model in an additional dataset including 48 spectra from the three areas, all of which were also collected in the calibration group but not included for PLS modelling. In the external validation, spectra were collected within the areas of electrical epidermis, normal epidermis and normal dermis of the unknown tissue sections (the validation group) respectively. Based on the acquired thresholds of Y value, these spectra were classified by the trained PLS model in a single-blinded manner, whose identity was not available for the analyst.</p>
+</sec>
+</sec>
+<sec id="sec006" sec-type="conclusions">
+<title>Results and Discussion</title>
+<p>The skin samples in all cases were first subjected to morphological examination to determine the area of electrical mark for FTIR analysis. As exemplified in <xref ref-type="fig" rid="pone.0170844.g001">Fig 1</xref>, macroscopic examination showed hallmarks of the electrical injury characterized by pale, cave-like lesions with a raised margin. Microscopically, electrical mark revealed separation of epidermis and dermis, elongated epidermal cells arranged in a polarized direction and darkly stained cell nuclei in contrast to normal skin.</p>
+<fig id="pone.0170844.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0170844.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Macroscopic and microscopic images of electrical mark and normal skin.</title>
+<p>(A) macroscopic features of electrical mark in the hand. Microscopic features of electrical mark (B) and normal skin (C).</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0170844.g001" xlink:type="simple"/>
+</fig>
+<p>Compared with histological examination, infrared spectra were obtained from the areas of normal epidermis and electrical mark (the area of epidermal cell elongation) respectively in serial unstained sections. Since organic solvents have great impact on lipids and carbohydrates of biological tissues, our investigation was focused on protein changes on the skin sections. <xref ref-type="fig" rid="pone.0170844.g002">Fig 2</xref> shows a comparison of the average normalized absorbance and second derivative spectra from the electrical mark and normal epidermis. On the first inspection, the maximal band which is referred to as Amide I band were generally identical in the absorbance spectra of the two groups. This band mainly originates from the C = O stretching with little contribution from the N-H bending of proteins (<xref ref-type="fig" rid="pone.0170844.g002">Fig 2A</xref>), and is particularly sensitive to alterations in protein conformation in terms of their maximum wavenumber as well as peak shape [<xref ref-type="bibr" rid="pone.0170844.ref015">15</xref>–<xref ref-type="bibr" rid="pone.0170844.ref017">17</xref>]. As seen in <xref ref-type="fig" rid="pone.0170844.g002">Fig 2B</xref>, the Amide I band for normal epidermis is centered at 1650 cm<sup>-1</sup> whereas electrical injury group is shifted to the higher wavenumber with a wider band width. The peak deviation and deformation suggest that electricity causes distinct changes in protein structures of the skin. Second derivative transformation is a common method of resolving overlapping bands, where the negative peaks are directly aligned to the center peak of non-derivative spectrum. In this study, this pre-processing method was used to identify several peaks from C = O stretching of various protein structures, which were included within the Amide I region[<xref ref-type="bibr" rid="pone.0170844.ref018">18</xref>–<xref ref-type="bibr" rid="pone.0170844.ref020">20</xref>]. <xref ref-type="fig" rid="pone.0170844.g002">Fig 2C</xref> illustrates superimposition of second derivative spectra between control and electrical mark groups. The peaks around 1650 cm<sup>-1</sup> (α-helix) and 1695cm<sup>-1</sup> (antiparallel β-sheet) contributed greatly to the spectral hallmark of normal epidermis. In contrast, epidermal electrical mark was characterized by higher intensities of β-sheet (1619cm<sup>-1</sup>) and β-turn (1681cm<sup>-1</sup>).</p>
+<fig id="pone.0170844.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0170844.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>A comparison of absorbance and second derivative spectra between electrical mark and normal skin.</title>
+<p>(A) absorbance spectra within 1800–900 cm<sup>-1</sup> for both categories. Superimposition of them within the Amide I region in absorbance mode (B) and second derivative mode (C). The blue and red spectra represent electrical injury and normal epidermis respectively.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0170844.g002" xlink:type="simple"/>
+</fig>
+<p>To further visualize the subtle changes in protein secondary structures, PCA was applied to second derivative spectra within the Amide I region. The score plot (shown in <xref ref-type="fig" rid="pone.0170844.g003">Fig 3A</xref>) demonstrates a complete discrimination of scattering points between electrical mark and control groups along the PC 1 which accounted for 69.8% of total variation. This suggests that most spectral variances were associated with changes in protein conformation of the electrical mark, and PC 1 extracted from the original dataset is mainly responsible for the distinction. Therefore, PC 1-related loading plot as shown in <xref ref-type="fig" rid="pone.0170844.g003">Fig 3B</xref> was used to identify spectral features for electrical mark. Consistent with the second derivative spectra, this loading plot shows that the discriminating negatively correlated loadings were found for normal epidermis at 1650 and 1697 cm<sup>-1</sup> whereas positive loadings representative for electrical injury were present at 1621 and 1678 cm<sup>-1</sup>. The observed spectral pattern is similar to those of bovine serum albumin (BSA) with increasing temperatures, which reveals that gradually decreased α-helix content with predominance of β-sheet as the temperature increases [<xref ref-type="bibr" rid="pone.0170844.ref021">21</xref>]. Therefore, this result may be associated with protein denaturation caused by Joule heating. Indeed, several studies preferably suppose that epidermal cell elongation mainly results from mechanical compression due to swollen dermis rather than protein conformation changes even though it is one of the most important pathophysiology of electrical injury[<xref ref-type="bibr" rid="pone.0170844.ref022">22</xref>–<xref ref-type="bibr" rid="pone.0170844.ref024">24</xref>]. Therefore, the contribution of protein conformation changes into the formation of electrical mark remains to be further confirmed. Nevertheless, our study demonstrates the ability of FTIR spectroscopy to identify protein structural changes in electrical mark, further reflecting its high sensitivity to subtle molecular changes in the skin.</p>
+<fig id="pone.0170844.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0170844.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>The results of PCA based on the Amide I band.</title>
+<p>(A) the score plot along PC 1 versus PC 2 is obtained where the blue and red circles represent the spectra from electrical injury and normal epidermis (control) respectively, and the larger circle is 95% confidence interval. (B) PCA loading plot associated with PC 1 is obtained where the negative peaks are characteristic for normal epidermis (control) and positive for electrical injury.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0170844.g003" xlink:type="simple"/>
+</fig>
+<p>The next step of our study was to address the distribution of protein secondary structures in the unstained tissue sections. False color images of normal epidermis and electrical mark were obtained according to their absorbance peak intensity as seen in <xref ref-type="fig" rid="pone.0170844.g004">Fig 4</xref>. With respect to the normal epidermis, a higher content of β-sheet was evident but with lower α-helix and anti-parallel β-sheet structures for electrical mark. There was no significant differences in the peak intensity of β-turn content between electrical mark and normal epidermis, which could be interpreted by its little contribution into their separation as revealed by the lower loading intensity of PC 1. Based on these results, it is inferred that some proteins rich in α-helix, anti-parallel β-sheet and β-sheet may serve as biomarkers for identification of electrical mark.</p>
+<fig id="pone.0170844.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0170844.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>The comparison of FTIR mappings based on protein conformations between electrical mark and normal skin.</title>
+<p>The first and second rows represent FTIR mappings in the areas of elongation cells and corresponding normal epidermis respectively, in which the peak absorbance intensities associated α-helix, β-turn, β-sheet and antiparallel β-sheet are revealed by “jet” colors with red indicating the highest relative concentration, and blue, the lowest.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0170844.g004" xlink:type="simple"/>
+</fig>
+<p>Although infrared imaging based on absorbance intensity appears to be an alternative method to detect electrical mark, it is still required to discriminate and process FTIR spectra by skilled personnel. Therefore, this promote us to develop a FTIR-based method for auxiliary diagnosis in cases of electrocution, which could provide a more objective and intuitive identification of electrical mark than routine histological examination. In this study, the PLS model was chosen to process the spectral dataset because it has been demonstrated that this supervised pattern recognition method is powerful for distinguishing different sample categories[<xref ref-type="bibr" rid="pone.0170844.ref025">25</xref>–<xref ref-type="bibr" rid="pone.0170844.ref028">28</xref>]. The spectra in the calibration group were used to establish the initial PLS model. The LOOCV result as shown in <xref ref-type="fig" rid="pone.0170844.g005">Fig 5A</xref> shows that scattering points are clustered based on their groups, and distinguishable from each other along latent factor 1 which explains 21.9% of total variances. This suggests detectable differences of protein compositions among them. Subsequently, the initial PLS model performed an prediction test in an additional dataset which were also collected in the calibration group but not included for model calibration. As seen from <xref ref-type="fig" rid="pone.0170844.g005">Fig 5B</xref>, both the distinct separation among the three classes and correct classification are generally visible, suggesting that the established PLS model has the ability to discriminate different skin structures. The range of Y values for more efficient distinction among the classes were determined (0–1.5 for normal epidermis, 1.5–2.5 for electrical injury and greater than 2.5 for normal dermis), where most of score points representing the spectra from different classes were within their own assigned Y ranges. In the external validation, 17, 20 and 14 spectra were selected within the areas of electrical epidermis, normal epidermis and normal dermis in the validation group respectively. In <xref ref-type="table" rid="pone.0170844.t001">Table 1</xref>, the trained PLS model shows a satisfactory prediction in these spectral dataset, and the accuracy of electrical and normal epidermis is up to 85%. <xref ref-type="fig" rid="pone.0170844.g006">Fig 6</xref> displays two spectral mappings from normal skin and electrical mark in a typical case of the validation group, each of which were composed of 280 spectra (14×20 matrix), and their assignments were predicted by the PLS model. Different groups were discriminated by colors in a color-coded digital map (yellow: electrical mark; light blue: normal epidermis; brown: normal dermis; dark blue: background). As illustrated in <xref ref-type="fig" rid="pone.0170844.g006">Fig 6</xref>, the areas classified are globally co-localized with different structures of the skin, even though little spectra are erroneously assigned.</p>
+<fig id="pone.0170844.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0170844.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>The results of PLS classification based on spectral dataset in the calibration.</title>
+<p>(A) PLS score plot shows that all groups representing different structures of the skin are well-separated along latent factor 1. (B) Prediction result in an additional dataset that are not included for PLS modelling shows that electrical epidermis, normal epidermis and dermis can be distinguishable from each other by using the PLS model. Red and black dot lines show classification threshold for separating the three categories respectively.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0170844.g005" xlink:type="simple"/>
+</fig>
+<fig id="pone.0170844.g006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0170844.g006</object-id>
+<label>Fig 6</label>
+<caption>
+<title>The identification of electrical mark by the FTIR-based PLS model in an independent tissue section.</title>
+<p>HE stained skin tissue sections are presented here where elongation cell in electrical mark and normal skin regions are included in A and B respectively. The spectra within the black box of the HE staining images were classified by the PLS model, and the prediction results in the electrical mark (C) and normal skin areas (D) were revealed by pseudo-colored images. Electrical epidermis, normal epidermis and normal dermis appear in yellow, light blue and brown respectively.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0170844.g006" xlink:type="simple"/>
+</fig>
+<table-wrap id="pone.0170844.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0170844.t001</object-id>
+<label>Table 1</label> <caption><title>The result of prediction in the validation group by PLS model.</title></caption>
+<alternatives>
+<graphic id="pone.0170844.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0170844.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Class</th>
+<th align="left">The range of predicted Y</th>
+<th align="left">Correct</th>
+<th align="left">False</th>
+<th align="left">Accuracy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Normal epidermis</td>
+<td align="center">0–1.5</td>
+<td align="left">17/20</td>
+<td align="left">3/20</td>
+<td align="char" char=".">85.0%</td>
+</tr>
+<tr>
+<td align="left">Electrical epidermis</td>
+<td align="center">1.5–2.5</td>
+<td align="left">15/17</td>
+<td align="left">2/17</td>
+<td align="char" char=".">88.2%</td>
+</tr>
+<tr>
+<td align="left">Normal dermis</td>
+<td align="center">&gt;2.5</td>
+<td align="left">11/14</td>
+<td align="left">3/14</td>
+<td align="char" char=".">78.6%</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>In forensic practice, the histological examination of electrical mark in the skin is of great diagnostic value in electrocution cases. However, determination of such an electrical injury is primarily dependent upon subjective judgement by experienced forensic pathologist, and thus it is sometimes difficult to draw a conclusion when a suspicious electrical mark is present. Therefore, FTIR-based mathematical models may be an ideal candidate as supplements to histological examination. Firstly, this technique has the ability to achieve chemical analysis at the molecular level which may be more sensitive to subtle biochemical changes than optical observation. Secondly, spectral information on electrical mark can be learned by pattern recognition techniques ahead, and then they are used to make an relatively objective decision in an independent tissue section. Thirdly, there is non-interference between FTIR analysis and histological examination due to non-destructive nature of FTIR analysis.</p>
+</sec>
+<sec id="sec007" sec-type="conclusions">
+<title>Conclusions</title>
+<p>In our study, FTIR spectroscopy with an infrared microscopy was applied to characterize protein conformations of electrical mark in the human skin. The observed spectral variances between electrical mark and normal skin suggest that some skin proteins rich in α-helix, antiparallel β-sheet and β-sheet may be used as biomarkers for identification of electrical mark. Further, the application of FTIR imaging in combination with PLS model appeared to make a more objective and intuitive diagnosis than routine histological examination.</p>
+<p>Nevertheless, it doesn’t mean that the approach used here is much better than traditional histological methods because much work should be done before application of this method in real practice. For example, it is also important to find out differences between electrical marks and similar morphological changes such as warts, callous thickening of the epidermis, thermal injury[<xref ref-type="bibr" rid="pone.0170844.ref029">29</xref>] and abrasion[<xref ref-type="bibr" rid="pone.0170844.ref005">5</xref>]. The purpose of our study is to develop a complementary tool along with traditional methods for providing a more accurate diagnosis. In the future, advanced FTIR instruments equipped with more intense light source (i.e. <ext-link ext-link-type="uri" xlink:href="http://cn.bing.com/dict/search?q=Synchrotron&amp;FORM=BDVSP6&amp;mkt=zh-cn" xlink:type="simple">synchrotron</ext-link> infrared light source) and sensitive detector (i.e. focal plane array detector) are required as they can provide higher spatial resolution and faster data collection.</p>
+</sec>
+</body>
+<back>
+<glossary>
+<title>Abbreviations</title>
+<def-list>
+<def-item><term>BSA</term>
+<def><p>Bovine serum albumin</p></def>
+</def-item>
+<def-item><term>EMSC</term>
+<def><p>Extended multiplicative signal correction</p></def>
+</def-item>
+<def-item><term>FTIR</term>
+<def><p>Fourier transform infrared</p></def>
+</def-item>
+<def-item><term>LOOCV</term>
+<def><p>Leave-one-out cross-validation</p></def>
+</def-item>
+<def-item><term>MCT</term>
+<def><p>Mercury Cadmium Telluride</p></def>
+</def-item>
+<def-item><term>PCA</term>
+<def><p>Principle component analysis</p></def>
+</def-item>
+<def-item><term>PCs</term>
+<def><p>Principle components</p></def>
+</def-item>
+<def-item><term>PLS</term>
+<def><p>Partial least square</p></def>
+</def-item>
+</def-list>
+</glossary>
+<ref-list>
+<title>References</title>
+<ref id="pone.0170844.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tanaka</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Kinoshita</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Jamal</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kumihashi</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Tsutsui</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Ameno</surname> <given-names>K</given-names></name>. <article-title>Findings for current marks: histopathological examination and energy-dispersive X-ray spectroscopy of three cases</article-title>. <source>Legal medicine</source>. <year>2013</year>;<volume>15</volume>:<fpage>283</fpage>–<lpage>7</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.legalmed.2013.06.004" xlink:type="simple">10.1016/j.legalmed.2013.06.004</ext-link></comment> <object-id pub-id-type="pmid">23895763</object-id></mixed-citation></ref>
+<ref id="pone.0170844.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jakubeniene</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Zakaras</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Minkuviene</surname> <given-names>ZN</given-names></name>, <name name-style="western"><surname>Benoshys</surname> <given-names>A</given-names></name>. <article-title>Application of atomic absorption spectroscopy for detection of multimetal traces in low-voltage electrical marks</article-title>. <source>Forensic science international</source>. <year>2006</year>;<volume>161</volume>:<fpage>36</fpage>–<lpage>40</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.forsciint.2005.10.019" xlink:type="simple">10.1016/j.forsciint.2005.10.019</ext-link></comment> <object-id pub-id-type="pmid">16314061</object-id></mixed-citation></ref>
+<ref id="pone.0170844.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Anders</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Matschke</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Tsokos</surname> <given-names>M</given-names></name>. <article-title>Internal current mark in a case of suicide by electrocution</article-title>. <source>The American journal of forensic medicine and pathology</source>. <year>2001</year>;<volume>22</volume>:<fpage>370</fpage>–<lpage>3</lpage>. <object-id pub-id-type="pmid">11764904</object-id></mixed-citation></ref>
+<ref id="pone.0170844.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Anders</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Junge</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Schulz</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Puschel</surname> <given-names>K</given-names></name>. <article-title>Cutaneous current marks due to a stun gun injury</article-title>. <source>Journal of forensic sciences</source>. <year>2003</year>;<volume>48</volume>:<fpage>640</fpage>–<lpage>2</lpage>. <object-id pub-id-type="pmid">12762539</object-id></mixed-citation></ref>
+<ref id="pone.0170844.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Uzun</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Akyildiz</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Inanici</surname> <given-names>MA</given-names></name>. <article-title>Histopathological differentiation of skin lesions caused by electrocution, flame burns and abrasion</article-title>. <source>Forensic science international</source>. <year>2008</year>;<volume>178</volume>:<fpage>157</fpage>–<lpage>61</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.forsciint.2008.03.012" xlink:type="simple">10.1016/j.forsciint.2008.03.012</ext-link></comment> <object-id pub-id-type="pmid">18472235</object-id></mixed-citation></ref>
+<ref id="pone.0170844.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Xu</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Xu</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Zhu</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Deng</surname> <given-names>P</given-names></name>. <article-title>A preliminary study of skin electrical injury with computerized image analysis</article-title>. <source>Forensic science international</source>. <year>1995</year>;<volume>73</volume>:<fpage>197</fpage>–<lpage>202</lpage>. <object-id pub-id-type="pmid">7657185</object-id></mixed-citation></ref>
+<ref id="pone.0170844.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kinoshita</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Nishiguchi</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ouchi</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Minami</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Kubota</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Utsumi</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>The application of a variable-pressure scanning electron microscope with energy dispersive X-ray microanalyser to the diagnosis of electrocution: a case report</article-title>. <source>Legal medicine</source>. <year>2004</year>;<volume>6</volume>:<fpage>55</fpage>–<lpage>60</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.legalmed.2003.08.006" xlink:type="simple">10.1016/j.legalmed.2003.08.006</ext-link></comment> <object-id pub-id-type="pmid">15177075</object-id></mixed-citation></ref>
+<ref id="pone.0170844.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Xiang</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Peng</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Song</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Xu</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Bi</surname> <given-names>Z</given-names></name>. <article-title>Analysis of debrided and non-debrided invasive squamous cell carcinoma skin lesions by in vivo reflectance confocal microscopy before and after therapy</article-title>. <source>Lasers in medical science</source>. <year>2017</year>;<volume>32</volume>:<fpage>211</fpage>–<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s10103-016-2104-7" xlink:type="simple">10.1007/s10103-016-2104-7</ext-link></comment> <object-id pub-id-type="pmid">27837338</object-id></mixed-citation></ref>
+<ref id="pone.0170844.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Shtein</surname> <given-names>RM</given-names></name>, <name name-style="western"><surname>Harper</surname> <given-names>DE</given-names></name>, <name name-style="western"><surname>Pallazola</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Harte</surname> <given-names>SE</given-names></name>, <name name-style="western"><surname>Hussain</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Sugar</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Discordant Dry Eye Disease (An American Ophthalmological Society Thesis)</article-title>. <source>Transactions of the American Ophthalmological Society</source>. <year>2016</year>;<volume>114</volume>:<fpage>T4</fpage>. <object-id pub-id-type="pmid">28050051</object-id></mixed-citation></ref>
+<ref id="pone.0170844.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tong</surname> <given-names>PL</given-names></name>, <name name-style="western"><surname>Qin</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Cooper</surname> <given-names>CL</given-names></name>, <name name-style="western"><surname>Lowe</surname> <given-names>PM</given-names></name>, <name name-style="western"><surname>Murrell</surname> <given-names>DF</given-names></name>, <name name-style="western"><surname>Kossard</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>A quantitative approach to histopathological dissection of elastin-related disorders using multiphoton microscopy</article-title>. <source>The British journal of dermatology</source>. <year>2013</year>;<volume>169</volume>:<fpage>869</fpage>–<lpage>79</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/bjd.12430" xlink:type="simple">10.1111/bjd.12430</ext-link></comment> <object-id pub-id-type="pmid">23662922</object-id></mixed-citation></ref>
+<ref id="pone.0170844.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bergholt</surname> <given-names>MS</given-names></name>, <name name-style="western"><surname>St-Pierre</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Offeddu</surname> <given-names>GS</given-names></name>, <name name-style="western"><surname>Parmar</surname> <given-names>PA</given-names></name>, <name name-style="western"><surname>Albro</surname> <given-names>MB</given-names></name>, <name name-style="western"><surname>Puetzer</surname> <given-names>JL</given-names></name>, <etal>et al</etal>. <article-title>Raman Spectroscopy Reveals New Insights into the Zonal Organization of Native and Tissue-Engineered Articular Cartilage</article-title>. <source>ACS central science</source>. <year>2016</year>;<volume>2</volume>:<fpage>885</fpage>–<lpage>95</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1021/acscentsci.6b00222" xlink:type="simple">10.1021/acscentsci.6b00222</ext-link></comment> <object-id pub-id-type="pmid">28058277</object-id></mixed-citation></ref>
+<ref id="pone.0170844.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tiwari</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Raman</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Reddy</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Ghetler</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Tella</surname> <given-names>RP</given-names></name>, <name name-style="western"><surname>Han</surname> <given-names>Y</given-names></name>, <etal>et al</etal>. <article-title>Towards Translation of Discrete Frequency Infrared Spectroscopic Imaging for Digital Histopathology of Clinical Biopsy Samples</article-title>. <source>Analytical chemistry</source>. <year>2016</year>;<volume>88</volume>:<fpage>10183</fpage>–<lpage>90</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1021/acs.analchem.6b02754" xlink:type="simple">10.1021/acs.analchem.6b02754</ext-link></comment> <object-id pub-id-type="pmid">27626947</object-id></mixed-citation></ref>
+<ref id="pone.0170844.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Li</surname> <given-names>SY</given-names></name>, <name name-style="western"><surname>Zou</surname> <given-names>DH</given-names></name>, <name name-style="western"><surname>Luo</surname> <given-names>YW</given-names></name>, <name name-style="western"><surname>Sun</surname> <given-names>QR</given-names></name>, <name name-style="western"><surname>Deng</surname> <given-names>KF</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>YJ</given-names></name>, <etal>et al</etal>. <article-title>Characteristics of electrically injured skin from human hand tissue samples using Fourier transform infrared microspectroscopy</article-title>. <source>Science &amp; justice: journal of the Forensic Science Society</source>. <year>2014</year>;<volume>54</volume>:<fpage>98</fpage>–<lpage>104</lpage>.</mixed-citation></ref>
+<ref id="pone.0170844.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Acquah</surname> <given-names>GE</given-names></name>, <name name-style="western"><surname>Via</surname> <given-names>BK</given-names></name>, <name name-style="western"><surname>Billor</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Fasina</surname> <given-names>OO</given-names></name>, <name name-style="western"><surname>Eckhardt</surname> <given-names>LG</given-names></name>. <article-title>Identifying plant part composition of forest logging residue using infrared spectral data and linear discriminant analysis</article-title>. <source>Sensors</source>. <year>2016</year>; <volume>16</volume>: pii: E1375.</mixed-citation></ref>
+<ref id="pone.0170844.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Byler</surname> <given-names>DM</given-names></name>, <name name-style="western"><surname>Susi</surname> <given-names>H</given-names></name>. <article-title>Examination of the secondary structure of proteins by deconvolved FTIR spectra</article-title>. <source>Biopolymers</source>. <year>1986</year>;<volume>25</volume>:<fpage>469</fpage>–<lpage>87</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/bip.360250307" xlink:type="simple">10.1002/bip.360250307</ext-link></comment> <object-id pub-id-type="pmid">3697478</object-id></mixed-citation></ref>
+<ref id="pone.0170844.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Niu</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Dong</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>S</given-names></name>. <article-title>Characterization of protein alterations in damaged axons in the brainstem following traumatic brain injury using fourier transform infrared microspectroscopy: a preliminary study</article-title>. <source>Journal of forensic sciences</source>. <year>2015</year>;<volume>60</volume>:<fpage>759</fpage>–<lpage>63</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/1556-4029.12743" xlink:type="simple">10.1111/1556-4029.12743</ext-link></comment> <object-id pub-id-type="pmid">25773901</object-id></mixed-citation></ref>
+<ref id="pone.0170844.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Mu</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Yang</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Zheng</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Dong</surname> <given-names>H</given-names></name>. <article-title>Chemical Analysis in the Corpus Callosum Following Traumatic Axonal Injury using Fourier Transform Infrared Microspectroscopy: A Pilot Study</article-title>. <source>Journal of forensic sciences</source>. <year>2015</year>.</mixed-citation></ref>
+<ref id="pone.0170844.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ali</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Lu</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Christensen</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>May</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Hyett</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Griebel</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Fourier transform infrared spectromicroscopy and hierarchical cluster analysis of human meningiomas</article-title>. <source>International journal of molecular medicine</source>. <year>2008</year>;<volume>21</volume>:<fpage>297</fpage>–<lpage>301</lpage>. <object-id pub-id-type="pmid">18288376</object-id></mixed-citation></ref>
+<ref id="pone.0170844.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Beekes</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Lasch</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Naumann</surname> <given-names>D</given-names></name>. <article-title>Analytical applications of Fourier transform-infrared (FT-IR) spectroscopy in microbiology and prion research</article-title>. <source>Veterinary microbiology</source>. <year>2007</year>;<volume>123</volume>:<fpage>305</fpage>–<lpage>19</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.vetmic.2007.04.010" xlink:type="simple">10.1016/j.vetmic.2007.04.010</ext-link></comment> <object-id pub-id-type="pmid">17540519</object-id></mixed-citation></ref>
+<ref id="pone.0170844.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kretlow</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>Q</given-names></name>, <name name-style="western"><surname>Kneipp</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Lasch</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Beekes</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Miller</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>FTIR-microspectroscopy of prion-infected nervous tissue</article-title>. <source>Biochimica et biophysica acta</source>. <year>2006</year>;<volume>1758</volume>:<fpage>948</fpage>–<lpage>59</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.bbamem.2006.05.026" xlink:type="simple">10.1016/j.bbamem.2006.05.026</ext-link></comment> <object-id pub-id-type="pmid">16887095</object-id></mixed-citation></ref>
+<ref id="pone.0170844.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lu</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>WW</given-names></name>, <name name-style="western"><surname>Katzir</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Raichlin</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Yu</surname> <given-names>HQ</given-names></name>, <name name-style="western"><surname>Mizaikoff</surname> <given-names>B</given-names></name>. <article-title>Probing the secondary structure of bovine serum albumin during heat-induced denaturation using mid-infrared fiberoptic sensors</article-title>. <source>The Analyst</source>. <year>2015</year>;<volume>140</volume>:<fpage>765</fpage>–<lpage>70</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1039/c4an01495b" xlink:type="simple">10.1039/c4an01495b</ext-link></comment> <object-id pub-id-type="pmid">25525641</object-id></mixed-citation></ref>
+<ref id="pone.0170844.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Takamiya</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Saigusa</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Nakayashiki</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Aoki</surname> <given-names>Y</given-names></name>. <article-title>A histological study on the mechanism of epidermal nuclear elongation in electrical and burn injuries</article-title>. <source>International journal of legal medicine</source>. <year>2001</year>;<volume>115</volume>:<fpage>152</fpage>–<lpage>7</lpage>. <object-id pub-id-type="pmid">11775017</object-id></mixed-citation></ref>
+<ref id="pone.0170844.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lombardero</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Heymann</surname> <given-names>PW</given-names></name>, <name name-style="western"><surname>Platts-Mills</surname> <given-names>TA</given-names></name>, <name name-style="western"><surname>Fox</surname> <given-names>JW</given-names></name>, <name name-style="western"><surname>Chapman</surname> <given-names>MD</given-names></name>. <article-title>Conformational stability of B cell epitopes on group I and group II Dermatophagoides spp. allergens. Effect of thermal and chemical denaturation on the binding of murine IgG and human IgE antibodies</article-title>. <source>Journal of immunology</source>. <year>1990</year>;<volume>144</volume>:<fpage>1353</fpage>–<lpage>60</lpage>.</mixed-citation></ref>
+<ref id="pone.0170844.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Danielsen</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Gniadecka</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Thomsen</surname> <given-names>HK</given-names></name>, <name name-style="western"><surname>Pedersen</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Strange</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Nielsen</surname> <given-names>KG</given-names></name>, <etal>et al</etal>. <article-title>Skin changes following defibrillation</article-title>. <source>The effect of high voltage direct current. Forensic science international</source>. <year>2003</year>;<volume>134</volume>:<fpage>134</fpage>–<lpage>41</lpage>. <object-id pub-id-type="pmid">12850408</object-id></mixed-citation></ref>
+<ref id="pone.0170844.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Verdonck</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Denayer</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Delvaux</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Garaud</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>De Wind</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Desmedt</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Characterization of human breast cancer tissues by infrared imaging</article-title>. <source>The Analyst</source>. <year>2016</year>;<volume>141</volume>:<fpage>606</fpage>–<lpage>19</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1039/c5an01512j" xlink:type="simple">10.1039/c5an01512j</ext-link></comment> <object-id pub-id-type="pmid">26535413</object-id></mixed-citation></ref>
+<ref id="pone.0170844.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nunes</surname> <given-names>KM</given-names></name>, <name name-style="western"><surname>Andrade</surname> <given-names>MV</given-names></name>, <name name-style="western"><surname>Santos Filho</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Lasmar</surname> <given-names>MC</given-names></name>, <name name-style="western"><surname>Sena</surname> <given-names>MM</given-names></name>. <article-title>Detection and characterisation of frauds in bovine meat in natura by non-meat ingredient additions using data fusion of chemical parameters and ATR-FTIR spectroscopy</article-title>. <source>Food chemistry</source>. <year>2016</year>;<volume>205</volume>:<fpage>14</fpage>–<lpage>22</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.foodchem.2016.02.158" xlink:type="simple">10.1016/j.foodchem.2016.02.158</ext-link></comment> <object-id pub-id-type="pmid">27006208</object-id></mixed-citation></ref>
+<ref id="pone.0170844.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mistek</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Lednev</surname> <given-names>IK</given-names></name>. <article-title>Identification of species' blood by attenuated total reflection (ATR) Fourier transform infrared (FT-IR) spectroscopy</article-title>. <source>Analytical and bioanalytical chemistry</source>. <year>2015</year>;<volume>407</volume>:<fpage>7435</fpage>–<lpage>42</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s00216-015-8909-6" xlink:type="simple">10.1007/s00216-015-8909-6</ext-link></comment> <object-id pub-id-type="pmid">26195028</object-id></mixed-citation></ref>
+<ref id="pone.0170844.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>Q</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>CZ</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>YM</given-names></name>, <name name-style="western"><surname>Lin</surname> <given-names>HC</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>ZY</given-names></name>. <article-title>Characterization of postmortem biochemical changes in rabbit plasma using ATR-FTIR combined with chemometrics: A preliminary study</article-title>. <source>Spectrochim Acta A</source>, <year>2016</year>;<volume>173</volume>:<fpage>733</fpage>–<lpage>739</lpage>.</mixed-citation></ref>
+<ref id="pone.0170844.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jacobsen</surname> <given-names>H</given-names></name>. <article-title>Electrically induced deposition of metal on the human skin</article-title>. <source>Forensic science international</source>. <year>1997</year>;<volume>90</volume>:<fpage>85</fpage>–<lpage>92</lpage>. <object-id pub-id-type="pmid">9438368</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

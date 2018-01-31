@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1d3" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-16-19949</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0162469</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Developmental biology</subject><subj-group><subject>Embryology</subject><subj-group><subject>Placenta</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Reproductive system</subject><subj-group><subject>Placenta</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Reproductive system</subject><subj-group><subject>Placenta</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Mycology</subject><subj-group><subject>Fungal structure</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Fungi</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Microscopy</subject><subj-group><subject>Light microscopy</subject><subj-group><subject>Confocal microscopy</subject><subj-group><subject>Confocal laser microscopy</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Mycology</subject><subj-group><subject>Fungal structure</subject><subj-group><subject>Mycelium</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Mathematical and statistical techniques</subject><subj-group><subject>Mathematical functions</subject><subj-group><subject>Curve fitting</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Simulation and modeling</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Probability theory</subject><subj-group><subject>Statistical distributions</subject><subj-group><subject>Distribution curves</subject></subj-group></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Morphological Characterization and Quantification of the Mycelial Growth of the Brown-Rot Fungus <italic>Postia placenta</italic> for Modeling Purposes</article-title>
+<alt-title alt-title-type="running-head">Quantification of the Growth of <italic>Postia placenta</italic></alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-0020-149X</contrib-id>
+<name name-style="western">
+<surname>Du</surname> <given-names>Huan</given-names></name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Lv</surname> <given-names>Pin</given-names></name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Ayouz</surname> <given-names>Mehdi</given-names></name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Besserer</surname> <given-names>Arnaud</given-names></name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Perré</surname> <given-names>Patrick</given-names></name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001">
+<label>1</label>
+<addr-line>LGPM, CentraleSupelec, Université Paris-Saclay, 92290, Châtenay-malabry, France</addr-line>
+</aff>
+<aff id="aff002">
+<label>2</label>
+<addr-line>ENSTIB/LERMAB, University of Lorraine, 88000, Epinal, France</addr-line>
+</aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Cullen</surname> <given-names>Daniel</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1">
+<addr-line>USDA Forest Service, UNITED STATES</addr-line>
+</aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="con">
+<p><list list-type="simple"><list-item><p><bold>Conceptualization:</bold> PP.</p></list-item> <list-item><p><bold>Formal analysis:</bold> HD PL PP.</p></list-item> <list-item><p><bold>Investigation:</bold> HD PL.</p></list-item> <list-item><p><bold>Methodology:</bold> HD PL AB PP.</p></list-item> <list-item><p><bold>Project administration:</bold> PP.</p></list-item> <list-item><p><bold>Resources:</bold> PP.</p></list-item> <list-item><p><bold>Software:</bold> HD.</p></list-item> <list-item><p><bold>Supervision:</bold> PP.</p></list-item> <list-item><p><bold>Visualization:</bold> HD PP.</p></list-item> <list-item><p><bold>Writing – original draft:</bold> HD.</p></list-item> <list-item><p><bold>Writing – review &amp; editing:</bold> PL MA AB PP.</p></list-item></list></p></fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">patrick.perre@centralesupelec.fr</email></corresp>
+</author-notes>
+<pub-date pub-type="collection">
+<year>2016</year>
+</pub-date>
+<pub-date pub-type="epub">
+<day>7</day>
+<month>9</month>
+<year>2016</year>
+</pub-date>
+<volume>11</volume>
+<issue>9</issue>
+<elocation-id>e0162469</elocation-id>
+<history>
+<date date-type="received">
+<day>17</day>
+<month>5</month>
+<year>2016</year>
+</date>
+<date date-type="accepted">
+<day>23</day>
+<month>8</month>
+<year>2016</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2016</copyright-year>
+<copyright-holder>Du et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0162469"/>
+<abstract>
+<p>Continuous observation was performed using confocal laser scanning microscopy to visualize the three-dimensional microscopic growth of the brown-rot fungus, <italic>Postia placenta</italic>, for seventeen days. The morphological characterization of <italic>Postia placenta</italic> was quantitatively determined, including the tip extension rate, branch angle and branching length, (hyphal length between two adjacent branch sites). A voxel method has been developed to measure the growth of the biomass. Additionally, the tip extension rate distribution, the branch angle distribution and the branching length distribution, which quantified the hyphal growth characteristics, were evaluated. Statistical analysis revealed that the extension rate of tips was randomly distributed in space. The branch angle distribution did not change with the development of the colony, however, the branching length distribution did vary with the development of the colony. The experimental data will be incorporated into a lattice-based model simulating the growth of <italic>Postia placenta</italic>.</p>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100001665</institution-id>
+<institution>Agence Nationale de la Recherche</institution>
+</institution-wrap>
+</funding-source>
+<award-id>ANR-10-LABX-0040-LaSIPS</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>PERRÉ</surname> <given-names>Patrick</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>This work was financially supported by the LabeX LaSIPS (ANR-10-LABX-0040-LaSIPS), managed by the French National Research Agency (ANR - <ext-link ext-link-type="uri" xlink:href="http://www.agence-nationale-recherche.fr/" xlink:type="simple">http://www.agence-nationale-recherche.fr/</ext-link>) under the "Investissements d’avenir" program (n°ANR-11-IDEX-0003-02). Grant holder was PP. This work was also financially supported by the China Scholarship Council (CSC). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="8"/>
+<table-count count="2"/>
+<page-count count="16"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Wood is a traditional constructive material in many parts of the world due to its solidity, lightness and sustainability. Nowadays, wood and wood-based products, such as insulating panels, are commonly used to address the two main trends in building designs: the requirements for thermal performance and the use of renewable materials. Nevertheless, wood is easily bio-degraded by insects, fungi and bacteria, resulting in the damage of lumber structures and the reduction of building service life. Fungi are the primary causes of wood degradation, among which, the most destructive ones are brown rot fungi due to its rapid decaying mechanisms. Throughout Europe and North America, they are the most common wood decay fungi within buildings [<xref ref-type="bibr" rid="pone.0162469.ref001">1</xref>]. Recently, mathematical modeling has aroused great attention in the study of fungi [<xref ref-type="bibr" rid="pone.0162469.ref002">2</xref>, <xref ref-type="bibr" rid="pone.0162469.ref003">3</xref>], which can forecast the behaviors of mycelial growth under different environmental conditions. Such modeling tools are likely to supplement costly and tedious experimental studies and are indeed absolutely required for service life to be accounted from the design stage. Our team is currently developing a model of fungal development based on the statistical reproduction of hyphal development. Our assumption is that the same mechanisms will be valid in wood and wood-based products, provided the porous geometry and the nutrients are accounted for via tropisms and/or modification of the growth statistics, such as elongation. Therefore, the first step of our modeling approach, which is the object of the present work, is to supply the model with statistics extracted from growth observations in free conditions (homogeneous medium and absence of resource limitations).</p>
+<p>Different techniques have been used to visualize mycelial structure and to quantify its growth characteristics. A series of time-lapse 2D (bi-dimensional) images were recorded to visualize mycelial growth and structures by using photography, image scanner and conventional light microscopy [<xref ref-type="bibr" rid="pone.0162469.ref004">4</xref>–<xref ref-type="bibr" rid="pone.0162469.ref007">7</xref>]. However, they are obtained with low clarity and limited by sample thickness. Electron microscopy [<xref ref-type="bibr" rid="pone.0162469.ref008">8</xref>–<xref ref-type="bibr" rid="pone.0162469.ref010">10</xref>] has a large depth of field able to produce images free of focus blur, but samples need to be dehydrated, which results in inactivating living samples and prevents time-lapse observations. Alternatively, confocal laser scanning microscopy (CLSM) allows non-destructive optical sectioning of samples in observing living fungal cells and is used in the visualization of 3D (three-dimensional) structures of fungi at a high spatial resolution, which realizes the quantification of fungal surface area, volume and density allocation [<xref ref-type="bibr" rid="pone.0162469.ref011">11</xref>–<xref ref-type="bibr" rid="pone.0162469.ref018">18</xref>]. Moreover, in addition to the static visualization of fungi, dynamic observations of hyphal growth have been performed as well [<xref ref-type="bibr" rid="pone.0162469.ref019">19</xref>, <xref ref-type="bibr" rid="pone.0162469.ref020">20</xref>].</p>
+<p><italic>Postia placenta</italic> is one of the most common brown rot fungi found in wood that is currently in service [<xref ref-type="bibr" rid="pone.0162469.ref021">21</xref>–<xref ref-type="bibr" rid="pone.0162469.ref023">23</xref>]. It decays wood at a rapid pace by degrading cellulose and hemicelluloses using self-produced enzymes and hydroxyl radicals, leaving lignin in place [<xref ref-type="bibr" rid="pone.0162469.ref024">24</xref>–<xref ref-type="bibr" rid="pone.0162469.ref027">27</xref>]. Apart from the biochemical aspect, the environmental factors, (e.g. temperature, moisture content, and oxygen depletion), that influence its growth rate in wood, have also been studied [<xref ref-type="bibr" rid="pone.0162469.ref028">28</xref>–<xref ref-type="bibr" rid="pone.0162469.ref030">30</xref>]. However, to our knowledge, there are no publications reporting the visualization of mycelial structures and quantitative measurement of growth characteristics of <italic>Postia placenta</italic> at the microscopic scale.</p>
+<p>The objective of this work is to visualize <italic>Postia placenta</italic> and evaluate its morphological characteristics to produce a set of statistical functions able to feed a lattice-based model for simulating a free growth (without restriction of resources, like nutrients or growth space) of mycelium in homogeneous environment. Thus, the observations on the free-grown culture were performed in using CLSM during 17 days. 3D images and their 2D projection images were obtained in order to quantitatively measure and analyze the morphological and growth parameters of <italic>Postia placenta</italic>, such as tip growth rate, hyphal density, branch angle and branching location. Then, the mycelial growth in complex environments, such as porous morphologies and resource limitation, will be extended from the calibrated model. The simulation work based on the statistics derived in the present work will be the object of a full paper.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="sec003">
+<title>Materials</title>
+<p><italic>Postia placenta</italic> strain FPRL 280 and a media of malt extract agar (No.X923.2, Carl Roth) at a concentration of 33.6 g/L was used. Teflon culture dishes, with an internal height of 5 mm and inner-radius of 7.5 mm, covered by glass coverslips with a thickness of 0.14 mm were designed for the observations using confocal microscopy. Vacuum grease (Carl Roth), which is non-toxic to fungi, was applied at regular points along the circumference of culture dishes to fix coverslips.</p>
+</sec>
+<sec id="sec004">
+<title>Methods</title>
+<sec id="sec005">
+<title>Inoculation and culture</title>
+<p>750 <italic>μL</italic> malt extract agar was added into the culture dish to obtain a ∼4.2 mm-thick media. To avoid the contact of the suspension with the coverslip and to reduce the amount of small hyphal fragments in the inoculation, 5 <italic>μL</italic> of the suspension, (<italic>Postia placenta</italic> strain FPRL 280 mixed in sterilized water), was inoculated on the media. Several drops of the vacuum grease were put on the edge of the culture dish to fix the coverslip, which allowed sufficient oxygen supplies and, simultaneously, reduced the risk of contamination. Then the culture dish was kept in an incubator at 20°<italic>C</italic> for 72 hours before observations. Another ten cultures were prepared as controls at the same time and maintained at 20°<italic>C</italic> for one month. The mycelial growth in 2D dimension began to be restricted by the surface of the culture dish after two-week growth. Then, the colonies regained rapid growth towards z direction thereafter till one month. This proves that the nutrients in media were sufficient at least for one-month growth of <italic>Postia placenta</italic>.</p>
+</sec>
+<sec id="sec006">
+<title>Fluorescence staining</title>
+<p>Calcofluor White M2R (Fluorescent Brightener 28, Sigma Aldrich), which stains fungal cell walls, was prepared as a 0.1%(<italic>w</italic>/<italic>v</italic>) stock solution in distilled water. In each staining, the stock solution was diluted to 0.001%(<italic>w</italic>/<italic>v</italic>) and was added into the culture by syringe filter (0.2<italic>μm</italic>). After 5 minutes, the dye was rinsed away gradually with sterilized water. The low concentration of the dye and short time of staining allowed for normal growth of hyphae [<xref ref-type="bibr" rid="pone.0162469.ref031">31</xref>] and, simultaneously, few residues of the fluorescent dye remaining in the media. The staining was repeated every 4 or 5 days to ensure a high signal-to-noise ratio while keeping low laser power, because the fluorescence intensity fades when exposed to the wavelength of 405<italic>nm</italic> (the selected laser line).</p>
+</sec>
+<sec id="sec007">
+<title>Confocal observation</title>
+<p>Observations were performed at room temperature (∼20°<italic>C</italic>) during 17 days using a Zeiss LSM 700 Laser Scanning Confocal Microscope (CLSM). The UV diode laser, at a wavelength of 405<italic>nm</italic>, was used for illumination. Fluorescence of Calcofluor White M2R was captured through a band pass filter at a wavelength of 420 − 475<italic>nm</italic>. The sample was evaluated every 2–3 days. A Plan-Apochromat 10×/0.45 M27 objective lens was used to obtain the image, and each image was averaged across 4 scans. Since the medium was transparent and the dyes transferred to the penetrative hyphae, the whole colony could be visualized, including the surface and penetrative hyphae, (<xref ref-type="supplementary-material" rid="pone.0162469.s001">S1(a) Fig</xref>). As the mycelium developed, the sizes of digital images in the xy plane increased from approximately 4000<italic>μm</italic> × 4000<italic>μm</italic> to 9000<italic>μm</italic> × 9000<italic>μm</italic>. Pixel size in the xy plane was 1.25<italic>μm</italic>×1.25<italic>μm</italic> to be able to visualize the individual hyphae, as the hyphal diameter was greater than 2<italic>μm</italic>. The depth on the z-axis was approximately 600<italic>μm</italic> and the interval distance between every two adjacent xy slices was approximately 20<italic>μm</italic>. A 3D image was obtained through reconstructing the successive xy slices in each observation (partly shown in <xref ref-type="supplementary-material" rid="pone.0162469.s001">S1(b) Fig</xref>). A 2D projection image was obtained as well for each observation using the method of maximum intensity projection (MIP) [<xref ref-type="bibr" rid="pone.0162469.ref032">32</xref>], which consists of projecting the voxel with maximum intensity on every view throughout the volume onto a 2D image (<xref ref-type="supplementary-material" rid="pone.0162469.s002">S2 Fig</xref>). By using MIP of the color-coded slices, color projections were also generated to distinguish the hyphae at different depths.</p>
+</sec>
+<sec id="sec008">
+<title>Measurement and analysis</title>
+<p>Optical slices in each 3D image were converted to binary masks using the triangle threshold method. The background noise caused by residual dyes was reduced by a selective median filter in ImageJ (NIH, Bethesda MD). In each 3D image, the number of voxels that contain hyphae in all slices were counted and plotted as a function of time to illustrate the evolution of biomass growth.</p>
+<p>Tip extension length, (Δ<italic>l</italic><sub><italic>tip</italic></sub>), was measured and obtained by comparing the same hypha in the overlapped two 2D projection images of consecutive observations using ImageJ (<xref ref-type="supplementary-material" rid="pone.0162469.s003">S3 Fig</xref>). The tips were classified into two categories: active tips (Δ<italic>l</italic><sub><italic>tip</italic></sub> &gt; 0) and dormant tips (Δ<italic>l</italic><sub><italic>tip</italic></sub> = 0, defined as temporal non-extending tips which can regain the activity). The hyphae that could be visually discriminated were measured. The extension rate for each tip, as well as the average extension rate of the active tips on each image, was calculated using Eqs (<xref ref-type="disp-formula" rid="pone.0162469.e001">1</xref>) and (<xref ref-type="disp-formula" rid="pone.0162469.e002">2</xref>):
+<disp-formula id="pone.0162469.e001"><alternatives><graphic id="pone.0162469.e001g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0162469.e001" xlink:type="simple"/><mml:math display="block" id="M1"><mml:mrow><mml:msub><mml:mi>R</mml:mi> <mml:mrow><mml:mi>t</mml:mi> <mml:mi>i</mml:mi> <mml:mi>p</mml:mi></mml:mrow></mml:msub> <mml:mrow><mml:mo>(</mml:mo> <mml:mi>i</mml:mi> <mml:mo>;</mml:mo> <mml:mi>x</mml:mi> <mml:mo>,</mml:mo> <mml:mi>y</mml:mi> <mml:mo>)</mml:mo></mml:mrow> <mml:mo>=</mml:mo> <mml:mfrac><mml:mrow><mml:mo>Δ</mml:mo> <mml:msub><mml:mi>l</mml:mi> <mml:mrow><mml:mi>t</mml:mi> <mml:mi>i</mml:mi> <mml:mi>p</mml:mi></mml:mrow></mml:msub> <mml:mrow><mml:mo>(</mml:mo> <mml:mi>i</mml:mi> <mml:mo>;</mml:mo> <mml:mi>x</mml:mi> <mml:mo>,</mml:mo> <mml:mi>y</mml:mi> <mml:mo>)</mml:mo></mml:mrow></mml:mrow> <mml:mrow><mml:mo>Δ</mml:mo> <mml:msub><mml:mi>t</mml:mi> <mml:mrow><mml:mi>t</mml:mi> <mml:mi>i</mml:mi> <mml:mi>p</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:math></alternatives> <label>(1)</label></disp-formula> <disp-formula id="pone.0162469.e002"><alternatives><graphic id="pone.0162469.e002g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0162469.e002" xlink:type="simple"/><mml:math display="block" id="M2"><mml:mrow><mml:mfenced close="〉" open="〈" separators=""><mml:msub><mml:mi>R</mml:mi> <mml:mrow><mml:mi>t</mml:mi> <mml:mi>i</mml:mi> <mml:mi>p</mml:mi></mml:mrow></mml:msub></mml:mfenced> <mml:mo>=</mml:mo> <mml:mfrac><mml:mn>1</mml:mn> <mml:msub><mml:mi>N</mml:mi> <mml:mrow><mml:mi>a</mml:mi> <mml:mi>t</mml:mi> <mml:mi>i</mml:mi> <mml:mi>p</mml:mi></mml:mrow></mml:msub></mml:mfrac> <mml:munderover><mml:mo>∑</mml:mo> <mml:mrow><mml:mi>i</mml:mi> <mml:mo>=</mml:mo> <mml:mn>1</mml:mn></mml:mrow> <mml:msub><mml:mi>N</mml:mi> <mml:mrow><mml:mi>a</mml:mi> <mml:mi>t</mml:mi> <mml:mi>i</mml:mi> <mml:mi>p</mml:mi></mml:mrow></mml:msub></mml:munderover> <mml:msub><mml:mi>R</mml:mi> <mml:mrow><mml:mi>t</mml:mi> <mml:mi>i</mml:mi> <mml:mi>p</mml:mi></mml:mrow></mml:msub> <mml:mrow><mml:mo>(</mml:mo> <mml:mi>i</mml:mi> <mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:math></alternatives> <label>(2)</label></disp-formula>
+where <italic>R</italic><sub><italic>tip</italic></sub>(<italic>i</italic>; <italic>x</italic>, <italic>y</italic>) (<italic>μm</italic>/<italic>h</italic>) is the extension rate of tip <italic>i</italic> and the coordinates (<italic>x</italic>, <italic>y</italic>) are its position. Δ<italic>l</italic><sub><italic>tip</italic></sub>(<italic>i</italic>; <italic>x</italic>, <italic>y</italic>) denotes the extension length of tip <italic>i</italic> when it reaches (<italic>x</italic>, <italic>y</italic>) in the interval of time Δ<italic>t</italic><sub><italic>tip</italic></sub>. 〈<italic>R</italic><sub><italic>tip</italic></sub>〉 is the average tip extension rate and <italic>N</italic><sub><italic>atip</italic></sub> is the number of active tips. The distribution of tip extension rate for each image was calculated by <xref ref-type="disp-formula" rid="pone.0162469.e003">Eq (3)</xref>:
+<disp-formula id="pone.0162469.e003"><alternatives><graphic id="pone.0162469.e003g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0162469.e003" xlink:type="simple"/><mml:math display="block" id="M3"><mml:mtable displaystyle="true"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi>f</mml:mi> <mml:mrow><mml:mo>(</mml:mo> <mml:msub><mml:mi>x</mml:mi> <mml:mi>i</mml:mi></mml:msub> <mml:mo>)</mml:mo></mml:mrow> <mml:mo>=</mml:mo> <mml:mfrac><mml:msub><mml:mi>n</mml:mi> <mml:mi>i</mml:mi></mml:msub> <mml:mrow><mml:msub><mml:mi>n</mml:mi> <mml:mi>t</mml:mi></mml:msub> <mml:mo>Δ</mml:mo> <mml:mi>x</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math></alternatives> <label>(3)</label></disp-formula>
+where <italic>x</italic> is the data to be classified (in this case the tip extension rate, <italic>R</italic><sub><italic>tip</italic></sub>, was the sample data); <italic>n</italic><sub><italic>i</italic></sub> the number of data in the <italic>i</italic><sup><italic>th</italic></sup> interval [<italic>x</italic><sub><italic>i</italic></sub> − Δ<italic>x</italic>/2, <italic>x</italic><sub><italic>i</italic></sub> + Δ<italic>x</italic>/2); <italic>n</italic><sub><italic>t</italic></sub> the sample size and Δ<italic>x</italic> the width of the interval; <italic>f</italic>(<italic>x</italic><sub><italic>i</italic></sub>) the probability density of x falling within the <italic>i</italic><sup><italic>th</italic></sup> interval. Moreover, the quantities of new emerged branches per hypha, as well as, the ratio of active tips from the measured tips were quantified for each image.</p>
+<p>Due to the linear and radial growth of hyphae, the biomass of mycelium depends on the total length of hyphae not the area of colony. Thus, three regions, (R1, R2 and R3), with equal gap were successively divided covering almost the entire colony on the 5th, 7th and 10th day following inoculation (<xref ref-type="fig" rid="pone.0162469.g001">Fig 1(a)</xref>). The selected regions were rectangular, which was more suitable for image processing but not ideal for measurement because of the radial growth of the colony. So four portions were selected in each region for quantitative comparison (<xref ref-type="fig" rid="pone.0162469.g001">Fig 1(b)-(i)</xref>), which allowed that the areas analyzed for each region were proportional to the radius. The shape and position of each portion chosen in the same region was representative of an “average” distance to the inoculum. In 3D images, the hyphal voxels of every four portions in each region were counted and normalized by the total number of voxels of all portions in the final observation. The data of each region was then plotted as a function of time. Curves from R2 and R3 were translated along the time axis to coincide with that of R1. The age of R1 was defined as the duration of the development of the colony since the inoculation, while the age of R2 and R3 was obtained by an age gap through this translation.</p>
+<fig id="pone.0162469.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0162469.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Method of the measurement of branching characteristics.</title>
+<p>(a) Three regions with equal gap to partition the young and old hyphae: (i) R1, (ii) R2 and (iii) R3, covering almost the entire colony on the 5th, 7th and 10th day following inoculation. (b) (i) Four portions selected for the measurement in each of the three regions (e.g., P1.1, P1.2, P1.3 and P1.4 in R1). (ii) Zoom of a color projection for measurement to show a cross of two hyphae with two types of branch sites and branch angles (AB angle (<italic>θ</italic><sub><italic>bra</italic></sub>) and LB angle (<italic>θ</italic><sub><italic>brl</italic></sub>)). The color bar shows the depth of the mycelium along the z-axis. (iii) Errors between real values and projective ones caused by z-direction growth of hyphae: (left) real branch angle (<italic>θ</italic><sub><italic>r</italic></sub>), projective branch angle (<italic>θ</italic><sub><italic>p</italic></sub>), and angle of the real hypha to the xy plan (<italic>θ</italic><sub><italic>z</italic></sub>); (right) real branch length (<italic>l</italic><sub><italic>r</italic></sub>) and projective branch length (<italic>l</italic><sub><italic>p</italic></sub>).</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0162469.g001" xlink:type="simple"/>
+</fig>
+<p>There are two types of hyphal branches, the apical branch (AB) and the lateral branch (LB), each distinguished by their formation patterns [<xref ref-type="bibr" rid="pone.0162469.ref033">33</xref>] (<xref ref-type="fig" rid="pone.0162469.g001">Fig 1(b)-(ii)</xref>). The AB emerges from a hyphal tip and two daughter branches develop symmetrically around this tip. Moreover, the LB is a new branch formed from a site distal to the hyphal tip. Accordingly, there are two types of branch angles and branch sites based on these types of branches. An AB angle is formed by two ABs and a LB angle is defined by the LB and the growth direction of the mother hypha. The location of branch development is denoted as one branch site, differing from a cross that is the intersection of two hyphae at different depths (<xref ref-type="fig" rid="pone.0162469.g001">Fig 1(b)-(ii)</xref>). Moreover, the branching length is defined as the hyphal length between the two adjacent branch sites. Next, the two types of branch angles, the number of AB sites and LB sites and the branching length were quantified and measured in each region from color projection images using the proprietary Zeiss software (ZEN 2012, black edition). The distributions of two branch angles, as well as, branching lengths were calculated using <xref ref-type="disp-formula" rid="pone.0162469.e003">Eq (3)</xref> where the measured branch angle <italic>θ</italic> and branching length <italic>l</italic> were the sample data. Due to the projection in 2D of the real 3D structure, an error is possible for some of the measured branch angles and branching lengths. The projection error due to the z-component of the hyphal direction is shown in <xref ref-type="fig" rid="pone.0162469.g001">Fig 1(b)-(iii)</xref>. This error was calculated using Eqs (<xref ref-type="disp-formula" rid="pone.0162469.e004">4</xref>) and (<xref ref-type="disp-formula" rid="pone.0162469.e005">5</xref>):
+<disp-formula id="pone.0162469.e004"><alternatives><graphic id="pone.0162469.e004g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0162469.e004" xlink:type="simple"/><mml:math display="block" id="M4"><mml:mrow><mml:msub><mml:mi>ϵ</mml:mi> <mml:mi>θ</mml:mi></mml:msub> <mml:mo>=</mml:mo> <mml:msub><mml:mi>θ</mml:mi> <mml:mi>r</mml:mi></mml:msub> <mml:mo>-</mml:mo> <mml:msub><mml:mi>θ</mml:mi> <mml:mi>p</mml:mi></mml:msub> <mml:mo>=</mml:mo> <mml:mi>a</mml:mi> <mml:mi>r</mml:mi> <mml:mi>c</mml:mi> <mml:mi>c</mml:mi> <mml:mi>o</mml:mi> <mml:mi>s</mml:mi> <mml:mrow><mml:mo>(</mml:mo> <mml:mi>s</mml:mi> <mml:mi>i</mml:mi> <mml:mi>n</mml:mi> <mml:msubsup><mml:mi>θ</mml:mi> <mml:mi>z</mml:mi> <mml:mn>1</mml:mn></mml:msubsup> <mml:mi>s</mml:mi> <mml:mi>i</mml:mi> <mml:mi>n</mml:mi> <mml:msubsup><mml:mi>θ</mml:mi> <mml:mi>z</mml:mi> <mml:mn>2</mml:mn></mml:msubsup> <mml:mi>c</mml:mi> <mml:mi>o</mml:mi> <mml:mi>s</mml:mi> <mml:msub><mml:mi>θ</mml:mi> <mml:mi>p</mml:mi></mml:msub> <mml:mo>+</mml:mo> <mml:mi>c</mml:mi> <mml:mi>o</mml:mi> <mml:mi>s</mml:mi> <mml:msubsup><mml:mi>θ</mml:mi> <mml:mi>z</mml:mi> <mml:mn>1</mml:mn></mml:msubsup> <mml:mi>c</mml:mi> <mml:mi>o</mml:mi> <mml:mi>s</mml:mi> <mml:msubsup><mml:mi>θ</mml:mi> <mml:mi>z</mml:mi> <mml:mn>2</mml:mn></mml:msubsup> <mml:mo>)</mml:mo></mml:mrow> <mml:mo>-</mml:mo> <mml:msub><mml:mi>θ</mml:mi> <mml:mi>p</mml:mi></mml:msub></mml:mrow></mml:math></alternatives> <label>(4)</label></disp-formula> <disp-formula id="pone.0162469.e005"><alternatives><graphic id="pone.0162469.e005g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0162469.e005" xlink:type="simple"/><mml:math display="block" id="M5"><mml:mrow><mml:msub><mml:mi>ϵ</mml:mi> <mml:mi>l</mml:mi></mml:msub> <mml:mo>=</mml:mo> <mml:msub><mml:mi>φ</mml:mi> <mml:mi>l</mml:mi></mml:msub> <mml:mo>×</mml:mo> <mml:msub><mml:mi>l</mml:mi> <mml:mi>p</mml:mi></mml:msub> <mml:mo>=</mml:mo> <mml:mrow><mml:mo>(</mml:mo> <mml:mn>1</mml:mn> <mml:mo>/</mml:mo> <mml:mi>c</mml:mi> <mml:mi>o</mml:mi> <mml:mi>s</mml:mi> <mml:msub><mml:mi>θ</mml:mi> <mml:mi>z</mml:mi></mml:msub> <mml:mo>-</mml:mo> <mml:mn>1</mml:mn> <mml:mo>)</mml:mo></mml:mrow> <mml:mo>×</mml:mo> <mml:msub><mml:mi>l</mml:mi> <mml:mi>p</mml:mi></mml:msub></mml:mrow></mml:math></alternatives> <label>(5)</label></disp-formula>
+where <italic>ϵ</italic><sub><italic>θ</italic></sub> is error of angle; <italic>θ</italic><sub><italic>r</italic></sub> real branch angle; <italic>θ</italic><sub><italic>p</italic></sub> projective branch angle; <italic>θ</italic><sub><italic>z</italic></sub> angle between real hypha and the xy plan, calculated by <italic>arctan</italic>(Δ<italic>z</italic>/Δ<italic>l</italic>); <italic>ϵ</italic><sub><italic>l</italic></sub> error of length; <italic>φ</italic><sub><italic>l</italic></sub> error coefficient, which was defined as the ratio of the error of length to the projective length; <italic>l</italic><sub><italic>p</italic></sub> projective branching length. Due to the color projection, the distance of z-direction growth (Δ<italic>z</italic>) and the corresponding projective distance (Δ<italic>l</italic>) can be measured and used to estimate <italic>θ</italic><sub><italic>z</italic></sub>.</p>
+</sec>
+</sec>
+</sec>
+<sec id="sec009" sec-type="conclusions">
+<title>Results and Discussion</title>
+<p>3D images were reconstructed by the confocal slices, which allowed to calculate the growth of the biomass. 2D projection images were also obtained to observe the mycelial growth and to measure its morphological characterization. As shown in <xref ref-type="supplementary-material" rid="pone.0162469.s002">S2 Fig</xref>, the <italic>Postia placenta</italic> grew from a central inoculum block and 8 instants were recorded on the 3rd, 4th, 5th, 7th, 10th, 12th, 14th and 17th day, following inoculation. During the initial 5 days, the hyphal elongation was dominant, while on the 7th day, a visible emergence of branches occurred. Next, a symmetric colony formed and enlarged its area by tip extension, as well as branching. After the 14th day, the colony nearly reached the edge of the culture dish and could not continue to increase its area. Overall, the colony remained radially symmetric as it developed over time. Additionally, the mycelial surface density increased over time at a given location but with a distinct spatial gradient as the density decreases with the colony radius. This phenomenon is consistent with the fractal nature of mycelial growth [<xref ref-type="bibr" rid="pone.0162469.ref034">34</xref>, <xref ref-type="bibr" rid="pone.0162469.ref035">35</xref>].</p>
+<p>Biomass growth is a global index used to represent the status of mycelial growth. In <xref ref-type="fig" rid="pone.0162469.g002">Fig 2</xref>, the biomass growth is presented as a function of days post inoculation. The curve exhibits a lag phase of 5 days, during which the biomass growth was not considerable. The mycelium may be adapting and exploring the new environment and inducing its transport systems. The exponential phase began on the 5th day, when a rapid multiplication of hyphae occurred. As hyphal branches were initiated, the hyphae extended to the uncolonized regions and the increase of biomass exponentially increased. A stationary phase occurred after the 14th day, as evidenced by a gradual decrease of growth, potentially due to the limited planar space.</p>
+<fig id="pone.0162469.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0162469.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Biomass growth of the whole colony as a function of days post inoculation.</title>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0162469.g002" xlink:type="simple"/>
+</fig>
+<p>The morphological characterization of mycelia, including the tip extension rate and the branching parameters, was obtained by image processing and subsequently analyzed. The number of measured tips (<italic>N</italic><sub><italic>tip</italic></sub>) in each overlapped image is shown in <xref ref-type="table" rid="pone.0162469.t001">Table 1</xref>. The average proportion of active tips (<italic>k</italic><sub><italic>active</italic></sub>) over all measurements was estimated as 0.72 and 0.70 during the lag and the exponential phase. And during the exponential phase, this proportion was high (0.77) from the 5th to the 12th day, and then decreased to 0.5 because the hyphal density became very high and a part of tips approached the edge of the culture dish. The average extension rate of the active tips (〈<italic>R</italic><sub><italic>tip</italic></sub>〉) between two consecutive observations are also listed in <xref ref-type="table" rid="pone.0162469.t001">Table 1</xref> together with the new emerged branch number per hypha (<italic>φ</italic><sub><italic>br</italic></sub>), which is the increment of branch number (Δ<italic>N</italic><sub><italic>br</italic></sub>) over the number of tips (<italic>N</italic><sub><italic>tip</italic></sub>). <italic>φ</italic><sub><italic>br</italic></sub> arose rapidly from 0.3 to 2.6 on the 7th day, then decreased to 1.8 and remained at this level for 7 days. The ratio (<italic>k</italic><sub><italic>lag</italic></sub>) of the average value of <italic>φ</italic><sub><italic>br</italic></sub> during the lag phase to that during the exponential phase is 1/5. Thus, although the average proportion of active tips was slightly higher in the lag phase, the increase of biomass was not so high just because there were much fewer new tips (generated by emerged branches) in the lag phase than in the exponential phase. The peak of the the average tip extension rate coincides with that of new emerged branch number per hypha (<italic>φ</italic><sub><italic>br</italic></sub>). It increased rapidly between the 5th and 7th day from 16.6 <italic>μm</italic>/<italic>h</italic> to 28.8 <italic>μm</italic>/<italic>h</italic>, then decreased to around 14 <italic>μm</italic>/<italic>h</italic> until the 14th day. From the 14th day, it decreased much lower. As a result, the tip extension rate and the branching emergence rate are both tied to the mycelial growth phase. Throughout the lag phase, tip extension dominated and few branches emerged, as also reported by J. Meletiadis <italic>et al.</italic>, 2001 [<xref ref-type="bibr" rid="pone.0162469.ref036">36</xref>]. Following the lag phase, both activities contributed to the rapid multiplication of day 7. Then, the average tip extension rate and the branching emergence rate remained nearly constant, which resulted in the continuance of the exponential phase until the 14th day.</p>
+<table-wrap id="pone.0162469.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0162469.t001</object-id>
+<label>Table 1</label>
+<caption>
+<title>Average tip extension rate obtained using <xref ref-type="disp-formula" rid="pone.0162469.e002">Eq (2)</xref> and relative increase of branch number per hypha during two consecutive observations.</title>
+</caption>
+<alternatives>
+<graphic id="pone.0162469.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0162469.t001" xlink:type="simple"/>
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Days after inoculation</th>
+<th align="left">3</th>
+<th align="left">4</th>
+<th align="left">5</th>
+<th align="left">7</th>
+<th align="left">10</th>
+<th align="left">12</th>
+<th align="left">14</th>
+<th align="left">17</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><bold>Number of measured tips</bold> (<italic>N</italic><sub><italic>tip</italic></sub>)</td>
+<td align="left">–</td>
+<td align="left">86</td>
+<td align="left">119</td>
+<td align="left">132</td>
+<td align="left">144</td>
+<td align="left">150</td>
+<td align="left">190</td>
+<td align="left">224</td>
+</tr>
+<tr>
+<td align="left"><bold>New emerged branch number per hypha</bold> <italic>φ</italic><sub><italic>br</italic></sub></td>
+<td align="left">–</td>
+<td align="left">0.3</td>
+<td align="left">0.3</td>
+<td align="left">2.6</td>
+<td align="left">1.8</td>
+<td align="left">1.4</td>
+<td align="left">1.4</td>
+<td align="left">0.9</td>
+</tr>
+<tr>
+<td align="left"><bold>Average extension rate of active tips</bold> 〈<italic>R</italic><sub><italic>tip</italic></sub>〉 (<italic>μ</italic>m/h)</td>
+<td align="left">–</td>
+<td align="left">11.4</td>
+<td align="left">16.6</td>
+<td align="left">28.8</td>
+<td align="left">15.5</td>
+<td align="left">12.7</td>
+<td align="left">13.9</td>
+<td align="left">5.3</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>Although the average tip extension, (calculated by <xref ref-type="disp-formula" rid="pone.0162469.e002">Eq (2)</xref>), provides a global view, it cannot absolutely represent the tip extension rate because of the important deviation of individual values from the average. Indeed, individual values are spread over a wide range as shown by the distributions, calculated by <xref ref-type="disp-formula" rid="pone.0162469.e003">Eq (3)</xref>, in <xref ref-type="fig" rid="pone.0162469.g003">Fig 3</xref>. <xref ref-type="fig" rid="pone.0162469.g004">Fig 4</xref> depicts the spatial distribution of tip extension rate calculated by <xref ref-type="disp-formula" rid="pone.0162469.e001">Eq (1)</xref> during the 17 days. The green points represent the rates smaller than 25 <italic>μm</italic>/<italic>h</italic>, while the orange ones represent the higher rates. The green and orange points are randomly distributed over the entire domain, which indicates that the tip extension rate is randomly distributed in space. Therefore, the formation of the colony generally presents a radial symmetry over time, despite the irregular form of the inoculum. The fact that the extension rate of the same tip varies randomly with time has also been reported by Sampson K., 2003 [<xref ref-type="bibr" rid="pone.0162469.ref037">37</xref>].</p>
+<fig id="pone.0162469.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0162469.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Distribution of the extension rate (<italic>R</italic><sub><italic>tip</italic></sub>(<italic>i</italic>; <italic>x</italic>, <italic>y</italic>)) of active tips calculated during two consecutive observations.</title>
+<p>Different observations are displayed from the 4th to 17th day post inoculation.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0162469.g003" xlink:type="simple"/>
+</fig>
+<fig id="pone.0162469.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0162469.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Spatial distribution of tip extension rate (<italic>R</italic><sub><italic>tip</italic></sub>(<italic>i</italic>; <italic>x</italic>, <italic>y</italic>)) during 17 days of observations.</title>
+<p>(<italic>x</italic>, <italic>y</italic>) are the coordinates of the position of tip <italic>i</italic>. The colors display the different ranges of rate: from green, less than 25 <italic>μm</italic>/<italic>h</italic>, to orange for the &gt; 25 <italic>μm</italic>/<italic>h</italic>. Grey points represent dormant tips.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0162469.g004" xlink:type="simple"/>
+</fig>
+<p>As shown in <xref ref-type="fig" rid="pone.0162469.g005">Fig 5(a)</xref>, the biomass growth in each region displayed a similar trend. The curves of R2 and R3 were translated by -2 days and -4 days along the time axis, respectively. Following translation, the three curves are nearly superimposed, which reveals that the biomass behavior in the three regions is similar (the inset graph in <xref ref-type="fig" rid="pone.0162469.g005">Fig 5(a)</xref>). <xref ref-type="fig" rid="pone.0162469.g005">Fig 5(b)</xref> illustrates the age of each region. The estimated starting time of hyphal growth in the three regions was 0, 2 and 4 days following inoculation. Thus, <xref ref-type="fig" rid="pone.0162469.g005">Fig 5(b)</xref> serves as an age axis for <xref ref-type="fig" rid="pone.0162469.g005">Fig 5(a)</xref>.</p>
+<fig id="pone.0162469.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0162469.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>Age of region for R1, R2 and R3.</title>
+<p>(a) Biomass growth measured throughout the 4 portions of R1, R2 and R3 as a function of days after inoculation (the inset graph shows the three curves translated by Δ<italic>x</italic>). (b) The starting time of growth for R1, R2 and R3 is the inoculation day, the second day and the fourth day. The age axis is related with time axis to determine the age of each region on different observation days (E.g. the age of R1 on the 12th day is 12 days old but 10 and 8 days old for R2 and R3; the R1, R2 and R3 are 10 days old respectively after 10 days, 12 days and 14 days.) The age of region represented approximately the age of the oldest hyphae in that region.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0162469.g005" xlink:type="simple"/>
+</fig>
+<p>An additional important branching parameter to simulate the hyphal morphology is the branch angle. AB and LB angles were measured in the four portions of R1, R2 and R3 in the 12th-day observation. The population of the angle sample is approximately 1200, including ∼400, ∼500 and ∼300 data measured respectively in R1, R2 and R3, among which there were ∼960 LB angles and ∼240 AB angles. A comparative plot of the AB angle distribution and the LB angle distribution in all three regions (<xref ref-type="fig" rid="pone.0162469.g006">Fig 6(a)</xref>) reveals that the type of branches has negligible effect on branch angle distribution. <xref ref-type="fig" rid="pone.0162469.g006">Fig 6(b)</xref> exhibits a similar branch angle distribution in R1, R2 and R3. According to <xref ref-type="fig" rid="pone.0162469.g005">Fig 5(b)</xref>, these three regions on the 12th day were 12, 10 and 8 days old, which indicates there are no visible differences in the branch angle distribution at different ages of region. Alternatively, it is not influenced by different hyphal densities or by the age of the mother hypha from which the new branches emerged. Overall, the branch angle distribution of <italic>Postia placenta</italic> is not affected by the age of region, or by the branch type. The branch angle remained approximately 80°, close to the right angle, which appeared to maximize the area covered by the colony. The error of the branch angle between real value and projective value caused by the z-direction growth of hyphae calculated by <xref ref-type="disp-formula" rid="pone.0162469.e004">Eq (4)</xref> was shown in <xref ref-type="supplementary-material" rid="pone.0162469.s004">S4(a) Fig</xref>. Considering around 200 errors out of 1200 angles in total, there are only 10 absolute errors greater than 5°, (0.8% of 1200 measured data and the relative error is 6.3% by the average of angles—80°), and 46 ones greater than 2°, (3.8% of 1200 measured data and the relative error is 2.5% by the average of angles—80°). As a result, we can assume that the error of the angle did not impact the branch angle distribution. The curve fitting was then implemented to the probability density of all measured angles (AB and LB angles in all three regions) using an evolutionary algorithm to minimize the residual sum of squares (RSS) (<xref ref-type="disp-formula" rid="pone.0162469.e006">Eq (6)</xref>) between the experimental data and the Gaussian distribution. RSS is defined as:
+<disp-formula id="pone.0162469.e006"><alternatives><graphic id="pone.0162469.e006g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0162469.e006" xlink:type="simple"/><mml:math display="block" id="M6"><mml:mrow><mml:mi>R</mml:mi> <mml:mi>S</mml:mi> <mml:mi>S</mml:mi> <mml:mo>=</mml:mo> <mml:munder><mml:mo>∑</mml:mo> <mml:mi>i</mml:mi></mml:munder> <mml:msup><mml:mrow><mml:mo>(</mml:mo> <mml:mi>f</mml:mi> <mml:mrow><mml:mo>(</mml:mo> <mml:msub><mml:mi>x</mml:mi> <mml:mi>i</mml:mi></mml:msub> <mml:mo>)</mml:mo></mml:mrow> <mml:mo>-</mml:mo> <mml:mi>g</mml:mi> <mml:mrow><mml:mo>(</mml:mo> <mml:msub><mml:mi>x</mml:mi> <mml:mi>i</mml:mi></mml:msub> <mml:mo>)</mml:mo></mml:mrow> <mml:mo>)</mml:mo></mml:mrow> <mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:math></alternatives> <label>(6)</label></disp-formula>
+where <italic>x</italic><sub><italic>i</italic></sub> is the <italic>i</italic><sup><italic>th</italic></sup> explanatory variable, <italic>f</italic>(<italic>x</italic><sub><italic>i</italic></sub>) is the <italic>i</italic><sup><italic>th</italic></sup> value of the probability density calculated in experiment and <italic>g</italic>(<italic>x</italic><sub><italic>i</italic></sub>) is that of the fit. Normalized Gaussian function reads as follows:
+<disp-formula id="pone.0162469.e007"><alternatives><graphic id="pone.0162469.e007g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0162469.e007" xlink:type="simple"/><mml:math display="block" id="M7"><mml:mrow><mml:msub><mml:mi>g</mml:mi> <mml:mi>s</mml:mi></mml:msub> <mml:mrow><mml:mo>(</mml:mo> <mml:mi>θ</mml:mi> <mml:mo>;</mml:mo> <mml:mi>μ</mml:mi> <mml:mo>,</mml:mo> <mml:mi>σ</mml:mi> <mml:mo>)</mml:mo></mml:mrow> <mml:mo>=</mml:mo> <mml:mfrac><mml:mn>1</mml:mn> <mml:mrow><mml:mi>σ</mml:mi> <mml:msqrt><mml:mrow><mml:mn>2</mml:mn> <mml:mi>π</mml:mi></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac> <mml:mi>e</mml:mi> <mml:mi>x</mml:mi> <mml:mi>p</mml:mi> <mml:mrow><mml:mo>(</mml:mo> <mml:mo>-</mml:mo> <mml:mfrac><mml:msup><mml:mrow><mml:mo>(</mml:mo> <mml:mi>θ</mml:mi> <mml:mo>-</mml:mo> <mml:mi>μ</mml:mi> <mml:mo>)</mml:mo></mml:mrow> <mml:mn>2</mml:mn></mml:msup> <mml:mrow><mml:mn>2</mml:mn> <mml:msup><mml:mi>σ</mml:mi> <mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac> <mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:math></alternatives> <label>(7)</label></disp-formula>
+where <italic>θ</italic> represents the branch angle, <italic>μ</italic> = 77.6° the mean of the distribution and <italic>σ</italic> = 12.3° the standard deviation. According to the fit, more than 68% of the branch angles were within the interval: <italic>θ</italic> ∈ [65°, 90°]. The accuracy of the fit was measured by RSS, which characterized the global quality of the fit. <xref ref-type="fig" rid="pone.0162469.g006">Fig 6(c)</xref> illustrates a low RSS of 5 × 10<sup>−5</sup>, which represents strong agreement between the experimental data and the fit. <xref ref-type="disp-formula" rid="pone.0162469.e007">Eq (7)</xref> with the identified parameters will be applied in the modeling of mycelial growth to determine the formation of AB and LB angles.</p>
+<fig id="pone.0162469.g006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0162469.g006</object-id>
+<label>Fig 6</label>
+<caption>
+<title>Distribution of branch angle measured in the observation on the 12th day.</title>
+<p>(a) AB angles and LB angles in three regions; (b) two types of branch angles respectively in R1, R2 and R3; (c) two types of branch angles in three regions and fitted curve. The similar branch angle distributions were observed in each of the different regions and they follow a Gaussian distribution.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0162469.g006" xlink:type="simple"/>
+</fig>
+<p>In addition to branch angle, the branching length distribution, which is required to obtain the density of branches, is a complementary parameter to describe the branching pattern. The two types of branches were not distinguished while measuring the length, however, the number of LB site (<italic>N</italic><sub><italic>lbs</italic></sub>) and AB site (<italic>N</italic><sub><italic>abs</italic></sub>) were additionally counted. The ratio of <italic>N</italic><sub><italic>lbs</italic></sub>/<italic>N</italic><sub><italic>abs</italic></sub> decreased rapidly as a function of time and subsequently leveled off and remained between 4.0 and 5.0 from the 7th day. The branching length distribution is shown in <xref ref-type="fig" rid="pone.0162469.g007">Fig 7(a)</xref> and each sample possessed a population of 300 to 500. The most frequent values were approximately 15<italic>μm</italic> to 25<italic>μm</italic>, regardless of the age of region. Their proportion increased with age of region. Indeed, as more branches appeared with time, a long branching length was divided into segments and produced several short lengths. The proportion of short lengths increased, while that of long ones decreased with time. As shown in <xref ref-type="fig" rid="pone.0162469.g007">Fig 7(a)</xref>, few branching segments were longer than 200<italic>μm</italic>. Due to their very low probability, these long segments were not clearly visible and their evolution with age was difficult to distinguish. Yet, their importance in terms of biomass and morphology of the mycelium is important. For this reason, a weighted cumulative distribution function (<xref ref-type="fig" rid="pone.0162469.g007">Fig 7(b)</xref>) was defined to better consider the influence of the long branching segments:
+<disp-formula id="pone.0162469.e008"><alternatives><graphic id="pone.0162469.e008g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0162469.e008" xlink:type="simple"/><mml:math display="block" id="M8"><mml:mrow><mml:mi>F</mml:mi> <mml:mrow><mml:mo>(</mml:mo> <mml:msub><mml:mi>l</mml:mi> <mml:mi>k</mml:mi></mml:msub> <mml:mo>)</mml:mo></mml:mrow> <mml:mo>=</mml:mo> <mml:mfrac><mml:mrow><mml:munderover><mml:mo>∑</mml:mo> <mml:mrow><mml:mi>i</mml:mi> <mml:mo>=</mml:mo> <mml:mn>1</mml:mn></mml:mrow> <mml:mi>k</mml:mi></mml:munderover> <mml:mi>f</mml:mi> <mml:mrow><mml:mo>(</mml:mo> <mml:msub><mml:mi>l</mml:mi> <mml:mi>i</mml:mi></mml:msub> <mml:mo>)</mml:mo></mml:mrow> <mml:msub><mml:mi>l</mml:mi> <mml:mi>i</mml:mi></mml:msub></mml:mrow> <mml:mrow><mml:munderover><mml:mo>∑</mml:mo> <mml:mrow><mml:mi>i</mml:mi> <mml:mo>=</mml:mo> <mml:mn>1</mml:mn></mml:mrow> <mml:mi>m</mml:mi></mml:munderover> <mml:mi>f</mml:mi> <mml:mrow><mml:mo>(</mml:mo> <mml:msub><mml:mi>l</mml:mi> <mml:mi>i</mml:mi></mml:msub> <mml:mo>)</mml:mo></mml:mrow> <mml:msub><mml:mi>l</mml:mi> <mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:math></alternatives> <label>(8)</label></disp-formula>
+where <italic>f</italic> is the probability density shown in <xref ref-type="fig" rid="pone.0162469.g007">Fig 7(a)</xref>; <italic>l</italic><sub><italic>i</italic></sub> the length of the <italic>i</italic><sup><italic>th</italic></sup> interval; <italic>k</italic> the number of the interval to be calculated and <italic>m</italic> the total number of the intervals. The comparison of the branching length distributions was performed among the same region (R1) of different days, among the three regions of the same day (on the 12th day) and among the regions of the same age (10-day-old). In <xref ref-type="fig" rid="pone.0162469.g005">Fig 5(b)</xref>, the age of the regions on different days can be identified. <xref ref-type="fig" rid="pone.0162469.g007">Fig 7(a)-(i), 7(a)-(ii), 7(b)-(i) and 7(b)-(ii)</xref>, a comparison between the regions of different ages, indicate that with the increasing of age, the proportion of short branching length arose while that of long ones reduced. It reveals that the branches emerge not only from young hyphae but also from the old parts of hyphae, and that the branch sites can be located both in the parts with low and high branch density. The coincidence of the three curves in <xref ref-type="fig" rid="pone.0162469.g007">Fig 7(a)-(iii) and 7(b)-(iii)</xref> illustrates that the branching length distributions are approximately equal at the same age of region. The error coefficient of branching length calculated by <xref ref-type="disp-formula" rid="pone.0162469.e005">Eq (5)</xref> was shown in <xref ref-type="supplementary-material" rid="pone.0162469.s004">S4(b) Fig</xref>. Considering the 240 errors out of about 1200 branching lengths in total, there are 82 relative errors, (6.8% of 1200 measured data), greater than 5.0%. Thus, this error can be also neglected for the branching length distribution. Experimental data measured at the same age were regrouped to calculate the branching length distribution (<xref ref-type="fig" rid="pone.0162469.g008">Fig 8</xref>). The parameter identification was carried out to the branching length distributions at different hyphal ages. <xref ref-type="fig" rid="pone.0162469.g008">Fig 8</xref> displays examples of fitted curves using a gamma distribution:
+<disp-formula id="pone.0162469.e009"><alternatives><graphic id="pone.0162469.e009g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0162469.e009" xlink:type="simple"/><mml:math display="block" id="M9"><mml:mrow><mml:msub><mml:mi>g</mml:mi> <mml:mi>γ</mml:mi></mml:msub> <mml:mrow><mml:mo>(</mml:mo> <mml:mi>l</mml:mi> <mml:mo>;</mml:mo> <mml:mi>α</mml:mi> <mml:mo>,</mml:mo> <mml:mi>β</mml:mi> <mml:mo>)</mml:mo></mml:mrow> <mml:mo>=</mml:mo> <mml:mfrac><mml:msup><mml:mi>β</mml:mi> <mml:mi>α</mml:mi></mml:msup> <mml:mrow><mml:mo>Γ</mml:mo> <mml:mo>(</mml:mo> <mml:mi>α</mml:mi> <mml:mo>)</mml:mo></mml:mrow></mml:mfrac> <mml:msup><mml:mi>l</mml:mi> <mml:mrow><mml:mi>α</mml:mi> <mml:mo>-</mml:mo> <mml:mn>1</mml:mn></mml:mrow></mml:msup> <mml:msup><mml:mi>e</mml:mi> <mml:mrow><mml:mo>-</mml:mo> <mml:mi>β</mml:mi> <mml:mi>l</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:math></alternatives> <label>(9)</label></disp-formula>
+where <italic>l</italic> is the length between two adjacent branch sites; <italic>α</italic> and <italic>β</italic> are the scale and rate parameters of the gamma distribution. The low value of RSS, about 10<sup>−5</sup>, indicates a tight fit of the simulated data to the experimental ones. The fitted curves, which are in good agreement with the observation curves, will be used to simulate all the hyphal branching at the corresponding ages of region. The values of the scale and the rate parameter are shown in <xref ref-type="table" rid="pone.0162469.t002">Table 2</xref>: the values of <italic>α</italic> are between 1.0 and 2.0 while those of <italic>β</italic> are less than 1.0, and increase when the branching age increases.</p>
+<fig id="pone.0162469.g007" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0162469.g007</object-id>
+<label>Fig 7</label>
+<caption>
+<title>(a) Branching length distribution and (b) the corresponding weighted cumulative distribution <italic>F</italic>(<italic>l</italic>).</title>
+<p>The different graphs depict (i) the same region on different observation days, (ii) the different regions on the same observation day, (iii) the distributions of different regions on observation days selected to have the same hyphal age.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0162469.g007" xlink:type="simple"/>
+</fig>
+<fig id="pone.0162469.g008" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0162469.g008</object-id>
+<label>Fig 8</label>
+<caption>
+<title>Branching length distributions at different hyphal ages and their fitted curves.</title>
+<p>(a) 8-day-old (experimental data from R2 on the 10th day and R3 on the 12th day); (b) 10-day-old (experimental data from R1 on the 10th day, R2 on the 12th day and R3 on the 14th day); (c) 12-day-old (experimental data from R1 on the 12th day and R2 on the 14th day).</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0162469.g008" xlink:type="simple"/>
+</fig>
+<table-wrap id="pone.0162469.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0162469.t002</object-id>
+<label>Table 2</label>
+<caption>
+<title>Description and values of the identified parameters to be applied in the simulation of the mycelial growth.</title>
+</caption>
+<alternatives>
+<graphic id="pone.0162469.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0162469.t002" xlink:type="simple"/>
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Parameter</th>
+<th align="left">Description</th>
+<th align="left">Value &amp; expression</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">
+<inline-formula id="pone.0162469.e010">
+<alternatives>
+<graphic id="pone.0162469.e010g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0162469.e010" xlink:type="simple"/>
+<mml:math display="inline" id="M10">
+<mml:mover accent="true">
+<mml:msub>
+<mml:mi>D</mml:mi>
+<mml:mi>h</mml:mi>
+</mml:msub>
+<mml:mo>¯</mml:mo>
+</mml:mover>
+</mml:math>
+</alternatives>
+</inline-formula><xref ref-type="table-fn" rid="t002fn001"><sup>a</sup></xref></td>
+<td align="left">Average diameter of hyphae</td>
+<td align="left">3<italic>μm</italic></td>
+</tr>
+<tr>
+<td align="left"><italic>k</italic><sub><italic>active</italic></sub></td>
+<td align="left">Proportion of active tips</td>
+<td align="left">
+<list list-type="bullet">
+<list-item><p>Lag phase: 0.72</p></list-item>
+<list-item><p>Exponential phase: 0.7</p></list-item>
+</list>
+</td>
+</tr>
+<tr>
+<td align="left"><italic>f</italic>(<italic>R</italic><sub><italic>tip</italic></sub>)<xref ref-type="table-fn" rid="t002fn002"><sup>b</sup></xref></td>
+<td align="left">Tip extension rate distribution</td>
+<td align="left">
+<inline-formula id="pone.0162469.e011">
+<alternatives>
+<graphic id="pone.0162469.e011g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0162469.e011" xlink:type="simple"/>
+<mml:math display="inline" id="M11">
+<mml:mrow>
+<mml:mo>Γ</mml:mo>
+<mml:mrow>
+<mml:mo>(</mml:mo>
+<mml:mi>α</mml:mi>
+<mml:mo>=</mml:mo>
+<mml:mn>1</mml:mn>
+<mml:mo>.</mml:mo>
+<mml:mn>51</mml:mn>
+<mml:mo>,</mml:mo>
+<mml:mi>β</mml:mi>
+<mml:mo>=</mml:mo>
+<mml:mn>0</mml:mn>
+<mml:mo>.</mml:mo>
+<mml:mn>09</mml:mn>
+<mml:mo>)</mml:mo>
+</mml:mrow>
+<mml:mo>+</mml:mo>
+<mml:mn>4</mml:mn>
+<mml:mo>.</mml:mo>
+<mml:mn>65</mml:mn>
+<mml:mo>×</mml:mo>
+<mml:msup>
+<mml:mn>10</mml:mn>
+<mml:mrow>
+<mml:mo>-</mml:mo>
+<mml:mn>6</mml:mn>
+</mml:mrow>
+</mml:msup>
+<mml:mrow>
+<mml:mo>(</mml:mo>
+<mml:msubsup>
+<mml:mi>R</mml:mi>
+<mml:mrow>
+<mml:mi>t</mml:mi>
+<mml:mi>i</mml:mi>
+<mml:mi>p</mml:mi>
+</mml:mrow>
+<mml:mrow>
+<mml:mi>m</mml:mi>
+<mml:mi>a</mml:mi>
+<mml:mi>x</mml:mi>
+</mml:mrow>
+</mml:msubsup>
+<mml:mo>-</mml:mo>
+<mml:msub>
+<mml:mi>R</mml:mi>
+<mml:mrow>
+<mml:mi>t</mml:mi>
+<mml:mi>i</mml:mi>
+<mml:mi>p</mml:mi>
+</mml:mrow>
+</mml:msub>
+<mml:mo>)</mml:mo>
+</mml:mrow>
+</mml:mrow>
+</mml:math>
+</alternatives>
+</inline-formula>
+</td>
+</tr>
+<tr>
+<td align="left"><italic>k</italic><sub><italic>lag</italic></sub></td>
+<td align="left">Ratio of emerged branch numbers per hypha during the lag phase to that during the exponential phase ([<italic>φ</italic><sub><italic>br</italic></sub>]<sub><italic>lag</italic></sub>/[<italic>φ</italic><sub><italic>br</italic></sub>]<sub><italic>exp</italic></sub>)</td>
+<td align="left">1/5</td>
+</tr>
+<tr>
+<td align="left"><italic>f</italic>(<italic>θ</italic>)</td>
+<td align="left">Branch angle distribution</td>
+<td align="left">
+<inline-formula id="pone.0162469.e012">
+<alternatives>
+<graphic id="pone.0162469.e012g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0162469.e012" xlink:type="simple"/>
+<mml:math display="inline" id="M12">
+<mml:mi mathvariant="script">N</mml:mi>
+</mml:math>
+</alternatives>
+</inline-formula>(<italic>μ</italic> = 77.6°, <italic>σ</italic> = 12.3°)</td>
+</tr>
+<tr>
+<td align="left"><italic>N</italic><sub><italic>lbs</italic></sub>/<italic>N</italic><sub><italic>abs</italic></sub></td>
+<td align="left">Ratio of the number of LB sites to that of AB sites</td>
+<td align="left">4.0 − 5.0<xref ref-type="table-fn" rid="t002fn003"><sup>c</sup></xref></td>
+</tr>
+<tr>
+<td align="left"><italic>f</italic>(<italic>l</italic>)</td>
+<td align="left">Branching length distribution</td>
+<td align="left">
+<list list-type="bullet">
+<list-item><p>5-day-old: Γ(<italic>α</italic> = 1.32, <italic>β</italic> = 0.022)</p></list-item>
+<list-item><p>7-day-old: Γ(<italic>α</italic> = 1.71, <italic>β</italic> = 0.039)</p></list-item>
+<list-item><p>9-day-old: Γ(<italic>α</italic> = 1.52, <italic>β</italic> = 0.045)</p></list-item>
+</list>
+</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001">
+<p><sup>a</sup> identified by the observations using CLSM;</p>
+</fn>
+<fn id="t002fn002">
+<p><sup>b</sup> fit to all the data from the 4th day to the 14th day (<xref ref-type="supplementary-material" rid="pone.0162469.s005">S5 Fig</xref>);</p>
+</fn>
+<fn id="t002fn003">
+<p><sup>c</sup> from the 7th day.</p>
+</fn>
+</table-wrap-foot>
+</table-wrap>
+<p>The identified parameters and their values that will be used for calibrating the model for simulating the mycelial growth are listed in <xref ref-type="table" rid="pone.0162469.t002">Table 2</xref>. The proportion of active tips (<italic>k</italic><sub><italic>active</italic></sub>) and the tip extension rate distribution (<italic>f</italic>(<italic>R</italic><sub><italic>tip</italic></sub>)) quantify the tip extension, while the branch angle distribution (<italic>f</italic>(<italic>θ</italic>)), the ratio of <italic>N</italic><sub><italic>lbs</italic></sub>/<italic>N</italic><sub><italic>abs</italic></sub> and the branching length distribution (<italic>f</italic>(<italic>l</italic>)) determine the branching pattern. In addition, the lag phase and the exponential phase are distinguished in assigning different values to <italic>k</italic><sub><italic>active</italic></sub> and <italic>k</italic><sub><italic>lag</italic></sub> in the further simulation due to the noticeable difference of hyphal growth.</p>
+</sec>
+<sec id="sec010" sec-type="conclusions">
+<title>Conclusion</title>
+<p>The live-cell imaging using CLSM described in the present work allows recording the evolution of the mycelial structure of <italic>Postia placenta</italic> with time. Thanks to the observations on the whole colony level, the growth characteristics can be statistically analyzed in relation with the different duration of the development of the colony. The determination of the age of different regions implies the equivalence of time and space (radius of the colony) in mycelial growth. The data analysis allows a full set of statistical expressions to be proposed to characterize the fungal growth in free growth conditions. Among interesting results, the statistical analysis shows that the hyphal growth presents certain randomness, such as the spatial distribution of tip extension rate and the selection of the branch site. Afterwards, all the quantified hyphal growth in this paper will be used to feed a 2D lattice-based model for simulating the growth of <italic>Postia placenta</italic>. The tip extension rate and the branch angle distribution obtained in this work will be directly used as the input parameters for the model, while the branching length distribution calculated in the simulation will be compared with the experimental one to validate the rest branching parameters. Then the calibrated model will be extended to simulate the mycelial growth in heterogeneous environment with several hypotheses, e.g. the branch angle respects its intrinsic property but the extension and activity of this emerged branch is influenced by the environmental factor. However, the observation of hyphal growth in wood is important to the further study, especially for validating a 3D model (work in progress in our team) to mimic hyphal growth in wood. So, the growth of <italic>Postia placenta</italic> in wood will also be observed and quantified in using nano-tomography.</p>
+</sec>
+<sec id="sec011">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0162469.s001" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0162469.s001" xlink:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title>3D reconstruction of one section of the mycelium on the 12th day of observation.</title>
+<p>(a) Cross-sectional view of the surface and penetrative hyphae. (b) Top view of the hyphae.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0162469.s002" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0162469.s002" xlink:type="simple">
+<label>S2 Fig</label>
+<caption>
+<title>2D projection confocal images of <italic>Postia placenta</italic> obtained using the MIP method of the 3D images.</title>
+<p>The time evolution of the mycelial growth: the 3rd, 4th, 5th, 7th, 10th, 12th, 14th, 17th day following inoculation. The resolution is half of the original confocal images.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0162469.s003" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0162469.s003" xlink:type="simple">
+<label>S3 Fig</label>
+<caption>
+<title>Tip extension during two consecutive observations.</title>
+<p>The white curve is the hypha at the 1st observation and the red curve is its shape observed 2 days later. The coordinates of the tip positions are (<italic>x</italic><sub>0</sub>, <italic>y</italic><sub>0</sub>) and (<italic>x</italic>, <italic>y</italic>) respectively. Δ<italic>l</italic><sub><italic>tip</italic></sub>(<italic>i</italic>; <italic>x</italic>, <italic>y</italic>) is the extension length of tip <italic>i</italic>, i.e. the length of the path from (<italic>x</italic><sub>0</sub>, <italic>y</italic><sub>0</sub>) to (<italic>x</italic>, <italic>y</italic>).</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0162469.s004" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0162469.s004" xlink:type="simple">
+<label>S4 Fig</label>
+<caption>
+<title>Error of branch angle and branching length caused by z-direction growth of hyphae.</title>
+<p>(a) Error of branch angle, and (b) relative error of branching length calculated throughout all portions.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0162469.s005" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0162469.s005" xlink:type="simple">
+<label>S5 Fig</label>
+<caption>
+<title>Fitted curve of the tip extension rate distribution.</title>
+<p>The distribution, calculated by all the data from the 4th day to the 14th day, was well fitted by a gamma distribution corrected with a linear baseline.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>The authors are grateful to Mr. Cyril Breton (Laboratoire de Génie des Procédés et Matériaux, CentraleSupelec, Université Paris-Saclay, France) for his generous help with confocal laser scanning microscopy. Huan Du would like to acknowledge the financial support by the China Scholarship Council (CSC) for the study in France.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0162469.ref001">
+<label>1</label>
+<mixed-citation publication-type="book" xlink:type="simple">
+<name name-style="western"><surname>Schmidt</surname> <given-names>O</given-names></name>. <source>Wood and Tree Fungi</source>. <publisher-name>Springer Verlag</publisher-name> <publisher-loc>Berlin Heidelberg</publisher-loc>; <year>2005</year>.</mixed-citation>
+</ref>
+<ref id="pone.0162469.ref002">
+<label>2</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Fuhr</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Schubert</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Schwarze</surname> <given-names>FWMR</given-names></name>, <name name-style="western"><surname>Herrmann</surname> <given-names>HJ</given-names></name>. <article-title>Modelling the hyphal growth of the wood-decay fungus <italic>Physisporinus vitreus</italic></article-title>. <source>Fungal Biol</source>. <year>2011</year>;<volume>115</volume>:<fpage>919</fpage>–<lpage>932</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.funbio.2011.06.017" xlink:type="simple">10.1016/j.funbio.2011.06.017</ext-link></comment> <object-id pub-id-type="pmid">21872189</object-id></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref003">
+<label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Boswell</surname> <given-names>GP</given-names></name>, <name name-style="western"><surname>Davidson</surname> <given-names>FA</given-names></name>. <article-title>Modelling hyphal networks</article-title>. <source>Fungal Biol Rew</source>. <year>2012</year>;<volume>26</volume>:<fpage>30</fpage>–<lpage>38</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.fbr.2012.02.002" xlink:type="simple">10.1016/j.fbr.2012.02.002</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref004">
+<label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Jacobs</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Boswell</surname> <given-names>GP</given-names></name>, <name name-style="western"><surname>Ritz</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Davidson</surname> <given-names>FA</given-names></name>, <name name-style="western"><surname>Gadd</surname> <given-names>GM</given-names></name>. <article-title>Solubilization of calcium phosphate as a consequence of carbon translocation by <italic>Rhizoctonia solani</italic></article-title>. <source>FEMS Microbiol Ecol</source>. <year>2002</year>;<volume>40</volume>:<fpage>65</fpage>–<lpage>71</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1574-6941.2002.tb00937.x" xlink:type="simple">10.1111/j.1574-6941.2002.tb00937.x</ext-link></comment> <object-id pub-id-type="pmid">19709212</object-id></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref005">
+<label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Heaton</surname> <given-names>LLM</given-names></name>, <name name-style="western"><surname>López</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Maini</surname> <given-names>PK</given-names></name>, <name name-style="western"><surname>Fricker</surname> <given-names>MD</given-names></name>, <name name-style="western"><surname>Jones</surname> <given-names>NS</given-names></name>. <article-title>Growth-induced mass flows in fungal networks</article-title>. <source>Proc Biol Sci</source>. <year>2010</year>;<volume>277</volume>(<issue>1698</issue>):<fpage>3265</fpage>–<lpage>3274</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1098/rspb.2010.0735" xlink:type="simple">10.1098/rspb.2010.0735</ext-link></comment> <object-id pub-id-type="pmid">20538649</object-id></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref006">
+<label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Vidal-Diez de Ulzurrun</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Baetens</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Van den Bulcke</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Lopez-Molina</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>De Windt</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>De Baets</surname> <given-names>B</given-names></name>. <article-title>Automated image-based analysis of spatio-temporal fungal dynamics</article-title>. <source>Fungal Genet Biol</source>. <year>2015</year>;<volume>84</volume>:<fpage>12</fpage>–<lpage>25</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.fgb.2015.09.004" xlink:type="simple">10.1016/j.fgb.2015.09.004</ext-link></comment> <object-id pub-id-type="pmid">26365383</object-id></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref007">
+<label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Hutchinson</surname> <given-names>SA</given-names></name>, <name name-style="western"><surname>Sharma</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Clarke</surname> <given-names>KR</given-names></name>, <name name-style="western"><surname>MacDonald</surname> <given-names>I</given-names></name>. <article-title>Control of hyphal orientation in colonies of <italic>Mucor hiemalis</italic></article-title>. <source>Trans Br Mycol Soc</source>. <year>1980</year>;<volume>75</volume>:<fpage>177</fpage>–<lpage>191</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0007-1536(80)80078-7" xlink:type="simple">10.1016/S0007-1536(80)80078-7</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref008">
+<label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Villena</surname> <given-names>GK</given-names></name>, <name name-style="western"><surname>Fujikawa</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Tsuyumu</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Gutiérrez-Correa</surname> <given-names>M</given-names></name>. <article-title>Structural analysis of biofilms and pellets of <italic>Aspergillus niger</italic> by confocal laser scanning microscopy and cryo scanning electron microscopy</article-title>. <source>Bioresour Technol</source>. <year>2010</year>;<volume>101</volume>:<fpage>1920</fpage>–<lpage>1926</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.biortech.2009.10.036" xlink:type="simple">10.1016/j.biortech.2009.10.036</ext-link></comment> <object-id pub-id-type="pmid">19919894</object-id></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref009">
+<label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Kim</surname> <given-names>KW</given-names></name>, <name name-style="western"><surname>Yoon</surname> <given-names>CJ</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>PG</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>MB</given-names></name>, <name name-style="western"><surname>Lim</surname> <given-names>JH</given-names></name>. <article-title>Fine structure and X-ray microanalysis of silicified woods from a Tertiary basin Pohang, Korea by scanning electron microscopy</article-title>. <source>Micron</source>. <year>2009</year>;<volume>40</volume>:<fpage>519</fpage>–<lpage>525</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.micron.2009.04.006" xlink:type="simple">10.1016/j.micron.2009.04.006</ext-link></comment> <object-id pub-id-type="pmid">19447630</object-id></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref010">
+<label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Refshauge</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Watt</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>McCully</surname> <given-names>ME</given-names></name>, <name name-style="western"><surname>Huang</surname> <given-names>CX</given-names></name>. <article-title>Frozen in time: a new method using cryo-scanning electron microscopy to visualize root-fungal interactions</article-title>. <source>New Phytol</source>. <year>2006</year>;<volume>172</volume>(<issue>2</issue>):<fpage>369</fpage>–<lpage>374</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1469-8137.2006.01825.x" xlink:type="simple">10.1111/j.1469-8137.2006.01825.x</ext-link></comment> <object-id pub-id-type="pmid">16995923</object-id></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref011">
+<label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Hickey</surname> <given-names>PC</given-names></name>, <name name-style="western"><surname>Swift</surname> <given-names>SR</given-names></name>, <name name-style="western"><surname>Roca</surname> <given-names>MG</given-names></name>, <name name-style="western"><surname>Read</surname> <given-names>ND</given-names></name>. <article-title>Live-cell imaging of filamentous fungi using vital fluorescent dyes and confocal microscopy</article-title>. <source>Methods Microbiol</source>. <year>2004</year>;<volume>34</volume>(<issue>August 2015</issue>):<fpage>63</fpage>–<lpage>87</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0580-9517(04)34003-1" xlink:type="simple">10.1016/S0580-9517(04)34003-1</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref012">
+<label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Bolte</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Talbot</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Boutte</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Catrice</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Read</surname> <given-names>ND</given-names></name>, <name name-style="western"><surname>Satiat-Jeunemaitre</surname> <given-names>B</given-names></name>. <article-title>FM-dyes as experimental probes for dissecting vesicle trafficking in living plant cells</article-title>. <source>J Microsc</source>. <year>2004</year>;<volume>214</volume>(<issue>2</issue>):<fpage>159</fpage>–<lpage>173</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.0022-2720.2004.01348.x" xlink:type="simple">10.1111/j.0022-2720.2004.01348.x</ext-link></comment> <object-id pub-id-type="pmid">15102063</object-id></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref013">
+<label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Fischer-Parton</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Parton</surname> <given-names>RM</given-names></name>, <name name-style="western"><surname>Hickey</surname> <given-names>PC</given-names></name>, <name name-style="western"><surname>Dijksterhuis</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Atkinson</surname> <given-names>HA</given-names></name>, <name name-style="western"><surname>Read</surname> <given-names>ND</given-names></name>. <article-title>Confocal microscopy of FM4-64 as a tool for analysing endocytosis and vesicle trafficking in living fungal hyphae</article-title>. <source>J Microsc</source>. <year>2000</year>;<volume>198</volume>(<issue>3</issue>):<fpage>246</fpage>–<lpage>259</lpage>. <object-id pub-id-type="pmid">10849201</object-id></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref014">
+<label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Hickey</surname> <given-names>PC</given-names></name>, <name name-style="western"><surname>Jacobson</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Read</surname> <given-names>ND</given-names></name>, <name name-style="western"><surname>Louise Glass</surname> <given-names>N</given-names></name>. <article-title>Live-cell imaging of vegetative hyphal fusion in <italic>Neurospora crassa</italic></article-title>. <source>Fungal Genet Biol</source>. <year>2002</year>;<volume>37</volume>(<issue>1</issue>):<fpage>109</fpage>–<lpage>119</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S1087-1845(02)00035-X" xlink:type="simple">10.1016/S1087-1845(02)00035-X</ext-link></comment> <object-id pub-id-type="pmid">12223195</object-id></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref015">
+<label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Dickson</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Kolesik</surname> <given-names>P</given-names></name>. <article-title>Visualisation of mycorrhizal fungal structures and quantification of their surface area and volume using laser scanning confocal microscopy</article-title>. <source>Mycorrhiza</source>. <year>1999</year>;<volume>9</volume>(<issue>4</issue>):<fpage>205</fpage>–<lpage>213</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s005720050268" xlink:type="simple">10.1007/s005720050268</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref016">
+<label>16</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Vierheilig</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Knoblauch</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Juergensen</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>van Bel</surname> <given-names>AJE</given-names></name>, <name name-style="western"><surname>Grundler</surname> <given-names>FMW</given-names></name>, <name name-style="western"><surname>Piché</surname> <given-names>Y</given-names></name>. <article-title>Imaging arbuscular mycorrhizal structures in living roots of <italic>Nicotiana tabacum</italic> by light, epifluorescence, and confocal laser scanning microscopy</article-title>. <source>Can J Bot</source>. <year>2001</year>;<volume>79</volume>(<issue>2</issue>):<fpage>231</fpage>–<lpage>237</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1139/b00-156" xlink:type="simple">10.1139/b00-156</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref017">
+<label>17</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Schweiger</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Rouhier</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Söderström</surname> <given-names>B</given-names></name>. <article-title>Visualisation of ectomycorrhizal rhizomorph structure using laser scanning confocal microscopy</article-title>. <source>Mycol Res</source>. <year>2002</year>;<volume>106</volume>(<issue>March</issue>):<fpage>349</fpage>–<lpage>354</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1017/S0953756202005579" xlink:type="simple">10.1017/S0953756202005579</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref018">
+<label>18</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Schubert</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Stührk</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Fuhr</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Schwarze</surname> <given-names>FWMR</given-names></name>. <article-title>Imaging hyphal growth of <italic>Physisporinus vitreus</italic> in Norway spruce wood by means of confocal laser scanning microscopy (CLSM)</article-title>. <source>Holzforschung</source>. <year>2014</year>;<volume>68</volume>(<issue>6</issue>):<fpage>727</fpage>–<lpage>730</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0162469.ref019">
+<label>19</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Dijksterhuis</surname> <given-names>J</given-names></name>. <article-title>Confocal microscopy of Spitzenörper dynamics during growth and differentiation of rust fungi</article-title>. <source>Protoplasma</source>. <year>2003</year>;<volume>222</volume>(<issue>1–2</issue>):<fpage>53</fpage>–<lpage>59</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s00709-003-0006-6" xlink:type="simple">10.1007/s00709-003-0006-6</ext-link></comment> <object-id pub-id-type="pmid">14513311</object-id></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref020">
+<label>20</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Freitag</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Hickey</surname> <given-names>PC</given-names></name>, <name name-style="western"><surname>Raju</surname> <given-names>NB</given-names></name>, <name name-style="western"><surname>Selker</surname> <given-names>EU</given-names></name>, <name name-style="western"><surname>Read</surname> <given-names>ND</given-names></name>. <article-title>GFP as a tool to analyze the organization, dynamics and function of nuclei and microtubules in <italic>Neurospora crassa</italic></article-title>. <source>Fungal Genet Biol</source>. <year>2004</year>;<volume>41</volume>(<issue>10</issue>):<fpage>897</fpage>–<lpage>910</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.fgb.2004.06.008" xlink:type="simple">10.1016/j.fgb.2004.06.008</ext-link></comment> <object-id pub-id-type="pmid">15341912</object-id></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref021">
+<label>21</label>
+<mixed-citation publication-type="book" xlink:type="simple">
+<name name-style="western"><surname>Koch</surname> <given-names>AP</given-names></name>. <source>Wood decay in Danish buildings</source>. <publisher-name>International Research Group on Wood Preservation</publisher-name>; <year>1985</year>.</mixed-citation>
+</ref>
+<ref id="pone.0162469.ref022">
+<label>22</label>
+<mixed-citation publication-type="book" xlink:type="simple">
+<name name-style="western"><surname>Viitanen</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Ritschkoff</surname> <given-names>AC</given-names></name>. <chapter-title>Brown rot decay in wooden constructions: effect of temperature, humidity and moisture</chapter-title>. <source>Institutionen för Virkeslära</source>. <publisher-name>Swedish University of Agricultural Sciences, Department of Forest Products</publisher-name>; <year>1991</year>.</mixed-citation>
+</ref>
+<ref id="pone.0162469.ref023">
+<label>23</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Wilco</surname> <given-names>WW</given-names></name>, <name name-style="western"><surname>Dietz</surname> <given-names>M</given-names></name>. <article-title>Fungi causing above-ground wood decay in structures in California</article-title>. <source>Wood fiber Sci</source>. <year>1997</year>;<volume>29</volume>(<issue>3</issue>):<fpage>291</fpage>–<lpage>298</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0162469.ref024">
+<label>24</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Jin</surname> <given-names>BL</given-names></name>, <name name-style="western"><surname>Schultz</surname> <given-names>TP</given-names></name>, <name name-style="western"><surname>Nicholas</surname> <given-names>DD</given-names></name>. <article-title>Structural characterization of brown-rotted lignin</article-title>. <source>Holzforschung</source>. <year>1990</year>;<volume>44</volume>(<issue>2</issue>):<fpage>133</fpage>–<lpage>138</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1515/hfsg.1990.44.2.133" xlink:type="simple">10.1515/hfsg.1990.44.2.133</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref025">
+<label>25</label>
+<mixed-citation publication-type="book" xlink:type="simple">
+<name name-style="western"><surname>Eriksson</surname> <given-names>K-E L</given-names></name>, <name name-style="western"><surname>Blanchette</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Ander</surname> <given-names>P</given-names></name>. <source>Microbial and enzymatic degradation of wood and wood components</source>. <edition>1st ed</edition>. <publisher-name>Springer-Verlag</publisher-name> <publisher-loc>Berlin Heidelberg</publisher-loc>; <year>1990</year>.</mixed-citation>
+</ref>
+<ref id="pone.0162469.ref026">
+<label>26</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Goodell</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Jellison</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Daniel</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Paszczynski</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Fekete</surname> <given-names>F</given-names></name>, <etal>et al</etal>. <article-title>Low molecular weight chelators and phenolic compounds isolated from wood decay fungi and their role in the fungal biodegradation of wood</article-title>. <source>J Biotechnol</source>. <year>1997</year>;<volume>53</volume>(<issue>2–3</issue>):<fpage>133</fpage>–<lpage>162</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0168-1656(97)01681-7" xlink:type="simple">10.1016/S0168-1656(97)01681-7</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref027">
+<label>27</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Yelle</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Wei</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Ralph</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Hammel</surname> <given-names>KE</given-names></name>. <article-title>Multidimensional NMR analysis reveals truncated lignin structures in wood decayed by the brown rot basidiomycete <italic>Postia placenta</italic></article-title>. <source>Environ Microbiol</source>. <year>2011</year>;<volume>13</volume>(<issue>4</issue>):<fpage>1091</fpage>–<lpage>1100</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1462-2920.2010.02417.x" xlink:type="simple">10.1111/j.1462-2920.2010.02417.x</ext-link></comment> <object-id pub-id-type="pmid">21261800</object-id></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref028">
+<label>28</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Xie</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Bjurman</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Wadsö</surname> <given-names>L</given-names></name>. <article-title>Microcalorimetric characterization of the recovery of a brown-rot fungus after exposures to high and low temperature, oxygen depletion, and drying</article-title>. <source>Holzforschung</source>. <year>1997</year>;<volume>51</volume>(<issue>3</issue>):<fpage>201</fpage>–<lpage>206</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1515/hfsg.1997.51.3.201" xlink:type="simple">10.1515/hfsg.1997.51.3.201</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref029">
+<label>29</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Gonzalez</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Morrell</surname> <given-names>JJ</given-names></name>. <article-title>Effects of environmental factors on decay rates of selected white- and brown-rot fungi</article-title>. <source>Wood Fiber Sci</source>. <year>2012</year>;<volume>44</volume>(<issue>4</issue>):<fpage>343</fpage>–<lpage>356</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0162469.ref030">
+<label>30</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Wadsö</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Johansson</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Pilgård</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Alfredsen</surname> <given-names>G</given-names></name>. <article-title>The activity of rot fungi (<italic>Postia placenta</italic>) during drying and rewetting cycles measured by isothermal calorimetry</article-title>. <source>Eng Life Sci</source>. <year>2013</year>;<volume>13</volume>(<issue>6</issue>):<fpage>536</fpage>–<lpage>540</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0162469.ref031">
+<label>31</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Hoch</surname> <given-names>HC</given-names></name>, <name name-style="western"><surname>Galvani</surname> <given-names>CD</given-names></name>, <name name-style="western"><surname>Szarowski</surname> <given-names>DH</given-names></name>, <name name-style="western"><surname>Turner</surname> <given-names>JN</given-names></name>. <article-title>Two new fluorescent dyes applicable for visualization of fungal cell walls</article-title>. <source>Mycologia</source>. <year>2005</year>;<volume>97</volume>(<issue>3</issue>):<fpage>580</fpage>–<lpage>588</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3852/mycologia.97.3.580" xlink:type="simple">10.3852/mycologia.97.3.580</ext-link></comment> <object-id pub-id-type="pmid">16392246</object-id></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref032">
+<label>32</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Wallis</surname> <given-names>JW</given-names></name>, <name name-style="western"><surname>Miller</surname> <given-names>TR</given-names></name>. <article-title>Volume rendering in three-dimensional display of SPECT images</article-title>. <source>J Nucl Med</source>. <year>1990</year>;<volume>31</volume>(<issue>8</issue>):<fpage>1421</fpage>–<lpage>1428</lpage>. <object-id pub-id-type="pmid">2384811</object-id></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref033">
+<label>33</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Harris</surname> <given-names>SD</given-names></name>. <article-title>Branching of fungal hyphae: regulation, mechanisms and comparison with other branching systems</article-title>. <source>Mycologia</source>. <year>2008</year>;<volume>100</volume>(<issue>December</issue>):<fpage>823</fpage>–<lpage>832</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3852/08-177" xlink:type="simple">10.3852/08-177</ext-link></comment> <object-id pub-id-type="pmid">19202837</object-id></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref034">
+<label>34</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Ritz</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Crawford</surname> <given-names>J</given-names></name>. <article-title>Quantification of the fractal nature of colonies of <italic>Trichoderma viride</italic></article-title>. <source>Mycol Res</source>. <year>1990</year>;<volume>94</volume>(<issue>8</issue>):<fpage>1138</fpage>–<lpage>1141</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0953-7562(09)81346-4" xlink:type="simple">10.1016/S0953-7562(09)81346-4</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref035">
+<label>35</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Jones</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Lonergan</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Mainwaring</surname> <given-names>D</given-names></name>. <article-title>Mycelial fragment size distribution: an analysis based on fractal geometry</article-title>. <source>Appl Microbiol Biotechnol</source>. <year>1993</year>;<volume>39</volume>(<issue>2</issue>):<fpage>242</fpage>–<lpage>249</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/BF00228613" xlink:type="simple">10.1007/BF00228613</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref036">
+<label>36</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Meletiadis</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Meis</surname> <given-names>JFGM</given-names></name>, <name name-style="western"><surname>Mouton</surname> <given-names>JW</given-names></name>. <article-title>Analysis of growth characteristics of filamentous fungi in different nutrient media</article-title>. <source>J Clin Microbiol</source>. <year>2001</year>;<volume>39</volume>(<issue>2</issue>):<fpage>478</fpage>–<lpage>484</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/JCM.39.2.478-484.2001" xlink:type="simple">10.1128/JCM.39.2.478-484.2001</ext-link></comment> <object-id pub-id-type="pmid">11158093</object-id></mixed-citation>
+</ref>
+<ref id="pone.0162469.ref037">
+<label>37</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Sampson</surname> <given-names>K</given-names></name>. <article-title>Time series analysis demonstrates the absence of pulsatile hyphal growth</article-title>. <source>Microbiology</source>. <year>2003</year>;<volume>149</volume>(<issue>11</issue>):<fpage>3111</fpage>–<lpage>3119</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1099/mic.0.26509-0" xlink:type="simple">10.1099/mic.0.26509-0</ext-link></comment> <object-id pub-id-type="pmid">14600223</object-id></mixed-citation>
+</ref>
+</ref-list>
+</back>
+</article>

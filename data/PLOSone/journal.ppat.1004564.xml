@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="3.0" xml:lang="en" article-type="review-article">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS Pathog</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plospath</journal-id>
+<journal-title-group>
+<journal-title>PLOS Pathogens</journal-title>
+</journal-title-group>
+<issn pub-type="ppub">1553-7366</issn>
+<issn pub-type="epub">1553-7374</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PPATHOGENS-D-14-01329</article-id>
+<article-id pub-id-type="doi">10.1371/journal.ppat.1004564</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Pearls</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Livestock-Associated <italic>Staphylococcus aureus</italic>: The United States Experience</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Smith</surname> <given-names>Tara C.</given-names></name>
+<xref ref-type="corresp" rid="cor001">*</xref>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+</contrib-group>
+<aff id="aff001">
+<addr-line>Department of Biostatistics, Environmental Health Sciences, and Epidemiology, Kent State University, Kent, Ohio, United States of America</addr-line>
+</aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Heitman</surname> <given-names>Joseph</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1">
+<addr-line>Duke University Medical Center, UNITED STATES</addr-line>
+</aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">Tsmit176@kent.edu</email></corresp>
+</author-notes>
+<pub-date pub-type="collection">
+<month>2</month>
+<year>2015</year>
+</pub-date>
+<pub-date pub-type="epub">
+<day>5</day>
+<month>2</month>
+<year>2015</year>
+</pub-date>
+<volume>11</volume>
+<issue>2</issue>
+<elocation-id>e1004564</elocation-id>
+<permissions>
+<copyright-year>2015</copyright-year>
+<copyright-holder>Tara C. Smith</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.ppat.1004564" xlink:type="simple"/>
+<funding-group>
+<funding-statement>The author received no specific funding for this study.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="1"/>
+<table-count count="0"/>
+<page-count count="8"/>
+</counts>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Background and Overview</title>
+<p><italic>Staphylococcus aureus</italic> is a gram-positive bacterium that colonizes a variety of animal species [<xref ref-type="bibr" rid="ppat.1004564.ref001">1</xref>]. <italic>S. aureus</italic> infections in animals are most commonly reported as a cause of mastitis in dairy-producing animals (including cattle and goats) and “bumblefoot” in chickens [<xref ref-type="bibr" rid="ppat.1004564.ref002">2</xref>], as well as being identified as a pathogen of farmed rabbits [<xref ref-type="bibr" rid="ppat.1004564.ref003">3</xref>]. Most reports characterizing animal-associated <italic>S. aureus</italic> have demonstrated that strains affecting animals are distinct from those infecting humans, suggesting that there are host-specific lineages which only rarely cross species boundaries [<xref ref-type="bibr" rid="ppat.1004564.ref004">4</xref>].</p>
+<p>Livestock-associated strains may evolve on farms because of the use of antibiotics in animal husbandry. These may be used as feed additives for growth promotion in industrial livestock and poultry [<xref ref-type="bibr" rid="ppat.1004564.ref005">5</xref>], for prevention of disease within a herd, or for treatment of an existing disease outbreak. Agricultural-use antibiotics include many classes that are relevant for human health, including tetracyclines, macrolides, penicillins, and sulfonamides, among others. Antimicrobial resistance generated during animal husbandry may then be spread to the general human population in a number of different manners: contact with contaminated meat products (via handling or ingestion); occupational contact (farmers, meat packers, butchers, etc.) and potential secondary spread into the larger community from those who are occupationally exposed; entry into and transmission via hospitals or other health care facilities; or spread via environmental routes including air, water, or manure in areas in proximity to live animal farms or crop farms where manure has been used as a fertilizer (<xref ref-type="fig" rid="ppat.1004564.g001">Fig. 1</xref>).</p>
+<fig id="ppat.1004564.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.ppat.1004564.g001</object-id>
+<label>Figure 1</label>
+<caption>
+<title>The tangled web of <italic>S. aureus</italic> in the US.</title>
+<p>Antibiotic-resistant <italic>Staphylococcus aureus</italic> is a growing public health concern, but tracing the origins of the bacterium is complicated. Evidence suggests that antibiotic-resistant strains of <italic>S. aureus</italic> can spread in livestock operations and hospitals where antibiotics are regularly used. These antibiotic-resistant organisms can then spread into communities and the environment. More research is needed to determine exactly how these transfers occur. Image by Kalliopi Monoyios.</p>
+</caption>
+<graphic mimetype="image" xlink:type="simple" position="float" xlink:href="info:doi/10.1371/journal.ppat.1004564.g001"/>
+</fig>
+<p>While methicillin resistance has been the most commonly investigated phenomenon and will be the main topic of this review, resistance to any of these antibiotics can occur and can potentially be a threat to successful treatment of <italic>S. aureus</italic> infections and therefore to human health outcomes. As such, my research group and others have begun to look more broadly at any <italic>S. aureus</italic> present on farms, including those that may be susceptible to methicillin but resistant to other antibiotics.</p>
+</sec>
+<sec id="sec002">
+<title>Livestock-Associated Methicillin-Resistant <italic>Staphylococcus aureus</italic> (MRSA): An Overview</title>
+<p>In the early part of the 21st century, a novel pig-associated strain of MRSA was identified: sequence type 398 (ST398) and related strains (collectively grouped into clonal complex 398, or CC398, reviewed in [<xref ref-type="bibr" rid="ppat.1004564.ref006">6</xref>]). CC398 was first identified in pigs and swine workers but has since been found in other animals (including cattle, poultry, and dogs as well as humans) in a number of countries in Europe, Asia, and North and South America, as well as Australia. The discovery of this strain led to the addition of livestock-associated MRSA (LA-MRSA) to the lexicon, to complement hospital-associated (HA) and community-associated (CA) strains.</p>
+<p>In most European countries, CC398 remains the most commonly identified type of LA-MRSA [<xref ref-type="bibr" rid="ppat.1004564.ref006">6</xref>–<xref ref-type="bibr" rid="ppat.1004564.ref009">9</xref>], leading to a presumption that the terms LA-MRSA and CC398 are practically interchangeable. However, while CC398 strains have been found in livestock across the globe, the epidemiology of livestock-associated <italic>S. aureus</italic> has been found to differ in other geographic areas. Several Asian studies have demonstrated that a different strain of MRSA, ST9, appears to be the prominent type of LA-MRSA in several Asian countries [<xref ref-type="bibr" rid="ppat.1004564.ref010">10</xref>–<xref ref-type="bibr" rid="ppat.1004564.ref014">14</xref>]. Poultry may harbor CC398 strains [<xref ref-type="bibr" rid="ppat.1004564.ref015">15</xref>–<xref ref-type="bibr" rid="ppat.1004564.ref017">17</xref>] but also other types unrelated to CC398, including CC5 [<xref ref-type="bibr" rid="ppat.1004564.ref015">15</xref>, <xref ref-type="bibr" rid="ppat.1004564.ref018">18</xref>] or other types [<xref ref-type="bibr" rid="ppat.1004564.ref017">17</xref>]. In the United States, the diversity of livestock-associated <italic>S. aureus</italic> appears to be higher than that identified in Europe or Asia, with reports of both CC398 as well as a variety of “human” types of <italic>S. aureus</italic> in live animals, as described below.</p>
+<p>The epidemiology of CC398 and other strains found in both animals and humans [<xref ref-type="bibr" rid="ppat.1004564.ref012">12</xref>] has led to a reexamination of the idea of host specificity in <italic>S. aureus</italic>. CC398 appears to be frequently shared between animals and humans and is capable of causing active symptomatic infections in both species [<xref ref-type="bibr" rid="ppat.1004564.ref019">19</xref>, <xref ref-type="bibr" rid="ppat.1004564.ref020">20</xref>]. Furthermore, both CC398 and a poultry-adapted <italic>S. aureus</italic> strains of CCT5 have been phylogenetically analyzed and appear to have originated in humans, who transmitted strains to animals, in which the strains subsequently spread and evolved a variety of host adaptations [<xref ref-type="bibr" rid="ppat.1004564.ref021">21</xref>, <xref ref-type="bibr" rid="ppat.1004564.ref022">22</xref>]. As such, there exist both human-associated CC398 strains as well as true livestock strains, complicating studies of origin or host association based only on knowledge of sequence type.</p>
+</sec>
+<sec id="sec003">
+<title>Epidemiology of CC398 and Other Livestock-Associated <italic>S. aureus</italic> in the US</title>
+<p>The epidemiology of LA-SA in the US appears to be notably different than in European countries, where the bulk of LA-SA research has been carried out. While early studies on farms and of meat-identified CC398 strains in animals, farm workers, and meat products, [<xref ref-type="bibr" rid="ppat.1004564.ref023">23</xref>, <xref ref-type="bibr" rid="ppat.1004564.ref024">24</xref>], contemporaneous studies also documented CC398 in populations with no obvious livestock contact [<xref ref-type="bibr" rid="ppat.1004564.ref025">25</xref>–<xref ref-type="bibr" rid="ppat.1004564.ref027">27</xref>]. In one Texas publication carried out in a jail setting rather than on a farm, CC398 isolates made up a significant portion (13.2%) of all methicillin-susceptible <italic>S. aureus</italic> (MSSA) identified within this population. Clearly, the association of CC398 exclusively with an agricultural reservoir did not appear to hold in the US.</p>
+<p>While CC398 can have LA as well as human versions, other human strains of <italic>S. aureus</italic> have also been found in US livestock. Studies carried out on swine farms in the US have identified human strains within the noses of live animals [<xref ref-type="bibr" rid="ppat.1004564.ref028">28</xref>–<xref ref-type="bibr" rid="ppat.1004564.ref030">30</xref>] or as components of environmental samples of farm dust [<xref ref-type="bibr" rid="ppat.1004564.ref031">31</xref>]. Several papers have found CC5 strains rather than CC398-associated types to be the dominant strain isolated from pig farms in both Iowa and Ohio [<xref ref-type="bibr" rid="ppat.1004564.ref031">31</xref>, <xref ref-type="bibr" rid="ppat.1004564.ref032">32</xref>], while others have found CC398 to be the most common molecular type [<xref ref-type="bibr" rid="ppat.1004564.ref023">23</xref>, <xref ref-type="bibr" rid="ppat.1004564.ref033">33</xref>]. Three studies in North Carolina examining workers on pig farms and in processing plants similarly found substantial diversity among <italic>S. aureus</italic> isolated from workers, including CC398, CC5, and CC8 strains, among others [<xref ref-type="bibr" rid="ppat.1004564.ref034">34</xref>–<xref ref-type="bibr" rid="ppat.1004564.ref036">36</xref>].</p>
+</sec>
+<sec id="sec004">
+<title>Transmission between Animals and Humans in the Farming Setting</title>
+<p>Studies of individuals living in proximity to concentrated animal feeding operations (CAFOs) support the idea that nonlivestock strains may be spreading within areas proximal to farms. Two independent studies carried out in Iowa and Pennsylvania that examined the relationship between animal farms and MRSA found an increased risk of MRSA colonization or infection in those living close to farms or in areas where manure was spread on fields [<xref ref-type="bibr" rid="ppat.1004564.ref037">37</xref>, <xref ref-type="bibr" rid="ppat.1004564.ref038">38</xref>]. In both studies, however, no classic LA strains were found when molecular typing was carried out on isolates collected. This suggests that either strains other than LA isolates are evolving on farms (consistent with on-farm sampling described above) or that it may be the presence of antibiotic resistance genes and antibiotic residues on farms that are moving to the subjects’ own bacterial flora and causing a shift toward antibiotic-resistant strains in these populations, or perhaps a combination of both mechanisms. Firm conclusions are difficult to make in the absence of a concerted, national-level on-farm sampling effort, which is difficult to carry out in the US because of private/corporate ownership of many farms and laws in several states that are unfriendly to farm visitors.</p>
+</sec>
+<sec id="sec005">
+<title>Human Infections with Livestock-Associated <italic>S. aureus</italic> Strains</title>
+<p>A number of human infections with CC398 strains have been reported. Most of these have been documented in Europe [<xref ref-type="bibr" rid="ppat.1004564.ref039">39</xref>–<xref ref-type="bibr" rid="ppat.1004564.ref041">41</xref>]; however, CC398 infections from the US [<xref ref-type="bibr" rid="ppat.1004564.ref026">26</xref>, <xref ref-type="bibr" rid="ppat.1004564.ref042">42</xref>, <xref ref-type="bibr" rid="ppat.1004564.ref043">43</xref>] and Canada [<xref ref-type="bibr" rid="ppat.1004564.ref044">44</xref>] have been reported as well. Because many infection reports were published prior to the recognition of distinct lineages of CC398, it is not always clear, particularly for individuals lacking exposure to livestock, whether the CC398 strains identified are ancestral human strains, or derived livestock types. This has significance for prevention and treatment, as human-origin strains appear to be more virulent than true livestock strains but may also be less likely to be multidrug resistant (and as such, more easily treatable) [<xref ref-type="bibr" rid="ppat.1004564.ref022">22</xref>]. Nonetheless, the majority of reported infections with CC398 strains appear to be similar in scope to community-associated <italic>S. aureus</italic> strains, causing skin and soft tissue infections and, more rarely, serious invasive infections and death.</p>
+</sec>
+<sec id="sec006">
+<title>Potential for Meat Products as a Source of LA-SA in the Community</title>
+<p>Just as a variety of human and livestock strains have been found in live animals on farms, so have they been found in meat products sampled in the US [<xref ref-type="bibr" rid="ppat.1004564.ref018">18</xref>, <xref ref-type="bibr" rid="ppat.1004564.ref024">24</xref>, <xref ref-type="bibr" rid="ppat.1004564.ref045">45</xref>–<xref ref-type="bibr" rid="ppat.1004564.ref049">49</xref>]. CC398 strains have been found in pork and chicken products in the US and appear to be the dominant contaminating strains in raw turkey meat. <italic>S. aureus</italic> may be transmitted to humans from meat products by handling of contaminated products or by the cross contamination of household surfaces (such as countertops and sinks), which are then touched by family members. While antibiotic use on farms may drive selection of antibiotic-resistant strains of <italic>S. aureus</italic> that eventually end up in meat products, eliminating consumer exposure to such bacteria is not as straightforward as simply purchasing products raised in an antibiotic-free environment. In a study examining conventional versus antibiotic-free pork products, no difference was found in prevalence of MRSA between these types of samples [<xref ref-type="bibr" rid="ppat.1004564.ref046">46</xref>]. This was a different result obtained from sampling results on conventional versus antibiotic-free farms [<xref ref-type="bibr" rid="ppat.1004564.ref033">33</xref>], suggesting the potential for either contamination of pigs with MRSA in the lairage area prior to slaughter or contamination of meat products during processing or packaging, either via humans in the plants who may spread MRSA to meat products or from bacterial residues present from conventional products. It is currently not known what the risk is to consumers from <italic>S. aureus</italic>–contaminated meat products.</p>
+</sec>
+<sec id="sec007" sec-type="conclusions">
+<title>Conclusions, Significance, and Future Studies</title>
+<p>Livestock-associated <italic>S. aureus</italic> is an emerging category of <italic>S. aureus</italic> throughout the world. Currently, the research carried out has focused more closely on carriage than on transmission and infection, but these strains appear to be less likely to cause human infections and to spread person-to-person than typical human strains [<xref ref-type="bibr" rid="ppat.1004564.ref050">50</xref>]. However, these conclusions should be noted with caution, as few well-designed prospective studies have been conducted to answer these questions to date.</p>
+<p>Recent research suggests that bidirectional transmission of strains of <italic>S. aureus</italic> between humans and livestock is not a rare occurrence. In addition to the movement of CC398 between animals and humans, studies have suggested that a human pandemic clone, CC97, had its origin in cattle [<xref ref-type="bibr" rid="ppat.1004564.ref051">51</xref>]. Additionally, antibiotic resistance genes, including <italic>mec</italic>A [<xref ref-type="bibr" rid="ppat.1004564.ref052">52</xref>, <xref ref-type="bibr" rid="ppat.1004564.ref053">53</xref>] and <italic>mec</italic>C [<xref ref-type="bibr" rid="ppat.1004564.ref054">54</xref>, <xref ref-type="bibr" rid="ppat.1004564.ref055">55</xref>], have been suggested to have an animal origin.</p>
+<p>Currently, we are limited in the ways we can distinguish whether any particular strain of <italic>S. aureus</italic> is a human or livestock-adapted isolate. We can use the presence of marker genes, including the loss <italic>scn</italic> and presence of <italic>tet</italic>(M), both of which are genotypes associated with livestock adaptation of CC398 lineages [<xref ref-type="bibr" rid="ppat.1004564.ref022">22</xref>, <xref ref-type="bibr" rid="ppat.1004564.ref056">56</xref>] or examine the presence of a single-nucleotide polymorphism (SNP) that has also been identified in this clade [<xref ref-type="bibr" rid="ppat.1004564.ref056">56</xref>]. However, large-scale studies validating these markers in other lineages (CC5, CC8, and more) are lacking. Additional large-scale studies in both human and animal populations are necessary in order to gather isolates that are epidemiologically well characterized. These isolates can then be analyzed in order to validate current genomic markers, as well as to identify novel ones in lineages besides CC398.</p>
+<p><italic>S. aureus</italic> surveillance is most commonly carried out within a human clinical or hospital setting, with far fewer research dollars devoted to analysis of carriage within communities, particularly in a rural setting, and very little research examining animal strains. As such, it is likely we are missing other spillover events of <italic>S. aureus</italic> from livestock to humans or vice versa. To track such events and facilitate both surveillance and source tracking of novel isolates, the buy-in of industry is needed. All too often, the relationship between public health and the agricultural and food industry is one of antagonism rather than assistance. Working together will mean both safer food products and well-protected workers. More attention to this type of research is needed, as we are rapidly approaching a “post-antibiotic era” [<xref ref-type="bibr" rid="ppat.1004564.ref057">57</xref>]. The effectiveness of antimicrobial stewardship in the clinical setting may be reduced if pathogens and resistance genes from the agricultural environment are repeatedly, but silently, being introduced into the human population [<xref ref-type="bibr" rid="ppat.1004564.ref058">58</xref>].</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="ppat.1004564.ref001">
+<label>1</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Weese</surname> <given-names>JS</given-names></name> (<year>2010</year>) <article-title>Methicillin-resistant <italic>Staphylococcus aureus</italic> in animals</article-title>. <source>ILAR J</source> <volume>51</volume>: <fpage>233</fpage>–<lpage>244</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/ilar.51.3.233" xlink:type="simple">10.1093/ilar.51.3.233</ext-link></comment></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref002">
+<label>2</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>McNamee</surname> <given-names>PT</given-names></name>, <name name-style="western"><surname>Smyth</surname> <given-names>JA</given-names></name> (<year>2000</year>) <article-title>Bacterial chondronecrosis with osteomyelitis (‘femoral head necrosis’) of broiler chickens: a review</article-title>. <source>Avian Pathol</source> <volume>29</volume>: <fpage>253</fpage>–<lpage>270</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1080/030794500750047243" xlink:type="simple">10.1080/030794500750047243</ext-link></comment> <object-id pub-id-type="pmid">19184815</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref003">
+<label>3</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Viana</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Selva</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Segura</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Penades</surname> <given-names>JR</given-names></name>, <name name-style="western"><surname>Corpa</surname> <given-names>JM</given-names></name> (<year>2007</year>) <article-title>Genotypic characterization of <italic>Staphylococcus aureus</italic> strains isolated from rabbit lesions</article-title>. <source>Vet Microbiol</source> <volume>121</volume>: <fpage>288</fpage>–<lpage>298</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.vetmic.2006.12.003" xlink:type="simple">10.1016/j.vetmic.2006.12.003</ext-link></comment> <object-id pub-id-type="pmid">17208392</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref004">
+<label>4</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Shepheard</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Fleming</surname> <given-names>VM</given-names></name>, <name name-style="western"><surname>Connor</surname> <given-names>TR</given-names></name>, <name name-style="western"><surname>Corander</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Feil</surname> <given-names>EJ</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Historical zoonoses and other changes in host tropism of <italic>Staphylococcus aureus</italic>, identified by phylogenetic analysis of a population dataset</article-title>. <source>PLoS One</source> <volume>8</volume>: <fpage>e62369</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0062369" xlink:type="simple">10.1371/journal.pone.0062369</ext-link></comment> <object-id pub-id-type="pmid">23667472</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref005">
+<label>5</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Silbergeld</surname> <given-names>EK</given-names></name>, <name name-style="western"><surname>Graham</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Price</surname> <given-names>LB</given-names></name> (<year>2008</year>) <article-title>Industrial food animal production, antimicrobial resistance, and human health</article-title>. <source>Annu Rev Public Health</source> <volume>29</volume>: <fpage>151</fpage>–<lpage>169</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1146/annurev.publhealth.29.020907.090904" xlink:type="simple">10.1146/annurev.publhealth.29.020907.090904</ext-link></comment> <object-id pub-id-type="pmid">18348709</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref006">
+<label>6</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Fluit</surname> <given-names>AC</given-names></name> (<year>2012</year>) <article-title>Livestock-associated <italic>Staphylococcus aureus</italic></article-title>. <source>Clin Microbiol Infect</source> <volume>18</volume>: <fpage>735</fpage>–<lpage>744</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1469-0691.2012.03846.x" xlink:type="simple">10.1111/j.1469-0691.2012.03846.x</ext-link></comment> <object-id pub-id-type="pmid">22512702</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref007">
+<label>7</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Smith</surname> <given-names>TC</given-names></name>, <name name-style="western"><surname>Pearson</surname> <given-names>N</given-names></name> (<year>2011</year>) <article-title>The emergence of Staphylococcus aureus ST398</article-title>. <source>Vector Borne Zoonotic Dis</source> <volume>11</volume>: <fpage>327</fpage>–<lpage>339</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1089/vbz.2010.0072" xlink:type="simple">10.1089/vbz.2010.0072</ext-link></comment> <object-id pub-id-type="pmid">20925523</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref008">
+<label>8</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Johnson</surname> <given-names>AP</given-names></name> (<year>2011</year>) <article-title>Methicillin-resistant Staphylococcus aureus: the European landscape</article-title>. <source>J Antimicrob Chemother</source> <volume>66</volume> <issue>Suppl 4</issue>: <fpage>iv43</fpage>–<lpage>iv48</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/jac/dkr076" xlink:type="simple">10.1093/jac/dkr076</ext-link></comment> <object-id pub-id-type="pmid">21521706</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref009">
+<label>9</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Kock</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Mellmann</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Schaumburg</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Friedrich</surname> <given-names>AW</given-names></name>, <name name-style="western"><surname>Kipp</surname> <given-names>F</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>The epidemiology of methicillin-resistant <italic>Staphylococcus aureus</italic> (MRSA) in Germany</article-title>. <source>Dtsch Arztebl Int</source> <volume>108</volume>: <fpage>761</fpage>–<lpage>767</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3238/arztebl.2011.0761" xlink:type="simple">10.3238/arztebl.2011.0761</ext-link></comment> <object-id pub-id-type="pmid">22163252</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref010">
+<label>10</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Larsen</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Imanishi</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Hinjoy</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Tharavichitkul</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Duangsong</surname> <given-names>K</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Methicillin-resistant <italic>Staphylococcus aureus</italic> ST9 in pigs in Thailand</article-title>. <source>PLoS One</source> <volume>7</volume>: <fpage>e31245</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0031245" xlink:type="simple">10.1371/journal.pone.0031245</ext-link></comment> <object-id pub-id-type="pmid">22363594</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref011">
+<label>11</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Neela</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Arif</surname> <given-names>MZ</given-names></name>, <name name-style="western"><surname>Nor Shamsudin</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>van Belkum</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Khoon</surname> <given-names>LY</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Prevalence of ST9 MRSA among Pigs and Pig Handlers in Malaysia</article-title>. <source>J Clin Microbiol</source> <volume>47</volume>: <fpage>4138</fpage>–<lpage>4140</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/JCM.01363-09" xlink:type="simple">10.1128/JCM.01363-09</ext-link></comment> <object-id pub-id-type="pmid">19812280</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref012">
+<label>12</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Wagenaar</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Yue</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Pritchard</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Broekhuizen-Stins</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Huijsdens</surname> <given-names>X</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Unexpected sequence types in livestock associated methicillin-resistant <italic>Staphylococcus aureus</italic> (MRSA): MRSA ST9 and a single locus variant of ST9 in pig farming in China</article-title>. <source>Vet Microbiol</source> <volume>139</volume>: <fpage>405</fpage>–<lpage>409</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.vetmic.2009.06.014" xlink:type="simple">10.1016/j.vetmic.2009.06.014</ext-link></comment> <object-id pub-id-type="pmid">19608357</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref013">
+<label>13</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Patchanee</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Tadee</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Arjkumpa</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Love</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Chanachai</surname> <given-names>K</given-names></name>, <etal>et al</etal>. (<year>2014</year>) <article-title>Occurrence and characterization of livestock associated-methicillin resistant <italic>Staphylococcus aureus</italic> in pig industries of northern Thailand</article-title>. <source>J Vet Sci</source> <volume>15</volume>: <fpage>529</fpage>–<lpage>536</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.4142/jvs.2014.15.4.529" xlink:type="simple">10.4142/jvs.2014.15.4.529</ext-link></comment> <object-id pub-id-type="pmid">25530702</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref014">
+<label>14</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Fang</surname> <given-names>HW</given-names></name>, <name name-style="western"><surname>Chiang</surname> <given-names>PH</given-names></name>, <name name-style="western"><surname>Huang</surname> <given-names>YC</given-names></name> (<year>2014</year>) <article-title>Livestock-associated methicillin-resistant <italic>Staphylococcus aureus</italic> ST9 in pigs and related personnel in Taiwan</article-title>. <source>PLoS One</source> <volume>9</volume>: <fpage>e88826</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0088826" xlink:type="simple">10.1371/journal.pone.0088826</ext-link></comment> <object-id pub-id-type="pmid">24551168</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref015">
+<label>15</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Argudin</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Cariou</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Salandre</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Le Guennec</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Nemeghaire</surname> <given-names>S</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Genotyping and antimicrobial resistance of <italic>Staphylococcus aureus</italic> isolates from diseased turkeys</article-title>. <source>Avian Pathol</source> <volume>42</volume>: <fpage>572</fpage>–<lpage>580</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1080/03079457.2013.854308" xlink:type="simple">10.1080/03079457.2013.854308</ext-link></comment> <object-id pub-id-type="pmid">24224550</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref016">
+<label>16</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Wendlandt</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Kadlec</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Fessler</surname> <given-names>AT</given-names></name>, <name name-style="western"><surname>Monecke</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Ehricht</surname> <given-names>R</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Resistance phenotypes and genotypes of methicillin-resistant <italic>Staphylococcus aureus</italic> isolates from broiler chickens at slaughter and abattoir workers</article-title>. <source>J Antimicrob Chemother</source> <volume>68</volume>: <fpage>2458</fpage>–<lpage>2463</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/jac/dkt239" xlink:type="simple">10.1093/jac/dkt239</ext-link></comment> <object-id pub-id-type="pmid">23798670</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref017">
+<label>17</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Nemeghaire</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Roelandt</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Argudin</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Haesebrouck</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Butaye</surname> <given-names>P</given-names></name> (<year>2013</year>) <article-title>Characterization of methicillin-resistant <italic>Staphylococcus aureus</italic> from healthy carrier chickens</article-title>. <source>Avian Pathol</source> <volume>42</volume>: <fpage>342</fpage>–<lpage>346</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1080/03079457.2013.805183" xlink:type="simple">10.1080/03079457.2013.805183</ext-link></comment> <object-id pub-id-type="pmid">23777220</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref018">
+<label>18</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Buyukcangaz</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Velasco</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Sherwood</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Stepan</surname> <given-names>RM</given-names></name>, <name name-style="western"><surname>Koslofsky</surname> <given-names>RJ</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Molecular typing of <italic>Staphylococcus aureus</italic> and methicillin-resistant S</article-title>. <source>aureus (MRSA) isolated from animals and retail meat in North Dakota, United States. Foodborne Pathog Dis</source> <volume>10</volume>: <fpage>608</fpage>–<lpage>617</lpage>.</mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref019">
+<label>19</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>van Duijkeren</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Jansen</surname> <given-names>MD</given-names></name>, <name name-style="western"><surname>Flemming</surname> <given-names>SC</given-names></name>, <name name-style="western"><surname>de Neeling</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Wagenaar</surname> <given-names>JA</given-names></name>, <etal>et al</etal>. (<year>2007</year>) <article-title>Methicillin-resistant <italic>Staphylococcus aureu</italic>s in pigs with exudative epidermitis</article-title>. <source>Emerg Infect Dis</source> <volume>13</volume>: <fpage>1408</fpage>–<lpage>1410</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3201/eid1309.061268" xlink:type="simple">10.3201/eid1309.061268</ext-link></comment> <object-id pub-id-type="pmid">18252124</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref020">
+<label>20</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Graveland</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Duim</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>van Duijkeren</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Heederik</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Wagenaar</surname> <given-names>JA</given-names></name> (<year>2011</year>) <article-title>Livestock-associated methicillin-resistant <italic>Staphylococcus aureus</italic> in animals and humans</article-title>. <source>Int J Med Microbiol</source> <volume>301</volume>: <fpage>630</fpage>–<lpage>634</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.ijmm.2011.09.004" xlink:type="simple">10.1016/j.ijmm.2011.09.004</ext-link></comment> <object-id pub-id-type="pmid">21983338</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref021">
+<label>21</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Lowder</surname> <given-names>BV</given-names></name>, <name name-style="western"><surname>Guinane</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Ben Zakour</surname> <given-names>NL</given-names></name>, <name name-style="western"><surname>Weinert</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Conway-Morris</surname> <given-names>A</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Recent human-to-poultry host jump, adaptation, and pandemic spread of <italic>Staphylococcus aureus</italic></article-title>. <source>Proc Natl Acad Sci U S A</source> <volume>106</volume>: <fpage>19545</fpage>–<lpage>19550</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.0909285106" xlink:type="simple">10.1073/pnas.0909285106</ext-link></comment> <object-id pub-id-type="pmid">19884497</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref022">
+<label>22</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Price</surname> <given-names>LB</given-names></name>, <name name-style="western"><surname>Stegger</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Hasman</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Aziz</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Larsen</surname> <given-names>J</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title><italic>Staphylococcus aureus</italic> CC398: host adaptation and emergence of methicillin resistance in livestock</article-title>. <source>mBio</source> <volume>3</volume>: <fpage>e00305</fpage>–<lpage>11</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/mBio.00305-11" xlink:type="simple">10.1128/mBio.00305-11</ext-link></comment> <object-id pub-id-type="pmid">22354957</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref023">
+<label>23</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Smith</surname> <given-names>TC</given-names></name>, <name name-style="western"><surname>Male</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Harper</surname> <given-names>AL</given-names></name>, <name name-style="western"><surname>Kroeger</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Tinkler</surname> <given-names>GP</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Methicillin-resistant <italic>Staphylococcus aureus</italic> (MRSA) strain ST398 is present in midwestern U.S. swine and swine workers</article-title>. <source>PLoS ONE</source> <volume>4</volume>: <fpage>e4258</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0004258" xlink:type="simple">10.1371/journal.pone.0004258</ext-link></comment> <object-id pub-id-type="pmid">19145257</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref024">
+<label>24</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Hanson</surname> <given-names>BM</given-names></name>, <name name-style="western"><surname>Dressler</surname> <given-names>AE</given-names></name>, <name name-style="western"><surname>Harper</surname> <given-names>AL</given-names></name>, <name name-style="western"><surname>Scheibel</surname> <given-names>RP</given-names></name>, <name name-style="western"><surname>Wardyn</surname> <given-names>SE</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Prevalence of <italic>Staphylococcus aureus</italic> and methicillin-resistant <italic>Staphylococcus aureus</italic> (MRSA) on retail meat in Iowa</article-title>. <source>Journal of Infection and Public Health</source> <volume>4</volume>: <fpage>169</fpage>–<lpage>174</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jiph.2011.06.001" xlink:type="simple">10.1016/j.jiph.2011.06.001</ext-link></comment> <object-id pub-id-type="pmid">22000843</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref025">
+<label>25</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Bhat</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Dumortier</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Taylor</surname> <given-names>BS</given-names></name>, <name name-style="western"><surname>Miller</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Vasquez</surname> <given-names>G</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title><italic>Staphylococcus aureus</italic> ST398, New York City and Dominican Republic</article-title>. <source>Emerg Infect Dis</source> <volume>15</volume>: <fpage>285</fpage>–<lpage>287</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3201/eid1502.080609" xlink:type="simple">10.3201/eid1502.080609</ext-link></comment> <object-id pub-id-type="pmid">19193274</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref026">
+<label>26</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Uhlemann</surname> <given-names>AC</given-names></name>, <name name-style="western"><surname>Porcella</surname> <given-names>SF</given-names></name>, <name name-style="western"><surname>Trivedi</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Sullivan</surname> <given-names>SB</given-names></name>, <name name-style="western"><surname>Hafer</surname> <given-names>C</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Identification of a highly transmissible animal-independent <italic>Staphylococcus aureus</italic> ST398 clone with distinct genomic and cell adhesion properties</article-title>. <source>mBio</source> <volume>3</volume>: <fpage>e00027</fpage>–<lpage>12</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/mBio.00027-12" xlink:type="simple">10.1128/mBio.00027-12</ext-link></comment> <object-id pub-id-type="pmid">22375071</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref027">
+<label>27</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>David</surname> <given-names>MZ</given-names></name>, <name name-style="western"><surname>Siegel</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Lowy</surname> <given-names>FD</given-names></name>, <name name-style="western"><surname>Zychowski</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Taylor</surname> <given-names>A</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Asymptomatic carriage of sequence type 398, spa type t571 methicillin-susceptible <italic>Staphylococcus aureus</italic> in an urban jail: a newly emerging, transmissible pathogenic strain</article-title>. <source>J Clin Microbiol</source> <volume>51</volume>: <fpage>2443</fpage>–<lpage>2447</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/JCM.01057-13" xlink:type="simple">10.1128/JCM.01057-13</ext-link></comment> <object-id pub-id-type="pmid">23658269</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref028">
+<label>28</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Dressler</surname> <given-names>AE</given-names></name>, <name name-style="western"><surname>Scheibel</surname> <given-names>RP</given-names></name>, <name name-style="western"><surname>Wardyn</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Harper</surname> <given-names>AL</given-names></name>, <name name-style="western"><surname>Hanson</surname> <given-names>BM</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Prevalence, antibiotic resistance and molecular characterisation of <italic>Staphylococcus aureus</italic> in pigs at agricultural fairs in the USA</article-title>. <source>Vet Rec</source> <volume>170</volume>: <fpage>495</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1136/vr.100570" xlink:type="simple">10.1136/vr.100570</ext-link></comment> <object-id pub-id-type="pmid">22505242</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref029">
+<label>29</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Osadebe</surname> <given-names>LU</given-names></name>, <name name-style="western"><surname>Hanson</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>TC</given-names></name>, <name name-style="western"><surname>Heimer</surname> <given-names>R</given-names></name> (<year>2013</year>) <article-title>Prevalence and characteristics of <italic>Staphylococcus aureus</italic> in Connecticut swine and swine farmers</article-title>. <source>Zoonoses Public Health</source> <volume>60</volume>: <fpage>234</fpage>–<lpage>243</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1863-2378.2012.01527.x" xlink:type="simple">10.1111/j.1863-2378.2012.01527.x</ext-link></comment> <object-id pub-id-type="pmid">22883566</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref030">
+<label>30</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Gordoncillo</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Abdujamilova</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Perri</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Donabedian</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Zervos</surname> <given-names>M</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Detection of methicillin-resistant <italic>Staphylococcus aureus</italic> (MRSA) in backyard pigs and their owners, Michigan, USA</article-title>. <source>Zoonoses Public Health</source> <volume>59</volume>: <fpage>212</fpage>–<lpage>216</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1863-2378.2011.01437.x" xlink:type="simple">10.1111/j.1863-2378.2011.01437.x</ext-link></comment> <object-id pub-id-type="pmid">21914153</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref031">
+<label>31</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Frana</surname> <given-names>TS</given-names></name>, <name name-style="western"><surname>Beahm</surname> <given-names>AR</given-names></name>, <name name-style="western"><surname>Hanson</surname> <given-names>BM</given-names></name>, <name name-style="western"><surname>Kinyon</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Layman</surname> <given-names>LL</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Isolation and characterization of methicillin-resistant Staphylococcus aureus from pork farms and visiting veterinary students</article-title>. <source>PLoS One</source> <volume>8</volume>: <fpage>e53738</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0053738" xlink:type="simple">10.1371/journal.pone.0053738</ext-link></comment> <object-id pub-id-type="pmid">23301102</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref032">
+<label>32</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Molla</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Byrne</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Abley</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Mathews</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Jackson</surname> <given-names>CR</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Epidemiology and genotypic characteristics of methicillin-resistant <italic>Staphylococcus aureus</italic> strains of porcine origin</article-title>. <source>J Clin Microbiol</source> <volume>50</volume>: <fpage>3687</fpage>–<lpage>3693</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/JCM.01971-12" xlink:type="simple">10.1128/JCM.01971-12</ext-link></comment> <object-id pub-id-type="pmid">22972820</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref033">
+<label>33</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Smith</surname> <given-names>TC</given-names></name>, <name name-style="western"><surname>Gebreyes</surname> <given-names>WA</given-names></name>, <name name-style="western"><surname>Abley</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Harper</surname> <given-names>AL</given-names></name>, <name name-style="western"><surname>Forshey</surname> <given-names>BM</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Methicillin-resistant <italic>Staphylococcus aureus</italic> in pigs and farm workers on conventional and antibiotic-free swine farms in the USA</article-title>. <source>PLoS One</source> <volume>8</volume>: <fpage>e63704</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0063704" xlink:type="simple">10.1371/journal.pone.0063704</ext-link></comment> <object-id pub-id-type="pmid">23667659</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref034">
+<label>34</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Rinsky</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Nadimpalli</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Wing</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Hall</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Baron</surname> <given-names>D</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Livestock-associated methicillin and multidrug resistant <italic>Staphylococcus aureus</italic> is present among industrial, not antibiotic-free livestock operation workers in North Carolina</article-title>. <source>PLoS One</source> <volume>8</volume>: <fpage>e67641</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0067641" xlink:type="simple">10.1371/journal.pone.0067641</ext-link></comment> <object-id pub-id-type="pmid">23844044</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref035">
+<label>35</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Neyra</surname> <given-names>RC</given-names></name>, <name name-style="western"><surname>Frisancho</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Rinsky</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Resnick</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Carroll</surname> <given-names>KC</given-names></name>, <etal>et al</etal>. (<year>2014</year>) <article-title>Multidrug-Resistant and Methicillin-Resistant <italic>Staphylococcus aureus</italic> (MRSA) in Hog Slaughter and Processing Plant Workers and Their Community in North Carolina (USA)</article-title>. <source>Environ Health Perspect</source> <volume>122</volume>: <fpage>471</fpage>–<lpage>477</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1289/ehp.1306741" xlink:type="simple">10.1289/ehp.1306741</ext-link></comment> <object-id pub-id-type="pmid">24508836</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref036">
+<label>36</label>
+<mixed-citation xlink:type="simple" publication-type="other">
+Nadimpalli M, Rinsky JL, Wing S, Hall D, Stewart J, et al. (2014) Persistence of livestock-associated antibiotic-resistant Staphylococcus aureus among industrial hog operation workers in North Carolina over 14 days. Occup Environ Med. E-pub ahead of print. doi: 10.1136/oemed-2014-102095</mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref037">
+<label>37</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Casey</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Curriero</surname> <given-names>FC</given-names></name>, <name name-style="western"><surname>Cosgrove</surname> <given-names>SE</given-names></name>, <name name-style="western"><surname>Nachman</surname> <given-names>KE</given-names></name>, <name name-style="western"><surname>Schwartz</surname> <given-names>BS</given-names></name> (<year>2013</year>) <article-title>High-density livestock operations, crop field application of manure, and risk of community-associated methicillin-resistant <italic>Staphylococcus aureus</italic> infection in Pennsylvania</article-title>. <source>JAMA Intern Med</source> <volume>173</volume>: <fpage>1980</fpage>–<lpage>1990</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1001/jamainternmed.2013.10408" xlink:type="simple">10.1001/jamainternmed.2013.10408</ext-link></comment> <object-id pub-id-type="pmid">24043228</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref038">
+<label>38</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Carrel</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Schweizer</surname> <given-names>ML</given-names></name>, <name name-style="western"><surname>Sarrazin</surname> <given-names>MV</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>TC</given-names></name>, <name name-style="western"><surname>Perencevich</surname> <given-names>EN</given-names></name> (<year>2014</year>) <article-title>Residential proximity to large numbers of swine in feeding operations is associated with increased risk of methicillin-resistant <italic>Staphylococcus aureus</italic> colonization at time of hospital admission in rural Iowa veterans</article-title>. <source>Infect Control Hosp Epidemiol</source> <volume>35</volume>: <fpage>190</fpage>–<lpage>193</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1086/674860" xlink:type="simple">10.1086/674860</ext-link></comment> <object-id pub-id-type="pmid">24442084</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref039">
+<label>39</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Rasigade</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Laurent</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Hubert</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Vandenesch</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Etienne</surname> <given-names>J</given-names></name> (<year>2010</year>) <article-title>Lethal necrotizing pneumonia caused by an ST398 <italic>Staphylococcus aureus</italic> strain</article-title>. <source>Emerging Infectious Diseases</source> <volume>16</volume>: <fpage>1330</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3201/eid1608.100317" xlink:type="simple">10.3201/eid1608.100317</ext-link></comment> <object-id pub-id-type="pmid">20678343</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref040">
+<label>40</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Valentin-Domelier</surname> <given-names>AS</given-names></name>, <name name-style="western"><surname>Girard</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Bertrand</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Violette</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Francois</surname> <given-names>P</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Methicillin-susceptible ST398 <italic>Staphylococcus aureus</italic> responsible for bloodstream infections: an emerging human-adapted subclone?</article-title> <source>PLoS ONE</source> <volume>6</volume>: <fpage>e28369</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0028369" xlink:type="simple">10.1371/journal.pone.0028369</ext-link></comment> <object-id pub-id-type="pmid">22163008</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref041">
+<label>41</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>van Belkum</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Melles</surname> <given-names>DC</given-names></name>, <name name-style="western"><surname>Peeters</surname> <given-names>JK</given-names></name>, <name name-style="western"><surname>van Leeuwen</surname> <given-names>WB</given-names></name>, <name name-style="western"><surname>van Duijkeren</surname> <given-names>E</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Methicillin-resistant and—susceptible <italic>Staphylococcus aureus</italic> sequence type 398 in pigs and humans</article-title>. <source>Emerg Infect Dis</source> <volume>14</volume>: <fpage>479</fpage>–<lpage>483</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3201/eid1403.0760" xlink:type="simple">10.3201/eid1403.0760</ext-link></comment> <object-id pub-id-type="pmid">18325267</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref042">
+<label>42</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Mediavilla</surname> <given-names>JR</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Uhlemann</surname> <given-names>AC</given-names></name>, <name name-style="western"><surname>Hanson</surname> <given-names>BM</given-names></name>, <name name-style="western"><surname>Rosenthal</surname> <given-names>M</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Methicillin-Susceptible <italic>Staphylococcus aureus</italic> ST398, New York and New Jersey, USA</article-title>. <source>Emerging Infectious Diseases</source> <volume>18</volume>: <fpage>700</fpage>–<lpage>702</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3201/eid1804.111419" xlink:type="simple">10.3201/eid1804.111419</ext-link></comment> <object-id pub-id-type="pmid">22469250</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref043">
+<label>43</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Orscheln</surname> <given-names>RC</given-names></name>, <name name-style="western"><surname>Hunstad</surname> <given-names>DA</given-names></name>, <name name-style="western"><surname>Fritz</surname> <given-names>SA</given-names></name>, <name name-style="western"><surname>Loughman</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Mitchell</surname> <given-names>K</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Contribution of genetically restricted, methicillin-susceptible strains to the ongoing epidemic of community-acquired <italic>Staphylococcus aureus</italic> infections</article-title>. <source>Clinical Infectious Diseases</source> <volume>49</volume>: <fpage>536</fpage>–<lpage>542</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1086/600881" xlink:type="simple">10.1086/600881</ext-link></comment> <object-id pub-id-type="pmid">19589082</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref044">
+<label>44</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Golding</surname> <given-names>GR</given-names></name>, <name name-style="western"><surname>Bryden</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Levett</surname> <given-names>PN</given-names></name>, <name name-style="western"><surname>McDonald</surname> <given-names>RR</given-names></name>, <name name-style="western"><surname>Wong</surname> <given-names>A</given-names></name>, <etal>et al</etal>. (<year>2010</year>) <article-title>Livestock-associated methicillin-resistant <italic>Staphylococcus aureus</italic> sequence type 398 in humans, Canada</article-title>. <source>Emerg Infect Dis</source> <volume>16</volume>: <fpage>587</fpage>–<lpage>594</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3201/eid1604.091435" xlink:type="simple">10.3201/eid1604.091435</ext-link></comment> <object-id pub-id-type="pmid">20350371</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref045">
+<label>45</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Waters</surname> <given-names>AE</given-names></name>, <name name-style="western"><surname>Contente-Cuomo</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Buchhagen</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Watson</surname> <given-names>L</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Multidrug-Resistant <italic>Staphylococcus aureus</italic> in US Meat and Poultry</article-title>. <source>Clin Infect Dis</source> <volume>52</volume>: <fpage>1227</fpage>–<lpage>1230</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/cid/cir181" xlink:type="simple">10.1093/cid/cir181</ext-link></comment> <object-id pub-id-type="pmid">21498385</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref046">
+<label>46</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>O’Brien</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Hanson</surname> <given-names>BM</given-names></name>, <name name-style="western"><surname>Farina</surname> <given-names>SA</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>JY</given-names></name>, <name name-style="western"><surname>Simmering</surname> <given-names>JE</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>MRSA in conventional and alternative retail pork products</article-title>. <source>PLoS ONE</source> <volume>7</volume>: <fpage>e30092</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0030092" xlink:type="simple">10.1371/journal.pone.0030092</ext-link></comment> <object-id pub-id-type="pmid">22276147</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref047">
+<label>47</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Pu</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Han</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Ge</surname> <given-names>B</given-names></name> (<year>2008</year>) <article-title>Isolation and Characterization of Methicillin-Resistant <italic>Staphylococcus aureus</italic> from Louisiana Retail Meats</article-title>. <source>Appl Environ Microbiol</source> <volume>75</volume>: <fpage>265</fpage>–<lpage>267</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/AEM.01110-08" xlink:type="simple">10.1128/AEM.01110-08</ext-link></comment> <object-id pub-id-type="pmid">18978079</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref048">
+<label>48</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Bhargava</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Donabedian</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Zervos</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>de Rocha</surname> <given-names>L</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Methicillin-resistant <italic>Staphylococcus aureus</italic> in retail meat, Detroit, Michigan, USA</article-title>. <source>Emerg Infect Dis</source> <volume>17</volume>: <fpage>1135</fpage>–<lpage>1137</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3201/eid1706.101095" xlink:type="simple">10.3201/eid1706.101095</ext-link></comment> <object-id pub-id-type="pmid">21749794</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref049">
+<label>49</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Jackson</surname> <given-names>CR</given-names></name>, <name name-style="western"><surname>Davis</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Barrett</surname> <given-names>JB</given-names></name> (<year>2013</year>) <article-title>Prevalence and characterization of methicillin-resistant <italic>Staphylococcus aureus</italic> isolates from retail meat and humans in Georgia</article-title>. <source>J Clin Microbiol</source> <volume>51</volume>: <fpage>1199</fpage>–<lpage>1207</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/JCM.03166-12" xlink:type="simple">10.1128/JCM.03166-12</ext-link></comment> <object-id pub-id-type="pmid">23363837</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref050">
+<label>50</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Hetem</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Bootsma</surname> <given-names>MC</given-names></name>, <name name-style="western"><surname>Troelstra</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Bonten</surname> <given-names>MJ</given-names></name> (<year>2013</year>) <article-title>Transmissibility of livestock-associated methicillin-resistant <italic>Staphylococcus aureus</italic></article-title>. <source>Emerg Infect Dis</source> <volume>19</volume>: <fpage>1797</fpage>–<lpage>1802</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3201/eid1911.121085" xlink:type="simple">10.3201/eid1911.121085</ext-link></comment> <object-id pub-id-type="pmid">24207050</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref051">
+<label>51</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Spoor</surname> <given-names>LE</given-names></name>, <name name-style="western"><surname>McAdam</surname> <given-names>PR</given-names></name>, <name name-style="western"><surname>Weinert</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Rambaut</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Hasman</surname> <given-names>H</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Livestock origin for a human pandemic clone of community-associated methicillin-resistant <italic>Staphylococcus aureus</italic></article-title>. <source>MBio</source> <volume>4</volume>: <fpage>e00356</fpage>–<lpage>13</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/mBio.00356-13" xlink:type="simple">10.1128/mBio.00356-13</ext-link></comment> <object-id pub-id-type="pmid">23943757</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref052">
+<label>52</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Wu</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Piscitelli</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>de Lencastre</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Tomasz</surname> <given-names>A</given-names></name> (<year>1996</year>) <article-title>Tracking the evolutionary origin of the methicillin resistance gene: cloning and sequencing of a homologue of <italic>mec</italic>A from a methicillin susceptible strain of <italic>Staphylococcus sciuri</italic></article-title>. <source>Microb Drug Resist</source> <volume>2</volume>: <fpage>435</fpage>–<lpage>441</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1089/mdr.1996.2.435" xlink:type="simple">10.1089/mdr.1996.2.435</ext-link></comment> <object-id pub-id-type="pmid">9158816</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref053">
+<label>53</label>
+<mixed-citation xlink:type="simple" publication-type="journal">(<year>1978</year>) <article-title>Ebola haemorrhagic fever in Zaire, 1976</article-title>. <source>Bull World Health Organ</source> <volume>56</volume>: <fpage>271</fpage>–<lpage>293</lpage>. <object-id pub-id-type="pmid">307456</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref054">
+<label>54</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Garcia-Alvarez</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Holden</surname> <given-names>MT</given-names></name>, <name name-style="western"><surname>Lindsay</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Webb</surname> <given-names>CR</given-names></name>, <name name-style="western"><surname>Brown</surname> <given-names>DF</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Meticillin-resistant <italic>Staphylococcus aureus</italic> with a novel <italic>mec</italic>A homologue in human and bovine populations in the UK and Denmark: a descriptive study</article-title>. <source>Lancet Infect Dis</source> <volume>11</volume>: <fpage>595</fpage>–<lpage>603</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S1473-3099(11)70126-8" xlink:type="simple">10.1016/S1473-3099(11)70126-8</ext-link></comment> <object-id pub-id-type="pmid">21641281</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref055">
+<label>55</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Shore</surname> <given-names>AC</given-names></name>, <name name-style="western"><surname>Deasy</surname> <given-names>EC</given-names></name>, <name name-style="western"><surname>Slickers</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Brennan</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>O’Connell</surname> <given-names>B</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Detection of staphylococcal cassette chromosome mec type XI carrying highly divergent mecA, mecI, mecR1, blaZ, and ccr genes in human clinical isolates of clonal complex 130 methicillin-resistant <italic>Staphylococcus aureus</italic></article-title>. <source>Antimicrob Agents Chemother</source> <volume>55</volume>: <fpage>3765</fpage>–<lpage>3773</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/AAC.00187-11" xlink:type="simple">10.1128/AAC.00187-11</ext-link></comment> <object-id pub-id-type="pmid">21636525</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref056">
+<label>56</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Stegger</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Larsen</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Soldanova</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Aziz</surname> <given-names>M</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Rapid differentiation between livestock-associated and livestock-independent <italic>Staphylococcus aureus</italic> CC398 clades</article-title>. <source>PLoS One</source> <volume>8</volume>: <fpage>e79645</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0079645" xlink:type="simple">10.1371/journal.pone.0079645</ext-link></comment> <object-id pub-id-type="pmid">24244535</object-id></mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref057">
+<label>57</label>
+<mixed-citation xlink:type="simple" publication-type="book">
+<collab xlink:type="simple">WHO</collab> (<year>2014</year>) <source>Antimicrobial resistance: global report on surveillance Geneva</source>, <publisher-loc>Switzerland</publisher-loc>. pp. <fpage>257</fpage>.</mixed-citation>
+</ref>
+<ref id="ppat.1004564.ref058">
+<label>58</label>
+<mixed-citation xlink:type="simple" publication-type="journal">
+<name name-style="western"><surname>Smith</surname> <given-names>DL</given-names></name>, <name name-style="western"><surname>Harris</surname> <given-names>AD</given-names></name>, <name name-style="western"><surname>Johnson</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Silbergeld</surname> <given-names>EK</given-names></name>, <name name-style="western"><surname>Morris</surname> <given-names>JG</given-names> <suffix>Jr.</suffix></name> (<year>2002</year>) <article-title>Animal antibiotic use has an early but important impact on the emergence of antibiotic resistance in human commensal bacteria</article-title>. <source>Proc Natl Acad Sci U S A</source> <volume>99</volume>: <fpage>6434</fpage>–<lpage>6439</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.082188899" xlink:type="simple">10.1073/pnas.082188899</ext-link></comment> <object-id pub-id-type="pmid">11972035</object-id></mixed-citation>
+</ref>
+</ref-list>
+</back>
+</article>

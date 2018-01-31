@@ -1,0 +1,379 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0165194</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-16-10618</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Engineering and technology</subject><subj-group><subject>Equipment</subject><subj-group><subject>Optical equipment</subject><subj-group><subject>Optical lenses</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Chemical characterization</subject><subj-group><subject>Optical analysis</subject><subj-group><subject>Refractive index</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Imaging techniques</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Microscopy</subject><subj-group><subject>Electron microscopy</subject><subj-group><subject>Scanning electron microscopy</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Microscopy</subject><subj-group><subject>Light microscopy</subject><subj-group><subject>Fluorescence microscopy</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Materials science</subject><subj-group><subject>Materials by structure</subject><subj-group><subject>Microspheres</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Chemistry</subject><subj-group><subject>Chemical elements</subject><subj-group><subject>Barium</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Physics</subject><subj-group><subject>Waves</subject><subj-group><subject>Diffraction</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Super-Resolution Real Imaging in Microsphere-Assisted Microscopy</article-title>
+<alt-title alt-title-type="running-head">Super-Resolution Real Imaging in Microsphere-Assisted Microscopy</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-1937-9914</contrib-id>
+<name name-style="western">
+<surname>Lai</surname>
+<given-names>Hok Sum Sam</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Wang</surname>
+<given-names>Feifei</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Li</surname>
+<given-names>Yi</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Jia</surname>
+<given-names>Boliang</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Liu</surname>
+<given-names>Lianqing</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Li</surname>
+<given-names>Wen Jung</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Mechanical and Biomedical Engineering, City University of Hong Kong, Tat Chee Avenue, Hong Kong</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>State Key Laboratory of Robotics, Shenyang Institute of Automation, Chinese Academy of Sciences, Shenyang, 110016, China</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>University of Chinese Academy of Sciences, Beijing, 100049, China</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Abraham</surname>
+<given-names>Thomas</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Pennsylvania State Hershey College of Medicine, UNITED STATES</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="con">
+<p><list list-type="simple"><list-item><p><bold>Conceptualization:</bold> HSSL YL BJ WJL.</p></list-item>
+<list-item><p><bold>Formal analysis:</bold> HSSL FFW WJL.</p></list-item>
+<list-item><p><bold>Funding acquisition:</bold> WJL LL.</p></list-item>
+<list-item><p><bold>Investigation:</bold> HSSL YL FFW BJ.</p></list-item>
+<list-item><p><bold>Methodology:</bold> HSSL WJL.</p></list-item>
+<list-item><p><bold>Project administration:</bold> WJL LL.</p></list-item>
+<list-item><p><bold>Resources:</bold> WJL.</p></list-item>
+<list-item><p><bold>Software:</bold> HSSL.</p></list-item>
+<list-item><p><bold>Supervision:</bold> WJL LL.</p></list-item>
+<list-item><p><bold>Validation:</bold> FFW WJL.</p></list-item>
+<list-item><p><bold>Visualization:</bold> HSSL.</p></list-item>
+<list-item><p><bold>Writing – original draft:</bold> HSSL.</p></list-item>
+<list-item><p><bold>Writing – review &amp; editing:</bold> HSSL BJ WJL.</p></list-item></list></p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">wenjli@cityu.edu.hk</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>21</day>
+<month>10</month>
+<year>2016</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2016</year>
+</pub-date>
+<volume>11</volume>
+<issue>10</issue>
+<elocation-id>e0165194</elocation-id>
+<history>
+<date date-type="received">
+<day>14</day>
+<month>3</month>
+<year>2016</year>
+</date>
+<date date-type="accepted">
+<day>8</day>
+<month>10</month>
+<year>2016</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2016</copyright-year>
+<copyright-holder>Lai et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0165194"/>
+<abstract>
+<p>Microsphere-assisted microscopy has received a lot of attention recently due to its simplicity and its capability to surpass the diffraction limit. However, to date, sub-diffraction-limit features have only been observed in virtual images formed through the microspheres. We show that it is possible to form real, super-resolution images using high-refractive index microspheres. Also, we report on how changes to a microsphere’s refractive index and size affect image formation and planes. The relationship between the focus position and the additional magnification factor is also investigated using experimental and theoretical methods. We demonstrate that such a real imaging mode, combined with the use of larger microspheres, can enlarge sub-diffraction-limit features up to 10 times that of wide-field microscopy’s magnification with a field-of-view diameter of up to 9 μm.</p>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution>Hong Kong Research Grants Council</institution>
+</funding-source>
+<award-id>11215614</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Li</surname>
+<given-names>Wen Jung</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award002">
+<funding-source>
+<institution>Hong Kong Research Grants Council</institution>
+</funding-source>
+<award-id>118513</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Li</surname>
+<given-names>Wen Jung</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award003">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100007567</institution-id>
+<institution>City University of Hong Kong</institution>
+</institution-wrap>
+</funding-source>
+<award-id>9610216</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Li</surname>
+<given-names>Wen Jung</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>We would like to thank the Hong Kong Research Grants Council (project codes CityU 11215614 and CityU 118513) and the City University of Hong Kong (project no. 9610216) for their financial support on this project. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="11"/>
+<table-count count="0"/>
+<page-count count="17"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>It has been presumed in the past that even the best optical microscopes in the world would be subjected to a limit in resolution due to the diffractive nature of light. Based on Abbe’s theory, this limit is half of the illumination wavelength [<xref ref-type="bibr" rid="pone.0165194.ref001">1</xref>] (i.e., approximately 200 nm for visible wavelengths). However, during the past two decades, strong efforts have made optically viewing nano-scale features smaller than 200 nm possible. Nobel-Prize-winning fluorescence-based techniques like stimulated emission depletion microscopy (STED) [<xref ref-type="bibr" rid="pone.0165194.ref002">2</xref>] and photo-activated localized microscopy (PALM) [<xref ref-type="bibr" rid="pone.0165194.ref003">3</xref>] are good examples of such methods that can attain live-cell imaging with resolution beyond the diffraction limit. Also, spatially modulated illumination (SMI) can increase the resolution of fluorescence microscopes by constructing a standing wave and reducing the 3D point-spread function of illumination [<xref ref-type="bibr" rid="pone.0165194.ref004">4</xref>]. However, because the intrusive nature of fluorescence microscopy is generally deleterious, developing super-resolution techniques that do not use fluorescence is important. A current trend towards super-resolution images involves developing metamaterials or designing unique lenses that can break the diffraction barrier [<xref ref-type="bibr" rid="pone.0165194.ref005">5</xref>]. However, the current development of such a lens is either limited by fabrication complexity or is limited by high losses within the lens [<xref ref-type="bibr" rid="pone.0165194.ref006">6</xref>]. Conversely, digital reconstruction techniques such as deconvolution [<xref ref-type="bibr" rid="pone.0165194.ref007">7</xref>] are often used as a complement to further increase the image resolution and contrast but also limit the possibility for real-time imaging.</p>
+<p>Another significant group of non-fluorescent, super-resolution microscopy techniques is based on collecting evanescent waves near the sample surface. Near-field optical scanning microscopy (NSOM) has experienced rapid development over the past few decades, developing different operating modes such as the transmission, reflection, collection and illumination-collection modes. Sharp probe-tips have also been developed to be either aperture-less or to contain an aperture. Although NSOM can often achieve a resolution of a few nanometers, which is comparable to certain profiling machines, its speed and tip requirement hinders the application of such technology. Then, in 2011, Wang et al. [<xref ref-type="bibr" rid="pone.0165194.ref008">8</xref>] discovered that when placed at close proximity to samples, microspheres could surpass the resolution attained by a solid-immersion lens (SIL). In that study, microspheres were placed on the sample, and a virtual image was observed through the silica microsphere, resolving features down to 50 nm.</p>
+<p>The simple and effective approach of microsphere-assisted microscopy has thus attracted strong interest from the research community. The comparison between a solid-immersion lens and microspheres was further strengthened and repeated by Darafsheh et al. [<xref ref-type="bibr" rid="pone.0165194.ref009">9</xref>]. Efforts have also been made to study the mechanism and to further improve its resolution. For example, a group demonstrated that microspheres immersed in isopropyl alcohol have a better contrast plus self-healing properties [<xref ref-type="bibr" rid="pone.0165194.ref010">10</xref>]. There have also been combinations of techniques with microspheres, such as a confocal combination [<xref ref-type="bibr" rid="pone.0165194.ref011">11</xref>] and fluorescence observations [<xref ref-type="bibr" rid="pone.0165194.ref012">12</xref>], that showed improvements in resolution. A functional scanning platform based on microspheres has been created by attaching a microsphere to a glass micro-pipette with a high-precision stage [<xref ref-type="bibr" rid="pone.0165194.ref013">13</xref>].</p>
+<p>However, in all studies and applications, the image observed or captured through the microscope was always virtual, as shown in <xref ref-type="fig" rid="pone.0165194.g001">Fig 1(A)</xref>. The only study that reported on a real image discovered only a blurred real image through a microsphere that was semi-immersed in SU-8 [<xref ref-type="bibr" rid="pone.0165194.ref014">14</xref>]. Also, few theoretical discussions are published in the literature that conclude anything regarding real super-resolution imaging using microspheres. In this study, we report the discovery of such a real-imaging mode, as depicted in <xref ref-type="fig" rid="pone.0165194.g001">Fig 1(B)</xref>, and share discussions regarding it.</p>
+<fig id="pone.0165194.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0165194.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Illustration of super-resolution imaging modes.</title>
+<p>(A) virtual imaging mode; and (B) real imaging mode.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0165194.g001" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Methods and Materials</title>
+<p>Blank Blu-ray disc (TDK BD-R 25 GB) samples were cut into small pieces with the protection layer of each piece removed. Additionally, a commercially available CPU (central processing unit) chip with 22nm lithography (Intel G2010) was purchased and prepared so that their sub-micron features could be investigated. The heat spreader caps were removed at an elevated temperature of 350°C, and their features were exposed via forced tearing of the silicon chip.</p>
+<p>Dry barium titanate microspheres with diameters between 20 and 220 μm, and wet polystyrene microspheres with diameters of 30 μm were acquired from Cospheric and Sigma Aldrich, respectively. The refractive index of barium titanate microsphere and polystyrene microsphere are 1.9 and 1.59, respectively. Deionized water was used to wet the dry microspheres or to dilute the microsphere solution, facilitating dispersion and injection onto the sample’s surface. All samples were placed on a hot plate at 70°C to accelerate evaporation. The microspheres were attached to the sample surface via the electrostatic and van der Waals forces. Each sample was allowed to cool down to room temperature for 10 minutes.</p>
+<p>All results were obtained using the Nikon Ti-E, which is an inverted microscope with a motorized stage and a high-precision nosepiece (XY: 100 nm, Z: 25 nm), except for the results of the CPU chip. The results of the CPU chip were obtained using the Nikon Ni-E, which is an upright microscope with the same type of motorized stage and nosepiece, since the CPU chip is too small to be held upside down for observation. All samples were observed in air in reflection mode under bright-field illumination, with the aperture and field diaphragm adjusted mechanically to their minimum size. The diaphragms were minimized to reduce the light scattering from the objective and the microsphere, therefore reducing the washout effect on magnified features by background light and maximizing the contrast. A mercury, pre-centered, fiber illuminator was used with a 425-nm long-pass filter to provide white-light illumination. Vertical scanning was controlled and assisted by Nikon’s Nis-AR software. Andor Zyla 5.5 and Oria 2.0 cameras used to capture grayscale and color images, respectively. The size of the field-of-view of the images captured by a conventional 50x objective for the grayscale and color camera are 266μm×322μm (width × height) and 221μm×221μm, respectively. The field-of-view is the same for both the inverted and upright microscopes. No operations other than cropping and intensity range adjustment were applied to the images reported in this study.</p>
+<p>The atomic force microscopy (AFM) image was captured using Autoprobe CP (Park Scientific Instruments) in contact mode with a silicon nitride cantilever with standard tip (Park Scientific Instruments). On the other hand, the scanning electron microscopy (SEM) images were obtained in high vacuum mode using Quanta 250 Environmental SEM (FEI) without coating at 30kV.</p>
+</sec>
+<sec id="sec003" sec-type="conclusions">
+<title>Results and Discussion</title>
+<p>According to the literature [<xref ref-type="bibr" rid="pone.0165194.ref008">8</xref>,<xref ref-type="bibr" rid="pone.0165194.ref015">15</xref>–<xref ref-type="bibr" rid="pone.0165194.ref017">17</xref>], a Blu-ray disc has a gap between its tracks that ranges from 100 to 120 nm [<xref ref-type="bibr" rid="pone.0165194.ref008">8</xref>,<xref ref-type="bibr" rid="pone.0165194.ref016">16</xref>,<xref ref-type="bibr" rid="pone.0165194.ref017">17</xref>]. This separation is below the diffraction limit, making it unobservable using normal microscopes and suitable for the super-resolution tests performed in this study. Therefore, we observed a Blu-ray disc’s surface using different methods; the results of these tests are shown in <xref ref-type="fig" rid="pone.0165194.g002">Fig 2</xref>. The Blu-ray disc was scanned using AFM and observed through a 100x (N.A. 0.9) objective lens without microspheres. <xref ref-type="fig" rid="pone.0165194.g002">Fig 2(A)</xref> shows that a 100x (N.A. 0.9) objective lens cannot resolve the features in the Blu-ray disc without a microsphere. The results obtained using AFM scanning, which are shown in <xref ref-type="fig" rid="pone.0165194.g002">Fig 2(C)</xref>, verify that the separation between the grooves was close to 100 nm. Consequently, a comparison between <xref ref-type="fig" rid="pone.0165194.g002">Fig 2(B) and 2(D)</xref> shows that when in air, a polystyrene bead resolves the Blu-ray disc through a virtual image, while a barium titanate bead resolves it through a real image. Both demonstrate the super-resolution capability of microsphere-assisted microscopy. Real image, as predicted by traditional optics, must be located at the side of the lens (in our case it is a microsphere) opposite to the object/sample while virtual image must be located at the same side of the lens as the object. With the motorized nosepiece of our microscopes, we could therefore determine whether the image captured is located at a position beyond or before the microsphere. In <xref ref-type="fig" rid="pone.0165194.g002">Fig 2(B-1) &amp; 2(B-2)</xref>, the respective focus positions relative to the sample’s surface are -101μm and -73μm while for <xref ref-type="fig" rid="pone.0165194.g002">Fig 2(D-1) &amp; 2(D-2)</xref>, the respective focus positions are 72μm and 112.7μm. Negative values indicate that the focus position into the sample’s surface thus confirming virtual image while positive values indicate positions away. Since the BTG microsphere’s size is only 25μm, the image plane of <xref ref-type="fig" rid="pone.0165194.g002">Fig 2(D-1) &amp; 2(D-2)</xref> must be located between the microsphere and the objective. Therefore, <xref ref-type="fig" rid="pone.0165194.g002">Fig 2(D-1) &amp; 2(D-2)</xref> are real images. Comparing <xref ref-type="fig" rid="pone.0165194.g002">Fig 2(B-2) and 2(D-2)</xref>, which were both captured using a 50x (N.A. 0.45) objective lens, reveals a similar contrast between both imaging modes. However, the different focusing characteristics of the microspheres with different refractive indices can result in different light uniformities, as shown in the differences between <xref ref-type="fig" rid="pone.0165194.g002">Fig 2(B-1) and 2(D-1)</xref>.</p>
+<fig id="pone.0165194.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0165194.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Blu-ray disc sample observed using different methods and conditions.</title>
+<p>(A) image captured with a 100x (N.A. 0.9) objective lens; (B) image captured with a 30-μm PS microsphere with (B-1) a 20x (N.A. 0.75) objective lens, and (B-2) a 50x (N.A. 0.45) objective lens; (C) results using AFM; (D) image captured with a 25-μm BTG microsphere with (D-1) a 20x (N.A. 0.75) objective lens, and (D-2) a 50x (N.A. 0.45) objective lens. The values on top of each scale bar represents the scale bar’s length that is estimated in real object scale.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0165194.g002" xlink:type="simple"/>
+</fig>
+<p>In addition to this difference, real imaging mode has some distinct advantages over virtual imaging mode. Since the focus position is away from the sample rather than into the sample for real imaging mode, there will be an additional increase to the working distance of the objective. Take for example the barium titanate microsphere with the size of 25μm diameter, using it would allow an additional of 180μm more clearance between the microsphere and objective than using similar size PS microsphere that can only form virtual images. The difference in the focus position, or the additional clearance would be even greater for larger microspheres. A discussion of the focus position of different sizes of microspheres will be presented in later parts of this article. Nonetheless, the additional clearance could be very critical for applications that would need the addition of mechanical arms that can be used to displace the microsphere to specific sites of interest. Such systems have been investigated recently to strengthen the practicality of microsphere-assisted microscopy [<xref ref-type="bibr" rid="pone.0165194.ref013">13</xref>,<xref ref-type="bibr" rid="pone.0165194.ref018">18</xref>]. With larger clearance, high quality or high magnification objectives, which usually have low working distance values can be used even with mechanical arms. Moreover, with real imaging mode, it is now possible to apply a filter (such as adding a pinhole) directly on the real image before the objective. Thus, this mode adds more possibilities for the enhancement of resolution or contrast than virtual imaging mode.</p>
+<p>A variety of sizes of barium titanate microspheres was used to observe the Blu-ray disc in air. <xref ref-type="fig" rid="pone.0165194.g003">Fig 3</xref> includes these images, which were captured using a color camera and verify the super-resolution produced with a wide range of sizes of barium titanate microspheres. Although color dispersion occurs at the ring, dispersion is not observed in the center, allowing for useful color information of the object to be collected with super-resolution spatial information. This is an advantage over other super-resolution techniques that require further processing, separate color channels, or pseudo-coloring to obtain a color image.</p>
+<fig id="pone.0165194.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0165194.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Color images of a Blu-ray disc captured under different conditions.</title>
+<p>(A) 65-μm BTG, (B) 90-μm BTG, and (C) 175-μm BTG. All images were captured using a 50x (NA 0.45) objective lens. All scale bars represent 20 μm without including the microsphere’s additional magnification. The value on top of each scale bar represents the scale bar’s length that is estimated in the real object scale.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0165194.g003" xlink:type="simple"/>
+</fig>
+<p>In addition to observing Blu-ray disc samples, we used microspheres with high refractive indices to observe feature-exposed CPU. Comparisons of the images captured with and without a microsphere for repetitive patterns are shown in <xref ref-type="fig" rid="pone.0165194.g004">Fig 4</xref>. In the images captured with a microsphere, sharper corners and smaller features were resolved, further indicating the achievement of super-resolution. Consequently, the smallest feature in <xref ref-type="fig" rid="pone.0165194.g004">Fig 4(B)</xref> is estimated to be 120 nm wide, which is the gap between the lines; this yields further evidence for the super-resolution of real images that are formed through high-refractive index microspheres.</p>
+<fig id="pone.0165194.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0165194.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Comparison of images of CPU (22-nm lithography CPU: Intel G2010) features captured in different ways.</title>
+<p>(A) CPU observed with a 100x (NA 0.9) objective lens, where subset (A-1) shows the magnified area of interest; and (B) the same location of the CPU as in (A) observed through a 200-μm diameter BTG microsphere with a 100x (NA 0.9) objective lens. The smallest gap width resolved in (B) is estimated to be 120 nm wide. (C) a second location observed with a100x (NA 0.9) objective lens, where subset (C-1) shows the magnified area of interest; (D) a 25-μm diameter PS microsphere with a 100x (NA 0.9) objective lens observing on the features in (C); (E) SEM image of the same features in (C) at 30 kV; (F) a 15-μm diameter BTG microsphere with a 100x (NA 0.9) objective lens; and (G) same condition as (F) but captured with a color camera. The value on top of each scale bar represents the scale bar’s length in real object scale. The additional magnification factors for (B), (D), (F) and (G) are estimated to be 6.44x, 6.92x, 5.62x and 6.33x, respectively, using the proposed method mentioned later in this article.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0165194.g004" xlink:type="simple"/>
+</fig>
+<p>Using the CPU as sample, a comparison among different imaging modes for microspheres using a conventional microscope and a scanning electron microscope is shown in <xref ref-type="fig" rid="pone.0165194.g004">Fig 4(C)–4(G)</xref>. In <xref ref-type="fig" rid="pone.0165194.g004">Fig 4</xref>, the white arrows refer to two lines that are less than 40 nm wide with a pitch of less than 80 nm. Because these lines are smaller than 40 nm, they are not visible using a conventional microscope, even with an objective lens with a numerical aperture as high as 0.9. However, assisted by a microsphere, the two lines are clearly visible despite the unresolved line gap in both the virtual imaging and real imaging shown in <xref ref-type="fig" rid="pone.0165194.g004">Fig 4(D) and 4(F)</xref>, respectively. There are no distinct differences in resolution between the virtual and real imaging modes shown in <xref ref-type="fig" rid="pone.0165194.g004">Fig 4(D) and 4(F)</xref>. Although the image captured through a microsphere has a lower resolution than that of SEM, there are features that SEM cannot distinguish, such as the dot-like feature indicated by the yellow arrows in <xref ref-type="fig" rid="pone.0165194.g004">Fig 4(D), 4(F) and 4(G)</xref>. Many features within insulating materials or below a transparent dielectric film are exclusive to optical methods; thus, super-resolution optical methods provide useful results.</p>
+<p>The super-resolution mechanism of a microsphere was first explained using the concept of optical reciprocity of the photonic nano-jet effect [<xref ref-type="bibr" rid="pone.0165194.ref008">8</xref>]; others explained that super-resolution is due to the microsphere’s ability to collect high spatial frequency signals at near-field distances [<xref ref-type="bibr" rid="pone.0165194.ref019">19</xref>]. Additional factors for increased resolution have also been suggested, such as the whispering-gallery mode effect [<xref ref-type="bibr" rid="pone.0165194.ref020">20</xref>] and localized surface plasmon resonances in nanostructured metallic objects [<xref ref-type="bibr" rid="pone.0165194.ref021">21</xref>]. These theories neither restrict the image to be virtual nor depend on whether the image is virtual. With the similarity between the images obtained using the virtual and real imaging mode, these previous super-resolution mechanisms can also be applied to real images.</p>
+<p>However, to further investigate the similarity and differences between the real and virtual imaging mode, we simulated microspheres of two refractive indices and two sizes under the same condition of having a dipole excitation located directly below the microsphere and at a horizontal offset of 500 nm. All dipoles are oriented parallel to paper and are aligned horizontally.</p>
+<p>We used the FDTD method (Lumerical FDTD Solutions) and ran the simulation in 2D TE mode. By tracing and connecting the Poynting vectors, we obtained the figures shown in <xref ref-type="fig" rid="pone.0165194.g005">Fig 5</xref>. The divergence of the Poynting vectors at the top of the simulation domain are shown to increase when the refractive index changes from 1.59 to 1.9. From the simulations with n = 1.59, there are no marked convergence of the streamlines on top of the sphere; when n = 1.9, the convergent areas appearing on top of the sphere correspond to an image spot. On the other hand, a comparison between larger microspheres and smaller microspheres can also be made from <xref ref-type="fig" rid="pone.0165194.g005">Fig 5</xref>. Poynting vectors of smaller microspheres lean more to the left as a whole compare to larger microspheres for both refractive indices. Further analyses, which fit the far-field segments (i.e., segments from 80 to 130 μm) of the streamlines into straight lines, are shown in <xref ref-type="fig" rid="pone.0165194.g006">Fig 6</xref>. These plots are similar to ray-tracing methods, where converging areas or intersections lying on the axis joining the object with the microsphere’s center can be perceived as image locations. In all of the plots shown in <xref ref-type="fig" rid="pone.0165194.g006">Fig 6</xref>, no exact converging points are shown; however, a range of intersection planes are present. The narrower the area of convergence, the higher the image resolution. Comparing the area of convergence in <xref ref-type="fig" rid="pone.0165194.g006">Fig 6(A) with 6(C) and 6(B) with 6(D)</xref>, we know that a smaller microsphere would be able to attain higher resolution. How these converging areas shift based on the refractive index reconciles with the optical geometries, where the image formation is dependent on the relationship between the object position and the focal length of the lens. As the refractive index of the microsphere increases, the focal spot of the microsphere shifts to be within the microsphere, allowing magnified real images to form if objects are located very near to the sphere. As shown in <xref ref-type="fig" rid="pone.0165194.g006">Fig 6</xref>, the converging areas switch sides from virtually beyond the microsphere to above the microsphere as the refractive index increases from 1.59 to 1.9.</p>
+<fig id="pone.0165194.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0165194.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>2D simulation using FDTD, displaying Poynting vector magnitudes and directions as colors and streamlines, respectively, for different combination of refractive index n and the size of the microsphere in radius R.</title>
+<p>(A) n = 1.59, R = 12.5 (B) n = 1.9, R = 12.5 (C) n = 1.59, R = 5 (D) n = 1.9, R = 5. For all conditions, a dipole excitation is located at the coordinate of (0.5, -10), which is of 500nm horizontal offset to the bottommost point of the microsphere at (0, -10). The unit of the coordinates is in micrometer. The location of the dipole excitation and orientation is indicated in the inset in (A).</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0165194.g005" xlink:type="simple"/>
+</fig>
+<fig id="pone.0165194.g006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0165194.g006</object-id>
+<label>Fig 6</label>
+<caption>
+<title>Extrapolated linear fits of the top segments (i.e., segments from 80 to 130 μm) of the Poynting streamlines with different refractive indices and microsphere sizes.</title>
+<p>(A) n = 1.59, R = 12.5 (B) n = 1.9, R = 12.5 (C) n = 1.59, R = 5 and (D) n = 1.9, R = 5.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0165194.g006" xlink:type="simple"/>
+</fig>
+<p>A range of intersection planes in <xref ref-type="fig" rid="pone.0165194.g006">Fig 6</xref> also indicates that there would be a range of image planes for microspheres. This matches the result that more than one focus position can acquire clear images. In fact, when an objective lens’s focus moves to different positions, the images captured are at different magnifications. A vertical scan with the objective lens provides a volume of data that can help confirm the relationship between the effective magnification and focus position. Images taken at different planes using different sizes of microspheres are shown in <xref ref-type="fig" rid="pone.0165194.g007">Fig 7</xref>. As the objective lens moves up and away from the microsphere, the real image is magnified more strongly, which is the opposite of the case for a virtual image [<xref ref-type="bibr" rid="pone.0165194.ref022">22</xref>]. This is in accordance with the prediction by simulation in <xref ref-type="fig" rid="pone.0165194.g006">Fig 6</xref>. As the objective lens moves past the location that produces the best image sharpness, the image begins to blur, and the contrast and resolution decrease rapidly.</p>
+<fig id="pone.0165194.g007" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0165194.g007</object-id>
+<label>Fig 7</label>
+<caption>
+<title>Blu-ray disc samples observed with different microsphere sizes at different focus positions (Z).</title>
+<p>Focus positions descend with the row they are located in. All scale bars represent 20 μm without including the microsphere’s additional magnification. All images are captured using a 50x (NA 0.45) objective lens, except for the rightmost column. The value on top of each scale bar represents the scale bar’s length that is estimated in the real object scale.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0165194.g007" xlink:type="simple"/>
+</fig>
+<p>Images that are formed by stacking cross-sections perpendicularly to the Blu-ray disc’s lines at different focus positions, which show trends in the illumination and magnification information with the change in focus position, are shown in <xref ref-type="fig" rid="pone.0165194.g008">Fig 8</xref>. For a microsphere with a 25-μm diameter, central black spots appear throughout the range of focus at super-resolution. Conversely, a larger microsphere decreases the background gradient and thus creates a larger area with good contrast. With larger microspheres, the range of focus at super-resolution is much larger, and the maximum magnification that still contains sub-wavelength information is also larger; this allows a low-magnification objective lens to achieve sub-wavelength resolution due to sufficiently large magnification enhancement provided by a larger microsphere. In <xref ref-type="fig" rid="pone.0165194.g007">Fig 7</xref>, the last column shows the resolved Blu-ray disc features using a combination of a 220-μm-diameter microsphere and a low-magnification objective lens (10x N.A. 0.3). This result shows the unique opportunity for low-cost microscopes to be transformed into super-resolution microscopes. A conservative estimation of the useful field-of-view tells us that microspheres with a diameter as large as 220 μm, operating in real-imaging mode, can provide a field-of-view diameter as large as 9 μm, which is double what 25-μm-diameter microspheres can provide. The cross-section slices in <xref ref-type="fig" rid="pone.0165194.g009">Fig 9</xref> show results produced with an objective lens with different numerical apertures; both a 20x objective lens with N.A. 0.75 and with N.A. 0.45 can resolve Blu-ray disc lines clearly.</p>
+<fig id="pone.0165194.g008" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0165194.g008</object-id>
+<label>Fig 8</label>
+<caption>
+<title>Cross-section slice of z-stacked images captured under different conditions.</title>
+<p>(A) a 50x (NA 0.45) objective lens with a 25-μm BTG; (B) a 50x (NA 0.45) objective lens with a 65-μm BTG; (C) a 50x (NA 0.45) objective lens with a 175-μm BTG; and (D) a 50x (NA 0.45) objective lens with a 220-μm BTG. Subsets (A-1), (B-1), (C-1), (D-1) correspond to subfigures (A)-(D), where each shows the cutting line that results in the cross-section slice. Similarly, the dotted line in each cross-section slice shows the focus position when capturing the corresponding subset. All X-axes use the objective lens’ scale.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0165194.g008" xlink:type="simple"/>
+</fig>
+<fig id="pone.0165194.g009" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0165194.g009</object-id>
+<label>Fig 9</label>
+<caption>
+<title>Cross-section slice of the z-stacked images captured under different conditions.</title>
+<p>(A) a 20x (NA 0.75) objective lens with a 220-μm BTG; (B) a 20x (NA 0.45) objective lens with a 220-μm BTG; and (C) a 10x (NA 0.3) objective lens with a 220-μm BTG. Subsets (A-1), (B-1), and (C-1) correspond to subfigures (A)-(C), where each shows the cutting line that results in the cross-section slice. Similarly, the dotted line in each cross-section slice shows the focus position when capturing the corresponding subset. All X-axes use the objective lens’ scale.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0165194.g009" xlink:type="simple"/>
+</fig>
+<p>However, they are not without differences. While a higher aperture values yield a starker contrast than lower aperture values, the non-uniformity of light produced is also greater; high-aperture-value objective lenses also have the disadvantage of being more sensitive to any optical defects within the light path, resulting in distortions of important features, as shown in <xref ref-type="fig" rid="pone.0165194.g009">Fig 9(A-1)</xref>. In <xref ref-type="fig" rid="pone.0165194.g009">Fig 9(C)</xref>, fan-like stripes are still visible and identifiable, further providing evidence that the narrow gap of 100 nm is resolvable even when using an objective lens with an N.A. as low as 0.3 and a magnification factor as low as 10x.</p>
+<p>To further strengthen the relationship between additional magnification and focus position, the additional magnification factor is quantified using a robust analysis of the slices we obtained in <xref ref-type="fig" rid="pone.0165194.g008">Fig 8</xref>. As there are known periodic dimensions in a Blu-ray disc, Blu-ray disc is therefore perfect for frequency analysis. The first difference (an operation of subtracting the right neighouring pixel with each pixel) of the slice image is used for subsequent frequency analysis because this difference technique can filter any non-uniformity in low-frequency light, as shown in <xref ref-type="fig" rid="pone.0165194.g010">Fig 10(A)</xref>, originating from <xref ref-type="fig" rid="pone.0165194.g008">Fig 8(D)</xref>. A Zoom Fast Fourier transform (Zoom FFT) [<xref ref-type="bibr" rid="pone.0165194.ref023">23</xref>], which is also called a chirp Z-transform (CZT), is used in the frequency analysis process, which is known to enhance the resolution of certain parts of the frequency spectrum [<xref ref-type="bibr" rid="pone.0165194.ref023">23</xref>]. A 1D CZT was performed on the entire row of gray value data at each focus position. A restacking of these 1D frequency spectra is shown in <xref ref-type="fig" rid="pone.0165194.g010">Fig 10(B)</xref>, for which the spatial frequency is different from that shown above, which is defined in terms of how many periods of the Blu-ray disc grooves there are within 1 micron, as observed using the microscope’s objective lens. The magnitude of each frequency at each focus position is displayed using colors. A distinct, yellowish, thin, curved area indicates an inversely proportional relationship between the spatial frequency and focus position. Because the pitch of Blu-ray disc tracks is known to be the industry standard of 320 nm [<xref ref-type="bibr" rid="pone.0165194.ref024">24</xref>], a color graph that plots magnification versus focus position can be obtained from <xref ref-type="fig" rid="pone.0165194.g010">Fig 10(B)</xref>, resulting in <xref ref-type="fig" rid="pone.0165194.g010">Fig 10(C)</xref>. The same steps can be repeated for the slice images obtained in <xref ref-type="fig" rid="pone.0165194.g008">Fig 8(A)–8(C)</xref> resulting in <xref ref-type="fig" rid="pone.0165194.g010">Fig 10(D)–10(F)</xref>. Focus positions with the red areas of the color graph indicate a more concentrated distribution and also reveal the overall sharpness of that focus position. This analysis also helps us to identify the best focus position for the best resolution.</p>
+<fig id="pone.0165194.g010" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0165194.g010</object-id>
+<label>Fig 10</label>
+<caption>
+<title>Results obtained from the cross-section of z-stacked images.</title>
+<p>(A) first difference of the cross-section of z-stacked images, where inset (A-1) shows the original cross-section using a 220μm diameter BTG; (B) Zoom FFT Analysis of (A), where the magnitude of the frequency is represented by its color; (C) magnification analysis of (B); (D) magnification analysis on 25μm diameter BTG; (E) magnification analysis on 65μm diameter BTG; (F) magnification analysis obtained on 175μm diameter BTG. The strength of the magnification is represented by the color. The results are all obtained using a 50x (NA 0.45) objective lens.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0165194.g010" xlink:type="simple"/>
+</fig>
+<p>Other than the above analysis, which is based on the experimental results, there is a theoretical way to predict the magnification using the focus position. From the FDTD simulation, a line passing through the dipole and the center point of the microsphere is an axis where the formation of the image lies, as shown in each subplot of <xref ref-type="fig" rid="pone.0165194.g005">Fig 5</xref>. It is shown that all streamlines form a symmetry with this line, proving that it is the axis of image formation. Therefore, the magnification can be easily related to the focus position using this principle and be derived to obtain the following equation:
+<disp-formula id="pone.0165194.e001">
+<alternatives>
+<graphic id="pone.0165194.e001g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0165194.e001" xlink:type="simple"/>
+<mml:math display="block" id="M1">
+<mml:mrow><mml:mtext>M</mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mtext>R</mml:mtext><mml:mo>+</mml:mo><mml:mtext>d</mml:mtext></mml:mrow></mml:mfrac><mml:mtext>z</mml:mtext><mml:mo>−</mml:mo><mml:mn>1</mml:mn><mml:mtext> z</mml:mtext><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn></mml:mrow>
+</mml:math>
+</alternatives>
+<label>(1)</label>
+</disp-formula>
+where M is the magnification factor contributed by the microsphere; R is the radius of the microsphere; z is the focus position, where z = 0 is the sample’s surface of interest; and d is the distance between the lowest point of the microsphere and the sample’s surface of interest. Because the microsphere is attached to the sample’s surface in all experiments in this study, it can be assumed that d = 0, and the magnification slope depends entirely on the size of the microsphere. To see if this theoretical prediction agrees with the results of the experimental analysis, the maximum-magnitude point of each row of the color graph on magnification is extracted to form a scatter plot. This kind of scatter plot is obtained for different sizes of microspheres and is combined with the theoretical plot for comparison in <xref ref-type="fig" rid="pone.0165194.g011">Fig 11</xref>. All the scatter plots were acquired using the same objective (50x 0.45). The results show that both the theoretical and experimental method agree but do show reasonable differences. The marginal difference between the two methods can be attributed to factors that include a marginally imperfect sphere, defects on the Blu-ray disc or microspheres, measurement inaccuracies of the sphere diameter and occasional inconsistencies in the dimensions in the Blu-ray disc track pitches. With such minor differences, the theoretical method can be considered to reasonably estimate the real scale of an object being observed if the focus position is known with reference to the position that focuses on the sample surface. A further evidence on the applicability of <xref ref-type="disp-formula" rid="pone.0165194.e001">Eq (1)</xref> is shown when comparing the values of feature’s measurement by conventional objectives and the estimation from <xref ref-type="disp-formula" rid="pone.0165194.e001">Eq (1)</xref>. The brighter lines in the image captured without the microsphere in <xref ref-type="fig" rid="pone.0165194.g004">Fig 4(B)</xref> were measured to be spaced at 1.15 μm. Similar brighter lines were also observed in the image when using a 200-μm-diameter microsphere. Matching the features in both images, we arrived at a corresponding additional magnification of 6.40x when using a microsphere. This result is similar to the magnification of 6.44x, which was calculated using <xref ref-type="disp-formula" rid="pone.0165194.e001">Eq (1)</xref> with the focus position controlled at 703 μm away from the sample’s surface.</p>
+<fig id="pone.0165194.g011" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0165194.g011</object-id>
+<label>Fig 11</label>
+<caption>
+<title>Plot of the theoretical and experimental magnification using different sizes of microspheres against the z-position.</title>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0165194.g011" xlink:type="simple"/>
+</fig>
+<p><xref ref-type="fig" rid="pone.0165194.g011">Fig 11</xref> shows that larger microspheres have a wider range of focus positions that can reach the sub-diffraction-limit resolution and have a smaller slope with the change in focus position. This result indicates that larger microspheres are more robust to changes or measurement errors in the focus position; this allows for more reliable estimation of the feature dimensions using large microspheres.</p>
+<p>Despite the aforementioned advantages of large microspheres, these advantages do not imply that larger microspheres always produce better resolutions; smaller microspheres can theoretically produce better resolutions. This is indicated by our simulation results mentioned earlier. Moreover, from the evanescent waves analysis reported by Ben-Aryeh [<xref ref-type="bibr" rid="pone.0165194.ref025">25</xref>], surfaces that have larger angles with the sample’s surface can convert evanescent waves at higher spatial frequencies into propagating waves. However, for a spherical shape, surfaces that have larger angles with the sample are farther away from the sample’s surface; thus, due to the exponential decay of evanescent waves, the transmitted evanescent waves will have a much weaker intensity. Therefore, when the radius of the microsphere decreases, large angle surfaces are closer to the sample’s surface, and the final signal at higher spatial frequencies are stronger. Thus, while larger microspheres have a wider range of focus, less strict requirements on the objective lenses, z-stage precision and a larger field-of-view, they also have a lower resolution. As a result, the choice of microsphere size is a balance between resolution limit and various flexibilities.</p>
+</sec>
+<sec id="sec004" sec-type="conclusions">
+<title>Conclusions</title>
+<p>The discovery of real super-resolution images using high-refractive-index microspheres has been detailed above, providing a new operating mode for microsphere-assisted microscopy. While being comparable to virtual imaging modes in terms of resolution, this new mode also lowers the limit on the working distance of an objective lens and provides flexibility for additions that may have been previously hindered by this working distance. For example, a high-precision scanning arm that can be used for scanning can have a millimeter clearance even with a high-aperture-value objective lens. We also concluded, using both simulation and experimental results, that the refractive index of the microsphere used in such an application is critical to whether the image formed is virtual or real. A relationship between the focus position and the additional magnification was established both experimentally and theoretically. This theoretical relationship was proven to be similar to experimental observations, allowing for direct calculations of feature dimensions without prior calibrations for images obtained through microspheres. It was also discovered that, for the real imaging mode, larger size microspheres actually provide a larger useful field-of-view and require less accurate z-axis information to acquire dimensions. Finally, we have demonstrated that images obtained using the real imaging mode with large microspheres can still resolve sub-diffraction-limit features for an additional magnification of 10x and up. This can allow for an inexpensive, low-magnification objective lens to be used for large-field-of-view, super-resolution imaging. Together with the advantage of the simple synthetic process for producing microspheres compared to solid-immersion lens or other super-lenses, the proposed method could reduce the difficulties associated with obtaining super-resolution images.</p>
+</sec>
+</body>
+<back>
+<ack>
+<p>We would like to thank the Hong Kong Research Grants Council (project codes CityU 11215614 and CityU 118513) and the City University of Hong Kong (project no. 9610216) for their financial support on this project.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0165194.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Abbe</surname> <given-names>E</given-names></name>. <article-title>VII.—On the Estimation of Aperture in the Microscope</article-title>. <source>J R Microsc Soc</source>. <year>1881</year>;<volume>1</volume>: <fpage>388</fpage>–<lpage>423</lpage>.</mixed-citation></ref>
+<ref id="pone.0165194.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hell</surname> <given-names>SW</given-names></name>, <name name-style="western"><surname>Wichmann</surname> <given-names>J</given-names></name>. <article-title>Breaking the diffraction resolution limit by stimulated emission: stimulated-emission-depletion fluorescence microscopy</article-title>. <source>Opt Lett</source>. <year>1994</year>;<volume>19</volume>: <fpage>780</fpage>–<lpage>782</lpage>. <object-id pub-id-type="pmid">19844443</object-id></mixed-citation></ref>
+<ref id="pone.0165194.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Betzig</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Patterson</surname> <given-names>GH</given-names></name>, <name name-style="western"><surname>Sougrat</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Lindwasser</surname> <given-names>OW</given-names></name>, <name name-style="western"><surname>Olenych</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Bonifacino</surname> <given-names>JS</given-names></name>, <etal>et al</etal>. <article-title>Imaging intracellular fluorescent proteins at nanometer resolution</article-title>. <source>Science</source>. <year>2006</year>;<volume>313</volume>: <fpage>1642</fpage>–<lpage>1645</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1126/science.1127344" xlink:type="simple">10.1126/science.1127344</ext-link></comment> <object-id pub-id-type="pmid">16902090</object-id></mixed-citation></ref>
+<ref id="pone.0165194.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lemmer</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Gunkel</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Baddeley</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Kaufmann</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Urich</surname> <given-names>a</given-names></name>, <name name-style="western"><surname>Weiland</surname> <given-names>Y</given-names></name>, <etal>et al</etal>. <article-title>SPDM: Light microscopy with single-molecule resolution at the nanoscale</article-title>. <source>Appl Phys B Lasers Opt</source>. <year>2008</year>;<volume>93</volume>: <fpage>1</fpage>–<lpage>12</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s00340-008-3152-x" xlink:type="simple">10.1007/s00340-008-3152-x</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0165194.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhang</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>Z</given-names></name>. <article-title>Superlenses to overcome the diffraction limit</article-title>. <source>Nat Mater</source>. <year>2008</year>;<volume>7</volume>: <fpage>435</fpage>–<lpage>441</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nmat2141" xlink:type="simple">10.1038/nmat2141</ext-link></comment> <object-id pub-id-type="pmid">18497850</object-id></mixed-citation></ref>
+<ref id="pone.0165194.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sun</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Shalaev</surname> <given-names>MI</given-names></name>, <name name-style="western"><surname>Litchinitser</surname> <given-names>NM</given-names></name>. <article-title>Experimental demonstration of a non-resonant hyperlens in the visible spectral range</article-title>. <source>Nat Commun. Nature Publishing Group</source>; <year>2015</year>;<volume>6</volume>: <fpage>7201</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/ncomms8201" xlink:type="simple">10.1038/ncomms8201</ext-link></comment> <object-id pub-id-type="pmid">25998241</object-id></mixed-citation></ref>
+<ref id="pone.0165194.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mcnally</surname> <given-names>JG</given-names></name>, <name name-style="western"><surname>Karpova</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Cooper</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Conchello</surname> <given-names>A</given-names></name>. <source>Three-Dimensional Imaging by Deconvolution Microscopy</source>. <year>1999</year>;<volume>385</volume>: <fpage>373</fpage>–<lpage>385</lpage>.</mixed-citation></ref>
+<ref id="pone.0165194.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Guo</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Luk’yanchuk</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Khan</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>Z</given-names></name>, <etal>et al</etal>. <article-title>Optical virtual imaging at 50 nm lateral resolution with a white-light nanoscope</article-title>. <source>Nat Commun. Nature Publishing Group</source>; <year>2011</year>;<volume>2</volume>: <fpage>218</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/ncomms1211" xlink:type="simple">10.1038/ncomms1211</ext-link></comment> <object-id pub-id-type="pmid">21364557</object-id></mixed-citation></ref>
+<ref id="pone.0165194.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Darafsheh</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Limberopoulos</surname> <given-names>NI</given-names></name>, <name name-style="western"><surname>Derov</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>W</surname> <given-names>DE</given-names> <suffix>Jr</suffix></name>, <name name-style="western"><surname>Astratov</surname> <given-names>VN</given-names></name>. <article-title>Advantages of microsphere-assisted super-resolution imaging technique over solid immersion lens and confocal microscopies Advantages of microsphere-assisted super-resolution imaging technique over solid immersion lens and confocal microscopies</article-title>. <source>Appl Phys Lett</source>. <year>2014</year>;<fpage>061117</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1063/1.4864760" xlink:type="simple">10.1063/1.4864760</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0165194.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hao</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Kuang</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>Y</given-names></name>. <article-title>Microsphere based microscope with optical super-resolution capability</article-title>. <source>Appl Phys Lett</source>. <year>2011</year>;<volume>99</volume>: <fpage>38</fpage>–<lpage>41</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1063/1.3662010" xlink:type="simple">10.1063/1.3662010</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0165194.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yan</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Feng</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Guo</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Hong</surname> <given-names>M</given-names></name>. <article-title>Microsphere-Coupled Scanning Laser Confocal Nanoscope for Sub-Diffraction-Limited Imaging at 25 nm Lateral Resolution in the Visible Spectrum</article-title>. <source>ACS Nano</source>. <year>2014</year>; <fpage>1809</fpage>–<lpage>1816</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1021/nn406201q" xlink:type="simple">10.1021/nn406201q</ext-link></comment> <object-id pub-id-type="pmid">24471860</object-id></mixed-citation></ref>
+<ref id="pone.0165194.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yang</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Moullan</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Auwerx</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Gijs</surname> <given-names>MAM</given-names></name>. <article-title>Super-Resolution Biological Microscopy Using Virtual Imaging by a Microsphere Nanoscope</article-title>. <source>Small</source>. <year>2014</year>; <fpage>1712</fpage>–<lpage>1718</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/smll.201302942" xlink:type="simple">10.1002/smll.201302942</ext-link></comment> <object-id pub-id-type="pmid">24914446</object-id></mixed-citation></ref>
+<ref id="pone.0165194.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Krivitsky</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Luk’yanchuk</surname> <given-names>B</given-names></name>. <article-title>Locomotion of microspheres for super-resolution imaging</article-title>. <source>Sci Rep</source>. <year>2013</year>;<volume>3</volume>: <fpage>3501</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/srep03501" xlink:type="simple">10.1038/srep03501</ext-link></comment> <object-id pub-id-type="pmid">24336231</object-id></mixed-citation></ref>
+<ref id="pone.0165194.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ye</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Ye</surname> <given-names>Y-H</given-names></name>, <name name-style="western"><surname>Ma</surname> <given-names>HF</given-names></name>, <name name-style="western"><surname>Cao</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Ma</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Wyrowski</surname> <given-names>F</given-names></name>, <etal>et al</etal>. <article-title>Experimental imaging properties of immersion microscale spherical lenses</article-title>. <source>Sci Rep</source>. <year>2014</year>;<volume>4</volume>: <fpage>3769</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/srep03769" xlink:type="simple">10.1038/srep03769</ext-link></comment> <object-id pub-id-type="pmid">24442126</object-id></mixed-citation></ref>
+<ref id="pone.0165194.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wuttig</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Yamada</surname> <given-names>N</given-names></name>. <article-title>Phase-change materials for rewriteable data storage</article-title>. <source>Nat Mater</source>. <year>2007</year>;<volume>6</volume>: <fpage>824</fpage>–<lpage>832</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nmat2077" xlink:type="simple">10.1038/nmat2077</ext-link></comment> <object-id pub-id-type="pmid">17972937</object-id></mixed-citation></ref>
+<ref id="pone.0165194.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lee</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Ben-Aryeh</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Guo</surname> <given-names>W</given-names></name>. <article-title>Overcoming the diffraction limit induced by microsphere optical nanoscopy</article-title>. <source>J Opt</source>. <year>2013</year>;<volume>15</volume>: <fpage>125710</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1088/2040-8978/15/12/125710" xlink:type="simple">10.1088/2040-8978/15/12/125710</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0165194.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Upputuri</surname> <given-names>PK</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Gong</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Ong</surname> <given-names>CK</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>H</given-names></name>. <article-title>Super-resolution coherent anti-Stokes Raman scattering microscopy with photonic nanojets</article-title>. <source>Opt Express</source>. <year>2014</year>;<volume>22</volume>: <fpage>12890</fpage>–<lpage>12899</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1364/OE.22.0128890" xlink:type="simple">10.1364/OE.22.0128890</ext-link></comment> <object-id pub-id-type="pmid">24921486</object-id></mixed-citation></ref>
+<ref id="pone.0165194.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Han</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Xu</surname> <given-names>R</given-names></name>. <article-title>Super-resolution optical microscopy based on scannable cantilever-combined microsphere</article-title>. <source>Microsc Res Tech</source>. <year>2015</year>;<volume>1132</volume>: <fpage>1128</fpage>–<lpage>1132</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/jemt.22595" xlink:type="simple">10.1002/jemt.22595</ext-link></comment> <object-id pub-id-type="pmid">26515760</object-id></mixed-citation></ref>
+<ref id="pone.0165194.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hao</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Kuang</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Ku</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>H</given-names></name>, <etal>et al</etal>. <article-title>Far-field super-resolution imaging using near-field illumination by micro-fiber</article-title>. <source>Appl Phys Lett</source>. <year>2013</year>;<volume>102</volume>: <fpage>013104</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1063/1.4773572" xlink:type="simple">10.1063/1.4773572</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0165194.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Duan</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Barbastathis</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>B</given-names></name>. <article-title>Classical imaging theory of a microlens with super-resolution</article-title>. <source>Opt Lett</source>. <year>2013</year>;<volume>38</volume>: <fpage>2988</fpage>–<lpage>90</lpage>. Available: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/24104628" xlink:type="simple">http://www.ncbi.nlm.nih.gov/pubmed/24104628</ext-link> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1364/OL.38.002988" xlink:type="simple">10.1364/OL.38.002988</ext-link></comment> <object-id pub-id-type="pmid">24104628</object-id></mixed-citation></ref>
+<ref id="pone.0165194.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Smolyaninov</surname> <given-names>II</given-names></name>, <name name-style="western"><surname>Davis</surname> <given-names>CC</given-names></name>, <name name-style="western"><surname>Elliott</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Zayats</surname> <given-names>A V</given-names></name>. <article-title>Resolution enhancement of a surface immersion microscope near the plasmon resonance</article-title>. <source>Opt Lett</source>. <year>2005</year>;<volume>30</volume>: <fpage>382</fpage>–<lpage>384</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1364/OL.30.000382" xlink:type="simple">10.1364/OL.30.000382</ext-link></comment> <object-id pub-id-type="pmid">15762435</object-id></mixed-citation></ref>
+<ref id="pone.0165194.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lee</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Ben-Aryeh</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Guo</surname> <given-names>W</given-names></name>. <article-title>Overcoming the diffraction limit induced by microsphere optical nanoscopy</article-title>. <source>J Opt</source>. <year>2013</year>;<volume>15</volume>: <fpage>125710</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1088/2040-8978/15/12/125710" xlink:type="simple">10.1088/2040-8978/15/12/125710</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0165194.ref023"><label>23</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Broch</surname> <given-names>JT</given-names></name>. <source>Principles of Experimental Frequency Analysis</source>. <publisher-name>Springer</publisher-name>; <year>2013</year>.</mixed-citation></ref>
+<ref id="pone.0165194.ref024"><label>24</label><mixed-citation publication-type="other" xlink:type="simple">Chen D, Chen D, Fan Z, Janssen A. System Design for Double-Layer Blu-ray Disc Recorders. PROCEEDINGS OF SPIE. Beijing; 2005. pp. 25–33. 10.1117/12.573226</mixed-citation></ref>
+<ref id="pone.0165194.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ben-Aryeh</surname> <given-names>Y</given-names></name>. <article-title>Superresolution observed from evanescent waves transmitted through nano-corrugated metallic films</article-title>. <source>Appl Phys B Lasers Opt</source>. <year>2012</year>;<volume>109</volume>: <fpage>165</fpage>–<lpage>170</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s00340-012-5193-4" xlink:type="simple">10.1007/s00340-012-5193-4</ext-link></comment></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

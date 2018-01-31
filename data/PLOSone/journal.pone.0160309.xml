@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1d3" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0160309</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-15-51760</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Cellular types</subject><subj-group><subject>Animal cells</subject><subj-group><subject>Neurons</subject><subj-group><subject>Afferent neurons</subject><subj-group><subject>Retinal ganglion cells</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Neuroscience</subject><subj-group><subject>Cellular neuroscience</subject><subj-group><subject>Neurons</subject><subj-group><subject>Afferent neurons</subject><subj-group><subject>Retinal ganglion cells</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Cellular types</subject><subj-group><subject>Animal cells</subject><subj-group><subject>Neurons</subject><subj-group><subject>Ganglion cells</subject><subj-group><subject>Retinal ganglion cells</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Neuroscience</subject><subj-group><subject>Cellular neuroscience</subject><subj-group><subject>Neurons</subject><subj-group><subject>Ganglion cells</subject><subj-group><subject>Retinal ganglion cells</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Ocular system</subject><subj-group><subject>Ocular anatomy</subject><subj-group><subject>Retina</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Ocular system</subject><subj-group><subject>Ocular anatomy</subject><subj-group><subject>Retina</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Animals</subject><subj-group><subject>Vertebrates</subject><subj-group><subject>Amniotes</subject><subj-group><subject>Mammals</subject><subj-group><subject>Cats</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Histochemistry and cytochemistry techniques</subject><subj-group><subject>Immunohistochemistry techniques</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Immunologic techniques</subject><subj-group><subject>Immunohistochemistry techniques</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Ocular system</subject><subj-group><subject>Optic nerve</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Ocular system</subject><subj-group><subject>Optic nerve</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Immune physiology</subject><subj-group><subject>Antibodies</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Immune physiology</subject><subj-group><subject>Antibodies</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Immunology</subject><subj-group><subject>Immune system proteins</subject><subj-group><subject>Antibodies</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Immunology</subject><subj-group><subject>Immune system proteins</subject><subj-group><subject>Antibodies</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Proteins</subject><subj-group><subject>Immune system proteins</subject><subj-group><subject>Antibodies</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Bioenergetics</subject><subj-group><subject>Energy-producing organelles</subject><subj-group><subject>Mitochondria</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Cellular structures and organelles</subject><subj-group><subject>Energy-producing organelles</subject><subj-group><subject>Mitochondria</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Specimen preparation and treatment</subject><subj-group><subject>Staining</subject><subj-group><subject>Immunostaining</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Protective Effect of ALA in Crushed Optic Nerve Cat Retinal Ganglion Cells Using a New Marker RBPMS</article-title>
+<alt-title alt-title-type="running-head">Protective Effect of ALA in Crushed Optic Nerve Cat Retinal Ganglion Cells</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Wang</surname>
+<given-names>Yanling</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Wang</surname>
+<given-names>Wenyao</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Liu</surname>
+<given-names>Jessica</given-names>
+</name>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+<xref ref-type="aff" rid="aff005"><sup>5</sup></xref>
+<xref ref-type="aff" rid="aff006"><sup>6</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Huang</surname>
+<given-names>Xin</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Liu</surname>
+<given-names>Ruixing</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Xia</surname>
+<given-names>Huika</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Brecha</surname>
+<given-names>Nicholas C.</given-names>
+</name>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+<xref ref-type="aff" rid="aff005"><sup>5</sup></xref>
+<xref ref-type="aff" rid="aff006"><sup>6</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Pu</surname>
+<given-names>Mingliang</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Gao</surname>
+<given-names>Jie</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Department of Anatomy, School of Basic Medical Sciences, Peking University, Beijing, China</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Key Laboratory on Machine Perception (Ministry of Education), Peking University, Beijing, China</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Key Laboratory for Visual Impairment and Restoration (Ministry of Education), Peking University, Beijing, China</addr-line></aff>
+<aff id="aff004"><label>4</label> <addr-line>Department of Neurobiology and Molecular, Cellular and Integrative Physiology, UCLA, Los Angeles, California, United States of America</addr-line></aff>
+<aff id="aff005"><label>5</label> <addr-line>Jules Stein Eye Institute, UCLA, Los Angeles, California, United States of America</addr-line></aff>
+<aff id="aff006"><label>6</label> <addr-line>UCLA College of Life Sciences, University of California, Los Angeles, CA, United States of America</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Badea</surname>
+<given-names>Tudor C</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>National Eye Centre, UNITED STATES</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="con">
+<p><list list-type="simple"><list-item><p><bold>Conceived and designed the experiments:</bold> JG MP NCB.</p></list-item> <list-item><p><bold>Performed the experiments:</bold> YW JL WW XH HX.</p></list-item> <list-item><p><bold>Analyzed the data:</bold> YW RL XH.</p></list-item> <list-item><p><bold>Contributed reagents/materials/analysis tools:</bold> NCB.</p></list-item> <list-item><p><bold>Wrote the paper:</bold> JG MP NCB.</p></list-item></list>
+</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">gaojie@bjmu.edu.cn</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>9</day>
+<month>8</month>
+<year>2016</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2016</year>
+</pub-date>
+<volume>11</volume>
+<issue>8</issue>
+<elocation-id>e0160309</elocation-id>
+<history>
+<date date-type="received">
+<day>15</day>
+<month>1</month>
+<year>2016</year>
+</date>
+<date date-type="accepted">
+<day>14</day>
+<month>7</month>
+<year>2016</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2016</copyright-year>
+<copyright-holder>Wang et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0160309"/>
+<abstract>
+<p>In this study we first sought to determine whether RNA-binding protein with multiple splicing (RBPMS) can serve as a specific marker for cat retina ganglion cells (RGCs) using retrograde labeling and immunohistochemistry staining. RBPM was then used as an RGC marker to study RGC survival after optic nerve crush (ONC) and alpha-lipoic acid (ALA) treatment in cats. ALA treatment yielded a peak density of RBPMS-alpha cells within the peak isodensity zone (&gt;60/mm<sup>2</sup>) which did not differ from ONC retinas. The area within the zone was significantly enlarged (control: 2.3%, ONC: 0.06%, ONC+ALA: 0.1%). As for the 10-21/mm<sup>2</sup> zone, ALA treatment resulted in a significant increase in area (control: 34.5%, ONC: 12.1%, ONC+ALA: 35.9%). ALA can alleviate crush-induced RGC injury.</p>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution>National Basic Research Program of China (973 Program)</institution>
+</funding-source>
+<award-id>2012CB825503</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Gao</surname>
+<given-names>Jie</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award002">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100000053</institution-id>
+<institution>National Eye Institute</institution>
+</institution-wrap>
+</funding-source>
+<award-id>EY04067</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Brecha</surname>
+<given-names>Nicholas C.</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award003">
+<funding-source>
+<institution>National Science Foundation of China</institution>
+</funding-source>
+<award-id>31170986</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Pu</surname>
+<given-names>Mingliang</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award004">
+<funding-source>
+<institution>Beijing Municipal Science and Technology Commission</institution>
+</funding-source>
+<award-id>Z151100000915070</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Pu</surname>
+<given-names>Mingliang</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>This work was supported by the National Basic Research Program of China (973 Program, 2012CB825503 to JGao), the National Science Foundation of China (31170986 to MPu), Beijing municipal Science and Technology Commission (Z151100000915070 to MPu), NIH EY04067 (NCB) and VA Merit Review (NCB). NCB is a VA Career Research Scientist. JL was supported by a summer fellowship from the PKU-UCLA Joint Research Institute. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="7"/>
+<table-count count="3"/>
+<page-count count="16"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>The retina ganglion cell layer (GCL) consists mainly of retinal ganglion cells (RGCs) and displaced amacrine cells. Over the years many efforts have been made to develop methods to objectively differentiate between RGCs and displaced amacrine cells. Several antigenic RGC markers, including Brn3a [<xref ref-type="bibr" rid="pone.0160309.ref001">1</xref>–<xref ref-type="bibr" rid="pone.0160309.ref003">3</xref>], Thy-1[<xref ref-type="bibr" rid="pone.0160309.ref004">4</xref>], neurofilament [<xref ref-type="bibr" rid="pone.0160309.ref005">5</xref>], and retrograde labeling have been viewed as good markers for RGCs. It was reported that a member of the RNA recognition motif family of RNA-binding proteins known as RNA-binding protein with multiple splicing (RBPMS), and its paralogue RBPMS2 (hermes), are expressed in RGCs in rats [<xref ref-type="bibr" rid="pone.0160309.ref006">6</xref>–<xref ref-type="bibr" rid="pone.0160309.ref010">10</xref>]. Recent studies have revealed that RBPMS can label all RGCs in normal retinas of mouse, rat, guinea pig, rabbit, and monkey [<xref ref-type="bibr" rid="pone.0160309.ref011">11</xref>]. In addition, RBPMS can also serve as a RGC marker for quantitative analysis in animal models of RGC degeneration induced by IOP elevation, optic nerve crush, and excitotoxicity [<xref ref-type="bibr" rid="pone.0160309.ref011">11</xref>, <xref ref-type="bibr" rid="pone.0160309.ref012">12</xref>–<xref ref-type="bibr" rid="pone.0160309.ref013">13</xref>]. The morphological and physiological properties of cat RGCs have been thoroughly investigated. However, whether RBPMS are a good marker for cat RGCs remains to be determined.</p>
+<p>Although the neuromechanisms underlying glaucoma-induced RGC apoptosis remain controversial, increased levels of reactive oxygen species (ROS) are thought to play a crucial role in pathogenesis. A substantial body of evidence suggests that ROS are part of the signaling pathway in cell death after axonal injury. RGC axons within the globe are functionally specialized and are richly endowed with mitochondria. Mitochondria are important in the maintenance of cellular homeostasis as they are involved in numerous metabolic and physiologic functions. Mitochondria produce the energy required for nerve conduction in the unmyelinated part of ganglion cell axons. Thus, optic nerve injury-induced RGC apoptosis may at least partially be due to mitochondrial malfunction [<xref ref-type="bibr" rid="pone.0160309.ref014">14</xref>–<xref ref-type="bibr" rid="pone.0160309.ref015">15</xref>]. In this study, an optic nerve crush (ONC) model was used to examine RGC apoptosis. This ONC model has been widely used in studying the pathophysiology of glaucoma[<xref ref-type="bibr" rid="pone.0160309.ref016">16</xref>–<xref ref-type="bibr" rid="pone.0160309.ref019">19</xref>]. ALA is a disulfide compound found naturally in mitochondria that serves as the coenzyme involved in carbohydrate utilization necessary for the production of mitochondrial ATP. A substantial body of evidence shows that ALA is a superb antioxidant that enhances mitochondrial function [<xref ref-type="bibr" rid="pone.0160309.ref014">14</xref>, <xref ref-type="bibr" rid="pone.0160309.ref020">20</xref>]. ALA provides protection to the retina as a whole, and to ganglion cells in particular in ischemia-reperfusion injuries [<xref ref-type="bibr" rid="pone.0160309.ref021">21</xref>] and optic nerve crush [<xref ref-type="bibr" rid="pone.0160309.ref014">14</xref>]. Recent studies have revealed that ALA exerts a neuroprotective effect against oxidative stress in retinal neurons [<xref ref-type="bibr" rid="pone.0160309.ref022">22</xref>–<xref ref-type="bibr" rid="pone.0160309.ref023">23</xref>]. Despite such positive results, the effectiveness of ALA as a neural protectant in the retina has not been investigated.</p>
+<p>The purpose of the current study was to determine: (1) whether RBPMS can be used as a selectively marker for RGCs in the cat retina; and (2) whether ALA can alleviate ONC-induced RGC injury.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="sec003">
+<title>Animals</title>
+<p>Fourteen young adult domestic cats of both sexes with body weights of 2.2 to 3.5 kg were used in this study. Two cats were used for testing RBPMS antibody and twelve cats were used for study of the effect of ALA. Animals were purchased from a local research animal provider(Xinglong Institute for Experimental Animals, Beijing; registration number:110108600078158. This is an ordinary animal housing facility and it managed in keeping with national standards as described in ⟪Laboratory Animal–Requirements of Environment and Housing Facilities⟫ (GB 14925–2001). The care of laboratory animals and animal experimental guidelines used in this study conformed to the ⟪Beijing Administration Rule of Laboratory Animal⟫. Each animal was housed in an individual stainless steel cage (dimensions 100cm ×100cm ×113cm) under a 12-hour light/12-hour dark cycle. A feeding station, water fountain, litter box, scratching post and pet toys were provided in each cage. Room temperature was set at 18–21°C. Commercial cat food and water were provided <italic>ad libitum</italic>. Procedures were approved by the Institutional Animal Care and Use Committee (IACUC) at Peking University, and all procedures adhered to the ARVO Statement for the use of animals in ophthalmic and vision research.</p>
+</sec>
+<sec id="sec004">
+<title>Animal preparation and surgical procedures</title>
+<sec id="sec005">
+<title>Retrograde labeling</title>
+<p>Two cats were anesthetized with intramuscular injections of ketamine (20 mg/kg) and xylazine (5 mg/kg) and placed in a stereotaxic instrument. Animals were kept warm with a heat lamp throughout the experiment. The superior colliculus (SC) was targeted as follows: a small hole was made using a dental drill (3 mm posterior to lambda; 2 mm to midline) and a 10ul Hamilton syringe was inserted vertically to a point 14 mm below the surface of the brain. A total of 1.5ul of RED Retrobeads (Lumafluor, Inc, Durham, NC) was slowly injected over 5 minutes and slowly withdrawn 10 minutes later. The wound was sutured and topical analgesic gel was applied three times a day for three days. Penicillin sodium (16000 U/kg) dissolved in sterile saline was then injected intramuscularly on a daily basis for three days to prevent infection. No animal in this study became ill or contracted an infection prior to the endpoint of the experiments.</p>
+</sec>
+<sec id="sec006">
+<title>Optic nerve crush (ONC)</title>
+<p>Twelve cats underwent unilateral ONC. ONC surgery was performed following the procedure described by Weber and colleagues [<xref ref-type="bibr" rid="pone.0160309.ref024">24</xref>]. Briefly, cats were anesthetized as described above. The head of each animal was stabilized and the dorsal surface of the skull was shaved. Using sterile procedures, after the roof of the bony orbit was opened, the optic nerve sheath of the left eye was exposed in all treatment groups by blunt dissection of the overlying tissues without disturbing the nerve sheath or retinal artery. The left optic nerve was crushed 2 mm distal to the globe for 2 minutes with a 40 g vascular clamp (TKF-5-40, ARO Surgical Corp, Newport Beach, CA). The contralateral eye did not undergo any surgical procedure and served as a normal control. In all cases, the retinal blood supply remained grossly intact, as evaluated by direct ophthalmoscopic inspection. Observation of the fundus showed normal retinal vasculature. After removal of the clamp, penicillin sodium powder was applied topically, and the overlying tissue and skin were sutured and treated with betadine solution. The entire surgery required 30 minutes. Topical analgesic gel and penicillin sodium were applied as described above. Animal respiration rates and body temperature were monitored three times a day for three days after the surgery, and activity patterns were monitored 24 hours per day for seven consecutive days. One of the senior investigators (MPU) had a Peking University IACUC approved protocol in place (LA-2011-054) for the use of humane endpoints and early euthanasia for animals that became severely ill prior to the experimental endpoint. The criteria used to determine when to euthanize animals were based primarily on responses to pain. Responses to pain were judged by external physical appearance, clinical signs, unprovoked behavior, and behavioral responses to external stimuli. Two animals that experienced severe pain that could not be relieved by analgesic treatment for two consecutive days were euthanized.</p>
+</sec>
+<sec id="sec007">
+<title>Alpha-lipoic acid (ALA) application</title>
+<p>Cats underwent ONC and were divided into two groups: five cats received no ALA treatment, and five cats received a single intravenous injection of ALA (15 mg/kg) (STADA, Germany) through the femoral vein immediately after ONC. Tissues from five cats with ONC alone, and from five cats with ONC and ALA treatment were analyzed.</p>
+</sec>
+</sec>
+<sec id="sec008">
+<title>Tissue Processing</title>
+<p>After an interval of 5 days to allow for retrograde labeling surgery and 7 days for ONC surgery, the animals were deeply anesthetized as described above. The retina preparation process was similar to that previously reported [<xref ref-type="bibr" rid="pone.0160309.ref024">24</xref>]. Animals were euthanatized with an intravenous injection of pentobarbital sodium (&gt;50 mg/kg) and perfused transcardially with 0.75 L of physiologic saline (0.9%), followed by 1.0 L of solution containing 4% paraformaldehyde (PFA) (#15710, Electron Microscopy Sciences, Ft. Washington, PA, USA) in 0.1 M phosphate buffered saline (PBS)(pH 7.4, Sigma-Aldrich, USA). The brains were placed in the same fixative for subsequent processing. The eyes were enucleated, and the lens and vitreous were carefully removed in 0.1 M cold PBS. The eyecups were fixed immediately by immersion in 4% PFA as described above for 60 min at room temperature. The retinas were then dissected from the retinal pigment epithelium, and 3–4 radial cuts were made to flatten the retina. The retina was then mounted on a nitrocellulose membrane filter (GSWP02500, Millipore, USA) and transferred to a 6-well cell culture cluster (#3516, Corning Incorporated, Corning, USA) for immunohistochemistry staining.</p>
+</sec>
+<sec id="sec009">
+<title>RNA binding protein with multiple splicing (RBPMS) antibody generation</title>
+<p>A rabbit polyclonal antibody was generated against the N-terminus of the RNA Binding Protein Multiple Splice (RBPMS) polypeptide (RBPMS4-24), GGKAEKENTPSEANLQEEEVR by a commercial vendor (ProSci, Poway, CA). RBPMS is highly conserved among mammals and the polypeptide sequence used for immunization is identical in mouse, rat, monkey and humans (NCBI Protein Bank, <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/protein" xlink:type="simple">http://www.ncbi.nlm.nih.gov/protein</ext-link>). Rabbit sera were collected following immunization and affinity purified using a RBPMS polypeptide affinity column. The affinity purified antibody was shown to immunostain ganglion cells in mouse and rat retina [<xref ref-type="bibr" rid="pone.0160309.ref011">11</xref>]. To evaluate the specificity of the RBPMS immunostaining, a preabsorption control was performed with the rabbit antibody. Briefly, RBPMS antibody was diluted in 0.1 M PB containing 0.5% Triton X-100 and mixed with RBPMS polypeptide at a final concentration of 1 μg/ml for two hours at RT. No RBPMS immunostaining was present in tissue sections incubated with the rabbit antibody preabsorbed with RBPMS and processed by standard immunohistochemical techniques.</p>
+</sec>
+<sec id="sec010">
+<title>Antibodies and reagents</title>
+<p>The primary antibodies used in this study were rabbit polyclonal antibody against RBPMS (1:1000) and goat polyclonal antibody against Choline Acetyltransferase (CHAT) (1:200, Cat# AB144P, Millipore, LOT#2070392, RRID:AB_2079751). The secondary antibodies were DyLight 549 anti-rabbit IgG, DyLight 488 anti-rabbit IgG (1:2000, Vector Labs, Inc., Burlingame, CA, USA), Alexa Fluor 488-conjugated AffiniPure Donkey anti-goat IgG (1:400, code: 705-545-147, Jckson Immuno Research, USA), and Dylight 549 conjugated Donkey anti-rabbit IgG (1:2000, code: 611-742-127, Rockland Immunochemicals Inc.,USA). 2%Triton X-100 (Sigma-Aldrich, USA) and 0.5% dimethylsulfoxide (Sigma-Aldrich, USA) in 0.1 M PBS (Sigma-Aldrich, USA) were used to facilitate antibody penetration. Blocking reagent (CAS-Block, Invitrogen Corp, US A) was used to suppress non-specific immunoreactions. The dilutions used to dissolve antibodies were 10% CAS-Block, 2% Triton X-100 and 0.5% dimethylsulfoxide in 0.1 M PBS.</p>
+</sec>
+<sec id="sec011">
+<title>Immunohistochemistry</title>
+<p>The retinas were washed six times for 10 minutes with 0.1 M PBS on a shaker at room temperature, blocked for 48 hours at 4°C, and incubated in primary antibody solution for 7 days at 4°C. After rinsing six times as described above to remove excess primary antibody, the retinas were incubated in secondary antibody overnight at 4°C. After washing an additional six times as described above, the free floating retinas were mounted on slides, immersed in anti-fade mounting medium (#17985–11, Electron Microscopy Sciences, Hatfield, PA) and covered with a cover slip (#12-545G, Electron Microscopy Science, USA).</p>
+</sec>
+<sec id="sec012">
+<title>Imaging processing and quantitative morphological analysis</title>
+<p>Entire whole-mount retinas were photographed with a 2.5× objective (3207×2415 μm²/microscope field), a 10×objective (872 ×65403BCm²/microscope field) and a 20×objective (436×327 μm²/microscope field) under fluorescent microscopy (BX51, Olympus, Japan). In each sampling field, RGCs were labeled for RBPMS immunoreactivity.</p>
+<p>Photographic images were montaged with Adobe Photoshop CS5 graphic software (Adobe Systems, Inc., San Jose, CA, USA). The average soma densities of RBPMS expressing RGCs at different eccentricities were calculated with Photoshop. RBPMS labeled RGC counts were determined from retinal whole-mounts and were converted to cells per square millimeter. For the cell density versus spatial quantification analysis of normal retina whole-mounts, each retina was divided into superior, inferior, nasal and temporal quadrants. Twenty predefined areas (436×327 μm<sup>2</sup>/microscope field) with a separation of 1000 μm were analyzed from the central to the peripheral retina. Location of the area centralis (AC) was selected as the zero retinal eccentricity point. The twenty sampling areas were distributed along the vertical axis. To compare RGC survival under three different conditions (normal, ONC with or without ALA treatment), we divided the retina whole mounts as described above and selected only ten areas with six areas next to the AC in the superior quadrants and four areas next to the AC in the inferior quadrants. Ratios of total numbers of surviving RGCs in these ten areas of the ONC eye to those in the normal control eyes were obtained to estimate the survival rate of injured RGCs. Cell counting was carried out in a double-blinded manner. The final images were processed and saved in TIFF format at 300 dpi using Photoshop software. To analyze the alpha-RGC distribution pattern under these three different conditions, the AC was selected as the geometric center of the retina, and from this point the entire retina was divided into 8×8 grids, each grid covering a 2 mm×2 mm retinal area. The sampling area at the center of each grid was 872×654 μm<sup>2</sup>, and the density was determined by dividing the total number of RBPMS expressing RGCs identified within this area by 0.57. An isodensity map of retinal RBPMS expressing alpha cells was generated using the Contourf function of Matplotlib software [<xref ref-type="bibr" rid="pone.0160309.ref025">25</xref>]. The contour plot was generated by assigning a color code to each of the 64 grids according to its RBPMS expressing alpha cell isodensity value (density/mm<sup>2</sup>) within a six color scale ranging from 0 (camel) to 60, representing a higher isodensity region (navy blue).</p>
+</sec>
+<sec id="sec013">
+<title>Statistics</title>
+<p>All results are reported as mean ± standard error (SE). Statistical significance was calculated using the Students’ T-test for comparisons between two groups, and one-way ANOVA for multiple comparisons followed by the SNK test as a post hoc test with SPSS 13.0 for Windows Software (SPSS Inc., Armonk, NY, USA). Values of P&lt;0.05 were regarded as significant in all comparisons.</p>
+</sec>
+</sec>
+<sec id="sec014" sec-type="results">
+<title>Results</title>
+<sec id="sec015">
+<title>Retrograde labeling and double fluorescence immunohistochemistry</title>
+<p>At least eight microscopic fields from each of two retinas were included for quantitative analysis. 100% of the cells labeled by microbeads (<xref ref-type="fig" rid="pone.0160309.g001">Fig 1</xref>) were immunoreactive for RBPMS, while only 15.8± 0.9% (range 14.8% to 17%) of RBPMS positive cells were labeled by microbeads (<xref ref-type="table" rid="pone.0160309.t001">Table 1</xref>). No RBPMS positive cell expressed CHAT (<xref ref-type="fig" rid="pone.0160309.g002">Fig 2</xref>) in the GCL.</p>
+<fig id="pone.0160309.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0160309.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Double labeling with RBPMS, and retrograde RGC labeling with Microbeads.</title>
+<p>A: RBPMS positive cells in a normal retina. B: Microbead labeled RGCs. C: Co-localization of RBPMS (green) and Microbeads (red). Scale bar: 50 μm.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0160309.g001" xlink:type="simple"/>
+</fig>
+<fig id="pone.0160309.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0160309.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Double labeling with RBPMS and CHAT.</title>
+<p>A: RBPMS positive cells in a normal retina. B: CHAT positive cells. C: Co-localization of RBPMS (red) and CHAT (green). Scale bar: 50 μm.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0160309.g002" xlink:type="simple"/>
+</fig>
+<table-wrap id="pone.0160309.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0160309.t001</object-id>
+<label>Table 1</label> <caption><title>Quantification of double labeling with microbeads and RBPMS in whole mount retinas.</title></caption>
+<alternatives>
+<graphic id="pone.0160309.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0160309.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="left">Retina1</th>
+<th align="left">Retina2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">% of RGCs (beads) are RBPMS-positive</td>
+<td align="left">100</td>
+<td align="left">100</td>
+</tr>
+<tr>
+<td align="left">% of RBPMS-positive cells are RGCs (beads)</td>
+<td align="left">15.8</td>
+<td align="left">15.9</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p><bold>(</bold>n = 2. eight images per retina and sixteen images in total)</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec016">
+<title>The distribution patterns of RBPMS expressing RGCs in cat retinas</title>
+<p>Retinal ganglion cells of various soma sizes and RBPMS-RGCs were distributed across the entire retina. <xref ref-type="fig" rid="pone.0160309.g003">Fig 3</xref> shows a micrograph of typical immunocytochemically stained RBPMS-RGCs in a cat retina. We quantitatively analyzed the numbers and density of RBPMS-RGCs (<xref ref-type="fig" rid="pone.0160309.g004">Fig 4G and 4H</xref>). The density distribution reached a peak at the AC and gradually tapered down at the periphery of the retina (<xref ref-type="fig" rid="pone.0160309.g004">Fig 4H</xref>). This RBPMS-RGC distribution profile matches that of HRP labeled RGCs [<xref ref-type="bibr" rid="pone.0160309.ref026">26</xref>]. The numbers and distribution of RBPMS-RGCs were also quantitatively analyzed in whole mount retinas. One of the characteristics of RGC distribution in cats is that the density of RGCs change drastically within 1 mm of the center of the AC. Thus, we counted and verified this pattern of density distribution around the AC. The density of RBPMS-RGCs within 1 mm<sup>2</sup> of the center of the AC was 5610/mm<sup>2</sup>, while density increased to 8174/mm<sup>2</sup> when the sampling area was reduced to 0.0314 mm<sup>2</sup>. If the sampling area was reduced to 0.016 mm<sup>2</sup>, the density increased to 9043 mm<sup>2</sup> (n = 4). Thus, the peak density of RBPMS-RGCs varied with sampling area with respect to the distance from the center of the AC. We then counted the numbers of RBPMS-RGCs at ten superior and ten inferior locations along the vertical meridian. The RMBMS density distribution profile matched that of the HRP stained RGCs, as shown in <xref ref-type="fig" rid="pone.0160309.g003">Fig 3H</xref>. We next compared the numbers and density of RBPMS-RGCs under different experimental conditions. The top panels of <xref ref-type="fig" rid="pone.0160309.g004">Fig 4</xref> illustrate whole mount retinas under different experimental conditions (<xref ref-type="fig" rid="pone.0160309.g004">Fig 4A</xref>: Normal, <xref ref-type="fig" rid="pone.0160309.g004">Fig 4B</xref>: ONC, and <xref ref-type="fig" rid="pone.0160309.g004">Fig 4C</xref>: ONC with ALA treatment (ONC+ALA)). The distribution pattern of RBPMS-RGCs in a small area (encircled dashed square) of a normal whole mount retina is shown in <xref ref-type="fig" rid="pone.0160309.g003">Fig 3D</xref>, while <xref ref-type="fig" rid="pone.0160309.g004">Fig 4E and 4F</xref> illustrate RBPMS-RGCs after ONC and ONC+ALA, respectively. To quantitatively assess the impact of ONC on RGCs under these conditions, the number of RBPMS expressing RGCs was counted in ten sampling locations along the vertical meridian, six from the superior and four from the inferior retina as shown in <xref ref-type="fig" rid="pone.0160309.g004">Fig 4G</xref>. The total number of RBPMS-RGCs was counted and is summarized in <xref ref-type="table" rid="pone.0160309.t002">Table 2</xref>. In comparison with the control (1466 ± 20/mm<sup>2</sup>), ONC resulted in a sharp reduction in the number of RPBMS-RGCs (1012 ± 38/mm<sup>2</sup>) while ALA treatment reduced the impact of ONC on RBPMS-RGCs (1178 ± 27/mm<sup>2</sup>).</p>
+<fig id="pone.0160309.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0160309.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Micrograph of RBPMS expressing RGCs from a normal cat retina.</title>
+<p>Micrograph location: 2.5 mm temporal and 1.6 mm superior to the AC. Scale bar: 100 μm.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0160309.g003" xlink:type="simple"/>
+</fig>
+<fig id="pone.0160309.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0160309.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Number and density distribution of RBPMS-RGCs under different conditions.</title>
+<p>A-C reveal retinal distribution patterns of RBPMS expressing RGCs under different experimental conditions. A: RBPMS expressing RGCs in a normal retina, B: ONC retina, C: ONC+ALA retina. Scale bar: 2 mm. D-F show magnified micrographs of RBPMS immunoreactive RGCs (Sampling location: 2 mm superior to the AC from A-C) under different experimental conditions: D: normal retina, E: ONC, F: ONC + ALA. Scale bar: 50 um. G shows a diagram of sampling sites along the vertical meridian on each retina. The open rectangle depicts retinal location where micrographs were taken. The filled rectangles show sampling locations at different eccentricities. The large filled circle represents the optic disk (OD) and the small filled circle at the intersection of horizontal and vertical meridians shows the AC. Panel H shows a comparison of RBPMS stained and HRP stained density profiles. The filled red triangles and solid line depict RBPMS. Open black circles and the dashed profile which is taken from Hughes (1981, his Fig 13), is shown for comparison. The open arrow indicates sample area dimension and the distance between centers of two sample sites. Each sampling area was measured as 436×327μm<sup>2</sup>. The distance between centers of neighboring sampling areas is 1 mm.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0160309.g004" xlink:type="simple"/>
+</fig>
+<table-wrap id="pone.0160309.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0160309.t002</object-id>
+<label>Table 2</label> <caption><title>Average density of RGCs after ONC with or without lipoic acid treatment.</title></caption>
+<alternatives>
+<graphic id="pone.0160309.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0160309.t002" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="left">NORMAL</th>
+<th align="left">ONC</th>
+<th align="left">ONC+ALA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Alpha-RGCs (cells)</td>
+<td align="left">68±4</td>
+<td align="left">29±4</td>
+<td align="left">41±4</td>
+</tr>
+<tr>
+<td align="left">total-RGCs (cells)</td>
+<td align="left">1466±20</td>
+<td align="left">1012±38</td>
+<td align="left">1178±27</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p>(n = 5 for each group.)</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec017">
+<title>ALA improves the distribution patterns of alpha ganglion cells in the crushed optic nerve of cats</title>
+<p>One of the morphological characteristics of alpha cells is their gigantic soma. RBPMS expressing alpha cells (RBPMS-alpha cells) were thus defined by giant sized perikaryon (&gt;20 μm at AC and &gt;35 μm, in the visual streak at the peripheral retina), and alpha cells with soma size that is always larger than any of the RGCs at different eccentricities. As RBPMS antibody staining is present in the perinuclear zone of medium sized soma, and is found predominantly in the cytoplasm of large sized soma, the gigantic cell body of alpha cells is thus readily identifiable. <xref ref-type="fig" rid="pone.0160309.g005">Fig 5A–5C</xref> shows RBPMS-alpha cells. These cells were photographed at different eccentricities (<xref ref-type="fig" rid="pone.0160309.g005">Fig 5A</xref>: 1 mm; <xref ref-type="fig" rid="pone.0160309.g005">Fig 5B</xref>: 5 mm; and <xref ref-type="fig" rid="pone.0160309.g005">Fig 5C</xref>: 10 mm). <xref ref-type="fig" rid="pone.0160309.g005">Fig 5D</xref> shows the distribution pattern of alpha cells in a normal retina. Each number represents the total number of alpha cells found within a sampling field of 1 mm<sup>2</sup>. The distance between the centers of two neighboring sampling fields was 1 mm. The density distribution of alpha cells was measured across the entire retina, and the peak density at the AC was 186/mm<sup>2</sup>. Along the horizontal meridian, the density was reduced to 61/mm<sup>2</sup> two millimeters from the AC on the nasal retina and to 37/mm<sup>2</sup> on the temporal retina. Along the vertical meridian, the density was reduced to 47/mm<sup>2</sup> two millimeters from the AC on the superior retina and 53/mm<sup>2</sup> on the inferior retina. Cell density gradually tapered down along the vertical and horizontal meridians. We defined the edge of the visual streak as the retinal region where the alpha cell density was greater than 20/mm<sup>2</sup>. The area encircled by the solid line represents the visual streak (<xref ref-type="fig" rid="pone.0160309.g005">Fig 5D</xref>). Because cat retinal alpha/Y cells are more susceptible to optic nerve injury than other RGCs [<xref ref-type="bibr" rid="pone.0160309.ref027">27</xref>–<xref ref-type="bibr" rid="pone.0160309.ref028">28</xref>], we first observed the impact of ONC on RBPMS-alpha cells. The top panels (<xref ref-type="fig" rid="pone.0160309.g006">Fig 6A</xref>: normal, <xref ref-type="fig" rid="pone.0160309.g006">Fig 6B</xref>: ONC, <xref ref-type="fig" rid="pone.0160309.g006">Fig 6C</xref>: ONC+ALA) show images taken from the superior retina, 1 mm from the AC. We then compared RBPMS-alpha cells at a given retinal location (area enclosed by a dashed line). Panels D through F show enlarged micrographs of the sampled areas (256× 256 μm<sup>2</sup>) under different experimental conditions (<xref ref-type="fig" rid="pone.0160309.g006">Fig 6D</xref>: Normal, <xref ref-type="fig" rid="pone.0160309.g006">Fig 6E</xref>: ONC, and <xref ref-type="fig" rid="pone.0160309.g006">Fig 6F</xref>: ONC + ALA). Asterisks denote RBPMS-alpha cells. ONC completely eliminated RBPMS-alpha cells (<xref ref-type="fig" rid="pone.0160309.g006">Fig 6E</xref>, 13/mm<sup>2</sup>) compared to nomal retina (6D, 70/mm<sup>2</sup>), while ALA treatment substantially prevented ONC-induced injury to these cells (<xref ref-type="fig" rid="pone.0160309.g006">Fig 6F</xref>, 21/mm<sup>2</sup>). We next investigated the global impact of ONC on RBPMS-alpha cells. As shown in the bottom panels (<xref ref-type="fig" rid="pone.0160309.g006">Fig 6G–6I</xref>), the isodensity profiles of RBPMS-alpha cells reveal different distribution patterns after ONC. It is evident that ONC resulted in a substantial shrinkage of the high density alpha cell distribution area (<xref ref-type="fig" rid="pone.0160309.g006">Fig 6H</xref>). Although ALA treatment did not change the alpha cell peak density at the AC (control: 186/mm<sup>2</sup>, ONC: 67/mm<sup>2</sup>, ONC+ALA: 69/mm<sup>2</sup>), the sizes of both the high isodensity zones (&gt;60/mm<sup>2</sup>) and low density regions (0–10 mm<sup>2</sup> and 10-21/mm<sup>2</sup>) were substantially recovered (<xref ref-type="fig" rid="pone.0160309.g006">Fig 6</xref> and <xref ref-type="table" rid="pone.0160309.t003">Table 3</xref>, data in <xref ref-type="supplementary-material" rid="pone.0160309.s001">S1 Table</xref>). Finally, the survival rates of RBPMS-alpha and RBPMS-RGCs were analyzed (<xref ref-type="fig" rid="pone.0160309.g007">Fig 7A and 7B</xref>). Except for one superior retinal location (eccentricity = 5 mm), the density distributions at every measured site showed a sharp decline and ALA improved the density distribution of alpha cells (<xref ref-type="fig" rid="pone.0160309.g007">Fig 7C</xref>). As for the RBPMS-RGCs, results from three out of eleven measured sites show that ONC reduced the density, and ALA improved the local density distribution of RBPMS-RGCs (<xref ref-type="fig" rid="pone.0160309.g007">Fig 7D</xref>). Together, these results suggest that alpha cells are more sensitive to ALA treatment than other classes of RGCs after ONC.</p>
+<fig id="pone.0160309.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0160309.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>RBPMS expressing alpha cells and their density distribution pattern.</title>
+<p>A-C illustrate micrographs of RBPMS-alpha RGCs photographed at 1, 5, and 10mm from the AC. Scale bar: 20μm. Arrows depict alpha cells. D shows density distribution pattern of RBPMS-alpha RGCs from a normal cat retina. Each number represents the total number of alpha cells encountered within the sampling field. The size of sampling area was 1×1 mm<sup>2</sup>. The distance between centers of two neighboring sampling fields was 1 mm. The peak density at the AC was 186/mm<sup>2</sup>. The dashed circle in the center depicts the optic disk. The edge of the visual streak is defined as local alpha cell density greater than 20/mm<sup>2</sup>. The area encircled by the solid line represents the visual streak. Scale bar: 5 mm.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0160309.g005" xlink:type="simple"/>
+</fig>
+<fig id="pone.0160309.g006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0160309.g006</object-id>
+<label>Fig 6</label>
+<caption>
+<title>Number and density distribution of RBPMS-alpha RGCs under different experimental conditions.</title>
+<p>A-C show retinal micrographs taken 1 mm temporal to the AC in the superior retina. A: Normal, B: ONC, C: ONC+ALA. Scale bar: 100 μm. D-F show magnified areas in the panels above (dashed line enclosed areas). Asterisks denote alpha cells. Scale bar: 100 um. Bottom panels provide alpha cell isodensity distribution maps under different experimental conditions. G: Normal (n = 3), H: ONC (n = 3), and I: ONC+ALA (n = 4). Color scale ranges from 0 (camel) to 60 or higher RGCs/ mm<sup>2</sup> (navy blue): 0–10 –camel; 11–20 –desert dune; 21–30 –light brown; 31–40 –brown; 41–60 –light blue, 61 and up—navy blue. Scale bar: 2 mm.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0160309.g006" xlink:type="simple"/>
+</fig>
+<fig id="pone.0160309.g007" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0160309.g007</object-id>
+<label>Fig 7</label>
+<caption>
+<title>Histograms of survival rate and density distribution of RBPMS-alpha cells and RBPMS-RGCs under different experimental conditions.</title>
+<p>A: Survival rate of alpha-RGCs, B: Survival rate of RGCs, C: Density distribution of alpha cells at different eccentricities, D: Density distribution of RGCs at different eccentricity. Mean ± SE (n = 5, *compared to normal P&lt;0.001, # compared with ONC, #P&lt;0.05,## P&lt;0.01).</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0160309.g007" xlink:type="simple"/>
+</fig>
+<table-wrap id="pone.0160309.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0160309.t003</object-id>
+<label>Table 3</label> <caption><title>Alpha cell isodensity distribution under different experimental conditions.</title></caption>
+<alternatives>
+<graphic id="pone.0160309.t003g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0160309.t003" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Density(cells/mm<sup>2</sup>)</th>
+<th align="left">NORMAL (%)</th>
+<th align="left">ONC (%)</th>
+<th align="left">ONC+ALA (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">0–10</td>
+<td align="left">33.6±4.28</td>
+<td align="left">85.6±1.72</td>
+<td align="left">59.7±8.47<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left">11–20</td>
+<td align="left">34.5±1.71</td>
+<td align="left">12.1±1.80</td>
+<td align="left">35.9±7.11<xref ref-type="table-fn" rid="t003fn003">**</xref></td>
+</tr>
+<tr>
+<td align="left">21–30</td>
+<td align="left">17.4±0.81</td>
+<td align="left">1.13±0.12</td>
+<td align="left">2.84±1.21</td>
+</tr>
+<tr>
+<td align="left">31–40</td>
+<td align="left">7.10±1.38</td>
+<td align="left">0.60±0.18</td>
+<td align="left">0.81±0.18</td>
+</tr>
+<tr>
+<td align="left">41–60</td>
+<td align="left">5.03±0.46</td>
+<td align="left">0.50±0.02</td>
+<td align="left">0.66±0.14</td>
+</tr>
+<tr>
+<td align="left">&gt;60</td>
+<td align="left">2.35±0.39</td>
+<td align="left">0.06±0.01</td>
+<td align="left">0.10±0.02<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t003fn001"><p><italic>(normal</italic>, <italic>n = 3; ONC</italic>, <italic>n = 3; ONC+ALA</italic>, <italic>n = 4</italic>. Mean ± SE,</p></fn>
+<fn id="t003fn002"><p>*compared to ONC, *, P&lt;0.05</p></fn>
+<fn id="t003fn003"><p>**, P&lt;0.01)</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+</sec>
+<sec id="sec018" sec-type="conclusions">
+<title>Discussion</title>
+<p>In this study fourteen cats were used, including two cats for demonstrating that RBPMS selectively labels all cat RGCs. Twelve cats were used to study the impact of ONC-induced neurodegenerative changes on RGCs and the neuroprotective effects of ALA, and two of the cats in this group were euthanized before the endpoint of the experiment. Retinas from remaining ten cats were divided into two groups (ONC alone and ONC+ALA) and were used for data analysis. One or two retinas in each group were partly damaged during the tissue processing, and were inadequate for some data analysis. The sample size of each group therefore varied.</p>
+<p>Numerous efforts have been made to develop methods to selectively and reliably differentiate between RGCs and displaced amacrine cells. However, selective RGC markers remain to be identified. Evidence has demonstrated that RBPMS can selectively label retinal ganglion cells across several mammal species [<xref ref-type="bibr" rid="pone.0160309.ref007">7</xref>, <xref ref-type="bibr" rid="pone.0160309.ref011">11</xref>–<xref ref-type="bibr" rid="pone.0160309.ref012">12</xref>, <xref ref-type="bibr" rid="pone.0160309.ref029">29</xref>], but there has been no report of RBPMS labeling RGCs in cats. In this study, we used microbead retrograde labeling and RBPMS staining to determine whether cat RGCs can be labeled by RBPMS. 100% of retrograde labeled RGCs were RBPMS positive, illustrating that RBPMS label all RGCs in the cat retina. In this study, we observed that retrograde labeled RGCs are located mainly in a small part of the retina whole mount, which may explain why only 15.8% of RBPMS positive cells were labeled by microbeads from the SC. Tracer may not spread through the entire SC, and injecting tracer into SC may thus be insufficient for labeling all RGCs. We also tested CHAT which marks displaced amacrine cells and RBPMS double labeled retina whole mounts. No RBPMS positive cells were labeled with CHAT, showing that RBPMS is a reliable marker which can distinguish RGCs from displaced amacrine cells. In addition, we compared the total number and peak density of RBPMS immunoreactive RGCs with RGCs identified by classical cresyl violet or methylene blue staining [<xref ref-type="bibr" rid="pone.0160309.ref030">30</xref>–<xref ref-type="bibr" rid="pone.0160309.ref032">32</xref>] and HRP retrograde labeled RGCs [<xref ref-type="bibr" rid="pone.0160309.ref026">26</xref>]. Over the years, several attempts have been made to accurately determine the peak density of RGCs at the center of the AC. However, the density varies from less than 6000/mm<sup>2</sup> [<xref ref-type="bibr" rid="pone.0160309.ref030">30</xref>] to over 10000/mm<sup>2</sup> [<xref ref-type="bibr" rid="pone.0160309.ref026">26</xref>, <xref ref-type="bibr" rid="pone.0160309.ref032">32</xref>]. This variation may be due to differences among animals [<xref ref-type="bibr" rid="pone.0160309.ref031">31</xref>]. In addition, the actual size of the counting area may be crucial, as peak density drops sharply within the AC. For example, the density is less than 6000/mm<sup>2</sup> if the counting area is 1 mm<sup>2</sup> [<xref ref-type="bibr" rid="pone.0160309.ref030">30</xref>], whereas it is over 10000/mm<sup>2</sup> if the area is reduced to 0.0089 mm<sup>2</sup> [<xref ref-type="bibr" rid="pone.0160309.ref026">26</xref>]. Consequently, we found RBPMS-RGCs within 1 mm<sup>2</sup> of the center of the AC have a density of 5610/mm<sup>2</sup>, while the density increased to 8174/mm<sup>2</sup> when the area was 0.03144mm<sup>2</sup>, and if the sampling area was reduced to 0.016 mm<sup>2</sup>, the density further increased to 9043 mm<sup>2</sup> (n = 4). These numerical findings closely resemble previous observations (9040/mm<sup>2</sup>, [<xref ref-type="bibr" rid="pone.0160309.ref026">26</xref>], 8788/mm<sup>2</sup>, [<xref ref-type="bibr" rid="pone.0160309.ref032">32</xref>]). We thus confirmed that the peak density of RBPMS labeled RGCs matches previously reported results that were obtained using conventional staining methods. We next quantitatively analyzed alpha cells. As shown in <xref ref-type="fig" rid="pone.0160309.g004">Fig 4</xref>, the total number of RBPMS-alpha cells was 5682. This number closely resembles the number derived by HRP staining (5600, [<xref ref-type="bibr" rid="pone.0160309.ref033">33</xref>] and is in agreement with results of both Wässle and colleagues [<xref ref-type="bibr" rid="pone.0160309.ref032">32</xref>] and Stone [<xref ref-type="bibr" rid="pone.0160309.ref031">31</xref>]. As for the peak density of RBPMS-alpha cells in the AC, our estimation of 186/mm<sup>2</sup> (n = 3) is comparable to previous reports (195/mm<sup>2</sup>, [<xref ref-type="bibr" rid="pone.0160309.ref032">32</xref>]; 186/mm<sup>2</sup>, [<xref ref-type="bibr" rid="pone.0160309.ref031">31</xref>]. We thus demonstrate that RBPMS can be a selective RGC marker for cat cells as well as for other mammalian species [<xref ref-type="bibr" rid="pone.0160309.ref011">11</xref>]. RBPMS expression in RGCs was first demonstrated by analyzing its transcription with RT-PCR and in situ hybridization [<xref ref-type="bibr" rid="pone.0160309.ref007">7</xref>]. These authors observed very few RGCs expressing RBPMS in axotomized retinas. Reduced RBMPS expression levels in RGCs can be observed in different optic nerve injury animal models [<xref ref-type="bibr" rid="pone.0160309.ref011">11</xref>–<xref ref-type="bibr" rid="pone.0160309.ref013">13</xref>]. Taken together, these results suggest that RBPMS can be used to identify cat RGCs.</p>
+<p>There is a substantial body of evidence that large soma RGCs are vulnerable to injury in humans and monkeys [<xref ref-type="bibr" rid="pone.0160309.ref034">34</xref>–<xref ref-type="bibr" rid="pone.0160309.ref037">37</xref>]. In addition, numerous physiologic and morphologic results reveal that Alpha/Y cells are more sensitive to optic nerve injury than other RGCs in cats [<xref ref-type="bibr" rid="pone.0160309.ref027">27</xref>–<xref ref-type="bibr" rid="pone.0160309.ref028">28</xref>, <xref ref-type="bibr" rid="pone.0160309.ref038">38</xref>–<xref ref-type="bibr" rid="pone.0160309.ref040">40</xref>] and canines [<xref ref-type="bibr" rid="pone.0160309.ref034">34</xref>]. There is evidence that Beta/X cells are more sensitive to injury than Alpha/Y cells [<xref ref-type="bibr" rid="pone.0160309.ref041">41</xref>–<xref ref-type="bibr" rid="pone.0160309.ref042">42</xref>]. Nevertheless, there is a significant decrease in the soma, dendritic field size, and dendritic complexity of alpha cells, while beta cells display only a significant decrease in soma size [<xref ref-type="bibr" rid="pone.0160309.ref039">39</xref>]. It was reported that up to 55% of RGCs located on the periphery of the retina and 47% around the AC survived one week after ONC, and BDNF treatment drastically improved survival rates to 91% in both of these locations [<xref ref-type="bibr" rid="pone.0160309.ref040">40</xref>]. Contrary to this observation, we found substantial shrinkage of the topographic isodensity zones of RBPMS-alpha cells, especially in high density areas, and there was a 70% drop in the 10-21/mm<sup>2</sup> isodensity zone seven days after ONC. However, as shown in <xref ref-type="fig" rid="pone.0160309.g006">Fig 6</xref>, the peak density area around the AC showed significant recovery (see <xref ref-type="table" rid="pone.0160309.t003">Table 3</xref>), and two low density zones also recovered. For example, the 10-21/mm<sup>2</sup> zone had a full recovery. The full recovery of this low density zone could due to several factors. One possibility is based on the speculation that RGCs in high density zones consume more oxygen and are thus more sensitive to ONC, while RGCs in low density zones consume less oxygen and better tolerate ONC-induced injury. ALA is therefore an effective antioxidant in the short term, as it alleviated the stress of RGCs in low density zones. A second point of speculation is that the recovered 10-21/mm<sup>2</sup> zone occupied some of the areas that were high density zones prior to the injury. Indeed, the observed 0-10/mm<sup>2</sup> isodensity zone showed similar recovery trends. The greater retinal space occupying area of this zone may be due to massive RGC injury and recovery after ONC. Thus, to quantitatively and objectively evaluate the impact of ALA treatment, it would be important to verify visual functions of RGC undergoing recovery within different density zones. In this study, axotomy-induced cell apoptosis resulted in decreased numbers of RBPMS positive neurons after ONC. However, this may also due to axotomy-induced RBPMS expression level down regulation that is difficult to recognize. In fact we observed that a small portion of RGCs in the ONC model were weakly labeled with RBPMS. Research has shown that optic nerve crush can produce a transient shrinkage of RGCs in rats [<xref ref-type="bibr" rid="pone.0160309.ref043">43</xref>]. A possible explanation for the decrease in numbers of alpha cells is that there is cell shrinkage after axonal lesions.</p>
+<p>Although the neuromechanisms underlying glaucoma-induced RGC apoptosis remain controversial, increased levels of ROS are thought to play a crucial role in its pathogenesis. A substantial body of evidence suggests that ROS are part of the signaling pathway in cell death after axonal injury. RGC axons within the globe are functionally specialized and are richly endowed with mitochondria. These mitochondria generate the high energy required for fast optic nerve conduction in the unmyelinated part of RGC axons. Thus, optic nerve injury-induced RGC apoptosis may be at least partly due to mitochondrial malfunction [<xref ref-type="bibr" rid="pone.0160309.ref014">14</xref>]. The present study shows that ALA treatment improved RGC survival rate after ONC, which is consistent with previous reports showing that BDNF induces protection [<xref ref-type="bibr" rid="pone.0160309.ref039">39</xref>]. However, after ischemia-reperfusion, the retinal BDNF mRNA level was not upregulated by ALA [<xref ref-type="bibr" rid="pone.0160309.ref021">21</xref>]. Therefore, these two substances may act through different neuromechanisms. Nevertheless, recent studies have revealed that ALA exerts a neuroprotective effect against oxidative stress in retinal neurons [<xref ref-type="bibr" rid="pone.0160309.ref022">22</xref>–<xref ref-type="bibr" rid="pone.0160309.ref023">23</xref>]. Despite such positive results, the effectiveness of ALA as a neural protectant in the retina remains to be determined.</p>
+</sec>
+<sec id="sec019">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0160309.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0160309.s001" xlink:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Raw data of alpha cell isodensity area under different experimental conditions.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="pone.0160309.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nadal-Nicolás</surname> <given-names>FM</given-names></name>, <name name-style="western"><surname>Jiménez-López</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Salinas-Navarro</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Sobrado-Calvo</surname> <given-names>P</given-names></name>. <year>2012</year>. <article-title>Whole number, distribution and co-expression of brn3 transcription factors in retinal ganglion cells of adult albino and pigmented rats</article-title>. <source>PLoS One</source>. <volume>7</volume>(<issue>11</issue>):<fpage>e49830</fpage>. <object-id pub-id-type="pmid">23166779</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0049830" xlink:type="simple">10.1371/journal.pone.0049830</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nadal-Nicolás</surname> <given-names>FM</given-names></name>, <name name-style="western"><surname>Madeira</surname> <given-names>MH</given-names></name>, <name name-style="western"><surname>Salinas-Navarro</surname> <given-names>M</given-names></name>. <year>2015</year>. <article-title>Transient downregulation of melanopsin expression after retrograde tracing or optic nerve injury in adult rats</article-title>. <source>Invest Ophthalmol Vis Sci</source>. <month>Jul</month>;<volume>56</volume>(<issue>8</issue>):<fpage>4309</fpage>–<lpage>23</lpage>. <object-id pub-id-type="pmid">26176868</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1167/iovs.15-16963" xlink:type="simple">10.1167/iovs.15-16963</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nadal-Nicolás</surname> <given-names>FM</given-names></name>, <name name-style="western"><surname>Sobrado-Calvo</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Jiménez-López</surname> <given-names>M</given-names></name>. <year>2015</year>. <article-title>Long-Term effect of optic nerve axotomy on the retinal ganglion cell layer</article-title>. <source>Invest Ophthalmol Vis Sci</source>. <month>Sep</month>;<volume>56</volume>(<issue>10</issue>):<fpage>6095</fpage>–<lpage>112</lpage>. <object-id pub-id-type="pmid">26393669</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1167/iovs.15-17195" xlink:type="simple">10.1167/iovs.15-17195</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Williams</surname> <given-names>PA</given-names></name>, <name name-style="western"><surname>Howell</surname> <given-names>GR</given-names></name>, <name name-style="western"><surname>Barbay</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Braine</surname> <given-names>CE</given-names></name>, <name name-style="western"><surname>Sousa</surname> <given-names>GL</given-names></name>, <name name-style="western"><surname>John</surname> <given-names>SW</given-names></name>, <etal>et al</etal>. <year>2013</year>. <article-title>Retinal ganglion cell dendritic atrophy in DBA/2J glaucoma</article-title>. <source>PLoS One</source>. <month>Aug</month> <day>19</day>;<volume>8</volume>(<issue>8</issue>) <object-id pub-id-type="pmid">23977271</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0072282" xlink:type="simple">10.1371/journal.pone.0072282</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Shi</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kumar</surname> <given-names>SR</given-names></name>, <name name-style="western"><surname>Motajo</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Kretschmer</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Mu</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Badea</surname> <given-names>TC</given-names></name>. <year>2013</year>. <article-title>Genetic interactions between Brn3 transcription factors in retinal ganglion cell type specification</article-title>.<source>PLoS One</source>. <month>Oct</month> <day>8</day>;<volume>8</volume>(<issue>10</issue>) <object-id pub-id-type="pmid">24116103</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0076347" xlink:type="simple">10.1371/journal.pone.0076347</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gerber</surname> <given-names>WV</given-names></name>, <name name-style="western"><surname>Yatskievych</surname> <given-names>TA</given-names></name>. <year>1999</year>. <article-title>The RNA-binding protein gene, hermes, is expressed at high levels in the developing heart</article-title>. <source>Mech. Dev</source>. <volume>80</volume>, <fpage>77</fpage>–<lpage>86</lpage>. <object-id pub-id-type="pmid">10096065</object-id></mixed-citation></ref>
+<ref id="pone.0160309.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kwong</surname> <given-names>JMK</given-names></name>, <name name-style="western"><surname>Caprioli</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Piri</surname> <given-names>N</given-names></name>. <year>2010</year>. <article-title>RNA binding protein with multiple splicing: a new marker for retinal ganglion cells</article-title>. <source>Invest. Ophthalmol. Vis. Sci</source>. <volume>51</volume>, <fpage>1052</fpage>–<lpage>8</lpage>. <object-id pub-id-type="pmid">19737887</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1167/iovs.09-4098" xlink:type="simple">10.1167/iovs.09-4098</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Piri</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Kwong</surname> <given-names>JMK</given-names></name>, <name name-style="western"><surname>Song</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Caprioli</surname> <given-names>J</given-names></name>. <year>2006a</year>. <article-title>Expression of hermes gene is restricted to the ganglion cells in the retina</article-title>. <source>Neurosci. Lett</source>. <volume>405</volume>, <fpage>40</fpage>–<lpage>5</lpage>. <object-id pub-id-type="pmid">16870336</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.neulet.2006.06.049" xlink:type="simple">10.1016/j.neulet.2006.06.049</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Piri</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Kwong</surname> <given-names>JMK</given-names></name>, <name name-style="western"><surname>Song</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Elashoff</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Caprioli</surname> <given-names>J</given-names></name>. <year>2006b</year>. <article-title>Gene expression changes in the retina following optic nerve transection</article-title>. <source>Mol. Vis</source>. <volume>12</volume>, <fpage>1660</fpage>–<lpage>73</lpage>. <object-id pub-id-type="pmid">17200666</object-id></mixed-citation></ref>
+<ref id="pone.0160309.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Shimamoto</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Kitao</surname> <given-names>S</given-names></name>. <year>1996</year>. <article-title>A unique human gene that spans over 230 kb in the human chromosome 8p11-12 and codes multiple family proteins sharing RNA-binding motifs</article-title>. <source>Proc. Natl. Acad. Sci. U. S. A</source>. <volume>93</volume>, <fpage>10913</fpage>–<lpage>7</lpage>. <object-id pub-id-type="pmid">8855282</object-id> PMCID: PMC38257</mixed-citation></ref>
+<ref id="pone.0160309.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rodriguez</surname> <given-names>AR</given-names></name>, <name name-style="western"><surname>de Sevilla Müller</surname> <given-names>LP</given-names></name>, <name name-style="western"><surname>Brecha</surname> <given-names>NC</given-names></name>. <year>2014</year>. <article-title>The RNA binding protein RBPMS is a selective marker of ganglion cells in the mammalian retina</article-title>. <source>J. Comp. Neurol</source>. <volume>522</volume>, <fpage>1411</fpage>–<lpage>43</lpage>. <object-id pub-id-type="pmid">24318667</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/cne.23521" xlink:type="simple">10.1002/cne.23521</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kwong</surname> <given-names>JMK</given-names></name>, <name name-style="western"><surname>Quan</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Kyung</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Piri</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Caprioli</surname> <given-names>J</given-names></name>. <year>2011</year>. <article-title>Quantitative analysis of retinal ganglion cell survival with Rbpms immunolabeling in animal models of optic neuropathies</article-title>. <source>Invest. Ophthalmol. Vis. Sci</source>. <volume>52</volume>, <fpage>9694</fpage>–<lpage>702</lpage>.</mixed-citation></ref>
+<ref id="pone.0160309.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kwong</surname> <given-names>JMK</given-names></name>, <name name-style="western"><surname>Vo</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Quan</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Nam</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kyung</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Yu</surname> <given-names>F</given-names></name>, <etal>et al</etal>. <year>2013</year>. <article-title>The dark phase intraocular pressure elevation and retinal ganglion cell degeneration in a rat model of experimental glaucoma</article-title>. <source>Exp. Eye Res</source>. <volume>112</volume>, <fpage>21</fpage>–<lpage>8</lpage>. <object-id pub-id-type="pmid">23603611</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.exer.2013.04.008" xlink:type="simple">10.1016/j.exer.2013.04.008</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Osborne</surname> <given-names>NN</given-names></name>. <year>2008</year>. <article-title>Pathogenesis of ganglion “cell death” in glaucoma and neuroprotection: focus on ganglion cell axonal mitochondria</article-title>. <source>Prog. Brain Res</source>. <volume>173</volume>, <fpage>339</fpage>–<lpage>52</lpage>. <object-id pub-id-type="pmid">18929120</object-id></mixed-citation></ref>
+<ref id="pone.0160309.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Osborne</surname> <given-names>NN</given-names></name>, <name name-style="western"><surname>del Olmo-Aguado</surname> <given-names>S</given-names></name>. <year>2013</year>. <article-title>Maintenance of retinal ganglion cell mitochondrial functions as a neuroprotective strategy in glaucoma</article-title>. <source>Curr. Opin. Pharmacol</source>. <volume>13</volume>, <fpage>16</fpage>–<lpage>22</lpage>. <object-id pub-id-type="pmid">22999653</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.coph.2012.09.002" xlink:type="simple">10.1016/j.coph.2012.09.002</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mabuchi</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Aihara</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Mackey</surname> <given-names>MR</given-names></name>, <name name-style="western"><surname>Lindsey</surname> <given-names>JD</given-names></name>, <name name-style="western"><surname>Weinreb</surname> <given-names>RN</given-names></name>. <year>2014</year>. <article-title>Regional optic nerve damage in experimental mouse glaucoma</article-title>.<source>Invest Ophthalmol Vis Sci</source>.<volume>45</volume>(<issue>12</issue>):<fpage>4352</fpage>–<lpage>4358</lpage>. <object-id pub-id-type="pmid">15557443</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1167/iovs.04-0355" xlink:type="simple">10.1167/iovs.04-0355</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mackenzie</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Cioffi</surname> <given-names>G</given-names></name>. <article-title>How does lowering of intraocular pressure protect the optic nerve?</article-title> <source>Surv Ophthalmol</source>. <year>2008</year> <month>Nov</month>;<volume>53</volume> <issue>Suppl1</issue>:<fpage>S39</fpage>–<lpage>43</lpage>. <object-id pub-id-type="pmid">19038623</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.survophthal.2008.08.008" xlink:type="simple">10.1016/j.survophthal.2008.08.008</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Goldblum</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Mittag</surname> <given-names>T</given-names></name>. <year>2002</year>. <article-title>Prospects for relevant glaucoma models with retinal ganglion cell damage in the rodent eye</article-title>.<source>Vis Res</source>.<volume>42</volume>(<issue>4</issue>):<fpage>471</fpage>–<lpage>478</lpage> <object-id pub-id-type="pmid">11853763</object-id></mixed-citation></ref>
+<ref id="pone.0160309.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schwartz</surname> <given-names>M</given-names></name>. <year>2004</year>. <article-title>Optic nerve crush: protection and regeneration</article-title>. <source>Brain Res Bull.</source>; <volume>62</volume>(<issue>6</issue>):<fpage>467</fpage>–<lpage>471</lpage>. <object-id pub-id-type="pmid">15036559</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0361-9230(03)00076-5" xlink:type="simple">10.1016/S0361-9230(03)00076-5</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Santos</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Kowluru</surname> <given-names>RA</given-names></name>. <year>2011</year>. <article-title>Role of mitochondria biogenesis in the metabolic memory associated with the continued progression of diabetic retinopathy and its regulation by lipoic acid</article-title>. <source>Invest. Ophthalmol. Vis. Sci</source>. <volume>52</volume>, <fpage>8791</fpage>–<lpage>8</lpage>. <object-id pub-id-type="pmid">22003111</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1167/iovs.11-8203" xlink:type="simple">10.1167/iovs.11-8203</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chidlow</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Schmidt</surname> <given-names>KG</given-names></name>. <year>2002</year>. <article-title>Alpha-lipoic acid protects the retina against ischemia-reperfusion</article-title>. <source>Neuropharmacology</source> <volume>43</volume>, <fpage>1015</fpage>–<lpage>25</lpage>. <object-id pub-id-type="pmid">12423671</object-id></mixed-citation></ref>
+<ref id="pone.0160309.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ji</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Majid</surname> <given-names>ASA</given-names></name>, <name name-style="western"><surname>Yin</surname> <given-names>ZQ</given-names></name>. <year>2013</year>. <article-title>α-Lipoic acid attenuates light insults to neurones</article-title>. <source>Biol. Pharm. Bull</source>. <volume>36</volume>, <fpage>1060</fpage>–<lpage>7</lpage>. <object-id pub-id-type="pmid">23811555</object-id></mixed-citation></ref>
+<ref id="pone.0160309.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Koriyama</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Nakayama</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Matsugo</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Kato</surname> <given-names>S</given-names></name>. <year>2013</year>. <article-title>Protective effect of lipoic acid against oxidative stress is mediated by Keap1/Nrf2-dependent heme oxygenase-1 induction in the RGC-5 cellline</article-title>. <source>Brain Res</source>. <volume>1499</volume>, <fpage>145</fpage>–<lpage>57</lpage>. <object-id pub-id-type="pmid">23295186</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.brainres.2012.12.041" xlink:type="simple">10.1016/j.brainres.2012.12.041</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Weber</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Viswanáthan</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Ramanathan</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Harman</surname> <given-names>CD</given-names></name>. <year>2010</year>. <article-title>Combined application of BDNF to the eye and brain enhances ganglion cell survival and function in the cat after optic nerve injury</article-title>. <source>Invest. Ophthalmol. Vis. Sci</source>. <volume>51</volume>, <fpage>327</fpage>–<lpage>34</lpage>. <object-id pub-id-type="pmid">19710411</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1167/iovs.09-3740" xlink:type="simple">10.1167/iovs.09-3740</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hunter</surname> <given-names>J</given-names></name>. <year>2007</year>. <article-title>Matplotlib: A 2D graphics environment</article-title>. <source>Comput. Sci. Eng</source>. <fpage>90</fpage>–<lpage>95</lpage></mixed-citation></ref>
+<ref id="pone.0160309.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hughes</surname> <given-names>A</given-names></name>. <year>1981</year>. <article-title>Population magnitudes and distribution of the major modal classes of cat retinal ganglion cell as estimated from HRP filling and a systematic survey of the soma diameter spectra for classical neurones</article-title>. <source>J. Comp. Neurol</source>. <volume>197</volume>, <fpage>303</fpage>–<lpage>39</lpage>. <object-id pub-id-type="pmid">7276237</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/cne.901970209" xlink:type="simple">10.1002/cne.901970209</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Burke</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Cottee</surname> <given-names>LJ</given-names></name>, <name name-style="western"><surname>Garvey</surname> <given-names>J</given-names></name>. <year>1986</year>. <article-title>Selective degeneration of optic nerve fibres in the cat produced by a pressure block</article-title>. <source>J. Physiol</source>. <volume>376</volume>, <fpage>461</fpage>–<lpage>76</lpage>. <object-id pub-id-type="pmid">3795079</object-id></mixed-citation></ref>
+<ref id="pone.0160309.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cottee</surname> <given-names>LJ</given-names></name>, <name name-style="western"><surname>Daniel</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Loh</surname> <given-names>WS</given-names></name>. <year>2003</year>. <article-title>Remyelination and recovery of conduction in cat optic nerve after demyelination by pressure</article-title>. <source>Exp. Neurol</source>. <volume>184</volume>, <fpage>865</fpage>–<lpage>77</lpage>. <object-id pub-id-type="pmid">14769379</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0014-4886(03)00310-8" xlink:type="simple">10.1016/S0014-4886(03)00310-8</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>He</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Pan</surname> <given-names>H</given-names></name>. <year>2014</year>. <article-title>Activation of the Nrf2/HO-1 antioxidant pathway contributes to the protective effects of Lycium barbarum polysaccharides in the rodent retina after ischemia-reperfusion-induced damage</article-title>. <source>PLoS One</source> <volume>9</volume>, <fpage>e84800</fpage>. <object-id pub-id-type="pmid">24400114</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0084800" xlink:type="simple">10.1371/journal.pone.0084800</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Stone</surname> <given-names>J</given-names></name>. <year>1965</year>. <article-title>A quantitative analysis of the distribution of ganglion cells in the cat’s retina</article-title>. <source>J. Comp. Neurol</source>. <volume>124</volume>, <fpage>337</fpage>–<lpage>52</lpage>. <object-id pub-id-type="pmid">4955540</object-id></mixed-citation></ref>
+<ref id="pone.0160309.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Stone</surname> <given-names>J</given-names></name>. <year>1978</year>. <article-title>The number and distribution of ganglion cells in the cat’s retina</article-title>. <source>J. Comp. Neurol</source>. <volume>180</volume>, <fpage>753</fpage>–<lpage>71</lpage>. <object-id pub-id-type="pmid">681546</object-id></mixed-citation></ref>
+<ref id="pone.0160309.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wässle</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Levick</surname> <given-names>WR</given-names></name>, <name name-style="western"><surname>Cleland</surname> <given-names>BG</given-names></name>. <year>1975</year>. <article-title>The distribution of the alpha type of ganglion cells in the cat’s retina</article-title>. <source>J. Comp. Neurol</source>. <volume>159</volume>, <fpage>419</fpage>–<lpage>38</lpage>. <object-id pub-id-type="pmid">46233</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/cne.901590308" xlink:type="simple">10.1002/cne.901590308</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hughes</surname> <given-names>A</given-names></name>. <year>1975</year>. <article-title>A quantitative analysis of the cat retinal ganglion cell topography</article-title>. <source>J Comp Neurol</source>. <volume>163</volume>:<fpage>107</fpage>–<lpage>28</lpage>. <object-id pub-id-type="pmid">1159109</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/cne.901630107" xlink:type="simple">10.1002/cne.901630107</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Grozdanic</surname> <given-names>SD</given-names></name>, <name name-style="western"><surname>Kecova</surname></name>. <year>2010</year>. <article-title>Functional and structural changes in a canine model of hereditary primary angle-closure glaucoma</article-title>. <source>Invest. Ophthalmol. Vis. Sci</source>. <volume>51</volume>, <fpage>255</fpage>–<lpage>63</lpage>. <object-id pub-id-type="pmid">19661222</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1167/iovs.09-4081" xlink:type="simple">10.1167/iovs.09-4081</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref035"><label>35</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Quigley</surname> <given-names>HA</given-names></name>, <name name-style="western"><surname>Dunkelberger</surname> <given-names>GR</given-names></name>, <name name-style="western"><surname>Green</surname> <given-names>WR</given-names></name>. <year>1988</year>. <article-title>Chronic human glaucoma causing selectively greater loss of large optic nerve fibers</article-title>. <source>Ophthalmology</source> <volume>95</volume>, <fpage>357</fpage>–<lpage>63</lpage>. <object-id pub-id-type="pmid">3174003</object-id></mixed-citation></ref>
+<ref id="pone.0160309.ref036"><label>36</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Quigley</surname> <given-names>HA</given-names></name>, <name name-style="western"><surname>Sanchez</surname> <given-names>RM</given-names></name>, <name name-style="western"><surname>Dunkelberger</surname> <given-names>GR</given-names></name>, <name name-style="western"><surname>L’Hernault</surname> <given-names>NL</given-names></name>, <name name-style="western"><surname>Baginski</surname> <given-names>TA</given-names></name>. <year>1987</year>. <article-title>Chronic glaucoma selectively damages large optic nerve fibers</article-title>. <source>Invest. Ophthalmol. Vis. Sci</source>. <volume>28</volume>, <fpage>913</fpage>–<lpage>20</lpage>. <object-id pub-id-type="pmid">3583630</object-id></mixed-citation></ref>
+<ref id="pone.0160309.ref037"><label>37</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tatham</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Weinreb</surname> <given-names>RN</given-names></name>. <year>2013</year>. <article-title>Estimated retinal ganglion cell counts in glaucomatous eyes with localized retinal nerve fiber layer defects</article-title>. <source>Am. J. Ophthalmol</source>. <volume>156</volume>, <fpage>578</fpage>–<lpage>87.e1</lpage>. <object-id pub-id-type="pmid">23746612</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.ajo.2013.04.015" xlink:type="simple">10.1016/j.ajo.2013.04.015</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref038"><label>38</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cottee</surname> <given-names>LJ</given-names></name>, <name name-style="western"><surname>FitzGibbon</surname> <given-names>T</given-names></name>. <year>1991</year>. <article-title>Long Survival of Retinal Ganglion Cells in the Cat After Selective Crush of the Optic Nerve</article-title>. <source>Eur. J. Neurosci</source>. <volume>3</volume>, <fpage>1245</fpage>–<lpage>1254</lpage>. <object-id pub-id-type="pmid">12106223</object-id></mixed-citation></ref>
+<ref id="pone.0160309.ref039"><label>39</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Weber</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Harman</surname> <given-names>CD</given-names></name>. <year>2008</year>. <article-title>BDNF preserves the dendritic morphology of alpha and beta ganglion cells in the cat retina after optic nerve injury</article-title>. <source>Invest. Ophthalmol. Vis. Sci</source>. <volume>49</volume>, <fpage>2456</fpage>–<lpage>63</lpage>. <object-id pub-id-type="pmid">18263808</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1167/iovs.07-1325" xlink:type="simple">10.1167/iovs.07-1325</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref040"><label>40</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Weber</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Harman</surname> <given-names>CD</given-names></name>. <year>2013</year>. <article-title>BDNF treatment and extended recovery from optic nerve trauma in the cat</article-title>. <source>Invest. Ophthalmol. Vis. Sci</source>. <volume>54</volume>, <fpage>6594</fpage>–<lpage>604</lpage>. <object-id pub-id-type="pmid">23989190</object-id> <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1167/iovs.13-12683" xlink:type="simple">10.1167/iovs.13-12683</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0160309.ref041"><label>41</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Shou</surname> <given-names>TD</given-names></name>, <name name-style="western"><surname>Zhou</surname> <given-names>YF</given-names></name>. <year>1989</year>. <article-title>Y cells in the cat retina are more tolerant than X cells to brief elevation of IOP</article-title>. <source>Invest. Ophthalmol. Vis. Sci</source>. <volume>30</volume>, <fpage>2093</fpage>–<lpage>8</lpage>. <object-id pub-id-type="pmid">2793352</object-id></mixed-citation></ref>
+<ref id="pone.0160309.ref042"><label>42</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Watanabe</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Tokita</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Kato</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Fukuda</surname> <given-names>Y</given-names></name>. <year>2003</year>. <article-title>Intravitreal injections of neurotrophic factors and forskolin enhance survival and axonal regeneration of axotomized beta ganglion cells in cat retina</article-title>. <source>Neuroscience</source> <volume>116</volume>, <fpage>733</fpage>–<lpage>42</lpage>. <object-id pub-id-type="pmid">12573715</object-id></mixed-citation></ref>
+<ref id="pone.0160309.ref043"><label>43</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Misantone</surname> <given-names>LJ</given-names></name>, <name name-style="western"><surname>Gershenbaum</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Murray</surname> <given-names>M</given-names></name>. <year>1984</year>. <article-title>Viability of retinal ganglion cells after optic nerve crush in adult rats</article-title>. <source>J Neurocytol</source>. <month>Jun</month>;<volume>13</volume>(<issue>3</issue>):<fpage>449</fpage>–<lpage>65</lpage>. <object-id pub-id-type="pmid">6481407</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

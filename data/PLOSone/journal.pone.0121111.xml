@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0121111</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-14-33956</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Nevirapine, Sodium Concentration and HIV-1 RNA in Breast Milk and Plasma among HIV-Infected Women Receiving Short-Course Antiretroviral Prophylaxis</article-title>
+<alt-title alt-title-type="running-head">Nevirapine, Sodium Concentration and HIV-1 RNA in Breast Milk</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Salado-Rasmussen</surname>
+<given-names>Kirsten</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+<xref rid="cor001" ref-type="corresp">*</xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Theilgaard</surname>
+<given-names>Zahra P.</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Chiduo</surname>
+<given-names>Mercy G.</given-names>
+</name>
+<xref rid="aff002" ref-type="aff"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Bygbjerg</surname>
+<given-names>Ib C.</given-names>
+</name>
+<xref rid="aff003" ref-type="aff"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Gerstoft</surname>
+<given-names>Jan</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Lüneborg-Nielsen</surname>
+<given-names>Margrethe</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Lemnge</surname>
+<given-names>Martha</given-names>
+</name>
+<xref rid="aff002" ref-type="aff"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Katzenstein</surname>
+<given-names>Terese L.</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Department of Infectious Diseases, Copenhagen University Hospital, Rigshospitalet, Copenhagen, Denmark</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>National Institute for Medical Research, Tanga, Tanzania</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Department of International Health, Immunology and Microbiology, Faculty of Health Sciences, University of Copenhagen, Copenhagen, Denmark</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Gantt</surname>
+<given-names>Soren</given-names>
+</name>
+<role>Academic Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>University of British Columbia, CANADA</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have read the journal's policy and have the following competing interests: JG has received research funding from Gilead, Viiv, Bristol-Myers Squibb, Merck Sharp &amp; Dohme, Abbott, GlaxoSmithKline, Roche, Boehringer Ingelheim, Janssen and Sanofi-pasteur. TK has received research funding, fees for board membership, consultancy and lectures from Gilead, Viiv, Bristol-Myers Squibb, Merck Sharp &amp; Dohme, Abbott, GlaxoSmithKline, Roche, Boehringer Ingelheim and Janssen. KS, ZPT, MC, IB, MLN and ML report no conflicts of interests. This does not alter the authors' adherence to PLOS ONE policies on sharing data and materials.</p>
+</fn>
+<fn fn-type="con" id="contrib001">
+<p>Conceived and designed the experiments: IB JG ML TK. Performed the experiments: KS MLN. Analyzed the data: KS ZPT. Wrote the paper: KS TK. Collected the data: KS ZPT MC.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">ksalado@hotmail.com</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>26</day>
+<month>3</month>
+<year>2015</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2015</year>
+</pub-date>
+<volume>10</volume>
+<issue>3</issue>
+<elocation-id>e0121111</elocation-id>
+<history>
+<date date-type="received">
+<day>31</day>
+<month>7</month>
+<year>2014</year>
+</date>
+<date date-type="accepted">
+<day>10</day>
+<month>2</month>
+<year>2015</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2015</copyright-year>
+<copyright-holder>Salado-Rasmussen et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0121111" xlink:type="simple"/>
+<abstract>
+<sec id="sec001">
+<title>Introduction</title>
+<p>Risk factors for breast milk transmission of HIV-1 from mother to child include high plasma and breast milk viral load, low maternal CD4 count and breast pathology such as mastitis.</p>
+</sec>
+<sec id="sec002">
+<title>Objective</title>
+<p>To determine the impact of nevirapine and subclinical mastitis on HIV-1 RNA in maternal plasma and breast milk after intrapartum single-dose nevirapine combined with either 1-week tail of Combivir (zidovudine/lamivudine) or single-dose Truvada (tenofovir/emtricitabine).</p>
+</sec>
+<sec id="sec003">
+<title>Methods</title>
+<p>Maternal plasma and bilateral breast milk samples were collected between April 2008 and April 2011 at 1, 4 and 6 weeks postpartum from HIV-infected Tanzanian women. Moreover, plasma samples were collected at delivery from mother and infant.</p>
+</sec>
+<sec id="sec004">
+<title>Results</title>
+<p>HIV-1 RNA was quantified in 1,212 breast milk samples from 273 women. At delivery, 96% of the women and 99% of the infants had detectable nevirapine in plasma with a median (interquartile range, IQR) of 1.5 μg/mL (0.75–2.20 μg/mL) and 1.04 μg/mL (0.39–1.71 μg/mL), respectively (P &lt; 0.001). At 1 week postpartum, 93% and 98% of the women had detectable nevirapine in plasma and breast milk, with a median (IQR) of 0.13 μg/mL (0.13–0.39 μg/mL) and 0.22 μg/mL (0.13–0.34 μg/mL), respectively. Maternal plasma and breast milk HIV-1 RNA correlated at all visits (R = 0.48, R = 0.7, R = 0.59; all P = 0.01). Subclinical mastitis was detected in 67% of the women at some time during 6 weeks, and in 38% of the breast milk samples. Breast milk samples with subclinical mastitis had significantly higher HIV-1 RNA at 1, 4 and 6 weeks (all P &lt; 0.05).</p>
+</sec>
+<sec id="sec005">
+<title>Conclusion</title>
+<p>After short-course antiretroviral prophylaxis, nevirapine was detectable in most infant cord blood samples and the concentration in maternal plasma and breast milk was high through week 1 accompanied by suppressed HIV-1 RNA in plasma and breast milk.</p>
+</sec>
+</abstract>
+<funding-group>
+<funding-statement>This research was supported by the European &amp; Developing Countries Clinical Trials Partnership (<ext-link ext-link-type="uri" xlink:href="http://www.edctp.org" xlink:type="simple">http://www.edctp.org</ext-link>). KS received research funding for this study from Læge Agnethe Løvgreens Legat and Bjørn Astrups Foundation. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="4"/>
+<table-count count="3"/>
+<page-count count="13"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability" xlink:type="simple">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec006" sec-type="intro">
+<title>Introduction</title>
+<p>Transmission of HIV-1 through breast milk is a concern in many developing countries where the HIV-1 prevalence is high and breastfeeding is common. A study from Kenya, where women were randomly assigned to either breastfeeding of formula feeding, demonstrated that more than one-third of the transmission was attributable to breastfeeding [<xref rid="pone.0121111.ref001" ref-type="bibr">1</xref>]. However, non-breastfed infants in developing countries have an increased risk of diarrheal disease, respiratory illness, malnutrition and increased mortality [<xref rid="pone.0121111.ref002" ref-type="bibr">2</xref>]. In places where replacement feeding is not acceptable, feasible, affordable, sustainable and safe breastfeeding has been recommended by the World Health Organization (WHO) to HIV-infected women [<xref rid="pone.0121111.ref003" ref-type="bibr">3</xref>]. However, in recent WHO guidelines the impact of antiretroviral (ARV) prophylaxis during the breastfeeding period is recognized and recommended [<xref rid="pone.0121111.ref004" ref-type="bibr">4</xref>].</p>
+<p>Pathogenesis of HIV-1 transmission through breastfeeding is not completely understood but certain risk factors, including low maternal CD4 count, high plasma or breast milk HIV-1 RNA and mastitis have been associated with increased transmission [<xref rid="pone.0121111.ref005" ref-type="bibr">5</xref>–<xref rid="pone.0121111.ref007" ref-type="bibr">7</xref>]. Mastitis increases the permeability of the mucosal barrier of the mammary epithelium and sodium (Na<sup>+</sup>) passes into the breast milk, resulting in elevated Na<sup>+</sup> concentrations in the breast milk [<xref rid="pone.0121111.ref008" ref-type="bibr">8</xref>–<xref rid="pone.0121111.ref010" ref-type="bibr">10</xref>]. In absence of clinical symptoms, the term subclinical mastitis is used for this condition, whereas clinical mastitis is characterized by engorgement or darkening of the breast, pain and fever. A recent study directly measured changes in breast milk HIV-1 RNA in women with clinical mastitis or abscesses and found that the breast milk viral load increased modestly in the affected breast and returned to pre-pathology levels after symptom resolution [<xref rid="pone.0121111.ref011" ref-type="bibr">11</xref>]. Further, the study showed that the viral load in the contralateral breast was not affected [<xref rid="pone.0121111.ref011" ref-type="bibr">11</xref>]. Likewise, subclinical mastitis has also been associated with elevated breast milk HIV-1 RNA [<xref rid="pone.0121111.ref012" ref-type="bibr">12</xref>–<xref rid="pone.0121111.ref015" ref-type="bibr">15</xref>]. WHO recommends that HIV-infected women with clinical mastitis who are breastfeeding stop breastfeeding from the affected breast and feed from the uninfected breast only (mastitis is most often unilateral) until symptoms resolve [<xref rid="pone.0121111.ref016" ref-type="bibr">16</xref>].</p>
+<p>Recently, a pooled individual data analysis of five randomized trials of infant nevirapine (NVP) prophylaxis to prevent breast-milk HIV-1 transmission indicated that daily treatment of infants for 28 weeks reduced breast-milk HIV-1 transmission by 71% [<xref rid="pone.0121111.ref017" ref-type="bibr">17</xref>]. Moreover, it has been pointed out that the ideal infant-only strategy should contain drugs less likely than NVP to select resistant virus that can compromise the treatment of those infants who become infected despite prophylactic treatment [<xref rid="pone.0121111.ref018" ref-type="bibr">18</xref>].</p>
+<p>Our main study was designed to assess the development of NVP resistance after two short-course regimens designed to reduce the risk of NVP resistance. In the light of the latest strategies for prevention of mother-to-child transmission (PMTCT) of HIV, now focusing on treatment of all breastfeeding mothers regardless of CD4 count or extended infant prophylaxis, the single-dose regimens seem to have less relevance. However, documentation of feasibility, acceptability and safety for these extended regimens is still needed. Moreover, some countries only reach &lt;50% of the patients who need antiretroviral therapy (ART) for their own health [<xref rid="pone.0121111.ref019" ref-type="bibr">19</xref>], and stock-outs of ARVs may occur, in which cases NVP may have a role as back-up.</p>
+<p>The aim of the present study was to determine the impact of NVP and subclinical mastitis on HIV-1 RNA in maternal plasma and breast milk after intrapartum single-dose NVP combined with either a 1-week tail of Combivir (zidovudine/lamivudine) or single-dose Truvada (tenofovir/emtricitabine).</p>
+</sec>
+<sec id="sec007" sec-type="materials|methods">
+<title>Methods</title>
+<sec id="sec008">
+<title>Study Population and Sample Collection</title>
+<p>Plasma and breast milk samples were collected from HIV-infected women enrolled in a randomized clinical trial which aimed to evaluate mother-to-child transmission (MTCT) of HIV and nonnucleoside reverse transcriptase inhibitor (NNRTI) resistance development among women receiving single-dose NVP plus an additional drug (Backup with Combivir or single-dose Truvada in order to avoid NNRTI resistance after single-dose nevirapine for the prevention of mother-to-child transmission (The ComTru Study); <ext-link ext-link-type="uri" xlink:href="http://ClinicalTrials.gov" xlink:type="simple">ClinicalTrials.gov</ext-link> number NCT00346567). In brief, pregnant women attending Reproductive and Child Health clinics at Bombo Regional Hospital, Ngamiani Health Centre and Makorora Health Centre situated in Tanga, Tanzania were voluntarily tested for HIV-1. The included women were HIV-positive, aged 18 or above and were antiretroviral naïve. They agreed to deliver at the hospital or health centre and to stay in the catchment area within the follow-up period. Women fulfilling the national criteria for ART were excluded and referred to the Care and Treatment Clinic at Bombo Regional Hospital, Ngamiani Health Centre or Makorora Health Centre for further monitoring and treatment. Women suffering from systemic diseases with blood creatinine &gt;1.5 mg/dL or with blood alanine aminotransferase concentration &gt;140 U/L were excluded. Women were randomized to single-dose NVP plus an additional study drug (i.e. Combivir twice daily for seven days or single-dose Truvada). The neonates were given a single oral dose of 2 mg/kg NVP suspension within 72 hours of birth. Women enrolled after September 2008 also received antepartum zidovudine (AZT) from week 28 gestational age and their infants received AZT twice daily for 7 or 28 days in accordance with the revised WHO guidelines [<xref rid="pone.0121111.ref020" ref-type="bibr">20</xref>]. This report is confined to the analysis of the breast milk samples; the rate of MTCT and NNRTI resistance development will be reported separately (Z. Theilgaard et al, in preparation). For the current study we included all women from the ComTru study who provided at least one breast milk sample.</p>
+<p>Plasma and bilateral breast milk samples were collected between April 2008 and April 2011 at 1, 4 and 6 weeks postpartum. Moreover, plasma samples were collected at delivery from mother and infant (cord blood). The women were asked to provide 15 mL of breast milk from each breast. Study nurses registered any breast problems i.e. cracked nipples, paucity of milk, abscess or pain, and categorized it to the right or left side, respectively. Information on breast feeding practice was collected and categorized, i.e. exclusive breastfeeding or mixed feeding.</p>
+</sec>
+<sec id="sec009">
+<title>Measurement of Plasma and Breast Milk NVP Concentration</title>
+<p>We measured NVP concentration in all available plasma samples collected from the infants and mothers at time of delivery, and in all available maternal breast milk and plasma samples collected at 1 week postpartum. Furthermore, we measured NVP concentration in a subset of maternal plasma samples from 4 weeks postpartum. Samples beyond 4 weeks postpartum were not analyzed, because at this time the NVP concentration after single-dose NVP is extremely low [<xref rid="pone.0121111.ref021" ref-type="bibr">21</xref>]. Plasma and breast milk NVP concentrations were determined by the ARK NVP-test. The ARK NVP-test is a rapid automated enzyme immunoassay based on competitive binding to antibody between drug from the sample and drug-labelled enzyme. The method requires no sample pre-treatment and has shown good correlation with high-performance liquid chromatography (HPLC) [<xref rid="pone.0121111.ref022" ref-type="bibr">22</xref>] and has been validated for use on human breast milk [<xref rid="pone.0121111.ref023" ref-type="bibr">23</xref>]. The ARK NVP-test was performed using COBAS MIRA Plus (Roche Molecular Systems Inc., Branchburg, NJ, USA) using 16 μL plasma or breast milk for duplicate measurements.</p>
+</sec>
+<sec id="sec010">
+<title>Measurement of Plasma and Breast Milk HIV-1 RNA</title>
+<p>We measured HIV-1 RNA on all available plasma samples using the Roche AMPLICOR Monitor test kit version 1.5 (Roche Molecular Systems Inc., Branchburg, NJ, USA) or the Roche COBAS AmpliPrep/Cobas TaqMan 48 test kit version 2.0 (Roche Molecular Systems Inc., Branchburg, NJ, USA), both methods having a lower limit of detection of 20 copies/mL. We determined HIV-1 RNA in all available breast milk samples following the procedure described by Salazar-Gonzalez et al [<xref rid="pone.0121111.ref024" ref-type="bibr">24</xref>] with some modifications. In brief, breast milk samples were diluted 1:5 in phosphate-buffered saline (PBS) and centrifuged at 17,000 g for 1 hour at 4°C. The upper lipid layer was then carefully removed and discarded. The cell pellet was resuspended in the supernatant. We used the Roche COBAS AmpliPrep/Cobas TaqMan 48 test kit version 2.0 (Roche Molecular Systems Inc., Branchburg, NJ, USA). The lower limit of detection was 100 copies/mL due to the dilution step.</p>
+</sec>
+<sec id="sec011">
+<title>Measurements of Breast Milk Na<sup>+</sup> Concentration</title>
+<p>As a laboratory indicator of mastitis, Na<sup>+</sup> concentration in breast milk supernatant was determined in all available breast milk samples using a Modular Analytics SWA (Roche Diagnostics GmbH, Mannheim, Germany), with a lower limit of detection of 10 mmol/L. In brief, 1 mL of the whole breast milk sample was centrifuged at 1,300 g for 7 minutes, and the lipid and aqueous portions were separated. The lipid fraction was removed and the cell pellet was resuspended in the aqueous portion. The aqueous portion was analyzed in duplicates by the use of ion-selective electrodes [<xref rid="pone.0121111.ref005" ref-type="bibr">5</xref>]. Breast milk Na<sup>+</sup> concentration was defined as elevated at concentrations &gt;12 mmol/L (&gt;3SD above the mean for normal human milk) [<xref rid="pone.0121111.ref005" ref-type="bibr">5</xref>;<xref rid="pone.0121111.ref025" ref-type="bibr">25</xref>].</p>
+</sec>
+<sec id="sec012">
+<title>Statistical Analysis</title>
+<p>Log<sub>10</sub> transformation was done on the HIV-1 RNA results from plasma and breast milk to obtain an approximate normal distribution. For statistical analysis, plasma HIV-1 RNA less than 20 copies/mL were assigned a value of 10 copies/mL and breast milk HIV-1 RNA less than 100 were assigned a value of 50 copies/mL (the mid-point between zero and the limit of detection of the assay). Nevirapine concentrations below 0.25 μg/mL were assigned a value of 0.125 μg/mL (the mid-point between zero and the limit of detection of the assay). Na<sup>+</sup> concentration was examined both as a dichotomous variable (i.e., normal/elevated) and as a continuous numeric variable (in mmol/L). Na<sup>+</sup> concentration values below 10 mmol/L were assigned a value of 5 mmol/L (the mid-point between zero and the limit of detection of the assay). Missing values were excluded from the analyses.</p>
+<p>The Wilcoxon signed rank test was used for non-parametric comparisons of NVP concentrations from infants and women, for comparisons of NVP concentrations in plasma and breast milk and for comparisons of Na<sup>+</sup> when expressed as a continuous variable. The t test was used for comparison of HIV-1 RNA means and the Mann-Whitney test was used to compare plasma and breast milk HIV-1 RNA between groups with and without subclinical mastitis. Spearman’s correlation coefficient was used to describe relations between continuous variables. All p-values were two-tailed. Data analysis was done using SPSS version 16.0 (SPSS Inc., Chicago, Il, USA).</p>
+</sec>
+<sec id="sec013">
+<title>Ethical Statement</title>
+<p>Written informed consent was obtained from all women participating in the ComTru Study. Further, written informed consent was obtained from the mothers on behalf of the participating infants. Ethical approval was given by the Medical Research Coordination Committee of the Tanzanian National Institute for Medical Research and consultative approval was granted by the Development-Country Committee of the Danish National Committee on Biomedical Research Ethics.</p>
+</sec>
+</sec>
+<sec id="sec014" sec-type="results">
+<title>Results</title>
+<sec id="sec015">
+<title>Study Population</title>
+<p>A flow diagram of the study is shown in <xref rid="pone.0121111.g001" ref-type="fig">Fig. 1</xref>. For the current study we included all women from the ComTru study who provided at least one breast milk sample. A total of 273 women fulfilled this criterion and were included (<xref rid="pone.0121111.t001" ref-type="table">Table 1</xref>). Moreover, we included infants of the above-mentioned women. A total of 1,212 breast milk samples were analyzed for HIV-1 RNA and Na<sup>+</sup> concentration. Further, all breast milk samples collected at 1 week postpartum were analyzed for NVP concentration.</p>
+<fig id="pone.0121111.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0121111.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>CONSORT Diagram.</title>
+<p>The flow chart indicates the number of women included from the ComTru study. The women were allocated to Combivir (zidovudine/lamivudine) or Truvada (tenofovir/emtricitabine) treatment before inclusion in the present study. There were no differences in nevirapine concentration, HIV-1 RNA or sodium concentration between the two trial arms of the ComTru study.</p>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0121111.g001" position="float" xlink:type="simple"/>
+</fig>
+<table-wrap id="pone.0121111.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0121111.t001</object-id>
+<label>Table 1</label> <caption><title>Descriptive Characteristics of 273 HIV-Infected Women.</title></caption>
+<alternatives>
+<graphic id="pone.0121111.t001g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0121111.t001" xlink:type="simple"/>
+<table>
+<colgroup span="1">
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+</colgroup>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Maternal Age, mean (sd)</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">27.7 (5.1)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Parity, mean (sd)</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">1.7 (1.3)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Gravida, mean (sd)</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">2.8 (1.3)</td>
+</tr>
+<tr>
+<td rowspan="5" align="left" colspan="1">Education</td>
+<td align="left" rowspan="1" colspan="1">Primary (%)</td>
+<td align="left" rowspan="1" colspan="1">234 (86)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Secondary (%)</td>
+<td align="left" rowspan="1" colspan="1">29 (11)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">College/university (%)</td>
+<td align="left" rowspan="1" colspan="1">1 (0)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">None (%)</td>
+<td align="left" rowspan="1" colspan="1">8 (3)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">No answer (%)</td>
+<td align="left" rowspan="1" colspan="1">1 (0)</td>
+</tr>
+<tr>
+<td rowspan="6" align="left" colspan="1">Job</td>
+<td align="left" rowspan="1" colspan="1">Housewife (%)</td>
+<td align="left" rowspan="1" colspan="1">225 (82)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Public servant (%)</td>
+<td align="left" rowspan="1" colspan="1">11 (4)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Self-employed (%)</td>
+<td align="left" rowspan="1" colspan="1">31 (11)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Jobless (%)</td>
+<td align="left" rowspan="1" colspan="1">3 (1)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Other (%)</td>
+<td align="left" rowspan="1" colspan="1">2 (1)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">No answer (%)</td>
+<td align="left" rowspan="1" colspan="1">1 (1)</td>
+</tr>
+<tr>
+<td rowspan="6" align="left" colspan="1">Marital Status</td>
+<td align="left" rowspan="1" colspan="1">Single (%)</td>
+<td align="left" rowspan="1" colspan="1">21 (8)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Married (%)</td>
+<td align="left" rowspan="1" colspan="1">223 (82)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Widowed (%)</td>
+<td align="left" rowspan="1" colspan="1">4 (1)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Divorced (%)</td>
+<td align="left" rowspan="1" colspan="1">4 (1)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Cohabitant (%)</td>
+<td align="left" rowspan="1" colspan="1">19 (7)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">No answer (%)</td>
+<td align="left" rowspan="1" colspan="1">2 (1)</td>
+</tr>
+<tr>
+<td rowspan="2" align="left" colspan="1">Religion</td>
+<td align="left" rowspan="1" colspan="1">Muslim (%)</td>
+<td align="left" rowspan="1" colspan="1">55 (20)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Christian (%)</td>
+<td align="left" rowspan="1" colspan="1">218 (80)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">CD 4 (cells/μL), mean (sd)</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">435 (170)</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec016">
+<title>Nevirapine Concentration in Plasma and Breast Milk in Women Receiving Short-Course ARV Prophylaxis</title>
+<p>Of the 273 women participating in this study, 224 reported taking NVP at time of delivery and two reported not taking NVP at time of delivery. However, data were missing from 47 women. At delivery, 214/223 (96%) of the women with available plasma samples had detectable NVP in plasma with a median (interquartile range, IQR) of 1.5 μg/mL (0.75–2.20 μg/mL) (<xref rid="pone.0121111.g002" ref-type="fig">Fig. 2</xref>). Of the nine women with undetectable NVP in plasma at delivery, eight reported taking NVP at onset of delivery and for one woman this data was not collected. Of the infants with available cord blood samples, 164/165 (99%) had detectable NVP with a median (IQR) of 1.04 μg/mL (0.39–1.71 μg/mL) (<xref rid="pone.0121111.g002" ref-type="fig">Fig. 2</xref>). The NVP concentration was significantly higher in maternal plasma compared to infant cord blood when analyzing paired mother-infant samples (P &lt; 0.001). At 1 week postpartum, 212/228 (93%) of the women had detectable NVP in plasma with a median (IQR) of 0.13 μg/mL (0.13–0.39 μg/mL) (<xref rid="pone.0121111.g002" ref-type="fig">Fig. 2</xref>). Further, 200/205 (98%) of the women had detectable NVP in at least one breast milk sample at 1 week postpartum, when testing both the right and the left breast milk samples, and the median (IQR) was 0.22 μg/mL (0.13–0.34 μg/mL) (<xref rid="pone.0121111.g002" ref-type="fig">Fig. 2</xref>). A subset of maternal plasma samples from 4 weeks postpartum was measured and traces of NVP were found in 33/42 (79%) of the samples. Nonetheless, the NVP concentration was below the lower limit of detection in all 42 samples. The rapid decline in NVP concentration is shown in <xref rid="pone.0121111.g002" ref-type="fig">Fig. 2</xref>. Nevirapine concentration in plasma and breast milk correlated at 1 week postpartum (R = 0.83, P = 0.01) (the analysis was done with the right and the left breast milk samples, respectively, and with the average, with the same result). Nevirapine concentration in maternal plasma and infant cord blood also correlated (R = 0.71, P = 0.01). The 200 mg NVP oral dose given to the women at delivery resulted in cord blood concentrations above the 0.10 μg/mL target (10 times the <italic>in vitro</italic> IC<sub>50</sub> against HIV-1) [<xref rid="pone.0121111.ref026" ref-type="bibr">26</xref>] in 133/165 (81%) of the infant samples.</p>
+<fig id="pone.0121111.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0121111.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Nevirapine Concentration in Infant Cord Blood and Maternal Plasma and Breast Milk from 273 HIV-Infected Women and their Infants.</title>
+<p>The medians at delivery are based on 223 maternal plasma samples and 165 infant cord blood samples. The medians at 1 week postpartum are based on 228 maternal plasma samples and 205 breast milk samples. The median at 4 weeks postpartum is based on 42 maternal plasma samples.</p>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0121111.g002" position="float" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec017">
+<title>HIV-1 RNA in Plasma and Breast Milk in Women Receiving Short-Course ARV Prophylaxis</title>
+<p>Plasma HIV-1 RNA dropped significantly after short-course ARV prophylaxis was given at time of delivery (<xref rid="pone.0121111.t002" ref-type="table">Table 2</xref>). At time of delivery, the mean plasma level of HIV-1 RNA was 3.44 log<sub>10</sub> copies/mL (range, 1.00 to 5.55 log<sub>10</sub> copies/mL), and declined at 1 week to a mean level of 2.47 log<sub>10</sub> copies/mL (range, 1.00 to 4.95 log<sub>10</sub> copies/mL) (P &lt; 0.001). The breast milk HIV-1 RNA mean level at 1 week postpartum was 2.28 log<sub>10</sub> copies/mL (range, 1.70 to 5.04 log<sub>10</sub> copies/mL). After week 1, the viral load rebounded in both plasma and breast milk (<xref rid="pone.0121111.g003" ref-type="fig">Fig. 3</xref>). At 1 week postpartum, 51% (106/207) of the women had detectable HIV-1 RNA in breast milk from minimum 1 breast. This number increased to 68% (134/198) at 4 weeks and to 77% (160/208) at 6 weeks postpartum. Maternal plasma and breast milk HIV-1 RNA correlated at 1 week (R = 0.48, P = 0.01), 4 weeks (R = 0.7, P = 0.01) and 6 weeks (R = 0.59, P = 0.01) postpartum. These analyses were done with the right and the left breast milk samples, respectively, and on the average of the right and left breast milk samples with the same result. Breast milk HIV-1 RNA from the right and left breast side, were compared as paired samples and correlated at 1 week, 4 weeks and 6 weeks postpartum (R = 0.45, R = 0.69, R = 0.72; all P = 0.01). However, we found a significant difference in HIV-1 RNA loads between the right and left breast side at 4 and 6 weeks postpartum (P = 0.016 and P = 0.003, respectively). In contrast, we did not find a significant difference in HIV-1 RNA loads from the right and the left breast side, at 1 week postpartum, probably caused by the impact of the ARV prophylaxis on viral load through week 1, resulting in undetectable HIV-1 RNA in about half of the breast milk samples.</p>
+<fig id="pone.0121111.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0121111.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Mean log<sub>10</sub> HIV-1 RNA in Maternal Plasma and Breast Milk from 273 HIV-Infected Women.</title>
+<p>Ranges are represented with error bars. The mean at delivery is based on 223 plasma samples. The means at 1 week postpartum are based on 227 plasma samples and 207 breast milk samples. The means at 4 weeks postpartum are based on 228 plasma samples and 198 breast milk samples. The means at 6 weeks postpartum are based on 252 plasma samples and 208 breast milk samples.</p>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0121111.g003" position="float" xlink:type="simple"/>
+</fig>
+<table-wrap id="pone.0121111.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0121111.t002</object-id>
+<label>Table 2</label> <caption><title>Plasma and Breast Milk HIV-1 RNA through 6 Weeks after Short-Course Antiretroviral Prophylaxis in 273 HIV-Infected Women.</title></caption>
+<alternatives>
+<graphic id="pone.0121111.t002g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0121111.t002" xlink:type="simple"/>
+<table>
+<colgroup span="1">
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+</colgroup>
+<thead>
+<tr>
+<th rowspan="3" align="left" colspan="1"/>
+<th align="left" rowspan="1" colspan="1">Plasma</th>
+<th align="left" rowspan="1" colspan="1">Breast Milk Right</th>
+<th align="left" rowspan="1" colspan="1">Breast Milk Left</th>
+<th align="left" rowspan="1" colspan="1">Breast Milk Average</th>
+</tr>
+<tr>
+<th align="left" rowspan="1" colspan="1">HIV-1 RNA</th>
+<th align="left" rowspan="1" colspan="1">HIV-1 RNA</th>
+<th align="left" rowspan="1" colspan="1">HIV-1 RNA</th>
+<th align="left" rowspan="1" colspan="1">HIV-1 RNA</th>
+</tr>
+<tr>
+<th align="left" rowspan="1" colspan="1">(log<sub>10</sub> copies/mL)</th>
+<th align="left" rowspan="1" colspan="1">(log<sub>10</sub> copies/mL)</th>
+<th align="left" rowspan="1" colspan="1">(log<sub>10</sub> copies/mL)</th>
+<th align="left" rowspan="1" colspan="1">(log<sub>10</sub> copies/mL)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Delivery</td>
+<td align="left" rowspan="1" colspan="1">n = 223</td>
+<td align="left" rowspan="1" colspan="1">N/A</td>
+<td align="left" rowspan="1" colspan="1">N/A</td>
+<td align="left" rowspan="1" colspan="1">N/A</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Mean, (range)</td>
+<td align="left" rowspan="1" colspan="1">3.44 (1.00–5.55)</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">1 Week)</td>
+<td align="left" rowspan="1" colspan="1">n = 227</td>
+<td align="left" rowspan="1" colspan="1">n = 205</td>
+<td align="left" rowspan="1" colspan="1">n = 202</td>
+<td align="left" rowspan="1" colspan="1">n = 207</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Mean, (range</td>
+<td align="left" rowspan="1" colspan="1">2.47 (1.00–4.95)</td>
+<td align="left" rowspan="1" colspan="1">2.21 (1.70–5.22)</td>
+<td align="left" rowspan="1" colspan="1">2.14 (1.70–5.02)</td>
+<td align="left" rowspan="1" colspan="1">2.28 (1.70–5.04)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">4 Weeks</td>
+<td align="left" rowspan="1" colspan="1">n = 228</td>
+<td align="left" rowspan="1" colspan="1">n = 197</td>
+<td align="left" rowspan="1" colspan="1">n = 194</td>
+<td align="left" rowspan="1" colspan="1">n = 198</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Mean, (range)</td>
+<td align="left" rowspan="1" colspan="1">3.72 (1.00–5.44)</td>
+<td align="left" rowspan="1" colspan="1">2.90 (1.70–5.78)</td>
+<td align="left" rowspan="1" colspan="1">2.71 (1.70–5.90)</td>
+<td align="left" rowspan="1" colspan="1">2.98 (1.70–5.82)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">6 Weeks</td>
+<td align="left" rowspan="1" colspan="1">n = 252</td>
+<td align="left" rowspan="1" colspan="1">n = 204</td>
+<td align="left" rowspan="1" colspan="1">n = 207</td>
+<td align="left" rowspan="1" colspan="1">n = 208</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Mean, (range)</td>
+<td align="left" rowspan="1" colspan="1">4.06 (1.00–6.07)</td>
+<td align="left" rowspan="1" colspan="1">3.03 (1.70–5.66)</td>
+<td align="left" rowspan="1" colspan="1">2.84 (1.70–5.64)</td>
+<td align="left" rowspan="1" colspan="1">3.07 (1.70–5.55)</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p>N/A Not applicable.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>When analyzing paired samples, HIV-1 RNA was significantly higher in plasma compared to breast milk over 6 weeks (all P &lt; 0.001). We found no correlation between HIV-1 RNA and NVP in neither infant cord blood nor maternal plasma or breast milk, except from at 1 week postpartum where HIV-1 and NVP concentrations were inversely correlated in maternal plasma (R = -0.14, P = 0.03).</p>
+</sec>
+<sec id="sec018">
+<title>Prevalence of Subclinical Mastitis in Women Receiving Short-Course ARV Prophylaxis</title>
+<p>Of the 273 women participating in this study, breast problems were reported by 31/244 (13%) of the women during 6 weeks and most problems were reported at 1 week postpartum. Subclinical mastitis, defined in our study as Na<sup>+</sup> concentrations &gt;12 mmol/L, was detected in 182/273 (67%) of the women at some time during 6 weeks postpartum, and in 453/1,197 (38%) of the samples analyzed for Na<sup>+</sup> concentration. The proportion of women with subclinical mastitis declined sharply over the 6-week period: from 74% (152/206) at 1 week, to 49% (98/198) at 4 weeks and to 34% (71/208) at 6 weeks postpartum. Overall, the majority of the women only had unilateral subclinical mastitis (48% at 1 week, 68% at 4 weeks and 85% at 6 weeks). Also, the median Na<sup>+</sup> concentration in breast milk was significantly higher at 1 week compared to 4 weeks and 6 weeks postpartum (all P &lt; 0.05) (<xref rid="pone.0121111.t003" ref-type="table">Table 3</xref>). Breast milk samples with subclinical mastitis had significantly higher HIV-1 RNA at 1 week, 4 weeks and 6 weeks postpartum (all P &lt; 0.05). When analyzing the breast milk samples from women with subclinical mastitis at 1 week, the sample from the contralateral breast did not have significantly higher HIV-1 RNA (P &gt; 0.05). However, at 4 weeks postpartum HIV-1 RNA was significantly higher also in the contralateral breast (P = 0.02) and at 6 weeks postpartum there was a tendency towards higher HIV-1 RNA in the contralateral breast (P = 0.05). Breast milk HIV-1 RNA was also compared to Na<sup>+</sup> concentration expressed as a continuous variable and HIV-1 RNA and Na<sup>+</sup> concentration correlated at 1 week (R = 0.30, R = 0.29; all P = 0.01), 4 weeks (R = 0.42, R = 0.39; all P = 0.01) and 6 weeks postpartum (R = 0.37, R = 0.35; all P = 0.01) The association between Na<sup>+</sup> concentration and breast milk HIV-1 RNA is shown in <xref rid="pone.0121111.g004" ref-type="fig">Fig. 4</xref>. Plasma HIV-1 RNA in the group with subclinical mastitis and the group with normal Na<sup>+</sup> concentration in the breast milk was also compared, but no significant difference in plasma HIV-1 RNA was found at any time between the groups.</p>
+<fig id="pone.0121111.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0121111.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Breast Milk HIV-1 RNA in Samples from Breasts with and without Subclinical Mastitis.</title>
+<p>Subclinical mastitis is defined as sodium (Na<sup>+</sup>) concentrations &gt;12 mmol/L. All breast milk samples with HIV-1 RNA and Na<sup>+</sup> concentrations were used (744 samples with Na<sup>+</sup> concentration ≤ 12 mmol/L and 453 samples with Na<sup>+</sup> concentration &gt;12 mmol/L). Box plots display medians, quartiles and outliers.</p>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0121111.g004" position="float" xlink:type="simple"/>
+</fig>
+<table-wrap id="pone.0121111.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0121111.t003</object-id>
+<label>Table 3</label> <caption><title>Sodium Concentration in Bilateral Breast Milk Samples from 273 HIV-Infected Women.</title></caption>
+<alternatives>
+<graphic id="pone.0121111.t003g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0121111.t003" xlink:type="simple"/>
+<table>
+<colgroup span="1">
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" rowspan="1" colspan="1"/>
+<th align="left" rowspan="1" colspan="1">Breast Milk Right (mmol/L)</th>
+<th align="left" rowspan="1" colspan="1">Breast Milk Left (mmol/L)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">1 Week</td>
+<td align="left" rowspan="1" colspan="1">n = 201</td>
+<td align="left" rowspan="1" colspan="1">n = 200</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Median, (range)</td>
+<td align="left" rowspan="1" colspan="1">15 (5–107)</td>
+<td align="left" rowspan="1" colspan="1">13 (5–110)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">4 Weeks</td>
+<td align="left" rowspan="1" colspan="1">n = 196</td>
+<td align="left" rowspan="1" colspan="1">n = 193</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Median, (range)</td>
+<td align="left" rowspan="1" colspan="1">10 (5–112)</td>
+<td align="left" rowspan="1" colspan="1">10 (5–106)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">6 Weeks</td>
+<td align="left" rowspan="1" colspan="1">n = 202</td>
+<td align="left" rowspan="1" colspan="1">n = 205</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Median, (range)</td>
+<td align="left" rowspan="1" colspan="1">5 (5–107)</td>
+<td align="left" rowspan="1" colspan="1">5 (5–107)</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+</sec>
+<sec id="sec019" sec-type="conclusions">
+<title>Discussion</title>
+<p>In this study we examined factors affecting breast milk viral load in HIV-infected breastfeeding women, i.e. maternal plasma HIV-1 RNA, NVP and subclinical mastitis. Plasma and breast milk HIV-1 RNA dropped significantly after administration of short-course ARV prophylaxis. Moreover, subclinical mastitis had a marked effect on the viral load in the breast milk</p>
+<p>Our findings are in line with a study that demonstrated high NVP concentrations through week 1 after single-dose NVP intrapartum, accompanied by suppression of plasma and breast milk viral load [<xref rid="pone.0121111.ref021" ref-type="bibr">21</xref>]. Moreover, we found detectable NVP concentrations in plasma in the majority of the women and infants at time of delivery. Additionally, traces of NVP were present in plasma for a minimum of 4 weeks postpartum, indicating that additional drugs are needed for longer than one week to avoid development of NNRTI resistance. We only found correlation between HIV-1 RNA and NVP in plasma at 1 week postpartum. This lack of correlation between NVP concentration and drop in viral load might be explained by the effect of the additional study drugs (i.e. Combivir twice daily for seven days or single-dose Truvada).</p>
+<p>Our study confirmed the correlation between HIV-1 RNA loads in plasma and breast milk, with the lowest values found in breast milk [<xref rid="pone.0121111.ref006" ref-type="bibr">6</xref>;<xref rid="pone.0121111.ref027" ref-type="bibr">27</xref>;<xref rid="pone.0121111.ref028" ref-type="bibr">28</xref>]. We also confirmed the correlation of HIV-1 RNA loads between samples from the right and the left breast, respectively [<xref rid="pone.0121111.ref027" ref-type="bibr">27</xref>]. However, we found a significant difference in viral loads between breasts at 4 and 6 weeks postpartum. The concordance in viral load between breasts at 1 week postpartum is probably a consequence of the fact that the majority of the breast milk samples at this time had undetectable viral load due to the effect of ARV prophylaxis. Accordingly, the viral load in breast milk in the absence of ARVs seems to be more influenced by local factors, e.g. mastitis.</p>
+<p>This study corroborated the impact of subclinical mastitis, reflecting epithelial permeability, on breast milk viral load [<xref rid="pone.0121111.ref005" ref-type="bibr">5</xref>;<xref rid="pone.0121111.ref012" ref-type="bibr">12</xref>;<xref rid="pone.0121111.ref029" ref-type="bibr">29</xref>]. Furthermore, and in keeping with others, we found that subclinical mastitis occurred most often early in the postpartum period [<xref rid="pone.0121111.ref011" ref-type="bibr">11</xref>]. However, elevated Na<sup>+</sup> concentrations are physiological in the very early breast milk (and again at the termination of weaning) [<xref rid="pone.0121111.ref030" ref-type="bibr">30</xref>] and Semrau and colleagues demonstrated that elevated Na<sup>+</sup> concentrations at 1 week postpartum were common and not associated with HIV transmission. By contrast, the study showed that elevated breast milk Na<sup>+</sup> concentrations at four months were associated with HIV transmission [<xref rid="pone.0121111.ref027" ref-type="bibr">27</xref>]. Also, Filteau et al found a high portion of women with subclinical mastitis early in the postpartum period and furthermore demonstrated that the concentration of immune factors correlated significantly with the indicator of subclinical mastitis also at this point of time [<xref rid="pone.0121111.ref031" ref-type="bibr">31</xref>]. In our study, laboratory-based diagnosis of mastitis was supplemented with reported symptoms of breast problems and in concordance with the laboratory established mastitis, clinical breast problems also occurred early in the postpartum period. In addition, we established that subclinical mastitis is mostly unilateral, emphasizing that studies investigating the impact of mastitis with respect to MTCT should test breast milk from both breasts. The impact of Na<sup>+</sup> concentration on HIV-1 RNA in breast milk was confirmed in this study. Interestingly we found a tendency towards higher HIV-1 RNA also in the contralateral breast. In contrast, a study investigating clinical mastitis did not observe such a change in the contralateral breast [<xref rid="pone.0121111.ref011" ref-type="bibr">11</xref>]. This is probably reflecting some lack of specificity in the laboratory-based diagnosis of mastitis.</p>
+<p>Some limitations should be considered in interpreting our findings. Firstly, the main study was designed to assess the development of NVP resistance after two short-course ARV prophylaxis regimens designed to reduce the risk of NVP resistance. In the current study we did not take these different short-course regimens into account during the statistical analyses, however we tested that there were no differences in NVP, HIV-1 RNA or Na<sup>+</sup> concentrations between the two trial arms in the ComTru study at any point of time. Secondly, the main study had a considerable loss-to-follow-up and this could potentially skew our results. We decided to include all women who provided minimum one breast milk sample in the current analysis. The strengths of the study include the very large number of breast milk samples analyzed. Moreover, the study is strengthened by the advantage that breast milk samples were taken from both breasts in most instances, whereas others have tested only unilaterally. Our results show that bilateral sampling is crucial to investigate the impact of mastitis on viral load in breast milk. In addition, we used a novel, low-cost and easy-to-use assay for NVP-testing, allowing us to measure all breast milk samples with expected detectable concentrations, and not just a subset as have been done by others. Conversely, the assay used has a detection limit that is markedly higher than the more costly HPLC method. However, the main purpose of these measurements was to establish whether NVP was detectable (and thereby above the value considered to be protective to MTCT) and not the concrete value. Because we measured NVP in samples from both breasts we might have a higher rate of detectable samples than other studies.</p>
+<p>Our analysis should be viewed in the context of the former guidelines on PMTCT based on single-dose NVP. In recent years impressive progress has been made in scaling-up the use of ART for treating and preventing HIV infection [<xref rid="pone.0121111.ref019" ref-type="bibr">19</xref>]. The single-dose NVP regimens are now less used but NVP continues to be a backbone in ARV prophylaxis where triple ARVs are not feasible. Even though this option is last resort, NVP-based regimens might have eligibility in places where triple ARV prophylaxis is simply not an alternative.</p>
+<p>In conclusion, this study confirms that there are many factors affecting the viral load in breast milk, including plasma viral load, NVP and subclinical mastitis. NVP was detectable in nearly all infant cord blood samples after single-dose NVP and the NVP concentration in maternal plasma and breast milk remained high through week 1 postpartum accompanied by suppressed HIV-1 RNA in plasma and breast milk. Furthermore, breast milk samples with subclinical mastitis had significantly higher breast milk HIV-1 RNA.</p>
+</sec>
+<sec id="sec020">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0121111.s001" xlink:href="info:doi/10.1371/journal.pone.0121111.s001" mimetype="application/vnd.ms-excel" position="float" xlink:type="simple">
+<label>S1 Dataset</label>
+<caption>
+<p>(XLS)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>We would like to thank the research personnel from the ComTru Study for their dedicated work. Dorthe Hass from the AIDS laboratory at Rigshospitalet is thanked for assistance with laboratory work and Dr. Peter Damm from the Department of Obstetrics at Rigshospitalet is thanked for providing the COBAS MIRA Plus. The Department of Clinical Biochemistry at Rigshospitalet is thanked for its assistance with the measurement of Na<sup>+</sup> concentrations. Most of all, we thank the participants of the study.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0121111.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nduati</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>John</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Mbori-Ngacha</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Richardson</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Overbaugh</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Mwatha</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Effect of breastfeeding and formula feeding on transmission of HIV-1: a randomized clinical trial</article-title>. <source>JAMA</source> <year>2000</year>; <volume>283</volume>: <fpage>1167</fpage>–<lpage>1174</lpage>. <object-id pub-id-type="pmid">10703779</object-id></mixed-citation></ref>
+<ref id="pone.0121111.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><collab xlink:type="simple">WHO Collaborative Study Team on the Role of Breastfeeding on the Prevention of Infant Mortality</collab>. <article-title>Effect of breastfeeding on infant and child mortality due to infectious diseases in less developed countries: a pooled analysis</article-title>. <source>Lancet</source> <year>2000</year>; <volume>355</volume>: <fpage>451</fpage>–<lpage>455</lpage>. <object-id pub-id-type="pmid">10841125</object-id></mixed-citation></ref>
+<ref id="pone.0121111.ref003"><label>3</label><mixed-citation publication-type="other" xlink:type="simple">World Health Organization. 10 facts on breastfeeding. 2008.</mixed-citation></ref>
+<ref id="pone.0121111.ref004"><label>4</label><mixed-citation publication-type="other" xlink:type="simple">World Health Organization. Clinical guidance across the continuum of care: Antiretroviral therapy. 2013.</mixed-citation></ref>
+<ref id="pone.0121111.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Semba</surname> <given-names>RD</given-names></name>, <name name-style="western"><surname>Kumwenda</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Hoover</surname> <given-names>DR</given-names></name>, <name name-style="western"><surname>Taha</surname> <given-names>TE</given-names></name>, <name name-style="western"><surname>Quinn</surname> <given-names>TC</given-names></name>, <name name-style="western"><surname>Mtimavalye</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>Human immunodeficiency virus load in breast milk, mastitis, and mother-to-child transmission of human immunodeficiency virus type 1</article-title>. <source>J Infect Dis</source> <year>1999</year>; <volume>180</volume>: <fpage>93</fpage>–<lpage>98</lpage>. <object-id pub-id-type="pmid">10353866</object-id></mixed-citation></ref>
+<ref id="pone.0121111.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rousseau</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Nduati</surname> <given-names>RW</given-names></name>, <name name-style="western"><surname>Richardson</surname> <given-names>BA</given-names></name>, <name name-style="western"><surname>Steele</surname> <given-names>MS</given-names></name>, <name name-style="western"><surname>John-Stewart</surname> <given-names>GC</given-names></name>, <name name-style="western"><surname>Mbori-Ngacha</surname> <given-names>DA</given-names></name>, <etal>et al</etal>. <article-title>Longitudinal analysis of human immunodeficiency virus type 1 RNA in breast milk and of its relationship to infant infection and maternal disease</article-title>. <source>J Infect Dis</source> <year>2003</year>; <volume>187</volume>: <fpage>741</fpage>–<lpage>747</lpage>. <object-id pub-id-type="pmid">12599047</object-id></mixed-citation></ref>
+<ref id="pone.0121111.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Shapiro</surname> <given-names>RL</given-names></name>, <name name-style="western"><surname>Smeaton</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Lockman</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Thior</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Rossenkhan</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Wester</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Risk factors for early and late transmission of HIV via breast-feeding among infants born to HIV-infected women in a randomized clinical trial in Botswana</article-title>. <source>J Infect Dis</source> <year>2009</year>; <volume>199</volume>: <fpage>414</fpage>–<lpage>418</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1086/596034" xlink:type="simple">10.1086/596034</ext-link></comment> <object-id pub-id-type="pmid">19090775</object-id></mixed-citation></ref>
+<ref id="pone.0121111.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Conner</surname> <given-names>AE</given-names></name>. <article-title>Elevated levels of sodium and chloride in milk from mastitic breast</article-title>. <source>Pediatrics</source> <year>1979</year>; <volume>63</volume>: <fpage>910</fpage>–<lpage>911</lpage>. <object-id pub-id-type="pmid">572030</object-id></mixed-citation></ref>
+<ref id="pone.0121111.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Neville</surname> <given-names>MC</given-names></name>, <name name-style="western"><surname>Keller</surname> <given-names>RP</given-names></name>, <name name-style="western"><surname>Seacat</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Casey</surname> <given-names>CE</given-names></name>, <name name-style="western"><surname>Allen</surname> <given-names>JC</given-names></name>, <name name-style="western"><surname>Archer</surname> <given-names>P</given-names></name>. <article-title>Studies on human lactation. I. Within-feed and between-breast variation in selected components of human milk</article-title>. <source>Am J Clin Nutr</source> <year>1984</year>; <volume>40</volume>: <fpage>635</fpage>–<lpage>646</lpage>. <object-id pub-id-type="pmid">6475828</object-id></mixed-citation></ref>
+<ref id="pone.0121111.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Filteau</surname> <given-names>SM</given-names></name>, <name name-style="western"><surname>Lietz</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Mulokozi</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Bilotta</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Henry</surname> <given-names>CJ</given-names></name>, <name name-style="western"><surname>Tomkins</surname> <given-names>AM</given-names></name>. <article-title>Milk cytokines and subclinical breast inflammation in Tanzanian women: effects of dietary red palm oil or sunflower oil supplementation</article-title>. <source>Immunology</source> <year>1999</year>; <volume>97</volume>: <fpage>595</fpage>–<lpage>600</lpage>. <object-id pub-id-type="pmid">10457212</object-id></mixed-citation></ref>
+<ref id="pone.0121111.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Semrau</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Kuhn</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Brooks</surname> <given-names>DR</given-names></name>, <name name-style="western"><surname>Cabral</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Sinkala</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kankasa</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Dynamics of breast milk HIV-1 RNA with unilateral mastitis or abscess</article-title>. <source>J Acquir Immune Defic Syndr</source> <year>2012</year>; <volume>62</volume>: <fpage>346</fpage>–<lpage>355</lpage>.</mixed-citation></ref>
+<ref id="pone.0121111.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Willumsen</surname> <given-names>JF</given-names></name>, <name name-style="western"><surname>Filteau</surname> <given-names>SM</given-names></name>, <name name-style="western"><surname>Coutsoudis</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Newell</surname> <given-names>ML</given-names></name>, <name name-style="western"><surname>Rollins</surname> <given-names>NC</given-names></name>, <name name-style="western"><surname>Coovadia</surname> <given-names>HM</given-names></name>, <etal>et al</etal>. <article-title>Breastmilk RNA viral load in HIV-infected South African women: effects of subclinical mastitis and infant feeding</article-title>. <source>AIDS</source> <year>2003</year>; <volume>17</volume>: <fpage>407</fpage>–<lpage>414</lpage>. <object-id pub-id-type="pmid">12556695</object-id></mixed-citation></ref>
+<ref id="pone.0121111.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Semba</surname> <given-names>RD</given-names></name>, <name name-style="western"><surname>Kumwenda</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Taha</surname> <given-names>TE</given-names></name>, <name name-style="western"><surname>Hoover</surname> <given-names>DR</given-names></name>, <name name-style="western"><surname>Quinn</surname> <given-names>TC</given-names></name>, <name name-style="western"><surname>Lan</surname> <given-names>Y</given-names></name>, <etal>et al</etal>. <article-title>Mastitis and immunological factors in breast milk of human immunodeficiency virus-infected women</article-title>. <source>J Hum Lact</source> <year>1999</year>; <volume>15</volume>: <fpage>301</fpage>–<lpage>306</lpage>. <object-id pub-id-type="pmid">10776180</object-id></mixed-citation></ref>
+<ref id="pone.0121111.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gantt</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Shetty</surname> <given-names>AK</given-names></name>, <name name-style="western"><surname>Seidel</surname> <given-names>KD</given-names></name>, <name name-style="western"><surname>Matasa</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Musingwini</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Woelk</surname> <given-names>G</given-names></name>, <etal>et al</etal>. <article-title>Laboratory indicators of mastitis are not associated with elevated HIV-1 DNA loads or predictive of HIV-1 RNA loads in breast milk</article-title>. <source>J Infect Dis</source> <year>2007</year>; <volume>196</volume>: <fpage>570</fpage>–<lpage>576</lpage>. <object-id pub-id-type="pmid">17624843</object-id></mixed-citation></ref>
+<ref id="pone.0121111.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Phiri</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Kasonka</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Collin</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Makasa</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Sinkala</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Chintu</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Factors influencing breast milk HIV RNA viral load among Zambian women</article-title>. <source>AIDS Res Hum Retroviruses</source> <year>2006</year>; <volume>22</volume>: <fpage>607</fpage>–<lpage>614</lpage>. <object-id pub-id-type="pmid">16831084</object-id></mixed-citation></ref>
+<ref id="pone.0121111.ref016"><label>16</label><mixed-citation publication-type="other" xlink:type="simple">World Health Organization. Mastitis: Causes and management. 2000.</mixed-citation></ref>
+<ref id="pone.0121111.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hudgens</surname> <given-names>MG</given-names></name>, <name name-style="western"><surname>Taha</surname> <given-names>TE</given-names></name>, <name name-style="western"><surname>Omer</surname> <given-names>SB</given-names></name>, <name name-style="western"><surname>Jamieson</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Mofenson</surname> <given-names>LM</given-names></name>, <etal>et al</etal>. <article-title>Pooled individual data analysis of 5 randomized trials of infant nevirapine prophylaxis to prevent breast-milk HIV-1 transmission</article-title>. <source>Clin Infect Dis</source> <year>2013</year>; <volume>56</volume>: <fpage>131</fpage>–<lpage>139</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/cid/cis808" xlink:type="simple">10.1093/cid/cis808</ext-link></comment> <object-id pub-id-type="pmid">22997212</object-id></mixed-citation></ref>
+<ref id="pone.0121111.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Becquet</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Dabis</surname> <given-names>F</given-names></name>. <article-title>Editorial commentary: turning the tide on HIV in women and children: preventing breast-milk HIV transmission while increasing maternal life expectancy</article-title>. <source>Clin Infect Dis</source> <year>2013</year>; <volume>56</volume>: <fpage>140</fpage>–<lpage>142</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/cid/cis813" xlink:type="simple">10.1093/cid/cis813</ext-link></comment> <object-id pub-id-type="pmid">22997213</object-id></mixed-citation></ref>
+<ref id="pone.0121111.ref019"><label>19</label><mixed-citation publication-type="other" xlink:type="simple">World Health Organization. Global update on HIV treatment 2013: Resuls, impact and opportunities. 2013.</mixed-citation></ref>
+<ref id="pone.0121111.ref020"><label>20</label><mixed-citation publication-type="other" xlink:type="simple">World Health Organization. Antiretroviral drugs for treating pregnant women and preventing HIV infection in infants: Towards universal access. 2006.</mixed-citation></ref>
+<ref id="pone.0121111.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Aizire</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>McConnell</surname> <given-names>MS</given-names></name>, <name name-style="western"><surname>Mudiope</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Mubiru</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Matovu</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Parsons</surname> <given-names>TL</given-names></name>, <etal>et al</etal>. <article-title>Kinetics of nevirapine and its impact on HIV-1 RNA levels in maternal plasma and breast milk over time after perinatal single-dose nevirapine</article-title>. <source>J Acquir Immune Defic Syndr</source> <year>2012</year>; <volume>60</volume>: <fpage>483</fpage>–<lpage>488</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/QAI.0b013e318246bf9e" xlink:type="simple">10.1097/QAI.0b013e318246bf9e</ext-link></comment> <object-id pub-id-type="pmid">22217678</object-id></mixed-citation></ref>
+<ref id="pone.0121111.ref022"><label>22</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Holland</surname> <given-names>DT</given-names></name>, <name name-style="western"><surname>Espina-Quinto</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Stefanski</surname> <given-names>EK</given-names></name>, <name name-style="western"><surname>Moon</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Valdez</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Connor</surname> <given-names>JD</given-names></name>. <chapter-title>Rapid automated immunoassay for therapeutic drug monitoring of nevirapine using ARK NVP-test: Method validation, application and comparison with HPLC method</chapter-title>. [abstract] <publisher-name>ICAAC</publisher-name> <year>2005</year>: <fpage>A34</fpage>.</mixed-citation></ref>
+<ref id="pone.0121111.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Salado-Rasmussen</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Theilgaard</surname> <given-names>ZP</given-names></name>, <name name-style="western"><surname>Chiduo</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Pedersen</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Gerstoft</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Katzenstein</surname> <given-names>TL</given-names></name>. <article-title>Good performance of an immunoassay based method for nevirapine measurements in human breast milk</article-title>. <source>Clin Chem Lab Med</source> <year>2011</year>; <volume>49</volume>: <fpage>1171</fpage>–<lpage>1175</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1515/CCLM.2011.184" xlink:type="simple">10.1515/CCLM.2011.184</ext-link></comment> <object-id pub-id-type="pmid">21504374</object-id></mixed-citation></ref>
+<ref id="pone.0121111.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Salazar-Gonzalez</surname> <given-names>JF</given-names></name>, <name name-style="western"><surname>Salazar</surname> <given-names>MG</given-names></name>, <name name-style="western"><surname>Learn</surname> <given-names>GH</given-names></name>, <name name-style="western"><surname>Fouda</surname> <given-names>GG</given-names></name>, <name name-style="western"><surname>Kang</surname> <given-names>HH</given-names></name>, <name name-style="western"><surname>Mahlokozera</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Origin and evolution of HIV-1 in breast milk determined by single-genome amplification and sequencing</article-title>. <source>J Virol</source> <year>2011</year>; <volume>85</volume>: <fpage>2751</fpage>–<lpage>2763</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/JVI.02316-10" xlink:type="simple">10.1128/JVI.02316-10</ext-link></comment> <object-id pub-id-type="pmid">21191008</object-id></mixed-citation></ref>
+<ref id="pone.0121111.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ereman</surname> <given-names>RR</given-names></name>, <name name-style="western"><surname>Lonnerdal</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Dewey</surname> <given-names>KG</given-names></name>. <article-title>Maternal sodium intake does not affect postprandial sodium concentrations in human milk</article-title>. <source>J Nutr</source> <year>1987</year>; <volume>117</volume>: <fpage>1154</fpage>–<lpage>1157</lpage>. <object-id pub-id-type="pmid">3598727</object-id></mixed-citation></ref>
+<ref id="pone.0121111.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mirochnick</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Fenton</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Gagnier</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Pav</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Gwynne</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Siminski</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Pharmacokinetics of nevirapine in human immunodeficiency virus type 1-infected pregnant women and their neonates. Pediatric AIDS Clinical Trials Group Protocol 250 Team</article-title>. <source>J Infect Dis</source> <year>1998</year>; <volume>178</volume>: <fpage>368</fpage>–<lpage>374</lpage>. <object-id pub-id-type="pmid">9697716</object-id></mixed-citation></ref>
+<ref id="pone.0121111.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Semrau</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Ghosh</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kankasa</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Sinkala</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kasonde</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Mwiya</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Temporal and lateral dynamics of HIV shedding and elevated sodium in breast milk among HIV-positive mothers during the first 4 months of breast-feeding</article-title>. <source>J Acquir Immune Defic Syndr</source> <year>2008</year>; <volume>47</volume>: <fpage>320</fpage>–<lpage>328</lpage>. <object-id pub-id-type="pmid">18398972</object-id></mixed-citation></ref>
+<ref id="pone.0121111.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Slyker</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Chung</surname> <given-names>MH</given-names></name>, <name name-style="western"><surname>Lehman</surname> <given-names>DA</given-names></name>, <name name-style="western"><surname>Kiarie</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kinuthia</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Holte</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Incidence and correlates of HIV-1 RNA detection in the breast milk of women receiving HAART for the prevention of HIV-1 transmission</article-title>. <source>PLoS ONE</source> <year>2012</year>; <volume>7</volume>: <fpage>e29777</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0029777" xlink:type="simple">10.1371/journal.pone.0029777</ext-link></comment> <object-id pub-id-type="pmid">22253778</object-id></mixed-citation></ref>
+<ref id="pone.0121111.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lunney</surname> <given-names>KM</given-names></name>, <name name-style="western"><surname>Iliff</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Mutasa</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Ntozini</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Magder</surname> <given-names>LS</given-names></name>, <name name-style="western"><surname>Moulton</surname> <given-names>LH</given-names></name>, <etal>et al</etal>. <article-title>Associations between breast milk viral load, mastitis, exclusive breast-feeding, and postnatal transmission of HIV</article-title>. <source>Clin Infect Dis</source> <year>2010</year>; <volume>50</volume>: <fpage>762</fpage>–<lpage>769</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1086/650535" xlink:type="simple">10.1086/650535</ext-link></comment> <object-id pub-id-type="pmid">20121424</object-id></mixed-citation></ref>
+<ref id="pone.0121111.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Neville</surname> <given-names>MC</given-names></name>, <name name-style="western"><surname>Allen</surname> <given-names>JC</given-names></name>, <name name-style="western"><surname>Archer</surname> <given-names>PC</given-names></name>, <name name-style="western"><surname>Casey</surname> <given-names>CE</given-names></name>, <name name-style="western"><surname>Seacat</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Keller</surname> <given-names>RP</given-names></name>, <etal>et al</etal>. <article-title>Studies in human lactation: milk volume and nutrient composition during weaning and lactogenesis</article-title>. <source>Am J Clin Nutr</source> <year>1991</year>; <volume>54</volume>: <fpage>81</fpage>–<lpage>92</lpage>. <object-id pub-id-type="pmid">2058592</object-id></mixed-citation></ref>
+<ref id="pone.0121111.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Filteau</surname> <given-names>SM</given-names></name>, <name name-style="western"><surname>Rice</surname> <given-names>AL</given-names></name>, <name name-style="western"><surname>Ball</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>Chakraborty</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Stoltzfus</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>de</surname> <given-names>FA</given-names></name>, <etal>et al</etal>. <article-title>Breast milk immune factors in Bangladeshi women supplemented postpartum with retinol or beta-carotene</article-title>. <source>Am J Clin Nutr</source> <year>1999</year>; <volume>69</volume>: <fpage>953</fpage>–<lpage>958</lpage>. <object-id pub-id-type="pmid">10232636</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

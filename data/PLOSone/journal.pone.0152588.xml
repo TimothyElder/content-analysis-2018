@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1d3" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0152588</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-16-05362</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Microbiology</subject><subj-group><subject>Medical microbiology</subject><subj-group><subject>Microbial pathogens</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Immunodeficiency viruses</subject><subj-group><subject>HIV</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pathology and laboratory medicine</subject><subj-group><subject>Pathogens</subject><subj-group><subject>Microbial pathogens</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Immunodeficiency viruses</subject><subj-group><subject>HIV</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Viruses</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Immunodeficiency viruses</subject><subj-group><subject>HIV</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Viruses</subject><subj-group><subject>Immunodeficiency viruses</subject><subj-group><subject>HIV</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Viruses</subject><subj-group><subject>RNA viruses</subject><subj-group><subject>Retroviruses</subject><subj-group><subject>Lentivirus</subject><subj-group><subject>HIV</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Microbiology</subject><subj-group><subject>Medical microbiology</subject><subj-group><subject>Microbial pathogens</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Retroviruses</subject><subj-group><subject>Lentivirus</subject><subj-group><subject>HIV</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pathology and laboratory medicine</subject><subj-group><subject>Pathogens</subject><subj-group><subject>Microbial pathogens</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Retroviruses</subject><subj-group><subject>Lentivirus</subject><subj-group><subject>HIV</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Viruses</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Retroviruses</subject><subj-group><subject>Lentivirus</subject><subj-group><subject>HIV</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Biomarkers</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Immunology</subject><subj-group><subject>Vaccination and immunization</subject><subj-group><subject>Antiviral therapy</subject><subj-group><subject>Antiretroviral therapy</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Immunology</subject><subj-group><subject>Vaccination and immunization</subject><subj-group><subject>Antiviral therapy</subject><subj-group><subject>Antiretroviral therapy</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Public and occupational health</subject><subj-group><subject>Preventive medicine</subject><subj-group><subject>Vaccination and immunization</subject><subj-group><subject>Antiviral therapy</subject><subj-group><subject>Antiretroviral therapy</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Infectious diseases</subject><subj-group><subject>Viral diseases</subject><subj-group><subject>HIV infections</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Inflammatory diseases</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Lipids</subject><subj-group><subject>Cholesterol</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Vascular medicine</subject><subj-group><subject>Blood pressure</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Nutrition</subject><subj-group><subject>Diet</subject><subj-group><subject>Alcohol consumption</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Nutrition</subject><subj-group><subject>Diet</subject><subj-group><subject>Alcohol consumption</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>D-Dimer Levels before HIV Seroconversion Remain Elevated Even after Viral Suppression and Are Associated with an Increased Risk of Non-AIDS Events</article-title>
+<alt-title alt-title-type="running-head">Pre-HIV Biomarkers Remain Elevated after VL Suppression</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Freiberg</surname>
+<given-names>Matthew S.</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Bebu</surname>
+<given-names>Ionut</given-names>
+</name>
+<xref ref-type="aff" rid="aff006"><sup>6</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Tracy</surname>
+<given-names>Russell</given-names>
+</name>
+<xref ref-type="aff" rid="aff005"><sup>5</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>So-Armah</surname>
+<given-names>Kaku</given-names>
+</name>
+<xref ref-type="aff" rid="aff008"><sup>8</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Okulicz</surname>
+<given-names>Jason</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Ganesan</surname>
+<given-names>Anuradha</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+<xref ref-type="aff" rid="aff011"><sup>11</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Armstrong</surname>
+<given-names>Adam</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="aff" rid="aff007"><sup>7</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>O’Bryan</surname>
+<given-names>Thomas</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+<xref ref-type="aff" rid="aff011"><sup>11</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Rimland</surname>
+<given-names>David</given-names>
+</name>
+<xref ref-type="aff" rid="aff009"><sup>9</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Justice</surname>
+<given-names>Amy C.</given-names>
+</name>
+<xref ref-type="aff" rid="aff010"><sup>10</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Agan</surname>
+<given-names>Brian K.</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="aff" rid="aff011"><sup>11</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<collab>Infectious Disease Clinical Research Program HIV Working Group</collab>
+<xref ref-type="fn" rid="fn001"><sup>¶</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Division of Cardiovascular Medicine, Vanderbilt University School of Medicine and Geriatric Research, Education, and Clinical Center, Veterans Affairs Tennessee Valley Healthcare System, Nashville, TN, United States of America</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Infectious Disease Clinical Research Program (IDCRP), Department of Preventive Medicine and Biostatistics, Uniformed Services University of the Health Sciences, Bethesda, MD, United States of America</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Infectious Disease Service, San Antonio Military Medical Center, San Antonio, TX, United States of America</addr-line></aff>
+<aff id="aff004"><label>4</label> <addr-line>Infectious Disease Clinic, Walter Reed National Military Medical Center, Bethesda, MD, United States of America</addr-line></aff>
+<aff id="aff005"><label>5</label> <addr-line>Department of Pathology, University of Vermont College of Medicine, Burlington, VT, United States of America</addr-line></aff>
+<aff id="aff006"><label>6</label> <addr-line>The Biostatistics Center, Milken Institute School of Public Health, The George Washington University, Rockville, MD, United States of America</addr-line></aff>
+<aff id="aff007"><label>7</label> <addr-line>U.S. Naval Medical Research Unit No. 6 Peru, Lima, Peru</addr-line></aff>
+<aff id="aff008"><label>8</label> <addr-line>Division of General Internal Medicine, Boston University, Boston, MA, United States of America</addr-line></aff>
+<aff id="aff009"><label>9</label> <addr-line>Division of Infectious Diseases, Department of Medicine, Emory University School of Medicine and VA Medical Center, Atlanta, Georgia, United States of America</addr-line></aff>
+<aff id="aff010"><label>10</label> <addr-line>Section of General Internal Medicine, Department of Medicine, Yale University School of Medicine, and VA Connecticut Healthcare System West Haven affiliation, New Haven, CT, United States of America</addr-line></aff>
+<aff id="aff011"><label>11</label> <addr-line>Henry M. Jackson Foundation for the Advancement of Military Medicine, Bethesda, MD, United States of America</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Apetrei</surname>
+<given-names>Cristian</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>University of Pittsburgh Center for Vaccine Research, UNITED STATES</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="con" id="contrib001">
+<p>Conceived and designed the experiments: MF BA RT. Performed the experiments: MF BA RT. Analyzed the data: IB. Contributed reagents/materials/analysis tools: BA RT. Wrote the paper: MF IB RT KSA JO AG AA TO DR AJ BA.</p>
+</fn>
+<fn fn-type="other" id="fn001">
+<p>¶ Membership of the Infectious Disease Clinical Research Program HIV Working Group is provided in the Acknowledgments.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">matthew.s.freiberg@vanderbilt.edu</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>18</day>
+<month>4</month>
+<year>2016</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2016</year>
+</pub-date>
+<volume>11</volume>
+<issue>4</issue>
+<elocation-id>e0152588</elocation-id>
+<history>
+<date date-type="received">
+<day>5</day>
+<month>2</month>
+<year>2016</year>
+</date>
+<date date-type="accepted">
+<day>16</day>
+<month>3</month>
+<year>2016</year>
+</date>
+</history>
+<permissions>
+<license xlink:href="https://creativecommons.org/publicdomain/zero/1.0/" xlink:type="simple">
+<license-p>This is an open access article, free of all copyright, and may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose. The work is made available under the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/" xlink:type="simple">Creative Commons CC0</ext-link> public domain dedication.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0152588"/>
+<abstract>
+<p>The mechanism underlying the excess risk of non-AIDS diseases among HIV infected people is unclear. HIV associated inflammation/hypercoagulability likely plays a role. While antiretroviral therapy (ART) may return this process to pre-HIV levels, this has not been directly demonstrated. We analyzed data/specimens on 249 HIV+ participants from the US Military HIV Natural History Study, a prospective, multicenter observational cohort of &gt;5600 active duty military personnel and beneficiaries living with HIV. We used stored blood specimens to measure D-dimer and Interleukin-6 (IL-6) at three time points: pre-HIV seroconversion, ≥6 months post-HIV seroconversion but prior to ART initiation, and ≥6 months post-ART with documented HIV viral suppression on two successive evaluations. We evaluated the changes in biomarker levels between time points, and the association between these biomarker changes and future non-AIDS events. During a median follow-up of 3.7 years, there were 28 incident non-AIDS diseases. At ART initiation, the median CD4 count was 361cells/mm<sup>3</sup>; median duration of documented HIV infection 392 days; median time on ART was 354 days. Adjusted mean percent increase in D-dimer levels from pre-seroconversion to post-ART was 75.1% (95% confidence interval 24.6–148.0, p = 0.002). This increase in D-dimer was associated with a significant 22% increase risk of future non-AIDS events (p = 0.03). Changes in IL-6 levels across time points were small and not associated with future non-AIDS events. In conclusion, ART initiation and HIV viral suppression does not eliminate HIV associated elevation in D-dimer levels. This residual pathology is associated with an increased risk of future non-AIDS diseases.</p>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100000005</institution-id>
+<institution>U.S. Department of Defense</institution>
+</institution-wrap>
+</funding-source>
+<award-id>idcrp-000-33</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Agan</surname>
+<given-names>Brian K.</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award002">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100000060</institution-id>
+<institution>National Institute of Allergy and Infectious Diseases</institution>
+</institution-wrap>
+</funding-source>
+<award-id>y1-AI-5072</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Agan</surname>
+<given-names>Brian K.</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>Support for this work (IDCRP-000-33) was provided by the Infectious Disease Clinical Research Program (IDCRP), a Department of Defense (DoD) program executed through the Uniformed Services University of the Health Sciences. This project has been funded in whole, or in part, with federal funds from the National Institute of Allergy and Infectious Diseases, National Institutes of Health (NIH), under Inter-Agency Agreement Y1-AI-5072.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="1"/>
+<table-count count="5"/>
+<page-count count="13"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All data are within the paper.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>HIV infected (HIV+) people have an excess risk of non-AIDS diseases[<xref ref-type="bibr" rid="pone.0152588.ref001">1</xref>] as compared to uninfected people that is not explained by antiretroviral therapy (ART) toxicity or the presence of risk factors.[<xref ref-type="bibr" rid="pone.0152588.ref002">2</xref>, <xref ref-type="bibr" rid="pone.0152588.ref003">3</xref>] Although the mechanism(s) underlying this excess risk of non-AIDS diseases (e.g., cardiovascular disease and cancer) is not known, inflammation/hypercoagulability is thought to play an important role.[<xref ref-type="bibr" rid="pone.0152588.ref004">4</xref>, <xref ref-type="bibr" rid="pone.0152588.ref005">5</xref>] A recent study reported that immediate initiation of ART in asymptomatic HIV+ people with high CD4 cell counts reduces the risk of non-AIDS diseases.[<xref ref-type="bibr" rid="pone.0152588.ref006">6</xref>] However, it is unclear whether this strategy eliminates the excess risk of non-AIDS diseases, in part, because we do not know if this strategy returns HIV associated levels of inflammation/hypercoagulability to pre-HIV seroconversion levels. If HIV+ people have residual inflammation/hypercoagulability (i.e., levels of inflammation/hypercoagulability after viral suppression are higher than levels pre-HIV seroconversion) after achieving viral suppression with ART and if this residual pathology were associated with an increased risk of future non-AIDS diseases, then screening, prevention, and management strategies, above and beyond immediate initiation of ART and viral suppression, would be needed.</p>
+<p>To answer this question, we first examined participants from the U.S. Military HIV Natural History Study (NHS) to assess the longitudinal changes in biomarkers of inflammation/hypercoagulability beginning before HIV seroconversion through ART initiation and HIV viral suppression. Next we examined the longitudinal changes in these biomarkers and their association with two outcomes: (1) future non-AIDS events and (2) a composite endpoint that includes future non-AIDS events, AIDS events, and death. We studied IL-6, a marker of inflammation that appears later in the inflammatory cascade, as well as D-dimer, a marker of inflammation and hypercoagulation, both of which have been associated with HIV-related mortality as well as morbidity.[<xref ref-type="bibr" rid="pone.0152588.ref007">7</xref>]</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Methods</title>
+<sec id="sec003">
+<title>Population and Study Design</title>
+<p>The U.S. Military HIV NHS is a prospective observational cohort of &gt;5600 HIV+ active duty military members, dependents, and beneficiaries followed in the military healthcare system since 1986.[<xref ref-type="bibr" rid="pone.0152588.ref008">8</xref>] The Uniformed Services University of the Health Sciences IRB and participating NHS study sites IRBs approved this study. All subjects provided written informed consent. Active duty personnel are screened for HIV approximately every 2 years. NHS study visits occur approximately every six months and include a research coordinator interview, physician visit, and medical record review and biospecimen collection.</p>
+<p>For this investigation, we selected participants with an interval of &lt;4 years from last HIV negative to first HIV positive tests (ELISA screen confirmed by repeat ELISA and Western blot when positive). HIV seroconversion is estimated as the midpoint of this window. Eligible participants were on ART for ≥6 months with HIV-1 RNA suppression on at least two successive measurements, and had serum samples available at each of the three time points: before HIV infection; after HIV, but before ART initiation; and post-ART (<xref ref-type="supplementary-material" rid="pone.0152588.s001">S1 Fig</xref>). Having serum available for each subject at all three time points was essential to allow individuals to serve as their own controls. Suppression was defined as a HIV-1 RNA &lt;50 copies/mL except for 41 participants for whom a longer calendar period between time points included changes in assay sensitivity. For these 41 participants, undetectable viremia was defined as HIV-1 RNA&lt;400 copies/mL at one of the two time points. To reduce confounding, participants had no hepatitis B or C, liver or cardiovascular disease, diabetes, malignancy, inflammatory conditions, or use of steroids prior to the post-ART time point. ART was initiated by individual providers based on treatment guidelines and patient preferences.</p>
+</sec>
+<sec id="sec004">
+<title>Specimens</title>
+<p>Specimen time points were defined as follows: ‘pre-HIV’ (time point 1, TP1)–the latest available sample at or prior to the last documented negative HIV test; ‘pre-ART’ (TP2)–the earliest available sample at least six months after estimated HIV seroconversion and three months after the first HIV positive test but before ART initiation; and ‘post-ART’ (TP3)–the earliest available sample at least six months after ART initiation with viral suppression as above. This sampling strategy was designed <italic>a priori</italic> to: 1) maximize the number of eligible subjects, 2) confine the samples to a limited time span to minimize confounding due to incident comorbidity prior to TP3, and 3) ensure the samples were representative of the stage of disease being evaluated. Pre-HIV specimens were obtained from the DoD Serum Repository[<xref ref-type="bibr" rid="pone.0152588.ref009">9</xref>] and post-HIV specimens from the NHS repository. In the DoD HIV screening program, serum samples remaining after HIV testing are stored at -30°C in a central facility. NHS subjects have blood samples stored at -80°C. For this analysis, serum from the NHS was used to provide comparability to the pre-HIV time point serum from the DoD Serum Repository.</p>
+</sec>
+<sec id="sec005">
+<title>Data Collection</title>
+<p>We extracted participant data from the NHS database including demographics, medical history based on participant interview and medical record review (comorbidities and substance abuse), medication use, HIV history, clinical parameters (height, weight, and blood pressure), laboratory parameters (e.g., CD4 and HIV-1 RNA). Illicit drug use was not assessed, but is low in this population.[<xref ref-type="bibr" rid="pone.0152588.ref010">10</xref>] Self-reported smoking was dichotomized as smoker or non-smoker. At risk alcohol use was defined using standard definitions.[<xref ref-type="bibr" rid="pone.0152588.ref011">11</xref>] Variables associated with exclusion criteria were used to verify subject sampling and as outcomes after TP3. Incident non-AIDS diseases events were new medical diagnosis after TP3 and included diabetes mellitus (n = 14), non-AIDS malignancy (n = 7), asthma (n = 3), acute myocardial infarction (n = 2), peripheral artery disease (n = 1), and cirrhosis (n = 1). These diseases were selected because of their association with HIV and inflammation/coagulation.[<xref ref-type="bibr" rid="pone.0152588.ref012">12</xref>–<xref ref-type="bibr" rid="pone.0152588.ref015">15</xref>] We also specified a composite endpoint including non-AIDS diseases, AIDS (1993 CDC-revised; n = 4), and death (n = 4). Participant self-reported diagnoses were confirmed from physician interview and review of the participant’s medical record.</p>
+</sec>
+<sec id="sec006">
+<title>Laboratory assays</title>
+<p>Standard clinical laboratory assays were done locally in batched analysis. IL-6 and D-dimer were measured at the University of Vermont using assay methods that have been used extensively in HIV research.[<xref ref-type="bibr" rid="pone.0152588.ref004">4</xref>, <xref ref-type="bibr" rid="pone.0152588.ref005">5</xref>, <xref ref-type="bibr" rid="pone.0152588.ref016">16</xref>] IL-6 was measured by high-sensitivity ELISA (Quantikine HS Human IL-6 Immunoassay; R&amp;D Systems, Minneapolis, MN). The lower limit of detection (LOD) was 0.16 pg/mL; the coefficient of variation (CV) in this study was 15.4%. D-dimer was measured using an immuno-turbidimetric assay (Liatest D-DI; Diagnostica Stago, Parsippany, NJ) on a Sta-R automated analyzer (Diagnostica Stago, Parsippany, NJ). The lower LOD was 0.02 μg/mL, and the average CV was 5.1%. In addition, since neither EDTA- nor citrate-plasma, the usual sample types for D-dimer analyses, were available for this study we validated the measurement of D-dimer on serum samples by analyzing matched serum and EDTA plasma samples from 20 individuals. Linear regression revealed the following relationship: (D-dimer<sub>serum</sub>) = 1.008 (D-dimer<sub>EDTA</sub>) + 0.27; R = 0.967.</p>
+</sec>
+<sec id="sec007">
+<title>Statistical Analysis</title>
+<p>Continuous variables were described using medians (interquartile ranges), and means (standard deviations), and categorical variables as percentages. The t-test or the Mann-Whitney test was used for continuous variables, while chi-squared tests or Fisher exact tests for discrete variables. Due to non-normal distributions, the biomarker values were analyzed on the log scale in models below.</p>
+<p>We evaluated change in biomarker levels at pairwise time points using the Wilcoxon signed rank test (e.g., TP1 vs. TP3). The percent increase in biomarker values, for example from TP1 to TP3, was calculated using the formula (TP3-TP1)/TP1)*100. We used linear models to adjust for confounders. To investigate the relationship between the change in biomarker value and the baseline (pre-HIV) value, the biomarker value at the first time point was also included in the model. A negative coefficient suggests that subjects with lower baseline biomarker value had a higher increase at the subsequent time point. Sensitivity analyses were performed to assess the robustness of the results. While D-Dimer values below the detection limit 0.02 (n = 20) were set to 0.01 for main analyses, in sensitivity analyses, we excluded them. A similar approach was taken for IL-6 with the first sensitivity analysis excluding the highest and lowest 5%, and the second setting values above the upper 1<sup>st</sup> and 5<sup>th</sup> percentile to the corresponding 1<sup>st</sup> and 5<sup>th</sup> percentile values (i.e. winsorizing). Nonparametric bootstrap was used for assessing the sensitivity of the results with respect to the parametric assumptions in the linear models.[<xref ref-type="bibr" rid="pone.0152588.ref017">17</xref>] No significant differences in results were observed using these different analytic approaches.</p>
+<p>We used adjusted Cox proportional hazards models to investigate the association between the change in biomarker levels across time points and the risk of non-AIDS diseases in a time-to-event analysis including all subjects. For this analysis the hazard ratio (HR) corresponds to one unit change in the biomarker value on the log scale. To calculate the HR for any percent change in the biomarker level for the risk of non-AIDS diseases and composite events (denoted by HR(x)) we used the formula HR(x) = HR<sup>log (x+1)</sup> where HR is the hazard ratio of the biomarker on the log scale. The start time was the post-ART specimen (TP3); the outcome was time to the first event. Models were constructed separately for the two outcomes (non-AIDS diseases and the composite clinical events). Because smoking and alcohol use have only been routinely assessed in the cohort since 2006, missing values for smoking and alcohol use were included as a separate category, ‘missing’, in order to maintain model robustness. All tests were two-sided, and p-values less than 0.05 were considered statistically significant.</p>
+</sec>
+</sec>
+<sec id="sec008" sec-type="results">
+<title>Results</title>
+<p>Participants in the NHS prior to HIV seroconversion were young, mostly male, and nearly half Caucasian (<xref ref-type="table" rid="pone.0152588.t001">Table 1</xref>). On average, at the time of HIV infection, these participants were normotensive, without hypercholesterolemia and had normal levels of serum hepatic transaminases, hemoglobin, and creatinine (<xref ref-type="table" rid="pone.0152588.t002">Table 2</xref>). The median BMI was 26 kg/m<sup>2</sup> and no participants had diabetes at study entry. Of those reporting smoking and alcohol status, the majority were non-smokers and not at-risk drinkers. ART use was non-nucleoside reverse transcriptase inhibitor based for 65.6%, protease inhibitor for 28.8%, and integrase inhibitor based/other for 5.6% (data not shown).</p>
+<table-wrap id="pone.0152588.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0152588.t001</object-id>
+<label>Table 1</label> <caption><title>Baseline and time point variables description (N = 249).</title></caption>
+<alternatives>
+<graphic id="pone.0152588.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0152588.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center">Median (IQR) or N (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><bold>Age (TP1)</bold></td>
+<td align="center">27 (23,32)</td>
+</tr>
+<tr>
+<td align="left"><bold>Gender</bold></td>
+<td align="center"/>
+</tr>
+<tr>
+<td align="right">Male</td>
+<td align="center">244 (98%)</td>
+</tr>
+<tr>
+<td align="right">Female</td>
+<td align="center">5 (2%)</td>
+</tr>
+<tr>
+<td align="left"><bold>Race/Ethnicity</bold></td>
+<td align="center"/>
+</tr>
+<tr>
+<td align="right">Caucasian</td>
+<td align="center">113 (45%)</td>
+</tr>
+<tr>
+<td align="right">African American</td>
+<td align="center">93 (37%)</td>
+</tr>
+<tr>
+<td align="right">Hispanic/Other</td>
+<td align="center">43 (17%)</td>
+</tr>
+<tr>
+<td align="left"><bold>Alcohol</bold></td>
+<td align="center"/>
+</tr>
+<tr>
+<td align="right">At Risk</td>
+<td align="center">69 (28%)</td>
+</tr>
+<tr>
+<td align="right">Not at Risk</td>
+<td align="center">123 (50%)</td>
+</tr>
+<tr>
+<td align="right">No Use</td>
+<td align="center">16 (7%)</td>
+</tr>
+<tr>
+<td align="right">Missing</td>
+<td align="center">41 (17%)</td>
+</tr>
+<tr>
+<td align="left"><bold>Smoking</bold></td>
+<td align="center"/>
+</tr>
+<tr>
+<td align="right">Yes</td>
+<td align="center">57 (23%)</td>
+</tr>
+<tr>
+<td align="right">No</td>
+<td align="center">97 (39%)</td>
+</tr>
+<tr>
+<td align="right">Missing</td>
+<td align="center">95 (39%)</td>
+</tr>
+<tr>
+<td align="left"><bold>D-Dimer levels (ug/mL)</bold><xref ref-type="table-fn" rid="t001fn001"><sup>1</sup></xref><sup>,</sup><xref ref-type="table-fn" rid="t001fn002"><sup>2</sup></xref></td>
+<td align="center"/>
+</tr>
+<tr>
+<td align="right">TP1</td>
+<td align="center">0.17 (0.09,0.31)</td>
+</tr>
+<tr>
+<td align="right">TP2</td>
+<td align="center">0.44 (0.23,0.89)</td>
+</tr>
+<tr>
+<td align="right">TP3</td>
+<td align="center">0.24 (0.16,0.41)</td>
+</tr>
+<tr>
+<td align="left"><bold>IL-6 levels (pg/mL)</bold><xref ref-type="table-fn" rid="t001fn001"><sup>1</sup></xref></td>
+<td align="center"/>
+</tr>
+<tr>
+<td align="right">TP1</td>
+<td align="center">1.84 (1.07,5.60)</td>
+</tr>
+<tr>
+<td align="right">TP2</td>
+<td align="center">1.89 (1.29,3.30)</td>
+</tr>
+<tr>
+<td align="right">TP3</td>
+<td align="center">1.67 (1.11,3.04)</td>
+</tr>
+<tr>
+<td align="left"><bold>Specimen Intervals (yrs)</bold></td>
+<td align="center"/>
+</tr>
+<tr>
+<td align="right">TP1 to estimated seroconversion</td>
+<td align="center">0.9 (0.56,1.42)</td>
+</tr>
+<tr>
+<td align="right">TP1 to 1<sup>st</sup> documented HIV positive test</td>
+<td align="center">1.7 (1.1,2.3)</td>
+</tr>
+<tr>
+<td align="right">Seroconversion to TP2</td>
+<td align="center">1.91 (1.10,3.54)</td>
+</tr>
+<tr>
+<td align="right">1<sup>st</sup> documented HIV positive test to TP2</td>
+<td align="center">0.98 (0.8, 1.2)</td>
+</tr>
+<tr>
+<td align="right">ART initiation to TP3</td>
+<td align="center">0.97 (0.74,1.1)</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p><sup>1</sup>Not log transformed</p></fn>
+<fn id="t001fn002"><p><sup>2</sup>p&lt;0.01 for all pairwise comparisons between Time point (TP) 1,2,3</p></fn>
+<fn id="t001fn003"><p>abbreviations: TP# = time point; IQR = interquartile range; ART = antiretroviral therapy ‘pre-HIV’ (time point 1, TP1)–the latest available sample at or prior to the last documented negative HIV test; ‘pre-ART’ (TP2)–the earliest available sample at least six months after estimated HIV seroconversion and three months after the first HIV positive test but before ART initiation; and ‘post-ART’ (TP3)–the earliest available sample at least six months after ART initiation with viral suppression as above</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<table-wrap id="pone.0152588.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0152588.t002</object-id>
+<label>Table 2</label> <caption><title>Clinical and Laboratory Parameters while HIV+ (N = 249).</title></caption>
+<alternatives>
+<graphic id="pone.0152588.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0152588.t002" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Clinical Parameters</th>
+<th align="center">TP2 median (IQR)</th>
+<th align="center">TP3 median (IQR)</th>
+<th align="center">p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">Body Mass Index kg/m<sup>2</sup></td>
+<td align="center">26 (24,29)</td>
+<td align="center">26 (24,29)</td>
+<td align="char" char=".">0.28</td>
+</tr>
+<tr>
+<td align="right">Systolic Blood Pressure (mm Hg)</td>
+<td align="center">126 (117,134)</td>
+<td align="center">124 (118,133)</td>
+<td align="char" char=".">0.26</td>
+</tr>
+<tr>
+<td align="right">Diastolic Blood Pressure (mm Hg)</td>
+<td align="center">78 (72,82)</td>
+<td align="center">80 (74,86)</td>
+<td align="char" char=".">0.85</td>
+</tr>
+<tr>
+<td align="left"><bold>Laboratory Parameters</bold></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="right">CD4 count (cells/mm<sup>3</sup>)</td>
+<td align="center">361 (288,455)</td>
+<td align="center">549 (441,711)</td>
+<td align="char" char=".">&lt;0.001</td>
+</tr>
+<tr>
+<td align="right">HIV viral copies (log10)</td>
+<td align="center">4.53 (4.00 4.78)</td>
+<td align="center">1.7 (1.7,1.7)</td>
+<td align="char" char=".">&lt;0.001</td>
+</tr>
+<tr>
+<td align="right">Hemoglobin (g/dL)</td>
+<td align="center">15 (14,15)</td>
+<td align="center">15 (14,16)</td>
+<td align="char" char=".">0.002</td>
+</tr>
+<tr>
+<td align="right">Creatinine (mg/dL)</td>
+<td align="center">1.0 (0.9,1.1)</td>
+<td align="center">1.0 (0.9,1.0)</td>
+<td align="char" char=".">0.004</td>
+</tr>
+<tr>
+<td align="right">Alanine Aminotransferase (ALT, U/L))</td>
+<td align="center">31 (22,45)</td>
+<td align="center">30 (23,41)</td>
+<td align="char" char=".">0.21</td>
+</tr>
+<tr>
+<td align="right">Aspartate Aminotransferase (AST, U/L))</td>
+<td align="center">28 (24,37)</td>
+<td align="center">26 (22,32)</td>
+<td align="char" char=".">0.002</td>
+</tr>
+<tr>
+<td align="right">Total Cholesterol (mg/dL)</td>
+<td align="center">163 (145,188)</td>
+<td align="center">183 (156,215)</td>
+<td align="char" char=".">&lt;0.001</td>
+</tr>
+<tr>
+<td align="right">Low Density Lipoprotein (LDL) Cholesterol (mg/dL)</td>
+<td align="center">98 (79,116)</td>
+<td align="center">107 (89,136)</td>
+<td align="char" char=".">0.002</td>
+</tr>
+<tr>
+<td align="right">Triglycerides (mg/dL)</td>
+<td align="center">105 (70,160)</td>
+<td align="center">139 (84,200)</td>
+<td align="char" char=".">&lt;0.001</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p>Abbreviations: TP# = time point; IQR = interquartile range</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>Using the estimated seroconversion date, the average duration of HIV infection at TP2 was 1.91 years, and the average interval from ART initiation to &gt;6 months viral suppression (TP3) was 354 days. Before ART initiation (TP2), median CD4 cell count was 361 cells/mm<sup>3</sup> and log<sub>10</sub> viral load was 4.4. At viral suppression (TP3) after ART initiation, the median CD4 cell count was 549 cells/mm<sup>3</sup>. The median CD4 nadir was 315 cells/mm<sup>3</sup>. Compared across time points, changes in laboratory covariates involving hemoglobin, creatinine, AST, ALT, and cholesterol values did not vary clinically from TP2 to TP3 (<xref ref-type="table" rid="pone.0152588.t002">Table 2</xref>). In fact, at the time of HIV viral suppression, total cholesterol was at “desirable” levels, LDL cholesterol was “near optimal,” and serum triglycerides were “normal” as per National Cholesterol Education Program/Adult Treatment Panel</p>
+<p>In unadjusted analyses, post-ART initiation (TP3) population median D-dimer levels were significantly higher than pre-HIV seroconversion levels (TP1), showing evidence of a “residual” elevation in D-dimer (<xref ref-type="fig" rid="pone.0152588.g001">Fig 1</xref>). 59% of subjects had TP3 D-dimer levels higher than baseline (TP1), while 41% of subjects had levels at or below baseline (TP1). After ART initiation and viral suppression (TP3), D-dimer levels were significantly lower compared to D-dimer levels at TP2 (<xref ref-type="table" rid="pone.0152588.t001">Table 1</xref>). Pre-ART initiation (TP2) D-dimer levels were significantly higher than levels at TP1 and TP3 (p&lt;0.01 for both). By comparison, the differences in IL-6 levels across the three time points were not statistically different (<xref ref-type="fig" rid="pone.0152588.g001">Fig 1</xref>, p&gt;0.05 for all).</p>
+<fig id="pone.0152588.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0152588.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Population mean D-Dimer and IL-6 at the three time points.</title>
+<p>Box and whisker plot describes median (line inside of box), lower and upper quartiles (bottom and top of box), minimum (horizontal line below vertical dashed line), maximum (horizontal line above vertical dashed line) and outliers (open circles) for D-dimer and IL-6 distributions.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0152588.g001" xlink:type="simple"/>
+</fig>
+<p>After adjusting for covariates, the percent increase in D-dimer from TP1 to TP3 was 75.1% (P = 0.002, <xref ref-type="table" rid="pone.0152588.t003">Table 3</xref>). Restricting the sample to never smokers (n = 98), had little effect on this increase (70.0%, p&lt;0.01). In contrast, levels of IL-6 did not differ across time points (<xref ref-type="table" rid="pone.0152588.t003">Table 3</xref>). Clinical and laboratory measures of smoking, at risk alcohol consumption, blood pressure, anemia, kidney and hepatic function, and cholesterol did not differ between participants with or without residual biomarker elevations (<xref ref-type="table" rid="pone.0152588.t004">Table 4</xref>).</p>
+<table-wrap id="pone.0152588.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0152588.t003</object-id>
+<label>Table 3</label> <caption><title>Multivariate analysis showing mean percent change in biomarker levels from pre-HIV to post-HAART<xref ref-type="table-fn" rid="t003fn001">*</xref>.</title></caption>
+<alternatives>
+<graphic id="pone.0152588.t003g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0152588.t003" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" rowspan="2"/>
+<th align="center" colspan="3">D-Dimer</th>
+<th align="center" colspan="3">IL-6</th>
+</tr>
+<tr>
+<th align="center">Estimate</th>
+<th align="center">95% CI</th>
+<th align="center">P-value</th>
+<th align="center">Estimate</th>
+<th align="center">95% CI</th>
+<th align="center">P-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Biomarker change (from TP1 to TP3)<xref ref-type="table-fn" rid="t003fn002">**</xref></td>
+<td align="center">75%</td>
+<td align="center">(24.6–148)</td>
+<td align="char" char=".">0.002</td>
+<td align="center">2%</td>
+<td align="center">(-29.2,33.1)</td>
+<td align="char" char=".">0.90</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t003fn001"><p>*adjusted for age, race, smoking, blood pressure, body mass index, time from estimated seroconversion to HIV+, time from HIV+ to ART initiation, biomarker at TP1, CD4, hemoglobin, creatinine, and lipids; CI = 95% confidence interval</p></fn>
+<fn id="t003fn002"><p>**biomarker values were log transformed and the percent change in biomarker values is shown [100(e<sup>β</sup>-1)]</p></fn>
+<fn id="t003fn003"><p>Abbreviations: TP# = time point; CI = confidence interval</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<table-wrap id="pone.0152588.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0152588.t004</object-id>
+<label>Table 4</label> <caption><title>Characteristics of participants who had and did not have residual elevations in biomarker levels of IL-6 and D-dimer.</title></caption>
+<alternatives>
+<graphic id="pone.0152588.t004g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0152588.t004" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="4">D-dimer</th>
+<th align="center" colspan="4">IL-6</th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center">Total</th>
+<th align="center" colspan="2">Return to baseline levels</th>
+<th align="center">P-value</th>
+<th align="center">Total<xref ref-type="table-fn" rid="t004fn001"><sup>a</sup></xref></th>
+<th align="center" colspan="2">Return to baseline levels</th>
+<th align="center">P-value</th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center"/>
+<th align="center">Yes</th>
+<th align="center">No</th>
+<th align="center"/>
+<th align="center"/>
+<th align="center">Yes</th>
+<th align="center">No</th>
+<th align="center"/>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><bold>Age (years)</bold></td>
+<td align="center">31 (28,37)</td>
+<td align="center">32 (28,37)</td>
+<td align="center">31 (28,37)</td>
+<td align="char" char=".">1.0</td>
+<td align="center">31 (28,37)</td>
+<td align="center">31 (27,36)</td>
+<td align="center">32 (29,38)</td>
+<td align="char" char=".">0.05</td>
+</tr>
+<tr>
+<td align="left"><bold>Ethnicity (%)</bold></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><bold>Caucasian (n)</bold></td>
+<td align="center">47</td>
+<td align="center">41</td>
+<td align="center">47</td>
+<td align="char" char=".">0.60</td>
+<td align="center">45</td>
+<td align="center">42</td>
+<td align="center">49</td>
+<td align="char" char=".">0.45</td>
+</tr>
+<tr>
+<td align="left"><bold>African American (n)</bold></td>
+<td align="center">39</td>
+<td align="center">41</td>
+<td align="center">35</td>
+<td align="center"/>
+<td align="center">37</td>
+<td align="center">38</td>
+<td align="center">36</td>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><bold>Hispanic/Other (n)</bold></td>
+<td align="center">18</td>
+<td align="center">18</td>
+<td align="center">18</td>
+<td align="center"/>
+<td align="center">17</td>
+<td align="center">20</td>
+<td align="center">15</td>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><bold>Gender Male (%)</bold></td>
+<td align="center">98</td>
+<td align="center">98</td>
+<td align="center">98</td>
+<td align="char" char=".">1.00</td>
+<td align="center">98</td>
+<td align="center">96</td>
+<td align="center">100</td>
+<td align="char" char=".">0.06</td>
+</tr>
+<tr>
+<td align="left"><bold>Alcohol At Risk (%)</bold></td>
+<td align="center">29</td>
+<td align="center">26</td>
+<td align="center">30</td>
+<td align="char" char=".">0.47</td>
+<td align="center">28</td>
+<td align="center">32</td>
+<td align="center">22</td>
+<td align="char" char=".">0.34</td>
+</tr>
+<tr>
+<td align="left"><bold>Smoking Yes (%)</bold></td>
+<td align="center">24</td>
+<td align="center">24</td>
+<td align="center">23</td>
+<td align="char" char=".">0.75</td>
+<td align="center">23</td>
+<td align="center">21</td>
+<td align="center">25</td>
+<td align="char" char=".">0.73</td>
+</tr>
+<tr>
+<td align="left"><bold>Body mass index (kg/m</bold><sup><bold>2</bold></sup><bold>)</bold><xref ref-type="table-fn" rid="t004fn002"><sup>1</sup></xref></td>
+<td align="center">26 (24,29)</td>
+<td align="center">27 (24,30)</td>
+<td align="center">26 (24,29)</td>
+<td align="char" char=".">0.02</td>
+<td align="center">26 (24,29)</td>
+<td align="center">26 (24,29)</td>
+<td align="center">26 (24,29)</td>
+<td align="char" char=".">0.99</td>
+</tr>
+<tr>
+<td align="left"><bold>Systolic blood pressure (mm Hg)</bold><xref ref-type="table-fn" rid="t004fn002"><sup>1</sup></xref></td>
+<td align="center">124 (118,133)</td>
+<td align="center">124 (120,133)</td>
+<td align="center">124 (118,132)</td>
+<td align="char" char=".">0.61</td>
+<td align="center">124 (118,133)</td>
+<td align="center">123 (118,132)</td>
+<td align="center">126 (119,133)</td>
+<td align="char" char=".">0.29</td>
+</tr>
+<tr>
+<td align="left"><bold>Diastolic blood pressure (mm Hg)</bold><xref ref-type="table-fn" rid="t004fn002"><sup>1</sup></xref></td>
+<td align="center">80 (74,86)</td>
+<td align="center">80 (75,86)</td>
+<td align="center">80 (73,86)</td>
+<td align="char" char=".">0.83</td>
+<td align="center">80 (74,86)</td>
+<td align="center">79 (74,84)</td>
+<td align="center">81 (75,87)</td>
+<td align="char" char=".">0.12</td>
+</tr>
+<tr>
+<td align="left"><bold>CD4 cell count (cells/mm</bold><sup><bold>3</bold></sup><bold>)</bold><xref ref-type="table-fn" rid="t004fn002"><sup>1</sup></xref></td>
+<td align="center">549 (441,711)</td>
+<td align="center">532 (422,683)</td>
+<td align="center">567 (454,726)</td>
+<td align="char" char=".">0.51</td>
+<td align="center">549 (441,711)</td>
+<td align="center">540 (434,718)</td>
+<td align="center">552 (448,706)</td>
+<td align="char" char=".">0.65</td>
+</tr>
+<tr>
+<td align="left"><bold>Viral load Copies</bold><xref ref-type="table-fn" rid="t004fn002"><sup>1</sup></xref><sup>,</sup><xref ref-type="table-fn" rid="t004fn003"><sup>2</sup></xref> <bold>(log</bold><sub><bold>10</bold></sub><bold>)</bold></td>
+<td align="center">1.7 (1.7,1.7)</td>
+<td align="center">1.7 (1.7,1.7)</td>
+<td align="center">1.7 (1.7,1.7)</td>
+<td align="char" char=".">0.18</td>
+<td align="center">1.7 (1.7,1.7)</td>
+<td align="center">1.7 (1.7,1.7)</td>
+<td align="center">1.7 (1.7,1.7)</td>
+<td align="char" char=".">0.07</td>
+</tr>
+<tr>
+<td align="left"><bold>Hemoglobin (g/dL)</bold><xref ref-type="table-fn" rid="t004fn002"><sup>1</sup></xref></td>
+<td align="center">15 (14,16)</td>
+<td align="center">15 (14,16)</td>
+<td align="center">15 (14,16)</td>
+<td align="char" char=".">0.63</td>
+<td align="center">15 (14,16)</td>
+<td align="center">15 (14,16)</td>
+<td align="center">15 (14,16)</td>
+<td align="char" char=".">0.41</td>
+</tr>
+<tr>
+<td align="left"><bold>Serum Creatinine (mg/dL)</bold><xref ref-type="table-fn" rid="t004fn002"><sup>1</sup></xref></td>
+<td align="center">1.0 (0.9,1)</td>
+<td align="center">1.0 (0.9,1)</td>
+<td align="center">1.0 (0.9,1.1)</td>
+<td align="char" char=".">0.59</td>
+<td align="center">1.0 (0.9,1)</td>
+<td align="center">0.9 (0.9,1)</td>
+<td align="center">1.0 (0.9,1.1)</td>
+<td align="char" char=".">0.11</td>
+</tr>
+<tr>
+<td align="left"><bold>ALT (U/L)</bold><xref ref-type="table-fn" rid="t004fn002"><sup>1</sup></xref></td>
+<td align="center">30 (23,41)</td>
+<td align="center">30 (23,41)</td>
+<td align="center">30 (23,40)</td>
+<td align="char" char=".">0.28</td>
+<td align="center">30 (23,41)</td>
+<td align="center">30 (22,40)</td>
+<td align="center">30 (24,42)</td>
+<td align="char" char=".">0.29</td>
+</tr>
+<tr>
+<td align="left"><bold>AST (U/L)</bold><xref ref-type="table-fn" rid="t004fn002"><sup>1</sup></xref></td>
+<td align="center">26 (22,32)</td>
+<td align="center">26 (22,32)</td>
+<td align="center">26 (22,32)</td>
+<td align="char" char=".">0.36</td>
+<td align="center">26 (22,32)</td>
+<td align="center">26 (22,32)</td>
+<td align="center">26 (22,32)</td>
+<td align="char" char=".">0.29</td>
+</tr>
+<tr>
+<td align="left"><bold>Serum Total Cholesterol (mg/dL)</bold><xref ref-type="table-fn" rid="t004fn002"><sup>1</sup></xref></td>
+<td align="center">183 (156,215)</td>
+<td align="center">183 (155,213)</td>
+<td align="center">180 (158,215)</td>
+<td align="char" char=".">0.23</td>
+<td align="center">183 (156,215)</td>
+<td align="center">180 (155,208)</td>
+<td align="center">190 (160,220)</td>
+<td align="char" char=".">0.244</td>
+</tr>
+<tr>
+<td align="left"><bold>LDL cholesterol (mg/dL)</bold><xref ref-type="table-fn" rid="t004fn002"><sup>1</sup></xref></td>
+<td align="center">107 (89,136)</td>
+<td align="center">108 (88,134)</td>
+<td align="center">106 (89,136)</td>
+<td align="char" char=".">0.62</td>
+<td align="center">107 (89,136)</td>
+<td align="center">106 (88,134)</td>
+<td align="center">109 (90,138)</td>
+<td align="char" char=".">0.805</td>
+</tr>
+<tr>
+<td align="left"><bold>Serum Triglycerides (mg/dL)</bold><xref ref-type="table-fn" rid="t004fn002"><sup>1</sup></xref></td>
+<td align="center">139 (84,200)</td>
+<td align="center">138 (86,222)</td>
+<td align="center">132 (78,184)</td>
+<td align="char" char=".">0.11</td>
+<td align="center">139 (84,200)</td>
+<td align="center">116 (77,185)</td>
+<td align="center">152 (90,225)</td>
+<td align="char" char=".">0.425</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t004fn001"><p><sup>a</sup>median (IQR) unless otherwise stated</p></fn>
+<fn id="t004fn002"><p><sup>1</sup>at TP3</p></fn>
+<fn id="t004fn003"><p><sup>2</sup>log 1.7 = &lt;50 copies/mL</p></fn>
+<fn id="t004fn004"><p>Abbreviations: TP = time point; IQR = interquartile range; ALT = Alanine Aminotransferase; AST = Aspartate Aminotransferase; LDL = Low Density Lipoprotein</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>During a median follow up time of 3.7 years (1133 person years total), there were 28 incident non-AIDS diseases and 36 incident composite events (rates (95% confidence interval (CI)) of 24 (16–38) and 30 (21–42), per 1000 person years, respectively). After adjusting for confounders, a one unit change in the log D-dimer was associated with a 43% and a 35% increase risk of future non-AIDS diseases and composite events, respectively (<xref ref-type="table" rid="pone.0152588.t005">Table 5</xref>). Based on results from <xref ref-type="table" rid="pone.0152588.t003">Table 3</xref>, a 75.1% increase in D dimer levels from TP1 to TP3 is associated with a 22% increase in the risk of future non-AIDS diseases (p = 0.03) and an 18% increase risk in future composite events (p = 0.03). Analyses involving log IL-6 in adjusted models did not reach statistical significance (<xref ref-type="table" rid="pone.0152588.t005">Table 5</xref>).</p>
+<table-wrap id="pone.0152588.t005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0152588.t005</object-id>
+<label>Table 5</label> <caption><title>Cox Models for Time to event (non-AIDS diseases and Composite Event) by Biomarker<xref ref-type="table-fn" rid="t005fn001">*</xref>.</title></caption>
+<alternatives>
+<graphic id="pone.0152588.t005g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0152588.t005" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="3">D-Dimer</th>
+<th align="center" colspan="3">IL-6</th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center">HR</th>
+<th align="center">95% CI</th>
+<th align="center">P-value</th>
+<th align="center">HR</th>
+<th align="center">95% CI</th>
+<th align="center">P-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="7"><bold>NON-AIDS DISEASES</bold></td>
+</tr>
+<tr>
+<td align="left">Change in Biomarker<xref ref-type="table-fn" rid="t005fn002">**</xref></td>
+<td align="char" char=".">1.43</td>
+<td align="center">(1.04–2.00)</td>
+<td align="char" char=".">0.03</td>
+<td align="char" char=".">1.29</td>
+<td align="center">(0.73–2.27)</td>
+<td align="char" char=".">0.38</td>
+</tr>
+<tr>
+<td align="left" colspan="7"><bold>Composite Event (non-AIDS diseases, AIDS, death)</bold></td>
+</tr>
+<tr>
+<td align="left">Change in Biomarker<xref ref-type="table-fn" rid="t005fn002">**</xref></td>
+<td align="char" char=".">1.35</td>
+<td align="center">(1.03–1.77)</td>
+<td align="char" char=".">0.03</td>
+<td align="char" char=".">1.33</td>
+<td align="center">(0.82–2.16)</td>
+<td align="char" char=".">0.25</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t005fn001"><p>*adjusted for age, smoking, body mass index, CD4, hemoglobin, creatinine, lipids, and TP3 biomarker level</p></fn>
+<fn id="t005fn002"><p>**biomarker values were log transformed and the HRs correspond to one unit change in the biomarker value on the log scale. These values can be converted to x-percent change in the biomarker value using the following equation: HR<sup>log(x+1)</sup>; for example, the hazard ratio for non-AIDS associated with 20% change in the D-Dimer value is 1.43<sup>log(1.2)</sup> = 1.07, with a 95% CI given by (1.01, 1.13).</p></fn>
+<fn id="t005fn003"><p>Abbreviations: TP = time point; HR = hazard ratio; CI = confidence interval</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec009" sec-type="conclusions">
+<title>Discussion</title>
+<p>To our knowledge, this is the first large study to examine the longitudinal changes in biomarkers of inflammation/hypercoagulability beginning before HIV seroconversion through ART initiation and HIV viral suppression and their association with future non-AIDS diseases. Our results are three fold: First, that HIV seroconversion is associated with a significant increase in serum D-dimer levels even after adjustment for confounders; second, that adjusted D-dimer levels after ART initiation and HIV viral suppression remain significantly elevated compared to pre-HIV seroconversion levels; and third, that failure to return to pre-HIV levels of D-dimer is significantly associated with an increased risk of future non-AIDS events. Importantly, our study included young, healthy participants with few poor health behaviors who, on average, had ART initiated within 2.7 years of HIV seroconversion and achieved HIV viral suppression within approximately one year of ART initiation; these represent close to “optimal” real-world conditions for people experiencing HIV infection.</p>
+<p>The HIV associated inflammation/hypercoagulability state is a product of innate and adaptive cellular immune activation, and altered coagulation with each of these processes likely impacting the other two.[<xref ref-type="bibr" rid="pone.0152588.ref018">18</xref>] This means that alterations in D-dimer, for example, may not simply reflect changes in coagulation status but more likely reflect changes to the immune system more broadly. Our results demonstrating that HIV infection is associated with an increase in D-dimer levels and that D-dimer levels are reduced after treatment are consistent with several earlier studies.[<xref ref-type="bibr" rid="pone.0152588.ref012">12</xref>, <xref ref-type="bibr" rid="pone.0152588.ref019">19</xref>–<xref ref-type="bibr" rid="pone.0152588.ref021">21</xref>] Similarly, our results are also consistent with earlier reports showing elevated D-dimer levels are associated with incident non-AIDS diseases among HIV+ people.[<xref ref-type="bibr" rid="pone.0152588.ref005">5</xref>, <xref ref-type="bibr" rid="pone.0152588.ref022">22</xref>, <xref ref-type="bibr" rid="pone.0152588.ref023">23</xref>]</p>
+<p>Unlike prior studies, however, our results are the first to provide direct evidence that rapid HIV diagnosis after seroconversion, ART initiation, and HIV viral suppression does not eliminate, on average, the elevations in D-dimer associated with HIV seroconversion. Moreover, our findings provide support for the emerging hypothesis that this residual pathology is a driver of future non-AIDS diseases. Unlike with D-dimer, we saw no significant increase in IL-6 levels with HIV seroconversion; nor a significant decrease in IL-6 levels with subsequent ART initiation and HIV viral load suppression. While the reason for this finding is not clear, prior studies involving MACS and WIHS study participants also demonstrate little change in IL-6 biomarker levels before and after ART initiation with HIV viral suppression.[<xref ref-type="bibr" rid="pone.0152588.ref019">19</xref>, <xref ref-type="bibr" rid="pone.0152588.ref020">20</xref>] Additionally, IL-6 biomarker levels may have been attenuated among our study participants because they were young and lacked comorbid diseases that are typically associated with biomarkers like IL-6.[<xref ref-type="bibr" rid="pone.0152588.ref012">12</xref>, <xref ref-type="bibr" rid="pone.0152588.ref024">24</xref>, <xref ref-type="bibr" rid="pone.0152588.ref025">25</xref>]</p>
+<p>Our results have important clinical implications for HIV+ people and their providers. For HIV+ people, successful ART and viral suppression does not mean that the inflammation/hypercoagulability state associated with HIV is eliminated. HIV+ people are now potentially living decades longer[<xref ref-type="bibr" rid="pone.0152588.ref026">26</xref>] and, for some, also living with other proinflammatory conditions like viral co-infections and substance use.[<xref ref-type="bibr" rid="pone.0152588.ref027">27</xref>] This means that the risk of future non-AIDS diseases, like cardiovascular disease and cancer, are central health issues facing the HIV community.[<xref ref-type="bibr" rid="pone.0152588.ref028">28</xref>] Presently, there is no strategy to identify which individual patients will have this “residual” inflammation/hypercoagulability state because few patients have biomarker levels measured prior to HIV infection. However, our results taken together with longitudinal data from the SMART study[<xref ref-type="bibr" rid="pone.0152588.ref002">2</xref>, <xref ref-type="bibr" rid="pone.0152588.ref006">6</xref>] and others[<xref ref-type="bibr" rid="pone.0152588.ref020">20</xref>] should prompt the development of population level screening, prevention, and management strategies to reduce the risk of non-AIDS diseases, above and beyond achieving HIV viral suppression, even among healthy HIV+ people. Whether interventions targeting the inflammation/hypercoagulability state in HIV virally-suppressed people would lower the risk of non-AIDS diseases remains unknown but could be answered through interventional trials.</p>
+<p>This study has limitations. First, our findings need to be replicated in women. Second, this study examined only two biomarkers. We selected IL-6 and D-dimer because elevations in these biomarkers are associated with an increased risk of non-AIDS diseases.[<xref ref-type="bibr" rid="pone.0152588.ref005">5</xref>, <xref ref-type="bibr" rid="pone.0152588.ref029">29</xref>–<xref ref-type="bibr" rid="pone.0152588.ref031">31</xref>] Others have examined a broader panel of cytokines cross-sectionally[<xref ref-type="bibr" rid="pone.0152588.ref020">20</xref>] and future analyses examining additional biomarkers of cellular activation, inflammation, and altered coagulation would likely enhance our understanding of the biologic processes.[<xref ref-type="bibr" rid="pone.0152588.ref032">32</xref>] Third, while our sample size precluded analyses examining the association between biomarker changes and specific non-AIDS events, this study remains the largest of its kind because biospecimens before HIV seroconversion are rare. Fourth as we did not have repeated biomarker measures at longer follow-up time points, we don’t know if additional years of sustained HIV viral suppression would have eliminated residual D-dimer levels for all participants; however this is unlikely given cross-section data of others.[<xref ref-type="bibr" rid="pone.0152588.ref004">4</xref>] Lastly, we cannot eliminate the possibility of unmeasured confounding.</p>
+<p>In conclusion, HIV seroconversion is associated with a significant increase in serum D-dimer levels. After ART initiation and HIV viral suppression, D-dimer levels remains significantly elevated compared to pre-HIV seroconversion levels. The residual increase in D-dimer levels is associated with an increased risk of incident non-AIDS events. These findings provide direct evidence that ART initiation and HIV viral suppression does not eliminate elevations in D-dimer associated with HIV seroconversion and suggest that successful ART with viral suppression alone, is inadequate to prevent future non-AIDS events. Future research should focus on screening and management strategies for the prevention of non-AIDS events, even among healthy people achieving HIV viral suppression.</p>
+</sec>
+<sec id="sec010">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0152588.s001" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0152588.s001" xlink:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title>Study design showing time points (TP) at which blood specimens were tested for D-dimer and Interleukin-6.</title>
+<p>(TIFF)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>Drs. Agan and Freiberg had full access to all of the data in the study and take responsibility for the integrity of the data and the accuracy of the data analysis.</p>
+<p>Support for this work (IDCRP-000-33) was provided by the Infectious Disease Clinical Research Program (IDCRP), a Department of Defense (DOD) program executed through the Uniformed Services University of the Health Sciences. This project has been funded in whole, or in part, with federal funds from the National Institute of Allergy and Infectious Diseases, National Institutes of Health (NIH), under Inter-Agency Agreement Y1-AI-5072.</p>
+<sec id="sec011">
+<title>The members of the Infectious Disease Clinical Research Program HIV Working Group are</title>
+<p><italic>Uniformed Services University of the Health Sciences</italic>, <italic>Bethesda</italic>, <italic>MD</italic>: X. Chu; T. Fuller; M. Glancey; G. Macalino; J. Manabat; O. Mesner; COL S. Miller; E. Parmelee; X. Wang; S. Won</p>
+<p><italic>Naval Medical Center</italic>, <italic>Portsmouth</italic>, <italic>VA</italic>: S. Banks; CAPT K. Kronmann; T. Lalani; R. Tant</p>
+<p><italic>Naval Medical Center</italic>, <italic>San Diego</italic>, <italic>CA</italic>: CAPT M. Bavaro; R. Deiss; A. Diem; N. Kirkland; CDR R. Maves</p>
+<p><italic>San Antonio Military Medical Center</italic>, <italic>San Antonio</italic>, <italic>TX</italic>: W. Bradley; S. Merritt; C. Rhodes; L. Tomlin; J. Wessely</p>
+<p><italic>Tripler Army Medical Center</italic>, <italic>Honolulu</italic>, <italic>HI</italic>: COL T. Ferguson; LTC J. Hawley-Molloy</p>
+<p><italic>Walter Reed National Military Medical Center</italic>, <italic>Bethesda</italic>, <italic>MD</italic>: MAJ J. Blaylock; H. Burris; C. Decker; LTC R. Ressner; D. Wallace; CAPT T. Whitman</p>
+<p><italic>Walter Reed Army Institute of Research</italic>, <italic>Silver Spring</italic>, <italic>MD</italic>: N. Johnson; S. Peel</p>
+<p><italic>National Institute of Allergy and Infectious Diseases</italic>, <italic>Bethesda</italic>, <italic>MD</italic>: J. Powers; COL (Ret) E. Tramont</p>
+<p>The content of this publication is the sole responsibility of the authors and does not necessarily reflect the views or policies of the NIH or the Department of Health and Human Services, Veterans Administration, the DOD or the Departments of the Army, Navy or Air Force. Mention of trade names, commercial products, or organizations does not imply endorsement by the U.S. Government.</p>
+</sec>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0152588.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Althoff</surname> <given-names>KN</given-names></name>, <name name-style="western"><surname>McGinnis</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Wyatt</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Freiberg</surname> <given-names>MS</given-names></name>, <name name-style="western"><surname>Gilbert</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Oursler</surname> <given-names>KK</given-names></name>, <etal>et al</etal>. <article-title>Comparison of risk and age at diagnosis of myocardial infarction, end-stage renal disease, and non-AIDS-defining cancer in HIV-infected versus uninfected adults</article-title>. <source>Clin Infect Dis</source>. <year>2015</year>;<volume>60</volume>(<issue>4</issue>):<fpage>627</fpage>–<lpage>38</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/cid/ciu869" xlink:type="simple">10.1093/cid/ciu869</ext-link></comment> <object-id pub-id-type="pmid">25362204</object-id>; PubMed Central PMCID: PMC4318916.</mixed-citation></ref>
+<ref id="pone.0152588.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>El-Sadr</surname> <given-names>WM</given-names></name>, <name name-style="western"><surname>Lundgren</surname> <given-names>JD</given-names></name>, <name name-style="western"><surname>Neaton</surname> <given-names>JD</given-names></name>, <name name-style="western"><surname>Gordin</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Abrams</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Arduino</surname> <given-names>RC</given-names></name>, <etal>et al</etal>. <article-title>CD4+ count-guided interruption of antiretroviral treatment</article-title>. <source>The New England journal of medicine</source>. <year>2006</year>;<volume>355</volume>(<issue>22</issue>):<fpage>2283</fpage>–<lpage>96</lpage>. Epub 2006/12/01. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1056/NEJMoa062360" xlink:type="simple">10.1056/NEJMoa062360</ext-link></comment> <object-id pub-id-type="pmid">17135583</object-id>.</mixed-citation></ref>
+<ref id="pone.0152588.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Freiberg</surname> <given-names>MS</given-names></name>, <name name-style="western"><surname>Chang</surname> <given-names>CC</given-names></name>, <name name-style="western"><surname>Kuller</surname> <given-names>LH</given-names></name>, <name name-style="western"><surname>Skanderson</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Lowy</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Kraemer</surname> <given-names>KL</given-names></name>, <etal>et al</etal>. <article-title>HIV infection and the risk of acute myocardial infarction</article-title>. <source>JAMA internal medicine</source>. <year>2013</year>;<volume>173</volume>(<issue>8</issue>):<fpage>614</fpage>–<lpage>22</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1001/jamainternmed.2013.3728" xlink:type="simple">10.1001/jamainternmed.2013.3728</ext-link></comment> <object-id pub-id-type="pmid">23459863</object-id>.</mixed-citation></ref>
+<ref id="pone.0152588.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Neuhaus</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Jacobs</surname> <given-names>DR</given-names> <suffix>Jr.</suffix></name>, <name name-style="western"><surname>Baker</surname> <given-names>JV</given-names></name>, <name name-style="western"><surname>Calmy</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Duprez</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>La Rosa</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Markers of inflammation, coagulation, and renal function are elevated in adults with HIV infection</article-title>. <source>J Infect Dis</source>. <year>2010</year>;<volume>201</volume>(<issue>12</issue>):<fpage>1788</fpage>–<lpage>95</lpage>. Epub 2010/05/08. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1086/652749" xlink:type="simple">10.1086/652749</ext-link></comment> <object-id pub-id-type="pmid">20446848</object-id>; PubMed Central PMCID: PMC2872049.</mixed-citation></ref>
+<ref id="pone.0152588.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kuller</surname> <given-names>LH</given-names></name>, <name name-style="western"><surname>Tracy</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Belloso</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>De Wit</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Drummond</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Lane</surname> <given-names>HC</given-names></name>, <etal>et al</etal>. <article-title>Inflammatory and coagulation biomarkers and mortality in patients with HIV infection</article-title>. <source>PLoS Med</source>. <year>2008</year>;<volume>5</volume>(<issue>10</issue>):<fpage>e203</fpage>. Epub 2008/10/24. 08-PLME-RA-0628 [pii] <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pmed.0050203" xlink:type="simple">10.1371/journal.pmed.0050203</ext-link></comment> <object-id pub-id-type="pmid">18942885</object-id>; PubMed Central PMCID: PMC2570418.</mixed-citation></ref>
+<ref id="pone.0152588.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Group</surname> <given-names>ISS</given-names></name>, <name name-style="western"><surname>Lundgren</surname> <given-names>JD</given-names></name>, <name name-style="western"><surname>Babiker</surname> <given-names>AG</given-names></name>, <name name-style="western"><surname>Gordin</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Emery</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Grund</surname> <given-names>B</given-names></name>, <etal>et al</etal>. <article-title>Initiation of Antiretroviral Therapy in Early Asymptomatic HIV Infection</article-title>. <source>The New England journal of medicine</source>. <year>2015</year>;<volume>373</volume>(<issue>9</issue>):<fpage>795</fpage>–<lpage>807</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1056/NEJMoa1506816" xlink:type="simple">10.1056/NEJMoa1506816</ext-link></comment> <object-id pub-id-type="pmid">26192873</object-id>; PubMed Central PMCID: PMCPMC4569751.</mixed-citation></ref>
+<ref id="pone.0152588.ref007"><label>7</label><mixed-citation publication-type="other" xlink:type="simple">Kuller L, Group SS, editors. Elevated Levels of Interleukin-6 and D-dimer Are Associated with an Increased Risk of Death in Patients with HIV. Conference on Retroviruses and Opportunistic Infections; 2008 February 3–6; Boston, Massachusetts.</mixed-citation></ref>
+<ref id="pone.0152588.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Marconi</surname> <given-names>VC</given-names></name>, <name name-style="western"><surname>Grandits</surname> <given-names>GA</given-names></name>, <name name-style="western"><surname>Weintrob</surname> <given-names>AC</given-names></name>, <name name-style="western"><surname>Chun</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Landrum</surname> <given-names>ML</given-names></name>, <name name-style="western"><surname>Ganesan</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Outcomes of highly active antiretroviral therapy in the context of universal access to healthcare: the U.S. Military HIV Natural History Study</article-title>. <source>AIDS research and therapy</source>. <year>2010</year>;<volume>7</volume>:<fpage>14</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1742-6405-7-14" xlink:type="simple">10.1186/1742-6405-7-14</ext-link></comment> <object-id pub-id-type="pmid">20507622</object-id>; PubMed Central PMCID: PMC2894737.</mixed-citation></ref>
+<ref id="pone.0152588.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rubertone</surname> <given-names>MV</given-names></name>, <name name-style="western"><surname>Brundage</surname> <given-names>JF</given-names></name>. <article-title>The Defense Medical Surveillance System and the Department of Defense serum repository: glimpses of the future of public health surveillance</article-title>. <source>American journal of public health</source>. <year>2002</year>;<volume>92</volume>(<issue>12</issue>):<fpage>1900</fpage>–<lpage>4</lpage>. Epub 2002/11/28. <object-id pub-id-type="pmid">12453804</object-id>; PubMed Central PMCID: PMC1447349.</mixed-citation></ref>
+<ref id="pone.0152588.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brodine</surname> <given-names>SK</given-names></name>, <name name-style="western"><surname>Shaffer</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Starkey</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Tasker</surname> <given-names>SA</given-names></name>, <name name-style="western"><surname>Gilcrest</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Louder</surname> <given-names>MK</given-names></name>, <etal>et al</etal>. <article-title>Drug resistance patterns, genetic subtypes, clinical features, and risk factors in military personnel with HIV-1 seroconversion</article-title>. <source>Ann Intern Med</source>. <year>1999</year>;<volume>131</volume>(<issue>7</issue>):<fpage>502</fpage>–<lpage>6</lpage>. Epub 1999/10/03. <object-id pub-id-type="pmid">10507958</object-id>.</mixed-citation></ref>
+<ref id="pone.0152588.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dawson</surname> <given-names>DA</given-names></name>, <name name-style="western"><surname>Pulay</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Grant</surname> <given-names>BF</given-names></name>. <article-title>A comparison of two single-item screeners for hazardous drinking and alcohol use disorder</article-title>. <source>Alcoholism, clinical and experimental research</source>. <year>2010</year>;<volume>34</volume>(<issue>2</issue>):<fpage>364</fpage>–<lpage>74</lpage>. Epub 2009/12/03. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1530-0277.2009.01098.x" xlink:type="simple">10.1111/j.1530-0277.2009.01098.x</ext-link></comment> <object-id pub-id-type="pmid">19951291</object-id>.</mixed-citation></ref>
+<ref id="pone.0152588.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Armah</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>McGinnis</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Baker</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Gibert</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Butt</surname> <given-names>AA</given-names></name>, <name name-style="western"><surname>Bryant</surname> <given-names>KJ</given-names></name>, <etal>et al</etal>. <article-title>HIV status, burden of comorbid disease, and biomarkers of inflammation, altered coagulation, and monocyte activation</article-title>. <source>Clin Infect Dis</source>. <year>2012</year>;<volume>55</volume>(<issue>1</issue>):<fpage>126</fpage>–<lpage>36</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/cid/cis406" xlink:type="simple">10.1093/cid/cis406</ext-link></comment> <object-id pub-id-type="pmid">22534147</object-id>; PubMed Central PMCID: PMC3493182.</mixed-citation></ref>
+<ref id="pone.0152588.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Betene</surname> <given-names>ADC</given-names></name>, <name name-style="western"><surname>De Wit</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Neuhaus</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Palfreeman</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Pepe</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Pankow</surname> <given-names>JS</given-names></name>, <etal>et al</etal>. <article-title>Interleukin-6, high sensitivity C-reactive protein, and the development of type 2 diabetes among HIV-positive patients taking antiretroviral therapy</article-title>. <source>J Acquir Immune Defic Syndr</source>. <year>2014</year>;<volume>67</volume>(<issue>5</issue>):<fpage>538</fpage>–<lpage>46</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/QAI.0000000000000354" xlink:type="simple">10.1097/QAI.0000000000000354</ext-link></comment> <object-id pub-id-type="pmid">25393940</object-id>; PubMed Central PMCID: PMCPMC4231540.</mixed-citation></ref>
+<ref id="pone.0152588.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rincon</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Irvin</surname> <given-names>CG</given-names></name>. <article-title>Role of IL-6 in asthma and other inflammatory pulmonary diseases</article-title>. <source>Int J Biol Sci</source>. <year>2012</year>;<volume>8</volume>(<issue>9</issue>):<fpage>1281</fpage>–<lpage>90</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.7150/ijbs.4874" xlink:type="simple">10.7150/ijbs.4874</ext-link></comment> <object-id pub-id-type="pmid">23136556</object-id>; PubMed Central PMCID: PMCPMC3491451.</mixed-citation></ref>
+<ref id="pone.0152588.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Peters</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Neuhaus</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Duprez</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Neaton</surname> <given-names>JD</given-names></name>, <name name-style="western"><surname>Tracy</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Klein</surname> <given-names>MB</given-names></name>, <etal>et al</etal>. <article-title>Biomarkers of inflammation, coagulation and microbial translocation in HIV/HCV co-infected patients in the SMART study</article-title>. <source>J Clin Virol</source>. <year>2014</year>;<volume>60</volume>(<issue>3</issue>):<fpage>295</fpage>–<lpage>300</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jcv.2014.03.017" xlink:type="simple">10.1016/j.jcv.2014.03.017</ext-link></comment> <object-id pub-id-type="pmid">24793968</object-id>.</mixed-citation></ref>
+<ref id="pone.0152588.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Armah</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Quinn</surname> <given-names>EK</given-names></name>, <name name-style="western"><surname>Cheng</surname> <given-names>DM</given-names></name>, <name name-style="western"><surname>Tracy</surname> <given-names>RP</given-names></name>, <name name-style="western"><surname>Baker</surname> <given-names>JV</given-names></name>, <name name-style="western"><surname>Samet</surname> <given-names>JH</given-names></name>, <etal>et al</etal>. <article-title>Human immunodeficiency virus, hepatitis C, and inflammatory biomarkers in individuals with alcohol problems: a cross-sectional study</article-title>. <source>BMC infectious diseases</source>. <year>2013</year>;<volume>13</volume>:<fpage>399</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1471-2334-13-399" xlink:type="simple">10.1186/1471-2334-13-399</ext-link></comment> <object-id pub-id-type="pmid">23987993</object-id>; PubMed Central PMCID: PMCPMC3848623.</mixed-citation></ref>
+<ref id="pone.0152588.ref017"><label>17</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Efron</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Tibshirani</surname> <given-names>RJ</given-names></name>. <chapter-title>An Introduction to the Bootstrap</chapter-title> (<source>Chapman &amp; Hall/CRC Monographs on Statistics &amp; Applied Probability</source>). <year>1994</year>.</mixed-citation></ref>
+<ref id="pone.0152588.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Delvaeye</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Conway</surname> <given-names>EM</given-names></name>. <article-title>Coagulation and innate immune responses: can we view them separately?</article-title> <source>Blood</source>. <year>2009</year>;<volume>114</volume>(<issue>12</issue>):<fpage>2367</fpage>–<lpage>74</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1182/blood-2009-05-199208" xlink:type="simple">10.1182/blood-2009-05-199208</ext-link></comment> <object-id pub-id-type="pmid">19584396</object-id>.</mixed-citation></ref>
+<ref id="pone.0152588.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Palella</surname> <given-names>FJ</given-names> <suffix>Jr.</suffix></name>, <name name-style="western"><surname>Gange</surname> <given-names>SJ</given-names></name>, <name name-style="western"><surname>Benning</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Jacobson</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Kaplan</surname> <given-names>RC</given-names></name>, <name name-style="western"><surname>Landay</surname> <given-names>AL</given-names></name>, <etal>et al</etal>. <article-title>Inflammatory biomarkers and abacavir use in the Women's Interagency HIV Study and the Multicenter AIDS Cohort Study</article-title>. <source>AIDS</source>. <year>2010</year>;<volume>24</volume>(<issue>11</issue>):<fpage>1657</fpage>–<lpage>65</lpage>. Epub 2010/07/01. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/QAD.0b013e3283389dfa" xlink:type="simple">10.1097/QAD.0b013e3283389dfa</ext-link></comment> 00002030-201007170-00006 [pii]. <object-id pub-id-type="pmid">20588104</object-id>.</mixed-citation></ref>
+<ref id="pone.0152588.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wada</surname> <given-names>NI</given-names></name>, <name name-style="western"><surname>Jacobson</surname> <given-names>LP</given-names></name>, <name name-style="western"><surname>Margolick</surname> <given-names>JB</given-names></name>, <name name-style="western"><surname>Breen</surname> <given-names>EC</given-names></name>, <name name-style="western"><surname>Macatangay</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Penugonda</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>The effect of HAART-induced HIV suppression on circulating markers of inflammation and immune activation</article-title>. <source>AIDS</source>. <year>2015</year>;<volume>29</volume>(<issue>4</issue>):<fpage>463</fpage>–<lpage>71</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/QAD.0000000000000545" xlink:type="simple">10.1097/QAD.0000000000000545</ext-link></comment> <object-id pub-id-type="pmid">25630041</object-id>; PubMed Central PMCID: PMCPMC4311407.</mixed-citation></ref>
+<ref id="pone.0152588.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Baker</surname> <given-names>JV</given-names></name>, <name name-style="western"><surname>Brummel-Ziedins</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Neuhaus</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Duprez</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Cummins</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Dalmau</surname> <given-names>D</given-names></name>, <etal>et al</etal>. <article-title>HIV Replication Alters the Composition of Extrinsic Pathway Coagulation Factors and Increases Thrombin Generation</article-title>. <source>Journal of the American Heart Association</source>. <year>2013</year>;<volume>2</volume>(<issue>4</issue>):<fpage>e000264</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1161/JAHA.113.000264" xlink:type="simple">10.1161/JAHA.113.000264</ext-link></comment> <object-id pub-id-type="pmid">23896681</object-id>; PubMed Central PMCID: PMC3828789.</mixed-citation></ref>
+<ref id="pone.0152588.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Borges</surname> <given-names>AH</given-names></name>, <name name-style="western"><surname>O'Connor</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Phillips</surname> <given-names>AN</given-names></name>, <name name-style="western"><surname>Baker</surname> <given-names>JV</given-names></name>, <name name-style="western"><surname>Vjecha</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Losso</surname> <given-names>MH</given-names></name>, <etal>et al</etal>. <article-title>Factors associated with D-dimer levels in HIV-infected individuals</article-title>. <source>PLoS One</source>. <year>2014</year>;<volume>9</volume>(<issue>3</issue>):<fpage>e90978</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0090978" xlink:type="simple">10.1371/journal.pone.0090978</ext-link></comment> <object-id pub-id-type="pmid">24626096</object-id>; PubMed Central PMCID: PMC3953205.</mixed-citation></ref>
+<ref id="pone.0152588.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nordell</surname> <given-names>AD</given-names></name>, <name name-style="western"><surname>McKenna</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Borges</surname> <given-names>AH</given-names></name>, <name name-style="western"><surname>Duprez</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Neuhaus</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Neaton</surname> <given-names>JD</given-names></name>, <etal>et al</etal>. <article-title>Severity of cardiovascular disease outcomes among patients with HIV is related to markers of inflammation and coagulation</article-title>. <source>Journal of the American Heart Association</source>. <year>2014</year>;<volume>3</volume>(<issue>3</issue>):<fpage>e000844</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1161/JAHA.114.000844" xlink:type="simple">10.1161/JAHA.114.000844</ext-link></comment> <object-id pub-id-type="pmid">24870935</object-id>; PubMed Central PMCID: PMC4309077.</mixed-citation></ref>
+<ref id="pone.0152588.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Koethe</surname> <given-names>JR</given-names></name>, <name name-style="western"><surname>Dee</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Bian</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Shintani</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Turner</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Bebawy</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Circulating interleukin-6, soluble CD14, and other inflammation biomarker levels differ between obese and nonobese HIV-infected adults on antiretroviral therapy</article-title>. <source>AIDS Res Hum Retroviruses</source>. <year>2013</year>;<volume>29</volume>(<issue>7</issue>):<fpage>1019</fpage>–<lpage>25</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1089/AID.2013.0016" xlink:type="simple">10.1089/AID.2013.0016</ext-link></comment> <object-id pub-id-type="pmid">23469772</object-id>; PubMed Central PMCID: PMC3685684.</mixed-citation></ref>
+<ref id="pone.0152588.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fuster</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Tsui</surname> <given-names>JI</given-names></name>, <name name-style="western"><surname>Cheng</surname> <given-names>DM</given-names></name>, <name name-style="western"><surname>Quinn</surname> <given-names>EK</given-names></name>, <name name-style="western"><surname>Armah</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Nunes</surname> <given-names>D</given-names></name>, <etal>et al</etal>. <article-title>Interleukin-6 Is Associated with Noninvasive Markers of Liver Fibrosis in HIV-Infected Patients with Alcohol Problems</article-title>. <source>AIDS Res Hum Retroviruses</source>. <year>2013</year>. Epub 2013/04/23. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1089/AID.2012.0348" xlink:type="simple">10.1089/AID.2012.0348</ext-link></comment> <object-id pub-id-type="pmid">23601055</object-id>.</mixed-citation></ref>
+<ref id="pone.0152588.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Palella</surname> <given-names>FJ</given-names> <suffix>Jr.</suffix></name>, <name name-style="western"><surname>Delaney</surname> <given-names>KM</given-names></name>, <name name-style="western"><surname>Moorman</surname> <given-names>AC</given-names></name>, <name name-style="western"><surname>Loveless</surname> <given-names>MO</given-names></name>, <name name-style="western"><surname>Fuhrer</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Satten</surname> <given-names>GA</given-names></name>, <etal>et al</etal>. <article-title>Declining morbidity and mortality among patients with advanced human immunodeficiency virus infection. HIV Outpatient Study Investigators</article-title>. <source>The New England journal of medicine</source>. <year>1998</year>;<volume>338</volume>(<issue>13</issue>):<fpage>853</fpage>–<lpage>60</lpage>. Epub 1998/03/27. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1056/NEJM199803263381301" xlink:type="simple">10.1056/NEJM199803263381301</ext-link></comment> <object-id pub-id-type="pmid">9516219</object-id>.</mixed-citation></ref>
+<ref id="pone.0152588.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Justice</surname> <given-names>AC</given-names></name>, <name name-style="western"><surname>Lasky</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>McGinnis</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Skanderson</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Conigliaro</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Fultz</surname> <given-names>SL</given-names></name>, <etal>et al</etal>. <article-title>Medical disease and alcohol use among veterans with human immunodeficiency infection: A comparison of disease measurement strategies</article-title>. <source>Med Care</source>. <year>2006</year>;<volume>44</volume>(<issue>8 Suppl 2</issue>):<fpage>S52</fpage>–<lpage>60</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/01.mlr.0000228003.08925.8c" xlink:type="simple">10.1097/01.mlr.0000228003.08925.8c</ext-link></comment> <object-id pub-id-type="pmid">16849969</object-id>.</mixed-citation></ref>
+<ref id="pone.0152588.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Deeks</surname> <given-names>SG</given-names></name>, <name name-style="western"><surname>Lewin</surname> <given-names>SR</given-names></name>, <name name-style="western"><surname>Havlir</surname> <given-names>DV</given-names></name>. <article-title>The end of AIDS: HIV infection as a chronic disease</article-title>. <source>Lancet</source>. <year>2013</year>;<volume>382</volume>(<issue>9903</issue>):<fpage>1525</fpage>–<lpage>33</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0140-6736(13)61809-7" xlink:type="simple">10.1016/S0140-6736(13)61809-7</ext-link></comment> <object-id pub-id-type="pmid">24152939</object-id>; PubMed Central PMCID: PMC4058441.</mixed-citation></ref>
+<ref id="pone.0152588.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Duprez</surname> <given-names>DA</given-names></name>, <name name-style="western"><surname>Neuhaus</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kuller</surname> <given-names>LH</given-names></name>, <name name-style="western"><surname>Tracy</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Belloso</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>De Wit</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Inflammation, coagulation and cardiovascular disease in HIV-infected individuals</article-title>. <source>PLoS One</source>. <year>2012</year>;<volume>7</volume>(<issue>9</issue>):<fpage>e44454</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0044454" xlink:type="simple">10.1371/journal.pone.0044454</ext-link></comment> <object-id pub-id-type="pmid">22970224</object-id>; PubMed Central PMCID: PMC3438173.</mixed-citation></ref>
+<ref id="pone.0152588.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wannamethee</surname> <given-names>SG</given-names></name>, <name name-style="western"><surname>Whincup</surname> <given-names>PH</given-names></name>, <name name-style="western"><surname>Shaper</surname> <given-names>AG</given-names></name>, <name name-style="western"><surname>Rumley</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Lennon</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Lowe</surname> <given-names>GD</given-names></name>. <article-title>Circulating inflammatory and hemostatic biomarkers are associated with risk of myocardial infarction and coronary death, but not angina pectoris, in older men</article-title>. <source>Journal of thrombosis and haemostasis: JTH</source>. <year>2009</year>;<volume>7</volume>(<issue>10</issue>):<fpage>1605</fpage>–<lpage>11</lpage>. Epub 2009/08/18. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1538-7836.2009.03574.x" xlink:type="simple">10.1111/j.1538-7836.2009.03574.x</ext-link></comment> <object-id pub-id-type="pmid">19682232</object-id>; PubMed Central PMCID: PMC2810437.</mixed-citation></ref>
+<ref id="pone.0152588.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ridker</surname> <given-names>PM</given-names></name>, <name name-style="western"><surname>Rifai</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Stampfer</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Hennekens</surname> <given-names>CH</given-names></name>. <article-title>Plasma concentration of interleukin-6 and the risk of future myocardial infarction among apparently healthy men</article-title>. <source>Circulation</source>. <year>2000</year>;<volume>101</volume>(<issue>15</issue>):<fpage>1767</fpage>–<lpage>72</lpage>. Epub 2000/04/19. <object-id pub-id-type="pmid">10769275</object-id>.</mixed-citation></ref>
+<ref id="pone.0152588.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Deeks</surname> <given-names>SG</given-names></name>, <name name-style="western"><surname>Tracy</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Douek</surname> <given-names>DC</given-names></name>. <article-title>Systemic effects of inflammation on health during chronic HIV infection</article-title>. <source>Immunity</source>. <year>2013</year>;<volume>39</volume>(<issue>4</issue>):<fpage>633</fpage>–<lpage>45</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.immuni.2013.10.001" xlink:type="simple">10.1016/j.immuni.2013.10.001</ext-link></comment> <object-id pub-id-type="pmid">24138880</object-id>; PubMed Central PMCID: PMC4012895.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

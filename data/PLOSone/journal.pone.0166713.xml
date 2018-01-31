@@ -1,0 +1,852 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0166713</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-16-29359</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Viruses</subject><subj-group><subject>DNA viruses</subject><subj-group><subject>Papillomaviruses</subject><subj-group><subject>Human papillomavirus</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Microbiology</subject><subj-group><subject>Medical microbiology</subject><subj-group><subject>Microbial pathogens</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Papillomaviruses</subject><subj-group><subject>Human papillomavirus</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pathology and laboratory medicine</subject><subj-group><subject>Pathogens</subject><subj-group><subject>Microbial pathogens</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Papillomaviruses</subject><subj-group><subject>Human papillomavirus</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Viruses</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Papillomaviruses</subject><subj-group><subject>Human papillomavirus</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Oncology</subject><subj-group><subject>Cancers and neoplasms</subject><subj-group><subject>Gynecological tumors</subject><subj-group><subject>Cervical cancer</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Urology</subject><subj-group><subject>Genitourinary infections</subject><subj-group><subject>Human papillomavirus infection</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Infectious diseases</subject><subj-group><subject>Sexually transmitted diseases</subject><subj-group><subject>Human papillomavirus infection</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Infectious diseases</subject><subj-group><subject>Viral diseases</subject><subj-group><subject>Human papillomavirus infection</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Immunology</subject><subj-group><subject>Vaccination and immunization</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Immunology</subject><subj-group><subject>Vaccination and immunization</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Public and occupational health</subject><subj-group><subject>Preventive medicine</subject><subj-group><subject>Vaccination and immunization</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Immunology</subject><subj-group><subject>Vaccination and immunization</subject><subj-group><subject>Vaccines</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Immunology</subject><subj-group><subject>Vaccination and immunization</subject><subj-group><subject>Vaccines</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Public and occupational health</subject><subj-group><subject>Preventive medicine</subject><subj-group><subject>Vaccination and immunization</subject><subj-group><subject>Vaccines</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Geographical locations</subject><subj-group><subject>Asia</subject><subj-group><subject>India</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Oncology</subject><subj-group><subject>Cancer prevention</subject><subj-group><subject>Cancer vaccines</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Immunology</subject><subj-group><subject>Vaccination and immunization</subject><subj-group><subject>Vaccines</subject><subj-group><subject>Cancer vaccines</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Immunology</subject><subj-group><subject>Vaccination and immunization</subject><subj-group><subject>Vaccines</subject><subj-group><subject>Cancer vaccines</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Public and occupational health</subject><subj-group><subject>Preventive medicine</subject><subj-group><subject>Vaccination and immunization</subject><subj-group><subject>Vaccines</subject><subj-group><subject>Cancer vaccines</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Health care</subject><subj-group><subject>Health education and awareness</subject></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Knowledge, Awareness and Attitude on HPV, HPV Vaccine and Cervical Cancer among the College Students in India</article-title>
+<alt-title alt-title-type="running-head">Knowledge and Awareness of College Students on HPV and HPV Vaccine</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Rashid</surname>
+<given-names>Shazia</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Labani</surname>
+<given-names>Satyanarayana</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Das</surname>
+<given-names>Bhudev C.</given-names>
+</name>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Amity Institute of Biotechnology, Amity University Uttar Pradesh, Noida, India</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Department of Epidemiology and Biostatistics, Institute of Cytology and Preventive Oncology (ICPO), Uttar Pradesh, Noida, India</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Stem Cell &amp; Cancer Research Lab, Amity Institute of Molecular Medicine &amp; Stem Cell Research (AIMMSCR), Amity University Uttar Pradesh, Noida, India</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Natarajaseenivasan</surname>
+<given-names>Kalimuthusamy</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Bharathidasan University, INDIA</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="con">
+<p><list list-type="simple">
+<list-item><p><bold>Conceptualization:</bold> BCD.</p></list-item>
+<list-item><p><bold>Data curation:</bold> BCD SR.</p></list-item>
+<list-item><p><bold>Formal analysis:</bold> SR SL.</p></list-item>
+<list-item><p><bold>Investigation:</bold> SR.</p></list-item>
+<list-item><p><bold>Methodology:</bold> BCD SR.</p></list-item>
+<list-item><p><bold>Project administration:</bold> BCD.</p></list-item>
+<list-item><p><bold>Resources:</bold> BCD SR.</p></list-item>
+<list-item><p><bold>Software:</bold> SL.</p></list-item>
+<list-item><p><bold>Supervision:</bold> BCD.</p></list-item>
+<list-item><p><bold>Validation:</bold> SR SL.</p></list-item>
+<list-item><p><bold>Visualization:</bold> BCD SR.</p></list-item>
+<list-item><p><bold>Writing – original draft:</bold> SR.</p></list-item>
+<list-item><p><bold>Writing – review &amp; editing:</bold> BCD.</p></list-item></list></p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">bcdas@amity.edu</email>, <email xlink:type="simple">bcdas48@hotmail.com</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>18</day>
+<month>11</month>
+<year>2016</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2016</year>
+</pub-date>
+<volume>11</volume>
+<issue>11</issue>
+<elocation-id>e0166713</elocation-id>
+<history>
+<date date-type="received">
+<day>22</day>
+<month>7</month>
+<year>2016</year>
+</date>
+<date date-type="accepted">
+<day>2</day>
+<month>11</month>
+<year>2016</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2016</copyright-year>
+<copyright-holder>Rashid et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0166713"/>
+<abstract>
+<sec id="sec001">
+<title>Background</title>
+<p>Infection of specific high risk Human papillomaviruses (HPVs) is known to cause cervical cancer and two prophylactic vaccines have been developed against two major high risk HPV types 16 and 18 for prevention of cervical cancer. Because of societal, religious and ethical issues associated with the vaccination of adolescent girls in India together with lack of awareness about HPV and HPV vaccines, no successful HPV immunization program has been employed in India.</p>
+</sec>
+<sec id="sec002">
+<title>Objective</title>
+<p>To determine knowledge, awareness and attitude of college students on HPV, HPV vaccine and cervical cancer.</p>
+</sec>
+<sec id="sec003">
+<title>Method</title>
+<p>A questionnaire-based survey was conducted in a total of 1580 undergraduate students between the age group 16–26 years comprising 684 girls and 876 boys.</p>
+</sec>
+<sec id="sec004">
+<title>Results</title>
+<p>Out of a total of 1580 students, girls had more knowledge about cervical cancer (82.45%, p&lt;0.001), HPV (45.61%, p&lt;0.001) and HPV vaccines (44%, p&lt;0.001) when compared to those in boys. However, knowledge about the types of HPV and vaccines was poor. Interestingly, students from biology-major had more knowledge and awareness about cervical cancer (81.89%, p&lt;0.001) and HPV (46.58%, &lt;0.001) when compared to non-biology students. Girls from both biology and non-biology group had higher awareness compared to boys. Analysis of odds ratio (ORs) along with 95% CI showed older girls with 1.2 to 3 fold (p&lt;0.05) higher knowledge than boys. All students agreed that girls should get vaccinated against HPV (p&lt;0.001).</p>
+</sec>
+<sec id="sec005">
+<title>Conclusion</title>
+<p>It is suggested that there is a need for educational intervention and awareness campaigns to augment HPV immunization program for control of cervical cancer in India.</p>
+</sec>
+</abstract>
+<funding-group>
+<funding-statement>The authors received no specific funding for this work.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="0"/>
+<table-count count="4"/>
+<page-count count="11"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec006" sec-type="intro">
+<title>Introduction</title>
+<p>Cervical cancer is the third most commonly diagnosed cancer worldwide and the fourth leading cause of cancer death in women [<xref ref-type="bibr" rid="pone.0166713.ref001">1</xref>] but in India, it is the leading cancer among women [<xref ref-type="bibr" rid="pone.0166713.ref002">2</xref>] accounting for more than 74,000 deaths per year [<xref ref-type="bibr" rid="pone.0166713.ref003">3</xref>].</p>
+<p>The principal causative agent for the development of cervical cancer is the infection of specific high risk types of human papillomaviruses (HPVs). Though more than 140 types of HPV have been identified only about 40 types are sexually transmitted. Of these, two high risk HPV types 16 and HPV 18 are responsible for more than 80% of cervical cancer in India [<xref ref-type="bibr" rid="pone.0166713.ref004">4</xref>–<xref ref-type="bibr" rid="pone.0166713.ref007">7</xref>]. In addition, a variety of clinic-epidemiological risk factors such as early age of marriage, multiple sexual partners, multiple pregnancies, poor genital hygiene and smoking etc. are often associated with the development of cervical cancer [<xref ref-type="bibr" rid="pone.0166713.ref008">8</xref>]. For primary prevention, recently two vaccines, a quadrivalent (HPV 16, 18, 6 and 11) ‘Gardasil’ and a bivalent (HPV 19 and 18)‘Cervarix’ [<xref ref-type="bibr" rid="pone.0166713.ref009">9</xref>–<xref ref-type="bibr" rid="pone.0166713.ref010">10</xref>] have been introduced for vaccinating young adolescent girls between ages 9–13 and/or 13–26 year young adults[<xref ref-type="bibr" rid="pone.0166713.ref011">11</xref>]. These two HPV vaccines were US FDA (Food and Drug Administration) approved and are commercially available in India. However, inspite of these vaccines are reported to be highly immunogenic, safe, well tolerated and highly effective in preventing HPV infection, HPV vaccines are still not a part of the National Immunization Program. These vaccines were rather suspended because of certain unrelated deaths occurred during HPV vaccine immunogenicity trials conducted in the states of Andra Pradesh and Gujarat by PATH (Program for Appropriate Technology in Health) and ICMR (Indian Council of Medical Research) [<xref ref-type="bibr" rid="pone.0166713.ref012">12</xref>]. So no successful immunization program is introduced in India. There also exist other reasons such as higher cost of vaccines, including societal, religious and cultural issues and fear of adverse effects that may occur after immunization. Another major reason is the lack of awareness and knowledge about HPV, HPV vaccines and cervical cancer among people resulting in only small number of immunizations being carried out at private clinics. It is of general observation that HPV immunization of adolescent girls is mainly found among the educated mass of India. On the contrary, in western countries like U.S.A and Europe, HPV vaccines are approved for mass scale use and included in the national immunization program for reducing the burden of cervical cancer.</p>
+<p>The success and benefit of control and prevention of cervical cancer largely depend to a great extent on the level of awareness and knowledge about different aspects of the disease and the vaccine. It is therefore important to target immunizable young adult college-going girls and boys, as both are part of the infection chain and at risk for HPV infection as they are living a more independent lifestyle but have a choice to undergo vaccination with the consent from parents and are within the age group of successful vaccination outcome. Hence, assessment of their knowledge, awareness and attitude towards the causes of cervical cancer, HPV infection and vaccination available for the disease including adequate participation in immunization programs can lead to successful reduction in disease burden and control of cervical cancer in India. Along with screening, HPV detection and prevention strategies, creating knowledge and awareness among youth can help in further reduction in cervical cancer burden. Thus, the study aimed at assessing the extent of knowledge, awareness and attitude towards HPV, HPV vaccine and cervical cancer among college students in a premier private university where students come from different parts of the country but mostly from a higher echelon of the society. The results demonstrate that the awareness and knowledge of HPV, HPV vaccine and cervical cancer is low and depend mainly on age, sex and education-background of the college students.</p>
+</sec>
+<sec id="sec007" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="sec008">
+<title>Study area and subjects</title>
+<p>The study was carried out from January to March 2015 at Amity University Uttar Pradesh (AUUP), NOIDA campus which is one of the largest private universities of India. It is one of the biggest campuses and is located in the National Capital Region (NCR). It has students from all over India and abroad, the majority of whom belong to affluent and educated families with access to print and visual media. The students were from both urban and rural areas but majority belong to urban areas. The study was approved by the Institutional Ethics Committee, Amity University, NOIDA, India. An informed, written consent was obtained from each participant and recorded for the study. The informed consent form was also approved by the Institutional Ethics Committee, Amity University, NOIDA, India.</p>
+<p>A pre-tested questionnaire (<xref ref-type="table" rid="pone.0166713.t001">Table 1</xref>) was used in a cross-sectional study. The study was conducted in a total of 1580 undergraduate students comprising 684 girls and 876 boys between the age group of 16–26 years.</p>
+<table-wrap id="pone.0166713.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0166713.t001</object-id>
+<label>Table 1</label> <caption><title>Questionnaire employed for awareness about cervical cancer and HPV.</title></caption>
+<alternatives>
+<graphic id="pone.0166713.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0166713.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<tbody>
+<tr>
+<td align="left">Q1</td>
+<td align="left">Do you know what uterine cervical cancer is?</td>
+</tr>
+<tr>
+<td align="left">Q2</td>
+<td align="left">What are the causes of cervical cancer?</td>
+</tr>
+<tr>
+<td align="left">Q3</td>
+<td align="left">What is Human papillomavirus (HPV) and its relation with cervical cancer?</td>
+</tr>
+<tr>
+<td align="left">Q4</td>
+<td align="left">What are the major cancer causing HPV types?</td>
+</tr>
+<tr>
+<td align="left">Q5</td>
+<td align="left">Does HPV cause genital warts in women?</td>
+</tr>
+<tr>
+<td align="left">Q6</td>
+<td align="left">Do you know there exists vaccines against HPV?</td>
+</tr>
+<tr>
+<td align="left">Q7</td>
+<td align="left">Do you know the names of HPV vaccines?</td>
+</tr>
+<tr>
+<td align="left">Q8</td>
+<td align="left">Who are eligible to take HPV vaccine?</td>
+</tr>
+<tr>
+<td align="left">Q9</td>
+<td align="left">Are you vaccinated for HPV</td>
+</tr>
+<tr>
+<td align="left">Q10</td>
+<td align="left">Should only adolescent girls take HPV vaccine?</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec009">
+<title>Sample size and questionnaire</title>
+<p>Considering 25 percent HPV awareness with 3 percent allowable error and 95 percent CI, a sample of 800 was required. This was doubled i.e. 1600 to make it sufficient for sub-groups comparison. The pre-tested questionnaire was developed first to gather information on age, sex, religion, biology or non-biology background, place of residence and family income of the students while the second part formed a set of ten questions involving knowledge of cervical cancer, HPV and awareness about HPV vaccine and opinion about vaccination for girls and boys. The questionnaire was administered to the students and the data from questionnaire was processed anonymously by assigning random codes.</p>
+<p>Students were categorised into groups based on three factors; sex (male vs. female), age (younger students ≤ 19years vs. older students &gt; 19years) and educational background (biology vs. non-biology)in order to examine which of these factors are strongly associated with the knowledge, awareness and attitude towards cervical cancer, HPV and HPV vaccination. Biology background students were pursuing undergraduate education in Biotechnology and non-biology background students were from various streams of Engineering.</p>
+</sec>
+<sec id="sec010">
+<title>Statistical analyses</title>
+<p>Chi-square and Fishers’ exact tests were used to evaluate the association among various factors related to awareness cervical cancer and HPV. Statistical analysis was carried out using Statistical Package for Social Sciences program (SPSS, version 21.0, IBM). Multivariate analysis was applied and odds ratios (ORs) along with 95% CI were also calculated.</p>
+</sec>
+</sec>
+<sec id="sec011" sec-type="results">
+<title>Results</title>
+<p>Data collected through questionnaire were tabulated and analysed using various statistical methods. Out of a total of 1580 students interviewed, the number of girls was 684 and 876 boys who were again categorised based on their age into younger (≤ 19years) and older (&gt; 19years) and background in biology or physical sciences. Of the total students, girls had more knowledge about cervical cancer (82.45%, p&lt;0.0001), causes of cervical cancer (11.54%, p&lt;0.001) and HPV being the major cause of cervical cancer (45.61%, p&lt;0.001) and also about genital warts (42.54%, p&lt;0.001) compared to boys (<xref ref-type="table" rid="pone.0166713.t002">Table 2</xref>). Among girls, older girls were more aware compared to younger girls about cervical cancer (88.55%, p&lt;0.0001) and HPV as its major causative agent (57.23%, p&lt;0.0001)(<xref ref-type="table" rid="pone.0166713.t002">Table 2</xref>).There was no significant difference in awareness about oncogenic HPV types between girls and boys in general although a small percentage of older girls were more aware (2.02%, p&lt;0.0001) than the younger girls about the oncogenic HPV types. Among boys, older boys had more knowledge about the cervical cancer (64.45, p&lt;0.001), HPV as the major cause of cervical cancer (33.52%, p&lt;0.001) and also responsible for genital warts (38.15, p&lt;0.001)(<xref ref-type="table" rid="pone.0166713.t002">Table 2</xref>). It was also observed that girls were more aware about the existence of HPV vaccines (44%, p&lt;0.001) and eligibility of vaccination (6.28%, p&lt;0.001) compared to boys. However, knowledge about the names of the vaccines was low in both girls and boys. Among girls, older girls were more aware about the existence of HPV vaccines (52.52%, p&lt;0.001). In response to a question regarding mandatory HPV vaccination for girls, significant number of girls responded positively compared to boys (73.24%, p&lt;0.001). A good percentage of older boys also responded positively and were in favour of girls getting vaccinated against HPV (63.58%, p&lt;0.05)(<xref ref-type="table" rid="pone.0166713.t002">Table 2</xref>).</p>
+<table-wrap id="pone.0166713.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0166713.t002</object-id>
+<label>Table 2</label> <caption><title>Knowledge about cervical cancer and HPV among college students based on their sex.</title></caption>
+<alternatives>
+<graphic id="pone.0166713.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0166713.t002" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center" colspan="2" rowspan="3">Parameters responded positive</th>
+<th align="center">Girls</th>
+<th align="center" colspan="2">Young girls</th>
+<th align="center" colspan="2">Older girls</th>
+<th align="center">Boys</th>
+<th align="center" colspan="2">Younger boys</th>
+<th align="center" colspan="2">Older boys</th>
+</tr>
+<tr>
+<th align="center">n = 684</th>
+<th align="center">n = 387</th>
+<th align="center"/>
+<th align="center">n = 297</th>
+<th align="center"/>
+<th align="center">n = 876</th>
+<th align="center">n = 549</th>
+<th align="center"/>
+<th align="center">n = 346</th>
+<th align="center"/>
+</tr>
+<tr>
+<th align="center">No. (%)</th>
+<th align="center">No.</th>
+<th align="center">%</th>
+<th align="center">No.</th>
+<th align="center">%</th>
+<th align="center">No. (%)</th>
+<th align="center">No.</th>
+<th align="center">%</th>
+<th align="center">No.</th>
+<th align="center">%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Q1</td>
+<td align="left">Do you know what uterine cervical cancer is?</td>
+<td align="center"><bold>564 (82.45)</bold><xref ref-type="table-fn" rid="t002fn004">***</xref></td>
+<td align="center">301</td>
+<td align="char" char="."><bold>77.77</bold></td>
+<td align="center">263</td>
+<td align="char" char="."><bold>88.55</bold><xref ref-type="table-fn" rid="t002fn004">***</xref></td>
+<td align="center"><bold>500 (57.07)</bold></td>
+<td align="center">290</td>
+<td align="char" char="."><bold>52.82</bold></td>
+<td align="center">223</td>
+<td align="char" char="."><bold>64.45</bold><xref ref-type="table-fn" rid="t002fn004">***</xref></td>
+</tr>
+<tr>
+<td align="center">Q2</td>
+<td align="left">What are the causes of cervical cancer?</td>
+<td align="center"><bold>79 (11.54)</bold><xref ref-type="table-fn" rid="t002fn004">***</xref></td>
+<td align="center">33</td>
+<td align="char" char="."><bold>8.52</bold></td>
+<td align="center">46</td>
+<td align="char" char="."><bold>15.48</bold><xref ref-type="table-fn" rid="t002fn004">***</xref></td>
+<td align="center"><bold>59 (6.73)</bold></td>
+<td align="center">28</td>
+<td align="char" char="."><bold>5.10</bold></td>
+<td align="center">32</td>
+<td align="char" char="."><bold>9.24</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+</tr>
+<tr>
+<td align="center">Q3</td>
+<td align="left">What is Human papillomavirus (HPV) and its relation with cervical cancer?</td>
+<td align="center"><bold>312 (45.61)</bold><xref ref-type="table-fn" rid="t002fn004">***</xref></td>
+<td align="center">142</td>
+<td align="char" char="."><bold>36.69</bold></td>
+<td align="center">170</td>
+<td align="char" char="."><bold>57.23</bold><xref ref-type="table-fn" rid="t002fn004">***</xref></td>
+<td align="center"><bold>242 (27.62)</bold></td>
+<td align="center">135</td>
+<td align="char" char="."><bold>24.59</bold></td>
+<td align="center">116</td>
+<td align="char" char="."><bold>33.52</bold><xref ref-type="table-fn" rid="t002fn004">***</xref></td>
+</tr>
+<tr>
+<td align="center">Q4</td>
+<td align="left">What are the major cancer causing HPV types?</td>
+<td align="center"><bold>7 (1.02)</bold></td>
+<td align="center">1</td>
+<td align="char" char="."><bold>0.25</bold></td>
+<td align="center">6</td>
+<td align="char" char="."><bold>2.02</bold><xref ref-type="table-fn" rid="t002fn003">**</xref></td>
+<td align="center"><bold>13 (1.48)</bold></td>
+<td align="center">7</td>
+<td align="char" char="."><bold>1.28</bold></td>
+<td align="center">6</td>
+<td align="char" char="."><bold>1.73</bold></td>
+</tr>
+<tr>
+<td align="center">Q5</td>
+<td align="left">Does HPV cause genital warts in women?</td>
+<td align="center"><bold>291 (42.54)</bold><xref ref-type="table-fn" rid="t002fn004">***</xref></td>
+<td align="center">148</td>
+<td align="char" char="."><bold>38.24</bold></td>
+<td align="center">143</td>
+<td align="char" char="."><bold>48.14</bold><xref ref-type="table-fn" rid="t002fn004">***</xref></td>
+<td align="center"><bold>272 (31.05)</bold></td>
+<td align="center">147</td>
+<td align="char" char="."><bold>26.78</bold></td>
+<td align="center">132</td>
+<td align="char" char="."><bold>38.15</bold><xref ref-type="table-fn" rid="t002fn004">***</xref></td>
+</tr>
+<tr>
+<td align="center">Q6</td>
+<td align="left">Do you know there exists vaccines against HPV?</td>
+<td align="center"><bold>301 (44.00)</bold><xref ref-type="table-fn" rid="t002fn004">***</xref></td>
+<td align="center">145</td>
+<td align="char" char="."><bold>37.46</bold></td>
+<td align="center">156</td>
+<td align="char" char="."><bold>52.52</bold><xref ref-type="table-fn" rid="t002fn004">***</xref></td>
+<td align="center"><bold>273 (31.16)</bold></td>
+<td align="center">158</td>
+<td align="char" char="."><bold>28.78</bold></td>
+<td align="center">121</td>
+<td align="char" char="."><bold>34.97</bold></td>
+</tr>
+<tr>
+<td align="center">Q7</td>
+<td align="left">Do you know the names of HPV vaccines?</td>
+<td align="center"><bold>13 (1.90)</bold></td>
+<td align="center">4</td>
+<td align="char" char="."><bold>1.03</bold></td>
+<td align="center">9</td>
+<td align="char" char="."><bold>3.03</bold></td>
+<td align="center"><bold>12 (1.36)</bold></td>
+<td align="center">9</td>
+<td align="char" char="."><bold>1.64</bold></td>
+<td align="center">3</td>
+<td align="char" char="."><bold>0.87</bold></td>
+</tr>
+<tr>
+<td align="center">Q8</td>
+<td align="left">Who are eligible to take HPV vaccine?</td>
+<td align="center"><bold>43 (6.28)</bold><xref ref-type="table-fn" rid="t002fn004">***</xref></td>
+<td align="center">15</td>
+<td align="char" char="."><bold>3.87</bold></td>
+<td align="center">28</td>
+<td align="char" char="."><bold>9.42</bold><xref ref-type="table-fn" rid="t002fn003">**</xref></td>
+<td align="center"><bold>16 (1.82)</bold></td>
+<td align="center">6</td>
+<td align="char" char="."><bold>1.09</bold></td>
+<td align="center">10</td>
+<td align="char" char="."><bold>2.89</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+</tr>
+<tr>
+<td align="center">Q9</td>
+<td align="left">Are you vaccinated for HPV</td>
+<td align="center"><bold>49 (7.16)</bold><xref ref-type="table-fn" rid="t002fn004">***</xref></td>
+<td align="center">28</td>
+<td align="char" char="."><bold>7.24</bold></td>
+<td align="center">21</td>
+<td align="char" char="."><bold>7.07</bold></td>
+<td align="center"><bold>65 (7.42)</bold></td>
+<td align="center">45</td>
+<td align="char" char="."><bold>8.20</bold></td>
+<td align="center">21</td>
+<td align="char" char="."><bold>6.07</bold></td>
+</tr>
+<tr>
+<td align="center">Q10</td>
+<td align="left">Should only adolescent girls take HPV vaccine?</td>
+<td align="center"><bold>501 (73.24)</bold><xref ref-type="table-fn" rid="t002fn004">***</xref></td>
+<td align="center">270</td>
+<td align="char" char="."><bold>69.76</bold></td>
+<td align="center">231</td>
+<td align="char" char="."><bold>77.77</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center"><bold>519 (59.24)</bold></td>
+<td align="center">309</td>
+<td align="char" char="."><bold>56.28</bold></td>
+<td align="center">220</td>
+<td align="char" char="."><bold>63.58</bold><xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p>Younger (≤19 years) and older (&gt;19 years);</p></fn>
+<fn id="t002fn002"><p>* p&lt;0.05,</p></fn>
+<fn id="t002fn003"><p>** p&lt;0.01,</p></fn>
+<fn id="t002fn004"><p>***p &lt;0.001</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>The students were also categorised into two groups based on their educational subject specialization such as biology and non-biology groups (<xref ref-type="table" rid="pone.0166713.t003">Table 3</xref>). Biology students showed significantly higher knowledge about cervical cancer (81.89%, p&lt;0.001) and HPV as its major causative agent (46.58%, p&lt;0.001) compared to non-biology students. Both among, biology and non-biology students, girls were more aware compared to boys (87.06% &amp;65.03%; p&lt;0.001, respectively). About 43.62% (p&lt;0.001) of students with biology background were aware about the HPV vaccines but did not know about the names of the vaccines. The non-biology background students in general had low knowledge and awareness about HPV, its role in causing cervical cancer and HPV vaccine. However, the overall attitude towards girls getting vaccinated against HPV was high in both biology and non-biology students (72.20%, p&lt;0.001; 68.53%, p&lt;0.001).</p>
+<table-wrap id="pone.0166713.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0166713.t003</object-id>
+<label>Table 3</label> <caption><title>Knowledge about cervical cancer and HPV among college students based on their academic subject background.</title></caption>
+<alternatives>
+<graphic id="pone.0166713.t003g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0166713.t003" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center" colspan="2" rowspan="3">Parameters responded positive</th>
+<th align="center">Biology background</th>
+<th align="center" colspan="2">Girls</th>
+<th align="center" colspan="2">Boys</th>
+<th align="center">Non-biology background</th>
+<th align="center" colspan="2">Girls</th>
+<th align="center" colspan="2">Boys</th>
+</tr>
+<tr>
+<th align="center">n = 878</th>
+<th align="center">n = 541</th>
+<th align="center"/>
+<th align="center">n = 337</th>
+<th align="center"/>
+<th align="center">n = 702</th>
+<th align="center">n = 143</th>
+<th align="center"/>
+<th align="center">n = 558</th>
+<th align="center"/>
+</tr>
+<tr>
+<th align="center">No. (%)</th>
+<th align="center">No.</th>
+<th align="center">%</th>
+<th align="center">No.</th>
+<th align="center">%</th>
+<th align="center">No. (%)</th>
+<th align="center">No.</th>
+<th align="center">%</th>
+<th align="center">No.</th>
+<th align="center">%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Q1</td>
+<td align="left">Do you know what uterine cervical cancer is?</td>
+<td align="center"><bold>719 (81.89)</bold><xref ref-type="table-fn" rid="t003fn003">***</xref></td>
+<td align="center">471</td>
+<td align="char" char="."><bold>87.06</bold><xref ref-type="table-fn" rid="t003fn003">***</xref></td>
+<td align="center">248</td>
+<td align="char" char="."><bold>73.59</bold></td>
+<td align="center"><bold>358 (50.99)</bold></td>
+<td align="center">93</td>
+<td align="char" char="."><bold>65.03</bold><xref ref-type="table-fn" rid="t003fn003">***</xref></td>
+<td align="center">265</td>
+<td align="char" char="."><bold>47.49</bold></td>
+</tr>
+<tr>
+<td align="center">Q2</td>
+<td align="left">What are the causes of cervical cancer?</td>
+<td align="center"><bold>110 (12.52)</bold><xref ref-type="table-fn" rid="t003fn003">***</xref></td>
+<td align="center">73</td>
+<td align="char" char="."><bold>13.49</bold></td>
+<td align="center">37</td>
+<td align="char" char="."><bold>10.98</bold></td>
+<td align="center"><bold>29 (4.13)</bold></td>
+<td align="center">6</td>
+<td align="char" char="."><bold>4.20</bold></td>
+<td align="center">23</td>
+<td align="char" char="."><bold>4.12</bold></td>
+</tr>
+<tr>
+<td align="center">Q3</td>
+<td align="left">What is Human papillomavirus (HPV) and its relation with cervical cancer?</td>
+<td align="center"><bold>409 (46.58)</bold><xref ref-type="table-fn" rid="t003fn003">***</xref></td>
+<td align="center">277</td>
+<td align="char" char="."><bold>51.20</bold><xref ref-type="table-fn" rid="t003fn003">***</xref></td>
+<td align="center">132</td>
+<td align="char" char="."><bold>39.17</bold></td>
+<td align="center"><bold>154 (21.93)</bold></td>
+<td align="center">35</td>
+<td align="char" char="."><bold>24.48</bold></td>
+<td align="center">119</td>
+<td align="char" char="."><bold>21.33</bold></td>
+</tr>
+<tr>
+<td align="center">Q4</td>
+<td align="left">What are the major cancer causing HPV types?</td>
+<td align="center"><bold>9 (1.02)</bold></td>
+<td align="center">7</td>
+<td align="char" char="."><bold>1.29</bold></td>
+<td align="center">2</td>
+<td align="char" char="."><bold>0.59</bold></td>
+<td align="center"><bold>11 (1.56)</bold></td>
+<td align="center">0</td>
+<td align="char" char="."><bold>0.00</bold></td>
+<td align="center">11</td>
+<td align="char" char="."><bold>1.97</bold></td>
+</tr>
+<tr>
+<td align="center">Q5</td>
+<td align="left">Does HPV cause genital warts in women?</td>
+<td align="center"><bold>376 (42.82)</bold><xref ref-type="table-fn" rid="t003fn003">***</xref></td>
+<td align="center">248</td>
+<td align="char" char="."><bold>45.84</bold><xref ref-type="table-fn" rid="t003fn001">*</xref></td>
+<td align="center">128</td>
+<td align="char" char="."><bold>37.98</bold></td>
+<td align="center"><bold>194 (27.63)</bold></td>
+<td align="center">43</td>
+<td align="char" char="."><bold>30.07</bold></td>
+<td align="center">151</td>
+<td align="char" char="."><bold>27.06</bold></td>
+</tr>
+<tr>
+<td align="center">Q6</td>
+<td align="left">Do you know there exists vaccines against HPV?</td>
+<td align="center"><bold>383 (43.62)</bold><xref ref-type="table-fn" rid="t003fn003">***</xref></td>
+<td align="center">259</td>
+<td align="char" char="."><bold>47.87</bold><xref ref-type="table-fn" rid="t003fn002">**</xref></td>
+<td align="center">124</td>
+<td align="char" char="."><bold>36.80</bold></td>
+<td align="center"><bold>197 (28.06)</bold></td>
+<td align="center">42</td>
+<td align="char" char="."><bold>29.37</bold></td>
+<td align="center">155</td>
+<td align="char" char="."><bold>27.78</bold></td>
+</tr>
+<tr>
+<td align="center">Q7</td>
+<td align="left">Do you know the names of HPV vaccines?</td>
+<td align="center"><bold>17 (1.93)</bold></td>
+<td align="center">13</td>
+<td align="char" char="."><bold>2.40</bold></td>
+<td align="center">4</td>
+<td align="char" char="."><bold>1.19</bold></td>
+<td align="center"><bold>8 (1.13)</bold></td>
+<td align="center">0</td>
+<td align="char" char="."><bold>0.00</bold></td>
+<td align="center">8</td>
+<td align="char" char="."><bold>1.43</bold></td>
+</tr>
+<tr>
+<td align="center">Q8</td>
+<td align="left">Who are eligible to take HPV vaccine?</td>
+<td align="center"><bold>52 (5.92)</bold><xref ref-type="table-fn" rid="t003fn003">***</xref></td>
+<td align="center">41</td>
+<td align="char" char="."><bold>7.57</bold><xref ref-type="table-fn" rid="t003fn002">**</xref></td>
+<td align="center">11</td>
+<td align="char" char="."><bold>3.26</bold></td>
+<td align="center"><bold>7 (0.99)</bold></td>
+<td align="center">2</td>
+<td align="char" char="."><bold>1.40</bold></td>
+<td align="center">5</td>
+<td align="char" char="."><bold>0.90</bold></td>
+</tr>
+<tr>
+<td align="center">Q9</td>
+<td align="left">Are you vaccinated for HPV</td>
+<td align="center"><bold>43 (4.89)</bold><xref ref-type="table-fn" rid="t003fn003">***</xref></td>
+<td align="center">37</td>
+<td align="char" char="."><bold>6.83</bold><xref ref-type="table-fn" rid="t003fn003">***</xref></td>
+<td align="center">6</td>
+<td align="char" char="."><bold>1.78</bold></td>
+<td align="center"><bold>72 (10.25)</bold></td>
+<td align="center">12</td>
+<td align="char" char="."><bold>8.39</bold></td>
+<td align="center">60</td>
+<td align="char" char="."><bold>10.75</bold></td>
+</tr>
+<tr>
+<td align="center">Q10</td>
+<td align="left">Should only adolescent girls take HPV vaccine?</td>
+<td align="center"><bold>634 (72.20)</bold><xref ref-type="table-fn" rid="t003fn003">***</xref></td>
+<td align="center">403</td>
+<td align="char" char="."><bold>74.49</bold></td>
+<td align="center">231</td>
+<td align="char" char="."><bold>68.55</bold></td>
+<td align="center"><bold>396 (56.41)</bold></td>
+<td align="center">98</td>
+<td align="char" char="."><bold>68.53</bold><xref ref-type="table-fn" rid="t003fn003">***</xref></td>
+<td align="center">298</td>
+<td align="char" char="."><bold>53.41</bold></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t003fn001"><p>* p&lt;0.05,</p></fn>
+<fn id="t003fn002"><p>** p&lt;0.01,</p></fn>
+<fn id="t003fn003"><p>***p &lt;0.001</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>Overall, older students with background in biology showed more knowledge and awareness about cervical cancer as being the most common cancer in women and HPV as its primary causative agent compared to the younger non-biology or biology students. Multiple logistic regression analysis with respect to age, sex and educational-background resulted in adjusted odds ratio with 95% CI that showed older girls with biology-background had 1.2 to 3-fold higher knowledge about cervical cancer (p&lt;0.05) compared to younger boys with non-biology-background (<xref ref-type="table" rid="pone.0166713.t004">Table 4</xref>). Older students with biology-background had significant knowledge about the general causes of cervical cancer and HPV being one of the major causes of this cancer (p&lt;0.05). Older students had significantly higher knowledge (OR:2.9, p&lt;0.05) about the type of oncogenic HPV when adjusted with sex, age and the subject group to which they belong. Older girls with biology had 1.3 to 1.4-fold higher knowledge about availability of HPV vaccines and 1.9 to 3.4-fold higher knowledge about eligibility for HPV vaccine (p&lt;0.05). However, there was no difference in the knowledge about the names of HPV vaccines available commercially between boys and girls. Girl students with biology background were in favour of getting HPV vaccination for young adolescent girls (OR:1.5, p&lt;0.05).</p>
+<table-wrap id="pone.0166713.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0166713.t004</object-id>
+<label>Table 4</label> <caption><title>Adjusted odds ratio (ORs) along with 95% CI for various aspects of knowledge on cervical cancer and HPV among college students.</title></caption>
+<alternatives>
+<graphic id="pone.0166713.t004g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0166713.t004" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center">Parameters</th>
+<th align="center">Knowledge about cervical cancer</th>
+<th align="center">Cause of cervical cancer</th>
+<th align="center">Knowledge about HPV and relation with cervical cancer</th>
+<th align="center">Knowledge about oncogenic HPV types</th>
+<th align="center">Knowledge about HPV causes genital warts</th>
+<th align="center">HPV vaccine availability awareness</th>
+<th align="center">Knowledge about the names of HPV vaccines</th>
+<th align="center">Knowledge about eligibility for vaccine</th>
+<th align="center">HPV vaccination willingness for girls</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><bold>Older age—OR (<italic>p value</italic>)</bold></td>
+<td align="center">1.235<xref ref-type="table-fn" rid="t004fn003">**</xref> (0.011)</td>
+<td align="center">1.479<xref ref-type="table-fn" rid="t004fn002">*</xref> (0.039)</td>
+<td align="center">1.458<xref ref-type="table-fn" rid="t004fn004">***</xref> (0.001)</td>
+<td align="center">2.913<xref ref-type="table-fn" rid="t004fn002">*</xref> (0.030)</td>
+<td align="center">1.393<xref ref-type="table-fn" rid="t004fn003">**</xref> (0.004)</td>
+<td align="center">1.356<xref ref-type="table-fn" rid="t004fn003">**</xref> (0.008)</td>
+<td align="center">1.176 (0.705)</td>
+<td align="center">1.960<xref ref-type="table-fn" rid="t004fn002">*</xref> (0.020)</td>
+<td align="center">1.224 (0.088)</td>
+</tr>
+<tr>
+<td align="center"><bold>(95% CI)</bold></td>
+<td align="center">(0.95, 1.59)</td>
+<td align="center">(1.01, 2.16)</td>
+<td align="center">(1.15, 1.83)</td>
+<td align="center">(1.08, 7.80)</td>
+<td align="center">(1.10, 1.74)</td>
+<td align="center">(1.07, 1.70)</td>
+<td align="center">(0.50, 2.79)</td>
+<td align="center">(1.09, 3.50)</td>
+<td align="center">(0.96, 1.54)</td>
+</tr>
+<tr>
+<td align="center"><bold>Female Sex—OR (<italic>p value</italic>)</bold></td>
+<td align="center">2.303<xref ref-type="table-fn" rid="t004fn004">***</xref> (0.000)</td>
+<td align="center">1.268 (0.223)</td>
+<td align="center">1.556<xref ref-type="table-fn" rid="t004fn004">***</xref> (0.000)</td>
+<td align="center">0.927 (0.885)`</td>
+<td align="center">1.357<xref ref-type="table-fn" rid="t004fn004">***</xref> (0.000)</td>
+<td align="center">1.446<xref ref-type="table-fn" rid="t004fn003">**</xref> (0.002)</td>
+<td align="center">1.209 (0.668)</td>
+<td align="center">2.443<xref ref-type="table-fn" rid="t004fn003">**</xref> (0.005)</td>
+<td align="center">1.567<xref ref-type="table-fn" rid="t004fn004">***</xref> (0.000)</td>
+</tr>
+<tr>
+<td align="center"><bold>(95% CI)</bold></td>
+<td align="center">(1.76, 3.00)</td>
+<td align="center">(0.85, 1.87)</td>
+<td align="center">(1.22, 1.97)</td>
+<td align="center">(0.32, 2.65)</td>
+<td align="center">(1.07, 1.71)</td>
+<td align="center">(1.14, 1.82)</td>
+<td align="center">(0.49, 2.92)</td>
+<td align="center">(1.29, 4.59)</td>
+<td align="center">(1.22, 1.99)</td>
+</tr>
+<tr>
+<td align="center"><bold>Biology—OR (<italic>p value</italic>)</bold></td>
+<td align="center">3.004<xref ref-type="table-fn" rid="t004fn004">***</xref> (0.000)</td>
+<td align="center">2.634<xref ref-type="table-fn" rid="t004fn004">***</xref> (0.000)</td>
+<td align="center">2.304<xref ref-type="table-fn" rid="t004fn004">***</xref> (0.000)</td>
+<td align="center">0.462 (0.151)</td>
+<td align="center">1.552<xref ref-type="table-fn" rid="t004fn004">***</xref> (0.000)</td>
+<td align="center">1.544<xref ref-type="table-fn" rid="t004fn004">***</xref> (0.001)</td>
+<td align="center">1.497 (0.419)</td>
+<td align="center">3.392<xref ref-type="table-fn" rid="t004fn003">**</xref> (0.006)</td>
+<td align="center">1.573<xref ref-type="table-fn" rid="t004fn004">***</xref> (0.000)</td>
+</tr>
+<tr>
+<td align="center"><bold>(95% CI)</bold></td>
+<td align="center">(2.30, 3.91)</td>
+<td align="center">(1.62, 4.27)</td>
+<td align="center">(1.77, 2.98)</td>
+<td align="center">(0.15, 1.35)</td>
+<td align="center">(1.2, 1.99)</td>
+<td align="center">(1.19, 1.98)</td>
+<td align="center">(0.55, 4.06)</td>
+<td align="center">(1.39, 8.23)</td>
+<td align="center">(1.22, 2.01)</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t004fn001"><p>Older age (&gt;19 years),</p></fn>
+<fn id="t004fn002"><p>* <italic>p</italic>&lt;0.05,</p></fn>
+<fn id="t004fn003"><p>** <italic>p</italic>&lt;0.01,</p></fn>
+<fn id="t004fn004"><p>***<italic>p</italic>&lt;0.001;</p></fn>
+<fn id="t004fn005"><p>CI: Confidence Interval</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec012" sec-type="conclusions">
+<title>Discussion</title>
+<p>Cancer of the uterine cervix is a major cancer in India in women but it is a curable cancer, if detected early. The two major high risk oncogenic HPV genotypes, HPV16 and HPV 18 most commonly associated with the development of cervical cancer, are highly prevalent in India [<xref ref-type="bibr" rid="pone.0166713.ref004">4</xref>–<xref ref-type="bibr" rid="pone.0166713.ref007">7</xref>]. Integrating knowledge and awareness programs with educational intervention for cervical cancer or HPV screening along with HPV vaccination will go a long way in reducing HPV infection and controlling cervical cancer in Indian women. The present study was carried out in undergraduate science and engineering students in an affluent private university set up with the main aim of getting information regarding the level of awareness and knowledge about cervical cancer, HPV and attitude towards HPV vaccination that may help in designing effective HPV screening and successful vaccination programs for the control of cervical cancer. We observed a close association between increasing age and higher HPV awareness especially among the girls. In general, girls who have passed through their teenage and from biology-background were more knowledgeable than others about cervical cancer, its causes and HPV being the major causative agent for cervical cancer (Tables <xref ref-type="table" rid="pone.0166713.t002">2</xref> &amp; <xref ref-type="table" rid="pone.0166713.t003">3</xref>). However, none of the students were aware about the cancer causing HPV types and names of the HPV vaccines which reflect that they have a very limited knowledge and understanding of the disease. It was also observed that although students of this University belonged to well-educated and affluent class families, the percentage of girls who got vaccinated was very low (7%). This is alarming because even after almost a decade of introduction of HPV vaccines, which are available in India since 2008, not many parents are interested to get their daughters vaccinated. It appears that several factors involving societal, religious and prejudice ideas, socioeconomic status including lack of knowledge, awareness and attitude might be the reasons for such a low coverage of HPV vaccination in India. Several studies have been conducted to analyse the awareness about cervical cancer and HPV among young women, both in rural and urban areas of India [<xref ref-type="bibr" rid="pone.0166713.ref013">13</xref>–<xref ref-type="bibr" rid="pone.0166713.ref017">17</xref>] and in other countries [<xref ref-type="bibr" rid="pone.0166713.ref018">18</xref>–<xref ref-type="bibr" rid="pone.0166713.ref020">20</xref>]. All these studies report that awareness and knowledge about cervical cancer is very poor among both young undergraduate and postgraduate students, from rural and urban areas which may be due to lack of education and exposure to print/ audio-visual media, including variety ofsocietal factors, social stigma and ignorance [<xref ref-type="bibr" rid="pone.0166713.ref021">21</xref>–<xref ref-type="bibr" rid="pone.0166713.ref023">23</xref>]. However, a study carried out earlier in undergraduate medical students in India show that they are well aware about the cervical cancer and its link to HPV infection [<xref ref-type="bibr" rid="pone.0166713.ref024">24</xref>]. In general, girls have shown more awareness compared to boys (<xref ref-type="table" rid="pone.0166713.t002">Table 2</xref>) and the same has also been reported recently by Hussain et al.[<xref ref-type="bibr" rid="pone.0166713.ref021">21</xref>]. The level of awareness among students showed a strong association with the educational background in biology than in non-biology. Biology students were more aware about cervical cancer, HPV and HPV vaccination compared to non-biology students (<xref ref-type="table" rid="pone.0166713.t003">Table 3</xref>). The study highlights the need to improve public health education in view of the lack of awareness about cervical cancer and its possible prevention by vaccination in the community [<xref ref-type="bibr" rid="pone.0166713.ref025">25</xref>]. Studies have shown that imparting education has positive effect in encouraging and motivating men and women to participate in screening and vaccination programs. It has been reported recently that a brief educational intervention could increase college students’ performance on an HPV knowledge assessment from 45% to 79% 3 months later [<xref ref-type="bibr" rid="pone.0166713.ref026">26</xref>]. Not only can this lead to early diagnosis of the disease but also successful implementation of HPV immunization programs for control of cervical cancer.</p>
+<p>The level of awareness among boys was found to be poor as compared to girls who were more aware about cervical cancer and HPV (<xref ref-type="table" rid="pone.0166713.t002">Table 2</xref>).A study conducted among Australian men and women showed similar results with higher awareness among young women compared to men [<xref ref-type="bibr" rid="pone.0166713.ref027">27</xref>]. In a study carried out on 18- to 25-year-oldsin six vocational schools in Berlin, it was found that 50% women were aware about HPV compared to only 25% of the men [<xref ref-type="bibr" rid="pone.0166713.ref028">28</xref>]. Similar results have been found among developing countries as well [<xref ref-type="bibr" rid="pone.0166713.ref029">29</xref>]. Analysis of multiple factors also showed that older girls with biology background were more aware/ knowledge about HPV and HPV vaccination (<xref ref-type="table" rid="pone.0166713.t004">Table 4</xref>).</p>
+<p>In the present study, both boys and girls showed positive attitude towards girls getting vaccinated against HPV after knowing that it can provide protection against HPV that causes cervical cancer (<xref ref-type="table" rid="pone.0166713.t002">Table 2</xref>). HPV immunization program in western countries is highly successful due to widespread vaccination drives and awareness programs initiated by the government and healthcare organisations. In U.S.A. in 2014, 39.7% adolescent girls aged 13–17 yr received all three doses of HPV vaccine [<xref ref-type="bibr" rid="pone.0166713.ref030">30</xref>]. HPV vaccination and compliance rate of 80% have been reported from Great Britain and Portugal in 2012 [<xref ref-type="bibr" rid="pone.0166713.ref031">31</xref>]. But in India where a majority of population is positive for high risk oncogenic HPV types; specifically HPV type 16 and prevalence of cervical cancer and associated mortality is one of the highest in the world [<xref ref-type="bibr" rid="pone.0166713.ref032">32</xref>–<xref ref-type="bibr" rid="pone.0166713.ref037">37</xref>], no national HPV immunization programs have been initiated till date. Although, a small HPV vaccine immunogenicity trials were initiated by PATH in collaboration with ICMR, in the states of Andra Pradesh and Gujarat in India but these were stopped in the initial stage due to some unrelated deaths, medical, safety and ethical issues. HPV vaccination in India is therefore restricted to only private clinics and hospitals and it has been observed that vaccine acceptability is mainly restricted among the educated mass. Majority of the studies have shown that most of participants or parents of participants are unwilling to get their daughters vaccinated due to lack of knowledge of HPV vaccine, its safety and efficacy, including the socio-cultural, economic and religious issues. Many are of the opinion that HPV vaccines would make sex safe, leading to promiscuity and change in sexual behaviour in younger generation, which would cause social stigma, and may tarnish family prestige [<xref ref-type="bibr" rid="pone.0166713.ref021">21</xref>, <xref ref-type="bibr" rid="pone.0166713.ref038">38</xref>–<xref ref-type="bibr" rid="pone.0166713.ref039">39</xref>]. Hence, there is an imperative need for educational intervention to raise knowledge and awareness for HPV associated cancers and their prevention by vaccination in young and adolescent girls, de-stigmatize HPV infection and for successful implementation of screening and vaccination programs in order to reduce mortality and the burden of cervical cancer. It may also control high risk HPV associated other diseases such as head and neck cancer, oesophageal cancer etc. that are highly prevalent in India.</p>
+</sec>
+<sec id="sec013" sec-type="conclusions">
+<title>Conclusion</title>
+<p>The study suggests that the overall awareness and knowledge about cervical cancer, HPV and HPV vaccination are poor among college students and are strongly associated with the age and educational background of the students in biology. There is an urgent need for educational intervention—both formal and informal, not only for girls and boys from both biology and non-biology background but also for parents to change their attitude towards HPV vaccination. To achieve this, both print and audio-visual media may play a pivotal role. It is suggested that there is a need for incorporation of HPV vaccination in the National Immunization Program which can be integrated with the screening (VIA/ Pap/ HPV DNA) and national cancer control program, and eliminate the limitations of vaccine cost and poor awareness for successful control of HPV- induced cervical and other cancers.</p>
+</sec>
+<sec id="sec014">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0166713.s001" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" xlink:href="info:doi/10.1371/journal.pone.0166713.s001" xlink:type="simple">
+<label>S1 File</label>
+<caption>
+<title>Original raw data.</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>We thank all students who took part in this survey.</p>
+</ack>
+<glossary>
+<title>Abbreviations</title>
+<def-list>
+<def-item><term>HPV</term>
+<def><p>Human papillomaviruses</p></def>
+</def-item>
+<def-item><term>CI</term>
+<def><p>Confidence interval</p></def>
+</def-item>
+<def-item><term>VIA</term>
+<def><p>Visual inspection of cervix with acetic acid</p></def>
+</def-item>
+</def-list>
+</glossary>
+<ref-list>
+<title>References</title>
+<ref id="pone.0166713.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Duenas-Gonzalez</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Serrano-Olvera</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Cetina</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Coronel</surname> <given-names>J</given-names></name>. <article-title>New molecular targets against cervical cancer</article-title>. <source>Int J Womens Health</source>. <year>2014</year>;<volume>6</volume>: <fpage>1023</fpage>–<lpage>31</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.2147/IJWH.S49471" xlink:type="simple">10.2147/IJWH.S49471</ext-link></comment> <object-id pub-id-type="pmid">25525394</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dikshit</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Gupta</surname> <given-names>PC</given-names></name>, <name name-style="western"><surname>Ramasundarahettige</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Gajalakshmi</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Aleksandrowicz</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Badwe</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Cancer mortality in India: A nationally representative survey</article-title>. <source>Lancet</source>. <year>2012</year>;<volume>379</volume>: <fpage>1807</fpage>–<lpage>1816</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0140-6736(12)60358-4" xlink:type="simple">10.1016/S0140-6736(12)60358-4</ext-link></comment> <object-id pub-id-type="pmid">22460346</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref003"><label>3</label><mixed-citation publication-type="other" xlink:type="simple">GLOBOCAN 2012. Available from: <ext-link ext-link-type="uri" xlink:href="http://globocan.iarc.fr" xlink:type="simple">http://globocan.iarc.fr</ext-link>, accessed October 2014.</mixed-citation></ref>
+<ref id="pone.0166713.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lowy</surname> <given-names>DR</given-names></name>, <name name-style="western"><surname>Schiller</surname> <given-names>JT</given-names></name>. <article-title>Reducing HPV-associated cancer globally</article-title>. <source>Cancer Prev Res (Phila)</source>. <year>2012</year>;<volume>5</volume>: <fpage>18</fpage>–<lpage>23</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1158/1940-6207.CAPR-11-0542" xlink:type="simple">10.1158/1940-6207.CAPR-11-0542</ext-link></comment> <object-id pub-id-type="pmid">22219162</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Das</surname> <given-names>BC</given-names></name>, <name name-style="western"><surname>Gopalkrishna</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Sharma</surname> <given-names>JK</given-names></name>, <name name-style="western"><surname>Roy</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Luthra</surname> <given-names>UK</given-names></name>. <article-title>Human papillomavirus DNA in urine of women with preneoplastic and neoplastic cervical lesions</article-title>. <source>Lancet (London, England)</source>. <year>1992</year>;<volume>340</volume>: <fpage>1417</fpage>–<lpage>8</lpage>. Available: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/1360129" xlink:type="simple">http://www.ncbi.nlm.nih.gov/pubmed/1360129</ext-link></mixed-citation></ref>
+<ref id="pone.0166713.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pillai</surname> <given-names>RM</given-names></name>, <name name-style="western"><surname>Babu</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Jissa</surname> <given-names>VT</given-names></name>, <name name-style="western"><surname>Lakshmi</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Chiplunkar</surname> <given-names>S V</given-names></name>, <name name-style="western"><surname>Patkar</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Region-wise distribution of high-risk human papillomavirus types in squamous cell carcinomas of the cervix in India</article-title>. <source>Int J Gynecol Cancer</source>. <year>2010</year>;<volume>20</volume>: <fpage>1046</fpage>–<lpage>51</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/IGC.0b013e3181e02fe0" xlink:type="simple">10.1111/IGC.0b013e3181e02fe0</ext-link></comment> <object-id pub-id-type="pmid">20683415</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kerkar</surname> <given-names>SC</given-names></name>, <name name-style="western"><surname>Latta</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Salvi</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Mania-Pramanik</surname> <given-names>J</given-names></name>. <article-title>Human Papillomavirus infection in asymptomatic population</article-title>. <source>Sex ReprodHealthc</source>. <year>2011</year>;<volume>2</volume>: <fpage>7</fpage>–<lpage>11</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.srhc.2010.11.001" xlink:type="simple">10.1016/j.srhc.2010.11.001</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0166713.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Das</surname> <given-names>BC</given-names></name>, <name name-style="western"><surname>Gopalkrishna</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Hedau</surname> <given-names>S</given-names></name> <name name-style="western"><surname>K</surname> <given-names>S</given-names></name>. <article-title>Cancer of the Uterine Cervix and Human Papillomaviruses</article-title>. <source>Curr Sci</source>. <year>2000</year>;<volume>78</volume>(<issue>1</issue>), <fpage>52</fpage>–<lpage>63</lpage>.</mixed-citation></ref>
+<ref id="pone.0166713.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Harper</surname> <given-names>DM</given-names></name>, <name name-style="western"><surname>Franco</surname> <given-names>EL</given-names></name>, <name name-style="western"><surname>Wheeler</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Ferris</surname> <given-names>DG</given-names></name>, <name name-style="western"><surname>Jenkins</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Schuind</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Efficacy of a bivalent L1 virus-like particle vaccine in prevention of infection with human papillomavirus types 16 and 18 in young women: a randomised controlled trial</article-title>. <source>Lancet (London, England)</source>. <volume>364</volume>: <fpage>1757</fpage>–<lpage>65</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0140-6736(04)17398-4" xlink:type="simple">10.1016/S0140-6736(04)17398-4</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0166713.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Villa</surname> <given-names>LL</given-names></name>, <name name-style="western"><surname>Costa</surname> <given-names>RLR</given-names></name>, <name name-style="western"><surname>Petta</surname> <given-names>CA</given-names></name>, <name name-style="western"><surname>Andrade</surname> <given-names>RP</given-names></name>, <name name-style="western"><surname>Ault</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Giuliano</surname> <given-names>AR</given-names></name>, <etal>et al</etal>. <article-title>Prophylactic quadrivalent human papillomavirus (types 6, 11, 16, and 18) L1 virus-like particle vaccine in young women: a randomised double-blind placebo-controlled multicentre phase II efficacy trial</article-title>. <source>Lancet Oncol</source>. <year>2005</year>;<volume>6</volume>: <fpage>271</fpage>–<lpage>8</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S1470-2045(05)70101-7" xlink:type="simple">10.1016/S1470-2045(05)70101-7</ext-link></comment> <object-id pub-id-type="pmid">15863374</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Markowitz</surname> <given-names>LE</given-names></name>, <name name-style="western"><surname>Dunne</surname> <given-names>EF</given-names></name>, <name name-style="western"><surname>Saraiya</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Lawson</surname> <given-names>HW</given-names></name>, <name name-style="western"><surname>Chesson</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Unger</surname> <given-names>ER</given-names></name>, <etal>et al</etal>. <article-title>Quadrivalent Human Papillomavirus Vaccine: Recommendations of the Advisory Committee on Immunization Practices (ACIP)</article-title>. <source>MMWR Recomm Rep</source>. <year>2007</year>;<volume>56</volume>: <fpage>1</fpage>–<lpage>24</lpage>. Available: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17380109" xlink:type="simple">http://www.ncbi.nlm.nih.gov/pubmed/17380109</ext-link></mixed-citation></ref>
+<ref id="pone.0166713.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Choudhury</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>John</surname> <given-names>TJ</given-names></name>. <article-title>Human papilloma virus vaccines and current controversy</article-title>. <source>Indian Pediatr</source>. <year>2010</year>;<volume>47</volume>: <fpage>724</fpage>–<lpage>5</lpage>. Available: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20972294" xlink:type="simple">http://www.ncbi.nlm.nih.gov/pubmed/20972294</ext-link> <object-id pub-id-type="pmid">20972294</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sharma</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Kathait</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Jain</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Kujur</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Raghuwanshi</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Bharti</surname> <given-names>AC</given-names></name>, <etal>et al</etal>. <article-title>Higher prevalence of human papillomavirus infection in adolescent and young adult girls belonging to different Indian tribes with varied socio-Sexual lifestyle</article-title>. <source>PLoS One</source>. <year>2015</year>;<volume>10</volume>: <fpage>1</fpage>–<lpage>13</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0125693" xlink:type="simple">10.1371/journal.pone.0125693</ext-link></comment> <object-id pub-id-type="pmid">25954813</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mehta</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Rajaram</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Goel</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Goel</surname> <given-names>N</given-names></name>. <article-title>Awareness about Human Papilloma Virus and its Vaccine Among Medical Students</article-title>. <source>Indian J Community Med</source>. <year>2013</year>;<volume>38</volume>: <fpage>92</fpage>–<lpage>4</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.4103/0970-0218.112438" xlink:type="simple">10.4103/0970-0218.112438</ext-link></comment> <object-id pub-id-type="pmid">23878421</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Asthana</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Satyanarayana</surname> <given-names>L</given-names></name>. <article-title>Cervical cancer screening from the perspective of a rural population of northern India</article-title>. <source>Ganga Ram J</source>. <year>2013</year>;<volume>3</volume>: <fpage>128</fpage>–<lpage>131</lpage>.</mixed-citation></ref>
+<ref id="pone.0166713.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hussain</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Bharadwaj</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Nasare</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Kumari</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Sharma</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Hedau</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Human papillomavirus infection among young adolescents in India: impact of vaccination</article-title>. <source>J Med Virol</source>. <year>2012</year>;<volume>84</volume>: <fpage>298</fpage>–<lpage>305</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/jmv.22261" xlink:type="simple">10.1002/jmv.22261</ext-link></comment> <object-id pub-id-type="pmid">22170551</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Saha</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Nag Chaudhury</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Bhowmik</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Chatterjee</surname> <given-names>R</given-names></name>. <article-title>Awareness of cervical cancer among female students of premier colleges in Kolkata, India</article-title>. <source>Asian Pacific J Cancer Prev</source>. <year>2010</year>;<volume>11</volume>: <fpage>1085</fpage>–<lpage>1090</lpage>.</mixed-citation></ref>
+<ref id="pone.0166713.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bendik</surname> <given-names>MK</given-names></name>, <name name-style="western"><surname>Mayo</surname> <given-names>RM</given-names></name>, <name name-style="western"><surname>Parker</surname> <given-names>VG</given-names></name>. <article-title>Knowledge, perceptions, and motivations related to HPV vaccination among college women</article-title>. <source>J Cancer Educ</source>. <year>2011</year>;<volume>26</volume>: <fpage>459</fpage>–<lpage>464</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s13187-011-0200-8" xlink:type="simple">10.1007/s13187-011-0200-8</ext-link></comment> <object-id pub-id-type="pmid">21336980</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Di Giuseppe</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Abbate</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Liguori</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Albano</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Angelillo</surname> <given-names>IF</given-names></name>. <article-title>Human papillomavirus and vaccination: knowledge, attitudes, and behavioural intention in adolescents and young women in Italy</article-title>. <source>Br J Cancer</source>. <year>2008</year>;<volume>99</volume>: <fpage>225</fpage>–<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/sj.bjc.6604454" xlink:type="simple">10.1038/sj.bjc.6604454</ext-link></comment> <object-id pub-id-type="pmid">18628763</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lenselink</surname> <given-names>CH</given-names></name>, <name name-style="western"><surname>Schmeink</surname> <given-names>CE</given-names></name>, <name name-style="western"><surname>Melchers</surname> <given-names>WJG</given-names></name>, <name name-style="western"><surname>Massuger</surname> <given-names>LFAG</given-names></name>, <name name-style="western"><surname>Hendriks</surname> <given-names>JCM</given-names></name>, <name name-style="western"><surname>van Hamont</surname> <given-names>D</given-names></name>, <etal>et al</etal>. <article-title>Young adults and acceptance of the human papillomavirus vaccine</article-title>. <source>Public Health</source>. <year>2008</year>;<volume>122</volume>: <fpage>1295</fpage>–<lpage>301</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.puhe.2008.02.010" xlink:type="simple">10.1016/j.puhe.2008.02.010</ext-link></comment> <object-id pub-id-type="pmid">18619631</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hussain</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Nasare</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Kumari</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Sharma</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Khan</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Das</surname> <given-names>BC</given-names></name>, <etal>et al</etal>. <article-title>Perception of human papillomavirus infection, cervical cancer and HPV vaccination in North Indian population</article-title>. <source>PLoS One</source>. <year>2014</year>;<volume>9</volume>: <fpage>1</fpage>–<lpage>7</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0112861" xlink:type="simple">10.1371/journal.pone.0112861</ext-link></comment> <object-id pub-id-type="pmid">25386964</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Das</surname> <given-names>BC</given-names></name>, <name name-style="western"><surname>Hussain</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Nasare</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Bharadwaj</surname> <given-names>M</given-names></name>. <article-title>Prospects and prejudices of human papillomavirus vaccines in India</article-title>. <source>Vaccine</source>. <year>2008</year>;<volume>26</volume>: <fpage>2669</fpage>–<lpage>79</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.vaccine.2008.03.056" xlink:type="simple">10.1016/j.vaccine.2008.03.056</ext-link></comment> <object-id pub-id-type="pmid">18455843</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Prusty</surname> <given-names>BK</given-names></name>, <name name-style="western"><surname>Kumar</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Arora</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Batra</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Das</surname> <given-names>BC</given-names></name>. <article-title>Human papillomavirus (HPV) DNA detection in self-collected urine</article-title>. <source>Int J Gynaecol Obstet</source>. <year>2005</year>;<volume>90</volume>: <fpage>223</fpage>–<lpage>7</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.ijgo.2005.06.004" xlink:type="simple">10.1016/j.ijgo.2005.06.004</ext-link></comment> <object-id pub-id-type="pmid">16043176</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pandey</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Vanya</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Bhagat</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>VS</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Shetty</surname> <given-names>J</given-names></name>. <article-title>Awareness and attitude towards human papillomavirus (HPV) vaccine among medical students in a premier medical school in India</article-title>. <source>PLoS One</source>. <year>2012</year>;<volume>7</volume>: <fpage>8</fpage>–<lpage>12</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0040619" xlink:type="simple">10.1371/journal.pone.0040619</ext-link></comment> <object-id pub-id-type="pmid">22859950</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ezem</surname> <given-names>BU</given-names></name>. <article-title>Awareness and uptake of cervical cancer screening in Owerri, South-Eastern Nigeria</article-title>. <source>Ann Afr Med</source>. <year>2007</year>;<volume>6</volume>: <fpage>94</fpage>–<lpage>8</lpage>. Available: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/18240495" xlink:type="simple">http://www.ncbi.nlm.nih.gov/pubmed/18240495</ext-link> <object-id pub-id-type="pmid">18240495</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lambert</surname> <given-names>EC</given-names></name>. <article-title>College students’ knowledge of human papillomavirus and effectiveness of a brief educational intervention</article-title>. <source>J Am Board FamPract</source>. <volume>14</volume>: <fpage>178</fpage>–<lpage>83</lpage>. Available: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/11355049" xlink:type="simple">http://www.ncbi.nlm.nih.gov/pubmed/11355049</ext-link></mixed-citation></ref>
+<ref id="pone.0166713.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pitts</surname> <given-names>MK</given-names></name>, <name name-style="western"><surname>Heywood</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Ryall</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Shelley</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Richters</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Knowledge of human papillomavirus (HPV) and the HPV vaccine in a national sample of Australian men and women</article-title>. <source>Sex Health</source>. <year>2010</year>;<volume>7</volume>: <fpage>299</fpage>–<lpage>303</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1071/SH09150" xlink:type="simple">10.1071/SH09150</ext-link></comment> <object-id pub-id-type="pmid">20719218</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Blödt</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Holmberg</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Müller-Nordhorn</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Rieckmann</surname> <given-names>N</given-names></name>. <article-title>Human Papillomavirus awareness, knowledge and vaccine acceptance: A survey among 18–25 year old male and female vocational school students in Berlin, Germany</article-title>. <source>Eur J Public Health</source>. <year>2012</year>;<volume>22</volume>: <fpage>808</fpage>–<lpage>813</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/eurpub/ckr188" xlink:type="simple">10.1093/eurpub/ckr188</ext-link></comment> <object-id pub-id-type="pmid">22199161</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nnodu</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Erinosho</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Jamda</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Olaniyi</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Adelaiye</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Lawson</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>Knowledge and attitudes towards cervical cancer and human papillomavirus: a Nigerian pilot study</article-title>. <source>Afr J Reprod Health</source>. <year>2010</year>;<volume>14</volume>: <fpage>95</fpage>–<lpage>108</lpage>. Available: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20695142" xlink:type="simple">http://www.ncbi.nlm.nih.gov/pubmed/20695142</ext-link> <object-id pub-id-type="pmid">20695142</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref030"><label>30</label><mixed-citation publication-type="other" xlink:type="simple">Sarah Reagan-Steiner,DavidYankey, Jenny Jeyarajah,Laurie D. Elam-Evans, James A. Singleton, C. Robinette Curtis, Jessica MacNeil, Lauri E. Markowitz SS. CDC report: National, Regional, State, and Selected Local Area Vaccination Coverage Among Adolescents Aged 13–17 Years—United States, 2014. 2015. Available: <ext-link ext-link-type="uri" xlink:href="http://www.cdc.gov/mmwr/preview/mmwrhtml/mm6429a3.htm" xlink:type="simple">http://www.cdc.gov/mmwr/preview/mmwrhtml/mm6429a3.htm</ext-link></mixed-citation></ref>
+<ref id="pone.0166713.ref031"><label>31</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Simone</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Carrillo-Santisteve</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Lopalco</surname> <given-names>P</given-names></name>. <source>Introduction of HPV vaccines in European Union countries—an update GUIDANCE Introduction of HPV vaccines in EU countries</source>. <year>2012</year>; <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.2900/60814" xlink:type="simple">10.2900/60814</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0166713.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Das</surname> <given-names>BC</given-names></name>, <name name-style="western"><surname>Sharma</surname> <given-names>JK</given-names></name>, <name name-style="western"><surname>Gopalkrishna</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Das</surname> <given-names>DK</given-names></name>, <name name-style="western"><surname>Singh</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Gissmann</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>A high frequency of human papillomavirus DNA sequences in cervical carcinomas of Indian women as revealed by Southern blot hybridization and polymerase chain reaction</article-title>. <source>J Med Virol</source>. <year>1992</year>;<volume>36</volume>: <fpage>239</fpage>–<lpage>45</lpage>. Available: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/1315836" xlink:type="simple">http://www.ncbi.nlm.nih.gov/pubmed/1315836</ext-link> <object-id pub-id-type="pmid">1315836</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Patel</surname> <given-names>KR</given-names></name>, <name name-style="western"><surname>Vajaria</surname> <given-names>BN</given-names></name>, <name name-style="western"><surname>Begum</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Desai</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Patel</surname> <given-names>JB</given-names></name>, <name name-style="western"><surname>Shah</surname> <given-names>FD</given-names></name>, <etal>et al</etal>. <article-title>Prevalence of high-risk human papillomavirus type 16 and 18 in oral and cervical cancers in population from Gujarat, West India</article-title>. <source>J Oral Pathol Med</source>. <year>2014</year>;<volume>43</volume>: <fpage>293</fpage>–<lpage>7</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/jop.12147" xlink:type="simple">10.1111/jop.12147</ext-link></comment> <object-id pub-id-type="pmid">24372728</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sureshkumar</surname> <given-names>BT</given-names></name>, <name name-style="western"><surname>Shanmughapriya</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Das</surname> <given-names>BC</given-names></name>, <name name-style="western"><surname>Natarajaseenivasan</surname> <given-names>K</given-names></name>. <article-title>A population-based study of the prevalence of HPV in three districts of Tamil Nadu, India</article-title>. <source>Int J Gynaecol Obstet</source>. <year>2015</year>;<volume>129</volume>: <fpage>58</fpage>–<lpage>61</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.ijgo.2014.10.025" xlink:type="simple">10.1016/j.ijgo.2014.10.025</ext-link></comment> <object-id pub-id-type="pmid">25556078</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref035"><label>35</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vinodhini</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Shanmughapriya</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Sanmugham</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Senthikumar</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Das</surname> <given-names>BC</given-names></name>, <name name-style="western"><surname>Natarajaseenivasan</surname> <given-names>K</given-names></name>. <article-title>Prevalence of high-risk HPV and associated risk factors in cases of cervical carcinoma in Tamil Nadu, India</article-title>. <source>Int J Gynaecol Obstet</source>. <year>2012</year>;<volume>119</volume>: <fpage>253</fpage>–<lpage>6</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.ijgo.2012.06.019" xlink:type="simple">10.1016/j.ijgo.2012.06.019</ext-link></comment> <object-id pub-id-type="pmid">22986098</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref036"><label>36</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sowjanya</surname> <given-names>AP</given-names></name>, <name name-style="western"><surname>Jain</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Poli</surname> <given-names>UR</given-names></name>, <name name-style="western"><surname>Padma</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Das</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Shah</surname> <given-names>K V</given-names></name>, <etal>et al</etal>. <article-title>Prevalence and distribution of high-risk human papilloma virus (HPV) types in invasive squamous cell carcinoma of the cervix and in normal women in Andhra Pradesh, India</article-title>. <source>BMC Infect Dis</source>. <year>2005</year>;<volume>5</volume>: <fpage>116</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1471-2334-5-116" xlink:type="simple">10.1186/1471-2334-5-116</ext-link></comment> <object-id pub-id-type="pmid">16371167</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref037"><label>37</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bhatla</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Joseph</surname> <given-names>E</given-names></name>. <article-title>Cervical cancer prevention &amp; the role of human papillomavirus vaccines in India</article-title>. <source>Indian J Med Res</source>. <year>2009</year>;<volume>130</volume>: <fpage>334</fpage>–<lpage>40</lpage>. Available: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/19901443" xlink:type="simple">http://www.ncbi.nlm.nih.gov/pubmed/19901443</ext-link> <object-id pub-id-type="pmid">19901443</object-id></mixed-citation></ref>
+<ref id="pone.0166713.ref038"><label>38</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lee</surname> <given-names>PWH</given-names></name>, <name name-style="western"><surname>Kwan</surname> <given-names>TTC</given-names></name>, <name name-style="western"><surname>Tam</surname> <given-names>KF</given-names></name>, <name name-style="western"><surname>Chan</surname> <given-names>KKL</given-names></name>, <name name-style="western"><surname>Young</surname> <given-names>PMC</given-names></name>, <name name-style="western"><surname>Lo</surname> <given-names>SST</given-names></name>, <etal>et al</etal>. <article-title>Beliefs about cervical cancer and human papillomavirus (HPV) and acceptability of HPV vaccination among Chinese women in Hong Kong</article-title>. <source>Prev Med (Baltim)</source>. <volume>45</volume>: <fpage>130</fpage>–<lpage>4</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.ypmed.2007.07.013" xlink:type="simple">10.1016/j.ypmed.2007.07.013</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0166713.ref039"><label>39</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Woodhall</surname> <given-names>SC</given-names></name>, <name name-style="western"><surname>Lehtinen</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Verho</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Huhtala</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Hokkanen</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kosunen</surname> <given-names>E</given-names></name>. <article-title>Anticipated acceptance of HPV vaccination at the baseline of implementation: a survey of parental and adolescent knowledge and attitudes in Finland</article-title>. <source>J Adolesc Health</source>. <year>2007</year>;<volume>40</volume>: <fpage>466</fpage>–<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jadohealth.2007.01.005" xlink:type="simple">10.1016/j.jadohealth.2007.01.005</ext-link></comment> <object-id pub-id-type="pmid">17448408</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

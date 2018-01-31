@@ -1,0 +1,774 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0185503</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-17-26823</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Geographical locations</subject><subj-group><subject>Europe</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Population groupings</subject><subj-group><subject>Ethnicities</subject><subj-group><subject>Native American people</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Population groupings</subject><subj-group><subject>Ethnicities</subject><subj-group><subject>European people</subject><subj-group><subject>Spanish people</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Population groupings</subject><subj-group><subject>Ethnicities</subject><subj-group><subject>Hispanic people</subject><subj-group><subject>Spanish people</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Population groupings</subject><subj-group><subject>Ethnicities</subject><subj-group><subject>African people</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Population groupings</subject><subj-group><subject>Ethnicities</subject><subj-group><subject>Latin American people</subject><subj-group><subject>Mexican people</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Geographical locations</subject><subj-group><subject>North America</subject><subj-group><subject>United States</subject><subj-group><subject>New Mexico</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Evolutionary biology</subject><subj-group><subject>Population genetics</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>Population genetics</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Population biology</subject><subj-group><subject>Population genetics</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Population groupings</subject><subj-group><subject>Ethnicities</subject><subj-group><subject>Hispanic people</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Social-group identity and population substructure in admixed populations in New Mexico and Latin America</article-title>
+<alt-title alt-title-type="running-head">Social-group identity and population substructure in New Mexico and Latin America</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Healy</surname>
+<given-names>Meghan E.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Hill</surname>
+<given-names>Deirdre</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Berwick</surname>
+<given-names>Marianne</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Edgar</surname>
+<given-names>Heather</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Gross</surname>
+<given-names>Jessica</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-0987-8277</contrib-id>
+<name name-style="western">
+<surname>Hunley</surname>
+<given-names>Keith</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Department of Anthropology, University of New Mexico, Albuquerque, NM, United States of America</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Department of Internal Medicine, University of New Mexico, Albuquerque, NM, United States of America</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Calafell</surname>
+<given-names>Francesc</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Universitat Pompeu Fabra, SPAIN</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">khunley@unm.edu</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>4</day>
+<month>10</month>
+<year>2017</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2017</year>
+</pub-date>
+<volume>12</volume>
+<issue>10</issue>
+<elocation-id>e0185503</elocation-id>
+<history>
+<date date-type="received">
+<day>17</day>
+<month>7</month>
+<year>2017</year>
+</date>
+<date date-type="accepted">
+<day>13</day>
+<month>9</month>
+<year>2017</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2017</copyright-year>
+<copyright-holder>Healy et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0185503"/>
+<abstract>
+<p>We examined the relationship between continental-level genetic ancestry and racial and ethnic identity in an admixed population in New Mexico with the goal of increasing our understanding of how racial and ethnic identity influence genetic substructure in admixed populations. Our sample consists of 98 New Mexicans who self-identified as Hispanic or Latino (NM-HL) and who further categorized themselves by race and ethnic subgroup membership. The genetic data consist of 270 newly-published autosomal microsatellites from the NM-HL sample and previously published data from 57 globally distributed populations, including 13 admixed samples from Central and South America. For these data, we 1) summarized the major axes of genetic variation using principal component analyses, 2) performed tests of Hardy Weinberg equilibrium, 3) compared empirical genetic ancestry distributions to those predicted under a model of admixture that lacked substructure, 4) tested the hypotheses that individuals in each sample had 100%, 0%, and the sample-mean percentage of African, European, and Native American ancestry. We found that most NM-HL identify themselves and their parents as belonging to one of two groups, conforming to a region-specific narrative that distinguishes recent immigrants from Mexico from individuals whose families have resided in New Mexico for generations and who emphasize their Spanish heritage. The “Spanish” group had significantly lower Native American ancestry and higher European ancestry than the “Mexican” group. Positive F<sub>IS</sub> values, PCA plots, and heterogeneous ancestry distributions suggest that most Central and South America admixed samples also contain substructure, and that this substructure may be related to variation in social identity. Genetic substructure appears to be common in admixed populations in the Americas and may confound attempts to identify disease-causing genes and to understand the social causes of variation in health outcomes and social inequality.</p>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution>National Science Foundation Directorate for Social, Behavioral and Economic Sciences</institution>
+</funding-source>
+<award-id>0962825</award-id>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-0987-8277</contrib-id>
+<name name-style="western">
+<surname>Hunley</surname>
+<given-names>Keith</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award002">
+<funding-source>
+<institution>Massachusetts General Hospital (NIH/NCI) Cancer Genetics Network</institution>
+</funding-source>
+<award-id>HHSN26120074400C</award-id>
+</award-group>
+<award-group id="award003">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100007179</institution-id>
+<institution>University of New Mexico</institution>
+</institution-wrap>
+</funding-source>
+<award-id>NA</award-id>
+</award-group>
+<funding-statement>This research was funded by grants from the University of New Mexico and the National Science Foundation (BCS #0962825). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="5"/>
+<table-count count="3"/>
+<page-count count="17"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Admixed populations form when individuals from previously separated populations mate with one another. Research on admixed human populations can assist in detecting alleles underlying susceptibility to common diseases [<xref ref-type="bibr" rid="pone.0185503.ref001">1</xref>–<xref ref-type="bibr" rid="pone.0185503.ref003">3</xref>], and it can provide important insights into the causes of social inequality and health disparities in societies that are stratified by race or ethnicity [<xref ref-type="bibr" rid="pone.0185503.ref004">4</xref>,<xref ref-type="bibr" rid="pone.0185503.ref005">5</xref>]. Population substructure is potentially an important confound in this research. Substructure occurs when individuals within a larger population mate assortatively due to the presence of geographic barriers, or to structured racial, ethnic, linguistic, or phenotypic variation. Failure to recognize and account for substructure can lead to spurious conclusions about genetic and social causes of disease [<xref ref-type="bibr" rid="pone.0185503.ref004">4</xref>], and it can lead to suboptimal distributions of resources intended to ameliorate the pernicious consequences of racial and ethnic discrimination.</p>
+<p>In this paper, we examine substructure associated with racial and ethnic identity in admixed populations in the Americas, concentrating on the “Hispanic or Latino” (HL) population of New Mexico. We chose to focus on New Mexico for three reasons. First, it has the highest proportion of any US state of individuals that identify as HL on the US Census (47% in 2010) [<xref ref-type="bibr" rid="pone.0185503.ref006">6</xref>]. Second, historical and demographic records provide detailed information about the formation of heterogeneity in social identity within the HL population of the state over the past 400 years [<xref ref-type="bibr" rid="pone.0185503.ref007">7</xref>,<xref ref-type="bibr" rid="pone.0185503.ref008">8</xref>]. Third, previous genetic studies have documented the existence of genetic substructure in HL populations in the region [<xref ref-type="bibr" rid="pone.0185503.ref009">9</xref>,<xref ref-type="bibr" rid="pone.0185503.ref010">10</xref>]. These factors make the HL population of New Mexico ideal for studying the relationship between population substructure and social-group identity in the US, and for drawing inferences about this relationship in other admixed populations in the Americas.</p>
+<sec id="sec002">
+<title>Background: Social-group identity in New Mexico</title>
+<p>When the first Spanish colonists arrived in the area that would become New Mexico in 1598, they encountered Native Americans whose ancestors had been present in the Americas for more than 13,000 years [<xref ref-type="bibr" rid="pone.0185503.ref011">11</xref>]. The earliest Spanish census and church records enumerated individuals of mixed ancestry as well as exclusive Spanish or Native American ancestry [<xref ref-type="bibr" rid="pone.0185503.ref012">12</xref>,<xref ref-type="bibr" rid="pone.0185503.ref013">13</xref>], indicating that mating between Spaniards and Native Americans occurred from earliest contact [<xref ref-type="bibr" rid="pone.0185503.ref012">12</xref>–<xref ref-type="bibr" rid="pone.0185503.ref015">15</xref>]. These records show that, during the colonial period (1598–1821), Spaniards used a hierarchical caste system to describe and socially rank admixed individuals according to the fraction of Spanish and Native American heritage. During the US territorial period (1850–1912), the population of New Mexico grew as people migrated from other areas of the US. In the face of potential political marginalization by the new arrivals, the resident population re-embraced its Spanish, i.e., European, roots. Later, in response to increasing migration from Mexico, many New Mexicans began to embrace and romanticize the Spanish heritage of the long-resident population [<xref ref-type="bibr" rid="pone.0185503.ref008">8</xref>,<xref ref-type="bibr" rid="pone.0185503.ref016">16</xref>]. The rate of migration from Mexico increased in 20th century, and today more than half of New Mexicans who identify themselves as HL on the US census also identify as Mexican or Mexican American [<xref ref-type="bibr" rid="pone.0185503.ref017">17</xref>]. As a result of this region-specific history, the notion of comparatively recent Mexican vs. deep Spanish heritage is a salient feature of social identity in New Mexico today [<xref ref-type="bibr" rid="pone.0185503.ref008">8</xref>].</p>
+<p>Here, we use four complementary statistical methods to document the existence of genetic substructure in fourteen HL populations with widespread distribution throughout the Americas, and we use the HL population of New Mexico to examine the role played by racial and ethnic identity in formation of this substructure.</p>
+</sec>
+</sec>
+<sec id="sec003" sec-type="materials|methods">
+<title>Materials and methods</title>
+<sec id="sec004">
+<title>Ethics statement</title>
+<p>The University of New Mexico Institutional Review Board approved the protocols used to conduct this research (UNM IRB 98–369). Written informed consent was obtained from all participants prior to data collection.</p>
+</sec>
+<sec id="sec005">
+<title>Terminology</title>
+<p>In 1997, the Office of Management and Budget began to use the phrase “Hispanic or Latino” to refer to US residents of Spanish origin or descent, defined as “of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin regardless of race” [<xref ref-type="bibr" rid="pone.0185503.ref018">18</xref>]. The two terms in the phrase were meant to capture regional variation in the US, and in principle, the term “Latino” includes individuals of Portuguese origin, e.g., from Brazil. Based on these conventions, in the current study, we use the term “NM-HL” to refer to the New Mexican HL sample. Additionally, while noting that the two terms are not widely used outside of the US [<xref ref-type="bibr" rid="pone.0185503.ref019">19</xref>], we use “LA-HL” to refer to people of mixed African, European, and Native American ancestry in Latin America.</p>
+</sec>
+<sec id="sec006">
+<title>Self-identified race and ethnicity</title>
+<p>Our primary NM-HL sample consists of 98 unrelated adult individuals recruited from the Cancer Genetics Network (CGN) [<xref ref-type="bibr" rid="pone.0185503.ref020">20</xref>], which consists of cancer patients and their first-degree relatives. During initial recruitment for the CGN, telephone interviewers used two questions to elicit information about the ethnic and racial identity of participants and their parents. The first question was “How would you describe your ethnic or racial background?” Participants were asked to choose all that applied from the list:</p>
+<list list-type="bullet">
+<list-item><p>White</p></list-item>
+<list-item><p>Hispanic, Spanish or Latino</p></list-item>
+<list-item><p>Black or African American</p></list-item>
+<list-item><p>Native American, Aleutian, Eskimo</p></list-item>
+<list-item><p>Asian or Pacific Islander</p></list-item>
+<list-item><p>Other</p></list-item>
+</list>
+<p>Because the question contains both OMB race and ethnic categories, we refer to this self-classification as “ethno-racial.” We use the acronym “HSL” to refer to the choice “Hispanic, Spanish or Latino.”</p>
+<p>The second question was “Would you describe yourself as…?” Participants were asked to choose all that applied from the list:</p>
+<list list-type="bullet">
+<list-item><p>Mexican, Chicano, New Mexican</p></list-item>
+<list-item><p>Puerto Rican</p></list-item>
+<list-item><p>Cuban</p></list-item>
+<list-item><p>South American or Central American</p></list-item>
+<list-item><p>Other specified Spanish origin (including European)</p></list-item>
+<list-item><p>Spanish, Hispanic, or Latino, not otherwise specified</p></list-item>
+</list>
+<p>Since these terms refer to subcategories of HL [<xref ref-type="bibr" rid="pone.0185503.ref018">18</xref>], we refer to this self-classification as “ethnic subgroup.” We use the acronym “MCN” to refer to the choice “Mexican, Chicano, New Mexican.” We address the potential limitations of these terms for NM-HL in the Discussion.</p>
+</sec>
+<sec id="sec007">
+<title>Genetic data</title>
+<p>We mailed DNA mouthwash kits to 159 individuals located throughout the state who minimally responded “Hispanic, Spanish or Latino” to the ethno-racial question. DNA extracts from 109 respondents were genotyped for 270 autosomal microsatellite loci from Screening Set 16 from the Marshfield Clinic’s Mammalian Genotyping Service [<xref ref-type="bibr" rid="pone.0185503.ref021">21</xref>]. Eleven individuals failed to genotype, for a final sample of 98 individuals (32 males and 66 females; 83 cancer patients and 15 unrelated controls). We matched these loci to published data from 1,062 individuals in seven African, eight European, 29 Native American, and 13 admixed LA-HL samples from Central and South America [<xref ref-type="bibr" rid="pone.0185503.ref022">22</xref>–<xref ref-type="bibr" rid="pone.0185503.ref024">24</xref>].</p>
+<p>The published LA-HL data (<xref ref-type="table" rid="pone.0185503.t001">Table 1</xref>) were used to assess the extent of genetic substructure in HL populations across the Americas. The data were collected for population genetic analyses or disease association studies [<xref ref-type="bibr" rid="pone.0185503.ref024">24</xref>]; the studies did not provide information about the racial or ethnic identity of the individuals. Data for twelve of the samples were collected in single locations in Mexico (Mexico City), Guatemala (Oriente), Costa Rica (Central Valley, abbreviated CVCR), Colombia (four samples from Peque, Medellin, Cundinamarca, Pasto), Chile (two samples from Paposo and Quetalmahue), Argentina (three samples from Salta, Tucuman, and Catamarca). Data for the Brazil sample (Rio Grande do Sul, abbreviated RGS) were collected in two cities (Bagé and Alegrete).</p>
+<table-wrap id="pone.0185503.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0185503.t001</object-id>
+<label>Table 1</label> <caption><title>HL sample sizes and locations.</title></caption>
+<alternatives>
+<graphic id="pone.0185503.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0185503.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Sample</th>
+<th align="center">n</th>
+<th align="center">Location</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Mexico City</td>
+<td align="center">19</td>
+<td align="center">Mexico</td>
+</tr>
+<tr>
+<td align="left">Oriente</td>
+<td align="center">20</td>
+<td align="center">Guatemala</td>
+</tr>
+<tr>
+<td align="left">CVCR</td>
+<td align="center">20</td>
+<td align="center">Costa Rica</td>
+</tr>
+<tr>
+<td align="left">Pasto</td>
+<td align="center">19</td>
+<td align="center">Colombia</td>
+</tr>
+<tr>
+<td align="left">Peque</td>
+<td align="center">20</td>
+<td align="center">Colombia</td>
+</tr>
+<tr>
+<td align="left">Medellin</td>
+<td align="center">20</td>
+<td align="center">Colombia</td>
+</tr>
+<tr>
+<td align="left">Cundinamarca</td>
+<td align="center">19</td>
+<td align="center">Colombia</td>
+</tr>
+<tr>
+<td align="left">RGS</td>
+<td align="center">20</td>
+<td align="center">Brazil</td>
+</tr>
+<tr>
+<td align="left">Quetalmahue</td>
+<td align="center">20</td>
+<td align="center">Chile</td>
+</tr>
+<tr>
+<td align="left">Paposo</td>
+<td align="center">20</td>
+<td align="center">Chile</td>
+</tr>
+<tr>
+<td align="left">Catamarca</td>
+<td align="center">14</td>
+<td align="center">Argentina</td>
+</tr>
+<tr>
+<td align="left">Salta</td>
+<td align="center">19</td>
+<td align="center">Argentina</td>
+</tr>
+<tr>
+<td align="left">Tucuman</td>
+<td align="center">19</td>
+<td align="center">Argentina</td>
+</tr>
+<tr>
+<td align="left">New Mexico</td>
+<td align="center">98</td>
+<td align="center">USA</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec008">
+<title>Statistical methods</title>
+<p>We used four complementary approaches to examine substructure in the HL samples. First, to explore gross structure among the populations, we summarized the major axes of genetic variation for the HL samples and NM-HL ethno-racial and ethnic subgroups using PCA. The analyses were conducted using the ade4 package [<xref ref-type="bibr" rid="pone.0185503.ref025">25</xref>] in R [<xref ref-type="bibr" rid="pone.0185503.ref026">26</xref>].</p>
+<p>The second approach is based on the fact that structured populations have a reduction of heterozygosity relative to that predicted under HWE [<xref ref-type="bibr" rid="pone.0185503.ref027">27</xref>]. To look for this reduction, we calculated F<sub>IS</sub> for each sample as the average across loci of the quantity <italic>1 - (Observed Heterozygosity/Expected Heterozygosity)</italic>. Positive values indicate a reduction of heterozygosity relative to that predicted under HWE. The analyses were conducted using GenePop [<xref ref-type="bibr" rid="pone.0185503.ref028">28</xref>].</p>
+<p>The third approach is based on research by Verdu and Rosenberg [<xref ref-type="bibr" rid="pone.0185503.ref029">29</xref>] that demonstrated that, under a model in which two parental source populations contributed to an admixed population one time in the past, and mating was subsequently random with respect to genetic ancestry, variation in ancestry decreased every generation until all individuals had identical ancestry proportions. To test this “one-time,” random-mating model for the HL samples, we first estimated African, European, and Native American ancestry proportions for all individuals using the model-based clustering approach implemented in STRUCTURE [<xref ref-type="bibr" rid="pone.0185503.ref030">30</xref>]. We ran STRUCTURE at values of <italic>K</italic> from 2 to 15 using the published African, European, and Native American samples as parental sources. For each value of K, we ran STRUCTURE 10 times using a burn-in phase of 25,000 steps and 15,000 MCMC repetitions. Preempting our results, the average African ancestry in the NM-HL samples was low at 1.3%, and the average across the LA-HL samples was only 2.3%. To simplify the analyses of the one-time model, we only considered admixture between Europeans and Native Americans.</p>
+<p>We then generated model-based genetic ancestry distributions in which, in the first generation, Europeans mated with one another in proportion 0.542, and Europeans mated with Native Americans in proportion 0.458; these values produced the mean European and Native American ancestry proportions in the NM-HL sample. Each subsequent generation, individuals in the admixed population mated randomly with respect to genetic ancestry. We ran the model 15 times for admixture onset dates of between 1–15 generations before the present. The 15-generation value corresponds roughly to the date 1598 AD, when Spaniards first arrived in New Mexico. These analyses were based on the “single event admixture” model described by Verdu and Rosenberg, in which the variance in ancestry at generation <italic>g</italic> is given by <italic>s</italic>*(1 –<italic>s</italic>)/2<sup><italic>g</italic></sup>, where <italic>s</italic> is the proportionate contribution from the European parental source population at the time of initial admixture. The model-based ancestry distributions were generated using an original R script written by one of the authors (JMG).</p>
+<p>Based on these results, for our fourth approach, we used the 90% credible regions estimated in STRUCTURE to test the hypotheses that individuals in each HL sample had 100%, 0%, and that sample’s mean percentage of African, European, and Native American ancestry. We also tested for mean differences in African, European, and Native American ancestry between the NM-HL ethnic subgroups using signed Wilcoxon rank-sum tests.</p>
+</sec>
+</sec>
+<sec id="sec009" sec-type="results">
+<title>Results</title>
+<p>In Tables <xref ref-type="table" rid="pone.0185503.t002">2</xref> and <xref ref-type="table" rid="pone.0185503.t003">3</xref>, we show various combinations of choices for the two identity questions. For the ethno-racial question, all participants chose “Hispanic, Spanish, Latino”, and 20 participants also chose “White” (<xref ref-type="table" rid="pone.0185503.t002">Table 2</xref>). None of the participants chose “Black or African American,” “Native American, Aleutian, Eskimo,” or “Asian or Pacific Islander.”</p>
+<table-wrap id="pone.0185503.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0185503.t002</object-id>
+<label>Table 2</label> <caption><title>NMS ethno-racial and ethnic subgroup identity.</title></caption>
+<alternatives>
+<graphic id="pone.0185503.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0185503.t002" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Grouping</th>
+<th align="left">Categories</th>
+<th align="center">Self</th>
+<th align="center">Mother</th>
+<th align="center">Father</th>
+<th align="center">All three</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Ethno-racial group</td>
+<td align="left">HSL</td>
+<td align="center">98</td>
+<td align="center">90</td>
+<td align="center">90</td>
+<td align="center">83</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">HSL &amp; White</td>
+<td align="center">20</td>
+<td align="center">11</td>
+<td align="center">6</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">HSL &amp; no race</td>
+<td align="center">78</td>
+<td align="center">79</td>
+<td align="center">84</td>
+<td align="center">73</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">Non-HSL &amp; White</td>
+<td align="center">0</td>
+<td align="center">8</td>
+<td align="center">6</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">Non-HSL &amp; no race</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">2</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#F2F2F2">Ethnic subgroup</td>
+<td align="left" style="background-color:#F2F2F2">MCN</td>
+<td align="center" style="background-color:#F2F2F2">58</td>
+<td align="center" style="background-color:#F2F2F2">48</td>
+<td align="center" style="background-color:#F2F2F2">56</td>
+<td align="center" style="background-color:#F2F2F2">45</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#F2F2F2"> </td>
+<td align="left" style="background-color:#F2F2F2">Spanish</td>
+<td align="center" style="background-color:#F2F2F2">34</td>
+<td align="center" style="background-color:#F2F2F2">34</td>
+<td align="center" style="background-color:#F2F2F2">30</td>
+<td align="center" style="background-color:#F2F2F2">24</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#F2F2F2"> </td>
+<td align="left" style="background-color:#F2F2F2">Both MCN and Spanish</td>
+<td align="center" style="background-color:#F2F2F2">4</td>
+<td align="center" style="background-color:#F2F2F2">6</td>
+<td align="center" style="background-color:#F2F2F2">9</td>
+<td align="center" style="background-color:#F2F2F2">2</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#F2F2F2"> </td>
+<td align="left" style="background-color:#F2F2F2">Neither MCN nor Spanish</td>
+<td align="center" style="background-color:#F2F2F2">2</td>
+<td align="center" style="background-color:#F2F2F2">10</td>
+<td align="center" style="background-color:#F2F2F2">3</td>
+<td align="center" style="background-color:#F2F2F2">2</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<table-wrap id="pone.0185503.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0185503.t003</object-id>
+<label>Table 3</label> <caption><title>Ethnicity-race, participants and parents.</title></caption>
+<alternatives>
+<graphic id="pone.0185503.t003g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0185503.t003" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<tbody>
+<tr>
+<td align="left" style="background-color:#FFFFFF"> </td>
+<td align="center" colspan="4" style="background-color:#FFFFFF">Mother</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#FFFFFF">Self</td>
+<td align="center" style="background-color:#FFFFFF">HSL &amp; White</td>
+<td align="center" style="background-color:#FFFFFF">HSL &amp; no race</td>
+<td align="center" style="background-color:#FFFFFF">Non-HSL &amp; White</td>
+<td align="center" style="background-color:#FFFFFF">Non-HSL &amp; no race</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#FFFFFF">HSL &amp; White</td>
+<td align="center" style="background-color:#FFFFFF">8</td>
+<td align="center" style="background-color:#FFFFFF">4</td>
+<td align="center" style="background-color:#FFFFFF">8</td>
+<td align="center" style="background-color:#FFFFFF">0</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#FFFFFF">HSL &amp; no race</td>
+<td align="center" style="background-color:#FFFFFF">3</td>
+<td align="center" style="background-color:#FFFFFF">75</td>
+<td align="center" style="background-color:#FFFFFF">0</td>
+<td align="center" style="background-color:#FFFFFF">0</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#FFFFFF"> </td>
+<td align="center" style="background-color:#FFFFFF"> </td>
+<td align="center" style="background-color:#FFFFFF"> </td>
+<td align="center" style="background-color:#FFFFFF"> </td>
+<td align="center" style="background-color:#FFFFFF"> </td>
+</tr>
+<tr>
+<td align="left" style="background-color:#FFFFFF"> </td>
+<td align="center" colspan="4" style="background-color:#FFFFFF">Father</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#FFFFFF">Self</td>
+<td align="center" style="background-color:#FFFFFF">HSL &amp; White</td>
+<td align="center" style="background-color:#FFFFFF">HSL &amp; no race</td>
+<td align="center" style="background-color:#FFFFFF">Non-HSL &amp; White</td>
+<td align="center" style="background-color:#FFFFFF">Non-HSL &amp; no race</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#FFFFFF">HSL &amp; White</td>
+<td align="center" style="background-color:#FFFFFF">5</td>
+<td align="center" style="background-color:#FFFFFF">8</td>
+<td align="center" style="background-color:#FFFFFF">6</td>
+<td align="center" style="background-color:#FFFFFF">1</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#FFFFFF">HSL &amp; no race</td>
+<td align="center" style="background-color:#FFFFFF">1</td>
+<td align="center" style="background-color:#FFFFFF">76</td>
+<td align="center" style="background-color:#FFFFFF">0</td>
+<td align="center" style="background-color:#FFFFFF">1</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#FFFFFF"> </td>
+<td align="center" style="background-color:#FFFFFF"> </td>
+<td align="center" style="background-color:#FFFFFF"> </td>
+<td align="center" style="background-color:#FFFFFF"> </td>
+<td align="center" style="background-color:#FFFFFF"> </td>
+</tr>
+<tr>
+<td align="left" style="background-color:#FFFFFF"> </td>
+<td align="center" colspan="4" style="background-color:#FFFFFF">Father</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#FFFFFF">Mother</td>
+<td align="center" style="background-color:#FFFFFF">HSL &amp; White</td>
+<td align="center" style="background-color:#FFFFFF">HSL &amp; no race</td>
+<td align="center" style="background-color:#FFFFFF">Non-HSL &amp; White</td>
+<td align="center" style="background-color:#FFFFFF">Non-HSL &amp; no race</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#FFFFFF">HSL &amp; White</td>
+<td align="center" style="background-color:#FFFFFF">3</td>
+<td align="center" style="background-color:#FFFFFF">5</td>
+<td align="center" style="background-color:#FFFFFF">3</td>
+<td align="center" style="background-color:#FFFFFF">0</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#FFFFFF">HSL &amp; no race</td>
+<td align="center" style="background-color:#FFFFFF">2</td>
+<td align="center" style="background-color:#FFFFFF">73</td>
+<td align="center" style="background-color:#FFFFFF">3</td>
+<td align="center" style="background-color:#FFFFFF">1</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#FFFFFF">Non-HSL &amp; White</td>
+<td align="center" style="background-color:#FFFFFF">1</td>
+<td align="center" style="background-color:#FFFFFF">6</td>
+<td align="center" style="background-color:#FFFFFF">0</td>
+<td align="center" style="background-color:#FFFFFF">1</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#FFFFFF">Non-HSL &amp; no race</td>
+<td align="center" style="background-color:#FFFFFF">0</td>
+<td align="center" style="background-color:#FFFFFF">0</td>
+<td align="center" style="background-color:#FFFFFF">0</td>
+<td align="center" style="background-color:#FFFFFF">0</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>For the ethnic subgroup question, we created a single “Spanish” subgroup by combining individuals who responded “Other specified Spanish origin (including European)” or “Spanish, Hispanic, or Latino, not otherwise specified.” We note that 27 of the 34 individuals in this subgroup chose the first of these two options. Fifty-eight individuals chose MCN (“Mexican, Chicano, New Mexican”) exclusively. Four individuals self-identified as belonging to both the Spanish and MCN subgroup, and two did not identify with either. None of the other ethnic subgroups were chosen by participants. Most participants placed one or both parents either exclusively in the Spanish subgroup or exclusively in the MCN subgroup.</p>
+<p><xref ref-type="table" rid="pone.0185503.t003">Table 3</xref> compares ethno-racial identity between the participant and each parent, and between the two parents. Most participants placed both parents into the same ethno-racial group that they chose for themselves. A notable exception is that 14 participants identified one parent as non-HSL and White. Of these participants, six identified themselves as MCN, six identified as Spanish, one identified as both, and one identified as neither. No participants identified both parents as non-HSL and White.</p>
+<p>For the ethnic subgroup question, the vast majority of participants (&gt; 93%) placed both parents into the same ethnic subgroup that they chose for themselves (<xref ref-type="supplementary-material" rid="pone.0185503.s003">S1 Table</xref>).</p>
+<p>Based on these results, we divided the NM-HL sample into five subgroups for the analyses of the genetic data. The first two subgroups contain participants who self-identified exclusively as either Spanish or MCN. The second two subgroups are subsets of the first two; they consist of individuals that identified themselves and both parents as belonging exclusively to one of the subgroups. We refer to these two groups as “All Spanish” and “All MCN.” The fifth subgroup consists of participants who identified one parent as non-HSL and White.</p>
+<sec id="sec010">
+<title>PCA</title>
+<p><xref ref-type="fig" rid="pone.0185503.g001">Fig 1A</xref> is a scatter plot of values for the first two PCs for our full sample of worldwide populations. Both factors separate individuals from Africa, Europe, and the Americas, and both are strongly correlated with European ancestry (R<sup>2</sup><sub>PC1</sub> = 0.88; R<sup>2</sup><sub>PC2</sub> = 0.87) and Native American ancestry (R<sup>2</sup><sub>PC1</sub> = 0.90; R<sup>2</sup><sub>PC2</sub> = 0.85) in the Native American and LA-HL samples. HL individuals are dispersed between the European and Native America clusters. Several HL individuals are also located relatively closely to the African cluster, most notably a single individual from the Brazilian RGS sample.</p>
+<fig id="pone.0185503.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0185503.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Scatter plot of PC1 and PC2 color-coded by geographic region.</title>
+<p>A. All individuals. B, C, and D show the HL portion of the plot. B. NM-HL subgroups. The outline color for the small circles show Spanish (red), MCN (blue), and one non-HSL and White parent (black). Large circles show mean PC1 and PC2 values for each subgroup. The pattern is similar for the All Spanish and All MCN subgroups (not shown on the plot). C. Mexico City and RGS. D. Quetalmahue and CVCR.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0185503.g001" xlink:type="simple"/>
+</fig>
+<p><xref ref-type="fig" rid="pone.0185503.g001">Fig 1B</xref> highlights the NM-HL individuals. Although there is overlap in PC values between individuals in different subgroups, individuals from the MCN subgroup (blue outline) are more widely dispersed, and they cluster closer to Native Americans than other subgroups. Four MCN individuals stand apart from the others in their relative proximity to the African cluster. Individuals with a non-HSL White parent cluster nearer to Europeans (two fall within the European cluster), as do, to a lesser extent, Spanish individuals. The mean PC1 values differ between the three subgroups at the 0.05 level. The patterns are similar for the all-MCN and all-Spanish subgroups (not shown).</p>
+<p><xref ref-type="fig" rid="pone.0185503.g001">Fig 1C and 1D</xref> highlight two LA-HL samples with high dispersion (Mexico City and Brazilian RGS) and two samples with low dispersion (Chilean Quetalmahue and Costa Rican CVCR) for both PC factors. In addition to the high degree of dispersion, individuals in Mexico City fall into distinctive clusters; six individuals cluster with Europeans, and, at the other extreme, a single individual clusters with Native Americans. This pattern of dispersion is potentially consistent with the existence of substructure within Mexico City. In contrast, individuals in the Quetalmahue and CVCR samples are relatively tightly clustered around their sample means.</p>
+</sec>
+<sec id="sec011">
+<title>Hardy Weinberg equilibrium</title>
+<p><xref ref-type="fig" rid="pone.0185503.g002">Fig 2</xref> shows the average F<sub>IS</sub> values for the HL samples and the NM-HL ethnic subgroups. All samples except the Quetalmahue have positive F<sub>IS</sub> values, suggesting that substructure may be common in HL populations throughout the Americas. In New Mexico, F<sub>IS</sub> is significantly greater than zero at the 0.05 level in the NM-HL population as a whole and in the MCN subgroup. The latter result is consistent with the existence of additional substructure within the MCN subgroup. F<sub>IS</sub> is comparatively low in the Spanish and All-Spanish subgroups.</p>
+<fig id="pone.0185503.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0185503.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Average F<sub>IS</sub>.</title>
+<p>Positive values indicate a reduction of heterozygosity relative to that predicted under HWE.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0185503.g002" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec012">
+<title>Genetic ancestry and one-time admixture</title>
+<p>In the genetic ancestry analyses, the log probability of data, P(X|K), plateaued at <italic>K</italic> = 10. Two of the 10 clusters were specific to African and European individuals, and the remaining eight clusters captured substructure among Native American populations, most notable among relatively isolated populations in Brazil and Paraguay [<xref ref-type="bibr" rid="pone.0185503.ref023">23</xref>,<xref ref-type="bibr" rid="pone.0185503.ref031">31</xref>]. <xref ref-type="fig" rid="pone.0185503.g003">Fig 3</xref> shows a bar plot of the mean individual-level African, European, and combined Native American ancestry for the HL samples. The blue bars show that African ancestry is broadly low, ranging from 0.4% in the Chilean Paposo to 6.6% in the RGS. The mean African ancestry in NM-HL is 1.3%.</p>
+<fig id="pone.0185503.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0185503.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Bar plot of the mean individual-level ancestry for each sample averaged across 10 runs of structure at <italic>K</italic> = 10.</title>
+<p>Dashed lines show the mean Africa, European, and Native American ancestry for the NM-HL.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0185503.g003" xlink:type="simple"/>
+</fig>
+<p>All samples have comparatively high European and Native American ancestry. European ancestry ranges from a low of 25.0% in the Argentinian Salta to 73.9% in the Brazilian RGS. Conversely, Native American ancestry is lowest in the RGS (19.5%) and highest in the Salta (73.7%). Compared to the 13 LA-HL samples, the NM-HL sample ranks 2<sup>nd</sup> highest in European ancestry (mean = 72.9%, range = 41.6–97.0%) and the 4<sup>th</sup> lowest in Native American ancestry (mean = 25.8%, range = 2.5–57.0%). These ranges are similar to those reported from other studies of HL populations in the US Southwest [<xref ref-type="bibr" rid="pone.0185503.ref009">9</xref>,<xref ref-type="bibr" rid="pone.0185503.ref010">10</xref>].</p>
+<p>The histograms of European ancestry in <xref ref-type="fig" rid="pone.0185503.g004">Fig 4</xref> provide a more detailed picture of the degree of variation in ancestry within and among the samples (see <xref ref-type="supplementary-material" rid="pone.0185503.s001">S1 Fig</xref> and <xref ref-type="supplementary-material" rid="pone.0185503.s002">S2 Fig</xref> for the African and Native American ancestry distributions). In a handful of locations, the distributions are relatively narrow, e.g., the CVCR and Quetalmahue. In most locations, however, the distributions are broad and heterogeneous, most notably in the Mexico City (range = 2.6%-98%). This broad distribution in Mexico City is consistent with findings from a recent study of genomic diversity in other urban centers in Mexico [<xref ref-type="bibr" rid="pone.0185503.ref003">3</xref>].</p>
+<fig id="pone.0185503.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0185503.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Histograms of individual-level European ancestry averaged across 10 runs of structure at <italic>K</italic> = 10.</title>
+<p>The mean European ancestry is listed below each plot. NM-HL subgroups are highlighted using dark green bars. Because African ancestry is low in the samples, the Native American ancestry distributions are effectively the complements of these European ancestry distributions.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0185503.g004" xlink:type="simple"/>
+</fig>
+<p>For the NM-HL ethnic subgroups, the ancestry distributions are consistent with the PCA results in showing that the Spanish subgroup has a narrower range of European ancestry estimates (56%-94%) than the MCN subgroup (42%-94%) and a significantly higher mean European ancestry (76% vs. 71%, p &lt; 0.05). The range of ancestry is narrower still for the subgroup with one non-HSL White parent (66%-97%), and the mean European ancestry (87%) is significantly greater than it is for the other two subgroups (p &lt; 0.001). These results show that the genetic differences identified in the PCA analyses are the result of differences in continental ancestry among the NM-HL subgroups.</p>
+<p><xref ref-type="fig" rid="pone.0185503.g005">Fig 5</xref> compares the European ancestry distribution for the NM-HL to distributions generated under one-time models of the admixture process with onset times at 3, 6, 9, 12, and 15 generations before the present. The plots show that the observed level of variation in ancestry in the NM-HL sample exceeds that produced under one-time admixture events occurring any time prior to three generations before the present. These results support findings from the PCA, HWE, and social-group identity analyses. We reject the hypothesis of one-time admixture in NM-HL. Furthermore, if admixture began between the 15<sup>th</sup> - 19<sup>th</sup> centuries in the 13 LA-HL samples, we reject a one-time model in them as well, with the possible exceptions of the CVCR and Quetalmahue.</p>
+<fig id="pone.0185503.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0185503.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>Histograms of NM-HL and model-based European ancestry.</title>
+<p>A. Empirical distribution. B-F. European ancestry distribution under a one-time model in which admixture occurred 3, 6, 9, 12, and 15 generations before present.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0185503.g005" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec013">
+<title>Credible region analyses</title>
+<p>The sample sizes are relatively small for many of the HL groups (average = 25), and the 90% credible regions for individual estimates (from STRUCTURE) are fairly broad, averaging 6% (between low and high) across individuals for African ancestry, 23% for European ancestry, and 18% for Native American ancestry. Because these ranges are so broad, to confirm our conclusions about one-time admixture and to further explore the existence of substructure, we used the 90% credible regions to test the hypotheses that individuals in each HL sample had 0%, 100%, and the sample mean African, European, and Native American ancestry percentage. The results are shown in <xref ref-type="supplementary-material" rid="pone.0185503.s004">S2 Table</xref>. In the NM-HL sample, the 90% credible region excludes 0% African ancestry for only two individuals, with 14.6% and 12.2% African ancestry respectively, both of whom identify as MCN. The credible region also excludes 100% African ancestry for all 98 individuals. For European ancestry, the 90% credible region excludes 0% for all 98 individuals, and for all but six individuals, it excludes 100%. Of the six individuals, one is in the Spanish (and All Spanish) subgroup, and the remainder have a non-HSL White parent.</p>
+<p>The 90% credible region for 17 NM-HL individuals fell above the sample mean (indicating relatively high European ancestry); of these individuals, three identified themselves and their parents as Spanish, four identified themselves and their parents as MCN, and nine had a non-HSL white parent. The credible region for 18 individuals fell below the sample mean (indicating relatively low European ancestry). Of these individuals, three identified themselves and their parents as Spanish, 11 identified themselves and their parents as MCN, and none had a non-HSL White parent. The results are similar (but complementary) for Native American ancestry. These results provide further support for the existence of substructure related to Spanish vs. MCN ethnic subgroup identity in NM-HL. They also confirm that admixture between non-HSL White and NM-HL individuals is common in the state, which is clearly inconsistent with one-time admixture.</p>
+<p>Turning to the LA-HL samples, the 90% credible region excluded 100% African ancestry for all individuals in all HL samples, and it included 0% for all individuals in five of the samples. These results confirm that African ancestry is relatively low in these HL populations. European ancestry was relatively narrowly distributed in the CVCR and Quetalmahue. In these locations, the 90% credible region for ≥ 90% of individuals contains the mean European ancestry of the samples, and, except for one individual in the CVCR, the 90% credible regions exclude both 0% and 100% European ancestry for all individuals. The numbers are similar for Native American ancestry in these samples. The results are potentially consistent with one-time admixture in these two samples.</p>
+<p>The credible region analyses confirm that European and Native American ancestry distributions are much more heterogeneous in the remaining HL samples. In Mexico City (n = 19), European ancestry spans 2.6–98%, and the 90% credible region excludes the sample mean for the majority of individuals (<xref ref-type="supplementary-material" rid="pone.0185503.s004">S2 Table</xref>). The credible region contains 0% European ancestry for 2 individuals and 100% European ancestry for four individuals. In the Argentinian Salta, the 90% credible region contains 0% European ancestry for six of the 19 individuals. In the Brazilian RGS, already highlighted for their high African ancestry, the 90% credible region contains 100% European ancestry for five of the 20 individuals. These results imply that substructure related to genetic ancestry is ubiquitous in admixed populations throughout the Americas.</p>
+</sec>
+</sec>
+<sec id="sec014" sec-type="conclusions">
+<title>Discussion</title>
+<p>Our results indicate that substructure related to genetic ancestry is ubiquitous in admixed populations throughout the Americas. Such substructure is potentially an important confound in studies that exploit admixed populations to identify the genetic component of disease, e.g., through genome-wide association and admixture linkage disequilibrium [<xref ref-type="bibr" rid="pone.0185503.ref032">32</xref>]. Substructure is also important in epidemiology and social science studies that seek to identify and eliminate racial and ethnic disparities in health and social welfare. It is important to recognize that group-level identity and its social and health-related correlates may vary widely among peoples that are commonly placed into a single category by the OMB, e.g., HL and African Americans.</p>
+<sec id="sec015">
+<title>HL samples from Latin America</title>
+<p>Though the studies of the LA-HL samples did not provide information about the racial or ethnic identity of the participants, we can use historical and demographic information to make inferences about the causes of substructure and the potential correspondence between social-group identity and genetic ancestry in these samples. We concentrate on two samples, one showing high dispersion in genetic ancestry (Brazilian RGS) and one showing low dispersion (Costa Rican CVCR).</p>
+<p>In Brazil, the Instituto Brasileiro de Geografia e Estatıstica (IBGE) recognizes five categories of self-described social-group identity that are primarily based on phenotypic traits, including skin color: White, Brown, Black, Yellow, and Indigenous [<xref ref-type="bibr" rid="pone.0185503.ref033">33</xref>]. In 2008, the first three categories comprised 99.1% of the Brazilian population. In the Rio Grande do Sul, which comprises 5.7% of the population of Brazil, that number is 99.5% (White 80.8%, Brown 13.8%, Black 4.9%). Pena et al. [<xref ref-type="bibr" rid="pone.0185503.ref034">34</xref>] demonstrated that the three groups differed with respect to African, European, and Native American ancestry proportions estimated from 40 DNA polymorphisms. Mean European ancestry in individuals that identified as White, Brown, and Black, respectively, was 86%, 44% and 43%. Many individuals that identify as White had almost 100% European ancestry. Respective mean African ancestry values for the three groups were 5%, 44% and 46%. For the Brown and Black groups, African ancestry spanned 0–100%. This pattern of correspondence between social identity and genetic ancestry is consistent with studies showing that mating is assortative with respect to “color”-based social identity categories in Brazil [<xref ref-type="bibr" rid="pone.0185503.ref035">35</xref>].</p>
+<p>In our analyses, European ancestry in the RGS ranges broadly from 14–97%, and the 90% credible region encompasses 100% for five individuals. Native American ancestry ranges from 3–40%, and the 90% credible region spans 0% for eight individuals. African ancestry was particularly heterogeneous; the 90% credible region spans 0% for 17 of the 20 individuals. In these individuals, the mean African ancestry is 1.8%. For the other three individuals, mean African ancestry is 33.6%, and it ranges from 17.2–58.7%. These results are consistent with those from Pena et al. [<xref ref-type="bibr" rid="pone.0185503.ref034">34</xref>], and they strongly suggest that the RGS sample is structured with respect to genetic ancestry.</p>
+<p>In the sample from the Central Valley of Coast Rica (CVCR), the low dispersion in European and Native American ancestry, combined with the fact that the 90% credible region contains the sample-mean ancestry for all but two individuals (see <xref ref-type="fig" rid="pone.0185503.g002">Fig 2D</xref>, <xref ref-type="supplementary-material" rid="pone.0185503.s004">S2 Table</xref>), is consistent with one-time admixture occurring multiple generations in the past. This scenario is consistent with historical information documenting admixture between males from Spain and a small group of Native Americans females beginning in the 16<sup>th</sup> century, followed by relative isolation [<xref ref-type="bibr" rid="pone.0185503.ref036">36</xref>]. This history is also consistent with findings from recent genetic studies of low levels of mtDNA diversity (comprised of 83% Native American haplogroups) compared to other Latin American populations [<xref ref-type="bibr" rid="pone.0185503.ref037">37</xref>].</p>
+</sec>
+<sec id="sec016">
+<title>HL sample from New Mexico</title>
+<p>We have more direct evidence for ethno-racial substructure in NM-HL. Most NM-HL individuals identify themselves and their parents as belonging to one of two groups; these groups broadly conform to a region-specific narrative that distinguishes relatively recent immigrants from Mexico from individuals whose families have resided in New Mexico for generations and who often emphasize their Spanish heritage. These groups differ from each other with respect to continental ancestry. Epidemiological and social science studies in the region should take this substructure into account, and they should work with individuals and scholars in local communities to identify the social groups that are relevant to New Mexicans. Such research is especially important given the potential lack of congruence between region-specific vs. national-level, e.g., OMB, racial and ethnic categories [<xref ref-type="bibr" rid="pone.0185503.ref038">38</xref>].</p>
+<p>Fourteen percent of NM-HL individuals reported having a non-HSL White parent. Equal numbers of these individuals identified as Spanish and MCN (6 each). If such admixture has occurred for several generations, it may have eroded even larger ancestry differences that may have once existed between the subgroups. In fact, European ancestry in MCN is higher than it is in other Mexican and Mexican American populations, including those located near the US border [<xref ref-type="bibr" rid="pone.0185503.ref039">39</xref>–<xref ref-type="bibr" rid="pone.0185503.ref042">42</xref>].</p>
+<p>These findings and interpretations must be tempered by the fact that the questions we used to elicit information about identity were not perfectly-suited to NM-HL. The first two terms in the Mexican-Chicano-New Mexico category conflate nationality and socio-political identity. Furthermore, the term “New Mexican” may have been associated by some participants with the region-specific term “Nuevomexicano,” which is typically associated with Spanish heritage [<xref ref-type="bibr" rid="pone.0185503.ref008">8</xref>]. Additionally, of individuals that identified as Spanish, 79% chose “Other specified Spanish origin (including European)” compared to 21% for “Spanish, Hispanic, or Latino, not otherwise specified.” The infrequent choice of the latter category may reflect that fact that it combines the potentially region-specific term “Spanish” with broader, more inclusive terms “Hispanic” and “Latino.” These identity-related questions highlight the broader problem of capturing how people conceive group-level identity in different regions of the world, especially when attempting to use generalized terminology that may be inappropriate or meaningless in a particular region.</p>
+<p>In this vein, in 2009, the Institute of Medicine (now the National Academy of Medicine) recommended that health disparities researchers include lists of locally relevant fine-grained ethnic subcategories when collecting data [<xref ref-type="bibr" rid="pone.0185503.ref043">43</xref>]. To assist researchers, they compiled a list that separates the terms “Mexican” and “Chicano” into separate categories and includes region-specific terms such as “Nuevo Mexicano.” Regional studies, including ours, would benefit from the inclusion of such lists.</p>
+<p>We also note that for the NM-HL sample, our European ancestry estimates are higher, and our Native American ancestry estimates lower, than those from other studies of the region [<xref ref-type="bibr" rid="pone.0185503.ref009">9</xref>,<xref ref-type="bibr" rid="pone.0185503.ref010">10</xref>]. The variation in estimates might reflect differences in sampling methods, e.g., exclusion of individuals with non-HL White parents. It might also reflect differences in the types of markers used in the studies (autosomal microsatellites vs. SNPs). Autosomal microsatellite loci are prone to allelic dropout, which could lead to errors in allele frequency estimation and tests of HWE (e.g., inflating F<sub>IS</sub>). We eliminated loci and individuals with high amounts of missing data, but it is possible that dropout affected some of our F<sub>IS</sub> results.</p>
+</sec>
+</sec>
+<sec id="sec017" sec-type="conclusions">
+<title>Conclusions</title>
+<p>We found that racial and ethnic identify among NM-HL conforms to a region-specific narrative that distinguishes recent immigrants from Mexico from individuals whose families have resided in New Mexico for generations and who emphasize their Spanish heritage. Our analyses of NM-HL and 13 Central and South America HL samples suggest that genetic substructure is ubiquitous in admixed populations in the Americas, and that this substructure may be related to variation in social identity. This substructure may confound attempts to identify disease-causing genes and to understand the social causes of variation in health outcomes and social inequality.</p>
+</sec>
+<sec id="sec018">
+<title>Supporting information</title>
+<supplementary-material id="pone.0185503.s001" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0185503.s001" xlink:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title>African ancestry.</title>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0185503.s002" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0185503.s002" xlink:type="simple">
+<label>S2 Fig</label>
+<caption>
+<title>Native American ancestry.</title>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0185503.s003" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" xlink:href="info:doi/10.1371/journal.pone.0185503.s003" xlink:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Ethnic subgroup participant and parents.</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0185503.s004" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" xlink:href="info:doi/10.1371/journal.pone.0185503.s004" xlink:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>Credible region analyses.</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>This research was funded by grants from the University of New Mexico and the National Science Foundation (BCS #0962825).</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0185503.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>González Burchard</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Borrell</surname> <given-names>LN</given-names></name>, <name name-style="western"><surname>Choudhry</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Naqvi</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Tsai</surname> <given-names>H-J</given-names></name>, <name name-style="western"><surname>Rodriguez-Santana</surname> <given-names>JR</given-names></name>, <etal>et al</etal>. <article-title>Latino Populations: A Unique Opportunity for the Study of Race, Genetics, and Social Environment in Epidemiological Research</article-title>. <source>Am J Public Health</source>. <year>2005</year>;<volume>95</volume>: <fpage>2161</fpage>–<lpage>2168</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2105/AJPH.2005.068668" xlink:type="simple">10.2105/AJPH.2005.068668</ext-link></comment> <object-id pub-id-type="pmid">16257940</object-id></mixed-citation></ref>
+<ref id="pone.0185503.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Risch</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Burchard</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Ziv</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Tang</surname> <given-names>H</given-names></name>. <article-title>Categorization of humans in biomedical research: genes, race and disease</article-title>. <source>Genome Biol</source>. <year>2002</year>;<volume>3</volume>: <fpage>comment2007.1</fpage>–<lpage>comment2007.12</lpage>.</mixed-citation></ref>
+<ref id="pone.0185503.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Moreno-Estrada</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Gignoux</surname> <given-names>CR</given-names></name>, <name name-style="western"><surname>Fernández-López</surname> <given-names>JC</given-names></name>, <name name-style="western"><surname>Zakharia</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Sikora</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Contreras</surname> <given-names>AV</given-names></name>, <etal>et al</etal>. <article-title>The genetics of Mexico recapitulates Native American substructure and affects biomedical traits</article-title>. <source>Science</source>. <year>2014</year>;<volume>344</volume>: <fpage>1280</fpage>–<lpage>1285</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1126/science.1251688" xlink:type="simple">10.1126/science.1251688</ext-link></comment> <object-id pub-id-type="pmid">24926019</object-id></mixed-citation></ref>
+<ref id="pone.0185503.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mersha</surname> <given-names>TB</given-names></name>. <article-title>Mapping asthma-associated variants in admixed populations</article-title>. <source>Front Genet</source>. <year>2015</year>;<volume>6</volume>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fgene.2015.00292" xlink:type="simple">10.3389/fgene.2015.00292</ext-link></comment> <object-id pub-id-type="pmid">26483834</object-id></mixed-citation></ref>
+<ref id="pone.0185503.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Hildesheim</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>SS</given-names></name>, <name name-style="western"><surname>Herrero</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Gonzalez</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Burdette</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>Genetic Admixture and Population Substructure in Guanacaste Costa Rica</article-title>. <source>PLOS ONE</source>. <year>2010</year>;<volume>5</volume>: <fpage>e13336</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0013336" xlink:type="simple">10.1371/journal.pone.0013336</ext-link></comment> <object-id pub-id-type="pmid">20967209</object-id></mixed-citation></ref>
+<ref id="pone.0185503.ref006"><label>6</label><mixed-citation publication-type="other" xlink:type="simple">U. S. Census Bureau. Hispanic or Latino Origin [Internet]. 2016. Available: <ext-link ext-link-type="uri" xlink:href="https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_15_5YR_B03003&amp;prodType=table" xlink:type="simple">https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_15_5YR_B03003&amp;prodType=table</ext-link></mixed-citation></ref>
+<ref id="pone.0185503.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Birkby</surname> <given-names>WH</given-names></name>, <name name-style="western"><surname>Fenton</surname> <given-names>TW</given-names></name>, <name name-style="western"><surname>Anderson</surname> <given-names>BE</given-names></name>. <article-title>Identifying Southwest Hispanics using nonmetric traits and the cultural profile</article-title>. <source>J Forensic Sci</source>. <year>2008</year>;<volume>53</volume>: <fpage>29</fpage>–<lpage>33</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1556-4029.2007.00611.x" xlink:type="simple">10.1111/j.1556-4029.2007.00611.x</ext-link></comment> <object-id pub-id-type="pmid">18279235</object-id></mixed-citation></ref>
+<ref id="pone.0185503.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gonzales</surname> <given-names>PB</given-names></name>. <article-title>The political construction of Latino nomenclatures in twentieth-century New Mexico</article-title>. <source>J Southwest</source>. <year>1993</year>;<volume>35</volume>: <fpage>158</fpage>–<lpage>185</lpage>.</mixed-citation></ref>
+<ref id="pone.0185503.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bonilla</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Parra</surname> <given-names>EJ</given-names></name>, <name name-style="western"><surname>Pfaff</surname> <given-names>CL</given-names></name>, <name name-style="western"><surname>Dios</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Marshall</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Hamman</surname> <given-names>RF</given-names></name>, <etal>et al</etal>. <article-title>Admixture in the Hispanics of the San Luis Valley, Colorado, and its implications for complex trait gene mapping</article-title>. <source>Ann Hum Genet</source>. <year>2004</year>;<volume>68</volume>: <fpage>139</fpage>–<lpage>153</lpage>. <object-id pub-id-type="pmid">15008793</object-id></mixed-citation></ref>
+<ref id="pone.0185503.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Klimentidis</surname> <given-names>YC</given-names></name>, <name name-style="western"><surname>Miller</surname> <given-names>GF</given-names></name>, <name name-style="western"><surname>Shriver</surname> <given-names>MD</given-names></name>. <article-title>Genetic admixture, self-reported ethnicity, self-estimated admixture, and skin pigmentation among Hispanics and Native Americans</article-title>. <source>Am J Phys Anthropol</source>. <year>2009</year>;<volume>138</volume>: <fpage>375</fpage>–<lpage>383</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ajpa.20945" xlink:type="simple">10.1002/ajpa.20945</ext-link></comment> <object-id pub-id-type="pmid">18951390</object-id></mixed-citation></ref>
+<ref id="pone.0185503.ref011"><label>11</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Huckell</surname> <given-names>B</given-names></name>. <chapter-title>West of the Plains: Paleoindians in the Southwest</chapter-title>. In: <name name-style="western"><surname>Parezo</surname> <given-names>NJ</given-names></name>, <name name-style="western"><surname>Janetski</surname> <given-names>JC</given-names></name>, editors. <source>Archaeology in the Great Basin and Southwest Papers in Honor of Don D Fowler</source>. <publisher-loc>Salt Lake City</publisher-loc>: <publisher-name>The University of Utah Press</publisher-name>; <year>2014</year>. pp. <fpage>17</fpage>–<lpage>34</lpage>.</mixed-citation></ref>
+<ref id="pone.0185503.ref012"><label>12</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Brooks</surname> <given-names>JF</given-names></name>. <source>Captives and Cousins: Slavery, Kinship, and Community in the Southwest Borderlands</source>. <publisher-loc>Chapel Hill, NC</publisher-loc>: <publisher-name>The University of North Carolina Press</publisher-name>; <year>2002</year>.</mixed-citation></ref>
+<ref id="pone.0185503.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tjarks</surname> <given-names>AV</given-names></name>. <article-title>Demographic, ethnic and occupational structure of New Mexico, 1790</article-title>. <source>The Americas</source>. <year>1978</year>;<volume>35</volume>: <fpage>45</fpage>–<lpage>88</lpage>. 10.2307/980925</mixed-citation></ref>
+<ref id="pone.0185503.ref014"><label>14</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Chávez</surname> <given-names>FA</given-names></name>. <source>Origins of New Mexico Families: A Genealogy of the Spanish Colonial Period</source>. <edition>Rev ed.</edition> edition. <publisher-loc>Santa Fe</publisher-loc>: <publisher-name>Museum of New Mexico Press</publisher-name>; <year>1992</year>.</mixed-citation></ref>
+<ref id="pone.0185503.ref015"><label>15</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Nieto-Phillips</surname> <given-names>JM</given-names></name>. <source>The Language of Blood: The Making of Spanish-American Identity in New Mexico, 1880s-1930s</source>. <publisher-name>University of New Mexico Press</publisher-name>; <year>2008</year>.</mixed-citation></ref>
+<ref id="pone.0185503.ref016"><label>16</label><mixed-citation publication-type="other" xlink:type="simple">Wilson CM. The Santa Fe, New Mexico plaza: an architectural and cultural history, 1610–1921. 1981.</mixed-citation></ref>
+<ref id="pone.0185503.ref017"><label>17</label><mixed-citation publication-type="other" xlink:type="simple">US Census Bureau. American Community Survey (ACS) [Internet]. 2016 [cited 26 Sep 2016]. Available: <ext-link ext-link-type="uri" xlink:href="https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_15_5YR_CP05&amp;prodType=table" xlink:type="simple">https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_15_5YR_CP05&amp;prodType=table</ext-link></mixed-citation></ref>
+<ref id="pone.0185503.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><collab>Office of Management and Budget</collab>. <article-title>Revisions to the Standards for the Classification of Federal Data on Race and Ethnicity</article-title>. <source>Fed Regist</source>. <year>1997</year>;<volume>62</volume>: <fpage>58782</fpage>–<lpage>58790</lpage>.</mixed-citation></ref>
+<ref id="pone.0185503.ref019"><label>19</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Suarez-Orozco</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Pæz</surname> <given-names>M</given-names></name>, editors. <source>Latinos: Remaking America. Updated with a New Preface edition</source>. <publisher-loc>Berkeley, Calif.</publisher-loc>: <publisher-name>University of California Press</publisher-name>; <year>2008</year>.</mixed-citation></ref>
+<ref id="pone.0185503.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Anton-Culver</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Ziogas</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Bowen</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Finkelstein</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Griffin</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Hanson</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>The Cancer Genetics Network: Recruitment results and pilot studies</article-title>. <source>Public Health Genomics</source>. <year>2004</year>;<volume>6</volume>: <fpage>171</fpage>–<lpage>177</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1159/000078165" xlink:type="simple">10.1159/000078165</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0185503.ref021"><label>21</label><mixed-citation publication-type="other" xlink:type="simple">Mammalian Genotyping Service—sponsored by The National Heart, Lung and Blood Institute [Internet]. [cited 15 Mar 2017]. Available: <ext-link ext-link-type="uri" xlink:href="http://research.marshfieldclinic.org/genetics/home/index.asp" xlink:type="simple">http://research.marshfieldclinic.org/genetics/home/index.asp</ext-link></mixed-citation></ref>
+<ref id="pone.0185503.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rosenberg</surname> <given-names>NA</given-names></name>, <name name-style="western"><surname>Pritchard</surname> <given-names>JK</given-names></name>, <name name-style="western"><surname>Weber</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Cann</surname> <given-names>HM</given-names></name>, <name name-style="western"><surname>Kidd</surname> <given-names>KK</given-names></name>, <name name-style="western"><surname>Zhivotovsky</surname> <given-names>LA</given-names></name>, <etal>et al</etal>. <article-title>Genetic structure of human populations</article-title>. <source>Science</source>. <year>2002</year>;<volume>298</volume>: <fpage>2381</fpage>–<lpage>2385</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1126/science.1078311" xlink:type="simple">10.1126/science.1078311</ext-link></comment> <object-id pub-id-type="pmid">12493913</object-id></mixed-citation></ref>
+<ref id="pone.0185503.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Lewis</surname> <given-names>CM</given-names> <suffix>Jr</suffix></name>, <name name-style="western"><surname>Jakobsson</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ramachandran</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Ray</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Bedoya</surname> <given-names>G</given-names></name>, <etal>et al</etal>. <article-title>Genetic variation and population structure in Native Americans</article-title>. <source>PLOS Genet</source>. <year>2007</year>;<volume>3</volume>: <fpage>e185</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pgen.0030185" xlink:type="simple">10.1371/journal.pgen.0030185</ext-link></comment> <object-id pub-id-type="pmid">18039031</object-id></mixed-citation></ref>
+<ref id="pone.0185503.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Ray</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Rojas</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Parra</surname> <given-names>MV</given-names></name>, <name name-style="western"><surname>Bedoya</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Gallo</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Geographic patterns of genome admixture in Latin American mestizos</article-title>. <source>PLOS Genet</source>. <year>2008</year>;<volume>4</volume>: <fpage>e1000037</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pgen.1000037" xlink:type="simple">10.1371/journal.pgen.1000037</ext-link></comment> <object-id pub-id-type="pmid">18369456</object-id></mixed-citation></ref>
+<ref id="pone.0185503.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dray</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Dufour</surname> <given-names>A</given-names></name>. <article-title>The ade4 package: Implementing the duality diagram for ecologists</article-title>. <source>J Stat Softw</source>. <year>2007</year>;<volume>22</volume>: <fpage>1</fpage>–<lpage>20</lpage>.</mixed-citation></ref>
+<ref id="pone.0185503.ref026"><label>26</label><mixed-citation publication-type="book" xlink:type="simple"><collab>R Core Team</collab>. <source>R: A Language and Environment for Statistical Computing</source>. <publisher-loc>Vienna, Austria</publisher-loc>: <publisher-name>R Foundation for Statistical Computing</publisher-name>; <year>2014</year>.</mixed-citation></ref>
+<ref id="pone.0185503.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wahlund</surname> <given-names>S</given-names></name>. <article-title>Zusammensetzung Von Populationen Und Korrelationserscheinungen Vom Standpunkt Der Vererbungslehre Aus Betrachtet</article-title>. <source>Hereditas</source>. <year>1928</year>;<volume>11</volume>: <fpage>65</fpage>–<lpage>106</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1601-5223.1928.tb02483.x" xlink:type="simple">10.1111/j.1601-5223.1928.tb02483.x</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0185503.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rousset</surname> <given-names>F</given-names></name>. <article-title>GENEPOP 007: A complete re-implementation of the GENEPOP software for Windows and Linux</article-title>. <source>Mol Ecol Resour</source>. <year>2008</year>;<volume>8</volume>: <fpage>103</fpage>–<lpage>106</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1471-8286.2007.01931.x" xlink:type="simple">10.1111/j.1471-8286.2007.01931.x</ext-link></comment> <object-id pub-id-type="pmid">21585727</object-id></mixed-citation></ref>
+<ref id="pone.0185503.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Verdu</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Rosenberg</surname> <given-names>NA</given-names></name>. <article-title>A general mechanistic model for admixture histories of hybrid populations</article-title>. <source>Genetics</source>. <year>2011</year>;<volume>189</volume>: <fpage>1413</fpage>–<lpage>1426</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1534/genetics.111.132787" xlink:type="simple">10.1534/genetics.111.132787</ext-link></comment> <object-id pub-id-type="pmid">21968194</object-id></mixed-citation></ref>
+<ref id="pone.0185503.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pritchard</surname> <given-names>JK</given-names></name>, <name name-style="western"><surname>Stephens</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Donnelly</surname> <given-names>P</given-names></name>. <article-title>Inference of population structure using multilocus genotype data</article-title>. <source>Genetics</source>. <year>2000</year>;<volume>155</volume>: <fpage>945</fpage>–<lpage>959</lpage>. <object-id pub-id-type="pmid">10835412</object-id></mixed-citation></ref>
+<ref id="pone.0185503.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hunley</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Gwin</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Liberman</surname> <given-names>B</given-names></name>. <article-title>A reassessment of the impact of European contact on the structure of Native American genetic diversity</article-title>. <source>PLOS ONE</source>. <year>2016</year>;<volume>11</volume>: <fpage>e0161018</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0161018" xlink:type="simple">10.1371/journal.pone.0161018</ext-link></comment> <object-id pub-id-type="pmid">27579784</object-id></mixed-citation></ref>
+<ref id="pone.0185503.ref032"><label>32</label><mixed-citation publication-type="other" xlink:type="simple">Shriner D. Overview of Admixture Mapping. Curr Protoc Hum Genet Editor Board Jonathan Haines Al. 2013;CHAPTER: Unit1.23. 10.1002/0471142905.hg0123s76</mixed-citation></ref>
+<ref id="pone.0185503.ref033"><label>33</label><mixed-citation publication-type="other" xlink:type="simple">Instituto Brasileiro de Geografia e Estatı´stica. Ethnic-racial characteristics of the population: a study of the categories of color or race classification: Coordenação de População de Indicadores Sociais.—[Internet]. 2008 [cited 20 Jun 2017]. Available: <ext-link ext-link-type="uri" xlink:href="http://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&amp;id=249891" xlink:type="simple">http://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&amp;id=249891</ext-link></mixed-citation></ref>
+<ref id="pone.0185503.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pena</surname> <given-names>SDJ</given-names></name>, <name name-style="western"><surname>Pietro</surname> <given-names>GD</given-names></name>, <name name-style="western"><surname>Fuchshuber-Moraes</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Genro</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Hutz</surname> <given-names>MH</given-names></name>, <name name-style="western"><surname>Kehdy F de</surname> <given-names>SG</given-names></name>, <etal>et al</etal>. <article-title>The genomic ancestry of individuals from different geographical regions of Brazil is more uniform than expected</article-title>. <source>PLOS ONE</source>. <year>2011</year>;<volume>6</volume>: <fpage>e17063</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0017063" xlink:type="simple">10.1371/journal.pone.0017063</ext-link></comment> <object-id pub-id-type="pmid">21359226</object-id></mixed-citation></ref>
+<ref id="pone.0185503.ref035"><label>35</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Petruccelli</surname> <given-names>J</given-names></name>. <article-title>Seletividade por cor e escolhas conjugais no Brasil dos 90</article-title>. <source>Estud Afro-Asiáticos</source>. <year>2001</year>;<volume>23</volume>: <fpage>5</fpage>–<lpage>28</lpage>.</mixed-citation></ref>
+<ref id="pone.0185503.ref036"><label>36</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Escamilla</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Spesny</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Reus</surname> <given-names>VI</given-names></name>, <name name-style="western"><surname>Gallegos</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Meza</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Molina</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Use of linkage disequilibrium approaches to map genes for bipolar disorder in the Costa Rican population</article-title>. <source>Am J Med Genet</source>. <year>1996</year>;<volume>67</volume>: <fpage>244</fpage>–<lpage>253</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/(SICI)1096-8628(19960531)67:3&lt;244::AID-AJMG2&gt;3.0.CO;2-N" xlink:type="simple">10.1002/(SICI)1096-8628(19960531)67:3&lt;244::AID-AJMG2&gt;3.0.CO;2-N</ext-link></comment> <object-id pub-id-type="pmid">8725743</object-id></mixed-citation></ref>
+<ref id="pone.0185503.ref037"><label>37</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Carvajal-Carmona</surname> <given-names>LG</given-names></name>, <name name-style="western"><surname>Ophoff</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Service</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Hartiala</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Molina</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Leon</surname> <given-names>P</given-names></name>, <etal>et al</etal>. <article-title>Genetic demography of Antioquia (Colombia) and the Central Valley of Costa Rica</article-title>. <source>Hum Genet</source>. <year>2003</year>;<volume>112</volume>: <fpage>534</fpage>–<lpage>541</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00439-002-0899-8" xlink:type="simple">10.1007/s00439-002-0899-8</ext-link></comment> <object-id pub-id-type="pmid">12601469</object-id></mixed-citation></ref>
+<ref id="pone.0185503.ref038"><label>38</label><mixed-citation publication-type="other" xlink:type="simple">Siegel J, Passel J. U.S. Census Bureau: Coverage of the Hispanic population of the United States in the 1970 census. Washington, D.C.: U.S. Department of Commerce. Bureau of the Census; 1979. Report No.: P-23, No. 82.</mixed-citation></ref>
+<ref id="pone.0185503.ref039"><label>39</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lisabeth</surname> <given-names>LD</given-names></name>, <name name-style="western"><surname>Morgenstern</surname> <given-names>LB</given-names></name>, <name name-style="western"><surname>Burke</surname> <given-names>DT</given-names></name>, <name name-style="western"><surname>Sun</surname> <given-names>YV</given-names></name>, <name name-style="western"><surname>Long</surname> <given-names>JC</given-names></name>. <article-title>Ancestral heterogeneity in a biethnic stroke population</article-title>. <source>Ann Hum Genet</source>. <year>2011</year>;<volume>75</volume>: <fpage>508</fpage>–<lpage>515</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1469-1809.2011.00657.x" xlink:type="simple">10.1111/j.1469-1809.2011.00657.x</ext-link></comment> <object-id pub-id-type="pmid">21668907</object-id></mixed-citation></ref>
+<ref id="pone.0185503.ref040"><label>40</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Moreno-Estrada</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Gravel</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Zakharia</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>McCauley</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Byrnes</surname> <given-names>JK</given-names></name>, <name name-style="western"><surname>Gignoux</surname> <given-names>CR</given-names></name>, <etal>et al</etal>. <article-title>Reconstructing the Population Genetic History of the Caribbean</article-title>. <source>PLOS Genet</source>. <year>2013</year>;<volume>9</volume>: <fpage>e1003925</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pgen.1003925" xlink:type="simple">10.1371/journal.pgen.1003925</ext-link></comment> <object-id pub-id-type="pmid">24244192</object-id></mixed-citation></ref>
+<ref id="pone.0185503.ref041"><label>41</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Basu</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Tang</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Zhu</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Gu</surname> <given-names>CC</given-names></name>, <name name-style="western"><surname>Hanis</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Boerwinkle</surname> <given-names>E</given-names></name>, <etal>et al</etal>. <article-title>Genome-wide distribution of ancestry in Mexican Americans</article-title>. <source>Hum Genet</source>. <year>2008</year>;<volume>124</volume>: <fpage>207</fpage>–<lpage>214</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00439-008-0541-5" xlink:type="simple">10.1007/s00439-008-0541-5</ext-link></comment> <object-id pub-id-type="pmid">18752003</object-id></mixed-citation></ref>
+<ref id="pone.0185503.ref042"><label>42</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Young</surname> <given-names>BN</given-names></name>, <name name-style="western"><surname>Rendón</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Rosas-Taraco</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Baker</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Healy</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Gross</surname> <given-names>JM</given-names></name>, <etal>et al</etal>. <article-title>The effects of socioeconomic status, clinical factors, and genetic ancestry on pulmonary tuberculosis disease in northeastern Mexico</article-title>. <source>PLOS ONE</source>. <year>2014</year>;<volume>9</volume>: <fpage>e94303</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0094303" xlink:type="simple">10.1371/journal.pone.0094303</ext-link></comment> <object-id pub-id-type="pmid">24728409</object-id></mixed-citation></ref>
+<ref id="pone.0185503.ref043"><label>43</label><mixed-citation publication-type="book" xlink:type="simple"><collab>Institute of Medicine</collab>. <source>Race, Ethnicity, and Language Data: Standardization for Health Care Quality Improvement</source> [Internet]. <publisher-loc>Washington, DC</publisher-loc>: <publisher-name>The National Academies Press</publisher-name>; <year>2009</year>. Available: <ext-link ext-link-type="uri" xlink:href="http://www.ahrq.gov/research/findings/final-reports/iomracereport/index.html" xlink:type="simple">http://www.ahrq.gov/research/findings/final-reports/iomracereport/index.html</ext-link></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

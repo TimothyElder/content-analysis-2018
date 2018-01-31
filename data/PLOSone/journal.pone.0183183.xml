@@ -1,0 +1,1444 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0183183</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-17-07108</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Urology</subject><subj-group><subject>Genitourinary infections</subject><subj-group><subject>Condyloma acuminata</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Infectious diseases</subject><subj-group><subject>Sexually transmitted diseases</subject><subj-group><subject>Condyloma acuminata</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Diagnostic medicine</subject><subj-group><subject>Cancer detection and diagnosis</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Oncology</subject><subj-group><subject>Cancer detection and diagnosis</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Reproductive system</subject><subj-group><subject>Genital anatomy</subject><subj-group><subject>Cervix</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Reproductive system</subject><subj-group><subject>Genital anatomy</subject><subj-group><subject>Cervix</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Urology</subject><subj-group><subject>Genitourinary infections</subject><subj-group><subject>Human papillomavirus infection</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Infectious diseases</subject><subj-group><subject>Sexually transmitted diseases</subject><subj-group><subject>Human papillomavirus infection</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Infectious diseases</subject><subj-group><subject>Viral diseases</subject><subj-group><subject>Human papillomavirus infection</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Oncology</subject><subj-group><subject>Carcinogenesis</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Oncology</subject><subj-group><subject>Cancers and neoplasms</subject><subj-group><subject>Head and neck cancers</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Geographical locations</subject><subj-group><subject>Asia</subject><subj-group><subject>Taiwan</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Renal system</subject><subj-group><subject>Kidneys</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Renal system</subject><subj-group><subject>Kidneys</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Risk of cancer in patients with genital warts: A nationwide, population-based cohort study in Taiwan</article-title>
+<alt-title alt-title-type="running-head">Risk of cancer in patients with genital warts</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Cho</surname>
+<given-names>Ching-Yi</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Lo</surname>
+<given-names>Yu-Cheng</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Hung</surname>
+<given-names>Miao-Chiu</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Lai</surname>
+<given-names>Chou-Cheng</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Chen</surname>
+<given-names>Chun-Jen</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-7416-0371</contrib-id>
+<name name-style="western">
+<surname>Wu</surname>
+<given-names>Keh-Gong</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Department of Pediatrics, Taipei Veterans General Hospital and National Yang-Ming University, Taipei, Taiwan</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Division of Infectious Diseases, Department of Pediatrics, Taipei Veterans General Hospital and National Yang-Ming University, Taipei, Taiwan</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Consolaro</surname>
+<given-names>Marcia Edilaine Lopes</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Universidade Estadual de Maringa, BRAZIL</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">kgwu@vghtpe.gov.tw</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>14</day>
+<month>8</month>
+<year>2017</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2017</year>
+</pub-date>
+<volume>12</volume>
+<issue>8</issue>
+<elocation-id>e0183183</elocation-id>
+<history>
+<date date-type="received">
+<day>21</day>
+<month>2</month>
+<year>2017</year>
+</date>
+<date date-type="accepted">
+<day>31</day>
+<month>7</month>
+<year>2017</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2017</copyright-year>
+<copyright-holder>Cho et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0183183"/>
+<abstract>
+<sec id="sec001">
+<title>Background</title>
+<p>Condyloma acuminata currently affects around 1% of sexually active adults, and its incidence is increasing. The coexistence of genital warts (GW) and certain cancers and an association between human papillomavirus (HPV) and various malignancies have been reported. Therefore, we conducted this large national study to analyze the risk of malignancies among men and women with GW in Taiwan.</p>
+</sec>
+<sec id="sec002">
+<title>Methods and findings</title>
+<p>Between January 2000 and December 2013, approximately 3 million patients were reported to the National Health Insurance Research Database of Taiwan. Of these patients, 21,763 were diagnosed with GW. In the same time period, a total of 213,541 cancer cases were reported to the registry, of which 1002 were recorded among patients with GW. The age-specific incidence rates of GW and standardized incidence ratios (SIRs) of malignancies compared to the general population were calculated. Women acquired GW earlier than men, with a mean age at diagnosis of 32.63±12.78 years. The highest incidence rate for both genders peaked at 20–29 years. Of the 1002 patients with GW and malignancies, the SIR was 1.95 (95%CI 1.83–2.07). The most markedly increased risk was found for HPV-related cancers, with a SIR of 9.74 (95%CI 3.70–15.77). Significantly elevated risks were also noted for smoking-related cancers, anogenital cancers, cervix in situ, colon, rectum, lung, kidney, and prostate cancers. Most cancers developed within 10 years after the diagnosis of GW.</p>
+</sec>
+<sec id="sec003">
+<title>Conclusions</title>
+<p>Patients with GW have an increased risk of HPV-related cancers, especially anogenital malignancies in Taiwan. The elevated risk of other cancers highlights differences in exposure and risk factors among patients with GW compared to the general population. Cancer screening and HPV vaccination programs should be emphasized for at-risk patients.</p>
+</sec>
+</abstract>
+<funding-group>
+<funding-statement>The authors received no specific funding for this work.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="2"/>
+<table-count count="3"/>
+<page-count count="15"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec004" sec-type="intro">
+<title>Introduction</title>
+<p>Condyloma acuminata, also known as “genital warts”, is a common disease, affecting approximately 1% of sexually active adults worldwide [<xref ref-type="bibr" rid="pone.0183183.ref001">1</xref>]. Around 1.4 million people in the United States have genital warts and the incidence is increasing, with more than 500,000 new cases being reported every year. The highest incidence of genital warts has been reported in people aged 20 to 29 years [<xref ref-type="bibr" rid="pone.0183183.ref002">2</xref>,<xref ref-type="bibr" rid="pone.0183183.ref003">3</xref>].</p>
+<p>Genital warts were first regarded to be a venereal disease, and the nature of the disease and the transmission pathway were not clarified until the 1950s and 1960s. The relationship between genital warts and a viral etiology was established in 1968 when viral particles were identified in lesions [<xref ref-type="bibr" rid="pone.0183183.ref004">4</xref>]. The clinical importance of the different strains of human papillomavirus (HPV) has also been reported. HPV type 6 and 11 are not carcinogenic and can cause genital warts, whereas type 16 and 18 are associated with cervical intraepithelial neoplasia and other invasive cancers [<xref ref-type="bibr" rid="pone.0183183.ref005">5</xref>].</p>
+<p>Most HPV infections are benign, transient, and treatable. However, the coexistence of condyloma acuminate and malignancies of anogenital sites and head and neck regions have been reported [<xref ref-type="bibr" rid="pone.0183183.ref006">6</xref>–<xref ref-type="bibr" rid="pone.0183183.ref013">13</xref>]. It has also been hypothesized that patients with genital warts and malignancies are more likely to harbor oncogenic types of HPV [<xref ref-type="bibr" rid="pone.0183183.ref014">14</xref>,<xref ref-type="bibr" rid="pone.0183183.ref015">15</xref>].</p>
+<p>Most researches have focused on the relationship between genital warts and cancers of anogenital and head and neck areas. Over the past 20 years, only four cohort studies have analyzed the association between genital warts and malignancies [<xref ref-type="bibr" rid="pone.0183183.ref014">14</xref>,<xref ref-type="bibr" rid="pone.0183183.ref016">16</xref>,<xref ref-type="bibr" rid="pone.0183183.ref017">17</xref>]. The first of these studies was conducted in Sweden in 1991, and showed no significant correlation between genital warts and cancers among women, although the number of genitourinary cancers among women with genital warts was three times higher than expected [<xref ref-type="bibr" rid="pone.0183183.ref017">17</xref>]. A second Swedish study published in 2006 indicated that condyloma acuminate was strongly associated with an increased risk of cancers of the vulva, vagina, penis, and anus, as well as non-anogenital malignancies [<xref ref-type="bibr" rid="pone.0183183.ref014">14</xref>]. A Danish study published in 1997 enrolled women only, and the results supported that genital warts significantly increased the risk of anogenital neoplasias, particularly vulvar cancer. Finally, the most recent and largest study also conducted in Denmark demonstrated a strong association between anogenital and head and neck cancers and genital warts [<xref ref-type="bibr" rid="pone.0183183.ref018">18</xref>].</p>
+<p>The incidence of genital warts in Asia is also increasing [<xref ref-type="bibr" rid="pone.0183183.ref019">19</xref>]. Most patients tend to seek non-standard treatment or traditional therapies, and therefore many patients have a delayed diagnosis or receive inappropriate treatment. Whether patients with genital warts have an increased risk of persistent infections and malignancies has not been investigated. In Taiwan, the overall incidence of genital warts has been estimated to be around 55-65/100,000 population, with approximately 70% of the case being female with a mean age of 33 years [<xref ref-type="bibr" rid="pone.0183183.ref019">19</xref>–<xref ref-type="bibr" rid="pone.0183183.ref021">21</xref>]. This study aimed to analyze the relative risk of developing malignancies among Taiwanese men and women diagnosed with genital warts. The age distribution and duration from the diagnosis of genital warts to the development of malignancies were also documented. This is by far the largest population-based, longitudinal study in this field of research, not only in Taiwan, but also in the Asia-Pacific region. The results may play a role in promoting prevention strategies through prophylactic HPV vaccination programs and regular screening for specific cancers.</p>
+</sec>
+<sec id="sec005" sec-type="materials|methods">
+<title>Material and methods</title>
+<sec id="sec006">
+<title>Data source</title>
+<p>Taiwan launched the National Health Insurance program in March 1, 1995. As of 2014, 99.9% of Taiwanese residents were enrolled (of a total population of around 23.5 million) [<xref ref-type="bibr" rid="pone.0183183.ref022">22</xref>]. The National Health Insurance Research Database (NHIRD) is comprised of registration files and original claims data including personal information, disease coding, and details of outpatient and inpatient clinic visits for all patients covered by the National Health Insurance program. To ensure the accuracy of the claims files, quarterly expert reviews on a random sample for every 50 to 100 ambulatory and inpatient claims are performed by the Bureau of National Health Insurance. Therefore, data obtained from the NHIRD are considered to be complete and accurate. The study population was derived from the Longitudinal Health Insurance Database (LHID), a subset of the NHIRD. We used data from three sets of the LHID; the LHID 2000, 2005, and 2010. Each consisted of the original claims data of one million enrollees randomly sampled from the 2000, 2005, 2010 registries from January 2000 to December 2013 (<xref ref-type="fig" rid="pone.0183183.g001">Fig 1</xref>).</p>
+<fig id="pone.0183183.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0183183.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Enrollment flowchart showing the steps in this study.</title>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0183183.g001" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec007">
+<title>Study population</title>
+<p>Only patients diagnosed with genital warts during the study period were enrolled. In the NHIRD, all diagnoses are coded according to International Classification of Diseases, Ninth Revision (ICD-9) codes. The outpatients diagnosed with an ICD-9 code of 078.11 (condyloma acuminatum) or 078.1 (viral warts) plus a record of a urological/gynecological clinic visit were recruited. To eliminate potential selection and surveillance bias and to ensure that the patients were diagnosed with cancers after the diagnosis of condyloma acuminata, the patients with a previous diagnosis of cancer or a cancer diagnosed within 30 days after the first diagnosis of genital warts were excluded. Cases of malignancies were also identified according to ICD-9 codes (140–239) (<xref ref-type="supplementary-material" rid="pone.0183183.s001">S1 Table</xref>).</p>
+<p>A total of 21763 subjects were identified and enrolled as the study group (<xref ref-type="fig" rid="pone.0183183.g001">Fig 1</xref>). The comparison group was the general populations matched for age and gender with the study population.</p>
+</sec>
+<sec id="sec008">
+<title>Target population</title>
+<p>We identified patients with cancers among the study population (patients with genital warts) and the source population during the study period (January 2000 to December 2013). To prevent overestimation of the number of malignancies, only patients hospitalized with a catastrophic illness certificate were enrolled. We further grouped the patients with anus (ICD-9: 154.2, 154.3, 154.8), vulva (ICD-9: 184.1,184.2, 184.3, 184.4), vagina (ICD-9: 184.0), cervix (ICD-9: 180), and penis (ICD-9: 187.1, 187.2, 187.3, 187.4, 187.7, 187.8) cancer as having HPV-related cancers for the analysis using the scheme proposed by Ryerson et al. We also grouped the following as smoking-related cancers: buccal cavity and pharynx (ICD-9: 149), esophagus (ICD-9: 150), stomach (ICD-9: 151), liver (ICD-9: 155), pancreas (ICD-9: 157), larynx (ICD-9: 161), lung (ICD-9: 162), cervix uteri (ICD-9: 180), kidney (ICD-9: 189), urinary bladder (ICD-9: 188), and myeloid leukemia (ICD-9: 205) [<xref ref-type="bibr" rid="pone.0183183.ref023">23</xref>–<xref ref-type="bibr" rid="pone.0183183.ref025">25</xref>].</p>
+</sec>
+<sec id="sec009">
+<title>Statistic analysis</title>
+<p>The source population was followed until withdrawal from the insurance program or 31<sup>st</sup> December 2013, whichever came first. Because the observation time differed between patients and the population at risk varied with time and age distribution, person-years rather than just years were used for the analysis to overcome these difficulties and for age adjustments. Age-specific incidence rates of genital warts and cancers were derived by dividing the new cases diagnosed at a specific age by the total person-years of the population of the same age. Standardized incidence ratios (SIRs), which served as the reference for the relative risk, and 95% confidence intervals (CIs) were calculated. SIRs were obtained by dividing the observed number of cases of cancers after a diagnosis of genital warts by the expected number of cases. The expected number of cases was calculated by summing the post-genital warts person-years at a specific age multiplied by the age-specific incidence of the same age of the general population with a certain cancer as follows: Expected number: <inline-formula id="pone.0183183.e001"><alternatives><graphic id="pone.0183183.e001g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0183183.e001" xlink:type="simple"/><mml:math display="inline" id="M1"><mml:mrow><mml:msubsup><mml:mo stretchy="false">∑</mml:mo><mml:mrow><mml:mi mathvariant="normal">i</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mi mathvariant="normal">n</mml:mi></mml:mrow></mml:msubsup><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">A</mml:mi><mml:mi mathvariant="normal">S</mml:mi><mml:mi mathvariant="normal">I</mml:mi><mml:mi mathvariant="normal">R</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">i</mml:mi></mml:mrow></mml:msub><mml:mo>×</mml:mo></mml:mrow></mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">P</mml:mi><mml:mi mathvariant="normal">e</mml:mi><mml:mi mathvariant="normal">r</mml:mi><mml:mi mathvariant="normal">s</mml:mi><mml:mi mathvariant="normal">o</mml:mi><mml:mi mathvariant="normal">n</mml:mi><mml:mo>–</mml:mo><mml:mi mathvariant="normal">y</mml:mi><mml:mi mathvariant="normal">e</mml:mi><mml:mi mathvariant="normal">a</mml:mi><mml:mi mathvariant="normal">r</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">i</mml:mi></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>, i = at <italic>i</italic> years of age, n = 99, ASIR<sub>i</sub> = age-specific incidence rate of the general population with a certain cancer, Person–year<sub>i</sub> = total person-years of the patients with genital warts at <italic>i</italic> years of age. The 95% confidence level of the SIR was calculated directly from Poisson distribution when the number of observed cases was less than 100. Byar approximation was used when there were 100 cases or more.</p>
+<p>The measured outcomes with significantly different SIRs were further stratified according to the follow-up years from the first diagnosis of genital warts to the occurrence of the malignancies (&lt; 1 years, 1–5 years, 6–10 years, &gt; 10 years) and stratified based on the age at the diagnosis of genital warts in 10-year intervals. P values were calculated using Pearson’sχ2 or Fisher’s exact test. A P value less than 0.05 was taken to indicate a significant difference between groups.</p>
+<p>The study was approved by the Institutional Review Board of Taipei Veterans General Hospital (VGHIRB), Taipei, Taiwan (number 2012-06-006A).</p>
+</sec>
+</sec>
+<sec id="sec010" sec-type="results">
+<title>Results</title>
+<sec id="sec011">
+<title>Risk of cancers</title>
+<p>In total, 21763 patients (40.33% men and 59.67% women) were diagnosed with genital warts during the study period. Women acquired genital warts earlier than men by around 4 years, with a mean age at diagnosis of 32.63±12.78 years. The highest incidence of genital warts for both genders peaked at 20–29 years of age, with 0.18 cases for men and 0.32 cases for women per 100 person-years. During the follow-up period, a total of 1002 cases of cancers were identified among the patients with genital warts, with female predominance. The mean time to a diagnosis of cancer after a diagnosis of genital warts was 4.17±3.06 years (<xref ref-type="table" rid="pone.0183183.t001">Table 1</xref>) (<xref ref-type="fig" rid="pone.0183183.g002">Fig 2</xref>, <xref ref-type="supplementary-material" rid="pone.0183183.s002">S2 Table</xref>).</p>
+<fig id="pone.0183183.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0183183.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Age-specific incidence rate of genital warts.</title>
+<p>The highest incidence peaked at an age of 25–29 years for men and 20–24 years for women. Women acquired genital warts earlier than men, with a mean age at diagnosis of 34.19±13.73 years.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0183183.g002" xlink:type="simple"/>
+</fig>
+<table-wrap id="pone.0183183.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0183183.t001</object-id>
+<label>Table 1</label> <caption><title>The characteristics of the patients with genital warts.</title></caption>
+<alternatives>
+<graphic id="pone.0183183.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0183183.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center" rowspan="2">Characteristics</th>
+<th align="center" colspan="2">Male</th>
+<th align="center" colspan="2">Female</th>
+<th align="center" rowspan="2">Total</th>
+</tr>
+<tr>
+<th align="center">n</th>
+<th align="center">%</th>
+<th align="center">n</th>
+<th align="center">%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Number of patients (%)</td>
+<td align="center" style="background-color:#D9D9D9">8777</td>
+<td align="center" style="background-color:#D9D9D9">40.33</td>
+<td align="center" style="background-color:#D9D9D9">12986</td>
+<td align="center" style="background-color:#D9D9D9">59.67</td>
+<td align="center" style="background-color:#D9D9D9">21763</td>
+</tr>
+<tr>
+<td align="left">Age at diagnosis (mean±SD)</td>
+<td align="center" colspan="2">36.51±14.71</td>
+<td align="center" colspan="2">32.63±12.78</td>
+<td align="center">34.19±13.73</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Mean year of cancer diagnosis after genital warts<xref ref-type="table-fn" rid="t001fn001"><sup>a</sup></xref> (mean±SD)</td>
+<td align="center" colspan="2" style="background-color:#D9D9D9">3.62±2.87</td>
+<td align="center" colspan="2" style="background-color:#D9D9D9">4.41±3.11</td>
+<td align="center" style="background-color:#D9D9D9">4.17±3.06</td>
+</tr>
+<tr>
+<td align="left">Total person- year at risk<xref ref-type="table-fn" rid="t001fn002"><sup>b</sup></xref></td>
+<td align="center">47702.49</td>
+<td align="center">37.62</td>
+<td align="center">79902.64</td>
+<td align="center">62.38</td>
+<td align="center">126,795.13</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#D9D9D9">Number of cancers during follow up</td>
+<td align="center" style="background-color:#D9D9D9">301</td>
+<td align="center" style="background-color:#D9D9D9">30.04</td>
+<td align="center" style="background-color:#D9D9D9">701</td>
+<td align="center" style="background-color:#D9D9D9">69.96</td>
+<td align="center" style="background-color:#D9D9D9">1002</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p><sup>a</sup>Calculated from the diagnosis of genital warts to cancer.</p></fn>
+<fn id="t001fn002"><p><sup>b</sup>The number of patients with genital warts was calculated from the diagnosis of genital warts to cancer, and the number of patients without genital warts was calculated from the diagnosis of genital warts until withdrawal from the insurance program or December 31, 2013.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p><xref ref-type="table" rid="pone.0183183.t002">Table 2</xref> shows the SIRs of cancers among the patients with genital warts. Among the 1002 patients (4.60% of all genital warts patients), 301 (30.04%) were men and 701 (69.96%) were women, yielding a SIR of 1.95 (95%CI 1.83–2.07) compared to the general population. The overall excess risk was somewhat higher in men (SIR 1.87, 95%CI 1.66–2.08) than in women (SIR 1.80, 95%CI 1.66–1.93), which was mainly due to anogenital cancers (SIR 5.87, 95%CI 2.04–9.71), especially HPV-related cancers (SIR 13.57, 95%CI 3.52–23.62).</p>
+<table-wrap id="pone.0183183.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0183183.t002</object-id>
+<label>Table 2</label> <caption><title>Standardized incidence ratios (SIRs)<xref ref-type="table-fn" rid="t002fn002"><sup>+</sup></xref> of cancer among patients with genital warts.</title></caption>
+<alternatives>
+<graphic id="pone.0183183.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0183183.t002" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" rowspan="2">Cancer type</th>
+<th align="center" colspan="4">Men</th>
+<th align="center" colspan="4">Women</th>
+<th align="center" colspan="4">All</th>
+</tr>
+<tr>
+<th align="center">OBS (n)</th>
+<th align="center">EXP (p-y)</th>
+<th align="center">SIR</th>
+<th align="center">95%CI</th>
+<th align="center">OBS (n)</th>
+<th align="center">EXP (p-y)</th>
+<th align="center">SIR</th>
+<th align="center">95%CI</th>
+<th align="center">OBS (n)</th>
+<th align="center">EXP (p-y)</th>
+<th align="center">SIR</th>
+<th align="center">95%CI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">All cancers</td>
+<td align="center">301</td>
+<td align="center">160.95</td>
+<td align="center">1.87<xref ref-type="table-fn" rid="t002fn006">*</xref></td>
+<td align="center">1.66–2.08</td>
+<td align="center">701</td>
+<td align="center">390.46</td>
+<td align="center">1.80<xref ref-type="table-fn" rid="t002fn006">*</xref></td>
+<td align="center">1.66–1.93</td>
+<td align="center">1,002</td>
+<td align="center">514.71</td>
+<td align="center">1.95<xref ref-type="table-fn" rid="t002fn006">*</xref></td>
+<td align="center">1.83–2.07</td>
+</tr>
+<tr>
+<td align="left">All-smoking-related cancers<xref ref-type="table-fn" rid="t002fn004"><sup>a</sup></xref></td>
+<td align="center">99</td>
+<td align="center">54.19</td>
+<td align="center">1.83<xref ref-type="table-fn" rid="t002fn006">*</xref></td>
+<td align="center">1.47–2.19</td>
+<td align="center">60</td>
+<td align="center">31.90</td>
+<td align="center">1.88<xref ref-type="table-fn" rid="t002fn006">*</xref></td>
+<td align="center">1.40–2.36</td>
+<td align="center">159</td>
+<td align="center">85.66</td>
+<td align="center">1.86<xref ref-type="table-fn" rid="t002fn006">*</xref></td>
+<td align="center">1.57–2.14</td>
+</tr>
+<tr>
+<td align="left">All-HPV-related cancers<xref ref-type="table-fn" rid="t002fn005"><sup>b</sup></xref></td>
+<td align="center">7</td>
+<td align="center">0.52</td>
+<td align="center">13.57<xref ref-type="table-fn" rid="t002fn006">*</xref></td>
+<td align="center">3.52–23.62</td>
+<td align="center">3</td>
+<td align="center">0.51</td>
+<td align="center">5.94</td>
+<td align="center">0.78–12.66</td>
+<td align="center">10</td>
+<td align="center">1.03</td>
+<td align="center">9.74<xref ref-type="table-fn" rid="t002fn006">*</xref></td>
+<td align="center">3.70–15.77</td>
+</tr>
+<tr>
+<td align="left">Anogenital</td>
+<td align="center">9</td>
+<td align="center">1.53</td>
+<td align="center">5.87<xref ref-type="table-fn" rid="t002fn006">*</xref></td>
+<td align="center">2.04–9.71</td>
+<td align="center">44</td>
+<td align="center">17.73</td>
+<td align="center">2.48<xref ref-type="table-fn" rid="t002fn006">*</xref></td>
+<td align="center">1.75–3.21</td>
+<td align="center">53</td>
+<td align="center">18.00</td>
+<td align="center">2.94<xref ref-type="table-fn" rid="t002fn006">*</xref></td>
+<td align="center">2.15–3.74</td>
+</tr>
+<tr>
+<td align="left">    Vulva</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">-</td>
+<td align="center"/>
+<td align="center">2</td>
+<td align="center">0.17</td>
+<td align="center">12.05</td>
+<td align="center">0.65–28.75</td>
+<td align="center">2</td>
+<td align="center">0.17</td>
+<td align="center">12.05</td>
+<td align="center">0.65–28.75</td>
+</tr>
+<tr>
+<td align="left">    Vagina</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center">1</td>
+<td align="center">0.15</td>
+<td align="center">6.58</td>
+<td align="center">0.32–19.47</td>
+<td align="center">1</td>
+<td align="center">0.15</td>
+<td align="center">6.58</td>
+<td align="center">0.32–19.47</td>
+</tr>
+<tr>
+<td align="left">    Cervix invasive</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center">9</td>
+<td align="center">7.76</td>
+<td align="center">1.16</td>
+<td align="center">0.40–1.92</td>
+<td align="center">9</td>
+<td align="center">7.76</td>
+<td align="center">1.16</td>
+<td align="center">0.40–1.92</td>
+</tr>
+<tr>
+<td align="left">    Cervix In situ</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center">33</td>
+<td align="center">9.87</td>
+<td align="center">3.34<xref ref-type="table-fn" rid="t002fn006">*</xref></td>
+<td align="center">2.20–4.48</td>
+<td align="center">33</td>
+<td align="center">9.87</td>
+<td align="center">3.34<xref ref-type="table-fn" rid="t002fn006">*</xref></td>
+<td align="center">2.20–4.48</td>
+</tr>
+<tr>
+<td align="left">    Anal</td>
+<td align="center">3</td>
+<td align="center">0.25</td>
+<td align="center">11.95</td>
+<td align="center">0.57–25.48</td>
+<td align="center">0</td>
+<td align="center">0.20</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">3</td>
+<td align="center">0.45</td>
+<td align="center">6.70</td>
+<td align="center">0.88–14.27</td>
+</tr>
+<tr>
+<td align="left">    Penis</td>
+<td align="center">4</td>
+<td align="center">0.27</td>
+<td align="center">14.87</td>
+<td align="center">0.30–29.44</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center">4</td>
+<td align="center">0.27</td>
+<td align="center">14.87</td>
+<td align="center">0.30–29.44</td>
+</tr>
+<tr>
+<td align="left">    Testis</td>
+<td align="center">2</td>
+<td align="center">1.04</td>
+<td align="center">1.93</td>
+<td align="center">0.74–4.60</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">-</td>
+<td align="center"/>
+<td align="center">2</td>
+<td align="center">1.04</td>
+<td align="center">1.93</td>
+<td align="center">0.74–4.60</td>
+</tr>
+<tr>
+<td align="left">Head and Neck</td>
+<td align="center">14</td>
+<td align="center">14.86</td>
+<td align="center">0.94</td>
+<td align="center">0.45–1.44</td>
+<td align="center">1</td>
+<td align="center">2.38</td>
+<td align="center">0.42</td>
+<td align="center">0.40–1.25</td>
+<td align="center">15</td>
+<td align="center">18.78</td>
+<td align="center">0.80</td>
+<td align="center">0.39–1.20</td>
+</tr>
+<tr>
+<td align="left">    Lip</td>
+<td align="center">1</td>
+<td align="center">0.75</td>
+<td align="center">1.34</td>
+<td align="center">0.28–3.96</td>
+<td align="center">0</td>
+<td align="center">0.05</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">1</td>
+<td align="center">0.89</td>
+<td align="center">1.13</td>
+<td align="center">0.08–3.34</td>
+</tr>
+<tr>
+<td align="left">    Gum</td>
+<td align="center">2</td>
+<td align="center">1.62</td>
+<td align="center">1.23</td>
+<td align="center">0.48–2.94</td>
+<td align="center">0</td>
+<td align="center">0.12</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">2</td>
+<td align="center">1.93</td>
+<td align="center">1.04</td>
+<td align="center">0.40–2.48</td>
+</tr>
+<tr>
+<td align="left">    Tongue</td>
+<td align="center">2</td>
+<td align="center">4.57</td>
+<td align="center">0.44</td>
+<td align="center">0.17–1.04</td>
+<td align="center">1</td>
+<td align="center">0.74</td>
+<td align="center">1.35</td>
+<td align="center">0.30–4.00</td>
+<td align="center">3</td>
+<td align="center">5.89</td>
+<td align="center">0.51</td>
+<td align="center">0.07–1.08</td>
+</tr>
+<tr>
+<td align="left">    Mouth</td>
+<td align="center">8</td>
+<td align="center">6.73</td>
+<td align="center">1.19</td>
+<td align="center">0.36–2.01</td>
+<td align="center">0</td>
+<td align="center">0.43</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">8</td>
+<td align="center">8.00</td>
+<td align="center">1.00</td>
+<td align="center">0.31–1.69</td>
+</tr>
+<tr>
+<td align="left">    Tonsils</td>
+<td align="center">1</td>
+<td align="center">1.81</td>
+<td align="center">0.55</td>
+<td align="center">0.53–1.64</td>
+<td align="center">0</td>
+<td align="center">0.27</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">1</td>
+<td align="center">2.29</td>
+<td align="center">0.44</td>
+<td align="center">0.42–1.29</td>
+</tr>
+<tr>
+<td align="left">    Nasal cavities, middle ear, sinuses</td>
+<td align="center">1</td>
+<td align="center">0.40</td>
+<td align="center">2.48</td>
+<td align="center">0.38–7.34</td>
+<td align="center">0</td>
+<td align="center">0.27</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">1</td>
+<td align="center">0.70</td>
+<td align="center">1.44</td>
+<td align="center">0.38–4.25</td>
+</tr>
+<tr>
+<td align="left">    Salivary glands</td>
+<td align="center">1</td>
+<td align="center">0.43</td>
+<td align="center">2.31</td>
+<td align="center">0.22–6.85</td>
+<td align="center">0</td>
+<td align="center">0.57</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">1</td>
+<td align="center">0.96</td>
+<td align="center">1.04</td>
+<td align="center">0.00–3.08</td>
+</tr>
+<tr>
+<td align="left">    Pharynx</td>
+<td align="center">0</td>
+<td align="center">0.19</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">0</td>
+<td align="center">0.02</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">0</td>
+<td align="center">0.22</td>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">    Larynx</td>
+<td align="center">1</td>
+<td align="center">1.50</td>
+<td align="center">0.67</td>
+<td align="center">0.64–1.98</td>
+<td align="center">0</td>
+<td align="center">0.10</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">1</td>
+<td align="center">1.60</td>
+<td align="center">0.63</td>
+<td align="center">0.60–1.85</td>
+</tr>
+<tr>
+<td align="left">Esophagus</td>
+<td align="center">6</td>
+<td align="center">4.06</td>
+<td align="center">1.48</td>
+<td align="center">0.30–2.66</td>
+<td align="center">0</td>
+<td align="center">0.28</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">6</td>
+<td align="center">4.63</td>
+<td align="center">1.29</td>
+<td align="center">0.26–2.33</td>
+</tr>
+<tr>
+<td align="left">Stomach</td>
+<td align="center">8</td>
+<td align="center">5.66</td>
+<td align="center">1.41</td>
+<td align="center">0.43–2.39</td>
+<td align="center">4</td>
+<td align="center">3.51</td>
+<td align="center">1.14</td>
+<td align="center">0.02–2.26</td>
+<td align="center">12</td>
+<td align="center">8.86</td>
+<td align="center">1.35</td>
+<td align="center">0.59–2.12</td>
+</tr>
+<tr>
+<td align="left">Intestine</td>
+<td align="center">0</td>
+<td align="center">0.58</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">1</td>
+<td align="center">0.39</td>
+<td align="center">2.54</td>
+<td align="center">0.44–7.51</td>
+<td align="center">1</td>
+<td align="center">0.99</td>
+<td align="center">1.01</td>
+<td align="center">0.97–3.00</td>
+</tr>
+<tr>
+<td align="left">Colon</td>
+<td align="center">13</td>
+<td align="center">9.23</td>
+<td align="center">1.41</td>
+<td align="center">0.64–2.17</td>
+<td align="center">15</td>
+<td align="center">7.28</td>
+<td align="center">2.06<xref ref-type="table-fn" rid="t002fn006">*</xref></td>
+<td align="center">1.02–3.10</td>
+<td align="center">28</td>
+<td align="center">16.30</td>
+<td align="center">1.72<xref ref-type="table-fn" rid="t002fn006">*</xref></td>
+<td align="center">1.08–2.35</td>
+</tr>
+<tr>
+<td align="left">Rectum</td>
+<td align="center">13</td>
+<td align="center">6.79</td>
+<td align="center">1.92</td>
+<td align="center">0.87–2.96</td>
+<td align="center">6</td>
+<td align="center">4.61</td>
+<td align="center">1.30</td>
+<td align="center">0.26–2.34</td>
+<td align="center">19</td>
+<td align="center">11.33</td>
+<td align="center">1.68</td>
+<td align="center">0.92–2.43</td>
+</tr>
+<tr>
+<td align="left">Liver</td>
+<td align="center">29</td>
+<td align="center">19.28</td>
+<td align="center">1.50</td>
+<td align="center">0.96–2.05</td>
+<td align="center">19</td>
+<td align="center">6.56</td>
+<td align="center">2.90<xref ref-type="table-fn" rid="t002fn006">*</xref></td>
+<td align="center">1.59–4.20</td>
+<td align="center">48</td>
+<td align="center">26.93</td>
+<td align="center">1.78<xref ref-type="table-fn" rid="t002fn006">*</xref></td>
+<td align="center">1.28–2.29</td>
+</tr>
+<tr>
+<td align="left">GB and biliary tract</td>
+<td align="center">0</td>
+<td align="center">1.16</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">3</td>
+<td align="center">0.77</td>
+<td align="center">3.90</td>
+<td align="center">0.51–8.30</td>
+<td align="center">3</td>
+<td align="center">1.93</td>
+<td align="center">1.55</td>
+<td align="center">0.20–3.31</td>
+</tr>
+<tr>
+<td align="left">Pancreas</td>
+<td align="center">4</td>
+<td align="center">2.12</td>
+<td align="center">1.89</td>
+<td align="center">0.04–3.74</td>
+<td align="center">4</td>
+<td align="center">1.30</td>
+<td align="center">3.07</td>
+<td align="center">0.06–6.08</td>
+<td align="center">8</td>
+<td align="center">3.42</td>
+<td align="center">2.34</td>
+<td align="center">0.72–3.96</td>
+</tr>
+<tr>
+<td align="left">Lung</td>
+<td align="center">37</td>
+<td align="center">14.20</td>
+<td align="center">2.61<xref ref-type="table-fn" rid="t002fn006">*</xref></td>
+<td align="center">1.77–3.45</td>
+<td align="center">14</td>
+<td align="center">7.72</td>
+<td align="center">1.81</td>
+<td align="center">0.86–2.76</td>
+<td align="center">51</td>
+<td align="center">21.00</td>
+<td align="center">2.43<xref ref-type="table-fn" rid="t002fn006">*</xref></td>
+<td align="center">1.76–3.10</td>
+</tr>
+<tr>
+<td align="left">Melanoma</td>
+<td align="center">0</td>
+<td align="center">0.28</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">0</td>
+<td align="center">0.33</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">0</td>
+<td align="center">0.58</td>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">Nonmelanoma skin cancer</td>
+<td align="center">4</td>
+<td align="center">1.69</td>
+<td align="center">2.36</td>
+<td align="center">0.05–4.68</td>
+<td align="center">1</td>
+<td align="center">1.24</td>
+<td align="center">0.81</td>
+<td align="center">0.78–2.39</td>
+<td align="center">5</td>
+<td align="center">2.95</td>
+<td align="center">1.70</td>
+<td align="center">0.21–3.18</td>
+</tr>
+<tr>
+<td align="left">Breast woman</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">-</td>
+<td align="center"/>
+<td align="center">48</td>
+<td align="center">35.28</td>
+<td align="center">1.36</td>
+<td align="center">0.98–1.75</td>
+<td align="center">48</td>
+<td align="center">35.28</td>
+<td align="center">1.36</td>
+<td align="center">0.98–1.75</td>
+</tr>
+<tr>
+<td align="left">Breast man</td>
+<td align="center">0</td>
+<td align="center">0.10</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center">0</td>
+<td align="center">0.10</td>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">Corpus uteri</td>
+<td align="center">0</td>
+<td align="center">0.00</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">9</td>
+<td align="center">7.76</td>
+<td align="center">1.16</td>
+<td align="center">0.40–1.92</td>
+<td align="center">9</td>
+<td align="center">7.21</td>
+<td align="center">1.25</td>
+<td align="center">0.43–2.06</td>
+</tr>
+<tr>
+<td align="left">Ovary, fallopian tube, broad ligament</td>
+<td align="center">0</td>
+<td align="center">0.00</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">9</td>
+<td align="center">5.58</td>
+<td align="center">1.61</td>
+<td align="center">0.56–2.67</td>
+<td align="center">9</td>
+<td align="center">4.86</td>
+<td align="center">1.85</td>
+<td align="center">0.64–3.06</td>
+</tr>
+<tr>
+<td align="left">Prostate</td>
+<td align="center">18</td>
+<td align="center">8.95</td>
+<td align="center">2.01<xref ref-type="table-fn" rid="t002fn006">*</xref></td>
+<td align="center">1.08–2.94</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">-</td>
+<td align="center"/>
+<td align="center">18</td>
+<td align="center">8.95</td>
+<td align="center">2.01<xref ref-type="table-fn" rid="t002fn006">*</xref></td>
+<td align="center">1.08–2.94</td>
+</tr>
+<tr>
+<td align="left">Kidney</td>
+<td align="center">9</td>
+<td align="center">3.56</td>
+<td align="center">2.53</td>
+<td align="center">0.88–4.18</td>
+<td align="center">6</td>
+<td align="center">2.59</td>
+<td align="center">2.32</td>
+<td align="center">0.46–4.18</td>
+<td align="center">15</td>
+<td align="center">6.23</td>
+<td align="center">2.41<xref ref-type="table-fn" rid="t002fn006">*</xref></td>
+<td align="center">1.19–3.63</td>
+</tr>
+<tr>
+<td align="left">Urinary bladder</td>
+<td align="center">8</td>
+<td align="center">4.86</td>
+<td align="center">1.65</td>
+<td align="center">0.51–2.79</td>
+<td align="center">1</td>
+<td align="center">1.70</td>
+<td align="center">0.59</td>
+<td align="center">0.56–1.74</td>
+<td align="center">9</td>
+<td align="center">6.36</td>
+<td align="center">1.42</td>
+<td align="center">0.49–2.34</td>
+</tr>
+<tr>
+<td align="left">CNS (meninges, brain, spinal cord)</td>
+<td align="center">1</td>
+<td align="center">1.71</td>
+<td align="center">0.59</td>
+<td align="center">0.56–1.74</td>
+<td align="center">4</td>
+<td align="center">1.74</td>
+<td align="center">2.30</td>
+<td align="center">0.05–4.56</td>
+<td align="center">5</td>
+<td align="center">3.55</td>
+<td align="center">1.41</td>
+<td align="center">0.17–2.64</td>
+</tr>
+<tr>
+<td align="left">Hodgkin lymphoma</td>
+<td align="center">0</td>
+<td align="center">0.35</td>
+<td align="center">-</td>
+<td align="center"/>
+<td align="center">0</td>
+<td align="center">0.65</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">0</td>
+<td align="center">1.01</td>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">Non- Hodgkin lymphoma</td>
+<td align="center">9</td>
+<td align="center">3.41</td>
+<td align="center">2.64</td>
+<td align="center">0.91–4.36</td>
+<td align="center">4</td>
+<td align="center">3.19</td>
+<td align="center">1.25</td>
+<td align="center">0.03–2.48</td>
+<td align="center">13</td>
+<td align="center">6.64</td>
+<td align="center">1.96</td>
+<td align="center">0.89–3.02</td>
+</tr>
+<tr>
+<td align="left">Multiple myeloma</td>
+<td align="center">1</td>
+<td align="center">0.67</td>
+<td align="center">1.49</td>
+<td align="center">0.43–4.42</td>
+<td align="center">0</td>
+<td align="center">0.44</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">1</td>
+<td align="center">1.10</td>
+<td align="center">0.91</td>
+<td align="center">0.87–2.69</td>
+</tr>
+<tr>
+<td align="left">Leukemia</td>
+<td align="center">2</td>
+<td align="center">2.45</td>
+<td align="center">0.82</td>
+<td align="center">0.31–1.95</td>
+<td align="center">5</td>
+<td align="center">2.32</td>
+<td align="center">2.15</td>
+<td align="center">0.27–4.04</td>
+<td align="center">7</td>
+<td align="center">4.92</td>
+<td align="center">1.42</td>
+<td align="center">0.37–2.48</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p>SIR, standardized incidence ratios; OBS, observed; EXP, expected; CI, confidence interval; p-y, person-years; HPV, human papillomavirus; GB, gall bladder; CNS, central nervous system.</p></fn>
+<fn id="t002fn002"><p><sup>+</sup>SIR = <inline-formula id="pone.0183183.e002"><alternatives><graphic id="pone.0183183.e002g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0183183.e002" xlink:type="simple"/><mml:math display="inline" id="M2"><mml:mrow><mml:msubsup><mml:mo stretchy="false">∑</mml:mo><mml:mrow><mml:mi mathvariant="normal">i</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mi mathvariant="normal">n</mml:mi></mml:mrow></mml:msubsup><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">A</mml:mi><mml:mi mathvariant="normal">S</mml:mi><mml:mi mathvariant="normal">I</mml:mi><mml:mi mathvariant="normal">R</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">i</mml:mi></mml:mrow></mml:msub><mml:mo>×</mml:mo></mml:mrow></mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">P</mml:mi><mml:mi mathvariant="normal">e</mml:mi><mml:mi mathvariant="normal">r</mml:mi><mml:mi mathvariant="normal">s</mml:mi><mml:mi mathvariant="normal">o</mml:mi><mml:mi mathvariant="normal">n</mml:mi><mml:mo>–</mml:mo><mml:mi mathvariant="normal">y</mml:mi><mml:mi mathvariant="normal">e</mml:mi><mml:mi mathvariant="normal">a</mml:mi><mml:mi mathvariant="normal">r</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">i</mml:mi></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>.</p></fn>
+<fn id="t002fn003"><p>i = at <italic>i</italic> years of age, n = 99, ASIR<sub>i</sub> = age-specific incidence rate of the general population with a certain cancer, Person–year<sub>i</sub> = total person-years of a genital warts patient at <italic>i</italic> years of age.</p></fn>
+<fn id="t002fn004"><p><sup>a</sup> Buccal cavity and pharynx (ICD-9 149), esophagus (150), stomach (151), liver (155), pancreas (157), larynx (161), lung (162), cervix uteri (180), kidney (189), urinary bladder (188), myeloid leukemia (205).</p></fn>
+<fn id="t002fn005"><p><sup>b</sup>Anus (ICD-9 154.2, 154.3,154.8), vulva (184.1,184.2, 184.3, 184.4), vagina (184.0), cervix (180), penis (187.1, 187.2, 187.3, 187.4, 187.7, 187.8)</p></fn>
+<fn id="t002fn006"><p>* Significant SIR compared to the general population.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>The most marked increased risk was noted for HPV-related cancers in men, with a SIR of 13.57 (95%CI 3.52–23.62), specifically anogenital cancers, (SIR 5.87, 95%CI 2.04–9.71) which was mainly due to anal and penis malignancies. In women, a significantly higher risk of anogenital cancers was noted in cervix in situ (SIR 3.34, 95%CI 2.20–4.48).</p>
+<p>Few head and neck cancers were identified, with 14 in men and 1 in a woman, none of whom had a markedly elevated SIR. When analyzing smoking-related cancers, including cancers of the buccal cavity, pharynx, larynx, esophagus, lung, stomach, liver, pancreas, cervix uteri, kidney, urinary bladder and myeloid leukemia, both genders had significantly increased risks compared to the general population, with SIRs of 1.83 in men (95%CI 1.47–2.19) and 1.88 in women (95%CI 1.40–2.36). More detailed analysis revealed a markedly increased SIR for lung cancer in men (SIR 2.0, 95%CI 1.4–2.8) and kidney cancer in women (SIR 2.41, 95%CI 1.19–3.63), which made an important contribution to the risk estimates of smoking-related cancers.</p>
+<p>Moreover, moderately increased risks were also noted for liver cancer (SIR 1.78, 95%CI 1.28–2.29), colon cancer (SIR 1.72, 95%CI 1.08–2.35), and prostate cancer (SIR 2.40, 95%CI 1.29–3.50) after a diagnosis of genital warts. The risk of almost all of the others cancers did not differ from that expected in the general population.</p>
+</sec>
+<sec id="sec012">
+<title>Cancers stratified by length of follow-up and age at a diagnosis of genital warts</title>
+<p><xref ref-type="table" rid="pone.0183183.t003">Table 3</xref> illustrates the cases of cancers with significantly increased SIRs stratified by the duration of follow-up and the age at a diagnosis of genital warts. Of the patients with smoking-related cancers, 77.18% had malignancies within 5 years of the diagnosis of genital warts. The age at a diagnosis of genital warts was distributed across all age groups. All of the patients with HPV-related cancers developed malignancies within 10 years, and approximately 70% of these patients were diagnosed with genital warts at 40–49 years of age. Similarly, all of the patients with anogenital cancers were diagnosed within 10 years, and 54.72% of these patients had a diagnosis of genital warts before 49 years of age.</p>
+<table-wrap id="pone.0183183.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0183183.t003</object-id>
+<label>Table 3</label> <caption><title>Selected sites of cancers according to follow-up time/ age at diagnosis of genital warts. <xref ref-type="table-fn" rid="t003fn001"><sup>+</sup></xref></title></caption>
+<alternatives>
+<graphic id="pone.0183183.t003g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0183183.t003" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<tbody>
+<tr>
+<td align="left" style="background-color:#CCCCCC">Time<xref ref-type="table-fn" rid="t003fn002"><sup>§</sup></xref>/Age<xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref> by cancer site<break/>(Case number)</td>
+<td align="center" style="background-color:#CCCCCC">All-smoking<break/>-related cancers<xref ref-type="table-fn" rid="t003fn006"><sup>a</sup></xref></td>
+<td align="center" style="background-color:#CCCCCC">All-HPV<break/>-related cancers<xref ref-type="table-fn" rid="t003fn007"><sup>b</sup></xref></td>
+<td align="center" style="background-color:#CCCCCC">Anogenital</td>
+<td align="center" colspan="2" style="background-color:#CCCCCC">Cervix In situ</td>
+</tr>
+<tr>
+<td align="left">Total case number</td>
+<td align="center">159</td>
+<td align="center">10</td>
+<td align="center">53</td>
+<td align="center" colspan="2">33</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#F2F2F2">Follow-up time<xref ref-type="table-fn" rid="t003fn002"><sup>§</sup></xref> (years)</td>
+<td align="left" style="background-color:#F2F2F2"/>
+<td align="left" style="background-color:#F2F2F2"/>
+<td align="left" style="background-color:#F2F2F2"/>
+<td align="left" style="background-color:#F2F2F2"/>
+<td align="left" style="background-color:#F2F2F2"/>
+</tr>
+<tr>
+<td align="center">&lt;1</td>
+<td align="center">29 (18.24%)</td>
+<td align="center">2 (20%)</td>
+<td align="center">18 (33.96%)</td>
+<td align="center" colspan="2">11 (33.33%)</td>
+</tr>
+<tr>
+<td align="center">1–5</td>
+<td align="center">93 (58.49%)</td>
+<td align="center">6 (60%)</td>
+<td align="center">22 (41.51%)</td>
+<td align="center" colspan="2">12 (36.36%)</td>
+</tr>
+<tr>
+<td align="center">6–10</td>
+<td align="center">31 (19.5%)</td>
+<td align="center">2 (20%)</td>
+<td align="center">13 (24.53%)</td>
+<td align="center" colspan="2">10 (30.3%)</td>
+</tr>
+<tr>
+<td align="center">&gt;10</td>
+<td align="center">6 (3.77%)</td>
+<td align="center">0 (0%)</td>
+<td align="center">0 (0%)</td>
+<td align="center" colspan="2">0 (0%)</td>
+</tr>
+<tr>
+<td align="center">P value<xref ref-type="table-fn" rid="t003fn004"><sup>∞</sup></xref></td>
+<td align="justify">&lt;0.001<xref ref-type="table-fn" rid="t003fn005">*</xref></td>
+<td align="center">0.246</td>
+<td align="center">&lt;0.001<xref ref-type="table-fn" rid="t003fn005">*</xref></td>
+<td align="center" colspan="2">&lt;0.001<xref ref-type="table-fn" rid="t003fn005">*</xref></td>
+</tr>
+<tr>
+<td align="left" style="background-color:#F2F2F2">Age<xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref> (years old)</td>
+<td align="left" style="background-color:#F2F2F2"/>
+<td align="left" style="background-color:#F2F2F2"/>
+<td align="left" style="background-color:#F2F2F2"/>
+<td align="left" style="background-color:#F2F2F2"/>
+<td align="left" style="background-color:#F2F2F2"/>
+</tr>
+<tr>
+<td align="center">10~19</td>
+<td align="center">1 (0.63%)</td>
+<td align="center">1 (10%)</td>
+<td align="center">2 (3.77%)</td>
+<td align="center" colspan="2">1 (3.03%)</td>
+</tr>
+<tr>
+<td align="center">20~29</td>
+<td align="center">6 (3.77%)</td>
+<td align="center">0 (0%)</td>
+<td align="center">13 (24.53%)</td>
+<td align="center" colspan="2">10 (30.3%)</td>
+</tr>
+<tr>
+<td align="center">30~39</td>
+<td align="center">25 (15.72%)</td>
+<td align="center">0 (0%)</td>
+<td align="center">14 (26.42%)</td>
+<td align="center" colspan="2">11 (33.33%)</td>
+</tr>
+<tr>
+<td align="center">40~49</td>
+<td align="center">32 (20.13%)</td>
+<td align="center">7 (70%)</td>
+<td align="center">15 (28.3%)</td>
+<td align="center" colspan="2">8 (24.24%)</td>
+</tr>
+<tr>
+<td align="center">50~59</td>
+<td align="center">25 (15.72%)</td>
+<td align="center">0 (0%)</td>
+<td align="center">4 (7.55%)</td>
+<td align="center" colspan="2">3 (9.09%)</td>
+</tr>
+<tr>
+<td align="center">60~69</td>
+<td align="center">24 (15.09%)</td>
+<td align="center">0 (0%)</td>
+<td align="center">3 (5.66%)</td>
+<td align="center" colspan="2">0 (0%)</td>
+</tr>
+<tr>
+<td align="center">70~79</td>
+<td align="center">29 (18.24%)</td>
+<td align="center">2 (20%)</td>
+<td align="center">2 (3.77%)</td>
+<td align="center" colspan="2">0 (0%)</td>
+</tr>
+<tr>
+<td align="center">80~89</td>
+<td align="center">15 (9.43%)</td>
+<td align="center">0 (0%)</td>
+<td align="center">0 (0%)</td>
+<td align="center" colspan="2">0 (0%)</td>
+</tr>
+<tr>
+<td align="center">90~99</td>
+<td align="center">2 (1.26%)</td>
+<td align="center">0 (0%)</td>
+<td align="center">0 (0%)</td>
+<td align="center" colspan="2">0 (0%)</td>
+</tr>
+<tr>
+<td align="center">P value<xref ref-type="table-fn" rid="t003fn004"><sup>∞</sup></xref></td>
+<td align="center">&lt;0.001<xref ref-type="table-fn" rid="t003fn005">*</xref></td>
+<td align="center">&lt;0.001<xref ref-type="table-fn" rid="t003fn005">*</xref></td>
+<td align="center">0.090</td>
+<td align="center" colspan="2">0.585</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#CCCCCC">Time<xref ref-type="table-fn" rid="t003fn002"><sup>§</sup></xref>/Age<xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref> by cancer site<break/>(Case number)</td>
+<td align="center" style="background-color:#CCCCCC">Colon</td>
+<td align="center" style="background-color:#CCCCCC">Liver</td>
+<td align="center" style="background-color:#CCCCCC">Lung</td>
+<td align="center" style="background-color:#CCCCCC">Prostate</td>
+<td align="center" style="background-color:#CCCCCC">Kidney</td>
+</tr>
+<tr>
+<td align="left">Total case number</td>
+<td align="center">28</td>
+<td align="center">48</td>
+<td align="center">51</td>
+<td align="center">18</td>
+<td align="center">15</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#F2F2F2">Follow-up time<xref ref-type="table-fn" rid="t003fn002"><sup>§</sup></xref>/ (years)</td>
+<td align="left" style="background-color:#F2F2F2"/>
+<td align="left" style="background-color:#F2F2F2"/>
+<td align="left" style="background-color:#F2F2F2"/>
+<td align="left" style="background-color:#F2F2F2"/>
+<td align="left" style="background-color:#F2F2F2"/>
+</tr>
+<tr>
+<td align="center">&lt;1</td>
+<td align="center">6 (21.43%)</td>
+<td align="center">8 (16.67%)</td>
+<td align="center">10 (19.61%)</td>
+<td align="center">4 (22.22%)</td>
+<td align="center">1 (6.67%)</td>
+</tr>
+<tr>
+<td align="center">1–5</td>
+<td align="center">13 (46.43%)</td>
+<td align="center">33 (68.75%)</td>
+<td align="center">28 (54.9%)</td>
+<td align="center">9 (50%)</td>
+<td align="center">8 (53.33%)</td>
+</tr>
+<tr>
+<td align="center">6–10</td>
+<td align="center">8 (28.57%)</td>
+<td align="center">4 (8.33%)</td>
+<td align="center">11 (21.57%)</td>
+<td align="center">5 (27.78%)</td>
+<td align="center">6 (40%)</td>
+</tr>
+<tr>
+<td align="center">&gt;10</td>
+<td align="center">1 (3.57%)</td>
+<td align="center">3 (6.25%)</td>
+<td align="center">2 (3.92%)</td>
+<td align="center">0 (0%)</td>
+<td align="center">0 (0%)</td>
+</tr>
+<tr>
+<td align="center">P value<xref ref-type="table-fn" rid="t003fn004"><sup>∞</sup></xref></td>
+<td align="center">0.056</td>
+<td align="center">&lt;0.001<xref ref-type="table-fn" rid="t003fn005">*</xref></td>
+<td align="center">0.002<xref ref-type="table-fn" rid="t003fn005">*</xref></td>
+<td align="center">0.085</td>
+<td align="center">0.558</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#F2F2F2">Age<xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref> (years old)</td>
+<td align="left" style="background-color:#F2F2F2"/>
+<td align="left" style="background-color:#F2F2F2"/>
+<td align="left" style="background-color:#F2F2F2"/>
+<td align="left" style="background-color:#F2F2F2"/>
+<td align="left" style="background-color:#F2F2F2"/>
+</tr>
+<tr>
+<td align="center">10~19</td>
+<td align="center">0 (0%)</td>
+<td align="center">0 (0%)</td>
+<td align="center">0 (0%)</td>
+<td align="center">0 (0%)</td>
+<td align="center">1 (6.67%)</td>
+</tr>
+<tr>
+<td align="center">20~29</td>
+<td align="center">2 (7.14%)</td>
+<td align="center">2 (4.17%)</td>
+<td align="center">0 (0%)</td>
+<td align="center">0 (0%)</td>
+<td align="center">0 (0%)</td>
+</tr>
+<tr>
+<td align="center">30~39</td>
+<td align="center">6 (21.43%)</td>
+<td align="center">5 (10.42%)</td>
+<td align="center">8 (15.69%)</td>
+<td align="center">0 (0%)</td>
+<td align="center">0 (0%)</td>
+</tr>
+<tr>
+<td align="center">40~49</td>
+<td align="center">3 (10.71%)</td>
+<td align="center">10 (20.83%)</td>
+<td align="center">10 (19.61%)</td>
+<td align="center">2 (11.11%)</td>
+<td align="center">6 (40%)</td>
+</tr>
+<tr>
+<td align="center">50~59</td>
+<td align="center">4 (14.29%)</td>
+<td align="center">12 (25%)</td>
+<td align="center">5 (9.8%)</td>
+<td align="center">5 (27.78%)</td>
+<td align="center">2 (13.33%)</td>
+</tr>
+<tr>
+<td align="center">60~69</td>
+<td align="center">6 (21.43%)</td>
+<td align="center">11 (22.92%)</td>
+<td align="center">5 (9.8%)</td>
+<td align="center">3 (16.67%)</td>
+<td align="center">2 (13.33%)</td>
+</tr>
+<tr>
+<td align="center">70~79</td>
+<td align="center">6 (21.43%)</td>
+<td align="center">5 (10.42%)</td>
+<td align="center">13 (25.49%)</td>
+<td align="center">5 (27.78%)</td>
+<td align="center">3 (20%)</td>
+</tr>
+<tr>
+<td align="center">80~89</td>
+<td align="center">1 (3.57%)</td>
+<td align="center">3 (6.25%)</td>
+<td align="center">9 (17.65%)</td>
+<td align="center">3 (16.67%)</td>
+<td align="center">1 (6.67%)</td>
+</tr>
+<tr>
+<td align="center">90~99</td>
+<td align="center">0 (0%)</td>
+<td align="center">0 (0%)</td>
+<td align="center">1 (1.96%)</td>
+<td align="center">0 (0%)</td>
+<td align="center">0 (0%)</td>
+</tr>
+<tr>
+<td align="center">P value<xref ref-type="table-fn" rid="t003fn004"><sup>∞</sup></xref></td>
+<td align="center">&lt;0.001<xref ref-type="table-fn" rid="t003fn005">*</xref></td>
+<td align="center">&lt;0.001<xref ref-type="table-fn" rid="t003fn005">*</xref></td>
+<td align="center">&lt;0.001<xref ref-type="table-fn" rid="t003fn005">*</xref></td>
+<td align="center">&lt;0.001<xref ref-type="table-fn" rid="t003fn005">*</xref></td>
+<td align="center">&lt;0.001<xref ref-type="table-fn" rid="t003fn005">*</xref></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t003fn001"><p><sup>+</sup>None of the patients diagnosed with genital warts at 0–9 years of age suffered from cancers thereafter, thus the interval 0–9 was not included in the table.</p></fn>
+<fn id="t003fn002"><p><sup>§</sup>Follow-up time from the diagnosis of genital warts to cancers.</p></fn>
+<fn id="t003fn003"><p><sup>#</sup>Age at a diagnosis of genital warts.</p></fn>
+<fn id="t003fn004"><p><sup>∞</sup>P value (Pearson’s χ<sup>2</sup> or Fisher’s exact test) &lt;0.05.</p></fn>
+<fn id="t003fn005"><p>*Statistically significant.</p></fn>
+<fn id="t003fn006"><p><sup>a</sup>Buccal cavity and pharynx (ICD-9 149), esophagus (150), stomach (151), liver (155), pancreas (157), larynx (161), lung (162), cervix uteri (180), kidney (189), urinary bladder (188), myeloid leukemia (205).</p></fn>
+<fn id="t003fn007"><p><sup>b</sup>Anus (ICD-9 154.2, 154.3,154.8), vulva (184.1,184.2, 184.3, 184.4), vagina (184.0),cervix (180), penis (187.1, 187.2, 187.3, 187.4, 187.7, 187.8).</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>Colon, liver, lung, prostate, and kidney cancers had a similar trend in that the malignancies often developed within 5 years. The patients with colon, liver, and lung cancers tended to have a biphasic distribution of the age at a diagnosis of genital warts, while those with prostate and kidney cancers were diagnosed with genital warts at an older age.</p>
+</sec>
+</sec>
+<sec id="sec013" sec-type="conclusions">
+<title>Discussion</title>
+<p>In this NHIRD-based study, we investigated a large number of patients with genital warts. The study subjects were well-stratified and the number of observed and expected cancers were reliable owing to the accurate registration in the NHIRD.</p>
+<p>The age distribution of the patients with genital warts in the present study showed a peak incidence at 20–29 years of age, which is consistent with the results of previous reports (Hsueh et al reported that more than 65% of patients were aged 20–39 years in Taiwan in 2002 and 2003) [<xref ref-type="bibr" rid="pone.0183183.ref019">19</xref>].</p>
+<p>We found a significantly increased risk of anogenital cancers (especially HPV-related cancers) in the patients with genital warts. We also observed a moderately increased risk of smoking-related cancers, lung, liver, kidney, and prostate cancers. Men with genital warts had a slightly higher risk of developing cancer at all sites compared to women.</p>
+<p>The specific mechanism by which patients with genital warts have an elevated risk of cancer is not well understood. The first epidemiological report that indicated an association between condyloma and cancer was published 1953. After advances in DNA hybridization techniques, HPV type 16 and 18 were found in up to 90% of patients with cervical carcinoma. In addition, the high-risk types of HPV have often been detected in patients with genital warts [<xref ref-type="bibr" rid="pone.0183183.ref024">24</xref>,<xref ref-type="bibr" rid="pone.0183183.ref026">26</xref>]. The oncogenic mechanisms for the virus entering a lesion, altering the epithelium characteristics, and suppressing local immunity, thereby resulting in an increased likelihood of harboring oncogenic HPV types have been established. Some reports have also reported that infection with non-oncogenic HPV types 6 and 11, which cause condyloma acuminata, may facilitate coinfection with the oncogenic types of HPVs and the subsequent pathologic changes [<xref ref-type="bibr" rid="pone.0183183.ref014">14</xref>]. In the current study, most of the cases of cancers with significantly increased SIRs developed near the sites where genital warts occur (anus, penis, vulva, cervix). Thus the elevated risk of anogenital cancers (especially HPV-related ones) may be related to the oncogenic nature of HPV. However, it could also be explained by infection with both oncogenic and non-oncogenic types of HPV as they share similar exposure conditions, route of transmission, and risk factors in patients with genital warts compared with the general population.</p>
+<p>Other factors including smoking, alcohol consumption, and behavior (e.g. male homosexuality, higher sexual activity or multiple partners) are also known to be involved in oncogenic processes and may be confounding factors. Previous studies have reported that individuals with genital warts may have higher rates of alcohol consumption, smoking, and other deleterious lifestyle habits [<xref ref-type="bibr" rid="pone.0183183.ref009">9</xref>]. Smoking has been shown to weaken the immune response against viral infections, and more smokers have been shown to be HPV-positive than non-smokers [<xref ref-type="bibr" rid="pone.0183183.ref027">27</xref>,<xref ref-type="bibr" rid="pone.0183183.ref028">28</xref>]. In the current study, the patients with genital warts had an obviously increased risk of developing smoking-related cancers and anogenital malignancies. However, the NHIRD does not contain data on smoking so we could not perform further analysis. Further studies eliminating these confounding factors are warranted for a more precise and comprehensive evaluation.</p>
+<p>Although no increased risk of invasive cervical cancer was observed in the present study, cervical cancer in situ has been associated with genital warts. This could be due to the relatively short follow-up time, insufficient number of cases, or a lower risk than previously thought. In addition, since annual Pap smears have been heavily promoted for women above 35 years of age in Taiwan since 1995, many potentially invasive cancers may have been diagnosed at the in situ stage and treated early. It is also possible that because the patients with genital warts were more closely monitored, precancerous lesions or cancer in situ were detected early resulting in a lower incidence of invasive cancer. Nordenvall et al. also reported a two-fold higher risk of cervical carcinoma in situ in a Swedish cohort after the introduction of population-based Pap screening programs [<xref ref-type="bibr" rid="pone.0183183.ref014">14</xref>]. Hence, the intensity of medical surveillance, more liberal diagnostic criteria, and increased detection and treatment in women with genital warts may explain the lack of association with invasive cancer in this study. In Taiwan, trial-based screening programs were initiated for groups at high risk of colorectal, breast, and oral cancers as well as Pap smear tests in 1985, and outreach services up to the national level have been available since 1999. The early detection of precancerous pathological changes may partially explain the less significant association between warts and these malignancies in the present study.</p>
+<p>HPV was first considered to be involved in oral and laryngeal squamous cell carcinogenesis in 1980 due to similarities in the morphological features between genital and oral-HPV-associated lesions [<xref ref-type="bibr" rid="pone.0183183.ref029">29</xref>,<xref ref-type="bibr" rid="pone.0183183.ref030">30</xref>]. Many subsequent studies have concluded that HPV infection is associated with the development of head and neck cancers among subjects with or without established risk factors such as tobacco and alcohol use [<xref ref-type="bibr" rid="pone.0183183.ref013">13</xref>,<xref ref-type="bibr" rid="pone.0183183.ref030">30</xref>–<xref ref-type="bibr" rid="pone.0183183.ref032">32</xref>]. D’Souza et al. reported that a higher incidence of HPV-associated head and neck squamous cell carcinoma was related to a higher frequency of sexual risk-taking behavior (more sexual partners and/or more oral sex) [<xref ref-type="bibr" rid="pone.0183183.ref013">13</xref>]. Nevertheless, Taiwan has one of the highest incidence rates of head and neck cancer in the world (annual incidence 22 per 100,000), yet there was no significantly increased risk of developing head and neck cancers in the patients with genital warts. Studies from Western countries have reported an increasing trend of HPV-related head and neck cancers despite a decrease in the overall incidence [<xref ref-type="bibr" rid="pone.0183183.ref033">33</xref>–<xref ref-type="bibr" rid="pone.0183183.ref035">35</xref>]. In contrast, the overall incidence of head and neck cancers in Taiwan continued to rise from 1995–2009, with a trend of a more rapid rise in HPV-related head and neck cancers [<xref ref-type="bibr" rid="pone.0183183.ref036">36</xref>]. Alcohol, tobacco, and betel quid chewing account for a large proportion of cases. The relatively high prevalence has also been correlated with genetic, virological, and molecular factors. The large patient population and lower frequency of certain sexual behaviors may have contributed to our study results of no significantly elevated risk of developing head and neck cancers after a diagnosis of genital warts.</p>
+<p>We also found a higher SIR for nonmelanoma skin cancer. Few studies have examined the association between HPV and nonmelanoma skin cancer. The cutaneous type of HPV may contribute to oncogenesis together with genotoxic ultraviolet exposure, immunocompromised status, and tobacco use [<xref ref-type="bibr" rid="pone.0183183.ref037">37</xref>–<xref ref-type="bibr" rid="pone.0183183.ref039">39</xref>]. However, the potential association with HPV is controversial, and further research on this issue is needed. The same may be true for lung cancer. Our results showed a two-fold increased risk of lung cancer compared to the general population in men. Although cigarette smoking is considered to be the most important factor, the presence of circulating HPV DNA in the blood has been suggested to be an oncogenic risk marker for lung cancer [<xref ref-type="bibr" rid="pone.0183183.ref040">40</xref>]. With regards to hepatic cancer, there are currently no related studies describing an association with genital warts or HPV. The relatively high prevalence of chronic hepatitis B infection in Taiwan may also have confounded the results [<xref ref-type="bibr" rid="pone.0183183.ref041">41</xref>]. Wait et al. reported that there are currently around 3 million carriers of HBV in Taiwan, and that liver cancer is the leading cause of cancer deaths in Taiwanese men and the second leading cause in women. Therefore, further studies are needed to investigate the relationship between genital warts and hepatic cancer. Similar findings have been reported for colorectal, kidney and prostate cancers and the relationships between these malignancies with viral infections, especially HPV infection, are still controversial and require further studies.</p>
+<p>Individuals with HPV infection mainly developed benign hyperplasia with low malignant potential, however a subgroup of high-risk HPVs with precancerous potential may trigger malignant changes in local tissues. A small fraction of these individuals patients develop cancers, usually many years after the initial infection. In the current study, the development of most malignancies (60–80%) occurred within 5 years after the diagnosis of genital warts. In particular, more than one third of the patients with anogenital cancers, especially cervix in situ, were diagnosed with malignancies within 1 year after the diagnosis of genital warts. The misdiagnosis of the early stage of cancers as genital warts (diagnostic bias) or the routine screening for cervical and oropharyngeal cancers in women and high-risk groups in Taiwan may explain these findings (surveillance bias). The relatively short observation period in the present study may also have played a role in the results.</p>
+<p>In stratification by age at the diagnosis of genital warts, the patients with HPV-related cancers, anogenital cancer, and cervix in situ, tended to be diagnosed with genital warts at an earlier age (&lt; 50 years). However the risk of the other cancers remained high in the patients with an older age at the diagnosis of genital warts, possibly because of relatively weak immunity in the elderly.</p>
+<p>There are several limitations to this study. First, the incidence of genital warts may have been underestimated. Many cases were likely to have been underreported, particularly those diagnosed outside hospitals by clinicians not enrolled with the National Health Insurance program. Second, the majority of the enrolled subjects did not reach the age at which the incidence of cancers peaked due to the relatively short follow-up period. In addition, due to the nature of the NHIRD, survival bias should be considered. Further, the relative rarity of certain cancers may have led to the estimates being inaccurate. Finally, the study did not include data on sexual behavior, smoking, betel quit chewing, socioeconomic status, or other lifestyle habits, all of which may play important roles as confounding factors.</p>
+</sec>
+<sec id="sec014" sec-type="conclusions">
+<title>Conclusions</title>
+<p>This study demonstrated a significantly increased risk of both anogenital cancers and cancers of other sites among patients with genital warts. However, the elevated risks of smoking-related cancers, liver, lung, prostate, and kidney cancers may indicate differences in exposure and risk factors in patients with genital warts compared to the general population. Further studies taking confounders into consideration and direct detection of HPV oncogenic pathways among various cancers are needed. Since there is usually a latent period between the initial infection and the development of malignancies, Pap smears and other screening programs should be emphasized, especially in high-risk groups. Prophylactic vaccinations against oncogenic HPVs and to further block persistent infections should also be promoted. Several studies have demonstrated that vaccines can successfully elicit high levels of neutralized antibodies and reduced rates of persistent HPV infections, thereby decreasing the incidence of both cervical carcinoma and also other anogenital and HPV-related head and neck cancers [<xref ref-type="bibr" rid="pone.0183183.ref013">13</xref>,<xref ref-type="bibr" rid="pone.0183183.ref042">42</xref>]. In Taiwan, HPV vaccines received regulatory approval in October 2006 as a self-paid option for females aged 9–26 years, and substantial population benefits with a promising and favorable cost-effectiveness ratio have been shown [<xref ref-type="bibr" rid="pone.0183183.ref043">43</xref>]. Therefore, we suggest that governments should offer free HPV vaccines to the general population and improve the compliance rate, particularly in those at high-risk. Further studies are warranted to investigate whether HPV vaccines can protect against genital warts and cervical cancer and also against other malignancies.</p>
+</sec>
+<sec id="sec015">
+<title>Supporting information</title>
+<supplementary-material id="pone.0183183.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0183183.s001" xlink:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>ICD-9 codes for all cancers.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0183183.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0183183.s002" xlink:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>Age-specific incidence rate of genital warts.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>We thank all of the study participants and the members of the Departments of Pediatrics at Taipei Veterans General Hospital and National Yang- Ming University who made this study possible. We are also grateful to the Biostatistics Task Force, Taipei Veterans General Hospital, for the statistical assistance.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0183183.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brown</surname> <given-names>DR</given-names></name>, <name name-style="western"><surname>Bryan</surname> <given-names>JT</given-names></name>, <name name-style="western"><surname>Cramer</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Fife</surname> <given-names>KH</given-names></name>. <article-title>Analysis of human papillomavirus types in exophytic condylomata acuminata by hybrid capture and Southern blot techniques</article-title>. <source>J Clin Microbiol</source> <year>1993</year>; <volume>31</volume>:<fpage>2667</fpage>–<lpage>2673</lpage>. <object-id pub-id-type="pmid">8253963</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wiley</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Masongsong</surname> <given-names>E</given-names></name>. <article-title>Human papillomavirus: the burden of infection</article-title>. <source>Obstet Gynecol Surv</source> <year>2006</year>; <volume>61</volume> (<issue>6 Suppl 1</issue>): <fpage>S3</fpage>–<lpage>14</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/01.ogx.0000221010.82943.8c" xlink:type="simple">10.1097/01.ogx.0000221010.82943.8c</ext-link></comment> <object-id pub-id-type="pmid">16729902</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Saslow</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Castle</surname> <given-names>PE</given-names></name>, <name name-style="western"><surname>Cox</surname> <given-names>JT</given-names></name>, <name name-style="western"><surname>Davey</surname> <given-names>DD</given-names></name>, <name name-style="western"><surname>Einstein</surname> <given-names>MH</given-names></name>, <name name-style="western"><surname>Ferris</surname> <given-names>DG</given-names></name>, <etal>et al</etal>. <article-title>American Cancer Society Guideline for human papillomavirus (HPV) vaccine use to prevent cervical cancer and its precursors</article-title>. <source>CA Cancer J Clin</source> <year>2007</year>; <volume>57</volume> (<issue>1</issue>): <fpage>7</fpage>–<lpage>28</lpage>. <object-id pub-id-type="pmid">17237032</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gissmann</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Hausen zur</surname> <given-names>H</given-names></name>. <article-title>Partial characterization of viral DNA from human genital warts (Condylomata acuminata)</article-title>. <source>Int J Cancer</source> <year>1980</year>; <volume>25</volume> (<issue>5</issue>): <fpage>605</fpage>–<lpage>609</lpage>. <object-id pub-id-type="pmid">6246010</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>McCance</surname> <given-names>DJ</given-names></name>. <article-title>Cervical cancer. News on papillomaviruses</article-title>. <source>Nature</source> <month>October</month> <day>27</day>, <volume>1988</volume>; <fpage>765</fpage>–<lpage>766</lpage>.</mixed-citation></ref>
+<ref id="pone.0183183.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Siegel</surname> <given-names>A</given-names></name>. <article-title>Malignant transformation of condyloma acuminatum</article-title>. <source>Review of the literature and report of a case. Am J Surg</source> <year>1962</year>; <volume>103</volume>:<fpage>613</fpage>–<lpage>617</lpage>. <object-id pub-id-type="pmid">13912612</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kovi</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Tillman</surname> <given-names>RL</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>SM</given-names></name>: <article-title>Malignant transformation of condyloma acuminatum. A light microscopic and ultrastructural study</article-title>. <source>Am J Clin Pathol</source> <year>1974</year>; <volume>61</volume> (<issue>5</issue>): <fpage>702</fpage>–<lpage>710</lpage>. <object-id pub-id-type="pmid">4827053</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kjaer</surname> <given-names>SK</given-names></name>, <name name-style="western"><surname>Dahl</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Engholm</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Engholm</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Bock</surname> <given-names>JE</given-names></name>, <name name-style="western"><surname>Lynge</surname> <given-names>E</given-names></name>, <etal>et al</etal>. <article-title>Case-control study of risk factors for cervical neoplasia in Denmark. II. Role of sexual activity, reproductive factors, and venereal infections</article-title>. <source>Cancer Causes and Control</source> <year>1992</year>; <volume>3</volume> (<issue>4</issue>): <fpage>339</fpage>–<lpage>348</lpage>. <object-id pub-id-type="pmid">1617121</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Elizabeth</surname> <given-names>AH</given-names></name>, <name name-style="western"><surname>Alice</surname> <given-names>SW</given-names></name>, <name name-style="western"><surname>Diana</surname> <given-names>AA</given-names></name>, <name name-style="western"><surname>David</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Brian</surname> <given-names>JN</given-names></name>, <name name-style="western"><surname>Jennifer</surname> <given-names>JK</given-names></name>. <article-title>Anal Cancer Incidence: Genital Warts, Anal Fissure or Fistula, Hemorrhoids, and Smoking</article-title>. <source>Journal of the National Cancer Institute</source> <year>1989</year> <volume>81</volume>(<issue>22</issue>): <fpage>1726</fpage>–<lpage>1731</lpage>. <object-id pub-id-type="pmid">2810388</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sherman</surname> <given-names>KJ</given-names></name>, <name name-style="western"><surname>Dating</surname> <given-names>JR</given-names></name>, <name name-style="western"><surname>Chu</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Weiss</surname> <given-names>NS</given-names></name>, <name name-style="western"><surname>Ashley</surname> <given-names>RL</given-names></name>, <name name-style="western"><surname>Corey</surname> <given-names>L</given-names></name>. <article-title>Genital Warts, Other Sexually Transmitted Diseases, and Vulvar Cancer</article-title>. <source>Epidemiology</source> <year>1991</year>; <volume>2</volume>(<issue>4</issue>): <fpage>257</fpage>–<lpage>262</lpage>. <object-id pub-id-type="pmid">1655066</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brinton</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Nasca</surname> <given-names>PC</given-names></name>, <name name-style="western"><surname>Mallin</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Schairer</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Rosenthal</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Rothenberg</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Case-control study of in situ and invasive carcinoma of the vagina</article-title>. <source>Gynecologic Oncology</source> <year>1990</year>; <volume>38</volume> (<issue>1</issue>): <fpage>49</fpage>–<lpage>54</lpage>. <object-id pub-id-type="pmid">2354827</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Frisch</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Glimelius</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>van den Brule</surname> <given-names>AJC</given-names></name>, <name name-style="western"><surname>Wohlfahrt</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Meijer</surname> <given-names>CJ</given-names></name>, <name name-style="western"><surname>Walboomers</surname> <given-names>JM</given-names></name>, <etal>et al</etal>. <article-title>Sexually Transmitted Infection as a Cause of Anal Cancer</article-title>. <source>N Engl J Med</source> <year>1997</year>; <volume>337</volume>(<issue>19</issue>): <fpage>1350</fpage>–<lpage>1358</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJM199711063371904" xlink:type="simple">10.1056/NEJM199711063371904</ext-link></comment> <object-id pub-id-type="pmid">9358129</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>D'Souza</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Dempsey</surname> <given-names>A</given-names></name>. <article-title>The role of HPV in head and neck cancer and review of the HPV vaccine</article-title>. <source>Prev Med</source> <year>2011</year>; <volume>53</volume>(<issue>suppl 1</issue>): <fpage>S5</fpage>–<lpage>S11</lpage>.</mixed-citation></ref>
+<ref id="pone.0183183.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nordenvall</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Chang</surname> <given-names>ET</given-names></name>, <name name-style="western"><surname>Adami</surname> <given-names>H-O</given-names></name>, <name name-style="western"><surname>Weimin</surname> <given-names>Y</given-names></name>. <article-title>Cancer risk among patients with condylomata acuminata</article-title>. <source>Int J Cancer</source> <year>2006</year>; <volume>119</volume>(<issue>4</issue>): <fpage>888</fpage>–<lpage>893</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ijc.21892" xlink:type="simple">10.1002/ijc.21892</ext-link></comment> <object-id pub-id-type="pmid">16557590</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kjaer</surname> <given-names>SK</given-names></name>, <name name-style="western"><surname>Dahl</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Engholm</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Bock</surname> <given-names>JE</given-names></name>, <name name-style="western"><surname>Lynge</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Jensen</surname> <given-names>OM</given-names></name>. <article-title>Case-control study of risk factors for cervical neoplasia in Denmark. II. Role of sexual activity, reproductive factors, and venereal infections</article-title>. <source>Cancer Causes and Control</source> <year>1992</year>; <volume>3</volume>(<issue>4</issue>): <fpage>339</fpage>–<lpage>348</lpage>. <object-id pub-id-type="pmid">1617121</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Friis</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Kjaer</surname> <given-names>SK</given-names></name>, <name name-style="western"><surname>Frisch</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Mellemkjar</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Olsen</surname> <given-names>JH</given-names></name>. <article-title>Cervical intraepithelial neoplasia, anogenital cancer, and other cancer types in women after hospitalization for condylomata acuminata</article-title>. <source>J Infect Dis</source> <year>1997</year>; <volume>175</volume>(<issue>4</issue>): <fpage>743</fpage>–<lpage>748</lpage>. <object-id pub-id-type="pmid">9086125</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sigurgeirsson</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Lindelöf</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Eklund</surname> <given-names>G</given-names></name>: <article-title>Condylomata acuminata and risk of cancer: an epidemiological study</article-title>. <source>BMJ</source> <year>1991</year>; <volume>303</volume>(<issue>6798</issue>): <fpage>341</fpage>–<lpage>344</lpage>. <object-id pub-id-type="pmid">1781836</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Blomberg</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Friis</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Munk</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Bautz</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Kjaer</surname> <given-names>SK</given-names></name>. <article-title>Genital Warts and Risk of Cancer A Danish Study of Nearly 50 000 Patients With Genital Warts</article-title>. <source>Journal of Infectious Diseases</source> <year>2012</year>; <volume>205</volume>(<issue>10</issue>): <fpage>1544</fpage>–<lpage>1553</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/infdis/jis228" xlink:type="simple">10.1093/infdis/jis228</ext-link></comment> <object-id pub-id-type="pmid">22427679</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hsueh</surname> <given-names>PR</given-names></name>, <article-title>Human papillomavirus, genital warts, and vaccines</article-title>. <source>J Microbiol Immunol Infect</source> <year>2009</year>; <volume>42</volume>(<issue>2</issue>): <fpage>101</fpage>–<lpage>106</lpage>. <object-id pub-id-type="pmid">19597640</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chen</surname> <given-names>CA</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>CY</given-names></name>, <name name-style="western"><surname>Chou</surname> <given-names>HH</given-names></name>, <name name-style="western"><surname>Chou</surname> <given-names>CY</given-names></name>, <name name-style="western"><surname>Ho</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Twu</surname> <given-names>NF</given-names></name>, <etal>et al</etal>. <article-title>The distribution and differential risks of human papillomavirus genotypes in cervical preinvasive lesions: a Taiwan Cooperative Oncologic Group Study</article-title>. <source>International Journal of Gynecological Cancer</source> <year>2006</year>; <volume>16</volume>(<issue>5</issue>): <fpage>1801</fpage>–<lpage>1808</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1525-1438.2006.00655.x" xlink:type="simple">10.1111/j.1525-1438.2006.00655.x</ext-link></comment> <object-id pub-id-type="pmid">17009975</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tay</surname> <given-names>SK</given-names></name>, <name name-style="western"><surname>Ngan</surname> <given-names>HYS</given-names></name>, <name name-style="western"><surname>Chu</surname> <given-names>TY</given-names></name>, <name name-style="western"><surname>Cheung</surname> <given-names>ANY</given-names></name>, <name name-style="western"><surname>Tay</surname> <given-names>EH</given-names></name>. <article-title>Epidemiology of Human Papillomavirus Infection and Cervical Cancer and Future Perspectives in Hong Kong, Singapore and Taiwan</article-title>. <source>Vaccine</source> <year>2008</year>; <volume>26</volume>:<fpage>M60</fpage>–<lpage>M70</lpage> <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.vaccine.2008.05.042" xlink:type="simple">10.1016/j.vaccine.2008.05.042</ext-link></comment> <object-id pub-id-type="pmid">18945415</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref022"><label>22</label><mixed-citation publication-type="other" xlink:type="simple">National Health Insurance Administration, Ministry of Health and Welfare, Executive Yuan: National Health Insurance Annual Report in Taiwan (R.O.C.) (2014–2015)</mixed-citation></ref>
+<ref id="pone.0183183.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Marur</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>D'Souza</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Westra</surname> <given-names>WH</given-names></name>, <name name-style="western"><surname>Forastiere</surname> <given-names>AA</given-names></name>. <article-title>HPV-associated head and neck cancer: a virus-related cancer epidemic</article-title>. <source>Lancet Oncol</source> <year>2012</year>; <volume>11</volume>(<issue>8</issue>):<fpage>781</fpage>–<lpage>789</lpage>.</mixed-citation></ref>
+<ref id="pone.0183183.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ryerson</surname> <given-names>AB</given-names></name>, <name name-style="western"><surname>Peters</surname> <given-names>ES</given-names></name>, <name name-style="western"><surname>Coughlin</surname> <given-names>SS</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>VW</given-names></name>, <name name-style="western"><surname>Gillison</surname> <given-names>ML</given-names></name>, <name name-style="western"><surname>Reichman</surname> <given-names>ME</given-names></name>, <etal>etal</etal>. <article-title>Burden of potentially human papillomavirus-associated cancers of the oropharynx and oral cavity in the US, 1998–2003</article-title>. <source>Cancer</source> <year>2008</year>; <volume>113</volume>(<issue>S10</issue>): <fpage>2901</fpage>–<lpage>2909</lpage>.</mixed-citation></ref>
+<ref id="pone.0183183.ref025"><label>25</label><mixed-citation publication-type="other" xlink:type="simple">Surveillance, Epidemiology, and End Results (SEER) Program (<ext-link ext-link-type="uri" xlink:href="http://www.seer.cancer.gov" xlink:type="simple">www.seer.cancer.gov</ext-link>). SEER*Stat Database: Incidence-SEER 9 Regs Public- Use, November 2008 Submission (1973–2006)—Linked to County Attributes—Total U.S., 1969–2003 Counties, National Cancer Institute, DCCPS, Surveillance Research Program, Cancer Statistics Branch, released April 2009, based on the November 2008 submission, 2009.</mixed-citation></ref>
+<ref id="pone.0183183.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Oon</surname> <given-names>S-F</given-names></name>, <name name-style="western"><surname>Winter</surname> <given-names>DC</given-names></name>. <article-title>Perianal conylomas, anal squamous intraepithelial neoplasms and screening: a review of the literature</article-title>. <source>Journal of Medical Screening</source> <year>2010</year>; <volume>17</volume>(<issue>1</issue>): <fpage>44</fpage>–<lpage>49</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1258/jms.2009.009058" xlink:type="simple">10.1258/jms.2009.009058</ext-link></comment> <object-id pub-id-type="pmid">20356945</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Clinton</surname> <given-names>SR</given-names></name>, <name name-style="western"><surname>David</surname> <given-names>ED</given-names></name>, <name name-style="western"><surname>Susanna</surname> <given-names>IG</given-names></name>, <name name-style="western"><surname>Mahmoud</surname> <given-names>AP</given-names></name>, <name name-style="western"><surname>Anna</surname> <given-names>GD</given-names></name>, <name name-style="western"><surname>Filip</surname> <given-names>KS</given-names></name>, <etal>et al</etal>. <article-title>Cigarette smoke decreases pulmonary dendritic cells and impacts antiviral immune responsiveness</article-title>. <source>Am J Respir Cell Mol Biol</source> <year>2004</year>; <volume>30</volume> (<issue>2</issue>): <fpage>202</fpage>–<lpage>211</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1165/rcmb.2003-0259OC" xlink:type="simple">10.1165/rcmb.2003-0259OC</ext-link></comment> <object-id pub-id-type="pmid">12920055</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brown</surname> <given-names>DR</given-names></name>, <name name-style="western"><surname>Schroeder</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Bryan</surname> <given-names>JT</given-names></name>, <name name-style="western"><surname>Stoler</surname> <given-names>MH</given-names></name>, <name name-style="western"><surname>Fife</surname> <given-names>KH</given-names></name>. <article-title>Detection of multiple human papillomavirus types in Condylomata acuminata lesions from otherwise healthy and immunosuppressed patients</article-title>. <source>J Clin Microbiol</source> <year>1999</year>; <volume>37</volume>(<issue>10</issue>): <fpage>3316</fpage>–<lpage>3322</lpage>. <object-id pub-id-type="pmid">10488198</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Syrjanen</surname> <given-names>S</given-names></name>: <article-title>The role of human papillomavirus infection in head and neck cancers</article-title>. <source>Annals of Oncology</source> <year>2010</year>; <volume>21</volume> (<issue>suppl 7</issue>): <fpage>243</fpage>–<lpage>245</lpage>.</mixed-citation></ref>
+<ref id="pone.0183183.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schwartz</surname> <given-names>SM</given-names></name>, <name name-style="western"><surname>Daling</surname> <given-names>JR</given-names></name>, <name name-style="western"><surname>Madeleine</surname> <given-names>MM</given-names></name>, <name name-style="western"><surname>Doody</surname> <given-names>DR</given-names></name>, <name name-style="western"><surname>Fitzgibbons</surname> <given-names>ED</given-names></name>. <article-title>Oral cancer risk in relation to sexual history and evidence of human papillomavirus infection</article-title>. <source>Journal of the National Cancer Institute</source> <year>1998</year>; <volume>90</volume>(<issue>21</issue>): <fpage>1626</fpage>–<lpage>1636</lpage>. <object-id pub-id-type="pmid">9811312</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Paz</surname> <given-names>IB</given-names></name>, <name name-style="western"><surname>Cook</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Odom-Maryon</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Xie</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Wilczynski</surname> <given-names>SP</given-names></name>. <article-title>Human papillomavirus (HPV) in head and neck cancer</article-title>. <source>Cancer</source> <year>1997</year>; <volume>79</volume>(<issue>3</issue>): <fpage>595</fpage>–<lpage>604</lpage>. <object-id pub-id-type="pmid">9028373</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>McKaig</surname> <given-names>RG</given-names></name>, <name name-style="western"><surname>Baric</surname> <given-names>RS</given-names></name>, <name name-style="western"><surname>Olshan</surname> <given-names>AF</given-names></name>. <article-title>Human Papillomavirus and head and neck cancer: Epidemiology and molecular biology</article-title>. <source>Head &amp; Neck</source> <year>1998</year>; <volume>20</volume>(<issue>3</issue>): <fpage>250</fpage>–<lpage>265</lpage>.</mixed-citation></ref>
+<ref id="pone.0183183.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gillison</surname> <given-names>ML</given-names></name>. <article-title>Current topics in the epidemiology of oral cavity and oropharyngeal cancers</article-title>. <source>Head &amp; Neck</source> <year>2007</year>; <volume>29</volume>(<issue>8</issue>): <fpage>779</fpage>–<lpage>792</lpage>.</mixed-citation></ref>
+<ref id="pone.0183183.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hansson</surname> <given-names>BG</given-names></name>, <name name-style="western"><surname>Rosenquist</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Antonsson</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Wennerberg</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Schildt</surname> <given-names>EB</given-names></name>, <name name-style="western"><surname>Bladstrom</surname> <given-names>A</given-names></name>. <article-title>Strong association between infection with human papillomavirus and oral and oropharyngeal squamous cell carcinoma: A population-based case-control study in southern Sweden</article-title>. <source>Acta Otolaryngol</source> <year>2005</year>; <volume>125</volume>(<issue>12</issue>): <fpage>1337</fpage>–<lpage>1344</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/00016480510043945" xlink:type="simple">10.1080/00016480510043945</ext-link></comment> <object-id pub-id-type="pmid">16303684</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref035"><label>35</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Ferlay</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Soerjomataram</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Ervik</surname> <given-names>M</given-names></name>, <etal>et al</etal>: <chapter-title>GLOBOCAN 2012 v1.0, Cancer incidence and mortality worldwide: IARC cancer base no. 11</chapter-title> (<publisher-name>International Agency for Research on Cancer</publisher-name>; <year>2013</year>) <ext-link ext-link-type="uri" xlink:href="http://globocan.iarc.fr" xlink:type="simple">http://globocan.iarc.fr</ext-link></mixed-citation></ref>
+<ref id="pone.0183183.ref036"><label>36</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hwang</surname> <given-names>TZ</given-names></name>, <name name-style="western"><surname>Hsiao</surname> <given-names>JR</given-names></name>, <name name-style="western"><surname>Tsai</surname> <given-names>CR</given-names></name>, <name name-style="western"><surname>Tsai</surname> <given-names>CR</given-names></name>, <name name-style="western"><surname>Chamg</surname> <given-names>JS</given-names></name>. <article-title>Incidence trends of human papillomavirus-related head and neck cancer in Taiwan, 1995–2009</article-title>. <source>Int J Cancer</source> <year>2015</year>; <volume>137</volume>(<issue>2</issue>): <fpage>395</fpage>–<lpage>408</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ijc.29330" xlink:type="simple">10.1002/ijc.29330</ext-link></comment> <object-id pub-id-type="pmid">25395239</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref037"><label>37</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Patel</surname> <given-names>AS</given-names></name>, <name name-style="western"><surname>Karagas</surname> <given-names>MR</given-names></name>, <name name-style="western"><surname>Perry</surname> <given-names>AE</given-names></name>, <name name-style="western"><surname>Nelson</surname> <given-names>HH</given-names></name>. <article-title>Exposure Profiles and Human Papillomavirus Infection in Skin Cancer: An Analysis of 25 Genus β-Types in a Population-Based Study</article-title>. <source>Journal of Investigative Dermatology</source> <year>2008</year>; <volume>128</volume>(<issue>12</issue>): <fpage>2888</fpage>–<lpage>2893</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/jid.2008.162" xlink:type="simple">10.1038/jid.2008.162</ext-link></comment> <object-id pub-id-type="pmid">18548109</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref038"><label>38</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Forslund</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Iftner</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Andersson</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Lindelof</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Hradil</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Nordin</surname> <given-names>P</given-names></name>, <etal>et al</etal>. <article-title>Cutaneous human papillomaviruses found in sun-exposed skin: Beta-papillomavirus species 2 predominates in squamous cell carcinoma</article-title>. <source>J Infect Dis</source> <year>2007</year>; <volume>196</volume>(<issue>6</issue>):<fpage>876</fpage>–<lpage>883</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1086/521031" xlink:type="simple">10.1086/521031</ext-link></comment> <object-id pub-id-type="pmid">17703418</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref039"><label>39</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Odenbro</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Bellocco</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Boffetta</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Lindelof</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Adami</surname> <given-names>J</given-names></name>. <article-title>Tobacco smoking, snuff dipping and the risk of cutaneous squamous cell carcinoma: a nationwide cohort study in Sweden</article-title>. <source>Br J Cancer</source> <year>2005</year>; <volume>92</volume>(<issue>7</issue>): <fpage>1326</fpage>–<lpage>1328</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/sj.bjc.6602475" xlink:type="simple">10.1038/sj.bjc.6602475</ext-link></comment> <object-id pub-id-type="pmid">15770206</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref040"><label>40</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chiou</surname> <given-names>HL</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>MF</given-names></name>, <name name-style="western"><surname>Liaw</surname> <given-names>YC</given-names></name>, <name name-style="western"><surname>Cheng</surname> <given-names>YW</given-names></name>, <name name-style="western"><surname>Wong</surname> <given-names>RH</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>CY</given-names></name>. <article-title>The presence of human papillomavirus type 16/18 DNA in blood circulation may act as a risk marker of lung cancer in Taiwan</article-title>. <source>Cancer</source> <year>2003</year>; <volume>97</volume>(<issue>6</issue>): <fpage>1558</fpage>–<lpage>1563</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/cncr.11191" xlink:type="simple">10.1002/cncr.11191</ext-link></comment> <object-id pub-id-type="pmid">12627521</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref041"><label>41</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wusanne</surname> <given-names>Wait</given-names></name>, <name name-style="western"><surname>Ding- Shinn</surname> <given-names>Chen</given-names></name>. <article-title>Towards the eradication of hepatitis B in Taiwan</article-title>. <source>The Kaohsiung J Med Sci</source> <year>2012</year>; <volume>28</volume> (<issue>1</issue>): <fpage>1</fpage>–<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.kjms.2011.10.027" xlink:type="simple">10.1016/j.kjms.2011.10.027</ext-link></comment> <object-id pub-id-type="pmid">22226055</object-id></mixed-citation></ref>
+<ref id="pone.0183183.ref042"><label>42</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Anil</surname> <given-names>K</given-names></name>. <name name-style="western"><surname>Chaturvedi</surname></name>. <article-title>Beyond cervical cancer: burden of other HPV- related cancers among men and women</article-title>. <source>J Adolesc Health</source> <year>2010</year>; <volume>46</volume>(<issue>4</issue>): <fpage>20</fpage>–<lpage>26</lpage>.</mixed-citation></ref>
+<ref id="pone.0183183.ref043"><label>43</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lee</surname> <given-names>CC</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>TS</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>TZ</given-names></name>, <name name-style="western"><surname>Hung</surname> <given-names>LM</given-names></name>. <article-title>A human papillomavirus public vaccination program in Taiwan: the Kinmen County experience</article-title>. <source>J Formos Med Assoc</source> <year>2012</year>; <volume>111</volume>(<issue>12</issue>): <fpage>682</fpage>–<lpage>685</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jfma.2012.10.004" xlink:type="simple">10.1016/j.jfma.2012.10.004</ext-link></comment> <object-id pub-id-type="pmid">23265746</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

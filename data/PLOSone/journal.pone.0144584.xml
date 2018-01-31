@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0144584</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-15-10262</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Characterization of VAMP2 in <italic>Schistosoma japonicum</italic> and the Evaluation of Protective Efficacy Induced by Recombinant SjVAMP2 in Mice</article-title>
+<alt-title alt-title-type="running-head">Characterization and Protective Efficacy Evaluation of SjVAMP2</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Han</surname>
+<given-names>Qian</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Hong</surname>
+<given-names>Yang</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Fu</surname>
+<given-names>Zhiqiang</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Zhang</surname>
+<given-names>Min</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+<xref rid="aff002" ref-type="aff"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Cao</surname>
+<given-names>Xiaodan</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Liu</surname>
+<given-names>Yantao</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Ma</surname>
+<given-names>Shuai</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Guo</surname>
+<given-names>Yuntao</given-names>
+</name>
+<xref rid="aff003" ref-type="aff"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Lu</surname>
+<given-names>Ke</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Zhu</surname>
+<given-names>Chuangang</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Lin</surname>
+<given-names>Jiaojiao</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+<xref rid="aff004" ref-type="aff"><sup>4</sup></xref>
+<xref rid="cor001" ref-type="corresp">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>National Laboratory of Animal Schistosomiasis Control/Key Laboratory of Animal Parasitology, Ministry of Agriculture, Shanghai Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Shanghai, People’s Republic of China</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>College of Animal Science and Technology, Henan University of Science and Technology, Luoyang, People’s Republic of China</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Institute of Animal Sciences, Chinese Academy of Agricultural Sciences, Beijing, People’s Republic of China</addr-line></aff>
+<aff id="aff004"><label>4</label> <addr-line>Jiangsu Co-innovation Center for Prevention and Control of Important Animal Infectious Diseases and Zoonoses, Yangzhou, China</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Knight</surname>
+<given-names>Matty</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>George Washington University School of Medicine and Health Sciences, UNITED STATES</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="con" id="contrib001">
+<p>Conceived and designed the experiments: QH JL MZ ZF. Performed the experiments: QH YL SM. Analyzed the data: JL YH YG. Contributed reagents/materials/analysis tools: YH YG XC KL CZ. Wrote the paper: QH JL.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">jjlin@shvri.ac.cn</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>7</day>
+<month>12</month>
+<year>2015</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2015</year>
+</pub-date>
+<volume>10</volume>
+<issue>12</issue>
+<elocation-id>e0144584</elocation-id>
+<history>
+<date date-type="received">
+<day>21</day>
+<month>3</month>
+<year>2015</year>
+</date>
+<date date-type="accepted">
+<day>20</day>
+<month>11</month>
+<year>2015</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2015</copyright-year>
+<copyright-holder>Han et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0144584" xlink:type="simple"/>
+<abstract>
+<sec id="sec001">
+<title>Background</title>
+<p>The outer-tegument membrane covering the schistosome is believed to maintain via the fusion of membranous vesicles. Fusion of biological membranes is a fundamental process in all eukaryotic cells driven by formation of trans-SNARE (soluble N-ethylmaleimide-sensitive factor attachment protein receptor) complexes through pairing of vesicle associated v-SNAREs (VAMP) with complementary t-SNAREs on target membranes. The purpose of this study was to characterize <italic>Schistosoma japonicum</italic> vesicle-associated membrane protein 2 (SjVAMP2) and to investigate its potential as a candidate vaccine against schistosomiasis.</p>
+</sec>
+<sec id="sec002">
+<title>Methodology/Principal Findings</title>
+<p>The sequence of SjVAMP2 was analyzed, cloned, expressed and characterized. SjVAMP2 is a member of the synaptobrevin superfamily harboring the v-SNARE coiled-coil homology domain. RT–PCR analysis revealed that significantly higher SjVAMP2 levels were observed in 14-, 28- and 42-day-old worms, and SjVAMP2 expression was much higher in 42-day-old female worms than in those male worms. Additionally, the expression of SjVAMP2 was associated with membrane recovery in PZQ-treated worms. Immunostaining assay showed that SjVAMP2 was mainly distributed in the sub-tegument of the worms. Western blotting revealed that rSjVAMP2 showed strong immunogenicity. Purified rSjVAMP2 emulsified with ISA206 adjuvant induced 41.5% and 27.3% reductions in worm burden, and 36.8% and 23.3% reductions in hepatic eggs in two independent trials. Besides, significantly higher rSjVAMP2-specific IgG, IgG1, IgG2a levels were detected in rSjVAMP2-vaccinated mice.</p>
+</sec>
+<sec id="sec003">
+<title>Conclusion</title>
+<p>Our study indicated that SjVAMP2 is a potential vaccine candidate against <italic>S</italic>. <italic>japonicum</italic> and provided the basis for further investigations into the biological function of SjVAMP2.</p>
+</sec>
+</abstract>
+<funding-group>
+<funding-statement>This work was supported by National Natural Science Foundation of China (No. 31172315, 81271871) for J. Lin and National Natural Science Foundation of China (No. 31472188) for Z. Fu.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="6"/>
+<table-count count="1"/>
+<page-count count="18"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability" xlink:type="simple">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec004" sec-type="intro">
+<title>Introduction</title>
+<p>Schistosomiasis is an important parasitic disease epidemic in the tropics and subtropics that infects more than 200 million people in over 70 countries, causes an estimated 280,000 deaths annually, and endangers an additional 650 million people worldwide [<xref rid="pone.0144584.ref001" ref-type="bibr">1</xref>,<xref rid="pone.0144584.ref002" ref-type="bibr">2</xref>]. Moreover, schistosomiasis represents an increasing problem in non-endemic areas due to environmental change and the growing number of immigrants and tourists [<xref rid="pone.0144584.ref003" ref-type="bibr">3</xref>,<xref rid="pone.0144584.ref004" ref-type="bibr">4</xref>]. <italic>Schistosoma japonicum</italic> (<italic>S</italic>. <italic>japonicum</italic>) is the causative agent of schistosomiasis in China. Despite decades of intense efforts to control <italic>S</italic>. <italic>japonica</italic>, schistosomiasis is still a major public health problem in China, where it is endemic in seven provinces in which an estimated 286,836 cases were reported in 2011. And reinfection remains a major challenge to the control of the disease [<xref rid="pone.0144584.ref005" ref-type="bibr">5</xref>]. Therefore, the development of an effective molecule as a potential vaccine to protect both humans and domestic animals is an important goal.</p>
+<p>Schistosome is a genus of complex multicellular pathogen that have co-evolved with their mammalian hosts despite the development of a pronounced immune response [<xref rid="pone.0144584.ref006" ref-type="bibr">6</xref>]. The tegument exposed to the host immune systems directly is of crucial importance for the schistosome to survive for decades within the inhospitable environment [<xref rid="pone.0144584.ref007" ref-type="bibr">7</xref>,<xref rid="pone.0144584.ref008" ref-type="bibr">8</xref>]. In addition, the tegument is a dynamic organ involving in nutritional uptake, structural support, signal transduction and immune evasion [<xref rid="pone.0144584.ref009" ref-type="bibr">9</xref>,<xref rid="pone.0144584.ref010" ref-type="bibr">10</xref>]. And the dual membrane–membranocalyx complex covering the surface layer of the schistosome tegument is dynamically replaced by a burst outward of membranous vacuoles that are synthesised in the cytons, and then passed to the tegument [<xref rid="pone.0144584.ref009" ref-type="bibr">9</xref>,<xref rid="pone.0144584.ref011" ref-type="bibr">11</xref>]. Therefore, components of the tegument, surface membrane-associated and surface-exposed proteins are considered as perfect source for antigens in the development of vaccines and diagnosis tests [<xref rid="pone.0144584.ref012" ref-type="bibr">12</xref>,<xref rid="pone.0144584.ref013" ref-type="bibr">13</xref>]. A proteomics study of <italic>S</italic>. <italic>japonicum</italic> in our laboratory showed that vesicle-associated membrane protein 2 (VAMP2) is a tegument surface protein. Besides, VAMP2 is a key part of the soluble N-ethylmaleimide-sensitive factor attachment protein receptor (SNARE) that is required for membrane fusion.</p>
+<p>With few exceptions, the fusion of biological membranes, a fundamental process governing the transport of cargo molecules, such as the trafficked proteins, hormones, and neurotransmitters throughout the secretory and endocytic pathways, is driven by the formation of trans-SNARE complexes [<xref rid="pone.0144584.ref014" ref-type="bibr">14</xref>,<xref rid="pone.0144584.ref015" ref-type="bibr">15</xref>]. SNAREs are compartment-specific proteins that consist of VAMP2 bound to the synaptic vesicle (v-SNARE), syntaxin and SNAP25 on the target membrane (t-SNARE). By pairing v-SNAREs with cognate t-SNAREs, a bundle of four helices (SNAREpins), three derived from the t-SNARE and the fourth from the cognate v-SNARE, is assembled, bringing the two lipid bilayers into close proximity, finally culminating in membrane fusion [<xref rid="pone.0144584.ref016" ref-type="bibr">16</xref>,<xref rid="pone.0144584.ref017" ref-type="bibr">17</xref>]. SNAREpin assembly is a sequential, two-step folding pathway, and each step has specific and distinct functions. A previous study has shown that the N-terminal domain (NTD) of the v-SNARE docking to the t-SNARE is the rate-limiting step, which suggests that VAMP2 plays a crucial role in membrane fusion, mediating protein trafficking and the secretion of physiological mediators [<xref rid="pone.0144584.ref018" ref-type="bibr">18</xref>,<xref rid="pone.0144584.ref019" ref-type="bibr">19</xref>].</p>
+<p>The role of VAMP2 is of vital importance in other processes in addition to membrane fusion and vesicular transport. In a previous study, Yuki <italic>et al</italic>. have suggested that VAMP2 engages in the trafficking of recycling endosomes, and it also can be used as a molecular marker for both quiescent satellite cells and myotubes, but not for proliferating myoblasts [<xref rid="pone.0144584.ref020" ref-type="bibr">20</xref>]. Lin <italic>et al</italic>. have reported that thyroid hormone may promote glucose uptake via enhancing insulin-induced phosphorylation of Akt and subsequent translocations of VAMP2 and GLUT4 in 3T3-L1 adipocytes [<xref rid="pone.0144584.ref021" ref-type="bibr">21</xref>]. Additionally, by reducing VAMP2 expression in a murine model of epilepsy, mice showed significant reductions in potassium-evoked glutamate release, which led to a kindling-resistant phenotype [<xref rid="pone.0144584.ref022" ref-type="bibr">22</xref>]. Undoubtedly, VAMP2 is a key molecule in many processes, but how it mediates the development of <italic>S</italic>. <italic>japonicum</italic> is still unknown.</p>
+<p>In the present study, we described the cloning, expression, and characterization of SjVAMP2, including the distribution of the protein in <italic>S</italic>. <italic>japonicum</italic>, its transcript levels in worms of different developmental stages, as well as worms treated with the anti-schistosome drug praziquantel (PZQ). The protective efficacy induced by recombinant SjVAMP2 (rSjVAMP2) in mice was also evaluated.</p>
+</sec>
+<sec id="sec005" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="sec006">
+<title>Ethics Statement</title>
+<p>All animal experiments were approved by the Animal Care and Use Committee of Shanghai Veterinary Research Institute, Chinese Academy of Agricultural Sciences for the use of laboratory animals (Permit ID Number: SHVRI 2013–0909). All animals were housed in a 12 h light/dark cycle and virus/antigen-free facility with controlled temperature and humidity, and were provided with water and food ad libitum, and were monitored daily. For euthanasia, animals were deeply anesthetized with CO<sub>2</sub> followed by cervical dislocation. We made all efforts to minimize animal suffering and discomfort in accordance with the guidelines of the Regulations for the Administration of Affairs Concerning Experimental Animals, China.</p>
+</sec>
+<sec id="sec007">
+<title>Parasites and animals</title>
+<p>Specific pathogen free (SPF) male BALB/c mice aged 6 weeks were purchased from the Shanghai Laboratory Animal Center, CAAS (Shanghai, China). Seven-, 14-, 21-, 28-, 35-, and 42-day-old schistosomes were collected from New Zealand rabbits percutaneously infected with 1000 to 6000 cercariae of S. j<italic>aponicum</italic> that were maintained and released from Oncomelania hupensis snails infected with a Chinese mainland strain of <italic>S</italic>. <italic>japonicum</italic>, which was supplied by the Shanghai Veterinary Research Institute, CAAS.</p>
+</sec>
+<sec id="sec008">
+<title>Bioinformatic analysis</title>
+<p>Initially, the sequence of SjVAMP2 was retrieved on the UniProt website (<ext-link ext-link-type="uri" xlink:href="http://www.uniprot.org/uniprot/" xlink:type="simple">http://www.uniprot.org/uniprot/</ext-link>). This was followed by BLASTp analysis to confirm annotation features and to identify homologous sequences from different organisms in the NCBI database. These sequences were aligned using the multiple sequence alignment program ClustalW 2.0 (<ext-link ext-link-type="uri" xlink:href="http://www.ebi.ac.uk/Tools/clustalw2/index.html" xlink:type="simple">http://www.ebi.ac.uk/Tools/clustalw2/index.html</ext-link>), and conserved protein domains or motifs were predicted using MEME (v4.1) (<ext-link ext-link-type="uri" xlink:href="http://meme.nbcr.net/meme/tools/meme" xlink:type="simple">http://meme.nbcr.net/meme/tools/meme</ext-link>). The tertiary structure and transmembrane helix of SjVAMP2 were predicted using Phyre2 [<xref rid="pone.0144584.ref023" ref-type="bibr">23</xref>]. Additionally, phylogenetic analyses were performed using MEGA 5.1 software (<ext-link ext-link-type="uri" xlink:href="http://www.megasoftware.net/" xlink:type="simple">http://www.megasoftware.net/</ext-link>) by constructing a consensus tree of the VAMP2 sequences from various organisms to infer the evolutionary history of the taxa.</p>
+</sec>
+<sec id="sec009">
+<title>Gene cloning and plasmid preparation</title>
+<p>Based on the ORF of SjVAMP2 (GenBank accession: AAP05935.1), the sequence was amplified with primers 5'-GTG<underline>GAATTC</underline>ATGTCAGCCGACAC-3' (<italic>EcoRI</italic> restriction site underlined) as the sense primer and 5'-GTTCTCGAGTCACTGAGTAGCACTTCCA-3' (<italic>XhoI</italic> restriction site underlined) as the antisense primer. PCR amplification was conducted under the following conditions: 1 min hold at 94°C, 30 cycles of 94°C for 30 s, 56.5°C for 1 min, and 72°C for 1min, followed by a hold for 10 min at 72°C to ensure full extension. The PCR product was purified, and ligated to the pMD19-T vector (Takara) at 16°C overnight, and transformed into <italic>Escherichia coli</italic> DH5α cells (Tiangen). Clones were selected, screened, and subjected to DNA sequence analysis.</p>
+</sec>
+<sec id="sec010">
+<title>Real-time PCR analysis</title>
+<p>Total RNA of parasites at different developmental stages, including cercariae, 7-, 14-, 21-day-old schistosomula, 28-, 35-, 42-day-old adult worms, eggs, as well as 42-day-old males and females were transcribed using PrimeScript<sup>TM</sup> RT reagent Kit (TaKaRa). Considerable care was taken to ensure that all the total RNA samples used were of high quality (A260/A280 ≥1.7 in nuclease-free water) with minimal degradation, as recommended by Bustin and Nolan (2004). Samples were treated with RNase-free DNaseI before complementary DNA (cDNA) was synthesized from total RNA using the RNeasy Mini Kit (Qiagen). Then, cDNA samples adjusted to 5 ng were used as templates for real-time PCR. PCR amplification was performed with SYBR Premix Ex Taq<sup>TM</sup> kit (TaKaRa) in an ABI PRISM 7500 Fast Real-Time PCR System instrument. SjNADH was used as an endogenous control [<xref rid="pone.0144584.ref024" ref-type="bibr">24</xref>]. Negative controls without templates were conducted at the same time. Melting curves were used to optimize the cycling conditions and to verify the specificity of the PCRs. All RT–PCR experiments were performed in triplicate, and the confidence threshold (CT) value was analyzed with ABI PRISM 7500 software. The SjVAMP2 RT-PCR primer pairs were 5'-ACAACCTCGACCACAGAACAAG-3'(sense) and 5'-TTCCTGCACTAGCCTCGAATTG-3'(antisense), and the primers of SjNADH were 5'-CGAGGACCTAACAGCAGAGG-3' (sense) and 5’-TCCGAACGAACTTTGAATCC -3' (antisense).</p>
+<p>RT–PCR was also performed to detect SjVAMP2 expression changes while the worms were exposed to incomplete treatment or treatment doses of PZQ. Seventy-two mice divided randomly into PZQ-treated and untreated groups of six mice each were challenged with cercariae. Thirty-five days after challenge, mice in the treated groups were treated with an incomplete treatment dose of PZQ at 40 mg/kg, or a treatment dose of 200 mg/kg in carboxymethyl cellulose (CMCNa), while the control groups were treated with CMCNa only. After drug administration, both treated and untreated mice were sacrificed at 30 min, 4 h, 12 h, and 36 h, respectively. The effect of PZQ on SjVAMP2 transcription was analyzed by RT–PCR. All reactions were carried out in three biological replicates.</p>
+</sec>
+<sec id="sec011">
+<title>Expression and purification of rSjVAMP2 protein</title>
+<p>The purified recombinant plasmid, pMD19-T-SjVAMP2 was digested with <italic>EcoRI</italic> and <italic>XhoI</italic>, and then was ligated to the pET28a (+) vector (Invitrogen) overnight at 16°C using T4 DNA ligase (TaKaRa). The resulting plasmid, pET28a(+)/SjVAMP2, in which a His tag was fused to SjVAMP2, was transformed into <italic>Escherichia coli</italic> BL21(DE3) cells (Tiangen). Transformed bacterial cells were induced by isopropyl-1-thio-b-D-galactoside (IPTG) to a final concentration of 1 mM at 20°C for 6h, then pelleted by centrifugation at 12,000 <italic>g</italic> for 15 min, resuspended in phosphate-buffered saline (PBS, pH 7.4), and frozen at −80°C until used. Frozen cells were lysed by sonication and pelleted by centrifugation at 4°C, 12,000 <italic>g</italic> for 15 min. The insoluble pellet was resuspended in binding buffer containing 8 M urea, while the soluble supernatant was conserved. The crude extract was analyzed by SDS–PAGE.</p>
+<p>The supernatant containing rSjVAMP2-His was purified with an Ni-NTA His-Bind Resin (Qiagen GmbH, Hilden, Germany) and dialyzed against PBS (pH 7.4), containing decreasing concentrations of urea (6, 4, 3, 2, and 1 M) and then PBS only. rSjVAMP2-His was concentrated using Centricon microconcentrators (Amicon Millipore, Shanghai, China), and the protein concentration was determined by the Bradford method using bovine serum albumen (BSA) as a protein standard.</p>
+</sec>
+<sec id="sec012">
+<title>Preparation of mouse antibody specific to rSjVAMP2</title>
+<p>Six BALB/c mice were immunized subcutaneously with three doses of purified rSjVAMP2 at 2 week intervals (20 μg at each injection). Immune serum specific to rSjVAMP2 was harvested 1 week after the last injection and stored at −20°C for further use.</p>
+</sec>
+<sec id="sec013">
+<title>Western Blotting Analysis</title>
+<p>Native antigens, SWAP (soluble adult worms antigen preparation) and SEA (soluble egg antigen) made in our lab were subjected to 12% SDS–PAGE and then electroblotted onto a nitrocellulose membrane (Whatman, German). Non-specific protein binding was blocked by incubating the membrane in PBS containing 0.05% Tween 20 (PBST) and 5% skim milk at 4°C overnight. After washing with PBST, the membrane was incubated with mouse anti-rSjVAMP2 serum (1:100 dilution) for 1 h at 37°C with constant shaking. Following three 5-min washes with PBST, horseradish peroxidase (HRP)-conjugated goat anti-mouse IgG at a dilution of 1:2000 was used as a secondary antibody, and the signal was subsequently detected with the DAB Substrate Solution (Tiangen Biotech, Beijing, China). Serum from non-immunized mice was used as a negative control.</p>
+</sec>
+<sec id="sec014">
+<title>Immunolocalization of SjVAMP2</title>
+<p>Fresh collected adult worms (28 days) were fixed in 4% paraformaldehyde immediately, then dehydrated in an ascending ethanol series, cleared with xylene, embedded in paraffin wax, and finally cut into 5 μm sections for immunostaining assays. The sections were first deparaffinized, hydrated, and quenched with 3% H<sub>2</sub>O<sub>2</sub> at room temperature for 20 min to remove the endogenous peroxidase, then boiled in citric acid/sodium citrate buffer solution(0.01M, pH6.0) for 20 min to expose the antigens sufficiently and cooled down naturally. After the sections were incubated with 10% goat serum at 4°C overnight, the samples were probed with rSjVAMP2-immunized mouse serum diluted 1:8000 for 2 h at 37°C, along with the negative control group incubated with serum from non-immunized mice. After three 5-min washes in PBST after each incubation step, the second antibody and the third antibody in the SP (Streptavidin-Peroxidase) Kit (ZSGB-BIO, China, Beijing) and DAB (DAKO, Denmark) were used according to user manual recommendation. Sections were then washed in PBST, counterstained with hematoxylin, mounted in neutral balsam, and photographed using a Nikon E80i microscope.</p>
+</sec>
+<sec id="sec015">
+<title>Mouse vaccination experiment</title>
+<p>Six-week-old male BALB/c mice were allocated randomly into three groups of ten mice each. Montanide ISA206 was used as the vaccine adjuvant since it can induce short- and long-term protective immune responses. The vaccination group was immunized subcutaneously three times with 100 μl of rSjVAMP2 (20 μg/mouse) in ISA206 adjuvant at 2-week intervals (on weeks 0, 2 and 4), while the two control groups were injected with ISA206 adjuvant in PBS or PBS only, respectively. Two weeks after the third immunization, all mice were challenged percutaneously with 40 ± 2 cercariae. All mice were sacrificed 6 weeks post-challenge by portal perfusion. Worms in the perfusate sediment were collected and counted, and the intestinal mesenteric vessels of each mouse were examined for residual worms. Each hepatic lobe was homogenized in PBS and digested in 10% NaOH for 15 min at 56°C, and then the eggs in three 100 μl subsamples of the digestion fluid of each sample were counted. The mean count was taken as the number of eggs in each sample tested, and was converted to eggs per gram (EPG) in the liver. A repeat trial was performed under the same condition 5 months later. Vaccine-induced protection was measured by the percentage of worm or hepatic egg reduction in the vaccinated groups using the following formula:</p>
+<p>Worm/egg reduction rate (%) = (numbers of worms/eggs in the ISA206 adjuvant group − numbers of worms/eggs in the rSjVAMP2 group)/numbers of worms/eggs in the ISA206 adjuvant group × 100%.</p>
+</sec>
+<sec id="sec016">
+<title>Detection of specific antibody against rSjVAMP2</title>
+<p>Samples of blood were collected from each mouse by retro-orbital bleeding before vaccination, 1 week after each vaccination, and before sacrifice. ELISA assay was performed to detect specific IgG, IgG1, and IgG2a antibodies against rSjVAMP2. Protocol optimization and dilution of testing reagents was determined by checkerboard titration analysis. Each testing well of 96-well microtiter Costar plates (Corning Life Science, Tewksbury, MA, USA) was coated with 100 μl of rSjVAMP2 (10 μg/ml) diluted in carbonate bicarbonate buffer (pH 9.6) at 4°C overnight, and washed three times with PBST and blocked in PBST-5% skimmed milk at 37°C for 1 h. Then, the wells were washed three times and incubated with the tested sera samples (1:100 dilutions) for 2 h at 37°C. After two additional washes, goat anti-mouse IgG-conjugated HRP (Sigma–Aldrich) (1:3000 dilution) was added and incubated at 37°C for 1 h. Afterwards, washes were performed and tetramethyl benzidine dihydrochloride (TMB, Sigma–Aldrich) substrate was added and incubated at 37°C in the dark for 10 min. Finally, the reaction was stopped with 2 M sulfuric acid, and the absorbance was read at 450 nm on a microplate reader (BioTek, Winooski, VT, USA). All samples were run in triplicate, and negative controls with naive mice serum were performed at the same time to ensure that the environment was not contaminated. To detect IgG1 and IgG2a, goat anti-mouse IgG1- or IgG2a-conjugated HRP (Sigma–Aldrich) (1:2000 dilutions) were used as secondary antibodies as described for IgG detection.</p>
+</sec>
+<sec id="sec017">
+<title>Statistical analysis</title>
+<p>All data acquired in this study were generated from at least three replicates of independent experiments using identical protocols. One-way analysis of variance (ANOVA) or T-tests were performed using SPSS for Windows 13.0. The data were expressed as means ± SEM; P values &lt; 0.05 and P values &lt; 0.001 were considered significant and highly significant, respectively.</p>
+</sec>
+</sec>
+<sec id="sec018" sec-type="results">
+<title>Results</title>
+<sec id="sec019">
+<title>Bioinformatic analysis of SjVAMP2</title>
+<p>BLASTp and MEME analysis of VAMP2 of different organisms revealed that SjVAMP2 appeared to be a member of the synaptobrevin superfamily harboring the v-SNARE coiled-coil homology domain as shown in <xref rid="pone.0144584.g001" ref-type="fig">Fig 1</xref>. In the transmembrane domain, residues were hydrophobic. Several other key residues were also conserved. Notably, VAMP sequences from <italic>Schistosome</italic> (<italic>S</italic>. <italic>japonicum</italic>, <italic>S</italic>. <italic>mansoni</italic>, and <italic>S</italic>. <italic>haematobium</italic>) contained a conserved C-terminus, not exist in other homologous sequence (<xref rid="pone.0144584.g001" ref-type="fig">Fig 1</xref>). The conserved C-terminus domain of SjVAMP2 was in the cytoplasm, N-coiled coil homology domain was extracellular, and 87 to 109 amino acid residues was located at the transmembrane domain (<xref rid="pone.0144584.s001" ref-type="supplementary-material">S1 Fig</xref>). A conceptual tertiary structure of this polypeptide showed that N-coiled coil domain had 2 ɑ-helix, transmembrane domain had 1 TM helix (<xref rid="pone.0144584.s002" ref-type="supplementary-material">S2 Fig</xref>). A phylogenetic analysis showed that SjVAMP2 was grouped with homologs of schistosome such as <italic>Schistosoma mansoni</italic> and <italic>Schistosoma haematobium</italic>. The mammalian VAMP2 formed a major clade (<xref rid="pone.0144584.g002" ref-type="fig">Fig 2</xref>).</p>
+<fig id="pone.0144584.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0144584.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Multiple alignment of SjVAMP2 with the VAMP2 of other animals.</title>
+<p>The color of letters denotes physicochemical properties of amino acids: red—small and hydrophobic; green—hydroxyl, sulfhydryl, amine and G; magenta—basic; and blue—acidic. The conserved domain of amino acid residues is displayed with different consensus symbols: An asterisk (*) indicates positions that have a single, fully conserved residue; a colon (:) indicates conservation between groups of strongly similar properties–scoring &gt; 0.5 in the Gonnet PAM 250 matrix; a period (.) indicates conservation between groups of weekly similar properties–scoring ≤ 0.5 in the Gonnet PAM 250 matrix. N-coiled coil homology and transmembrane domains are showed in regions of bars with green or red colors respectively. Red boxed residues are C-terminus conserved domain in VAMP of schistosome. Aligned sequences are <italic>Homo sapiens</italic> (NP_ 055047.2), <italic>Mus musculus</italic> (NP_ 033523.1), <italic>Rattus norvegicus</italic> (NP_036795.1), <italic>Bos taurus</italic> (NP_776908.1), <italic>Macaca mulatta</italic> (EHH24500.1), <italic>Heterocephalus glaber</italic> (EHB04514.1), <italic>Xenopus laevis</italic> (NP_001080944.1), <italic>Danio rerio</italic> (NP_956299.1), <italic>Takifugu rubripes</italic> (NP_003976339.1), <italic>Lateolabrax japonicus</italic> (AAT67161.2), <italic>Scophthalmus maximus</italic> (CCD74823.1), <italic>Caenorhabditis elegans</italic> (NP_504688.1), <italic>Clonorchis sinensis</italic> (GAA52723.1), <italic>Hymenolepis microstoma</italic> (CDS31115.1), <italic>Schistosoma haematobium</italic> (KGB32859.1), <italic>Schistosoma mansoni</italic> (CCD74823.1), and <italic>Schistosoma japonicum</italic> (AAP05935.1).</p>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0144584.g001" position="float" xlink:type="simple"/>
+</fig>
+<fig id="pone.0144584.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0144584.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>A phylogenetic tree of SjVAMP2 with those of other animals.</title>
+<p>The neighbor-joining tree was constructed based on VAMP2 amino acid sequences that were retrieved from GenBank. The number at each node shows the bootstrap value (1000 replicates). (NP_055047.2, NP_033523.1, NP_036795.1, NP_776908.1, EHH24500.1, EHB04514.1, NP_001080944.1, NP_956299.1, NP_003976339.1, AAT67161.2, CCD74823.1, NP_504688.1, GAA52723.1, CDS31115.1, KGB32859.1, CCD74823.1, AAP05935.1) is GenBank accession number.</p>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0144584.g002" position="float" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec020">
+<title>mRNA expression level of SjVAMP2 in different developmental stages of <italic>S</italic>. <italic>japonicum</italic></title>
+<p>Different developmental stages, including cercariae, schistosomula, adult worms and eggs, as well as 42-day-old male<strike>s</strike> and female<strike>s</strike>, were analyzed by real-time PCR, and SjVAMP2 mRNA expression exhibited different in all developmental stages tested. Notably, significantly higher expression levels of SjVAMP2 were found in 14-, 28-, and 42-day-old worms compared to carecia (p&lt;0.001). Moreover, a substantially higher expression level was exhibited in 42-day-old female worms about 3-fold than in male worms (<xref rid="pone.0144584.g003" ref-type="fig">Fig 3</xref>).</p>
+<fig id="pone.0144584.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0144584.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Relative transcriptional level of SjVAMP2 mRNA in different developmental stages.</title>
+<p>SjVAMP2 mRNA expression in different stages of <italic>S</italic>. <italic>japonicum</italic>, including cercariae, schistosomula, adult worms, eggs, as well as male and female adult worms, was analyzed by RT-PCR. Data were normalized against amplification of an internal housekeeping control gene, NADH, for three independent experiments.</p>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0144584.g003" position="float" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec021">
+<title>Effect of PZQ on SjVAMP2 Transcription</title>
+<p>After treated with 200 mg/kg PZQ for 36h, more than 60% worms died, and the remained worms curled, spastic paralyzed, twisted with stiffness, and the paired male and female worms separated. And the tegumental surface of some worms became ballooned and swollen. When treated with 40 mg/kg PZQ, the worms curled and twisted weakly at 4h after treatment, but most worms recovered with normal activities at 12h or 36h. SjVAMP2 transcript levels differed with different doses of PZQ treatment. Compared with the control, SjVAMP2 expression was significantly higher than the control at 12 and 36 h post-PZQ treatment with an incomplete treatment dose of 40 mg/kg of PZQ (p&lt;0.001). However, this was not so for a treatment dose of 200 mg/kg of PZQ, in which case SjVAMP2 transcription increased to around twice that of the untreated control after 30 min or 12 h of treatment, and significantly decreased at 36 h (p&lt;0.001) (<xref rid="pone.0144584.g004" ref-type="fig">Fig 4</xref>).</p>
+<fig id="pone.0144584.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0144584.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Effect of PZQ on SjVAMP2 transcription.</title>
+<p>(A) Mice were treated with a single dose of 40 mg/kg of PZQ (incomplete treatment dose) and sacrificed at various times post-treatment. (B) Mice were treated with single dose of 200 mg/kg of PZQ (treatment dose) and sacrificed at various times post-treatment. Statistically significant differences compared with the control group are denoted by *** (P&lt;0.001).</p>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0144584.g004" position="float" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec022">
+<title>Cloning and expression of SjVAMP2</title>
+<p>An expected 483-bp cDNA sequence encoding the SjVAMP2 ORF was obtained by PCR using specific oligonucleotides (<xref rid="pone.0144584.s003" ref-type="supplementary-material">S3 Fig</xref>). After the PCR product was ligated into pET28a(+) vector and transformed into <italic>E</italic>. <italic>coli</italic> BL21(DE3) cells, the expression of pET28a(+)/SjVAMP2 was induced by IPTG, then purified by Ni-affinity chromatography. SDS-PAGE analysis revealed that rSjVAMP2 existed mainly as inclusion bodies with a band corresponding to 25 kDa, which was consistent with the predicted molecular mass of the His-tagged SjVAMP2 protein (<xref rid="pone.0144584.s004" ref-type="supplementary-material">S4 Fig</xref>).</p>
+</sec>
+<sec id="sec023">
+<title>Immunogenicity Analysis of rSjVAMP2</title>
+<p>Western blotting showed that the polyclonal anti-rSjVAMP2 serum specifically recognized SWAP and SEA, while no positive band was detected in the healthy mouse serum group (<xref rid="pone.0144584.s005" ref-type="supplementary-material">S5 Fig</xref>).</p>
+</sec>
+<sec id="sec024">
+<title>Distribution of SjVAMP2 in <italic>S</italic>. <italic>japonicum</italic></title>
+<p>Immunostaining method was performed to identify the distribution of the SjVAMP2 protein in the 28d parasites with anti-rSjVAMP2 or naive mouse serum. The results showed that SjVAMP2 was mainly distributed in the sub-tegument and the internal tissues of the parasite (<xref rid="pone.0144584.g005" ref-type="fig">Fig 5A and 5B</xref>), while no specific staining was observed in sections incubated with serum from healthy mice (<xref rid="pone.0144584.g005" ref-type="fig">Fig 5C and 5D</xref>).</p>
+<fig id="pone.0144584.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0144584.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>Immunolocalization of SjVAMP2 in <italic>S</italic>. <italic>japonicum</italic>.</title>
+<p>A, B, section of 28-day-old worm probed with anti-rSjVAMP2 mouse serum; C, D, section of 28-day-old worm probed with native mouse serum (negative control). The brown color indicates binding of the anti-rSjVAMP2 mouse serum, and the arrows show the location of the SjVAMP2 protein. The slides were analyzed by brightfield microscopy (A, C, magnification, ×100; B, D, magnification, ×400).</p>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0144584.g005" position="float" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec025">
+<title>Mouse vaccination experiment</title>
+<p>All data in different tested groups passed the normality test. The number of adult worms recovered and hepatic eggs per gram in rSjVAMP2 vaccination group was significantly lower than that in the ISA 206 adjuvant control group at week 6 post-challenge as shown in <xref rid="pone.0144584.t001" ref-type="table">Table 1</xref>. rSjVAMP2 vaccination lead to a 41.5% reduction (P&lt;0.001) in number of worms and 36.8% hepatic egg burden reduction (P&lt;0.05) compared to the ISA 206 adjuvant group. In a repeat vaccination trial, a 27.3% worm reduction (P&lt;0.01) and 23.3% hepatic egg burden reduction (P&lt;0.05) were obtained in the rSjVAMP2 vaccination group. At the same time, there were no significant differences between the ISA206 adjuvant group and the PBS group.</p>
+<table-wrap id="pone.0144584.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0144584.t001</object-id>
+<label>Table 1</label> <caption><title>Comparison of the number of adult worms and EPG between the rSjVAMP2-immunized group and the control groups.</title></caption>
+<alternatives>
+<graphic id="pone.0144584.t001g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0144584.t001" xlink:type="simple"/>
+<table>
+<colgroup span="1">
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+</colgroup>
+<thead>
+<tr>
+<th align="justify" rowspan="1" colspan="1"/>
+<th align="justify" rowspan="1" colspan="1">Group</th>
+<th align="justify" rowspan="1" colspan="1">Average number of worms (X±SD)</th>
+<th align="justify" rowspan="1" colspan="1">Average number of EPG (X±SD)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="justify" rowspan="1" colspan="1">Trial 1</td>
+<td align="justify" rowspan="1" colspan="1">rSjVAMP2</td>
+<td align="justify" rowspan="1" colspan="1">11.25±1.38<xref rid="t001fn004" ref-type="table-fn">***</xref> (41.5%)</td>
+<td align="justify" rowspan="1" colspan="1">20268±9267<xref rid="t001fn002" ref-type="table-fn">*</xref> (36.8%)</td>
+</tr>
+<tr>
+<td align="justify" rowspan="1" colspan="1"/>
+<td align="justify" rowspan="1" colspan="1">ISA 206</td>
+<td align="justify" rowspan="1" colspan="1">19.25±1.67</td>
+<td align="justify" rowspan="1" colspan="1">32062±6694</td>
+</tr>
+<tr>
+<td align="justify" rowspan="1" colspan="1"/>
+<td align="justify" rowspan="1" colspan="1">PBS</td>
+<td align="justify" rowspan="1" colspan="1">20.56±2.60</td>
+<td align="justify" rowspan="1" colspan="1">32387±144744</td>
+</tr>
+<tr>
+<td align="justify" rowspan="1" colspan="1">Trial 2</td>
+<td align="justify" rowspan="1" colspan="1">rSjVAMP2</td>
+<td align="justify" rowspan="1" colspan="1">19.75±4.53<xref rid="t001fn003" ref-type="table-fn">**</xref> (27.3%)</td>
+<td align="justify" rowspan="1" colspan="1">26351±6126<xref rid="t001fn002" ref-type="table-fn">*</xref> (23.3%)</td>
+</tr>
+<tr>
+<td align="justify" rowspan="1" colspan="1"/>
+<td align="justify" rowspan="1" colspan="1">ISA 206</td>
+<td align="justify" rowspan="1" colspan="1">27.00±2.67</td>
+<td align="justify" rowspan="1" colspan="1">34348±6126</td>
+</tr>
+<tr>
+<td align="justify" rowspan="1" colspan="1"/>
+<td align="justify" rowspan="1" colspan="1">PBS</td>
+<td align="justify" rowspan="1" colspan="1">25.10±2.81</td>
+<td align="justify" rowspan="1" colspan="1">40131±6894</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>Data are expressed as means ± SD and statistically significant differences compared with the ISA 206 adjuvant groups are shown by</p></fn>
+<fn id="t001fn002"><p>* (P&lt;0.05)</p></fn>
+<fn id="t001fn003"><p>** (P&lt;0.01) or</p></fn>
+<fn id="t001fn004"><p>*** (P&lt;0.001).</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec026">
+<title>Detection of rSjVAMP2-specific IgG antibodies</title>
+<p>The level of IgG antibody specific to rSjVAMP2 in the sera was determined by ELISA. Compared with the ISA206 adjuvant or PBS control groups, the specific IgG in the rSjVAMP2 immunization group increased dramatically after the second immunization, and it remained elevated after the third vaccination, and was maintained at a high level until the mice were sacrificed. The trends of specific IgG1 and IgG2 subtype antibodies were similar to that of the total IgG antibody (<xref rid="pone.0144584.g006" ref-type="fig">Fig 6</xref>). It remained elevated after the second vaccination.</p>
+<fig id="pone.0144584.g006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0144584.g006</object-id>
+<label>Fig 6</label>
+<caption>
+<title>rSjVAMP2-specific IgG, IgG1 and IgG2a responses in different groups.</title>
+<p>Mice were immunized with rSjVAMP2, ISA206 adjuvant, or PBS on weeks 0, 2, and 4, and they were challenged with cercariae on week 6. Serum samples were obtained from ten individual mice from each group on weeks 0, 1, 3, 5, and 12 before sacrifice, and assayed by ELISA. Values depicted are means ± SEM. *** (P&lt;0.001) for the rSjVAMP2-vaccinated group compared with the control groups.</p>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0144584.g006" position="float" xlink:type="simple"/>
+</fig>
+</sec>
+</sec>
+<sec id="sec027" sec-type="conclusions">
+<title>Discussion</title>
+<p>Membrane fusion is a key step in the process of subcellular compartmentalization, cell growth, hormone secretion and neurotransmission, which is driven by protein machineries, such as SNARE [<xref rid="pone.0144584.ref014" ref-type="bibr">14</xref>,<xref rid="pone.0144584.ref025" ref-type="bibr">25</xref>,<xref rid="pone.0144584.ref026" ref-type="bibr">26</xref>]. SNAREs have been best characterized in nerve cells, where they mediate the docking and fusion of synaptic vesicles at the nerve terminal plasma membrane [<xref rid="pone.0144584.ref027" ref-type="bibr">27</xref>,<xref rid="pone.0144584.ref028" ref-type="bibr">28</xref>]. Additionally, VAMP2 was reported to contain an excess number of positively charged residues, which may interact with acidic lipids and modulate the fusion of transport vesicles with the plasma membrane [<xref rid="pone.0144584.ref029" ref-type="bibr">29</xref>,<xref rid="pone.0144584.ref030" ref-type="bibr">30</xref>]. Mariela <italic>et al</italic>. revealed that VAMP2 can mediate cAMP-stimulated renin release in mouse juxtaglomerular cells [<xref rid="pone.0144584.ref031" ref-type="bibr">31</xref>]. Even though the essential role of VAMP2 has been best recognized in many aspects, its impact on the development of <italic>S</italic>. <italic>japonicum</italic> is unknown.</p>
+<p>SjVAMP2 appears to be a member of synaptobrevin superfamily in <italic>S</italic>. <italic>japonicum</italic>, and it might be involved in the targeting and/or fusion of transport vesicles to their target membrane via v-SNARE N-coiled-coil homology domain, as is VAMP2 in other species [<xref rid="pone.0144584.ref032" ref-type="bibr">32</xref>]. Additionally, SjVAMP2 has a conserved C-terminus domain that is not present in mammals, which implies that it may play a special role in worm development. Its biologic function needs to be explored further.</p>
+<p>The tegument of schistosomes is a continuous unit, or syncytium of fused cells around the entire worm with a single continuous double-bilayer membrane. The underlying tegumental cytoplasmic layer or syncytial-matrix contains numerous discoid bodies and multilaminate vesicles, which appear to be derived from sub-tegument cells and transported to the tegument by cytoplasmic channels [<xref rid="pone.0144584.ref007" ref-type="bibr">7</xref>,<xref rid="pone.0144584.ref009" ref-type="bibr">9</xref>]. It is suggested that these discoid bodies and multilaminate vesicles have a function in formation and replacement of the outer-surface membrane by fusing to the tegument [<xref rid="pone.0144584.ref033" ref-type="bibr">33</xref>]. In accordance with the recent proteomics studies in our laboratory, immunostaining assay showed that SjVAMP2 was primarily located in the sub-tegument.</p>
+<p>Besides, the RT–PCR result showed that SjVAMP2 was expressed at higher level in 14-, 28- and 42-day-old worms, and its expression was significantly higher in 42-day-old female worms than in male worms. The high level may be due to the fact that female worms begin or lay egg in a large amount during this developmental stage. <italic>S</italic>. <italic>japonicum</italic> egg production commences at 25 days after infection, peaks at the 42 day [<xref rid="pone.0144584.ref002" ref-type="bibr">2</xref>,<xref rid="pone.0144584.ref004" ref-type="bibr">4</xref>,<xref rid="pone.0144584.ref034" ref-type="bibr">34</xref>]. And more molecules like glucose required to be transported via vesicle trafficking to support egg production [<xref rid="pone.0144584.ref035" ref-type="bibr">35</xref>]. The transport protein SGTP4 is proved located at tegumental multilamellar bodies, discoid bodies, and the surface lipid bilayers [<xref rid="pone.0144584.ref036" ref-type="bibr">36</xref>]. And sperm-egg fusion is an intricate process, during which exocytosis of acrosome—the sperm’s single vesicle depends on activation of neurotoxin-sensitive SNAREs, and BoNT/B is capable of inhibiting the process by cutting VAMP [<xref rid="pone.0144584.ref037" ref-type="bibr">37</xref>–<xref rid="pone.0144584.ref039" ref-type="bibr">39</xref>]. Besides, there is a rapid increase in size of the worms and the surface does become increasingly folded and pitted with the worms grow and mature. Thus the large increase in surface area of the worm must require further formation of new outer membrane. Studies have shown that the tegument of adult worms contains significant numbers of membranous vesicles or multilamellar bodies [<xref rid="pone.0144584.ref040" ref-type="bibr">40</xref>–<xref rid="pone.0144584.ref042" ref-type="bibr">42</xref>]. And it is reported that the fusion of myoblasts during muscle cell development requires SNARE- and VAMP2-mediated, insulin-dependent incorporation of GLUT4 into the plasma membrane of L6 myoblasts [<xref rid="pone.0144584.ref043" ref-type="bibr">43</xref>]. This suggests that SjVAMP2 may be involved in membrane fusion and appears to be important for membrane formation/replacement or egg production of schistosomes. Further RNAi experiments may help us to elucidate the role of SjVAMP2 in the membrane formation process.</p>
+<p>Our previous observation revealed that when schistosomes were treated with a complete dose (200 mg/kg) of PZQ, the tegument and sub-tegument of the worms were severely damaged, which finally resulted in the deaths of the treated worms. However, when the worms were treated with an incomplete dose (40 mg/kg) of PZQ, the damaged tegument recovered gradually post-treatment [<xref rid="pone.0144584.ref044" ref-type="bibr">44</xref>]. In this study, we noticed the similar result. And SjVAMP2 was up-regulated significantly at 12 h and 36 h post incomplete dose (40 mg/kg) PZQ treatment. However, when treated with a complete dose of 200 mg/kg of PZQ, which is deadly, the expression of SjVAMP2 increased significantly at 30 min and 12 h post-treatment, but declined thereafter. The different responses to high or low PZQ treatment mean that PZQ has an effect on SjVAMP2 expression. PZQ is the only choice for schistosomiasis treatment. Despite of numerous in-depth research, the mechanism of action of PZQ remains poorly defined. However, the disruption of ion transport [<xref rid="pone.0144584.ref045" ref-type="bibr">45</xref>], the alteration of schistosomal membrane fluidity, and the inhibition of nucleoside uptake were well considered being related to the mechanisms of PZQ action on schistosomes [<xref rid="pone.0144584.ref046" ref-type="bibr">46</xref>,<xref rid="pone.0144584.ref047" ref-type="bibr">47</xref>]. Besides, study have shown that when adult worms recovered from mice are maintained in vitro in monkey anti-mouse serum, an increased number of membraneous bodies can be detected. The worm probably responds by casting off the damaged membrane caused by antibodies and replacing it with new membrane from the membraneous bodies [<xref rid="pone.0144584.ref041" ref-type="bibr">41</xref>]. It is suggested that the membraneous bodies appear to be involved in the repair of damaged outer membrane. And Dumaine et al. have proved that electrostatic interactions between VAMP2 and acidic phospholipids may modulate the fusion of transport vesicles with the plasma membrane [<xref rid="pone.0144584.ref029" ref-type="bibr">29</xref>]. Therefore, we can speculate that SjVAMP2 may serve to maintain the function of the plasma membrane of <italic>S</italic>. <italic>japonicum</italic>, and it may be involved in the recovery of the tegument and other structure post PZQ treatment, although this needs to be confirmed. Ongoing studies, like electron microscopy observation of PZQ damage on tegument will help us understand the role of SjVAMP2 in tegument recovery, and the mechanism of PZQ as well.</p>
+<p>Although comprehensive measures including community chemotherapy, snail control, and education and sanitation improving are important for reducing schistosomiasis prevalence and morbidity in endemic areas, reinfection and the low, but persistent levels of schistosomiasis transmission highlights the importance of exploring new potential vaccine molecules for the control of this disease [<xref rid="pone.0144584.ref048" ref-type="bibr">48</xref>,<xref rid="pone.0144584.ref049" ref-type="bibr">49</xref>]. Proteins on the surface of the tegument of schistosomes are always considered to be essentially important molecules, as they are directly exposed to the host immune system. A comprehensive analysis of host immune responses to schistosome infection at a proteome-wide level is an essential step toward the identification of novel antigen targets for vaccines [<xref rid="pone.0144584.ref011" ref-type="bibr">11</xref>,<xref rid="pone.0144584.ref012" ref-type="bibr">12</xref>]. In a recent proteomic study of <italic>S</italic>. <italic>japonicum</italic> in our laboratory, we identified SjVAMP2 and 84 other proteins from the tegument of 42-day-old adult worms, which provided the possibility of identifying new, effective molecules for vaccine candidates. Western blotting showed that rSjVAMP2 had good immunogenicity. In our two independent immunization tests in this study, rSjVAMP2 vaccination elicited significant worm burden reductions of 41.5% and 27.3%, and hepatic egg numbers reductions of 36.8% and 23.3% compared with ISA206 adjuvant groups. The results showed that rSjVAMP2 vaccination could induce partial, but significant, protection against schistosome infection in mice, which is consistent with previously published studies of the tegument proteins Sm29 or SmTSP [<xref rid="pone.0144584.ref050" ref-type="bibr">50</xref>,<xref rid="pone.0144584.ref051" ref-type="bibr">51</xref>].</p>
+<p>Because schistosomes have a complicated life cycle with multiple stages of development during migration in different tissues of its host, a single protein vaccine may not be sufficient to protect the host against parasite invasion. Additionally, the well-known immune evasion and rapid regenerating tegument of worms make it more difficult to develop an effective vaccine. Consequently, a breakthrough must be made to exploit new, effective vaccines, such as polyvalent vaccines [<xref rid="pone.0144584.ref052" ref-type="bibr">52</xref>–<xref rid="pone.0144584.ref054" ref-type="bibr">54</xref>]. And rSjVAMP2 may be an effective constituent of a polyvalent vaccine.</p>
+<p>Throughout the vaccination-challenge trial period, the rSjVAMP2 immunization group developed stronger and more prolonged humoral immune responses in comparison with the control groups. As the data showed, rSjVAMP2 vaccinations elicited stronger specific IgG responses including IgG1 and IgG2a after the second immunization, and the high IgG level lasted. This specific IgG response might contribute to the anti-infection protection induced by rSjVAMP2. The results suggest that rSjVAMP2 appears to be a good vaccine candidate.</p>
+</sec>
+<sec id="sec028" sec-type="conclusions">
+<title>Conclusion</title>
+<p>In the study, we first cloned, expressed, and characterized the SjVAMP2 gene of <italic>S</italic>. <italic>japonicum</italic>. Vaccination with rSjVAMP2 could induce partial, but significant protection in mice. This study will serve as a fundamental basis for further insights into the biological function of SjVAMP2 in <italic>S</italic>. <italic>japonicum</italic>.</p>
+</sec>
+<sec id="sec029">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0144584.s001" xlink:href="info:doi/10.1371/journal.pone.0144584.s001" mimetype="image/tiff" position="float" xlink:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title>Transmembrane helix prediction of SjVAMP2.</title>
+<p>Transmembrane helix was predicted by online program of Phyre2 in the sequence of SjVAMP2 to adopt the topology. The transmembrane domain includes 87 to 109 amino acid residue.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0144584.s002" xlink:href="info:doi/10.1371/journal.pone.0144584.s002" mimetype="image/tiff" position="float" xlink:type="simple">
+<label>S2 Fig</label>
+<caption>
+<title>Putative three dimensional structure of SjVAMP2.</title>
+<p>The tertiary structure of SjVAMP2 was predicted by online program of Phyre2. N-coiled coil domain is the N-terminal v-SNARE coiled-coil homology domain. The secondary structure of SjVAMP2 was predicted to have ɑ-helix.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0144584.s003" xlink:href="info:doi/10.1371/journal.pone.0144584.s003" mimetype="image/tiff" position="float" xlink:type="simple">
+<label>S3 Fig</label>
+<caption>
+<title>Agarose gel electrophoresis of PCR products for SjVAMP2.</title>
+<p>M, 2000-bp DNA ladder; Lanes 1, 2, and 3, PCR products of SjVAMP2.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0144584.s004" xlink:href="info:doi/10.1371/journal.pone.0144584.s004" mimetype="image/tiff" position="float" xlink:type="simple">
+<label>S4 Fig</label>
+<caption>
+<title>SDS–PAGE analysis of purified rSjVAMP2.</title>
+<p>M, protein molecular marker. lane 1, purified rSjVAMP2 protein.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0144584.s005" xlink:href="info:doi/10.1371/journal.pone.0144584.s005" mimetype="image/tiff" position="float" xlink:type="simple">
+<label>S5 Fig</label>
+<caption>
+<title>Western blotting analysis.</title>
+<p>Lane M: molecular mass marker; lane 1: souble 42d-worm antigen probed with serum from mice immunized with rSjVAMP2.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>We would like to thank Zhixin Zhao and Beiming Zhang of Shanghai Veterinary Research Institute of Chinese Academy Agricultural of Sciences for providing laboratory facilities. And we wish to thank Kan Lu and Qianqian Ma for experimental help.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0144584.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Engels</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Chitsulo</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Montresor</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Savioli</surname> <given-names>L</given-names></name> (<year>2002</year>) <article-title>The global epidemiological situation of schistosomiasis and new approaches to control and research</article-title>. <source>Acta Trop</source> <volume>82</volume>: <fpage>139</fpage>–<lpage>146</lpage>. <object-id pub-id-type="pmid">12020886</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gryseels</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Polman</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Clerinx</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kestens</surname> <given-names>L</given-names></name> (<year>2006</year>) <article-title>Human schistosomiasis</article-title>. <source>The Lancet</source> <volume>368</volume>: <fpage>1106</fpage>–<lpage>1118</lpage>.</mixed-citation></ref>
+<ref id="pone.0144584.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Patz</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Graczyk</surname> <given-names>TK</given-names></name>, <name name-style="western"><surname>Geller</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Vittor</surname> <given-names>AY</given-names></name> (<year>2000</year>) <article-title>Effects of environmental change on emerging parasitic diseases</article-title>. <source>Int J Parasitol</source> <volume>30</volume>: <fpage>1395</fpage>–<lpage>1405</lpage>. <object-id pub-id-type="pmid">11113264</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ross</surname> <given-names>AG</given-names></name>, <name name-style="western"><surname>Bartley</surname> <given-names>PB</given-names></name>, <name name-style="western"><surname>Sleigh</surname> <given-names>AC</given-names></name>, <name name-style="western"><surname>Olds</surname> <given-names>GR</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>Y</given-names></name>, <etal>et al</etal>. (<year>2002</year>) <article-title>Schistosomiasis</article-title>. <source>N Engl J Med</source> <volume>346</volume>: <fpage>1212</fpage>–<lpage>1220</lpage>. <object-id pub-id-type="pmid">11961151</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Siddiqui</surname> <given-names>AA</given-names></name>, <name name-style="western"><surname>Ahmad</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Damian</surname> <given-names>RT</given-names></name>, <name name-style="western"><surname>Kennedy</surname> <given-names>RC</given-names></name> (<year>2008</year>) <article-title>Experimental vaccines in animal models for schistosomiasis</article-title>. <source>Parasitol Res</source> <volume>102</volume>: <fpage>825</fpage>–<lpage>833</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s00436-008-0887-6" xlink:type="simple">10.1007/s00436-008-0887-6</ext-link></comment> <object-id pub-id-type="pmid">18259777</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pearce</surname> <given-names>EJ</given-names></name>, <name name-style="western"><surname>MacDonald</surname> <given-names>AS</given-names></name> (<year>2002</year>) <article-title>The immunobiology of schistosomiasis</article-title>. <source>Nat Rev Immunol</source> <volume>2</volume>: <fpage>499</fpage>–<lpage>511</lpage>. <object-id pub-id-type="pmid">12094224</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gobert</surname> <given-names>GN</given-names></name>, <name name-style="western"><surname>Stenzel</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>McManus</surname> <given-names>DP</given-names></name>, <name name-style="western"><surname>Jones</surname> <given-names>MK</given-names></name> (<year>2003</year>) <article-title>The ultrastructural architecture of the adult Schistosoma japonicum tegument</article-title>. <source>International Journal for Parasitology</source> <volume>33</volume>: <fpage>1561</fpage>–<lpage>1575</lpage>. <object-id pub-id-type="pmid">14636672</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mulvenna</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Moertel</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Jones</surname> <given-names>MK</given-names></name>, <name name-style="western"><surname>Nawaratna</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Lovas</surname> <given-names>EM</given-names></name>, <etal>et al</etal>. (<year>2010</year>) <article-title>Exposed proteins of the Schistosoma japonicum tegument</article-title>. <source>Int J Parasitol</source> <volume>40</volume>: <fpage>543</fpage>–<lpage>554</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.ijpara.2009.10.002" xlink:type="simple">10.1016/j.ijpara.2009.10.002</ext-link></comment> <object-id pub-id-type="pmid">19853607</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Skelly</surname> <given-names>PJ</given-names></name>, <name name-style="western"><surname>Alan</surname> <given-names>Wilson R</given-names></name> (<year>2006</year>) <article-title>Making Sense of the Schistosome Surface</article-title>. <source>Advances in Parasitology</source> <volume>63</volume>: <fpage>185</fpage>–<lpage>284</lpage>. <object-id pub-id-type="pmid">17134654</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Van Hellemond</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>Retra</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Brouwers</surname> <given-names>JF</given-names></name>, <name name-style="western"><surname>van Balkom</surname> <given-names>BW</given-names></name>, <name name-style="western"><surname>Yazdanbakhsh</surname> <given-names>M</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>Functions of the tegument of schistosomes: clues from the proteome and lipidome</article-title>. <source>Int J Parasitol</source> <volume>36</volume>: <fpage>691</fpage>–<lpage>699</lpage>. <object-id pub-id-type="pmid">16545817</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Castro-Borges</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Dowle</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Curwen</surname> <given-names>RS</given-names></name>, <name name-style="western"><surname>Thomas-Oates</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Wilson</surname> <given-names>RA</given-names></name> (<year>2011</year>) <article-title>Enzymatic shaving of the tegument surface of live schistosomes for proteomic analysis: a rational approach to select vaccine candidates</article-title>. <source>PLoS Negl Trop Dis</source> <volume>5</volume>: <fpage>e993</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000993" xlink:type="simple">10.1371/journal.pntd.0000993</ext-link></comment> <object-id pub-id-type="pmid">21468311</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fonseca</surname> <given-names>CT</given-names></name>, <name name-style="western"><surname>Braz</surname> <given-names>Figueiredo Carvalho G</given-names></name>, <name name-style="western"><surname>Carvalho</surname> <given-names>Alves C</given-names></name>, <name name-style="western"><surname>de Melo</surname> <given-names>TT</given-names></name> (<year>2012</year>) <article-title>Schistosoma tegument proteins in vaccine and diagnosis development: an update</article-title>. <source>J Parasitol Res</source> <volume>2012</volume>: <fpage>541268</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1155/2012/541268" xlink:type="simple">10.1155/2012/541268</ext-link></comment> <object-id pub-id-type="pmid">23125917</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rofatto</surname> <given-names>HK</given-names></name>, <name name-style="western"><surname>Araujo-Montoya</surname> <given-names>BO</given-names></name>, <name name-style="western"><surname>Miyasato</surname> <given-names>PA</given-names></name>, <name name-style="western"><surname>Levano-Garcia</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Rodriguez</surname> <given-names>D</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Immunization with tegument nucleotidases associated with a subcurative praziquantel treatment reduces worm burden following Schistosoma mansoni challenge</article-title>. <source>PeerJ</source> <volume>1</volume>: <fpage>e58</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.7717/peerj.58" xlink:type="simple">10.7717/peerj.58</ext-link></comment> <object-id pub-id-type="pmid">23638396</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chernomordik</surname> <given-names>LV</given-names></name>, <name name-style="western"><surname>Kozlov</surname> <given-names>MM</given-names></name> (<year>2008</year>) <article-title>Mechanics of membrane fusion</article-title>. <source>Nat Struct Mol Biol</source> <volume>15</volume>: <fpage>675</fpage>–<lpage>683</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nsmb.1455" xlink:type="simple">10.1038/nsmb.1455</ext-link></comment> <object-id pub-id-type="pmid">18596814</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fix</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Melia</surname> <given-names>TJ</given-names></name>, <name name-style="western"><surname>Jaiswal</surname> <given-names>JK</given-names></name>, <name name-style="western"><surname>Rappoport</surname> <given-names>JZ</given-names></name>, <name name-style="western"><surname>You</surname> <given-names>D</given-names></name>, <etal>et al</etal>. (<year>2004</year>) <article-title>Imaging single membrane fusion events mediated by SNARE proteins</article-title>. <source>Proc Natl Acad Sci U S A</source> <volume>101</volume>: <fpage>7311</fpage>–<lpage>7316</lpage>. <object-id pub-id-type="pmid">15123811</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Burri</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Varlamov</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Doege</surname> <given-names>CA</given-names></name>, <name name-style="western"><surname>Hofmann</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Beilharz</surname> <given-names>T</given-names></name>, <etal>et al</etal>. (<year>2003</year>) <article-title>A SNARE required for retrograde transport to the endoplasmic reticulum</article-title>. <source>Proc Natl Acad Sci U S A</source> <volume>100</volume>: <fpage>9873</fpage>–<lpage>9877</lpage>. <object-id pub-id-type="pmid">12893879</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Paumet</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Rahimian</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Rothman</surname> <given-names>JE</given-names></name> (<year>2004</year>) <article-title>The specificity of SNARE-dependent fusion is encoded in the SNARE motif</article-title>. <source>Proc Natl Acad Sci U S A</source> <volume>101</volume>: <fpage>3376</fpage>–<lpage>3380</lpage>. <object-id pub-id-type="pmid">14981247</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gao</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Zorman</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Gundersen</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Xi</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Ma</surname> <given-names>L</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Single reconstituted neuronal SNARE complexes zipper in three distinct stages</article-title>. <source>Science</source> <volume>337</volume>: <fpage>1340</fpage>–<lpage>1343</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1126/science.1224492" xlink:type="simple">10.1126/science.1224492</ext-link></comment> <object-id pub-id-type="pmid">22903523</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Li</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Kummel</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Coleman</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Reinisch</surname> <given-names>KM</given-names></name>, <name name-style="western"><surname>Rothman</surname> <given-names>JE</given-names></name>, <etal>et al</etal>. (<year>2014</year>) <article-title>A half-zippered SNARE complex represents a functional intermediate in membrane fusion</article-title>. <source>J Am Chem Soc</source> <volume>136</volume>: <fpage>3456</fpage>–<lpage>3464</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1021/ja410690m" xlink:type="simple">10.1021/ja410690m</ext-link></comment> <object-id pub-id-type="pmid">24533674</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tajika</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Takahashi</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Hino</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Murakami</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Yorifuji</surname> <given-names>H</given-names></name> (<year>2010</year>) <article-title>VAMP2 marks quiescent satellite cells and myotubes, but not activated myoblasts</article-title>. <source>Acta Histochem Cytochem</source> <volume>43</volume>: <fpage>107</fpage>–<lpage>114</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1267/ahc.10010" xlink:type="simple">10.1267/ahc.10010</ext-link></comment> <object-id pub-id-type="pmid">20824121</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lin</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Sun</surname> <given-names>Z</given-names></name> (<year>2011</year>) <article-title>Thyroid hormone promotes insulin-induced glucose uptake by enhancing Akt phosphorylation and VAMP2 translocation in 3T3-L1 adipocytes</article-title>. <source>J Cell Physiol</source> <volume>226</volume>: <fpage>2625</fpage>–<lpage>2632</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/jcp.22613" xlink:type="simple">10.1002/jcp.22613</ext-link></comment> <object-id pub-id-type="pmid">21792921</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Matveeva</surname> <given-names>EA</given-names></name>, <name name-style="western"><surname>Price</surname> <given-names>DA</given-names></name>, <name name-style="western"><surname>Whiteheart</surname> <given-names>SW</given-names></name>, <name name-style="western"><surname>Vanaman</surname> <given-names>TC</given-names></name>, <name name-style="western"><surname>Gerhardt</surname> <given-names>GA</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Reduction of vesicle-associated membrane protein 2 expression leads to a kindling-resistant phenotype in a murine model of epilepsy</article-title>. <source>Neuroscience</source> <volume>202</volume>: <fpage>77</fpage>–<lpage>86</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.neuroscience.2011.11.055" xlink:type="simple">10.1016/j.neuroscience.2011.11.055</ext-link></comment> <object-id pub-id-type="pmid">22183055</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kelley</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Sternberg</surname> <given-names>MJ</given-names></name> (<year>2009</year>) <article-title>Protein structure prediction on the Web: a case study using the Phyre server</article-title>. <source>Nat Protoc</source> <volume>4</volume>: <fpage>363</fpage>–<lpage>371</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nprot.2009.2" xlink:type="simple">10.1038/nprot.2009.2</ext-link></comment> <object-id pub-id-type="pmid">19247286</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gobert</surname> <given-names>GN</given-names></name>, <name name-style="western"><surname>Moertel</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Brindley</surname> <given-names>PJ</given-names></name>, <name name-style="western"><surname>McManus</surname> <given-names>DP</given-names></name> (<year>2009</year>) <article-title>Developmental gene expression profiles of the human pathogen Schistosoma japonicum</article-title>. <source>BMC Genomics</source> <volume>10</volume>: <fpage>128</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1471-2164-10-128" xlink:type="simple">10.1186/1471-2164-10-128</ext-link></comment> <object-id pub-id-type="pmid">19320991</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hurley</surname> <given-names>JH</given-names></name>, <name name-style="western"><surname>Boura</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Carlson</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Rozycki</surname> <given-names>B</given-names></name> (<year>2010</year>) <article-title>Membrane budding</article-title>. <source>Cell</source> <volume>143</volume>: <fpage>875</fpage>–<lpage>887</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.cell.2010.11.030" xlink:type="simple">10.1016/j.cell.2010.11.030</ext-link></comment> <object-id pub-id-type="pmid">21145455</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Shi</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Howan</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Shen</surname> <given-names>QT</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>YJ</given-names></name>, <name name-style="western"><surname>Rothman</surname> <given-names>JE</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Preparation and characterization of SNARE-containing nanodiscs and direct study of cargo release through fusion pores</article-title>. <source>Nat Protoc</source> <volume>8</volume>: <fpage>935</fpage>–<lpage>948</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nprot.2013.048" xlink:type="simple">10.1038/nprot.2013.048</ext-link></comment> <object-id pub-id-type="pmid">23598444</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ramakrishnan</surname> <given-names>NA</given-names></name>, <name name-style="western"><surname>Drescher</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Drescher</surname> <given-names>DG</given-names></name> (<year>2012</year>) <article-title>The SNARE complex in neuronal and sensory cells</article-title>. <source>Mol Cell Neurosci</source> <volume>50</volume>: <fpage>58</fpage>–<lpage>69</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.mcn.2012.03.009" xlink:type="simple">10.1016/j.mcn.2012.03.009</ext-link></comment> <object-id pub-id-type="pmid">22498053</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Shin</surname> <given-names>JY</given-names></name>, <name name-style="western"><surname>Oh</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Jung</surname> <given-names>CH</given-names></name>, <name name-style="western"><surname>Hwang</surname> <given-names>Y</given-names></name>, <etal>et al</etal>. (<year>2010</year>) <article-title>Dissection of SNARE-driven membrane fusion and neuroexocytosis by wedging small hydrophobic molecules into the SNARE zipper</article-title>. <source>Proc Natl Acad Sci U S A</source> <volume>107</volume>: <fpage>22145</fpage>–<lpage>22150</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.1006899108" xlink:type="simple">10.1073/pnas.1006899108</ext-link></comment> <object-id pub-id-type="pmid">21135223</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Williams</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Vicogne</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Zaitseva</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>McLaughlin</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Pessin</surname> <given-names>JE</given-names></name> (<year>2009</year>) <article-title>Evidence that electrostatic interactions between vesicle-associated membrane protein 2 and acidic phospholipids may modulate the fusion of transport vesicles with the plasma membrane</article-title>. <source>Mol Biol Cell</source> <volume>20</volume>: <fpage>4910</fpage>–<lpage>4919</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1091/mbc.E09-04-0284" xlink:type="simple">10.1091/mbc.E09-04-0284</ext-link></comment> <object-id pub-id-type="pmid">19812247</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gillon</surname> <given-names>AD</given-names></name>, <name name-style="western"><surname>Latham</surname> <given-names>CF</given-names></name>, <name name-style="western"><surname>Miller</surname> <given-names>EA</given-names></name> (<year>2012</year>) <article-title>Vesicle-mediated ER export of proteins and lipids</article-title>. <source>Biochim Biophys Acta</source> <volume>1821</volume>: <fpage>1040</fpage>–<lpage>1049</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.bbalip.2012.01.005" xlink:type="simple">10.1016/j.bbalip.2012.01.005</ext-link></comment> <object-id pub-id-type="pmid">22265716</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mendez</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Gross</surname> <given-names>KW</given-names></name>, <name name-style="western"><surname>Glenn</surname> <given-names>ST</given-names></name>, <name name-style="western"><surname>Garvin</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Carretero</surname> <given-names>OA</given-names></name> (<year>2011</year>) <article-title>Vesicle-associated membrane protein-2 (VAMP2) mediates cAMP-stimulated renin release in mouse juxtaglomerular cells</article-title>. <source>J Biol Chem</source> <volume>286</volume>: <fpage>28608</fpage>–<lpage>28618</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1074/jbc.M111.225839" xlink:type="simple">10.1074/jbc.M111.225839</ext-link></comment> <object-id pub-id-type="pmid">21708949</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Karatekin</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Di Giovanni</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Iborra</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Coleman</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>O'Shaughnessy</surname> <given-names>B</given-names></name>, <etal>et al</etal>. (<year>2010</year>) <article-title>A fast, single-vesicle fusion assay mimics physiological SNARE requirements</article-title>. <source>Proc Natl Acad Sci U S A</source> <volume>107</volume>: <fpage>3517</fpage>–<lpage>3521</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.0914723107" xlink:type="simple">10.1073/pnas.0914723107</ext-link></comment> <object-id pub-id-type="pmid">20133592</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Skelly</surname> <given-names>PJ</given-names></name>, <name name-style="western"><surname>Shoemaker</surname> <given-names>CB</given-names></name> (<year>2001</year>) <article-title>The Schistosoma mansoni host-interactive tegument forms from vesicle eruptions of a cyton network</article-title>. <source>Parasitology</source> <volume>122</volume> <issue>Pt 1</issue>: <fpage>67</fpage>–<lpage>73</lpage>. <object-id pub-id-type="pmid">11197766</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Halkic</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Gintzburger</surname> <given-names>D</given-names></name> (<year>2002</year>) <article-title>Schistosomiasis</article-title>. <source>N Engl J Med</source> <volume>347</volume>: <fpage>766</fpage>–<lpage>768</lpage>; author reply 766–768.</mixed-citation></ref>
+<ref id="pone.0144584.ref035"><label>35</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gary</surname> <given-names>L</given-names></name>. <name name-style="western"><surname>Uglem</surname> <given-names>CPR</given-names></name> (<year>1975</year>) <article-title>Sugar Transport and Metabolism in Schistosoma mansoni</article-title>. <source>The Journal of Parasitology</source> <volume>61</volume>: <fpage>390</fpage>–<lpage>397</lpage>. <object-id pub-id-type="pmid">1138037</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref036"><label>36</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jiang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Skelly</surname> <given-names>PJ</given-names></name>, <name name-style="western"><surname>Shoemaker</surname> <given-names>CB</given-names></name>, <name name-style="western"><surname>Caulfield</surname> <given-names>JP</given-names></name> (<year>1996</year>) <article-title>Schistosoma mansoni: the glucose transport protein SGTP4 is present in tegumental multilamellar bodies, discoid bodies, and the surface lipid bilayers</article-title>. <source>Exp Parasitol</source> <volume>82</volume>: <fpage>201</fpage>–<lpage>210</lpage>. <object-id pub-id-type="pmid">8617347</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref037"><label>37</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Klinovska</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Sebkova</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Dvorakova-Hortova</surname> <given-names>K</given-names></name> (<year>2014</year>) <article-title>Sperm-egg fusion: a molecular enigma of mammalian reproduction</article-title>. <source>Int J Mol Sci</source> <volume>15</volume>: <fpage>10652</fpage>–<lpage>10668</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3390/ijms150610652" xlink:type="simple">10.3390/ijms150610652</ext-link></comment> <object-id pub-id-type="pmid">24933635</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref038"><label>38</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Reid</surname> <given-names>AT</given-names></name>, <name name-style="western"><surname>Lord</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Stanger</surname> <given-names>SJ</given-names></name>, <name name-style="western"><surname>Roman</surname> <given-names>SD</given-names></name>, <name name-style="western"><surname>McCluskey</surname> <given-names>A</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Dynamin Regulates Specific Membrane Fusion Events Necessary for Acrosomal Exocytosis in Mouse Spermatozoa</article-title>. <source>J Biol Chem</source> <volume>287</volume>: <fpage>37659</fpage>–<lpage>37672</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1074/jbc.M112.392803" xlink:type="simple">10.1074/jbc.M112.392803</ext-link></comment> <object-id pub-id-type="pmid">22977254</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref039"><label>39</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gerardo</surname> <given-names>A</given-names></name>. <name name-style="western"><surname>De Blas</surname> <given-names>CMR</given-names></name>, <name name-style="western"><surname>Claudia N.</surname> <given-names>Tomes</given-names></name>*[, <name name-style="western"><surname>Luis S.</surname> <given-names>Mayorga</given-names></name>* (<year>2005</year>) <article-title>Dynamics of SNARE Assembly and Disassembly during Sperm Acrosomal Exocytosis</article-title>. <source>PLoS Biol</source> <volume>3</volume>: <fpage>e323</fpage>. <object-id pub-id-type="pmid">16131227</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref040"><label>40</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hockley</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>McLaren</surname> <given-names>DJ</given-names></name> (<year>1973</year>) <article-title>Schistosoma mansoni: changes in the outer membrane of the tegument during development from cercaria to adult worm</article-title>. <source>Int J Parasitol</source> <volume>3</volume>: <fpage>13</fpage>–<lpage>25</lpage>. <object-id pub-id-type="pmid">4687430</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref041"><label>41</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Smithers</surname> <given-names>SR</given-names></name>, <name name-style="western"><surname>Terry</surname> <given-names>RJ</given-names></name>, <name name-style="western"><surname>Hockley</surname> <given-names>DJ</given-names></name> (<year>1969</year>) <article-title>Host antigens in schistosomiasis</article-title>. <source>Proc R Soc Lond B Biol Sci</source> <volume>171</volume>: <fpage>483</fpage>–<lpage>494</lpage>. <object-id pub-id-type="pmid">4388253</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref042"><label>42</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Morris</surname> <given-names>GP</given-names></name>, <name name-style="western"><surname>Threadgold</surname> <given-names>LT</given-names></name> (<year>1968</year>) <article-title>Ultrastructure of the tegument of adult Schistosoma mansoni</article-title>. <source>J Parasitol</source> <volume>54</volume>: <fpage>15</fpage>–<lpage>27</lpage>. <object-id pub-id-type="pmid">4170893</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref043"><label>43</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Randhawa</surname> <given-names>VK</given-names></name>, <name name-style="western"><surname>Thong</surname> <given-names>FS</given-names></name>, <name name-style="western"><surname>Lim</surname> <given-names>DY</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Garg</surname> <given-names>RR</given-names></name>, <etal>et al</etal>. (<year>2004</year>) <article-title>Insulin and hypertonicity recruit GLUT4 to the plasma membrane of muscle cells by using N-ethylmaleimide-sensitive factor-dependent SNARE mechanisms but different v-SNAREs: role of TI-VAMP</article-title>. <source>Mol Biol Cell</source> <volume>15</volume>: <fpage>5565</fpage>–<lpage>5573</lpage>. <object-id pub-id-type="pmid">15469990</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref044"><label>44</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Xiong</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Hong</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Wei</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ai</surname> <given-names>D</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Characterization Analysis of Schistosoma japonicum Plasma Membrane Repair Relative Gene Myoferlin</article-title>. <source>PLoS One</source> <volume>8</volume>.</mixed-citation></ref>
+<ref id="pone.0144584.ref045"><label>45</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nogi</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Chan</surname> <given-names>JD</given-names></name>, <name name-style="western"><surname>Marchant</surname> <given-names>JS</given-names></name> (<year>2009</year>) <article-title>A novel biological activity of praziquantel requiring voltage-operated Ca2+ channel beta subunits: subversion of flatworm regenerative polarity</article-title>. <source>PLoS Negl Trop Dis</source> <volume>3</volume>: <fpage>e464</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000464" xlink:type="simple">10.1371/journal.pntd.0000464</ext-link></comment> <object-id pub-id-type="pmid">19554083</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref046"><label>46</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Aragon</surname> <given-names>AD</given-names></name>, <name name-style="western"><surname>Imani</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Blackburn</surname> <given-names>VR</given-names></name>, <name name-style="western"><surname>Cupit</surname> <given-names>PM</given-names></name>, <name name-style="western"><surname>Melman</surname> <given-names>SD</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Towards an understanding of the mechanism of action of praziquantel</article-title>. <source>Mol Biochem Parasitol</source> <volume>164</volume>: <fpage>57</fpage>–<lpage>65</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.molbiopara.2008.11.007" xlink:type="simple">10.1016/j.molbiopara.2008.11.007</ext-link></comment> <object-id pub-id-type="pmid">19100294</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref047"><label>47</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hines-Kay</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Cupit</surname> <given-names>PM</given-names></name>, <name name-style="western"><surname>Sanchez</surname> <given-names>MC</given-names></name>, <name name-style="western"><surname>Rosenberg</surname> <given-names>GH</given-names></name>, <name name-style="western"><surname>Hanelt</surname> <given-names>B</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Transcriptional analysis of Schistosoma mansoni treated with praziquantel in vitro</article-title>. <source>Molecular and Biochemical Parasitology</source> <volume>186</volume>: <fpage>87</fpage>–<lpage>94</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.molbiopara.2012.09.006" xlink:type="simple">10.1016/j.molbiopara.2012.09.006</ext-link></comment> <object-id pub-id-type="pmid">23022771</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref048"><label>48</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhou</surname> <given-names>XN</given-names></name>, <name name-style="western"><surname>Guo</surname> <given-names>JG</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>XH</given-names></name>, <name name-style="western"><surname>Jiang</surname> <given-names>QW</given-names></name>, <name name-style="western"><surname>Zheng</surname> <given-names>J</given-names></name>, <etal>et al</etal>. (<year>2007</year>) <article-title>Epidemiology of schistosomiasis in the People's Republic of China, 2004</article-title>. <source>Emerg Infect Dis</source> <volume>13</volume>: <fpage>1470</fpage>–<lpage>1476</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3201/eid1310.061423" xlink:type="simple">10.3201/eid1310.061423</ext-link></comment> <object-id pub-id-type="pmid">18257989</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref049"><label>49</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Collins</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Xu</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Tang</surname> <given-names>S</given-names></name> (<year>2012</year>) <article-title>Schistosomiasis control and the health system in P.R. China</article-title>. <source>Infect Dis Poverty</source> <volume>1</volume>: <fpage>8</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/2049-9957-1-8" xlink:type="simple">10.1186/2049-9957-1-8</ext-link></comment> <object-id pub-id-type="pmid">23849320</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref050"><label>50</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cardoso</surname> <given-names>FC</given-names></name>, <name name-style="western"><surname>Macedo</surname> <given-names>GC</given-names></name>, <name name-style="western"><surname>Gava</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Kitten</surname> <given-names>GT</given-names></name>, <name name-style="western"><surname>Mati</surname> <given-names>VL</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Schistosoma mansoni tegument protein Sm29 is able to induce a Th1-type of immune response and protection against parasite infection</article-title>. <source>PLoS Negl Trop Dis</source> <volume>2</volume>: <fpage>e308</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000308" xlink:type="simple">10.1371/journal.pntd.0000308</ext-link></comment> <object-id pub-id-type="pmid">18827884</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref051"><label>51</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jiang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Xu</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Qing</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Pan</surname> <given-names>W</given-names></name> (<year>2011</year>) <article-title>Identification and characterization of six novel tetraspanins from Schistosoma japonicum</article-title>. <source>Parasit Vectors</source> <volume>4</volume>: <fpage>190</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1756-3305-4-190" xlink:type="simple">10.1186/1756-3305-4-190</ext-link></comment> <object-id pub-id-type="pmid">21958506</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref052"><label>52</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lundy</surname> <given-names>SK LN</given-names></name> (<year>2013</year>) <article-title>Chronic schistosome infection leads to modulation of granuloma formation and systemic immune suppression</article-title>. <source>Front Immunol</source> <volume>4</volume>: <fpage>39</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3389/fimmu.2013.00039" xlink:type="simple">10.3389/fimmu.2013.00039</ext-link></comment> <object-id pub-id-type="pmid">23429492</object-id></mixed-citation></ref>
+<ref id="pone.0144584.ref053"><label>53</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wan</surname> <given-names>Zhongyuan LY</given-names></name>, <name name-style="western"><surname>Han</surname> <given-names>Jiajun</given-names></name>, <name name-style="western"><surname>Shi</surname> <given-names>Youen</given-names></name> (<year>1999</year>) <article-title>Study on The Protection of Multivalentmolecular Vaccine of Schistosoma japonicum against Experimental Infection with Schistosoma japonicum in Mice</article-title> <source>Chinese Journal of Parasitic Disease Control</source> <volume>12</volume>: <fpage>45</fpage>.</mixed-citation></ref>
+<ref id="pone.0144584.ref054"><label>54</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>Shi-ping</given-names></name> <name name-style="western"><surname>C</surname> <given-names>X-c</given-names></name>, <name name-style="western"><surname>Gao</surname> <given-names>Dong-mei</given-names></name> (<year>2009</year>) <article-title>Research Progress on Schistosome Vaccine and Prospect of its Application in China</article-title>. <source>Chin J Parasitol Parasit Dis</source> <volume>27</volume>: <fpage>402</fpage>–<lpage>411</lpage>.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

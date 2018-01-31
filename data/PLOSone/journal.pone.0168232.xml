@@ -1,0 +1,1317 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0168232</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-16-17329</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biogeography</subject><subj-group><subject>Phylogeography</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Ecology and environmental sciences</subject><subj-group><subject>Biogeography</subject><subj-group><subject>Phylogeography</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Earth sciences</subject><subj-group><subject>Geography</subject><subj-group><subject>Biogeography</subject><subj-group><subject>Phylogeography</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Evolutionary biology</subject><subj-group><subject>Population genetics</subject><subj-group><subject>Phylogeography</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>Population genetics</subject><subj-group><subject>Phylogeography</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Population biology</subject><subj-group><subject>Population genetics</subject><subj-group><subject>Phylogeography</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Molecular biology</subject><subj-group><subject>Molecular biology techniques</subject><subj-group><subject>Molecular biology assays and analysis techniques</subject><subj-group><subject>Phylogenetic analysis</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Molecular biology techniques</subject><subj-group><subject>Molecular biology assays and analysis techniques</subject><subj-group><subject>Phylogenetic analysis</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Database and informatics methods</subject><subj-group><subject>Biological databases</subject><subj-group><subject>Sequence databases</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Database and informatics methods</subject><subj-group><subject>Bioinformatics</subject><subj-group><subject>Sequence analysis</subject><subj-group><subject>Sequence databases</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Geographical locations</subject><subj-group><subject>Europe</subject><subj-group><subject>Andorra</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Database and informatics methods</subject><subj-group><subject>Bioinformatics</subject><subj-group><subject>Sequence analysis</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Agriculture</subject><subj-group><subject>Livestock</subject><subj-group><subject>Sheep</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Animals</subject><subj-group><subject>Vertebrates</subject><subj-group><subject>Amniotes</subject><subj-group><subject>Mammals</subject><subj-group><subject>Ruminants</subject><subj-group><subject>Sheep</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Animals</subject><subj-group><subject>Animal types</subject><subj-group><subject>Domestic animals</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Zoology</subject><subj-group><subject>Animal types</subject><subj-group><subject>Domestic animals</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Geographical locations</subject><subj-group><subject>Europe</subject><subj-group><subject>Spain</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Spatial and Temporal Phylogeny of Border Disease Virus in Pyrenean Chamois (<italic>Rupicapra p</italic>. <italic>pyrenaica</italic>)</article-title>
+<alt-title alt-title-type="running-head">Spatial and Temporal Phylogeny of BDV in Pyrenean Chamois</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-9236-2049</contrib-id>
+<name name-style="western">
+<surname>Luzzago</surname>
+<given-names>Camilla</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Ebranati</surname>
+<given-names>Erika</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Cabezón</surname>
+<given-names>Oscar</given-names>
+</name>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+<xref ref-type="aff" rid="aff005"><sup>5</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Fernández-Sirera</surname>
+<given-names>Laura</given-names>
+</name>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+<xref ref-type="aff" rid="aff005"><sup>5</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Lavín</surname>
+<given-names>Santiago</given-names>
+</name>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Rosell</surname>
+<given-names>Rosa</given-names>
+</name>
+<xref ref-type="aff" rid="aff005"><sup>5</sup></xref>
+<xref ref-type="aff" rid="aff006"><sup>6</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Veo</surname>
+<given-names>Carla</given-names>
+</name>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Rossi</surname>
+<given-names>Luca</given-names>
+</name>
+<xref ref-type="aff" rid="aff007"><sup>7</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Cavallero</surname>
+<given-names>Serena</given-names>
+</name>
+<xref ref-type="aff" rid="aff008"><sup>8</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Lanfranchi</surname>
+<given-names>Paolo</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Marco</surname>
+<given-names>Ignasi</given-names>
+</name>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Zehender</surname>
+<given-names>Gianguglielmo</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Department of Veterinary Medicine, University of Milan, Milano, Italy</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Centro di Ricerca Coordinata Epidemiologia e Sorveglianza Molecolare delle Infezioni—EpiSoMI, University of Milan, Milano, Italy</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Department of Biomedical and Clinical Sciences “L.Sacco”, University of Milan, Milano, Italy</addr-line></aff>
+<aff id="aff004"><label>4</label> <addr-line>Servei d'Ecopatologia de Fauna Salvatge, Departament de Medicina i Cirurgia Animals, Universitat Autònoma de Barcelona, Bellaterra, Barcelona, Spain</addr-line></aff>
+<aff id="aff005"><label>5</label> <addr-line>Centre de Recerca en Sanitat Animal (CReSA, IRTA-UAB), Campus de la Universitat Autònoma de Barcelona, Bellaterra, Barcelona, Spain</addr-line></aff>
+<aff id="aff006"><label>6</label> <addr-line>Departament d’Agricultura, Alimentació i Acció Rural, Generalitat de Catalunya, Barcelona, Spain</addr-line></aff>
+<aff id="aff007"><label>7</label> <addr-line>Department of Veterinary Sciences, University of Torino, Grugliasco, Torino, Italy</addr-line></aff>
+<aff id="aff008"><label>8</label> <addr-line>Department of Public Health and Infectious Diseases, Section of Parasitology, Sapienza University of Rome, Roma, Italy</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Serrano Ferron</surname>
+<given-names>Emmanuel</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Universidade de Aveiro, PORTUGAL</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="con">
+<p><list list-type="simple"> <list-item><p><bold>Conceptualization:</bold> CL EE GZ.</p></list-item> <list-item><p><bold>Data curation:</bold> CL EE OC.</p></list-item> <list-item><p><bold>Formal analysis:</bold> CL EE CV SC OC LFS.</p></list-item> <list-item><p><bold>Funding acquisition:</bold> CL IM PL LR SL.</p></list-item> <list-item><p><bold>Investigation:</bold> CL OC LFS RR.</p></list-item> <list-item><p><bold>Methodology:</bold> CL EE.</p></list-item> <list-item><p><bold>Project administration:</bold> CL IM PL.</p></list-item> <list-item><p><bold>Resources:</bold> CL IM PL GZ.</p></list-item> <list-item><p><bold>Supervision:</bold> CL IM GZ PL.</p></list-item> <list-item><p><bold>Visualization:</bold> CL EE GZ.</p></list-item> <list-item><p><bold>Writing – original draft:</bold> CL EE GZ.</p></list-item> <list-item><p><bold>Writing – review &amp; editing:</bold> CL GZ EE IM SC PL.</p></list-item></list>
+</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">camilla.luzzago@unimi.it</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>29</day>
+<month>12</month>
+<year>2016</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2016</year>
+</pub-date>
+<volume>11</volume>
+<issue>12</issue>
+<elocation-id>e0168232</elocation-id>
+<history>
+<date date-type="received">
+<day>29</day>
+<month>4</month>
+<year>2016</year>
+</date>
+<date date-type="accepted">
+<day>28</day>
+<month>11</month>
+<year>2016</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2016</copyright-year>
+<copyright-holder>Luzzago et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0168232"/>
+<abstract>
+<p>Border disease virus (BDV) affects a wide range of ruminants worldwide, mainly domestic sheep and goat. Since 2001 several outbreaks of disease associated to BDV infection have been described in Pyrenean chamois (<italic>Rupicapra pyrenaica pyrenaica</italic>) in Spain, France and Andorra. In order to reconstruct the most probable places of origin and pathways of dispersion of BDV among Pyrenean chamois, a phylogenetic analysis of 95 BDV 5’untranslated sequences has been performed on chamois and domestic ungulates, including novel sequences and retrieved from public databases, using a Bayesian Markov Chain Monte Carlo method. Discrete and continuous space phylogeography have been applied on chamois sequences dataset, using centroid positions and latitude and longitude coordinates of the animals, respectively.</p>
+<p>The estimated mean evolutionary rate of BDV sequences was 2.9×10<sup>−3</sup> subs/site/year (95% HPD: 1.5–4.6×10<sup>−3</sup>). All the Pyrenean chamois isolates clustered in a unique highly significant clade, that originated from BDV-4a ovine clade. The introduction from sheep (dated back to the early 90s) generated a founder effect on the chamois population and the most probable place of origin of Pyrenean chamois BDV was estimated at coordinates 42.42 N and 1.9 E. The pathways of virus dispersion showed two main routes: the first started on the early 90s of the past century with a westward direction and the second arise in Central Pyrenees. The virus spread westward for more than 125 km and southward for about 50km and the estimated epidemic diffusion rate was about 13.1 km/year (95% HPD 5.2–21.4 km/year). The strong spatial structure, with strains from a single locality segregating together in homogeneous groups, and the significant pathways of viral dispersion among the areas, allowed to reconstruct both events of infection in a single area and of migrations, occurring between neighboring areas.</p>
+</abstract>
+<funding-group>
+<funding-statement>The study was funded by the Italian Ministry of Education, Scientific Research PRIN Grant number: 2010P7LFW4 (2010-11)“Genomics and host-pathogen interactions: a model study in the One-Health perspective” and by Generalitat de Catalunya and by Ministerio de Economía y Competitividad of the Spanish Government (reference projects CGL2006-11518/BOS, CGL2009-09071/BOS, CGL2012-40057-C02-01, FAU 2006-00007-C02-02 and FAU2008-00017-C02-01). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="5"/>
+<table-count count="3"/>
+<page-count count="17"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Pestiviruses are characterized by a high degree of genetic variability and the genus comprises four approved species, namely Border disease virus (BDV), Bovine viral diarrhoea virus type 1 (BVDV-1) and type 2 (BVDV-2), and Classical swine fever virus (CSFV) [<xref ref-type="bibr" rid="pone.0168232.ref001">1</xref>], traditionally classified according to the host species. In the last decades, identification and genetic characterization of pestivirus strains in different animal species revealed an extensive interspecies transmission among both domestic [<xref ref-type="bibr" rid="pone.0168232.ref002">2</xref>,<xref ref-type="bibr" rid="pone.0168232.ref003">3</xref>,<xref ref-type="bibr" rid="pone.0168232.ref004">4</xref>] and wild ungulates [<xref ref-type="bibr" rid="pone.0168232.ref005">5</xref>,<xref ref-type="bibr" rid="pone.0168232.ref006">6</xref>], showing a low host specificity and a wide host range. Besides the interspecies transmission of known genetic variants, several newly emerged pestivirus were detected in livestock [<xref ref-type="bibr" rid="pone.0168232.ref007">7</xref>,<xref ref-type="bibr" rid="pone.0168232.ref008">8</xref>] and in wild ruminant populations [<xref ref-type="bibr" rid="pone.0168232.ref009">9</xref>]. Genetic changes of viruses can lead to alterations of virulence, as recently observed with the Bungowannah pestivirus with high mortality in pigs [<xref ref-type="bibr" rid="pone.0168232.ref010">10</xref>,<xref ref-type="bibr" rid="pone.0168232.ref011">11</xref>] and the emergence of ovine pestiviruses closely related to CSFV in Tunisia and Spain [<xref ref-type="bibr" rid="pone.0168232.ref007">7</xref>,<xref ref-type="bibr" rid="pone.0168232.ref008">8</xref>]. Phylogenetic analysis of pestiviruses is therefore crucial to classify novel viruses and to study evolutionary dynamics, clarifying the relationships between genetic diversity and its temporal-spatial distribution in animal populations.</p>
+<p>BDV affects a wide range of ruminants worldwide, mainly domestic sheep and goat, and segregates into at least seven phylogenetic groups [<xref ref-type="bibr" rid="pone.0168232.ref012">12</xref>], namely BDV-1 to BDV-7. Moreover isolates from Tunisia [<xref ref-type="bibr" rid="pone.0168232.ref008">8</xref>], Turkey [<xref ref-type="bibr" rid="pone.0168232.ref013">13</xref>] and Switzerland [<xref ref-type="bibr" rid="pone.0168232.ref014">14</xref>] possibly form further groups.</p>
+<p>Concerning pestivirus in chamois, several outbreaks of disease associated to BDV-4 infection have been described in Pyrenean chamois (<italic>Rupicapra pyrenaica pyrenaica</italic>) in Spain, France and Andorra since 2001 [<xref ref-type="bibr" rid="pone.0168232.ref015">15</xref>]. These outbreaks have decimated several Pyrenean chamois populations, with mortalities ranging from 40% to 85% [<xref ref-type="bibr" rid="pone.0168232.ref016">16</xref>]. After the severe BDV-4 outbreaks, different epidemiological scenarios have appeared in the Pyrenees, having a prolonged negative impact on host population dynamics in some areas [<xref ref-type="bibr" rid="pone.0168232.ref017">17</xref>]. Recently, a simulation approach confirmed the ability of BDV-4 to drive chamois populations [<xref ref-type="bibr" rid="pone.0168232.ref018">18</xref>]. In respect to BDV in Alpine chamois (<italic>R</italic>. <italic>rupicapra rupicapra)</italic>, the genetic variant circulating in sheep BDV-6 has been recently detected in a single animal in French Southern Alps, where the chamois population showed seroprevalence of 38.7% with no mortality or clinical diseases [<xref ref-type="bibr" rid="pone.0168232.ref019">19</xref>]. Moreover a genetic variant of livestock origin has been observed in a comprehensive investigation on wild ruminants in Switzerland, with a sporadic frequency of infections detecting a single chamois BVDV-1h positive [<xref ref-type="bibr" rid="pone.0168232.ref020">20</xref>].</p>
+<p>Pestivirus seroprevalence in other Alpine countries ranged from negative results in Austria [<xref ref-type="bibr" rid="pone.0168232.ref021">21</xref>] to sporadic, until to a 25.5% value in Italy, without outbreaks mortality [<xref ref-type="bibr" rid="pone.0168232.ref022">22</xref>,<xref ref-type="bibr" rid="pone.0168232.ref023">23</xref>,<xref ref-type="bibr" rid="pone.0168232.ref024">24</xref>].</p>
+<p>In order to reconstruct the most probable places of origin and pathways of dispersion of the BDV-4 causing the recent epidemic among Pyrenean chamois, a phylogenetic analysis of BDV 5’untranslated region (UTR) sequences of chamois and domestic ungulates (including novel and retrieved sequences from public databases) has been performed by using a Bayesian framework allowing the spatial–temporal reconstruction of the evolutionary dynamics of highly variable viruses [<xref ref-type="bibr" rid="pone.0168232.ref025">25</xref>].</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="sec003">
+<title>Samples and sequence data set</title>
+<p>The BDV positive samples and the derived 5’UTR sequences from chamois were selected on the basis of the following criteria: known locality where the strain was isolated and sampling dates. A total of 51 chamois BDV sequences were available, 10 of which were novel Pyrenean chamois sequences and 41 were retrieved from public database, encompassing an alignment of 234 nucleotides (<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/nuccore/?term=pestivirus+chamois" xlink:type="simple">http://www.ncbi.nlm.nih.gov/nuccore/?term=pestivirus+chamois</ext-link>, accessed last time at 29-2-2016). On the whole, 50 sequences were from Pyrenean chamois and one from Alpine chamois, identified in French Alps [<xref ref-type="bibr" rid="pone.0168232.ref019">19</xref>], and the sampling dates ranged from 1996 to 2011.</p>
+<p>BDV sequences from domestic ungulates were also retrieved from public database, restricting the geographic localization to Spain and France. A total of 44 BDV 5’UTR sequences were available, encompassing an alignment of 234 nucleotides, 43 of which were from sheep and one from a pig, identified in Spain [<xref ref-type="bibr" rid="pone.0168232.ref026">26</xref>], and the sampling dates ranged from 1984 to 2007 (<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/nuccore/?term=border+disease+virus+france" xlink:type="simple">http://www.ncbi.nlm.nih.gov/nuccore/?term=border+disease+virus+france</ext-link>; <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/nuccore/?term=border+disease+virus+spain" xlink:type="simple">http://www.ncbi.nlm.nih.gov/nuccore/?term=border+disease+virus+spain</ext-link>, accessed last time at 29-2-16). Origins and characteristics of data set BDV strains are summarized in Tables <xref ref-type="table" rid="pone.0168232.t001">1</xref> and <xref ref-type="table" rid="pone.0168232.t002">2</xref> from chamois and domestic ungulates, respectively.</p>
+<table-wrap id="pone.0168232.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0168232.t001</object-id>
+<label>Table 1</label> <caption><title>Accession numbers, references, localities and collection years of the BDV chamois sequences included in the data set.</title></caption>
+<alternatives>
+<graphic id="pone.0168232.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0168232.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center">Id. analysis</th>
+<th align="center">Accession no.</th>
+<th align="center">Locality</th>
+<th align="center">Georeferenced data</th>
+<th align="center">Year</th>
+<th align="center">Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Can1@02</td>
+<td align="center">AY738080</td>
+<td align="center">Andorra</td>
+<td align="center">yes</td>
+<td align="center">2002</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref027">27</xref>]</td>
+</tr>
+<tr>
+<td align="left">Cpa1@02</td>
+<td align="center">AY641529</td>
+<td align="center">Alt Pallars</td>
+<td align="center">yes</td>
+<td align="center">2002</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref028">28</xref>]</td>
+</tr>
+<tr>
+<td align="left">Car1@05</td>
+<td align="center">AM765800</td>
+<td align="center">Aran</td>
+<td align="center">yes</td>
+<td align="center">2005</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref029">29</xref>]</td>
+</tr>
+<tr>
+<td align="left">Car2@05</td>
+<td align="center">AM765801</td>
+<td align="center">Aran</td>
+<td align="center">yes</td>
+<td align="center">2005</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref029">29</xref>]</td>
+</tr>
+<tr>
+<td align="left">Car3@05</td>
+<td align="center">AM765802</td>
+<td align="center">Aran</td>
+<td align="center">yes</td>
+<td align="center">2005</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref029">29</xref>]</td>
+</tr>
+<tr>
+<td align="left">Car4@05</td>
+<td align="center">AM765803</td>
+<td align="center">Aran</td>
+<td align="center">yes</td>
+<td align="center">2005</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref029">29</xref>]</td>
+</tr>
+<tr>
+<td align="left">Car5@06</td>
+<td align="center">AM765804</td>
+<td align="center">Aran</td>
+<td align="center">no</td>
+<td align="center">2006</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref029">29</xref>]</td>
+</tr>
+<tr>
+<td align="left">Car6@06</td>
+<td align="center">AM765805</td>
+<td align="center">Aran</td>
+<td align="center">yes</td>
+<td align="center">2006</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref029">29</xref>]</td>
+</tr>
+<tr>
+<td align="left">Car7@06</td>
+<td align="center">AM765806</td>
+<td align="center">Aran</td>
+<td align="center">yes</td>
+<td align="center">2006</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref029">29</xref>]</td>
+</tr>
+<tr>
+<td align="left">Car8@06</td>
+<td align="center">AM765807</td>
+<td align="center">Aran</td>
+<td align="center">yes</td>
+<td align="center">2006</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref029">29</xref>]</td>
+</tr>
+<tr>
+<td align="left">Cce1@04</td>
+<td align="center">AM905930</td>
+<td align="center">Cerdanya</td>
+<td align="center">yes</td>
+<td align="center">2004</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref009">9</xref>]</td>
+</tr>
+<tr>
+<td align="left">Cce2@05</td>
+<td align="center">AM905931</td>
+<td align="center">Cerdanya</td>
+<td align="center">yes</td>
+<td align="center">2005</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref009">9</xref>]</td>
+</tr>
+<tr>
+<td align="left">Cce3@05</td>
+<td align="center">AM905932</td>
+<td align="center">Cerdanya</td>
+<td align="center">yes</td>
+<td align="center">2005</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref009">9</xref>]</td>
+</tr>
+<tr>
+<td align="left">Cce4@05</td>
+<td align="center">AM905933</td>
+<td align="center">Cerdanya</td>
+<td align="center">yes</td>
+<td align="center">2005</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref009">9</xref>]</td>
+</tr>
+<tr>
+<td align="left">Cca2@05</td>
+<td align="center">AM905919</td>
+<td align="center">Cadí</td>
+<td align="center">no</td>
+<td align="center">2005</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref009">9</xref>]</td>
+</tr>
+<tr>
+<td align="left">Cca3@05</td>
+<td align="center">AM905920</td>
+<td align="center">Cadí</td>
+<td align="center">no</td>
+<td align="center">2005</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref009">9</xref>]</td>
+</tr>
+<tr>
+<td align="left">Cca4@05</td>
+<td align="center">AM905921</td>
+<td align="center">Cadí</td>
+<td align="center">yes</td>
+<td align="center">2005</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref009">9</xref>]</td>
+</tr>
+<tr>
+<td align="left">Cca5@06</td>
+<td align="center">AM905922</td>
+<td align="center">Cadí</td>
+<td align="center">yes</td>
+<td align="center">2006</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref009">9</xref>]</td>
+</tr>
+<tr>
+<td align="left">Cca6@06</td>
+<td align="center">AM905923</td>
+<td align="center">Cadí</td>
+<td align="center">yes</td>
+<td align="center">2006</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref009">9</xref>]</td>
+</tr>
+<tr>
+<td align="left">Cca1@06</td>
+<td align="center">AM905918</td>
+<td align="center">Cadí</td>
+<td align="center">yes</td>
+<td align="center">2006</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref030">30</xref>]</td>
+</tr>
+<tr>
+<td align="left">Cca7@06</td>
+<td align="center">AM905924</td>
+<td align="center">Cadí</td>
+<td align="center">yes</td>
+<td align="center">2006</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref030">30</xref>]</td>
+</tr>
+<tr>
+<td align="left">Cca8@06</td>
+<td align="center">AM905925</td>
+<td align="center">Cadí</td>
+<td align="center">yes</td>
+<td align="center">2006</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref030">30</xref>]</td>
+</tr>
+<tr>
+<td align="left">Cca9@06</td>
+<td align="center">AM905926</td>
+<td align="center">Cadí</td>
+<td align="center">yes</td>
+<td align="center">2006</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref030">30</xref>]</td>
+</tr>
+<tr>
+<td align="left">Cca10@06</td>
+<td align="center">AM905927</td>
+<td align="center">Cadí</td>
+<td align="center">yes</td>
+<td align="center">2006</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref030">30</xref>]</td>
+</tr>
+<tr>
+<td align="left">Cca11@06</td>
+<td align="center">AM905928</td>
+<td align="center">Cadí</td>
+<td align="center">yes</td>
+<td align="center">2006</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref030">30</xref>]</td>
+</tr>
+<tr>
+<td align="left">Cca12@06</td>
+<td align="center">AM905929</td>
+<td align="center">Cadí</td>
+<td align="center">yes</td>
+<td align="center">2006</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref030">30</xref>]</td>
+</tr>
+<tr>
+<td align="left">Cca13@06</td>
+<td align="center">FN397676</td>
+<td align="center">Cadí</td>
+<td align="center">yes</td>
+<td align="center">2006</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref030">30</xref>]</td>
+</tr>
+<tr>
+<td align="left">Cfr1@96</td>
+<td align="center">FN691777</td>
+<td align="center">Freser-Setcases</td>
+<td align="center">yes</td>
+<td align="center">1996</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref031">31</xref>]</td>
+</tr>
+<tr>
+<td align="left">Cfr2@96</td>
+<td align="center">FN691778</td>
+<td align="center">Freser-Setcases</td>
+<td align="center">no</td>
+<td align="center">1996</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref031">31</xref>]</td>
+</tr>
+<tr>
+<td align="left">Car9@08</td>
+<td align="center">HE818617</td>
+<td align="center">Aran</td>
+<td align="center">yes</td>
+<td align="center">2008</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref017">17</xref>]</td>
+</tr>
+<tr>
+<td align="left">Car10@08</td>
+<td align="center">HE818618</td>
+<td align="center">Aran</td>
+<td align="center">yes</td>
+<td align="center">2008</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref017">17</xref>]</td>
+</tr>
+<tr>
+<td align="left">Car11@11</td>
+<td align="center">HE818619</td>
+<td align="center">Aran</td>
+<td align="center">yes</td>
+<td align="center">2011</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref017">17</xref>]</td>
+</tr>
+<tr>
+<td align="left">Car12@11</td>
+<td align="center">HE818620</td>
+<td align="center">Aran</td>
+<td align="center">yes</td>
+<td align="center">2011</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref017">17</xref>]</td>
+</tr>
+<tr>
+<td align="left">Car13@11</td>
+<td align="center">HE818621</td>
+<td align="center">Aran</td>
+<td align="center">yes</td>
+<td align="center">2011</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref017">17</xref>]</td>
+</tr>
+<tr>
+<td align="left">Car14@11</td>
+<td align="center">HE818622</td>
+<td align="center">Aran</td>
+<td align="center">no</td>
+<td align="center">2011</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref017">17</xref>]</td>
+</tr>
+<tr>
+<td align="left">Can2@09</td>
+<td align="center">HE615083</td>
+<td align="center">Andorra</td>
+<td align="center">yes</td>
+<td align="center">2009</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref032">32</xref>]</td>
+</tr>
+<tr>
+<td align="left">Can3@09</td>
+<td align="center">HE615084</td>
+<td align="center">Andorra</td>
+<td align="center">yes</td>
+<td align="center">2009</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref032">32</xref>]</td>
+</tr>
+<tr>
+<td align="left">Can4@09</td>
+<td align="center">HE615085</td>
+<td align="center">Andorra</td>
+<td align="center">yes</td>
+<td align="center">2009</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref032">32</xref>]</td>
+</tr>
+<tr>
+<td align="left">Cpa2@02</td>
+<td align="center">LT629121</td>
+<td align="center">Alt Pallars</td>
+<td align="center">yes</td>
+<td align="center">2002</td>
+<td align="center">Present study</td>
+</tr>
+<tr>
+<td align="left">Cpa3@02</td>
+<td align="center">LT629122</td>
+<td align="center">Alt Pallars</td>
+<td align="center">yes</td>
+<td align="center">2002</td>
+<td align="center">Present study</td>
+</tr>
+<tr>
+<td align="left">Cpa4@02</td>
+<td align="center">LT629123</td>
+<td align="center">Alt Pallars</td>
+<td align="center">yes</td>
+<td align="center">2002</td>
+<td align="center">Present study</td>
+</tr>
+<tr>
+<td align="left">Cpa5@02</td>
+<td align="center">LT629124</td>
+<td align="center">Alt Pallars</td>
+<td align="center">yes</td>
+<td align="center">2002</td>
+<td align="center">Present study</td>
+</tr>
+<tr>
+<td align="left">Cpa6@02</td>
+<td align="center">LT629125</td>
+<td align="center">Alt Pallars</td>
+<td align="center">yes</td>
+<td align="center">2002</td>
+<td align="center">Present study</td>
+</tr>
+<tr>
+<td align="left">Cpa7@02</td>
+<td align="center">LT629126</td>
+<td align="center">Alt Pallars</td>
+<td align="center">yes</td>
+<td align="center">2002</td>
+<td align="center">Present study</td>
+</tr>
+<tr>
+<td align="left">Cor6@04</td>
+<td align="center">EU477593</td>
+<td align="center">Ariege</td>
+<td align="center">no</td>
+<td align="center">2004</td>
+<td align="center">not available</td>
+</tr>
+<tr>
+<td align="left">C4606@06</td>
+<td align="center">EU637005</td>
+<td align="center">Ariege</td>
+<td align="center">no</td>
+<td align="center">2006</td>
+<td align="center">not available</td>
+</tr>
+<tr>
+<td align="left">Cri1@09</td>
+<td align="center">LT629127</td>
+<td align="center">Alta Ribagorça</td>
+<td align="center">yes</td>
+<td align="center">2009</td>
+<td align="center">Present study</td>
+</tr>
+<tr>
+<td align="left">Cri2@09</td>
+<td align="center">LT629128</td>
+<td align="center">Alta Ribagorça</td>
+<td align="center">yes</td>
+<td align="center">2009</td>
+<td align="center">Present study</td>
+</tr>
+<tr>
+<td align="left">Cri3@09</td>
+<td align="center">LT629129</td>
+<td align="center">Alta Ribagorça</td>
+<td align="center">yes</td>
+<td align="center">2009</td>
+<td align="center">Present study</td>
+</tr>
+<tr>
+<td align="left">Cri4@09</td>
+<td align="center">LT629130</td>
+<td align="center">Alta Ribagorça</td>
+<td align="center">no</td>
+<td align="center">2009</td>
+<td align="center">Present study</td>
+</tr>
+<tr>
+<td align="left">CFSA1@11<xref ref-type="table-fn" rid="t001fn001">*</xref></td>
+<td align="center">KC859383</td>
+<td align="center">French Alpes</td>
+<td align="center">no</td>
+<td align="center">2011</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref019">19</xref>]</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>* sequence from Alpine chamois, all the others are from Pyrenean chamois</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<table-wrap id="pone.0168232.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0168232.t002</object-id>
+<label>Table 2</label> <caption><title>Accession numbers, references, localities and collection years of domestic ungulates BDV sequences included in the data set.</title></caption>
+<alternatives>
+<graphic id="pone.0168232.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0168232.t002" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center">Id. analysis</th>
+<th align="center">Accession no.</th>
+<th align="center">Locality</th>
+<th align="center">Year</th>
+<th align="center">Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Oal1@99</td>
+<td align="center">AY159513</td>
+<td align="center">Spain Alava</td>
+<td align="center">1999</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref007">7</xref>]</td>
+</tr>
+<tr>
+<td align="left">Oal2@01</td>
+<td align="center">AY159516</td>
+<td align="center">Spain Alava</td>
+<td align="center">2001</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref007">7</xref>]</td>
+</tr>
+<tr>
+<td align="left">Oal3@01</td>
+<td align="center">AY159517</td>
+<td align="center">Spain Alava</td>
+<td align="center">2001</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref007">7</xref>]</td>
+</tr>
+<tr>
+<td align="left">Oal4@01</td>
+<td align="center">AY159515</td>
+<td align="center">Spain Alava</td>
+<td align="center">2001</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref007">7</xref>]</td>
+</tr>
+<tr>
+<td align="left">Ole2@02</td>
+<td align="center">DQ361071</td>
+<td align="center">Spain Leon</td>
+<td align="center">2002</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref033">33</xref>]</td>
+</tr>
+<tr>
+<td align="left">Ole3@01</td>
+<td align="center">DQ361072</td>
+<td align="center">Spain Leon</td>
+<td align="center">2001</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref033">33</xref>]</td>
+</tr>
+<tr>
+<td align="left">Obu4@02</td>
+<td align="center">DQ361068</td>
+<td align="center">Spain Burgos</td>
+<td align="center">2002</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref033">33</xref>]</td>
+</tr>
+<tr>
+<td align="left">Oza1@02</td>
+<td align="center">DQ361070</td>
+<td align="center">Spain Zamora</td>
+<td align="center">2002</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref033">33</xref>]</td>
+</tr>
+<tr>
+<td align="left">Ocu1@01</td>
+<td align="center">DQ361073</td>
+<td align="center">Spain Cuenca</td>
+<td align="center">2001</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref033">33</xref>]</td>
+</tr>
+<tr>
+<td align="left">Obu2@02</td>
+<td align="center">DQ361069</td>
+<td align="center">Spain Burgos</td>
+<td align="center">2002</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref033">33</xref>]</td>
+</tr>
+<tr>
+<td align="left">Obu3@02</td>
+<td align="center">DQ361067</td>
+<td align="center">Spain Burgos</td>
+<td align="center">2002</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref033">33</xref>]</td>
+</tr>
+<tr>
+<td align="left">Ote1@04</td>
+<td align="center">DQ275625</td>
+<td align="center">Spain Teruel</td>
+<td align="center">2004</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref034">34</xref>]</td>
+</tr>
+<tr>
+<td align="left">Ote2@04</td>
+<td align="center">DQ275623</td>
+<td align="center">Spain Teruel</td>
+<td align="center">2004</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref034">34</xref>]</td>
+</tr>
+<tr>
+<td align="left">Ote3@04</td>
+<td align="center">DQ275624</td>
+<td align="center">Spain Teruel</td>
+<td align="center">2004</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref034">34</xref>]</td>
+</tr>
+<tr>
+<td align="left">Ole1@01</td>
+<td align="center">DQ275626</td>
+<td align="center">Spain Leon</td>
+<td align="center">2001</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref034">34</xref>]</td>
+</tr>
+<tr>
+<td align="left">Obu1@02</td>
+<td align="center">DQ275622</td>
+<td align="center">Spain Burgos</td>
+<td align="center">2002</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref034">34</xref>]</td>
+</tr>
+<tr>
+<td align="left">Opa1@06</td>
+<td align="center">EF694003</td>
+<td align="center">France PACA</td>
+<td align="center">2006</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref035">35</xref>]</td>
+</tr>
+<tr>
+<td align="left">Opa2@06</td>
+<td align="center">EF694002</td>
+<td align="center">France PACA</td>
+<td align="center">2006</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref035">35</xref>]</td>
+</tr>
+<tr>
+<td align="left">Opa3@06</td>
+<td align="center">EF694001</td>
+<td align="center">France PACA</td>
+<td align="center">2006</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref035">35</xref>]</td>
+</tr>
+<tr>
+<td align="left">Opa4@06</td>
+<td align="center">EF694000</td>
+<td align="center">France PACA</td>
+<td align="center">2006</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref035">35</xref>]</td>
+</tr>
+<tr>
+<td align="left">Opa5@06</td>
+<td align="center">EF693999</td>
+<td align="center">France PACA</td>
+<td align="center">2006</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref035">35</xref>]</td>
+</tr>
+<tr>
+<td align="left">Omp1@96</td>
+<td align="center">EF693998</td>
+<td align="center">France Midi-Pyrénées</td>
+<td align="center">1996</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref035">35</xref>]</td>
+</tr>
+<tr>
+<td align="left">Opa6@94</td>
+<td align="center">EF693997</td>
+<td align="center">France PACA</td>
+<td align="center">1994</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref035">35</xref>]</td>
+</tr>
+<tr>
+<td align="left">Opa7@94</td>
+<td align="center">EF693996</td>
+<td align="center">France PACA</td>
+<td align="center">1994</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref035">35</xref>]</td>
+</tr>
+<tr>
+<td align="left">Opa8@93</td>
+<td align="center">EF693995</td>
+<td align="center">France PACA</td>
+<td align="center">1993</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref035">35</xref>]</td>
+</tr>
+<tr>
+<td align="left">Opa9@92</td>
+<td align="center">EF693994</td>
+<td align="center">France PACA</td>
+<td align="center">1992</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref035">35</xref>]</td>
+</tr>
+<tr>
+<td align="left">Opa10@91</td>
+<td align="center">EF693993</td>
+<td align="center">France PACA</td>
+<td align="center">1991</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref035">35</xref>]</td>
+</tr>
+<tr>
+<td align="left">Opa11@90</td>
+<td align="center">EF693992</td>
+<td align="center">France PACA</td>
+<td align="center">1990</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref035">35</xref>]</td>
+</tr>
+<tr>
+<td align="left">Opa12@90</td>
+<td align="center">EF693991</td>
+<td align="center">France PACA</td>
+<td align="center">1990</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref035">35</xref>]</td>
+</tr>
+<tr>
+<td align="left">Opa13@90</td>
+<td align="center">EF693990</td>
+<td align="center">France PACA</td>
+<td align="center">1990</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref035">35</xref>]</td>
+</tr>
+<tr>
+<td align="left">Opa14@90</td>
+<td align="center">EF693989</td>
+<td align="center">France PACA</td>
+<td align="center">1990</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref035">35</xref>]</td>
+</tr>
+<tr>
+<td align="left">Oaq1@89</td>
+<td align="center">EF693988</td>
+<td align="center">France Aquitaine</td>
+<td align="center">1989</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref035">35</xref>]</td>
+</tr>
+<tr>
+<td align="left">Opa15@89</td>
+<td align="center">EF693987</td>
+<td align="center">France PACA</td>
+<td align="center">1989</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref035">35</xref>]</td>
+</tr>
+<tr>
+<td align="left">Opa16@85</td>
+<td align="center">EF693986</td>
+<td align="center">France PACA</td>
+<td align="center">1985</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref035">35</xref>]</td>
+</tr>
+<tr>
+<td align="left">Oce1@85</td>
+<td align="center">EF693985</td>
+<td align="center">France Centre</td>
+<td align="center">1985</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref035">35</xref>]</td>
+</tr>
+<tr>
+<td align="left">OAV1@84</td>
+<td align="center">EF693984</td>
+<td align="center">France Midi-Pyrénées</td>
+<td align="center">1984</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref035">35</xref>]</td>
+</tr>
+<tr>
+<td align="left">Opa17@91</td>
+<td align="center">EF988632</td>
+<td align="center">France PACA</td>
+<td align="center">1991</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref035">35</xref>]</td>
+</tr>
+<tr>
+<td align="left">Opa18@91</td>
+<td align="center">EF988633</td>
+<td align="center">France PACA</td>
+<td align="center">1991</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref035">35</xref>]</td>
+</tr>
+<tr>
+<td align="left">Oll1@97</td>
+<td align="center">FR714860</td>
+<td align="center">Spain Lleida-Catalunya</td>
+<td align="center">1997</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref036">36</xref>]</td>
+</tr>
+<tr>
+<td align="left">Oll2@97</td>
+<td align="center">HE999869</td>
+<td align="center">Spain Lleida-Catalunya</td>
+<td align="center">1997</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref036">36</xref>]</td>
+</tr>
+<tr>
+<td align="left">Oll3@97</td>
+<td align="center">HE999870</td>
+<td align="center">Spain Lleida-Catalunya</td>
+<td align="center">1997</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref036">36</xref>]</td>
+</tr>
+<tr>
+<td align="left">Oll4@97</td>
+<td align="center">HE999871</td>
+<td align="center">Spain Lleida-Catalunya</td>
+<td align="center">1997</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref036">36</xref>]</td>
+</tr>
+<tr>
+<td align="left">Oll5@97</td>
+<td align="center">HE999872</td>
+<td align="center">Spain Lleida-Catalunya</td>
+<td align="center">1997</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref036">36</xref>]</td>
+</tr>
+<tr>
+<td align="left">Pcl1@07<xref ref-type="table-fn" rid="t002fn001">*</xref></td>
+<td align="center">HF567456</td>
+<td align="center">Spain Castilla Leon</td>
+<td align="center">2007</td>
+<td align="center">[<xref ref-type="bibr" rid="pone.0168232.ref026">26</xref>]</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p>* sequence from pig, all the others are from sheep</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec004">
+<title>RT-PCR and sequencing</title>
+<p>Viral RNA was extracted from chamois spleen tissues using a commercial RNA extraction kit (Nucleospin Viral RNA Isolation, Macherey Nagel, Düren, Germany). Reverse transcription and PCR assays targeting 5’UTR region of pestivirus were performed using 324 and 326 pan-pestivirus primers [<xref ref-type="bibr" rid="pone.0168232.ref037">37</xref>] following previously described protocols [<xref ref-type="bibr" rid="pone.0168232.ref032">32</xref>]. For each sample, amplicons of the expected size were purified and sequenced using forward and reverse primers by cycle sequencing using a Big Dye Terminator version 3.1 kit and an ABI PRISM 3130xl sequencing device (Applied Biosystems, CA, USA).</p>
+<p>All sequences from chamois and domestic hosts were aligned with BDV reference strains, retrieved from GenBank and representative of BDV phylogenetic groups according to [<xref ref-type="bibr" rid="pone.0168232.ref012">12</xref>], using CLUSTALW (integrated within the Bio-Edit sequence editor, freely available at <ext-link ext-link-type="uri" xlink:href="http://www.mbio.ncsu.edu/BioEdit/bioedit.html" xlink:type="simple">http://www.mbio.ncsu.edu/BioEdit/bioedit.html</ext-link>). Phylogeny was preliminary estimated by the neighbor-joining algorithm (NJ) and the maximum likelihood (ML) method.</p>
+<sec id="sec005">
+<title>Ethics Statements</title>
+<p>This study is part of a project (reference: CGL2006-11518/BOS, CGL2009-09071/BOS, CGL2012-40057-C02-01, FAU 2006-00007-C02-02 and FAU2008-00017-C02-01) from the Spanish Government which aims to study the epidemiology of pestiviruses in wild and domestic animals from Catalonia. The sampling system used in the present study was approved by the Government in the framework of the project cited above. The chamois included in the present study were not sacrificed for our research purposes. The harvested animals have been legally hunted (shot) in their own habitat by authorized gamekeepers and hunters. Samples were obtained from hunted dead animals and diseased animals found dead. No protected species were sampled. The animals were collected in different National Hunting Reserves (NHR) (property of the Government), by rangers employed by the Catalan Government within the framework of an annual hunting plan approved by the Departament d’Agricultura, Ramaderia, Pesca, Alimentació i Medi Natural of the Generalitat de Catalunya (DARPAMN -the Regional authority in charge of livestock and wildlife management-) and no ethics committee approval was necessary. The choice of the animals to hunt was strictly supervised by the rangers. The sampling was performed within the framework of an official agreement between the DARPAMN and Universitat Autònoma de Barcelona. The main aim of the agreement is the surveillance of wildlife diseases from the region of Catalonia, in Spain. After the sampling, samples were delivered to Universitat Autònoma de Barcelona laboratory by government employers.</p>
+</sec>
+</sec>
+<sec id="sec006">
+<title>Likelihood mapping</title>
+<p>The phylogenetic signal of each sequence dataset was investigated by means of the likelihood-mapping analysis of 10,000 random quartets generated using TreePuzzle. All of the three possible unrooted trees for a set of four sequences (quartets) randomly selected from the dataset were reconstructed using the maximum likelihood approach and the selected substitution model. The posterior probabilities of each tree were then plotted on a triangular surface so that the dots representing the fully resolved trees fell at the corners and those representing the unresolved quartets in the centre of the triangle (star-tree) [<xref ref-type="bibr" rid="pone.0168232.ref038">38</xref>]. Using this strategy, which has been described in detail elsewhere [<xref ref-type="bibr" rid="pone.0168232.ref039">39</xref>], the data are considered unreliable for phylogenetic inference when more than 30% of the dots are in the centre of the triangle.</p>
+</sec>
+<sec id="sec007">
+<title>Phylogenetic reconstruction</title>
+<p>The best-fitting nucleotide substitution model was estimated by means of jModeltest [<xref ref-type="bibr" rid="pone.0168232.ref040">40</xref>], and selected a TrN model [<xref ref-type="bibr" rid="pone.0168232.ref041">41</xref>] with gamma-distributed rates among sites.</p>
+<p>The phylogenetic tree, model parameters, evolutionary rates and population growth were co-estimated using a Bayesian Markov chain Monte Carlo (MCMC) method implemented in the BEAST v.1.74 package [<xref ref-type="bibr" rid="pone.0168232.ref042">42</xref>].</p>
+<p>Statistical support for specific clades was obtained by calculating the posterior probability of each monophyletic clade. As coalescent priors, we compared four simple parametric demographic models (constant population size, and exponential, expansion and logistic population growth) and a piecewise-constant model, the Bayesian skyline plot (BSP) under both a strict and a relaxed (uncorrelated log-normal) clock [<xref ref-type="bibr" rid="pone.0168232.ref042">42</xref>].</p>
+<p>Two independent MCMC chains were run for 50 million generations with sampling every 5,000th generation, and were combined using the LogCombiner 1.74 included in the BEAST package. Convergence was assessed on the basis of the effective sampling size (ESS) after a 10% burn-in using Tracer software version 1.5 (<ext-link ext-link-type="uri" xlink:href="http://tree.bio.ed.ac.uk/software/tracer/" xlink:type="simple">http://tree.bio.ed.ac.uk/software/tracer/</ext-link>). Only ESS’s of ≥ 200 were accepted.</p>
+<p>Uncertainty in the estimates was indicated by 95% highest posterior density (95% HPD) intervals, and the best-fitting models were selected using a Bayes factor (BF with using marginal likelihoods) implemented in BEAST [<xref ref-type="bibr" rid="pone.0168232.ref043">43</xref>].</p>
+<p>In accordance with [<xref ref-type="bibr" rid="pone.0168232.ref044">44</xref>],only values of 2lnBF ≥ 6 were considered significant.</p>
+<p>The trees were summarised in a target tree using the Tree Annotator program included in the BEAST package, choosing the tree with the maximum product of posterior probabilities (maximum clade credibility) after a 10% burn-in.</p>
+<p>The time of the most recent common ancestor (tMRCA) estimates were expressed as mean and 95% HPD years before the most recent sampling dates, corresponding to 2011 in this study.</p>
+</sec>
+<sec id="sec008">
+<title>Bayesian phylogeographic analyses</title>
+<sec id="sec009">
+<title>Discrete state phylogeography</title>
+<p>The continuous-time Markov Chain (MCC) process over discrete sampling locations implemented in BEAST [<xref ref-type="bibr" rid="pone.0168232.ref025">25</xref>] was used for the geographical analysis, implementing the Bayesian Stochastic Search Variable Selection (BSSVS) model which allows the diffusion rates to be zero with a positive prior probability. Comparison of the posterior and prior probabilities that the individual rates would be zero provided a formal BF for testing the significance of the linkages between locations: rates with a BF of &gt;3 were considered well supported and formed the migration pathway. This analysis was performed for Pyrenean chamois BDV dataset (n = 50) assigned to 7 distinct geographic groups, on the basis of the sampling location, corresponding to: Alt Pallars (APA n = 7), Alta Ribagorça (ARI n = 4), Andorra (AND n = 4), Aran (ARA n = 14), Cadí (CAD n = 13), Cerdanya-Alt Urgell (CER n = 6) Freser-Setcases (FRE n = 2) (<xref ref-type="fig" rid="pone.0168232.g001">Fig 1</xref>). In preliminary analysis, Ariege strains (n = 2) significantly clustered in Cerdanya-Alt Urgell area and therefore they have been assigned to this area due to limited number of sequences available. Centroids were used as reference coordinates to build discrete geographic groups. The Maximum Credibility Tree (MCC) final tree was visualised using FigTree version 1.4 (available at <ext-link ext-link-type="uri" xlink:href="http://tree.bio.ed.ac.uk/software" xlink:type="simple">http://tree.bio.ed.ac.uk/software</ext-link>). The significant migration rates were analysed and visualised using SPREAD, which is available at <ext-link ext-link-type="uri" xlink:href="http://www.kuleuven.be/aidslab/phylogeography/SPREAD.html" xlink:type="simple">http://www.kuleuven.be/aidslab/phylogeography/SPREAD.html</ext-link>.</p>
+<fig id="pone.0168232.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0168232.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Study area.</title>
+<p>Map of northeastern Spain showing the distinct geographic areas of Pyrenean chamois BDV sampling location.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0168232.g001" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec010">
+<title>Continuous phylogeography</title>
+<p>The Pyrenean chamois BDV diffusion process in continuous space has been investigated using Beast, since localities of origin of most of the chamois carcasses were available (<xref ref-type="table" rid="pone.0168232.t001">Table 1</xref>) and georeferenced by latitude and longitude coordinates.</p>
+<p>The two unknown coordinates of the internal nodes and the root of the phylogeny, were estimated under a strict Brownian diffusion model compared to two relaxed random walk (RRW) models, relaxing the diffusion rate constancy assumption [<xref ref-type="bibr" rid="pone.0168232.ref045">45</xref>]. The two RRW models assumed respectively a Gamma distribution and a Cauchy distribution of the diffusion rates over the phylogeny. The Bayes factor comparison between models was made by estimating marginal likelihood by path-sampling (PS) and stepping-stone approaches (SS) [<xref ref-type="bibr" rid="pone.0168232.ref046">46</xref>].</p>
+<p>Uncertainty in ancestral location estimation was represented by KML polygons delimitating high probability regions [<xref ref-type="bibr" rid="pone.0168232.ref045">45</xref>].</p>
+</sec>
+<sec id="sec011">
+<title>Haplotype network analysis</title>
+<p>With the aim to infer intraspecies reticulate evolutionary relationships among samples analysed, a Median Joining Network [<xref ref-type="bibr" rid="pone.0168232.ref047">47</xref>] was constructed using PopArt (Population Analysis– <ext-link ext-link-type="uri" xlink:href="http://popart.otago.ac.nz/" xlink:type="simple">http://popart.otago.ac.nz</ext-link>.) based on sequences available in <xref ref-type="table" rid="pone.0168232.t001">Table 1</xref>.</p>
+</sec>
+</sec>
+</sec>
+<sec id="sec012" sec-type="results">
+<title>Results</title>
+<sec id="sec013">
+<title>Likelihood mapping and root-to-tip regression analysis</title>
+<p>The likelihood mapping of 10,000 random quartets showed that more than 75% were distributed at the corners of the likelihood map and 24.3% in the central area, thus indicating that the dataset contained sufficient phylogenetic information (<xref ref-type="supplementary-material" rid="pone.0168232.s001">S1 Fig</xref>).</p>
+</sec>
+<sec id="sec014">
+<title>Evolutionary rate estimation</title>
+<p>The BF analysis showed that the relaxed clock fitted the data significantly better than the strict clock (2lnBF = 9.8 for relaxed clock). Under the relaxed clock the BF analysis showed that the exponential growth model was better than the other models (2lnBF&gt;14.6). The estimated mean evolutionary rate of the 5’ UTR BDV sequences analysed was 2.9×10<sup>−3</sup> subs/site/year (95% HPD: 1.5–4.6×10<sup>−3</sup>).</p>
+</sec>
+<sec id="sec015">
+<title>Bayesian dated tree analysis</title>
+<p><xref ref-type="fig" rid="pone.0168232.g002">Fig 2</xref> represents the maximum clade credibility tree of BDV sequences from domestic hosts and chamois in France, Andorra and Spain. The ovine sequences clustered in six main clades, supported by posterior probabilities ≥ 0.99, corresponding to the previously described genetic groups, namely BDV-3, BDV-4a, 4b, BDV-5, BDV-6 and Tunisian BDV. The single pig sequence belongs to BDV-4a.</p>
+<fig id="pone.0168232.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0168232.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>The Maximum clade credibility tree of BDV 5’ UTR sequences from domestic hosts and chamois.</title>
+<p>The numbers indicate significant posterior probabilities (pp &gt;0.8) of the corresponding nodes and the scale at the bottom of the tree represents the number of years before the last sampling time (2011).</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0168232.g002" xlink:type="simple"/>
+</fig>
+<p>Concerning Pyrenean chamois, all the sequences clustered in a unique clade, supported by posterior probability (pp) of 1, that originated from BDV-4a sheep clade (pp = 0.86). There were also some highly significant subclades (pp = 1) among Pyrenean chamois sequences, clustering three geographical areas in Pyrenees: Eastern area (Freser-Setcases), Central area (Cadí, Cerdanya-Alt Urgell, Ariege) and Western area (Alt Pallars, Alta Ribagorça, Aran and Andorra). The single French Alpine chamois sequence clustered in BDV-6 ovine genetic group as recently reported [<xref ref-type="bibr" rid="pone.0168232.ref019">19</xref>].</p>
+</sec>
+<sec id="sec016">
+<title>Phylodynamic and phylogeographical analysis of Pyrenean chamois BDV</title>
+<sec id="sec017">
+<title>Discrete phylogeography</title>
+<p><xref ref-type="fig" rid="pone.0168232.g003">Fig 3</xref> represents the phylogeographic MCC tree of the Pyrenean isolates grouped in discrete geographic category on the basis of the sampling location; the branches of the MCC tree were colored according to the most probable location of their descendent nodes. The analysis of the tree highlighted a significant geographic structure, the strains obtained in a single locality tended to segregate together in homogeneous groups significantly supported by posterior probability values. Strains from Andorra resulted interspersed within Alt Pallars and Aran clades. There were three main clades, corresponding to Western, Eastern, and Central Pyrenean areas previously described (<xref ref-type="fig" rid="pone.0168232.g002">Fig 2</xref>) and some significant subclades. The most probable location of the root of the tree was Freser-Setcases, supported by the highest state posterior probability (pp = 0.58 <italic>vs</italic> pp = 0.13 for Alt Pallars, the second most probable location of the root). The tMRCA for the tree root was estimated to be 21.8 years (95% HPD = 15–33.4), corresponding to 1989. <xref ref-type="table" rid="pone.0168232.t003">Table 3</xref> summarized the tMRCA of the root and internal nodes and the most probable locations for different clades and subclades. In particular the tMRCA shared by the subclades of Western Pyrenees was located in Alt Pallars (pp = 0.63 <italic>vs</italic> 0.23 for Andorra) and the mean tMRCA was 13.1. The MRCA of Central Pyrenees was located in Cerdanya-Alt Urgell (pp = 0.86 <italic>vs</italic> 0.11 for Cadí) and the tMRCA was in 2003.</p>
+<fig id="pone.0168232.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0168232.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>The maximum clade credibility tree of BDV 5’ UTR from Pyrenean chamois.</title>
+<p>The branches are coloured on the basis of the most probable location of the descendent nodes (Alt Pallars = APA, Alta Ribagorça = ARI, Andorra = AND, Aran = ARA, Cadí = CAD, Cerdanya-Alt Urgell = CER, Freser-Setcases = FRE). The numbers on the internal nodes indicate significant posterior probabilities (pp&gt;0.8), and the scale at the bottom of the tree represents the number of years before the last sampling time (2011). The main geographical clades corresponding to Western, Eastern, and Central Pyrenean areas have been highlighted.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0168232.g003" xlink:type="simple"/>
+</fig>
+<table-wrap id="pone.0168232.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0168232.t003</object-id>
+<label>Table 3</label> <caption><title>Time of the most common ancestor estimates of Pyrenean chamois BDV, credibility interval (95% HPD) of the main clades observed in the MCC tree, with the corresponding most probable locations, and state posterior probability.</title></caption>
+<alternatives>
+<graphic id="pone.0168232.t003g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0168232.t003" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">CLADE</th>
+<th align="center">Subclade</th>
+<th align="center">tMRCA<xref ref-type="table-fn" rid="t003fn001"><sup>1</sup></xref></th>
+<th align="center">CI tMRCA U<xref ref-type="table-fn" rid="t003fn002"><sup>2</sup></xref></th>
+<th align="center">CI tMRCA L<xref ref-type="table-fn" rid="t003fn003"><sup>3</sup></xref></th>
+<th align="center">Locality</th>
+<th align="center">State pp<xref ref-type="table-fn" rid="t003fn004"><sup>4</sup></xref></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ROOT</td>
+<td align="center"/>
+<td align="center">1989</td>
+<td align="center">1978</td>
+<td align="center">1996</td>
+<td align="center">Freser-Setcases</td>
+<td align="center">0,58</td>
+</tr>
+<tr>
+<td align="left">EASTERN PYRENEES</td>
+<td align="center"/>
+<td align="center">1995</td>
+<td align="center">1994</td>
+<td align="center">1996</td>
+<td align="center">Freser-Setcases</td>
+<td align="center">0,96</td>
+</tr>
+<tr>
+<td align="left">WESTERN PYRENEES</td>
+<td align="center"/>
+<td align="center">1998</td>
+<td align="center">1992</td>
+<td align="center">2001</td>
+<td align="center">Alt Pallars</td>
+<td align="center">0,63</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="center">Alt Pallars</td>
+<td align="center">1999</td>
+<td align="center">1995</td>
+<td align="center">2002</td>
+<td align="center">Alt Pallars</td>
+<td align="center">0,73</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="center">Aran</td>
+<td align="center">2003</td>
+<td align="center">2001</td>
+<td align="center">2005</td>
+<td align="center">Aran</td>
+<td align="center">0,92</td>
+</tr>
+<tr>
+<td align="left">CENTRAL PYRENEES</td>
+<td align="center"/>
+<td align="center">2003</td>
+<td align="center">2001</td>
+<td align="center">2004</td>
+<td align="center">Cerdanya-Alt Urgell</td>
+<td align="center">0,86</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="center">Cadí</td>
+<td align="center">2004</td>
+<td align="center">2003</td>
+<td align="center">2004</td>
+<td align="center">Cadí</td>
+<td align="center">0,97</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t003fn001"><p><sup>1</sup> tMRCa: time of the most common ancestor</p></fn>
+<fn id="t003fn002"><p><sup>2</sup> CI tMRCA U: upper credibility interval</p></fn>
+<fn id="t003fn003"><p><sup>3</sup> CI tMRCA L: lower credibility interval</p></fn>
+<fn id="t003fn004"><p><sup>4</sup> pp: posterior probability</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>Bayesian phylogeography showed statistically well supported links at the Bayes factor test (BF &gt;3) between the following geographic localities: Alt Pallars and Andorra (BF = 19.57), Aran and Andorra (BF = 64.66), Aran and Alta Ribagorça (BF = 11.94), Cerdanya-Alt Urgell and Cadí (BF = 56.51).</p>
+<p>The Median Joining Network obtained (<xref ref-type="fig" rid="pone.0168232.g004">Fig 4</xref>) is congruent with results from Bayesian phylogeny on Pyrenean chamois BDV strains, where strains from a single locality tended to segregate together, with the exception of strains from Andorra: they resulted interspersed within Alt Pallars and Aran in the Bayesian tree clades, while in the reticulate network haplotypes are shared only with Aran. This evidence may explain the paraphyletic position of Andorra strains in Bayesian tree. Moreover, strains from Alt Pallars and Alta Ribagorça could derive from haplotypes of both Andorra and Aran localities.</p>
+<fig id="pone.0168232.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0168232.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Median-joining network of the 14 haplotypes observed in the BDVs isolates analyzed.</title>
+<p>Branch lengths are proportional to number of mutations; circles diameter is proportional to haplotypes frequency, transversal bars at branches represent SNPs. The circles are colored on the basis of haplotypes geographical origin (Alt Pallars = APA, Alta Ribagorça = ARI, Andorra = AND, Aran = ARA, Cadí = CAD, Cerdanya-Alt Urgell = CER, Freser-Setcases = FRE).</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0168232.g004" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec018">
+<title>Continuous phylogeography</title>
+<p>In order to reconstruct the evolutionary history of the BDV-4 dispersion in a 2 dimensional space a diffusion analysis in continuous space has been performed. A strict Brownian diffusion model, assuming a homogeneous diffusion rates over the phylogeny, was compared with relaxed random walk (RWW) models, assuming different diffusion rates on each branch of the tree. The RWW models gave always better performances than homogenous BD model. In particular a Gamma-distributed RWW diffusion rates model fitted the data better than the other RWW models (Gamma-distribution RWW vs. homogenous BD: 2lnBF = 16.24 by PS and 25.9 by SS; Gamma-distribution vs Cauchy-distribution RWW: 2lnBF = 25.12 and 26.8 respectively). On the basis of the continuous phylogeography, the tree root was placed somewhere between Freser-Setcases and Cerdanya-Alt Urgell (estimated coordinates 42.42 N and 1.9 E) in the early 1990s. <xref ref-type="fig" rid="pone.0168232.g005">Fig 5</xref> summarize the continuous pattern of BDV dispersion in calendar time scale. A more detailed and animated visualization is provided in supplementary panels (<xref ref-type="supplementary-material" rid="pone.0168232.s002">S2 Fig</xref>) and at <xref ref-type="supplementary-material" rid="pone.0168232.s003">S1 Video</xref>.</p>
+<fig id="pone.0168232.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0168232.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>The inferred spatiotemporal dynamics of BDV in Pyrenean chamois.</title>
+<p>The figure summarize the most significant migration links in the interested Pyrenean area. The putative root of BDV strains is highlighted with a orange circle. More detailed results are reported in supplementary panels (<xref ref-type="supplementary-material" rid="pone.0168232.s002">S2 Fig</xref>) and at <xref ref-type="supplementary-material" rid="pone.0168232.s003">S1 Video</xref>.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0168232.g005" xlink:type="simple"/>
+</fig>
+<p>Initially the virus spread to Freser-Setcases and westward, reaching a region between Cerdanya-Alt Urgell and Andorra in 1997. Then it continued its westward diffusion, spreading in a region including Alt Pallars and Aran, between 2000 and 2007, which represented two important radiation points. In particular, from Aran the virus spread southward to Alta Ribagorça and from there it came back eastward, reaching Andorra in 2009. A second principal phylogenetic lineage diffused southward, through Cadí in the early 2005, where the virus was dispersed (radiated) all around in 2005–2007. Globally the virus spread westward for more than 125 km and southward for about 50km. The estimated diffusion rate of the epidemic was about 13.1 km/year (95% HPD 5.2–21.4 km/year).</p>
+</sec>
+</sec>
+</sec>
+<sec id="sec019" sec-type="conclusions">
+<title>Discussion</title>
+<p>Identification and genetic characterization of BDV strains from Pyrenean chamois have been performed since the first outbreaks [<xref ref-type="bibr" rid="pone.0168232.ref027">27</xref>], indeed the intensive monitoring of found dead or hunted chamois allowed to collect a large number of strains from different areas in the Pyrenees and therefore to apply advanced phylogenetic analysis. Previous investigations performed phylogenetic analysis using the neighbor-joining (NJ) method and classified Pyrenean chamois strains within BDV-4 genotype [<xref ref-type="bibr" rid="pone.0168232.ref027">27</xref>,<xref ref-type="bibr" rid="pone.0168232.ref028">28</xref>].</p>
+<p>In order to reconstruct origin, time of introduction and pathways of dispersion of the Pyrenean chamois BDV genetic variants, a comprehensive collection of publicly available ovine and chamois BDV sequences of Spanish, Andorran and French origin has been analyzed by using a Bayesian framework allowing the spatial–temporal reconstruction of the evolutionary dynamics of highly variable viruses [<xref ref-type="bibr" rid="pone.0168232.ref025">25</xref>].</p>
+<p>The evolutionary rate estimated for BDV sequences showed values, between 1.5 and 4.6 substitutions for 1000 nucleotides, in agreement with the range observed for other RNA viruses [<xref ref-type="bibr" rid="pone.0168232.ref048">48</xref>]. Interestingly a similar evolutionary rate was already estimated for BVDV-1 in cattle [<xref ref-type="bibr" rid="pone.0168232.ref049">49</xref>], using the same genomic region, namely 5’-UTR, commonly considered conserved [<xref ref-type="bibr" rid="pone.0168232.ref050">50</xref>], highlighting the evolution of pestivirus in short period of time.</p>
+<p>All the Pyrenean chamois isolates cluster in a unique highly significant clade within the BDV-4 genotypes, including chamois sequences from Spain, France and Andorra, in agreement with previous analysis using NJ methods performed on a more restricted dataset [<xref ref-type="bibr" rid="pone.0168232.ref009">9</xref>]. On the whole, BDV-4 includes also Spanish ovine isolates and segregate into three highly significant subclades: BDV-4a, BDV-4b [<xref ref-type="bibr" rid="pone.0168232.ref034">34</xref>] and a third one of the Pyrenean chamois isolates. The phylodynamic and phylogeographical analysis suggests that BDV-4a ovine and Pyrenean chamois clades shared a common ancestor, supporting the hypothesis [<xref ref-type="bibr" rid="pone.0168232.ref051">51</xref>] that the chamois viral genetic variant originated from sheep. In this respect, BDV-4a represents a wide dispersed genetic group in ovine population in different areas in Spain [<xref ref-type="bibr" rid="pone.0168232.ref034">34</xref>].</p>
+<p>The entire diversity of Pyrenean chamois BDV genetic group is likely descended from a single introduction from sheep that has generated a founder effect on the chamois population due to intraspecies spread and spatial dispersion.</p>
+<p>Phylogenetic and network analysis showed that the Pyrenean chamois BDV isolates analyzed segregated on a geographical basis into three highly significant clades corresponding to the East, Central and West Pyrenees. Given this strong spatial structure of the isolates and in order to have a complete reconstruction of the origin and pathway of dispersion of the BDV epidemic, we initially employed a discrete phylogeography approach. In this reconstruction, BDV chamois genetic variant most probably originated between Freser-Setcases and Cerdanya-Alt Urgell, dating back to a time span between 1978 and 1996, with a mean estimation falling in 1989. This period of time confirms the relatively recent emergence of BDV in Pyrenean chamois and is highly consistent with retrospective sero-epidemiological and molecular investigations that reported BDV at least since 1990 and 1995 respectively in Spanish Pyrenees [<xref ref-type="bibr" rid="pone.0168232.ref031">31</xref>] and in French Pyrenees [<xref ref-type="bibr" rid="pone.0168232.ref052">52</xref>].</p>
+<p>Afterwards, two highly divergent Pyrenean clades originated: the Western Pyrenean dating back to late 1990s, originating from Alt Pallars and reaching the westernmost part of the spreading area (Aran) and Alta Ribagorça in 2011, and the Central-Southern Pyrenean originating in early 2000s from Cerdanya-Alt Urgell and reaching Cadí only later.</p>
+<p>The main difficulty in the discrete analysis was to discriminate the different localities in such a restricted area. In order to solve this problem, the centroid positions of the recovered carcasses have been used, but even in this case the pathway of the diffusion of the infection was only inadequately described by the significant rates between discrete localities. This might depend on the movements of wild animals in mountain territory in relation to ecological, ethological factors and also human management. Moreover, it is well known that discrete phylogeography is strongly influenced from the set of observed locations of the sampled isolates. For all these reasons, given that latitude and longitude coordinates were available for each isolate, the phylogeography was more deeply analyzed under a continuous space diffusion model that allowed a more detailed description of the pattern of dispersion of the virus in the Pyrenean area.</p>
+<p>The main pathways of dispersion reconstructed by discrete phylogeography have been strongly supported also by the two-dimensional dispersion of BDV in continuous space that showed two main streams, corresponding to the two evolutionary lineages in the tree: the first mainstream had a westward direction since the early 90s and a second stream arise in Cerdanya-Alt Urgell.</p>
+<p>The first one spread in Alt Pallars and by about 2007 reached its westernmost area (Aran), then it diverged southward and turned back eastward. In this new pathway of dispersion the infection reached areas previously free of the virus, such as Alta Ribagorça in the South, or areas already affected, such as Alt Pallars. In Andorra, virus dispersion, reported since the early 2000s [<xref ref-type="bibr" rid="pone.0168232.ref027">27</xref>], has been spatial and temporal related to Alt Pallars and Aran areas as suggested by [<xref ref-type="bibr" rid="pone.0168232.ref032">32</xref>]. The pathway of dispersion of isolates among these areas suggests a complex exchange between neighboring areas, supporting the epidemiological evidence of a frequent circulation of BDV in Western Pyrenees [<xref ref-type="bibr" rid="pone.0168232.ref017">17</xref>]. The second stream that arise in Cerdanya-Alt Urgell heads south, reaching Cadí, and dispersing all around.</p>
+<p>The estimated diffusion rate of the BDV epidemic (13.1 km/year), similar to rabies virus in established enzootic situations in wildlife animals [<xref ref-type="bibr" rid="pone.0168232.ref053">53</xref>], concur to the observed phylogeographic pattern with a spatial segregation of lineages.</p>
+<p>In conclusion, the phylogeographic analysis of Pyrenean chamois BDV strongly suggests a recent introduction from sheep (dated back to the early 90s) that generated a founder effect within the chamois population. Moreover the strong spatial structure, with the strains obtained in a single locality that tended to segregate together in homogeneous groups, and the significant pathways of viral dispersion among the areas allowed to reconstruct both events of infection in a single area and migrations events, occurring between neighboring areas. Finally, this study highlights the importance of using continuous space phylogeography, when geographical coordinates of each isolate are available, in order to obtain a detailed reconstruction of the virus dispersion pattern.</p>
+</sec>
+<sec id="sec020">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0168232.s001" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0168232.s001" xlink:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title>Likelihood map of the BDV 5’UTR sequences.</title>
+<p>Each dot represents the likelihoods of the three possible unrooted trees per quartet randomly selected from the data set. The numbers indicate the percentage of dots in the centre of the triangle. Fully resolved trees fell at the corners and the unresolved fell at the centre area.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0168232.s002" mimetype="application/vnd.openxmlformats-officedocument.presentationml.presentation" position="float" xlink:href="info:doi/10.1371/journal.pone.0168232.s002" xlink:type="simple">
+<label>S2 Fig</label>
+<caption>
+<title>The inferred spatiotemporal dynamics of BDV in Pyrenean chamois.</title>
+<p>The panels provide the continuous pattern of BDV dispersion for 1991 (A), 1997 (B), 2000 (C), 2007 (D) and 2011 (E). Lines represent MCC phylogeny branches projected on the map, based on satellite pictures made available in Google Earth (<ext-link ext-link-type="uri" xlink:href="http://earth.google.com/" xlink:type="simple">http://earth.google.com</ext-link>). Uncertainty in ancestral location estimation was represented by KML full coloured polygons (green gradient) delimitating high probability regions. Bright green and blue circles (D) highlight the two principal BDV lineages dispersion areas.</p>
+<p>(PPTX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0168232.s003" mimetype="video/mp4" position="float" xlink:href="info:doi/10.1371/journal.pone.0168232.s003" xlink:type="simple">
+<label>S1 Video</label>
+<caption>
+<title>Animated visualization of the continuous pattern of Pyrenean chamois BDV dispersion.</title>
+<p>(MP4)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>The authors thank the staff of the Reserves of Catalonia and Andorra, and to the Hunters Associations of Val d’Aran and Catalonia.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0168232.ref001"><label>1</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Thiel</surname> <given-names>HJ</given-names></name>, <name name-style="western"><surname>Collett</surname> <given-names>MS</given-names></name>, <name name-style="western"><surname>Gould</surname> <given-names>EA</given-names></name>, <name name-style="western"><surname>Heinz</surname> <given-names>FX</given-names></name>, <name name-style="western"><surname>Houghton</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Meyers</surname> <given-names>G</given-names></name>, <etal>et al</etal>. <chapter-title>Family Flaviviridae</chapter-title>.<source>In Virus taxonomy, Eighth Report of the International Committee on Taxonomy of Viruses</source>, <name name-style="western"><surname>Fauquet</surname> <given-names>C. M.</given-names></name>, <name name-style="western"><surname>Mayo</surname> <given-names>M. A.</given-names></name>, <name name-style="western"><surname>Maniloff</surname> <given-names>J.</given-names></name>,<name name-style="western"><surname>Deselberger</surname> <given-names>R. U.</given-names></name>, and <name name-style="western"><surname>Ball</surname> <given-names>L. A.</given-names></name> editors. <publisher-name>Elsevier Academic Press</publisher-name>, <publisher-loc>New York, New York</publisher-loc>; <year>2005</year>. pp. <fpage>981</fpage>–<lpage>998</lpage>.</mixed-citation></ref>
+<ref id="pone.0168232.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vilcek</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Herring</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Herring</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Nettleton</surname> <given-names>PF</given-names></name>, <name name-style="western"><surname>Lowings</surname> <given-names>JP</given-names></name>. <article-title>Pestiviruses isolated from pigs, cattle and sheep can be allocated into at least three genogroups using polymerase chain reaction and restriction endonuclease analysis</article-title>. <source>Arch Virol</source>. <year>1994</year>;<volume>136</volume>: <fpage>309</fpage>–<lpage>323</lpage>. <object-id pub-id-type="pmid">8031236</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cranwell</surname> <given-names>MP</given-names></name>, <name name-style="western"><surname>Otter</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Errington</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Hogg</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Wakeley</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Sandvik</surname> <given-names>T</given-names></name>. <article-title>Detection of Border disease virus in cattle</article-title>. <source>Vet Rec</source>. <year>2007</year>;<volume>161</volume>: <fpage>211</fpage>–<lpage>212</lpage>.</mixed-citation></ref>
+<ref id="pone.0168232.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Braun</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Bachofen</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Büchi</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Hässig</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Peterhans</surname> <given-names>E</given-names></name>. <article-title>Infection of cattle with Border disease virus by sheep on communal alpine pastures</article-title>. <source>Schweiz Arch Tierheilk</source>. <year>2013</year>;<volume>155</volume>: <fpage>123</fpage>–<lpage>128</lpage>.</mixed-citation></ref>
+<ref id="pone.0168232.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Becher</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Orlich</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Shannon</surname> <given-names>AD</given-names></name>, <name name-style="western"><surname>Horner</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>König</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Thiel</surname> <given-names>HJ</given-names></name>. <article-title>Phylogenetic analysis of pestivirus from domestic and wild ruminants</article-title>. <source>J Gen Virol</source>. <year>1997</year>;<volume>78</volume>: <fpage>1357</fpage>–<lpage>1366</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1099/0022-1317-78-6-1357" xlink:type="simple">10.1099/0022-1317-78-6-1357</ext-link></comment> <object-id pub-id-type="pmid">9191930</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Becher</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Avalos Ramirez</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Orlich</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Cedillo Rosales</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>König</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Schweizer</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Genetic and antigenic characterization of novel pestivirus genotypes: implications for classification</article-title>. <source>Virology</source>. <year>2003</year>;<volume>311</volume>: <fpage>96</fpage>–<lpage>104</lpage>. <object-id pub-id-type="pmid">12832207</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hurtado</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Garcia-Perez</surname> <given-names>A L</given-names></name>. <name name-style="western"><surname>Aduriz</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Juste</surname> <given-names>RA</given-names></name>. <article-title>Genetic diversity of ruminant pestiviruses from Spain</article-title>. <source>Virus Res</source>. <year>2003</year>;<volume>92</volume>: <fpage>67</fpage>–<lpage>73</lpage>. <object-id pub-id-type="pmid">12606077</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Thabti</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Letellier</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Hammami</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Pépin</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ribière</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Mesplède</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Detection of a novel border disease virus subgroup in Tunisian sheep</article-title>. <source>Arch Virol</source>. <year>2005</year>;<volume>150</volume>: <fpage>215</fpage>–<lpage>229</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s00705-004-0427-3" xlink:type="simple">10.1007/s00705-004-0427-3</ext-link></comment> <object-id pub-id-type="pmid">15578240</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Marco</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Rosell</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Cabezón</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Mentaberre</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Casas</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Velarde</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Border disease virus among chamois, Spain</article-title>. <source>Emerg Infect Dis</source>. <year>2009</year>;<volume>15</volume>: <fpage>448</fpage>–<lpage>451</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3201/eid1503.081155" xlink:type="simple">10.3201/eid1503.081155</ext-link></comment> <object-id pub-id-type="pmid">19239761</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kirkland</surname> <given-names>PD</given-names></name>, <name name-style="western"><surname>Frost</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Finlaison</surname> <given-names>DS</given-names></name>, <name name-style="western"><surname>King</surname> <given-names>KR</given-names></name>, <name name-style="western"><surname>Ridpath</surname> <given-names>JF</given-names></name>, <name name-style="western"><surname>Gu</surname> <given-names>X</given-names></name>. <article-title>Identification of a novel virus in pigs-Bungowannah virus: a possible new species of pestivirus</article-title>. <source>Virus Res</source>. <year>2007</year>;<volume>129</volume>: <fpage>26</fpage>–<lpage>34</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.virusres.2007.05.002" xlink:type="simple">10.1016/j.virusres.2007.05.002</ext-link></comment> <object-id pub-id-type="pmid">17561301</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Finlaison</surname> <given-names>DS</given-names></name>, <name name-style="western"><surname>King</surname> <given-names>KR</given-names></name>, <name name-style="western"><surname>Frost</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Kirkland</surname> <given-names>PD</given-names></name>. <article-title>Field and laboratory evidence that Bungowannah virus, a recently recognised pestivirus, is the causative agent of the porcine myocarditis syndrome (PMC)</article-title>. <source>Vet Microbiol</source>. <year>2009</year>;<volume>136</volume>: <fpage>259</fpage>–<lpage>265</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.vetmic.2008.11.026" xlink:type="simple">10.1016/j.vetmic.2008.11.026</ext-link></comment> <object-id pub-id-type="pmid">19157727</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Giammarioli</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>La Rocca</surname> <given-names>SA</given-names></name>, <name name-style="western"><surname>Steinbach</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Casciari</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>De Mia</surname> <given-names>GM</given-names></name>. <article-title>Genetic and antigenic typing of border disease virus (BDV) isolates from Italy reveals the existence of a novel BDV group</article-title>. <source>Vet Microbiol</source>. <year>2011</year>;<volume>147</volume>: <fpage>231</fpage>–<lpage>236</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.vetmic.2010.06.027" xlink:type="simple">10.1016/j.vetmic.2010.06.027</ext-link></comment> <object-id pub-id-type="pmid">20656426</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Oguzoglu</surname> <given-names>TC</given-names></name>, <name name-style="western"><surname>Tan</surname> <given-names>MT</given-names></name>, <name name-style="western"><surname>Toplu</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Demir</surname> <given-names>AB</given-names></name>, <name name-style="western"><surname>Bilge-Dagalp</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Karaoglu</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Border disease virus (BDV) infections of small ruminants in Turkey: a new BDV subgroup?</article-title> <source>Vet Microbiol</source>. <year>2009</year>;<volume>135</volume>: <fpage>374</fpage>–<lpage>379</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.vetmic.2008.09.085" xlink:type="simple">10.1016/j.vetmic.2008.09.085</ext-link></comment> <object-id pub-id-type="pmid">19019578</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Peterhans</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Bachofen</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Stalder</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Schweizer</surname> <given-names>M</given-names></name>. <article-title>Cytopathic bovine viral diarrhea viruses (BVDV): emerging pestiviruses doomed to extinction</article-title>.<source>Vet Res</source>. <year>2010</year>;<volume>41</volume>: <fpage>44</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1051/vetres/2010016" xlink:type="simple">10.1051/vetres/2010016</ext-link></comment> <object-id pub-id-type="pmid">20197026</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref015"><label>15</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Marco</surname> <given-names>I.</given-names></name> <chapter-title>Pestivirus of chamois and Border Disease</chapter-title>. In: <source>Infectious diseases of wild mammals and birds in Europe</source>. <name name-style="western"><surname>Gavier-Widén</surname> <given-names>D.</given-names></name>, <name name-style="western"><surname>Duff</surname> <given-names>J.P.</given-names></name> and <name name-style="western"><surname>Meredith</surname> <given-names>A.</given-names></name> editors. <publisher-name>Wiley-Blackwell</publisher-name>, <publisher-loc>West Sussex, UK</publisher-loc>. <year>2012</year>.pp. <fpage>147</fpage>–<lpage>152</lpage>.</mixed-citation></ref>
+<ref id="pone.0168232.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Marco</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Cabezón</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Velarde</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Fernández-Sirera</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Colom-Cadena</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Serrano</surname> <given-names>E</given-names></name>, <etal>et al</etal>. <article-title>The two sides of border disease in Pyrenean chamois (<italic>Rupicapra pyrenaica</italic>): silent persistence and population collapse</article-title>. <source>Anim. Health Res. Rev</source>. <year>2015</year>;<volume>16</volume>: <fpage>70</fpage>–<lpage>77</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1017/S1466252315000055" xlink:type="simple">10.1017/S1466252315000055</ext-link></comment> <object-id pub-id-type="pmid">26050575</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fernández‐Sirera</surname> <given-names>L.</given-names></name>, <name name-style="western"><surname>Cabezón</surname> <given-names>O.</given-names></name>, <name name-style="western"><surname>Allepuz</surname> <given-names>A.</given-names></name>, <name name-style="western"><surname>Rosell</surname> <given-names>R.</given-names></name>, <name name-style="western"><surname>Riquelme</surname> <given-names>C.</given-names></name>, <name name-style="western"><surname>Serrano</surname> <given-names>E.</given-names></name>, <etal>et al</etal>. <article-title>Two different epidemiological scenarios of border disease in the populations of Pyrenean chamois (<italic>Rupicapra p</italic>. <italic>pyrenaica</italic>) after the first disease outbreaks</article-title>. <source>PLoS ONE</source> <year>2012a</year>;<volume>7</volume>, <fpage>e51031</fpage>.</mixed-citation></ref>
+<ref id="pone.0168232.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Serrano</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Colom-Cadena</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Gilot-Fromont</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Garel</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Cabezón</surname> <given-names>O</given-names></name>,<name name-style="western"><surname>Velarde</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Border Disease Virus: An Exceptional Driver of Chamois Populations Among Other Threats</article-title>. <source>Front Microbiol</source>. <year>2015</year>;<volume>6</volume>:<fpage>1307</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3389/fmicb.2015.01307" xlink:type="simple">10.3389/fmicb.2015.01307</ext-link></comment> <object-id pub-id-type="pmid">26733943</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Martin</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Duquesne</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Adam</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Belleau</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Gauthier</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Champion</surname> <given-names>JL</given-names></name>, <etal>et al</etal>. <article-title>Pestiviruses infections at the wild and domestic ruminants interface in the French Southern Alps</article-title>. <source>Vet Microbiol</source>. <year>2015</year>;<volume>175</volume>: <fpage>341</fpage>–<lpage>348</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.vetmic.2014.11.025" xlink:type="simple">10.1016/j.vetmic.2014.11.025</ext-link></comment> <object-id pub-id-type="pmid">25532780</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Casaubon</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Vogt</surname> <given-names>HR</given-names></name>, <name name-style="western"><surname>Stalder</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Hug</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Ryser-Degiorgis</surname> <given-names>MP</given-names></name>. <article-title>Bovine viral diarrhea virus in free-ranging wild ruminants in Switzerland: low prevalence of infection despite regular interactions with domestic livestock</article-title>. <source>BMC Vet Res</source>. <year>2012</year>;<volume>8</volume>: <fpage>204</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1746-6148-8-204" xlink:type="simple">10.1186/1746-6148-8-204</ext-link></comment> <object-id pub-id-type="pmid">23107231</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Krametter</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Nielsen</surname> <given-names>SS</given-names></name>, <name name-style="western"><surname>Loitsch</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Froetscher</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Benetka</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Moestl</surname> <given-names>K</given-names></name>, <etal>et al</etal>. <article-title>Pestivirus exposure in free-living and captive deer in Austria</article-title>. <source>J Wildl Dis</source>. <year>2004</year>;<volume>40</volume>: <fpage>791</fpage>–<lpage>795</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.7589/0090-3558-40.4.791" xlink:type="simple">10.7589/0090-3558-40.4.791</ext-link></comment> <object-id pub-id-type="pmid">15650102</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Citterio</surname> <given-names>CV</given-names></name>, <name name-style="western"><surname>Luzzago</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Sala</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Sironi</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Gatti</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Gaffuri</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Serological study of a population of alpine chamois (<italic>Rupicapra r rupicapra</italic>) affected by an outbreak of respiratory disease</article-title>. <source>Vet Rec</source>. <year>2003</year>;<volume>153</volume>: <fpage>592</fpage>–<lpage>6</lpage>. <object-id pub-id-type="pmid">14640327</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Olde Riekerink</surname> <given-names>RG</given-names></name>, <name name-style="western"><surname>Dominici</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Barkema</surname> <given-names>HW</given-names></name>, <name name-style="western"><surname>de Smit</surname> <given-names>AJ</given-names></name>. <article-title>Seroprevalence of pestivirus in four species of alpine wild ungulates in the High Valley of Susa, Italy</article-title>. <source>Vet Microbiol</source>. <year>2005</year>;<volume>108</volume>: <fpage>297</fpage>–<lpage>303</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.vetmic.2005.04.014" xlink:type="simple">10.1016/j.vetmic.2005.04.014</ext-link></comment> <object-id pub-id-type="pmid">15922522</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gaffuri</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Giacometti</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Tranquillo</surname> <given-names>VM</given-names></name>, <name name-style="western"><surname>Magnino</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Cordioli</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Lanfranchi</surname> <given-names>P</given-names></name>. <article-title>Serosurvey of roe deer, chamois and domestic sheep in the central Italian Alps</article-title>. <source>J Wildl Dis</source>. <year>2006</year>;<volume>42</volume>: <fpage>685</fpage>–<lpage>690</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.7589/0090-3558-42.3.685" xlink:type="simple">10.7589/0090-3558-42.3.685</ext-link></comment> <object-id pub-id-type="pmid">17092903</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lemey</surname> <given-names>P.</given-names></name>, <name name-style="western"><surname>Rambaut</surname> <given-names>A.</given-names></name>, <name name-style="western"><surname>Drummond</surname> <given-names>A.J.</given-names></name>, <name name-style="western"><surname>Suchard</surname> <given-names>M.A.</given-names></name> <article-title>Bayesian phylogeography finds its roots</article-title>. <source>PLoS Comput. Biol</source>. <year>2009</year>;<volume>5</volume>, <fpage>e1000520</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pcbi.1000520" xlink:type="simple">10.1371/journal.pcbi.1000520</ext-link></comment> <object-id pub-id-type="pmid">19779555</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rosell</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Cabezón</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Pujols</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Domingo</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Muñoz</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Núñez</surname> <given-names>JI</given-names></name>, <etal>et al</etal>. <article-title>Identification of a porcine pestivirus as a border disease virus from naturally infected pigs in Spain</article-title>. <source>Vet Rec</source>. <year>2014</year>;<volume>174</volume>: <fpage>18</fpage>.</mixed-citation></ref>
+<ref id="pone.0168232.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Arnal</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Fernández-de-Luco</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Riba</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Maley</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Gilray</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Willoughby</surname> <given-names>K</given-names></name>, <etal>et al</etal>. <article-title>A novel pestivirus associated with deaths in Pyrenean chamois (<italic>Rupicapra pyrenaica pyrenaica</italic>)</article-title>. <source>J Gen Virol</source>. <year>2004</year>;<volume>85</volume>: <fpage>3653</fpage>–<lpage>3657</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1099/vir.0.80235-0" xlink:type="simple">10.1099/vir.0.80235-0</ext-link></comment> <object-id pub-id-type="pmid">15557238</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hurtado</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Aduriz</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Gómez</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Oporto</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Juste</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Lavin</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Molecular identification of a new pestivirus associated with increased mortality in the Pyrenean Chamois (<italic>Rupicapra pyrenaica pyrenaica</italic>) in Spain</article-title>. <source>J Wildl Dis</source>. <year>2004</year>;<volume>40</volume>: <fpage>796</fpage>–<lpage>800</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.7589/0090-3558-40.4.796" xlink:type="simple">10.7589/0090-3558-40.4.796</ext-link></comment> <object-id pub-id-type="pmid">15650103</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Marco</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Rosell</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Cabezón</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Mentaberre</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Casas</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Velarde</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Epidemiological study of border disease virus infection in Southern chamois (<italic>Rupicapra pyrenaica</italic>) after an outbreak of disease in the Pyrenees (NE Spain)</article-title>.<source>Vet Microbiol</source>. <year>2008</year>;<volume>127</volume>: <fpage>29</fpage>–<lpage>38</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.vetmic.2007.08.015" xlink:type="simple">10.1016/j.vetmic.2007.08.015</ext-link></comment> <object-id pub-id-type="pmid">17881162</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cabezón</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Rosell</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Velarde</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Mentaberre</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Casas-Díaz</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Lavín</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Border disease virus shedding and detection in naturally infected Pyrenean chamois (<italic>Rupicapra pyrenaica</italic>)</article-title>. <source>J Vet Diagn Invest</source>. <year>2010</year>;<volume>22</volume>: <fpage>744</fpage>–<lpage>747</lpage>. <object-id pub-id-type="pmid">20807933</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Marco</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Cabezón</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Rosell</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Fernández-Sirera</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Allepuz</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Lavín</surname> <given-names>S</given-names></name>. <article-title>Retrospective study of pestivirus infection in Pyrenean chamois (<italic>Rupicapra pyrenaica</italic>) and other ungulates in the Pyrenees (NE Spain)</article-title>.<source>Vet Microbiol</source>. <year>2011</year>;<volume>149</volume>: <fpage>17</fpage>–<lpage>22</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.vetmic.2010.09.032" xlink:type="simple">10.1016/j.vetmic.2010.09.032</ext-link></comment> <object-id pub-id-type="pmid">20961710</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fernández-Sirera</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Riba</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Cabezón</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Rosell</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Serrano</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Lavín</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Surveillance of border disease in wild ungulates and an outbreak in Pyrenean chamois (<italic>Rupicapra pyrenaica pyrenaica</italic>) in Andorra</article-title>. <source>J Wildl Dis</source>. <year>2012b</year>; <volume>48</volume>: <fpage>1021</fpage>–<lpage>1029</lpage>.</mixed-citation></ref>
+<ref id="pone.0168232.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Valdazo-González</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Alvarez-Martínez</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Greiser-Wilke</surname> <given-names>I</given-names></name>. <article-title>Genetic typing and prevalence of Border disease virus (BDV) in small ruminant flocks in Spain</article-title>. <source>Vet Microbiol</source>. <year>2006</year>;<volume>117</volume>: <fpage>141</fpage>–<lpage>153</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.vetmic.2006.06.008" xlink:type="simple">10.1016/j.vetmic.2006.06.008</ext-link></comment> <object-id pub-id-type="pmid">16857326</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Valdazo-González</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Alvarez-Martínez</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Sandvik</surname> <given-names>T</given-names></name>. <article-title>Genetic and antigenic typing of border disease virus isolates in sheep from the Iberian Peninsula</article-title>. <source>Vet J</source>. <year>2007</year>;<volume>174</volume>: <fpage>316</fpage>–<lpage>324</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.tvjl.2006.10.002" xlink:type="simple">10.1016/j.tvjl.2006.10.002</ext-link></comment> <object-id pub-id-type="pmid">17126573</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref035"><label>35</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dubois</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Russo</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Prigent</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Thiéry</surname> <given-names>R</given-names></name>. <article-title>Genetic characterization of ovine pestiviruses isolated in France, between 1985 and 2006</article-title>. <source>Vet Microbiol</source>. <year>2008</year>;<volume>130</volume>: <fpage>69</fpage>–<lpage>79</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.vetmic.2008.01.002" xlink:type="simple">10.1016/j.vetmic.2008.01.002</ext-link></comment> <object-id pub-id-type="pmid">18299176</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref036"><label>36</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vega</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Rosell</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Orden</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Pérez</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Marín</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>González</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Antigenic and molecular characterisation of Border disease virus associated with high mortality in lambs in Spain</article-title>. <source>Vet Rec Open</source>. <year>2015</year>;<volume>2</volume>: <fpage>e000048</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1136/vetreco-2014-000048" xlink:type="simple">10.1136/vetreco-2014-000048</ext-link></comment> <object-id pub-id-type="pmid">26392884</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref037"><label>37</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vilcek</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Belák</surname> <given-names>S</given-names></name>. <article-title>Genetic identification of pestivirus strain Frijters as a border disease virus from pigs</article-title>. <source>J Virol Methods</source>. <year>1996</year>;<volume>60</volume>: <fpage>103</fpage>–<lpage>108</lpage>. <object-id pub-id-type="pmid">8795011</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref038"><label>38</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schmidt</surname> <given-names>HA</given-names></name>, <name name-style="western"><surname>Strimmer</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Vingron</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>von Haeseler</surname> <given-names>A</given-names></name>. <article-title>TREE-PUZZLE: maximum likelihood phylogenetic analysis using quartets and parallel computing</article-title>. <source>Bioinformatics</source> <year>2002</year>;<volume>18</volume>: <fpage>502</fpage>–<lpage>504</lpage>. <object-id pub-id-type="pmid">11934758</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref039"><label>39</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Strimmer</surname> <given-names>HA</given-names></name>, <name name-style="western"><surname>von Haeseler</surname> <given-names>A</given-names></name>. <article-title>Likelihood-mapping: a simple method to visualize phylogenetic content of a sequence alignment</article-title>. <source>Proc Natl Acad Sci U S A</source>. <year>1997</year>;<volume>94</volume>: <fpage>6815</fpage>–<lpage>6819</lpage>. <object-id pub-id-type="pmid">9192648</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref040"><label>40</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Posada</surname> <given-names>D</given-names></name>. <article-title>jModelTest: phylogenetic model averaging</article-title>. <source>Mol Biol Evol</source> <year>2008</year>;<volume>25</volume>: <fpage>1253</fpage>–<lpage>1256</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/molbev/msn083" xlink:type="simple">10.1093/molbev/msn083</ext-link></comment> <object-id pub-id-type="pmid">18397919</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref041"><label>41</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rodríguez</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Oliver</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Marín</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Medina</surname> <given-names>JR</given-names></name>. <article-title>The general stochastic model of nucleotide substitution</article-title> <source>J Theor Biol</source>. <year>1990</year>;<volume>142</volume>: <fpage>485</fpage>–<lpage>501</lpage>. <object-id pub-id-type="pmid">2338834</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref042"><label>42</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Drummond</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Suchard</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Xie</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Rambaut</surname> <given-names>A</given-names></name>. <article-title>Bayesian phylogenetics with BEAUti and the BEAST 1.7</article-title>.<source>Mol Biol Evol</source>. <year>2012</year>;<volume>29</volume>: <fpage>1969</fpage>–<lpage>1973</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/molbev/mss075" xlink:type="simple">10.1093/molbev/mss075</ext-link></comment> <object-id pub-id-type="pmid">22367748</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref043"><label>43</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Suchard</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Weiss</surname> <given-names>RE</given-names></name>, <name name-style="western"><surname>Sinsheimer</surname> <given-names>JS</given-names></name>. <article-title>Bayesian selection of continuous-time Markov chain evolutionary models</article-title>. <source>Mol Biol Evol</source>. <year>2001</year>;<volume>18</volume>: <fpage>1001</fpage>–<lpage>1013</lpage>. <object-id pub-id-type="pmid">11371589</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref044"><label>44</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kass</surname> <given-names>R.E.</given-names></name>, <name name-style="western"><surname>Raftery</surname> <given-names>A.E.</given-names></name> <article-title>Bayes factors</article-title>. <source>JASA</source>. <year>1995</year>;<volume>90</volume>: <fpage>773</fpage>–<lpage>795</lpage>.</mixed-citation></ref>
+<ref id="pone.0168232.ref045"><label>45</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lemey</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Rambaut</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Welch</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>Suchard</surname> <given-names>MA</given-names></name>. <article-title>Phylogeography takes a relaxed random walk in continuous space and time</article-title>. <source>Mol Biol Evol</source>. <year>2010</year>;<volume>27</volume>: <fpage>1877</fpage>–<lpage>1885</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/molbev/msq067" xlink:type="simple">10.1093/molbev/msq067</ext-link></comment> <object-id pub-id-type="pmid">20203288</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref046"><label>46</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Baele</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Lemey</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Bedford</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Rambaut</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Suchard</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Alekseyenko</surname> <given-names>AV</given-names></name>. <article-title>Improving the accuracy of demographic and molecular clock model comparison while accommodating phylogenetic uncertainty</article-title>. <source>Mol Biol Evol</source>. <year>2012</year>;<volume>29</volume>: <fpage>2157</fpage>–<lpage>2167</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/molbev/mss084" xlink:type="simple">10.1093/molbev/mss084</ext-link></comment> <object-id pub-id-type="pmid">22403239</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref047"><label>47</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bandelt</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Forster</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Röhl</surname> <given-names>A</given-names></name>. <article-title>Median-joining networks for inferring intraspecific phylogenies</article-title>. <source>Mol Biol Evol</source>. <year>1999</year>;<volume>16</volume>: <fpage>37</fpage>–<lpage>48</lpage>. <object-id pub-id-type="pmid">10331250</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref048"><label>48</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Duffy</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Shackelton</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Holmes</surname> <given-names>EC</given-names></name>. <article-title>Rates of evolutionary change in viruses: patterns and determinants</article-title>. <source>Nat Rev Genet</source>. <volume>9</volume>;<year>2008</year>: <fpage>267</fpage>–<lpage>76</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nrg2323" xlink:type="simple">10.1038/nrg2323</ext-link></comment> <object-id pub-id-type="pmid">18319742</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref049"><label>49</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Luzzago</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Ebranati</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Sassera</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Lo Presti</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Lauzi</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Gabanelli</surname> <given-names>E</given-names></name>, <etal>et al</etal>., <article-title>Spatial and temporal reconstruction of bovine viral diarrhea virus genotype 1 dispersion in Italy</article-title>. <source>Infect Genet Evol</source>. <year>2012</year>;<volume>12</volume>: <fpage>324</fpage>–<lpage>331</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.meegid.2011.12.007" xlink:type="simple">10.1016/j.meegid.2011.12.007</ext-link></comment> <object-id pub-id-type="pmid">22210133</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref050"><label>50</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Xia</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Wahlberg</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Baule</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Belak</surname> <given-names>S</given-names></name>. <article-title>Molecular phylogenetic analysis of bovine viral diarrhoea virus: a Bayesian approach</article-title>. <source>Virus Res</source>. <year>2007</year>;<volume>130</volume>: <fpage>53</fpage>–<lpage>62</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.virusres.2007.05.017" xlink:type="simple">10.1016/j.virusres.2007.05.017</ext-link></comment> <object-id pub-id-type="pmid">17597244</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref051"><label>51</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Marco</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Rosell</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Cabezón</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Beneria</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Mentaberre</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Casas</surname> <given-names>E</given-names></name>, <etal>et al</etal>. <article-title>Serologic and virologic investigations into Pestivirus infection in wild and domestic ruminants in the Pyrenees (NE Spain)</article-title>. <source>Res Vet Sci</source>. <year>2009</year>;<volume>87</volume>: <fpage>149</fpage>–<lpage>153</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.rvsc.2008.10.014" xlink:type="simple">10.1016/j.rvsc.2008.10.014</ext-link></comment> <object-id pub-id-type="pmid">19084245</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref052"><label>52</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pioz</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Loison</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Gibert</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Dubray</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Menaut</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Le Tallec</surname> <given-names>B</given-names></name>, <etal>et al</etal>. <article-title>Transmission of a pestivirus infection in a population of Pyrenean chamois</article-title>. <source>Vet Microbiol</source>. <year>2007</year>;<volume>119</volume>: <fpage>19</fpage>–<lpage>30</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.vetmic.2006.09.001" xlink:type="simple">10.1016/j.vetmic.2006.09.001</ext-link></comment> <object-id pub-id-type="pmid">17092662</object-id></mixed-citation></ref>
+<ref id="pone.0168232.ref053"><label>53</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Biek</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Henderson</surname> <given-names>JC</given-names></name>, <name name-style="western"><surname>Waller</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Rupprecht</surname> <given-names>CE</given-names></name>, <name name-style="western"><surname>Real</surname> <given-names>LA</given-names></name>. <article-title>A high-resolution genetic signature of demographic and spatial expansion in epizootic rabies virus</article-title>. <source>Proc Natl Acad Sci U S A</source>. <year>2007</year>; <volume>104</volume>: <fpage>7993</fpage>–<lpage>7998</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.0700741104" xlink:type="simple">10.1073/pnas.0700741104</ext-link></comment> <object-id pub-id-type="pmid">17470818</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

@@ -1,0 +1,906 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0170355</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-16-35364</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Chemistry</subject><subj-group><subject>Chemical compounds</subject><subj-group><subject>Phosphates</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Physics</subject><subj-group><subject>Condensed matter physics</subject><subj-group><subject>Solid state physics</subject><subj-group><subject>Crystallography</subject><subj-group><subject>Crystal structure</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Nucleic acids</subject><subj-group><subject>RNA</subject><subj-group><subject>Non-coding RNA</subject><subj-group><subject>Transfer RNA</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Enzymology</subject><subj-group><subject>Enzyme structure</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Enzymology</subject><subj-group><subject>Enzymes</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Proteins</subject><subj-group><subject>Enzymes</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Materials science</subject><subj-group><subject>Materials by structure</subject><subj-group><subject>Crystals</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Molecular biology</subject><subj-group><subject>Macromolecular structure analysis</subject><subj-group><subject>RNA structure</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Nucleic acids</subject><subj-group><subject>RNA</subject><subj-group><subject>RNA structure</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Enzymology</subject><subj-group><subject>Enzymes</subject><subj-group><subject>Ribozymes</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Proteins</subject><subj-group><subject>Enzymes</subject><subj-group><subject>Ribozymes</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Nucleic acids</subject><subj-group><subject>RNA</subject><subj-group><subject>Ribozymes</subject></subj-group></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Structural aspects of nucleotide ligand binding by a bacterial 2H phosphoesterase</article-title>
+<alt-title alt-title-type="running-head">2H enzyme active site structure</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Myllykoski</surname>
+<given-names>Matti</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Kursula</surname>
+<given-names>Petri</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Faculty of Biochemistry and Molecular Medicine &amp; Biocenter Oulu, University of Oulu, Oulu, Finland</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Department of Biomedicine, University of Bergen, Bergen, Norway</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Permyakov</surname>
+<given-names>Eugene A.</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Russian Academy of Medical Sciences, RUSSIAN FEDERATION</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="con">
+<p><list list-type="simple"><list-item><p><bold>Conceptualization:</bold> MM PK.</p></list-item> <list-item><p><bold>Data curation:</bold> MM PK.</p></list-item> <list-item><p><bold>Formal analysis:</bold> MM PK.</p></list-item> <list-item><p><bold>Funding acquisition:</bold> PK.</p></list-item> <list-item><p><bold>Investigation:</bold> MM PK.</p></list-item> <list-item><p><bold>Methodology:</bold> MM.</p></list-item> <list-item><p><bold>Project administration:</bold> PK.</p></list-item> <list-item><p><bold>Supervision:</bold> PK.</p></list-item> <list-item><p><bold>Validation:</bold> MM PK.</p></list-item> <list-item><p><bold>Visualization:</bold> MM PK.</p></list-item> <list-item><p><bold>Writing – original draft:</bold> MM PK.</p></list-item> <list-item><p><bold>Writing – review &amp; editing:</bold> MM PK.</p></list-item></list>
+</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">petri.kursula@uib.no</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>31</day>
+<month>1</month>
+<year>2017</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2017</year>
+</pub-date>
+<volume>12</volume>
+<issue>1</issue>
+<elocation-id>e0170355</elocation-id>
+<history>
+<date date-type="received">
+<day>2</day>
+<month>9</month>
+<year>2016</year>
+</date>
+<date date-type="accepted">
+<day>3</day>
+<month>1</month>
+<year>2017</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2017</copyright-year>
+<copyright-holder>Myllykoski, Kursula</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0170355"/>
+<abstract>
+<p>The 2H phosphoesterase family contains enzymes with two His-X-Ser/Thr motifs in the active site. 2H enzymes are found in all kingdoms of life, sharing little sequence identity despite the conserved overall fold and active site. For many 2H enzymes, the physiological function is unknown. Here, we studied the structure of the 2H family member LigT from <italic>Escherichia coli</italic> both in the apo form and complexed with different active-site ligands, including ATP, 2′-AMP, 3′-AMP, phosphate, and NADP<sup>+</sup>. Comparisons to the well-characterized vertebrate myelin enzyme 2′,3′-cyclic nucleotide 3′-phosphodiesterase (CNPase) highlight specific features of the catalytic cycle and substrate recognition in both enzymes. The role played by the helix α7, unique to CNPases within the 2H family, is apparently taken over by Arg130 in the bacterial enzyme. Other residues and loops lining the active site groove are likely to be important for RNA substrate binding. We visualized conformational changes related to ligand binding, as well as the position of the nucleophilic water molecule. We also present a low-resolution model of <italic>E</italic>. <italic>coli</italic> LigT bound to tRNA in solution, and provide a model for RNA binding by LigT, involving flexible loops lining the active site cavity. Taken together, our results both aid in understanding the common features of 2H family enzymes and help highlight the distinct features in the 2H family members, which must result in different reaction mechanisms. Unique aspects in different 2H family members can be observed in ligand recognition and binding, and in the coordination of the nucleophilic water molecule and the reactive phosphate moiety.</p>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution>Emil Aaltosen Säätiö (FI)</institution>
+</funding-source>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Kursula</surname>
+<given-names>Petri</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award002">
+<funding-source>
+<institution>Sigrid Juséliuksen Säätiö (FI)</institution>
+</funding-source>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Kursula</surname>
+<given-names>Petri</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>The study was funded by the Emil Aaltonen Foundation and the Sigrid Jusélius Foundation. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="7"/>
+<table-count count="2"/>
+<page-count count="17"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>Structural data are available at the PDB under accession codes 5LDI (apo), 5LDJ (phosphate complex), 5LDK (ATP complex), 5LDM (2´-AMP complex), 5LDO (3´-AMP complex), 5LDP (ATP complex 2), and 5LDQ (NADP+ complex).</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>The 2H phosphoesterase superfamily is an ancient group of proteins and protein domains characterized by a common fold and a few conserved active site residues [<xref ref-type="bibr" rid="pone.0170355.ref001">1</xref>,<xref ref-type="bibr" rid="pone.0170355.ref002">2</xref>]. Various catalytic activities have been assigned for the 2H enzymes: hydrolysis of a 2′,3′-cyclic phosphate, in either nucleotides or 3′-ends of RNA molecules, into 2′-phosphate [<xref ref-type="bibr" rid="pone.0170355.ref003">3</xref>–<xref ref-type="bibr" rid="pone.0170355.ref005">5</xref>], hydrolysis of ADP-ribose 1′′,2′′-cyclic phosphates into ADP-ribose 1′′-phosphate [<xref ref-type="bibr" rid="pone.0170355.ref006">6</xref>–<xref ref-type="bibr" rid="pone.0170355.ref008">8</xref>], generation and/or cleavage of 2′-5′-linkages between nucleotides or RNA molecules, such as tRNA halves [<xref ref-type="bibr" rid="pone.0170355.ref003">3</xref>,<xref ref-type="bibr" rid="pone.0170355.ref009">9</xref>–<xref ref-type="bibr" rid="pone.0170355.ref013">13</xref>], and 3′-5′ exonucleolytic removal of terminal uridine nucleotides from snRNA with the simultaneous generation of 2′,3′-cyclic phosphates at the terminus [<xref ref-type="bibr" rid="pone.0170355.ref014">14</xref>]. The structurally best-characterized 2H enzyme is the mammalian myelin enzyme 2′,3′-cyclic nucleotide 3′-phosphodiesterase (CNPase) [<xref ref-type="bibr" rid="pone.0170355.ref015">15</xref>–<xref ref-type="bibr" rid="pone.0170355.ref019">19</xref>], but even for this enzyme, the biological function remains enigmatic [<xref ref-type="bibr" rid="pone.0170355.ref005">5</xref>].</p>
+<p><italic>E</italic>. <italic>coli</italic> LigT is a 20-kDa protein that exhibits 2′,3′-cyclic nucleotide 3′-phosphodiesterase and 2′-5′-ligase/phosphodiesterase activities [<xref ref-type="bibr" rid="pone.0170355.ref003">3</xref>,<xref ref-type="bibr" rid="pone.0170355.ref009">9</xref>], but the biological function of the enzyme is unknown. It is potentially a source of 2′-5′ oligoadenylates (2-5A) and similar compunds with 2′-5′-linkage detected in <italic>E</italic>. <italic>coli</italic> [<xref ref-type="bibr" rid="pone.0170355.ref020">20</xref>]. A genomic knockout of LigT in <italic>E</italic>. <italic>coli</italic> did not obviously affect cellular growth or viability in laboratory conditions, while LigT overexpression produced a phenotype sensitive to elevated temperature [<xref ref-type="bibr" rid="pone.0170355.ref009">9</xref>]. A LigT orthologue in <italic>Deinococcus radiodurans</italic> was massively upregulated after acute irradiation, and it was speculated to function in the handling of damaged RNA species [<xref ref-type="bibr" rid="pone.0170355.ref021">21</xref>].</p>
+<p>In a recent study, <italic>E</italic>. <italic>coli</italic> LigT was crystallized, and its structure was refined in complex with the <italic>in vitro</italic> reaction product 2′-AMP [<xref ref-type="bibr" rid="pone.0170355.ref022">22</xref>]. We extend the previous study here, providing high-resolution crystallographic data and different active-site ligand complexes. Comparisons to the apo form of the enzyme determined in the current work allow the highlighting of conformational changes and binding determinants of the reactive species. Based on further comparisons to mouse CNPase, we also modelled the substrate complex of LigT and discuss unique features of each protein. An extended binding surface for RNA substrates is also identified, which possibly involves flexible loops of the 2H family. All in all, we provide novel data on the structure-function relationships in a bacterial 2H enzyme, which can be used to understand the common and divergent properties of enzymes in the entire 2H superfamily.</p>
+</sec>
+<sec id="sec002" sec-type="conclusions">
+<title>Results and discussion</title>
+<sec id="sec003">
+<title>Overall structure</title>
+<p>The structure of the putative tRNA ligase LigT from <italic>E</italic>. <italic>coli</italic> was determined by X-ray crystallography in the apo form. In addition, a number of LigT complex structures with active-site ligands were solved, hence significantly extending the earlier results on the LigT structure, which was only available as a complex with the reaction product 2′-AMP [<xref ref-type="bibr" rid="pone.0170355.ref022">22</xref>]. Intriguingly, a total of five different crystal forms were observed in this study, which also highlights the flexible properties of the enzyme.</p>
+<p>The LigT structure presents a typical 2H phosphoesterase fold, in which the catalytic residues reside at the beginning of strands β2 and β6 (<xref ref-type="fig" rid="pone.0170355.g001">Fig 1A</xref>). As in other 2H family members, the active site has 2-fold symmetry; this symmetry also includes the 4 water molecules at the bottom of the active site, connecting the active-site β strands through water-mediated hydrogen bonds (<xref ref-type="fig" rid="pone.0170355.g001">Fig 1B</xref>). These water molecules coordinate the substrate/product throughout the reaction in CNPase [<xref ref-type="bibr" rid="pone.0170355.ref017">17</xref>,<xref ref-type="bibr" rid="pone.0170355.ref018">18</xref>], and they are likely to play a similar role in LigT and other 2H phosphoesterases. The strict conservation of the active-site water structure between 2H enzymes is remarkable, taking into account the amino acid sequence identity of slightly above 10% between CNPase and LigT.</p>
+<fig id="pone.0170355.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0170355.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>The structure of <italic>E</italic>. <italic>coli</italic> LigT.</title>
+<p>A. Overall structure of LigT. Secondary structure elements and the N and C termini are labeled, and the two active site HxT motif side chains are also shown. B. Stereo view of the organization and conservation of the active site between LigT (white) and mouse CNPase (blue) [<xref ref-type="bibr" rid="pone.0170355.ref018">18</xref>]. The four water molecules between strands 2 and 6 are conserved (LigT, red; CNPase, blue). The nucleophilic water molecule in LigT (green) is coordinated by His125 and Arg130, while the corresponding water molecule in CNPase (magenta) interacts with the N terminus of helix 7 (right) and the catalytic histidine.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0170355.g001" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec004">
+<title>Liganded complexes</title>
+<p>For an insight into the active-site properties and catalytic mechanism, we co-crystallized LigT with different nucleotide compounds in the active site (<xref ref-type="table" rid="pone.0170355.t001">Table 1</xref>, <xref ref-type="fig" rid="pone.0170355.g002">Fig 2</xref>), including substrates, products, and other compounds. In addition to the presumed obvious substrates and products, we also used other nucleotide compounds in an attempt to screen LigT crystallographically for nucleotide-like ligand-binding properties. This was considered of interest, as open questions remain related to the physiological function of both LigT and many 2H family enzymes in general. All structures had more than one protein chain in the asymmetric unit, and in general, the one with best-defined electron density for ligands was used in the analyses below.</p>
+<fig id="pone.0170355.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0170355.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Crystal structures of LigT complexed with different active-site ligands.</title>
+<p>A. Comparison between apo LigT (white) and the 2′-AMP complex (blue). Interactions of the ligand phosphate group are shown as orange dashed lines and those of the nucleophilic water molecule (green) in the apo structure as green dashed lines. B. Complexes with NADP<sup>+</sup> (light brown) and ATP (green). Note the stacking of the NADP<sup>+</sup> nicotinamide ring against Phe159 and the coordination of the 5′-phosphate in both ligands by Arg6. C. Binding modes of 2′-AMP (blue) and 3′-AMP (light blue). The same recognition elements are at play, but especially the ribose ring binds differently. D. Cocrystallization with tRNA resulted in a complex with two phosphate ions, one in the active site and the other one in a nearby pocket surrounded by Arg residues.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0170355.g002" xlink:type="simple"/>
+</fig>
+<table-wrap id="pone.0170355.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0170355.t001</object-id>
+<label>Table 1</label> <caption><title>Crystallographic data collection and structure refinement statistics.</title></caption>
+<alternatives>
+<graphic id="pone.0170355.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0170355.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Ligand</th>
+<th align="left">none</th>
+<th align="left">phosphate (tRNA)</th>
+<th align="left">ATP</th>
+<th align="left">2'-AMP</th>
+<th align="left">3'-AMP</th>
+<th align="left">ATP</th>
+<th align="left">NADP<sup>+</sup></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" style="background-color:#C0C0C0">Data collection statistics</td>
+<td align="left" style="background-color:#C0C0C0"/>
+<td align="left" style="background-color:#C0C0C0"/>
+<td align="left" style="background-color:#C0C0C0"/>
+<td align="left" style="background-color:#C0C0C0"/>
+<td align="left" style="background-color:#C0C0C0"/>
+<td align="left" style="background-color:#C0C0C0"/>
+<td align="left" style="background-color:#C0C0C0"/>
+</tr>
+<tr>
+<td align="left"> Space group</td>
+<td align="left">P2<sub>1</sub></td>
+<td align="left">P1</td>
+<td align="left">C2</td>
+<td align="left">P42<sub>1</sub>2</td>
+<td align="left">P2<sub>1</sub></td>
+<td align="left">C2</td>
+<td align="left">C2</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#C0C0C0"> Cell parameters</td>
+<td align="left" style="background-color:#C0C0C0"/>
+<td align="left" style="background-color:#C0C0C0"/>
+<td align="left" style="background-color:#C0C0C0"/>
+<td align="left" style="background-color:#C0C0C0"/>
+<td align="left" style="background-color:#C0C0C0"/>
+<td align="left" style="background-color:#C0C0C0"/>
+<td align="left" style="background-color:#C0C0C0"/>
+</tr>
+<tr>
+<td align="left">  a (Å)</td>
+<td align="left">63.39</td>
+<td align="left">54.73</td>
+<td align="left">101.95</td>
+<td align="left">108.07</td>
+<td align="left">63.41</td>
+<td align="left">102.15</td>
+<td align="left">86.74</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#C0C0C0">  b (Å)</td>
+<td align="left" style="background-color:#C0C0C0">88.32</td>
+<td align="left" style="background-color:#C0C0C0">63.52</td>
+<td align="left" style="background-color:#C0C0C0">73.33</td>
+<td align="left" style="background-color:#C0C0C0">108.07</td>
+<td align="left" style="background-color:#C0C0C0">88.35</td>
+<td align="left" style="background-color:#C0C0C0">73.47</td>
+<td align="left" style="background-color:#C0C0C0">91.62</td>
+</tr>
+<tr>
+<td align="left">  c (Å)</td>
+<td align="left">73.84</td>
+<td align="left">67.37</td>
+<td align="left">77.49</td>
+<td align="left">72.64</td>
+<td align="left">73.97</td>
+<td align="left">77.61</td>
+<td align="left">120.61</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#C0C0C0"> <bold>α</bold> (°)</td>
+<td align="left" style="background-color:#C0C0C0">90</td>
+<td align="left" style="background-color:#C0C0C0">106.26</td>
+<td align="left" style="background-color:#C0C0C0">90</td>
+<td align="left" style="background-color:#C0C0C0">90</td>
+<td align="left" style="background-color:#C0C0C0">90</td>
+<td align="left" style="background-color:#C0C0C0">90</td>
+<td align="left" style="background-color:#C0C0C0">90</td>
+</tr>
+<tr>
+<td align="left"> <bold>β</bold> (°)</td>
+<td align="left">115.01</td>
+<td align="left">106.14</td>
+<td align="left">128.54</td>
+<td align="left">90</td>
+<td align="left">114.95</td>
+<td align="left">128.34</td>
+<td align="left">102.32</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#C0C0C0"> <bold>γ</bold> (°)</td>
+<td align="left" style="background-color:#C0C0C0">90</td>
+<td align="left" style="background-color:#C0C0C0">103.06</td>
+<td align="left" style="background-color:#C0C0C0">90</td>
+<td align="left" style="background-color:#C0C0C0">90</td>
+<td align="left" style="background-color:#C0C0C0">90</td>
+<td align="left" style="background-color:#C0C0C0">90</td>
+<td align="left" style="background-color:#C0C0C0">90</td>
+</tr>
+<tr>
+<td align="left"> No. of molecules in ASU</td>
+<td align="left">4</td>
+<td align="left">4</td>
+<td align="left">2</td>
+<td align="left">2</td>
+<td align="left">4</td>
+<td align="left">2</td>
+<td align="left">4</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#C0C0C0"> Wavelength (Å)</td>
+<td align="left" style="background-color:#C0C0C0">1.03</td>
+<td align="left" style="background-color:#C0C0C0">1.04</td>
+<td align="left" style="background-color:#C0C0C0">1.04</td>
+<td align="left" style="background-color:#C0C0C0">1.04</td>
+<td align="left" style="background-color:#C0C0C0">1.04</td>
+<td align="left" style="background-color:#C0C0C0">1.04</td>
+<td align="left" style="background-color:#C0C0C0">1.03</td>
+</tr>
+<tr>
+<td align="left"> High resolution (Å)</td>
+<td align="left">2.10</td>
+<td align="left">2.80</td>
+<td align="left">2.10</td>
+<td align="left">2.46</td>
+<td align="left">2.75</td>
+<td align="left">1.80</td>
+<td align="left">1.70</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#C0C0C0"> High-resolution shell (Å)</td>
+<td align="left" style="background-color:#C0C0C0">2.15–2.10</td>
+<td align="left" style="background-color:#C0C0C0">2.88–2.80</td>
+<td align="left" style="background-color:#C0C0C0">2.15–2.10</td>
+<td align="left" style="background-color:#C0C0C0">2.52–2.46</td>
+<td align="left" style="background-color:#C0C0C0">2.82–2.75</td>
+<td align="left" style="background-color:#C0C0C0">1.85–1.80</td>
+<td align="left" style="background-color:#C0C0C0">1.74–1.70</td>
+</tr>
+<tr>
+<td align="left"> Unique reflections</td>
+<td align="left">43063 (3154)</td>
+<td align="left">18651 (1460)</td>
+<td align="left">26124 (1890)</td>
+<td align="left">15451 (613)</td>
+<td align="left">19216 (1356)</td>
+<td align="left">41617 (3088)</td>
+<td align="left">100969 (7397)</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#C0C0C0"> Multiplicity</td>
+<td align="left" style="background-color:#C0C0C0">3.81 (3.83)</td>
+<td align="left" style="background-color:#C0C0C0">2.21 (2.20)</td>
+<td align="left" style="background-color:#C0C0C0">3.81 (3.78)</td>
+<td align="left" style="background-color:#C0C0C0">6.60 (2.58)</td>
+<td align="left" style="background-color:#C0C0C0">3.80 (3.76)</td>
+<td align="left" style="background-color:#C0C0C0">3.38 (3.33)</td>
+<td align="left" style="background-color:#C0C0C0">3.80 (3.86)</td>
+</tr>
+<tr>
+<td align="left"> Completeness (%)</td>
+<td align="left">99.6 (99.8)</td>
+<td align="left">95.7 (94.3)</td>
+<td align="left">99.2 (99.2)</td>
+<td align="left">95.4 (52.4)</td>
+<td align="left">99.3 (97.8)</td>
+<td align="left">99.2 (99.5)</td>
+<td align="left">99.8 (99.8)</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#C0C0C0"> R<sub>merge</sub></td>
+<td align="left" style="background-color:#C0C0C0">0.076 (0.918)</td>
+<td align="left" style="background-color:#C0C0C0">0.126 (0.942)</td>
+<td align="left" style="background-color:#C0C0C0">0.075 (0.829)</td>
+<td align="left" style="background-color:#C0C0C0">0.079 (0.621)</td>
+<td align="left" style="background-color:#C0C0C0">0.092 (0.804)</td>
+<td align="left" style="background-color:#C0C0C0">0.047 (1.061)</td>
+<td align="left" style="background-color:#C0C0C0">0.053 (1.043)</td>
+</tr>
+<tr>
+<td align="left"> R<sub>meas</sub></td>
+<td align="left">0.089 (1.067)</td>
+<td align="left">0.171 (1.270)</td>
+<td align="left">0.088 (0.967)</td>
+<td align="left">0.086 (0.747)</td>
+<td align="left">0.107 (0.939)</td>
+<td align="left">0.056 (1.258)</td>
+<td align="left">0.061 (1.211)</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#C0C0C0"> &lt;I/<bold>σ</bold>(I)&gt;</td>
+<td align="left" style="background-color:#C0C0C0">11.93 (1.30)</td>
+<td align="left" style="background-color:#C0C0C0">7.21 (1.02)</td>
+<td align="left" style="background-color:#C0C0C0">14.16 (1.65)</td>
+<td align="left" style="background-color:#C0C0C0">18.01 (1.51)</td>
+<td align="left" style="background-color:#C0C0C0">14.11 (1.76)</td>
+<td align="left" style="background-color:#C0C0C0">15.47 (1.31)</td>
+<td align="left" style="background-color:#C0C0C0">13.92 (1.23)</td>
+</tr>
+<tr>
+<td align="left"> CC<sub>½</sub> (%)</td>
+<td align="left">99.8 (58.1)</td>
+<td align="left">97.8 (41.3)</td>
+<td align="left">99.8 (64.8)</td>
+<td align="left">99.9 (71.2)</td>
+<td align="left">99.6 (62.9)</td>
+<td align="left">99.9 (50.8)</td>
+<td align="left">99.9 (61.9)</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#C0C0C0">Wilson B (Å<sup>2</sup>)</td>
+<td align="left" style="background-color:#C0C0C0">35.6</td>
+<td align="left" style="background-color:#C0C0C0">42.6</td>
+<td align="left" style="background-color:#C0C0C0">32.0</td>
+<td align="left" style="background-color:#C0C0C0">47.4</td>
+<td align="left" style="background-color:#C0C0C0">46.1</td>
+<td align="left" style="background-color:#C0C0C0">28.8</td>
+<td align="left" style="background-color:#C0C0C0">27.3</td>
+</tr>
+<tr>
+<td align="left">Refinement statistics</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left" style="background-color:#C0C0C0"> Resolution range (Å)</td>
+<td align="left" style="background-color:#C0C0C0">36.60–2.10</td>
+<td align="left" style="background-color:#C0C0C0">22.96–2.80</td>
+<td align="left" style="background-color:#C0C0C0">23.37–2.10</td>
+<td align="left" style="background-color:#C0C0C0">29.04–2.46</td>
+<td align="left" style="background-color:#C0C0C0">28.75–2.75</td>
+<td align="left" style="background-color:#C0C0C0">19.70–1.8</td>
+<td align="left" style="background-color:#C0C0C0">117.84–1.70</td>
+</tr>
+<tr>
+<td align="left"> High-resolution shell (Å)</td>
+<td align="left">2.15–2.10</td>
+<td align="left">2.88–2.80</td>
+<td align="left">2.15–2.10</td>
+<td align="left">2.54–2.46</td>
+<td align="left">2.82–2.75</td>
+<td align="left">1.85–1.80</td>
+<td align="left">1.74–1.70</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#C0C0C0"> Reflections in the working set</td>
+<td align="left" style="background-color:#C0C0C0">40878 (2698)</td>
+<td align="left" style="background-color:#C0C0C0">16784 (1279)</td>
+<td align="left" style="background-color:#C0C0C0">24120 (1685)</td>
+<td align="left" style="background-color:#C0C0C0">13888 (728)</td>
+<td align="left" style="background-color:#C0C0C0">17272 (1183)</td>
+<td align="left" style="background-color:#C0C0C0">39641 (2810)</td>
+<td align="left" style="background-color:#C0C0C0">98860 (6928)</td>
+</tr>
+<tr>
+<td align="left"> Reflections in the test set</td>
+<td align="left">2153 (142)</td>
+<td align="left">1859 (144)</td>
+<td align="left">1997 (141)</td>
+<td align="left">1544 (78)</td>
+<td align="left">1922 (126)</td>
+<td align="left">1975 (147)</td>
+<td align="left">1998 (139)</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#C0C0C0"> R value (%)</td>
+<td align="left" style="background-color:#C0C0C0">17.74 (27.52)</td>
+<td align="left" style="background-color:#C0C0C0">21.77 (34.36)</td>
+<td align="left" style="background-color:#C0C0C0">20.18 (26.83)</td>
+<td align="left" style="background-color:#C0C0C0">19.70 (34.24)</td>
+<td align="left" style="background-color:#C0C0C0">21.17 (31.25)</td>
+<td align="left" style="background-color:#C0C0C0">17.06 (29.33)</td>
+<td align="left" style="background-color:#C0C0C0">18.34 (38.32)</td>
+</tr>
+<tr>
+<td align="left"> R<sub>free</sub> value (%)</td>
+<td align="left">22.67 (29.43)</td>
+<td align="left">25.80 (40.78)</td>
+<td align="left">24.76 (32.97)</td>
+<td align="left">25.28 (39.44)</td>
+<td align="left">25.87 (38.53)</td>
+<td align="left">20.35 (34.02)</td>
+<td align="left">21.26 (41.66)</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#C0C0C0"> RMSD bond length (Å)</td>
+<td align="left" style="background-color:#C0C0C0">0.004</td>
+<td align="left" style="background-color:#C0C0C0">0.003</td>
+<td align="left" style="background-color:#C0C0C0">0.008</td>
+<td align="left" style="background-color:#C0C0C0">0.005</td>
+<td align="left" style="background-color:#C0C0C0">0.003</td>
+<td align="left" style="background-color:#C0C0C0">0.019</td>
+<td align="left" style="background-color:#C0C0C0">0.007</td>
+</tr>
+<tr>
+<td align="left"> RMSD angle (°)</td>
+<td align="left">0.981</td>
+<td align="left">0.705</td>
+<td align="left">1.148</td>
+<td align="left">0.937</td>
+<td align="left">0.830</td>
+<td align="left">1.834</td>
+<td align="left">1.321</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#C0C0C0"> Atoms in ASU<xref ref-type="table-fn" rid="t001fn001">*</xref></td>
+<td align="left" style="background-color:#C0C0C0">11652 (5579)</td>
+<td align="left" style="background-color:#C0C0C0">5490</td>
+<td align="left" style="background-color:#C0C0C0">2949</td>
+<td align="left" style="background-color:#C0C0C0">5771 (2854)</td>
+<td align="left" style="background-color:#C0C0C0">5475</td>
+<td align="left" style="background-color:#C0C0C0">3322 (12)</td>
+<td align="left" style="background-color:#C0C0C0">7048</td>
+</tr>
+<tr>
+<td align="left"> Protein atoms in ASU</td>
+<td align="left">5561</td>
+<td align="left">5444</td>
+<td align="left">2721</td>
+<td align="left">2807</td>
+<td align="left">5449</td>
+<td align="left">2902</td>
+<td align="left">6059</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#C0C0C0"> Ligand atoms in ASU</td>
+<td align="left" style="background-color:#C0C0C0">3</td>
+<td align="left" style="background-color:#C0C0C0">25</td>
+<td align="left" style="background-color:#C0C0C0">31</td>
+<td align="left" style="background-color:#C0C0C0">47</td>
+<td align="left" style="background-color:#C0C0C0">23</td>
+<td align="left" style="background-color:#C0C0C0">99</td>
+<td align="left" style="background-color:#C0C0C0">351</td>
+</tr>
+<tr>
+<td align="left"> Water molecules in ASU</td>
+<td align="left">509</td>
+<td align="left">21</td>
+<td align="left">197</td>
+<td align="left">63</td>
+<td align="left">3</td>
+<td align="left">279</td>
+<td align="left">638</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#C0C0C0"> Mean B value (Å<sup>2</sup>)</td>
+<td align="left" style="background-color:#C0C0C0">54.9</td>
+<td align="left" style="background-color:#C0C0C0">60.80</td>
+<td align="left" style="background-color:#C0C0C0">36.45</td>
+<td align="left" style="background-color:#C0C0C0">64.03</td>
+<td align="left" style="background-color:#C0C0C0">48.21</td>
+<td align="left" style="background-color:#C0C0C0">42.91</td>
+<td align="left" style="background-color:#C0C0C0">39.45</td>
+</tr>
+<tr>
+<td align="left"> Ramachandran plot</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left" style="background-color:#C0C0C0">  Favoured regions (%)</td>
+<td align="left" style="background-color:#C0C0C0">99.26</td>
+<td align="left" style="background-color:#C0C0C0">99.40</td>
+<td align="left" style="background-color:#C0C0C0">97.88</td>
+<td align="left" style="background-color:#C0C0C0">98.25</td>
+<td align="left" style="background-color:#C0C0C0">97.74</td>
+<td align="left" style="background-color:#C0C0C0">99.72</td>
+<td align="left" style="background-color:#C0C0C0">98.63</td>
+</tr>
+<tr>
+<td align="left">  Allowed regions (%)</td>
+<td align="left">0.59</td>
+<td align="left">0.60</td>
+<td align="left">2.12</td>
+<td align="left">1.75</td>
+<td align="left">1.36</td>
+<td align="left">0.28</td>
+<td align="left">1.09</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#C0C0C0">  Outlier residues (%)</td>
+<td align="left" style="background-color:#C0C0C0">0.15</td>
+<td align="left" style="background-color:#C0C0C0">0</td>
+<td align="left" style="background-color:#C0C0C0">0</td>
+<td align="left" style="background-color:#C0C0C0">0</td>
+<td align="left" style="background-color:#C0C0C0">0.90</td>
+<td align="left" style="background-color:#C0C0C0">0</td>
+<td align="left" style="background-color:#C0C0C0">0.27</td>
+</tr>
+<tr>
+<td align="left"> Clashscore</td>
+<td align="left">2.42</td>
+<td align="left">3.93</td>
+<td align="left">5.09</td>
+<td align="left">2.46</td>
+<td align="left">5.02</td>
+<td align="left">12.07</td>
+<td align="left">8.46</td>
+</tr>
+<tr>
+<td align="left" style="background-color:#C0C0C0"> Rotamer outliers (%)</td>
+<td align="left" style="background-color:#C0C0C0">0.87</td>
+<td align="left" style="background-color:#C0C0C0">1.79</td>
+<td align="left" style="background-color:#C0C0C0">6.07</td>
+<td align="left" style="background-color:#C0C0C0">3.03</td>
+<td align="left" style="background-color:#C0C0C0">0.89</td>
+<td align="left" style="background-color:#C0C0C0">1.33</td>
+<td align="left" style="background-color:#C0C0C0">2.23</td>
+</tr>
+<tr>
+<td align="left"><bold>PDB entry</bold></td>
+<td align="left">5ldi</td>
+<td align="left">5ldj</td>
+<td align="left">5ldk</td>
+<td align="left">5ldm</td>
+<td align="left">5ldo</td>
+<td align="left">5ldp</td>
+<td align="left">5ldq</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>* Number of riding hydrogen atoms is shown in parentheses.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>Previously, LigT has been crystallized with the reaction product 2′-AMP [<xref ref-type="bibr" rid="pone.0170355.ref022">22</xref>]. We also observed such a complex after cocrystallization with 2′,3′-cAMP (<xref ref-type="fig" rid="pone.0170355.g002">Fig 2A</xref>). The binding mode is similar to that seen before, and the 2′-AMP ligand is well defined in one of the two LigT monomers, while the occupancy in the other monomer is low. Binding involves aromatic stacking of the nucleotide base against Phe48 and a C-H…π interaction between the ribose ring and Phe8. In addition to the catalytic residues, Arg130 plays a key role in coordinating the phospho moiety of the product. Considering reaction geometry, a water molecule coordinated by His125 in the apo structure can now be designated as the nucleophilic water (<xref ref-type="fig" rid="pone.0170355.g002">Fig 2A</xref>), analogously to CNPase. The complex also proves that LigT has CNPase activity towards 2′,3′-cyclic mononucleotides, since the reaction product is bound in the crystals grown in the presence of the substrate.</p>
+<p>A possible role for 2′,3′-cyclic nucleotides in mammalian systems has been lately discovered [<xref ref-type="bibr" rid="pone.0170355.ref023">23</xref>], but their importance in prokaryotic systems is not known. However, 2′,3′-cyclic cytidine and uridine monophosphate were recently detected in the extracts of <italic>Pseudomonas fluorescens</italic> [<xref ref-type="bibr" rid="pone.0170355.ref024">24</xref>], and several bacterial phosphodiesterases that cleave 2′,3′-cyclic nucleotides have been described over the years [<xref ref-type="bibr" rid="pone.0170355.ref025">25</xref>,<xref ref-type="bibr" rid="pone.0170355.ref026">26</xref>]. Whether LigT activity plays a role in the metabolism of such compounds <italic>in vivo</italic>, remains to be studied.</p>
+<p>Another product analogue of the reaction catalysed by LigT, NADP<sup>+</sup>, was also trapped in the active site, being well defined in electron density (<xref ref-type="fig" rid="pone.0170355.g002">Fig 2B</xref>). In the NADP<sup>+</sup> complex, there are 4 monomers in the asymmetric unit, and the nicotinamide end of the ligand binds to each of them differently, having different conformations or being disordered—depending on crystal contacts. The adenosine 2′,5′-bisphosphate moiety in each monomer binds identically, however, and in a mode highly similar to that seen in 2′-AMP. The 5′-phosphate mimics the next phosphodiester in an RNA molecule, and it can be used to deduce further binding determinants for RNA substrates. This phosphate moiety is bound by Arg6 from the N-terminal strand β1 in the crystal structure, and it is likely that this residue plays a direct role in RNA substrate binding also. An additional NADP<sup>+</sup> fragment is seen stacked on top of Trp82 in one monomer.</p>
+<p>We also cocrystallized the enzyme with ATP and 3′-AMP, which are neither substrates nor products. The fact that they bind the active site can imply that they may be weak inhibitors, and it can be taken as evidence of a general propensity to bind nucleotides in the active site. The LigT orthologue protein PF0027 from <italic>Pyrococcus furiosus</italic> was shown to require a GTP cofactor for the RNA ligation reaction [<xref ref-type="bibr" rid="pone.0170355.ref003">3</xref>], while for the <italic>E</italic>. <italic>coli</italic> enzyme, such a cofactor has not been reported. Although we attempted crystallization in the presence of GTP as with ATP, no corresponding GTP electron density was found in the resulting crystals (data not shown). Two similar datasets were collected with ATP, one of which has one ATP bound to only one of the 2 monomers in the asymmetric unit. This ATP molecule probably has a partial occupancy and/or some degree of flexibility, as evidenced by residual difference electron density. The major conformation was built in the structure. The other complex has three ATP molecules for two monomers; the space group remains the same. The reason for this fortuituous ambiguity is unknown. In addition to the ligand in both active sites (<xref ref-type="fig" rid="pone.0170355.g002">Fig 2B</xref>), another ATP in the latter crystal form is bound in the vicinity of it in one monomer; this ATP is also involved in crystal contacts. The binding of this second ATP is a strong indication of a propensity for binding further nucleotides in the active site vicinity by <italic>E</italic>. <italic>coli</italic> LigT. Residues interacting with the second ATP include Phe159 and Arg6. Again, the α-5′-phosphate of the active-site ATP is in the same location as the corresponding phosphate in NADP<sup>+</sup>, and it is similarly coordinated by Arg6, highlighting putative RNA recognition features extending from the active site.</p>
+<p>As far as the 3′-AMP experiment is concerned, one of the 4 monomers in the asymmetric unit has a bound 3′-AMP molecule, with the phosphate group in the same position as in the 2′-AMP product complex. Binding of the ligand to the remaining monomers is apparently prevented by crystal contacts. The conformation of 3′-AMP differs slightly from that observed for 2′-AMP, but the essential recognition features remain the same; stacking of the base against Phe48, binding of the phosphate to the two HxTx motifs in the active site, and C-H…π interaction of the sugar ring against Phe8 (<xref ref-type="fig" rid="pone.0170355.g002">Fig 2C</xref>). As incubation with 2′,3′-cAMP resulted in 2′-AMP, the 3′-AMP complex is irrelevant for the reaction mechanism. To generate 3′-AMP in the LigT reaction, the nucleophilic water should attack from the opposite side.</p>
+<p>In addition, attempts to cocrystallize LigT with tRNA resulted in a structure with apparent phosphate ions bound to the active site; these probably originated as impurities in the tRNA preparation. Two distinct PO<sub>4</sub>-binding sites are observed in the active site, on both sides of Arg130 (<xref ref-type="fig" rid="pone.0170355.g002">Fig 2D</xref>). Their locations could correspond to binding sites for phosphomoieties in a bound RNA substrate. One of the phosphates lies in the active site, while the second is in a nearby cavity, close to Arg35. The density for the second phosphate molecule was strongest in monomer D, and it was not built into the other three monomers in the model, as the electron density suggested only partial occupancy.</p>
+</sec>
+<sec id="sec005">
+<title>Substrate and product binding</title>
+<p>The crystal structure of LigT with 2′-AMP was superimposed on the corresponding complex of CNPase, in order to distinguish common and divergent ligand binding determinants in 2H enzymes. The binding mode of the reaction product is very similar in both enzymes, and the base and sugar moieties make similar interactions. While in CNPase, the N terminus of helix α7 is important in coordinating the reaction product [<xref ref-type="bibr" rid="pone.0170355.ref017">17</xref>], Arg130 is an important residue for binding the corresponding phosphate group in LigT (<xref ref-type="fig" rid="pone.0170355.g003">Fig 3A</xref>).</p>
+<fig id="pone.0170355.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0170355.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Product and substrate binding.</title>
+<p>A. Comparison of the binding modes of 2′-AMP in LigT (white) and mouse CNPase (blue). Interactions of the phosphate are indicated by dashed lines; note the binding of the phosphate by Arg130 in LigT, while the phosphate is coordinated to the helix α7 N terminus in CNPase. The other interactions are essentially identical. B. Modelling of the substrate complex of LigT. 2′,3′-cAMP and the nucleophilic water were modeled into the LigT active site based on CNPase structures and the 2′-AMP binding mode to LigT. Polar interactions are shown by yellow dashed lines, and the activation of the water molecule by His125 by an orange dashed line. The direction of nucleophilic attack is shown by the green dashed line. His43 (behind) donates a proton to the leaving group, the ribose 3′-oxygen.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0170355.g003" xlink:type="simple"/>
+</fig>
+<p>As the crystals obtained in the presence of substrate resulted in the structure of a product complex, we also modeled the likely substrate complex of LigT and 2′,3′-cAMP, based on our earlier liganded complexes of CNPase [<xref ref-type="bibr" rid="pone.0170355.ref016">16</xref>–<xref ref-type="bibr" rid="pone.0170355.ref018">18</xref>], coupled to manual docking and energy minimization. The predicted binding mode and interactions are very similar to those seen in CNPase. Compared to the product binding mode, His125 is not directly interacting with the substrate, but coordinates the nucleophilic water instead (<xref ref-type="fig" rid="pone.0170355.g003">Fig 3B</xref>).</p>
+<p>Within the active site region, the presence of helix α7 in CNPase is a major difference (<xref ref-type="fig" rid="pone.0170355.g004">Fig 4A</xref>). The CNPase-specific helix α7 is missing in LigT, as predicted based on sequence analysis and a structure-based alignment (<xref ref-type="fig" rid="pone.0170355.g004">Fig 4B</xref>). CNPase is the only known 2H phosphoesterase family protein with helix α7 and also the only one, for which the catalytic mechanism has been structurally characterized in detail [<xref ref-type="bibr" rid="pone.0170355.ref005">5</xref>,<xref ref-type="bibr" rid="pone.0170355.ref015">15</xref>–<xref ref-type="bibr" rid="pone.0170355.ref017">17</xref>,<xref ref-type="bibr" rid="pone.0170355.ref019">19</xref>].</p>
+<fig id="pone.0170355.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0170355.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Comparison of CNPase and LigT.</title>
+<p>A. Structural superposition of <italic>E</italic>. <italic>coli</italic> LigT (white) and mouse CNPase (blue). Specifically note the unique helix α7 (dark blue) in CNPase, lining the CNPase active site, and blocking access of nucleophiles larger than water. B. Structure-based sequence alignment of LigT (Ec) and CNPase (Mm).</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0170355.g004" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec006">
+<title>Binding to nucleotides in solution</title>
+<p>In light of the X-ray crystallographic results, indicating propensity for binding of different nucleotide compunds, we probed ligand compounds also for binding to LigT in solution, in order to clarify whether the observed ligand complexes were possibly artifacts of the crystallization environment. ITC was carried out for 2′- and 3′-AMP, ATP, and NADP<sup>+</sup> (<xref ref-type="supplementary-material" rid="pone.0170355.s002">S1 Fig</xref>). The dissociation constants observed for these compounds were 140, 180, 70, and 40 μM, respectively. In light of the K<sub>m</sub> values of mouse CNPase towards 2′,3′-cyclic NADP<sup>+</sup> of around 500 μM [<xref ref-type="bibr" rid="pone.0170355.ref027">27</xref>], the K<sub>d</sub> values determined for LigT are similar and indicate binding of the studied nucleotide compounds to LigT also in solution, in addition to the crystal lattice.</p>
+</sec>
+<sec id="sec007">
+<title>Conformational flexibility</title>
+<p>The active site is surrounded by several loops, which might provide flexibility in substrate binding. The α5-β6 loop, which emerges from helix α5 and leads to the strand β6 that contains one half of the catalytic residues, is disordered in many structures, but can be resolved in selected monomers in the different crystal forms. In mouse CNPase, this loop corresponds to the mobile loop α6-β5, which may play a role in CNPase interaction with larger substrates. Other flexible loops close to the LigT active site include the C-terminal hairpin loop β8-β9 and the loop connecting strands β4 and β5.</p>
+<p>The LigT ligand complexes highlight mobility of the LigT loops and possible RNA-interacting residues close to the active site. In different crystal forms, the active-site loops can be observed in slightly different conformations (<xref ref-type="fig" rid="pone.0170355.g005">Fig 5A</xref>), and especially residues Arg6 and Arg35 take different conformations depending on the bound ligand, further implying their role in phosphomoiety recognition. In a ligand-free active site, also Phe48 is seen to take a conformation distinct from that seen in ligand complexes. Hence, as opposed to CNPase, in which the active site is to a large extent pre-organized for substrate binding [<xref ref-type="bibr" rid="pone.0170355.ref016">16</xref>,<xref ref-type="bibr" rid="pone.0170355.ref017">17</xref>], LigT shows more flexibility.</p>
+<fig id="pone.0170355.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0170355.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>Flexible loops in LigT and the 2H family.</title>
+<p>A. Superposition of LigT crystal structures in this study (see <xref ref-type="fig" rid="pone.0170355.g003">Fig 3</xref> for colouring details). The three loops marked by arrows present different conformations in the crystal structures; in addition the labeled amino acids differ in conformation between structures. B. Superposition of the structural homologues identified in the Salami search. LigT is red. The 3 flexible loops, showing the largest differences between these 2H enzymes, are highlighted by arrows. Orientation corresponds to the one in A. C. The loops surrounding the active site in LigT show highest <italic>B</italic> factors, <italic>i</italic>.<italic>e</italic>. highest mobility. D. One of the loops also shows specifically high <italic>B</italic> factors in CNPase. E. RMSF (black) of LigT residues during a 260-ns MD simulation and crystallographic <italic>B</italic> factors (red) of LigT (left) and the structure of LigT coloured based on the RMSF (right) indicate that the loops lining the active site are the most flexible segments of the enzyme. Red colour on the structure indicates highest RMSF values.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0170355.g005" xlink:type="simple"/>
+</fig>
+<p>To get further information on the flexibility of the loops, we performed a search for the closest 2H structural homologues (<xref ref-type="fig" rid="pone.0170355.g005">Fig 5B</xref>). The Salami structural homology search detected 11 homologous proteins from the PDB, the best hit representing the previous LigT structure. Vertebrate CNPases were not included in this list, which had 2H proteins from bacteria, viruses, and plants; many of these are annotated as 2′-5′ RNA ligases or phosphoesterases. Superposition of the structures indicated highly similar folding, despite sequence identities as low as 7%, and the largest differences were in the loops mentioned above. This result further highlights the flexibility of the active-site vicinal loops and suggests they may be important in RNA substrate recognition in the entire 2H enzyme family. Visualization of the temperature factors in the LigT crystal structure is in line with this loop flexibility (<xref ref-type="fig" rid="pone.0170355.g005">Fig 5C</xref>). The loop corresponding to the α5-β6 loop is also very flexible in mouse CNPase (<xref ref-type="fig" rid="pone.0170355.g005">Fig 5D</xref>).</p>
+<p>The dynamics of LigT were also studied using MD simulations. Analysis of the root mean square fluctuations (RMSF) during the simulation (<xref ref-type="fig" rid="pone.0170355.g005">Fig 5E</xref>) indicates that the most dynamic segments of the protein correspond to the loops described above, surrounding the active-site cavity. The most dynamic structure appears to be the β hairpin formed between the two C-terminal β strands; interestingly, this hairpin loop is not present in the mammalian CNPase structure. Some loops are more rigid in the simulation than predicted by the crystallographic <italic>B</italic> factors; this observation may be related to the fact that the reaction product 2′-AMP was present in the active site in the simulation run. The results further highlight the flexible nature of the loops, likely to play roles in LigT substrate binding.</p>
+</sec>
+<sec id="sec008">
+<title>Structure in solution</title>
+<p>To obtain an insight into larger ligand binding, we carried out small-angle X-ray scattering (SAXS) experiments with samples of LigT and yeast tRNA (<xref ref-type="fig" rid="pone.0170355.g006">Fig 6</xref>, <xref ref-type="table" rid="pone.0170355.t002">Table 2</xref>). LigT was monomeric in solution, and the obtained 3D shape corresponded closely to that seen in the crystal structure (Chi<sup>2</sup> = 0.8 between experimental SAXS data and calculated data from a LigT monomer). An exception was the highest concentration (&gt;15 mg/ml), which fitted well to a dimeric species; the relevance of this dimerization is not known, and we believe it was an artifact of the very high concentration. tRNA is slightly larger and more elongated than LigT, as expected. A multiphase <italic>ab initio</italic> modeling approach, taking advantage of the different X-ray scattering properties of RNA and protein, based on SAXS data from the complex and both components alone was employed, and an elongated complex (<xref ref-type="fig" rid="pone.0170355.g006">Fig 6C</xref>) fit the experimental data well. The result is a clear indication of the ability of LigT to bind RNA molecules, in this case specifically tRNA. Furthermore, the good fit of the 1:1 complex to the experimental data and the volume of the corresponding <italic>ab initio</italic> model both imply that the sample was mostly in complex form, with free LigT and tRNA not interfering with SAXS analysis. Whether tRNA would be a true biological substrate or ligand for LigT, is unclear at present, and remains a subject for future work. The fact that tRNA was not observed in the crystal structure can be explained by the commercial yeast tRNA preparation being a mixture of different tRNAs, not homogeneous enough to support crystallization of the complex.</p>
+<fig id="pone.0170355.g006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0170355.g006</object-id>
+<label>Fig 6</label>
+<caption>
+<title>SAXS analysis of LigT.</title>
+<p>A. Scattering curves of LigT (green), dimeric LigT (blue), yeast tRNA (red), and the LigT-tRNA complex (black). The curves have been vertically displaced for easier viewing. B. Guinier plots of all samples indicate clear lack of aggregation. Plots are shown for 0.5 &lt; sR<sub>g</sub> &lt; 1.3 for each sample. C. Distance distributions. Note the clear shift of the main peak in the complex sample, indicative of complex formation. D. SAXS-based models of monomeric LigT (top, green) and dimeric LigT (middle, blue). E. Models for the LigT-tRNA complex. Left: The MONSA model is shown as spheres (LigT, green; tRNA, orange), and the crystal structures of LigT and tRNA (PDB entry 2TRA [<xref ref-type="bibr" rid="pone.0170355.ref028">28</xref>]) are superimposed on the model. Right: SASREF rigid body model with the same colouring. Fitting parameters of the models are given in <xref ref-type="table" rid="pone.0170355.t002">Table 2</xref>. F. Fit of the complex models in panel E to the experimental data. Top, MONSA; bottom, SASREF.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0170355.g006" xlink:type="simple"/>
+</fig>
+<table-wrap id="pone.0170355.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0170355.t002</object-id>
+<label>Table 2</label> <caption><title>Results from SAXS analysis.</title></caption>
+<alternatives>
+<graphic id="pone.0170355.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0170355.t002" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Sample</th>
+<th align="left">MW (kDa)</th>
+<th align="left">R<sub>g</sub> (nm)</th>
+<th align="left">D<sub>max</sub> (nm)</th>
+<th align="left">Chi<sup>2</sup></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">LigT dimer</td>
+<td align="left">34.5</td>
+<td align="left">2.60 ± 0.01</td>
+<td align="left">11</td>
+<td align="left">1.8 (GASBOR)</td>
+</tr>
+<tr>
+<td align="left">LigT monomer</td>
+<td align="left">23</td>
+<td align="left">1.98 ± 0.07</td>
+<td align="left">9</td>
+<td align="left">0.6 (GASBOR)</td>
+</tr>
+<tr>
+<td align="left">crystal<xref ref-type="table-fn" rid="t002fn001">*</xref></td>
+<td align="left">19.8</td>
+<td align="left">1.83</td>
+<td align="left">5.6</td>
+<td align="left">0.8 (CRYSOL)</td>
+</tr>
+<tr>
+<td align="left">yeast tRNA</td>
+<td align="left">88<xref ref-type="table-fn" rid="t002fn002">**</xref></td>
+<td align="left">2.66 ± 0.04</td>
+<td align="left">15</td>
+<td align="left">0.7 (DAMMIN)</td>
+</tr>
+<tr>
+<td align="left">LigT-tRNA</td>
+<td align="left">129<xref ref-type="table-fn" rid="t002fn002">**</xref></td>
+<td align="left">3.32 ± 0.04</td>
+<td align="left">13</td>
+<td align="left">1.1 (MONSA); 2.5 (SASREF)</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p>* values and fits for a monomer crystal structure</p></fn>
+<fn id="t002fn002"><p>** Not reliable, as the MW was determined against a protein standard, and RNA has much higher scattering power than protein. Note, however, that the complex MW corresponds to the sum of the individual components.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec009">
+<title>Surface properties for RNA binding</title>
+<p>Some viral and eukaryotic 2H enzymes cleave the 2′-5′-phosphodiester bond of 2′-5′-polyadenylates [<xref ref-type="bibr" rid="pone.0170355.ref011">11</xref>–<xref ref-type="bibr" rid="pone.0170355.ref013">13</xref>]. Structural data [<xref ref-type="bibr" rid="pone.0170355.ref029">29</xref>] from these enzymes incidate that the 2′,5′-adenosine bisphophate substrate binds along the opposite side of the active site, compared to LigT and CNPase (<xref ref-type="fig" rid="pone.0170355.g007">Fig 7A</xref>). In CNPase, the side used for 2′,5′-adenosine bisphophate in these enzymes is blocked by the α7 helix, which coordinates the nucleophilic water. In LigT, this opposite side is open, and there would be room for a larger nucleophile than water, even though recent data suggest that short RNA molecules would not act as nucleophiles in LigT [<xref ref-type="bibr" rid="pone.0170355.ref022">22</xref>]. The central phosphate moiety sits nearly identically on top of the HxTx motifs, however. Combining both binding modes by superposition, interesting conservation can be observed (<xref ref-type="fig" rid="pone.0170355.g007">Fig 7A</xref>). For example, LigT Trp82 is in a perfect position to stack against a base, and Arg120 is conserved. In the NADP<sup>+</sup> complex, we actually observe unidentified electron density of a stacking interaction, modeled as a fragment of NADP<sup>+</sup>, on top of Trp82, which could reflect low-affinity binding of some moiety in NADP<sup>+</sup>. These observations highlight several possible sites for interaction between phosphate, sugar, and base moieties in RNA with residues lining the active-site groove in LigT.</p>
+<fig id="pone.0170355.g007" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0170355.g007</object-id>
+<label>Fig 7</label>
+<caption>
+<title>Evidence for an RNA binding surface from individual structures of nucleotide complexes.</title>
+<p>A. Superimposed are the complexes of LigT (white) with 2′-AMP (white), NADP<sup>+</sup> (yellow), ATP (pink), and phosphate (orange), as well as the complex of a viral RNase L agonist [<xref ref-type="bibr" rid="pone.0170355.ref029">29</xref>] with adenosine 2′,5′-bisphosphate (green). All the ligands have a phosphate group in the active site, and superposition reveals other nearby features for recognizing phosphate or aromatic base groups in RNA. Arrows indicate the different phosphate binding sites, while red asterisks denote aromatic rings potentially involved in stacking of RNA bases. B. Distribution of aromatic (orange) and basic (blue) groups in LigT. The catalytic site is indicated by the bound reaction product 2′-AMP. C. Surface electrostatic potential of LigT. The catalytic groove has a high positive charge potential. D. Model of binding for a 3-residue RNA molecule with a 2′-phospho group in the active site. Yellow dashed lines indicate the polar contacts by the phosphate moieties. Also pay attention to stacking of bases against Phe8, Phe159, and Arg86. Note Arg120 has flipped over to interact with the active-site phosphate, when the model was energy-minimized and subjected to a short MD simulation.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0170355.g007" xlink:type="simple"/>
+</fig>
+<p>LigT has been characterized as an enzyme that can ligate tRNA fragments cleaved by yeast endonuclease. The ligation joins the 2′,3′-cyclic phosphate and 5′-hydroxyl termini in a 2′-5′ phosphodiester linkage, where the linking phosphate group is derived from the cyclic phosphate moiety [<xref ref-type="bibr" rid="pone.0170355.ref010">10</xref>]. Therefore, LigT should bind RNA in the close vicinity of its active site. We looked at the surface properties of LigT to better understand this process.</p>
+<p>Earlier, we identified a possible RNA-binding groove in mouse CNPase, which additionally has a polynucleotide kinase-like domain [<xref ref-type="bibr" rid="pone.0170355.ref017">17</xref>]. The surface analysis of LigT, specifically looking at electrostatics, aromatic surface residues, and basic residues, indicates that a similar surface extends away from the LigT active site. The active site is formed at the bottom of a groove lined with basic and aromatic residues, and this groove has a very high positive electrostatic potential (<xref ref-type="fig" rid="pone.0170355.g007">Fig 7B and 7C</xref>). These characteristics fit well to the hypothesis of RNA binding.</p>
+<p>The substrate of LigT in an RNA ligation reaction is an RNA molecule, for which the 3′-terminal residue, with a 2′,3′-cyclic phosphate group, sits in the active site. The orientation of the reaction products 2′-AMP and NADP<sup>+</sup> in the active site indicates the direction, into which an RNA molecule would continue, considering the last residue sits in the active site. Likely participants in RNA binding include several aromatic and Arg residues lining the active-site groove.</p>
+<p>As the different structures predicted an RNA-binding surface on LigT, we further modeled a 3-residue RNA molecule with a terminal 2′-phosphate into the active site. Possible RNA recognition features can be deduced from this model (<xref ref-type="fig" rid="pone.0170355.g007">Fig 7D</xref>), which fit to the binding determinants observed for different ligands crystallographically. The predicted binding mode includes both electrostatic interactions between Arg residues and the phospho groups, stacking of bases against aromatic residues, and C-H…π interactions of the ribose rings.</p>
+</sec>
+<sec id="sec010">
+<title>The possible functions of LigT</title>
+<p>The 2′-5′ phosphodiester linkage between RNA nucleotides is apparently rare, but is nevertheless found all across biology. In animals, 2-5As synthesized by 2′-5′-oligoadenylate synthases have functions in innate immunity, whereby they specifically activate RNase L [<xref ref-type="bibr" rid="pone.0170355.ref030">30</xref>]. RNase L then cleaves singe-stranded viral or cellular RNAs. 2-5As can also have antibacterial activity [<xref ref-type="bibr" rid="pone.0170355.ref031">31</xref>]. Some viruses produce an enzyme that degrades 2′-5′-linked oligoadenylates and prevents the activation of RNase L [<xref ref-type="bibr" rid="pone.0170355.ref013">13</xref>,<xref ref-type="bibr" rid="pone.0170355.ref032">32</xref>]. 2′-5′ oligoadenylates have also been detected in <italic>E</italic>. <italic>coli</italic>. The level of these oligoadenylates increased as a response to phage infection, similarly to animals [<xref ref-type="bibr" rid="pone.0170355.ref020">20</xref>]. Bacterial oligoadenylates are apparently adequate to activate RNase L, since the overexpression of recombinant mammalian nuclease resulted in RNA degradation and cell growth inhibition [<xref ref-type="bibr" rid="pone.0170355.ref033">33</xref>]. LigT might function in the metabolism of bacterial 2-5As [<xref ref-type="bibr" rid="pone.0170355.ref020">20</xref>].</p>
+<p>The original paper describing LigT identified it as having enzymatic activity resembling tRNA ligases [<xref ref-type="bibr" rid="pone.0170355.ref010">10</xref>]. These activities included the 3′-phosphodiesterase activity towards the 2′,3′-cyclic phosphate present in the 3′-terminus of the 5′-half of the cleaved tRNA molecule, and the subsequent ligation of the 3′ and 5′ halves with a 2′-5′-phosphodiester bond between the 2′-phosphate group formed in the previous reaction and the 5′-hydroxyl group of the 3′-half of the cleaved tRNA molecule [<xref ref-type="bibr" rid="pone.0170355.ref010">10</xref>]. The ligation was later found to be reversible, as the enzyme additionally functions as a 2′-5′-phosphodiesterase [<xref ref-type="bibr" rid="pone.0170355.ref003">3</xref>,<xref ref-type="bibr" rid="pone.0170355.ref009">9</xref>]. Recently, however, concomitant with the publication of the first <italic>E</italic>. <italic>coli</italic> LigT structure, this view was challenged, as LigT did not appear to ligate short 10-nucleotide RNA oligomers with 2′,3′-cyclic phosphate and 5′-hydroxyl ends, but only acted on the cyclic phosphate [<xref ref-type="bibr" rid="pone.0170355.ref022">22</xref>]. Thus, LigT was claimed to be a CNPase rather that RNA ligase. It should be noted that the experimental conditions in the different studies varied, and it is hard to draw a definite conclusion at this point. Our structural data do highlight close structural similarities of bacterial LigT to RNA ligases and clear differences with respect to the vertebrate CNPase active site.</p>
+<p>Despite the current lack of identity of the physiological activity of LigT, the crystal structures presented here further highlight the versatility of the active-site architectures in 2H phosphoesterases. The best-characterized 2H enzyme is mammalian myelin CNPase, for which a central role in the reaction mechanism is played by the N terminus of helix α7 [<xref ref-type="bibr" rid="pone.0170355.ref017">17</xref>]. This helix is missing in most 2H family members, including LigT, and therefore, the reaction mechanisms must also be different across the enzyme family. The α7 helix blocks access of larger nucleophiles than water into the CNPase active site, and it could be argued that its absence in LigT and most other 2H enzymes hints towards larger molecules, most likely RNA, as potential nucleophiles.</p>
+</sec>
+</sec>
+<sec id="sec011" sec-type="materials|methods">
+<title>Materials &amp; methods</title>
+<sec id="sec012">
+<title>Cloning</title>
+<p>Genomic DNA from the BL21(DE3) strain of <italic>E</italic>. <italic>coli</italic> was purified and used as a template for PCR (<xref ref-type="supplementary-material" rid="pone.0170355.s001">S1 Table</xref>). The initial primers for the first PCR added a TEV cleavage site to the N terminus of the coded protein sequence. A second PCR reaction added attB cloning sites to both ends of the insert. The product from the latter reaction was subcloned into the pDONR221 vector (Invitrogen) and further subcloned into the pTH27 expression vector [<xref ref-type="bibr" rid="pone.0170355.ref034">34</xref>], which adds an N-terminal His<sub>6</sub> tag to the expression product. Clones were verified by DNA sequencing and found to be identical with the LigT database entry (Genbank id. AM946981.2).</p>
+</sec>
+<sec id="sec013">
+<title>Expression and purification</title>
+<p>LigT was overexpressed in the BL21(DE3) strain using ZYM-5052 autoinduction medium [<xref ref-type="bibr" rid="pone.0170355.ref035">35</xref>], supplemented with 100 μg/ml ampicillin and 0.01% Antifoam 204 (Sigma). The expression culture was incubated at +37°C for 24 h. Overexpression did not lead to any obvious toxic effects. The dry cell weight was around 12 g for 1 liter of culture. Cells were harvested by centrifugation and resuspended in lysis buffer containing 50 mM Na-HEPES (pH 7.5), 500 mM NaCl, 20 mM imidazole, 0.5 mM TCEP, and 1x EDTA-free protease inhibitor (Roche). The suspension was flash-frozen in liquid nitrogen and stored at -70°C until use.</p>
+<p>The cell suspension was supplemented with 0.1 mg/ml lysozyme and sonicated. The lysate was clarified by a 30-min centrifugation at 27000 g. The clarified lysate was then mixed with Ni-NTA (Qiagen) matrix. The matrix was washed with lysis buffer, and the protein was eluted from the matrix with elution buffer containing 500 mM imidazole. Fractions were analysed using SDS-PAGE. His-tagged TEV protease [<xref ref-type="bibr" rid="pone.0170355.ref036">36</xref>] was added to the eluted fractions containing LigT, in order to remove the His<sub>6</sub> tag, and this mixture was dialyzed overnight against lysis buffer devoid of imidazole. The dialyzed sample was passed through the Ni-NTA matrix to remove TEV protease, uncleaved LigT, and any other Ni-NTA binding contaminants. The eluted fractions were analyzed using SDS-PAGE. Fractions with cleaved LigT were concentrated and applied to a Superdex 75 16/60 (GE Healthcare) size exclusion chromatography column equilibrated with 10 mM Na-HEPES (pH 7.5), 100 mM NaCl, and 0.5 mM TCEP. Fractions were analysed using SDS-PAGE, and the fractions containing pure LigT were pooled. Approximately 25 mg of pure protein was obtained from one liter of expression culture. Pure LigT was flash-frozen in small batches with liquid nitrogen and stored at -70°C until use.</p>
+</sec>
+<sec id="sec014">
+<title>Crystallization and data collection</title>
+<p>For crystallization, LigT was in the gel filtration buffer at 10 mg/ml. Sitting drop crystallization experiments were prepared with 2:1, 1:1, and 1:2 drop ratios. The crystallization conditions were composed of 0.1 M Tris-HCl at pH 7.4–7.5, 0.2 M MgCl<sub>2</sub>, and PEG 8000 at 12–20% (w/v). For obtaining liganded complexes, LigT was mixed with putative active-site ligands prior to crystallization at 5 mM ligand concentration; these compounds included ATP, NADP<sup>+</sup>, 2′,3′-cAMP, and 3′-AMP. Crystals were cryoprotected by soaking them for a few minutes in the well solution supplemented with the ligand (if present) and 15% (v/v) PEG 200. X-ray diffraction data were collected using synchrotron radiation at 100 K. Data were collected on beamlines P11 and P13 [<xref ref-type="bibr" rid="pone.0170355.ref037">37</xref>] at PETRA III/DESY (Hamburg, Germany), as well as on beamline I911-2 at MAX-Lab (Lund, Sweden). All data were processed using XDS [<xref ref-type="bibr" rid="pone.0170355.ref038">38</xref>].</p>
+</sec>
+<sec id="sec015">
+<title>Structure solution and refinement</title>
+<p>At the time of these experiments, the bacterial LigT structure had not been solved. The structure was solved here by molecular replacement with PHASER [<xref ref-type="bibr" rid="pone.0170355.ref039">39</xref>] using as a search model the LigT orthologue structure from <italic>Thermus thermophilus</italic> [<xref ref-type="bibr" rid="pone.0170355.ref040">40</xref>] (PDB entry 1IUH, sequence identity 28%), modified with phenix.sculptor [<xref ref-type="bibr" rid="pone.0170355.ref041">41</xref>] to resemble more closely the target sequence. Refinement was carried out in phenix.refine [<xref ref-type="bibr" rid="pone.0170355.ref042">42</xref>] and rebuilding in COOT [<xref ref-type="bibr" rid="pone.0170355.ref043">43</xref>]. Final structures were validated using MolProbity [<xref ref-type="bibr" rid="pone.0170355.ref044">44</xref>]. Coordinates and structure factors were deposited at the PDB under accession codes <bold>5LDI</bold> (apo), <bold>5LDJ</bold> (phosphate complex), <bold>5LDK</bold> (ATP complex), <bold>5LDM</bold> (2′-AMP complex), <bold>5LDO</bold> (3′-AMP complex), <bold>5LDP</bold> (ATP complex 2), and <bold>5LDQ</bold> (NADP<sup>+</sup> complex).</p>
+</sec>
+<sec id="sec016">
+<title>Structure analysis</title>
+<p>Structural sequence alignments were done with Swiss PDB Viewer [<xref ref-type="bibr" rid="pone.0170355.ref045">45</xref>] and Espript [<xref ref-type="bibr" rid="pone.0170355.ref046">46</xref>]. For structure analyses, PyMOL and UCSF Chimera [<xref ref-type="bibr" rid="pone.0170355.ref047">47</xref>] were used. Superpositions were done with the SSM algorithm [<xref ref-type="bibr" rid="pone.0170355.ref048">48</xref>], and structural homologues were searched using Salami [<xref ref-type="bibr" rid="pone.0170355.ref049">49</xref>]. Modeling of the substrate complex and a complex with a 3-base RNA oligonucleotide was done in YASARA [<xref ref-type="bibr" rid="pone.0170355.ref050">50</xref>]. Electrostatic surfaces were calculated using PDB2PQR and ABPS [<xref ref-type="bibr" rid="pone.0170355.ref051">51</xref>].</p>
+</sec>
+<sec id="sec017">
+<title>Molecular dynamics simulations</title>
+<p>The complex of LigT with the bound product 2’-AMP was subjected to MD simulations with the program YASARA [<xref ref-type="bibr" rid="pone.0170355.ref050">50</xref>], version 16.2.21. The structure was placed in a cubic box filled with water, the pH was kept at 7.4, and NaCl was added to keep the salt concentration at the physiological 0.9% (w/w). After initial energy minimization, an MD run of 260 ns was carried out at 298 K. The default YASARA settings were used, saving snapshots every 250 ps, and employing the AMBER14 force field. YASARA scripts were further used for simulation data analysis.</p>
+</sec>
+<sec id="sec018">
+<title>Small-angle X-ray scattering</title>
+<p>SAXS data were collected in batch mode on the EMBL/DESY synchrotron beamline P12 [<xref ref-type="bibr" rid="pone.0170355.ref052">52</xref>], using standard procedures [<xref ref-type="bibr" rid="pone.0170355.ref053">53</xref>]. In addition to LigT alone, yeast tRNA (Sigma) and a 1:1 molar mixture of LigT and tRNA were analyzed. Data were processed with the ATSAS package [<xref ref-type="bibr" rid="pone.0170355.ref054">54</xref>]. Distance distribution functions were analyzed using GNOM [<xref ref-type="bibr" rid="pone.0170355.ref055">55</xref>]. For modelling LigT alone, GASBOR [<xref ref-type="bibr" rid="pone.0170355.ref056">56</xref>] was used. For modelling the protein-RNA complex, we used the program MONSA [<xref ref-type="bibr" rid="pone.0170355.ref057">57</xref>] with the protein and RNA in different phases. The tRNA alone was modelled using DAMMIN [<xref ref-type="bibr" rid="pone.0170355.ref057">57</xref>]. Molecular weight was estimated through a comparison of the forward scattering intensity of the sample to that of a fresh sample of monomeric bovine serum albumin.</p>
+</sec>
+<sec id="sec019">
+<title>Isothermal titration calorimetry</title>
+<p>ITC was carried out using an iTC200 instrument (Microcal). In brief, 0.2–0.4 mM LigT was titrated with 5–10 mM ligand (2′-AMP, 3′-AMP, ATP, NADP<sup>+</sup>); both the protein and ligand were in a buffer consisting of 10 mM HEPES (pH 7.5), 0.2 M NaCl, and 0.1 mM TCEP. The titration was carried out at +25°C, and the data were analysed using MicroCal Origin.</p>
+</sec>
+</sec>
+<sec id="sec020">
+<title>Supporting information</title>
+<supplementary-material id="pone.0170355.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0170355.s001" xlink:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Primers used for LigT cloning.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0170355.s002" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pone.0170355.s002" xlink:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title>ITC analysis of nucleotide binding by LigT.</title>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>We would like to thank beamline staff for excellent support at EMBL/DESY and MAX-Lab. The use of the facilities and expertise of the Biocenter Oulu crystallization core facility, a member of Biocenter Finland and Instruct-FI, is also gratefully acknowledged.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0170355.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mazumder</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Iyer</surname> <given-names>LM</given-names></name>, <name name-style="western"><surname>Vasudevan</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Aravind</surname> <given-names>L</given-names></name>. <article-title>Detection of novel members, structure-function analysis and evolutionary classification of the 2H phosphoesterase superfamily</article-title>. <source>Nucleic Acids Res</source>. <year>2002</year>;<volume>30</volume>: <fpage>5229</fpage>–<lpage>5243</lpage>. <object-id pub-id-type="pmid">12466548</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Myllykoski</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Seidel</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Muruganandam</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Raasakka</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Torda</surname> <given-names>AE</given-names></name>, <name name-style="western"><surname>Kursula</surname> <given-names>P</given-names></name>. <article-title>Structural and functional evolution of 2',3'-cyclic nucleotide 3'-phosphodiesterase</article-title>. <source>Brain Res</source>. <year>2016</year>;<volume>1641</volume>: <fpage>64</fpage>–<lpage>78</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.brainres.2015.09.004" xlink:type="simple">10.1016/j.brainres.2015.09.004</ext-link></comment> <object-id pub-id-type="pmid">26367445</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kanai</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Sato</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Fukuda</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Okada</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Matsuda</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Sakamoto</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Characterization of a heat-stable enzyme possessing GTP-dependent RNA ligase activity from a hyperthermophilic archaeon, Pyrococcus furiosus</article-title>. <source>RNA</source>. <year>2009</year>;<volume>15</volume>: <fpage>420</fpage>–<lpage>431</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1261/rna.1122109" xlink:type="simple">10.1261/rna.1122109</ext-link></comment> <object-id pub-id-type="pmid">19155324</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Phizicky</surname> <given-names>EM</given-names></name>, <name name-style="western"><surname>Schwartz</surname> <given-names>RC</given-names></name>, <name name-style="western"><surname>Abelson</surname> <given-names>J</given-names></name>. <article-title>Saccharomyces cerevisiae tRNA ligase. Purification of the protein and isolation of the structural gene</article-title>. <source>J Biol Chem</source>. <year>1986</year>;<volume>261</volume>: <fpage>2978</fpage>–<lpage>2986</lpage>. <object-id pub-id-type="pmid">3512545</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Raasakka</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Kursula</surname> <given-names>P</given-names></name>. <article-title>The myelin membrane-associated enzyme 2',3'-cyclic nucleotide 3'-phosphodiesterase: on a highway to structure and function</article-title>. <source>Neurosci Bull</source>. <year>2014</year>;<volume>30</volume>: <fpage>956</fpage>–<lpage>966</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s12264-013-1437-5" xlink:type="simple">10.1007/s12264-013-1437-5</ext-link></comment> <object-id pub-id-type="pmid">24807122</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Culver</surname> <given-names>GM</given-names></name>, <name name-style="western"><surname>Consaul</surname> <given-names>SA</given-names></name>, <name name-style="western"><surname>Tycowski</surname> <given-names>KT</given-names></name>, <name name-style="western"><surname>Filipowicz</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Phizicky</surname> <given-names>EM</given-names></name>. <article-title>tRNA splicing in yeast and wheat germ. A cyclic phosphodiesterase implicated in the metabolism of ADP-ribose 1",2"-cyclic phosphate</article-title>. <source>J Biol Chem</source>. <year>1994</year>;<volume>269</volume>: <fpage>24928</fpage>–<lpage>24934</lpage>. <object-id pub-id-type="pmid">7929175</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Genschik</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Hall</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Filipowicz</surname> <given-names>W</given-names></name>. <article-title>Cloning and characterization of the Arabidopsis cyclic phosphodiesterase which hydrolyzes ADP-ribose 1'',2''-cyclic phosphate and nucleoside 2',3'-cyclic phosphates</article-title>. <source>J Biol Chem</source>. <year>1997</year>;<volume>272</volume>: <fpage>13211</fpage>–<lpage>13219</lpage>. <object-id pub-id-type="pmid">9148938</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nasr</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Filipowicz</surname> <given-names>W</given-names></name>. <article-title>Characterization of the Saccharomyces cerevisiae cyclic nucleotide phosphodiesterase involved in the metabolism of ADP-ribose 1",2"-cyclic phosphate</article-title>. <source>Nucleic Acids Res</source>. <year>2000</year>;<volume>28</volume>: <fpage>1676</fpage>–<lpage>1683</lpage>. <object-id pub-id-type="pmid">10734185</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Arn</surname> <given-names>EA</given-names></name>, <name name-style="western"><surname>Abelson</surname> <given-names>JN</given-names></name>. <article-title>The 2'-5' RNA ligase of Escherichia coli. Purification, cloning, and genomic disruption</article-title>. <source>J Biol Chem</source>. <year>1996</year>;<volume>271</volume>: <fpage>31145</fpage>–<lpage>31153</lpage>. <object-id pub-id-type="pmid">8940112</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Greer</surname> <given-names>CL</given-names></name>, <name name-style="western"><surname>Javor</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Abelson</surname> <given-names>J</given-names></name>. <article-title>RNA ligase in bacteria: formation of a 2',5' linkage by an E. coli extract</article-title>. <source>Cell</source>. <year>1983</year>;<volume>33</volume>: <fpage>899</fpage>–<lpage>906</lpage>. <object-id pub-id-type="pmid">6347395</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gusho</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Jha</surname> <given-names>BK</given-names></name>, <name name-style="western"><surname>Thornbrough</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Dong</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Gaughan</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Murine AKAP7 has a 2',5'-phosphodiesterase domain that can complement an inactive murine coronavirus ns2 gene</article-title>. <source>MBio</source>. <year>2014</year>;<volume>5</volume>: <fpage>e01312</fpage>–<lpage>14</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/mBio.01312-14" xlink:type="simple">10.1128/mBio.01312-14</ext-link></comment> <object-id pub-id-type="pmid">24987090</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhang</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Jha</surname> <given-names>BK</given-names></name>, <name name-style="western"><surname>Ogden</surname> <given-names>KM</given-names></name>, <name name-style="western"><surname>Dong</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Zhao</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Elliott</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Homologous 2',5'-phosphodiesterases from disparate RNA viruses antagonize antiviral innate immunity</article-title>. <source>Proc Natl Acad Sci U S A</source>. <year>2013</year>;<volume>110</volume>: <fpage>13114</fpage>–<lpage>13119</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.1306917110" xlink:type="simple">10.1073/pnas.1306917110</ext-link></comment> <object-id pub-id-type="pmid">23878220</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhao</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Jha</surname> <given-names>BK</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Elliott</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Ziebuhr</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Gorbalenya</surname> <given-names>AE</given-names></name>, <etal>et al</etal>. <article-title>Antagonism of the interferon-induced OAS-RNase L pathway by murine coronavirus ns2 protein is required for virus replication and liver pathology</article-title>. <source>Cell Host Microbe</source>. <year>2012</year>;<volume>11</volume>: <fpage>607</fpage>–<lpage>616</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.chom.2012.04.011" xlink:type="simple">10.1016/j.chom.2012.04.011</ext-link></comment> <object-id pub-id-type="pmid">22704621</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hilcenko</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Simpson</surname> <given-names>PJ</given-names></name>, <name name-style="western"><surname>Finch</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Bowler</surname> <given-names>FR</given-names></name>, <name name-style="western"><surname>Churcher</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Jin</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>Aberrant 3' oligoadenylation of spliceosomal U6 small nuclear RNA in poikiloderma with neutropenia</article-title>. <source>Blood</source>. <year>2013</year>;<volume>121</volume>: <fpage>1028</fpage>–<lpage>1038</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1182/blood-2012-10-461491" xlink:type="simple">10.1182/blood-2012-10-461491</ext-link></comment> <object-id pub-id-type="pmid">23190533</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lee</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Gravel</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Gao</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>O'Neill</surname> <given-names>RC</given-names></name>, <name name-style="western"><surname>Braun</surname> <given-names>PE</given-names></name>. <article-title>Identification of essential residues in 2',3'-cyclic nucleotide 3'-phosphodiesterase. Chemical modification and site-directed mutagenesis to investigate the role of cysteine and histidine residues in enzymatic activity</article-title>. <source>J Biol Chem</source>. <year>2001</year>;<volume>276</volume>: <fpage>14804</fpage>–<lpage>14813</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1074/jbc.M009434200" xlink:type="simple">10.1074/jbc.M009434200</ext-link></comment> <object-id pub-id-type="pmid">11278504</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Myllykoski</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Raasakka</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Han</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Kursula</surname> <given-names>P</given-names></name>. <article-title>Myelin 2',3'-cyclic nucleotide 3'-phosphodiesterase: active-site ligand binding and molecular conformation</article-title>. <source>PLoS One</source>. <year>2012</year>;<volume>7</volume>: <fpage>e32336</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0032336" xlink:type="simple">10.1371/journal.pone.0032336</ext-link></comment> <object-id pub-id-type="pmid">22393399</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Myllykoski</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Raasakka</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Lehtimaki</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Han</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Kursula</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Kursula</surname> <given-names>P</given-names></name>. <article-title>Crystallographic analysis of the reaction cycle of 2',3'-cyclic nucleotide 3'-phosphodiesterase, a unique member of the 2H phosphoesterase family</article-title>. <source>J Mol Biol</source>. <year>2013</year>;<volume>425</volume>: <fpage>4307</fpage>–<lpage>4322</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jmb.2013.06.012" xlink:type="simple">10.1016/j.jmb.2013.06.012</ext-link></comment> <object-id pub-id-type="pmid">23831225</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Raasakka</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Myllykoski</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Laulumaa</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Lehtimaki</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Hartlein</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Moulin</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Determinants of ligand binding and catalytic activity in the myelin enzyme 2',3'-cyclic nucleotide 3'-phosphodiesterase</article-title>. <source>Sci Rep</source>. <year>2015</year>;<volume>5</volume>: <fpage>16520</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/srep16520" xlink:type="simple">10.1038/srep16520</ext-link></comment> <object-id pub-id-type="pmid">26563764</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sakamoto</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Tanaka</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Ichimiya</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Kurihara</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Nakamura</surname> <given-names>KT</given-names></name>. <article-title>Crystal structure of the catalytic fragment of human brain 2',3'-cyclic-nucleotide 3'-phosphodiesterase</article-title>. <source>J Mol Biol</source>. <year>2005</year>;<volume>346</volume>: <fpage>789</fpage>–<lpage>800</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jmb.2004.12.024" xlink:type="simple">10.1016/j.jmb.2004.12.024</ext-link></comment> <object-id pub-id-type="pmid">15713463</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Trujillo</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Roux</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Fueri</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Samuel</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Cailla</surname> <given-names>HL</given-names></name>, <name name-style="western"><surname>Rickenberg</surname> <given-names>HV</given-names></name>. <article-title>The occurrence of 2'-5' oligoadenylates in Escherichia coli</article-title>. <source>Eur J Biochem</source>. <year>1987</year>;<volume>169</volume>: <fpage>167</fpage>–<lpage>173</lpage>. <object-id pub-id-type="pmid">2960522</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liu</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Zhou</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Omelchenko</surname> <given-names>MV</given-names></name>, <name name-style="western"><surname>Beliaev</surname> <given-names>AS</given-names></name>, <name name-style="western"><surname>Venkateswaran</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Stair</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Transcriptome dynamics of Deinococcus radiodurans recovering from ionizing radiation</article-title>. <source>Proc Natl Acad Sci U S A</source>. <year>2003</year>;<volume>100</volume>: <fpage>4191</fpage>–<lpage>4196</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.0630387100" xlink:type="simple">10.1073/pnas.0630387100</ext-link></comment> <object-id pub-id-type="pmid">12651953</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Remus</surname> <given-names>BS</given-names></name>, <name name-style="western"><surname>Jacewicz</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Shuman</surname> <given-names>S</given-names></name>. <article-title>Structure and mechanism of E. coli RNA 2',3'-cyclic phosphodiesterase</article-title>. <source>RNA</source>. <year>2014</year>;<volume>20</volume>: <fpage>1697</fpage>–<lpage>1705</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1261/rna.046797.114" xlink:type="simple">10.1261/rna.046797.114</ext-link></comment> <object-id pub-id-type="pmid">25239919</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jackson</surname> <given-names>EK</given-names></name>. <article-title>Discovery and Roles of 2',3'-cAMP in Biological Systems</article-title>. <source>Handb Exp Pharmacol</source>. <year>2016</year></mixed-citation></ref>
+<ref id="pone.0170355.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bordeleau</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Oberc</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Ameen</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>da Silva</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Yan</surname> <given-names>H</given-names></name>. <article-title>Identification of cytidine 2',3'-cyclic monophosphate and uridine 2',3'-cyclic monophosphate in Pseudomonas fluorescens pfo-1 culture</article-title>. <source>Bioorg Med Chem Lett</source>. <year>2014</year>;<volume>24</volume>: <fpage>4520</fpage>–<lpage>4522</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.bmcl.2014.07.080" xlink:type="simple">10.1016/j.bmcl.2014.07.080</ext-link></comment> <object-id pub-id-type="pmid">25139571</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liu</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Burns</surname> <given-names>DM</given-names></name>, <name name-style="western"><surname>Beacham</surname> <given-names>IR</given-names></name>. <article-title>Isolation and sequence analysis of the gene (cpdB) encoding periplasmic 2',3'-cyclic phosphodiesterase</article-title>. <source>J Bacteriol</source>. <year>1986</year>;<volume>165</volume>: <fpage>1002</fpage>–<lpage>1010</lpage>. <object-id pub-id-type="pmid">3005231</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yakunin</surname> <given-names>AF</given-names></name>, <name name-style="western"><surname>Proudfoot</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kuznetsova</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Savchenko</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Brown</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Arrowsmith</surname> <given-names>CH</given-names></name>, <etal>et al</etal>. <article-title>The HD domain of the Escherichia coli tRNA nucleotidyltransferase has 2',3'-cyclic phosphodiesterase, 2'-nucleotidase, and phosphatase activities</article-title>. <source>J Biol Chem</source>. <year>2004</year>;<volume>279</volume>: <fpage>36819</fpage>–<lpage>36827</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1074/jbc.M405120200" xlink:type="simple">10.1074/jbc.M405120200</ext-link></comment> <object-id pub-id-type="pmid">15210699</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Myllykoski</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kursula</surname> <given-names>P</given-names></name>. <article-title>Expression, purification, and initial characterization of different domains of recombinant mouse 2',3'-cyclic nucleotide 3'-phosphodiesterase, an enigmatic enzyme from the myelin sheath</article-title>. <source>BMC Res Notes</source>. <year>2010</year>;<volume>3</volume>: <fpage>12</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1756-0500-3-12" xlink:type="simple">10.1186/1756-0500-3-12</ext-link></comment> <object-id pub-id-type="pmid">20180985</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Westhof</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Dumas</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Moras</surname> <given-names>D</given-names></name>. <article-title>Restrained refinement of two crystalline forms of yeast aspartic acid and phenylalanine transfer RNA crystals</article-title>. <source>Acta Crystallogr A</source>. <year>1988</year>;<volume>44</volume>: <fpage>112</fpage>–<lpage>123</lpage>. <object-id pub-id-type="pmid">3272146</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ogden</surname> <given-names>KM</given-names></name>, <name name-style="western"><surname>Hu</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Jha</surname> <given-names>BK</given-names></name>, <name name-style="western"><surname>Sankaran</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Weiss</surname> <given-names>SR</given-names></name>, <name name-style="western"><surname>Silverman</surname> <given-names>RH</given-names></name>, <etal>et al</etal>. <article-title>Structural basis for 2'-5'-oligoadenylate binding and enzyme activity of a viral RNase L antagonist</article-title>. <source>J Virol</source>. <year>2015</year>;<volume>89</volume>: <fpage>6633</fpage>–<lpage>6645</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/JVI.00701-15" xlink:type="simple">10.1128/JVI.00701-15</ext-link></comment> <object-id pub-id-type="pmid">25878106</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Banerjee</surname> <given-names>S</given-names></name>. <article-title>RNase L and the NLRP3-inflammasome: An old merchant in a new trade</article-title>. <source>Cytokine Growth Factor Rev</source>. <year>2016</year>;<volume>29</volume>: <fpage>63</fpage>–<lpage>70</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.cytogfr.2016.02.008" xlink:type="simple">10.1016/j.cytogfr.2016.02.008</ext-link></comment> <object-id pub-id-type="pmid">26987611</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Li</surname> <given-names>XL</given-names></name>, <name name-style="western"><surname>Ezelle</surname> <given-names>HJ</given-names></name>, <name name-style="western"><surname>Kang</surname> <given-names>TJ</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Shirey</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Harro</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>An essential role for the antiviral endoribonuclease, RNase-L, in antibacterial immunity</article-title>. <source>Proc Natl Acad Sci U S A</source>. <year>2008</year>;<volume>105</volume>: <fpage>20816</fpage>–<lpage>20821</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.0807265105" xlink:type="simple">10.1073/pnas.0807265105</ext-link></comment> <object-id pub-id-type="pmid">19075243</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Thornbrough</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Jha</surname> <given-names>BK</given-names></name>, <name name-style="western"><surname>Yount</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Goldstein</surname> <given-names>SA</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Elliott</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Middle East Respiratory Syndrome Coronavirus NS4b Protein Inhibits Host RNase L Activation</article-title>. <source>MBio</source>. <year>2016</year>;<volume>7</volume>:</mixed-citation></ref>
+<ref id="pone.0170355.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pandey</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Rath</surname> <given-names>PC</given-names></name>. <article-title>Expression of interferon-inducible recombinant human RNase L causes RNA degradation and inhibition of cell growth in Escherichia coli</article-title>. <source>Biochem Biophys Res Commun</source>. <year>2004</year>;<volume>317</volume>: <fpage>586</fpage>–<lpage>597</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.bbrc.2004.03.083" xlink:type="simple">10.1016/j.bbrc.2004.03.083</ext-link></comment> <object-id pub-id-type="pmid">15063798</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hammarstrom</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Woestenenk</surname> <given-names>EA</given-names></name>, <name name-style="western"><surname>Hellgren</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Hard</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Berglund</surname> <given-names>H</given-names></name>. <article-title>Effect of N-terminal solubility enhancing fusion proteins on yield of purified target protein</article-title>. <source>J Struct Funct Genomics</source>. <year>2006</year>;<volume>7</volume>: <fpage>1</fpage>–<lpage>14</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s10969-005-9003-7" xlink:type="simple">10.1007/s10969-005-9003-7</ext-link></comment> <object-id pub-id-type="pmid">16850178</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref035"><label>35</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Studier</surname> <given-names>FW</given-names></name>. <article-title>Protein production by auto-induction in high density shaking cultures</article-title>. <source>Protein Expr Purif</source>. <year>2005</year>;<volume>41</volume>: <fpage>207</fpage>–<lpage>234</lpage>. <object-id pub-id-type="pmid">15915565</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref036"><label>36</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>van den Berg</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Lofdahl</surname> <given-names>PA</given-names></name>, <name name-style="western"><surname>Hard</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Berglund</surname> <given-names>H</given-names></name>. <article-title>Improved solubility of TEV protease by directed evolution</article-title>. <source>J Biotechnol</source>. <year>2006</year>;<volume>121</volume>: <fpage>291</fpage>–<lpage>298</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jbiotec.2005.08.006" xlink:type="simple">10.1016/j.jbiotec.2005.08.006</ext-link></comment> <object-id pub-id-type="pmid">16150509</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref037"><label>37</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cianci</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Bourenkov</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Pompidor</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Karpics</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Kallio</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Bento</surname> <given-names>I</given-names></name>, <etal>et al</etal>. <article-title>P13, the EMBL macromolecular crystallography beamline at the low-emittance PETRA III ring for high- and low-energy phasing with variable beam focusing</article-title>. <source>J Synchrotron Radiat</source>. <year>2017</year>;<volume>24</volume>: <fpage>323</fpage>–<lpage>332</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1107/S1600577516016465" xlink:type="simple">10.1107/S1600577516016465</ext-link></comment> <object-id pub-id-type="pmid">28009574</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref038"><label>38</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kabsch</surname> <given-names>W</given-names></name>. <article-title>Automatic processing of rotation diffraction data from crystals of initially unknown symmetry and cell constants</article-title> <source>J Appl Cryst</source>. <year>1993</year>;<volume>26</volume>: <fpage>795</fpage>–<lpage>800</lpage>.</mixed-citation></ref>
+<ref id="pone.0170355.ref039"><label>39</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>McCoy</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Grosse-Kunstleve</surname> <given-names>RW</given-names></name>, <name name-style="western"><surname>Adams</surname> <given-names>PD</given-names></name>, <name name-style="western"><surname>Winn</surname> <given-names>MD</given-names></name>, <name name-style="western"><surname>Storoni</surname> <given-names>LC</given-names></name>, <name name-style="western"><surname>Read</surname> <given-names>RJ</given-names></name>. <article-title>Phaser crystallographic software</article-title>. <source>J Appl Crystallogr</source>. <year>2007</year>;<volume>40</volume>: <fpage>658</fpage>–<lpage>674</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1107/S0021889807021206" xlink:type="simple">10.1107/S0021889807021206</ext-link></comment> <object-id pub-id-type="pmid">19461840</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref040"><label>40</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kato</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Shirouzu</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Terada</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Yamaguchi</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Murayama</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Sakai</surname> <given-names>H</given-names></name>, <etal>et al</etal>. <article-title>Crystal structure of the 2'-5' RNA ligase from Thermus thermophilus HB8</article-title>. <source>J Mol Biol</source>. <year>2003</year>;<volume>329</volume>: <fpage>903</fpage>–<lpage>911</lpage>. <object-id pub-id-type="pmid">12798681</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref041"><label>41</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bunkoczi</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Read</surname> <given-names>RJ</given-names></name>. <article-title>Improvement of molecular-replacement models with Sculptor</article-title>. <source>Acta Crystallogr D Biol Crystallogr</source>. <year>2011</year>;<volume>67</volume>: <fpage>303</fpage>–<lpage>312</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1107/S0907444910051218" xlink:type="simple">10.1107/S0907444910051218</ext-link></comment> <object-id pub-id-type="pmid">21460448</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref042"><label>42</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Afonine</surname> <given-names>PV</given-names></name>, <name name-style="western"><surname>Grosse-Kunstleve</surname> <given-names>RW</given-names></name>, <name name-style="western"><surname>Echols</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Headd</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>Moriarty</surname> <given-names>NW</given-names></name>, <name name-style="western"><surname>Mustyakimov</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Towards automated crystallographic structure refinement with phenix.refine</article-title>. <source>Acta Crystallogr D Biol Crystallogr</source>. <year>2012</year>;<volume>68</volume>: <fpage>352</fpage>–<lpage>367</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1107/S0907444912001308" xlink:type="simple">10.1107/S0907444912001308</ext-link></comment> <object-id pub-id-type="pmid">22505256</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref043"><label>43</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Emsley</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Cowtan</surname> <given-names>K</given-names></name>. <article-title>Coot: model-building tools for molecular graphics</article-title>. <source>Acta Crystallogr D Biol Crystallogr</source>. <year>2004</year>;<volume>60</volume>: <fpage>2126</fpage>–<lpage>2132</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1107/S0907444904019158" xlink:type="simple">10.1107/S0907444904019158</ext-link></comment> <object-id pub-id-type="pmid">15572765</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref044"><label>44</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chen</surname> <given-names>VB</given-names></name>, <name name-style="western"><surname>Arendall</surname> <given-names>WB</given-names></name>, <name name-style="western"><surname>Headd</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>Keedy</surname> <given-names>DA</given-names></name>, <name name-style="western"><surname>Immormino</surname> <given-names>RM</given-names></name>, <name name-style="western"><surname>Kapral</surname> <given-names>GJ</given-names></name>, <etal>et al</etal>. <article-title>MolProbity: all-atom structure validation for macromolecular crystallography</article-title>. <source>Acta Crystallogr D Biol Crystallogr</source>. <year>2010</year>;<volume>66</volume>: <fpage>12</fpage>–<lpage>21</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1107/S0907444909042073" xlink:type="simple">10.1107/S0907444909042073</ext-link></comment> <object-id pub-id-type="pmid">20057044</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref045"><label>45</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Guex</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Peitsch</surname> <given-names>MC</given-names></name>. <article-title>SWISS-MODEL and the Swiss-PdbViewer: an environment for comparative protein modeling</article-title>. <source>Electrophoresis</source>. <year>1997</year>;<volume>18</volume>: <fpage>2714</fpage>–<lpage>2723</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/elps.1150181505" xlink:type="simple">10.1002/elps.1150181505</ext-link></comment> <object-id pub-id-type="pmid">9504803</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref046"><label>46</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gouet</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Courcelle</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Stuart</surname> <given-names>DI</given-names></name>, <name name-style="western"><surname>Metoz</surname> <given-names>F</given-names></name>. <article-title>ESPript: analysis of multiple sequence alignments in PostScript</article-title>. <source>Bioinformatics</source>. <year>1999</year>;<volume>15</volume>: <fpage>305</fpage>–<lpage>308</lpage>. <object-id pub-id-type="pmid">10320398</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref047"><label>47</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pettersen</surname> <given-names>EF</given-names></name>, <name name-style="western"><surname>Goddard</surname> <given-names>TD</given-names></name>, <name name-style="western"><surname>Huang</surname> <given-names>CC</given-names></name>, <name name-style="western"><surname>Couch</surname> <given-names>GS</given-names></name>, <name name-style="western"><surname>Greenblatt</surname> <given-names>DM</given-names></name>, <name name-style="western"><surname>Meng</surname> <given-names>EC</given-names></name>, <etal>et al</etal>. <article-title>UCSF Chimera—a visualization system for exploratory research and analysis</article-title>. <source>J Comput Chem</source>. <year>2004</year>;<volume>25</volume>: <fpage>1605</fpage>–<lpage>1612</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/jcc.20084" xlink:type="simple">10.1002/jcc.20084</ext-link></comment> <object-id pub-id-type="pmid">15264254</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref048"><label>48</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Krissinel</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Henrick</surname> <given-names>K</given-names></name>. <article-title>Secondary-structure matching (SSM), a new tool for fast protein structure alignment in three dimensions</article-title>. <source>Acta Crystallogr D Biol Crystallogr</source>. <year>2004</year>;<volume>60</volume>: <fpage>2256</fpage>–<lpage>2268</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1107/S0907444904026460" xlink:type="simple">10.1107/S0907444904026460</ext-link></comment> <object-id pub-id-type="pmid">15572779</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref049"><label>49</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Margraf</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Schenk</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Torda</surname> <given-names>AE</given-names></name>. <article-title>The SALAMI protein structure search server</article-title>. <source>Nucleic Acids Res</source>. <year>2009</year>;<volume>37</volume>: <fpage>W480</fpage>–<lpage>4</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/nar/gkp431" xlink:type="simple">10.1093/nar/gkp431</ext-link></comment> <object-id pub-id-type="pmid">19465380</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref050"><label>50</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Krieger</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Vriend</surname> <given-names>G</given-names></name>. <article-title>YASARA View—molecular graphics for all devices—from smartphones to workstations</article-title>. <source>Bioinformatics</source>. <year>2014</year>;<volume>30</volume>: <fpage>2981</fpage>–<lpage>2982</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/bioinformatics/btu426" xlink:type="simple">10.1093/bioinformatics/btu426</ext-link></comment> <object-id pub-id-type="pmid">24996895</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref051"><label>51</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Unni</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Huang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Hanson</surname> <given-names>RM</given-names></name>, <name name-style="western"><surname>Tobias</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Krishnan</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>WW</given-names></name>, <etal>et al</etal>. <article-title>Web servers and services for electrostatics calculations with APBS and PDB2PQR</article-title>. <source>J Comput Chem</source>. <year>2011</year>;<volume>32</volume>: <fpage>1488</fpage>–<lpage>1491</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/jcc.21720" xlink:type="simple">10.1002/jcc.21720</ext-link></comment> <object-id pub-id-type="pmid">21425296</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref052"><label>52</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Blanchet</surname> <given-names>CE</given-names></name>, <name name-style="western"><surname>Spilotros</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Schwemmer</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Graewert</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Kikhney</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Jeffries</surname> <given-names>CM</given-names></name>, <etal>et al</etal>. <article-title>Versatile sample environments and automation for biological solution X-ray scattering experiments at the P12 beamline (PETRA III, DESY)</article-title>. <source>J Appl Crystallogr</source>. <year>2015</year>;<volume>48</volume>: <fpage>431</fpage>–<lpage>443</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1107/S160057671500254X" xlink:type="simple">10.1107/S160057671500254X</ext-link></comment> <object-id pub-id-type="pmid">25844078</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref053"><label>53</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Majava</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Petoukhov</surname> <given-names>MV</given-names></name>, <name name-style="western"><surname>Hayashi</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Pirila</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Svergun</surname> <given-names>DI</given-names></name>, <name name-style="western"><surname>Kursula</surname> <given-names>P</given-names></name>. <article-title>Interaction between the C-terminal region of human myelin basic protein and calmodulin: analysis of complex formation and solution structure</article-title>. <source>BMC Struct Biol</source>. <year>2008</year>;<volume>8</volume>: <fpage>10</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1472-6807-8-10" xlink:type="simple">10.1186/1472-6807-8-10</ext-link></comment> <object-id pub-id-type="pmid">18284662</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref054"><label>54</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Petoukhov</surname> <given-names>MV</given-names></name>, <name name-style="western"><surname>Franke</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Shkumatov</surname> <given-names>AV</given-names></name>, <name name-style="western"><surname>Tria</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Kikhney</surname> <given-names>AG</given-names></name>, <name name-style="western"><surname>Gajda</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>New developments in the program package for small-angle scattering data analysis</article-title>. <source>J Appl Crystallogr</source>. <year>2012</year>;<volume>45</volume>: <fpage>342</fpage>–<lpage>350</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1107/S0021889812007662" xlink:type="simple">10.1107/S0021889812007662</ext-link></comment> <object-id pub-id-type="pmid">25484842</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref055"><label>55</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Svergun</surname> <given-names>DI</given-names></name>. <article-title>Determination of the regularization parameter in indirect-transform methods using perceptual criteria</article-title> <source>J. Appl. Crystallogr</source>. <year>1992</year>;<volume>25</volume>: <fpage>495</fpage>–<lpage>503</lpage>.</mixed-citation></ref>
+<ref id="pone.0170355.ref056"><label>56</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Svergun</surname> <given-names>DI</given-names></name>, <name name-style="western"><surname>Petoukhov</surname> <given-names>MV</given-names></name>, <name name-style="western"><surname>Koch</surname> <given-names>MH</given-names></name>. <article-title>Determination of domain structure of proteins from X-ray solution scattering</article-title>. <source>Biophys J</source>. <year>2001</year>;<volume>80</volume>: <fpage>2946</fpage>–<lpage>2953</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0006-3495(01)76260-1" xlink:type="simple">10.1016/S0006-3495(01)76260-1</ext-link></comment> <object-id pub-id-type="pmid">11371467</object-id></mixed-citation></ref>
+<ref id="pone.0170355.ref057"><label>57</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Svergun</surname> <given-names>DI</given-names></name>. <article-title>Restoring low resolution structure of biological macromolecules from solution scattering using simulated annealing</article-title>. <source>Biophys J</source>. <year>1999</year>;<volume>76</volume>: <fpage>2879</fpage>–<lpage>2886</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0006-3495(99)77443-6" xlink:type="simple">10.1016/S0006-3495(99)77443-6</ext-link></comment> <object-id pub-id-type="pmid">10354416</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

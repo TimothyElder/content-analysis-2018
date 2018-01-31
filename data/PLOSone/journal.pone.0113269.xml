@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title>PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-14-26239</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0113269</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline-v2"><subject>Biology and life sciences</subject><subj-group><subject>Neuroscience</subject><subj-group><subject>Behavioral neuroscience</subject><subject>Molecular neuroscience</subject></subj-group></subj-group><subj-group><subject>Organisms</subject><subj-group><subject>Animals</subject><subj-group><subject>Invertebrates</subject><subj-group><subject>Nematoda</subject><subj-group><subject>Caenorhabditis</subject><subj-group><subject>Caenorhabditis elegans</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group><subject>Physiology</subject><subj-group><subject>Physiological processes</subject><subj-group><subject>Sleep</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Gene Expression Changes of <italic>Caenorhabditis elegans</italic> Larvae during Molting and Sleep-Like Lethargus</article-title>
+<alt-title alt-title-type="running-head">Gene Expression during Lethargus</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Turek</surname><given-names>Michal</given-names></name><xref ref-type="aff" rid="aff1"/></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Bringmann</surname><given-names>Henrik</given-names></name><xref ref-type="aff" rid="aff1"/><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><addr-line>Max Planck Research Group “Sleep and Wake”, Max Planck Institute for Biophysical Chemistry, Niedersachsen, Göttingen, Germany</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Hart</surname><given-names>Anne C.</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Brown University/Harvard, United States of America</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">Henrik.Bringmann@mpibpc.mpg.de</email></corresp>
+<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: MT HB. Performed the experiments: MT. Analyzed the data: MT. Contributed to the writing of the manuscript: MT HB.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2014</year></pub-date>
+<pub-date pub-type="epub"><day>19</day><month>11</month><year>2014</year></pub-date>
+<volume>9</volume>
+<issue>11</issue>
+<elocation-id>e113269</elocation-id>
+<history>
+<date date-type="received"><day>12</day><month>6</month><year>2014</year></date>
+<date date-type="accepted"><day>26</day><month>10</month><year>2014</year></date>
+</history>
+<permissions>
+<copyright-year>2014</copyright-year>
+<copyright-holder>Turek, Bringmann</copyright-holder><license xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract>
+<p>During their development, <italic>Caenorhabditis elegans</italic> larvae go through four developmental stages. At the end of each larval stage, nematodes molt. They synthesize a new cuticle and shed the old cuticle. During the molt, larvae display a sleep-like behavior that is called lethargus. We wanted to determine how gene expression changes during the <italic>C. elegans</italic> molting cycle. We performed transcriptional profiling of <italic>C. elegans</italic> by selecting larvae displaying either sleep-like behavior during the molt or wake behavior during the intermolt to identify genes that oscillate with the molting-cycle. We found that expression changed during the molt and we identified 520 genes that oscillated with the molting cycle. 138 of these genes were not previously reported to oscillate. The majority of genes that had oscillating expression levels appear to be involved in molting, indicating that the majority of transcriptional changes serve to resynthesize the cuticle. Identification of genes that control sleep-like behavior during lethargus is difficult but may be possible by looking at genes that are expressed in neurons. 22 of the oscillating genes were expressed in neurons. One of these genes, the dopamine transporter gene <italic>dat-1</italic>, was previously shown in mammals and in <italic>C. elegans</italic> to control sleep. Taken together, we provide a dataset of genes that oscillate with the molting and sleep-wake cycle, which will be useful to investigate molting and possibly also sleep-like behavior during lethargus.</p>
+</abstract>
+<funding-group><funding-statement>This work was funded by the Max Planck Society. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="8"/></counts><custom-meta-group><custom-meta id="data-availability" xlink:type="simple"><meta-name>Data Availability</meta-name><meta-value>The authors confirm that all data underlying the findings are fully available without restriction. All relevant data are within the paper and its Supporting Information file.</meta-value></custom-meta></custom-meta-group></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>Nematodes belong to the clade of ecdysozoans, which are protected against their environment by a cuticle <xref ref-type="bibr" rid="pone.0113269-Aguinaldo1">[1]</xref>. In order to allow growth, the exoskeleton needs to get re-synthesized in a process called molting <xref ref-type="bibr" rid="pone.0113269-Page1">[2]</xref>. The nematode cuticle consists of a collagenous extracellular matrix that is synthesized by the hypodermis, an ectodermal tissue that is underlying the cuticle <xref ref-type="bibr" rid="pone.0113269-Page1">[2]</xref>. In a process called apolysis the old cuticle is separated from the hypodermis <xref ref-type="bibr" rid="pone.0113269-Page1">[2]</xref>. To synthesize a new cuticle, hypodermal cells and seam cells secrete, on their apical side, cuticle material that then hardens to form the new cuticle. The main component of the cuticle is collagen and the cuticle collagens form a large gene class with more than a hundred members <xref ref-type="bibr" rid="pone.0113269-Johnstone1">[3]</xref>. In addition, cuticulins are cross-linking structural components of the cuticle<xref ref-type="bibr" rid="pone.0113269-Page1">[2]</xref>, <xref ref-type="bibr" rid="pone.0113269-Sebastiano1">[4]</xref>–<xref ref-type="bibr" rid="pone.0113269-Sapio1">[6]</xref>. Gland cells secrete a surface coat that is rich in glycoproteins and lipids <xref ref-type="bibr" rid="pone.0113269-Page1">[2]</xref>, <xref ref-type="bibr" rid="pone.0113269-Nelson1">[7]</xref>. After apolysis, in a process called ecdysis, worms shed the old cuticle <xref ref-type="bibr" rid="pone.0113269-Page1">[2]</xref>, <xref ref-type="bibr" rid="pone.0113269-Singh1">[8]</xref>. Ecdysis involves a typical shedding behavior <xref ref-type="bibr" rid="pone.0113269-Singh1">[8]</xref> and depends on metalloproteases <xref ref-type="bibr" rid="pone.0113269-Davis1">[9]</xref>, <xref ref-type="bibr" rid="pone.0113269-Brooks1">[10]</xref>.</p>
+<p>Endocrine signals trigger regulatory cascades to express genes required for the molt <xref ref-type="bibr" rid="pone.0113269-Frand1">[11]</xref>. The nuclear hormone receptor NHR-23 is required for the activation of many molting genes in the hypodermis <xref ref-type="bibr" rid="pone.0113269-Frand1">[11]</xref>, <xref ref-type="bibr" rid="pone.0113269-Kostrouchova1">[12]</xref>. Genes that are downstream of NHR-23, such as the peptide MLT-8 and the Angiotensin Converting Enzyme ACN-1 were hypothesized to amplify the molting cue <xref ref-type="bibr" rid="pone.0113269-Frand1">[11]</xref>. The production and secretion of cuticle-synthesizing proteins such as extracellular matrix components, peroxidases, proteases, and protease inhibitors leads to the formation of a new cuticle <xref ref-type="bibr" rid="pone.0113269-Frand1">[11]</xref>. The repetition of these bursts of molting gene expression at the end of each larval stage causes an oscillating pattern of molting gene expression<xref ref-type="bibr" rid="pone.0113269-Monsalve1">[13]</xref>–<xref ref-type="bibr" rid="pone.0113269-Johnstone2">[17]</xref>.</p>
+<p>Circadian genes such as the <italic>period</italic> gene control circadian rhythms in other systems. <italic>C. elegans</italic> has a <italic>period</italic> homolog called <italic>lin-42.</italic> Similar to the <italic>period</italic> gene, <italic>lin-42</italic> mRNA levels oscillate with the molting cycle <xref ref-type="bibr" rid="pone.0113269-Jeon1">[15]</xref>. Knockout of <italic>lin-42</italic> causes defects in the timing of the molting cycle and the timing of the sleep-like behavior. Thus, circadian rhythm genes control the molting cycle in <italic>C. elegans</italic> <xref ref-type="bibr" rid="pone.0113269-Monsalve1">[13]</xref>.</p>
+<p>During apolysis larvae do not feed and are behaviorally quiescent, a phenomenon called lethargus <xref ref-type="bibr" rid="pone.0113269-Cassada1">[18]</xref>. The quiescence behavior during lethargus fulfills behavioral criteria that define sleep <xref ref-type="bibr" rid="pone.0113269-Campbell1">[19]</xref>, <xref ref-type="bibr" rid="pone.0113269-Raizen1">[20]</xref>. During lethargus, voluntary movement is largely absent<xref ref-type="bibr" rid="pone.0113269-Cassada1">[18]</xref>, <xref ref-type="bibr" rid="pone.0113269-Raizen1">[20]</xref>–<xref ref-type="bibr" rid="pone.0113269-Iwanir1">[22]</xref>. Behavioral quiescence can be reversed using sensory stimulation <xref ref-type="bibr" rid="pone.0113269-Raizen1">[20]</xref>, <xref ref-type="bibr" rid="pone.0113269-Turek1">[23]</xref>, <xref ref-type="bibr" rid="pone.0113269-Driver1">[24]</xref>. Quiescent larvae have an increased arousal threshold <xref ref-type="bibr" rid="pone.0113269-Raizen1">[20]</xref>, <xref ref-type="bibr" rid="pone.0113269-Schwarz1">[25]</xref>–<xref ref-type="bibr" rid="pone.0113269-Cho1">[28]</xref>. Worms assume a specific body posture that is characterized by body wall muscle relaxation <xref ref-type="bibr" rid="pone.0113269-Iwanir1">[22]</xref>, <xref ref-type="bibr" rid="pone.0113269-Schwarz3">[29]</xref>. Deprivation of quiescence demonstrated homeostatic regulation of this behavior <xref ref-type="bibr" rid="pone.0113269-Raizen1">[20]</xref>, <xref ref-type="bibr" rid="pone.0113269-Driver1">[24]</xref>. The quiescence behavior is controlled by the nervous system<xref ref-type="bibr" rid="pone.0113269-Iwanir1">[22]</xref>, <xref ref-type="bibr" rid="pone.0113269-Turek1">[23]</xref>, <xref ref-type="bibr" rid="pone.0113269-Schwarz1">[25]</xref>–<xref ref-type="bibr" rid="pone.0113269-Cho1">[28]</xref>. Because quiescence behavior during lethargus fulfills the behavioral criteria that define sleep in other species we call it sleep-like behavior.</p>
+<p>Transcriptional changes underlie many biological processes. Previous work has found oscillating gene expression during molting and sleep in diverse species <xref ref-type="bibr" rid="pone.0113269-Hendriks1">[14]</xref>, <xref ref-type="bibr" rid="pone.0113269-Kim1">[16]</xref>, <xref ref-type="bibr" rid="pone.0113269-Johnstone2">[17]</xref>, <xref ref-type="bibr" rid="pone.0113269-Cirelli1">[30]</xref>–<xref ref-type="bibr" rid="pone.0113269-Mackiewicz2">[34]</xref>. The aim of this study was to investigate the changes in gene expression during the molting cycle in <italic>C. elegans</italic> larvae. We used behavioral criteria to determine whether animals were molting or not. We manually selected larvae during either sleep-like or wake behavior and analyzed the transcriptome using microarrays. Our analysis revealed 342 genes that were up regulated and 178 genes that were down regulated during molting. The majority of genes that were up regulated during lethargus seem to be related to the molting cycle. Only 22 of the oscillating genes are expressed in neurons but the majority of these genes have human homologs. One of these homologous genes, which encodes for a dopamine transporter, have been implicated in the control of sleep in mammals and in <italic>C. elegans</italic> <xref ref-type="bibr" rid="pone.0113269-Wisor1">[35]</xref>, <xref ref-type="bibr" rid="pone.0113269-Singh2">[36]</xref>. Our dataset should be useful for researchers that study the developmental and behavioral processes that occur during molting.</p>
+</sec><sec id="s2" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="s2a">
+<title><italic>C. elegans</italic> maintenance</title>
+<p><italic>C. elegans</italic> was maintained on NGM plates at 21.5°C as described and all experiments were performed with wild type N2(Bristol) <xref ref-type="bibr" rid="pone.0113269-Brenner1">[37]</xref>.</p>
+</sec><sec id="s2b">
+<title>Collection of <italic>C. elegans</italic> larvae during sleep-like and wake behavior</title>
+<p>Gravid N2 hermaphrodites were bleached with hypochlorite solution to collect eggs, which were incubated in M9 buffer in a turn-over-turn rotator for 20 hours at room temperature. Arrested L1 nematodes were then placed on NGM plates seeded with <italic>E. coli</italic> strain OP50 and stored at 21.5°C. Between 36 and 38 hours later, when the majority of worms on the plates showed sleep-like behavior, 200–300 L3 lethargus animals were picked individually with a platinum wire pick and were immediately placed into a tube containing one ml of Trizol (Invitrogene). Two hours after the first collection, after worms had entered the L4 stage and were awake, the same number of worms was collected. The procedure was repeated for worms during L4 lethargus, and for young adults approximately two hours past the molt. To distinguish between worms in sleep- and in wake-like behavior, movement of the pharynx and the developmental stage of the vulva were examined for each individual. For each condition three biological samples were collected.</p>
+</sec><sec id="s2c">
+<title>Transcriptional profiling using microarrays</title>
+<p>The Transcriptome Analysis Laboratory Göttingen (TAL) performed the Microarray analysis. The TAL used the “Low RNA Input linear Amplification Kit Plus, One Color” protocol (Agilent Technologies, Inc. 2007; Cat. N°: 5188–5339) and the Agilent RNA Spike-In Kit for One color (Agilent Technologies, Inc. 2007; Cat. N°: 5188–5282) following the manufacturer’s standard protocol. Global gene expression analysis was applied using the <italic>C. elegans</italic> (V2) Gene Expression Microarray, 4×44K from Agilent Technologies. The <italic>C. elegans</italic> (V2) Gene Expression Microarray contains 43,803 probes providing genome-wide coverage (more than 20,000 ORF). Some genes have multiple probes (AgilentIDs) designed for them, but not all different isoforms are covered.</p>
+<p>200 ng of total RNA were used as a starting material to prepare cDNA. cDNA synthesis and in vitro transcription (IVT) were performed according to the manufacturer’s recommendation. Quantity and efficiency of the labeled amplified cRNA were determined using the NanoDrop ND-1000 UV-VIS Spectrophotometer version 3.2.1. The hybridizations were performed for 17 hours at 10 rpm and 65°C in the Hybridization Oven (Agilent). Washing and staining of the arrays were done according to the manufacturer’s recommendation. Cy3 intensities were detected by one-color scanning using an Agilent DNA microarray scanner (G2505B). Intensity data were extracted using Agilent’s Feature Extraction (FE) software (version 9.5.3.1) including a quality control based on internal controls using Agilent’s protocol GE1_107_Sep09. All chips passed the quality control and were analyzed using the Limma package of Bioconductor.</p>
+</sec><sec id="s2d">
+<title>Microarrays data analysis and statistics</title>
+<p>The microarray data analysis was done as it was previously described <xref ref-type="bibr" rid="pone.0113269-Opitz1">[38]</xref>. Briefly, it consists of five steps: between-array normalization, cross correlation (hierarchical approach with the average linkage-method) and PCA-analysis, data fitting to a linear model, differential gene expression detection and GO term enrichment analysis.</p>
+<p>To determine which genes are up or down regulated in L3 sleep-like state we subtracted gene expression levels between L3 sleep-like and L4 wake. Genes were counted as significantly up or down regulated for L3 sleep-like if the calculated false discovery rate (FDR) was equal or smaller then 5.0% and the fold change was &gt;2. p-values were obtained from the moderated t-statistic and corrected with the Benjamini-Hochberg method. The same analysis was done for L4 sleep-like. To identify genes that are up or down regulated in both sleep-like phases, Venn analysis was performed. Oscillating genes were defined to have consistent expression changes between both lethargus and wake samples plus an expression change between L4 wake and L4 sleep-like of more than 50%. Phases of the oscillation for those genes were taken from a previous study <xref ref-type="bibr" rid="pone.0113269-Hendriks1">[14]</xref> GO term enrichment analysis was done with DAVID Bioinformatics Resources 6.7 <xref ref-type="bibr" rid="pone.0113269-Huangda1">[39]</xref>. Only genes that were oscillating were included in this step.</p>
+<p>For all of the microarrays probes that showed a significant change in the signal between the conditions, GenebankAccessions and GeneSymbols are provided in <xref ref-type="supplementary-material" rid="pone.0113269.s001">Table S1</xref>. Genes that did not have a GeneAccession info, were removed from the table.</p>
+</sec><sec id="s2e">
+<title>Quantitative reverse transcription PCR (RT-qPCR)</title>
+<p>100 ng of total RNA were used as a starting material to prepare cDNA. Reverse transcription was performed on a FlexCycler<sup>2</sup> thermocycler using the High-Capacity cDNA Reverse Transcription Kit (Applied Biosystems) according to the manufacturer’s recommendation. qPCR was done on a StepOne Plus thermocycler using the Fast SYBR Green Master Mix (Applied Biosystems) following the manufacturer’s protocol. Reactions for all genes were run in technical triplicates. Ct values for <italic>dat-1</italic> and <italic>inx-19</italic> were corrected for <italic>act-1</italic> expression. Primers used were as follows: <italic>act-1</italic> forward gttgcccagaggctatgttc, <italic>act-1</italic> reverse caagagcggtgatttccttc (taken from a previous study <xref ref-type="bibr" rid="pone.0113269-Hendriks1">[14]</xref>), <italic>inx-19</italic> forward tggagactctgcagctttca, <italic>inx-19</italic> reverse ttccgttcggagattgtagg, <italic>dat-1</italic> forward ctcaggcgcctcatttattc, <italic>dat-1</italic> reverse tgtttgattcggcctttttc (designed with the Primer3 software <xref ref-type="bibr" rid="pone.0113269-Koressaar1">[40]</xref>).</p>
+</sec></sec><sec id="s3">
+<title>Results</title>
+<sec id="s3a">
+<title>Identification of genes with altered expression during molting</title>
+<p>We wanted to identify genes that have altered expression during molting. We visually identified the behavioral state of individual worms from a synchronized population of worms and cherry picked them for transcriptional analysis. We defined molting by the concomitant sleep-like behavior that is characterized by the absence of feeding for more than 20 seconds. To reduce unspecific changes in transcription due to developmental progression we identified worms outside of the molt only in a short time window of up to about two hours after the sleep-like behavior, when worms were pumping again (<xref ref-type="fig" rid="pone-0113269-g001">Figure 1</xref>). We wanted to identify core genes that are altered in all lethargus phases and thus wanted to exclude genes that are specific for only one larval stage. To achieve this goal, we compared two lethargus phases at two different larval stages and selected genes that had altered expression levels in both lethargus phases. We selected four different conditions containing two different stages of post-molting and two different stages of molting: We used molting L3 (L3_S), post-molting L4 (L4_W), molting L4 (L4_S), and post-molting young adults (YA_W) (<xref ref-type="fig" rid="pone-0113269-g001">Figure 1</xref>). Worms were manually transferred into Trizol solution and were thus killed immediately. mRNA was extracted and transcriptional profiles were obtained using Agilent arrays. Cross-correlation analysis revealed that L3 molting worms and L4 post-molting worms were more similar than L4 post-molting worms and L4 molting worms. Similarly, L4 molting worms and post-molting young adult wake worms were more similar than L4 post-molting worms and L4 molting worms. The biggest difference was between L3 molting worms and post-molting young adult wake worms. There was a moderate similarity between L3 and L4 molting worms and between L4 and young adult post-molting worms (<xref ref-type="fig" rid="pone-0113269-g002">Figure 2</xref>). This result suggests that the largest determinant of similarity in gene expression is developmental progression through different larval stages and not molting itself. This result is consistent with the large change in gene expression during development that was recently reported <xref ref-type="bibr" rid="pone.0113269-Hendriks1">[14]</xref>, <xref ref-type="bibr" rid="pone.0113269-Kim1">[16]</xref>. Comparison of L3 molting worms with L4 post-molting worms revealed 1104 genes that were up regulated during molting. Comparison of L4 molting worms with post-molting young adults revealed 1130 genes that were up regulated during molting. Of these genes, a set of 434 genes was up regulated in both the L3 and L4 molt (<xref ref-type="fig" rid="pone-0113269-g003">Figure 3</xref>, <xref ref-type="supplementary-material" rid="pone.0113269.s001">Table S1</xref>). The same comparison revealed that 1900 genes were down regulated during L3 molting compared with L4 wake and that 1380 genes were down regulated during L4 molting compared with young adult post-molting. Of these genes, a set of 191 genes was down regulated in both the L3 and L4 molt (<xref ref-type="fig" rid="pone-0113269-g003">Figure 3</xref>, <xref ref-type="supplementary-material" rid="pone.0113269.s001">Table S1</xref>). We reasoned that gene expression changes that would be biologically relevant would oscillate with substantial amplitude in phase with the molting cycle. We applied an arbitrary threshold and selected only those genes that oscillated with an amplitude of at least 50%. We obtained a core set of genes that oscillated with the molting cycle of 342 genes that were up regulated during molting and 178 genes that were down-regulated during molting (<xref ref-type="fig" rid="pone-0113269-g003">Figure 3</xref>, <xref ref-type="supplementary-material" rid="pone.0113269.s001">Table S1</xref>). For some of the genes, changes in expression levels were quite huge: 139 genes that were up regulated during molting and 17 genes that were down regulated during molting showed a more than ten fold change in expression. Thus, our transcriptional profiling revealed 342 oscillating core genes that are up regulated during molting and 178 oscillating core genes that are down regulated during molting.</p>
+<fig id="pone-0113269-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0113269.g001</object-id><label>Figure 1</label><caption>
+<title>Strategy of the transcriptional profiling to identify genes that are enriched during molting and lethargus.</title>
+<p>Strategy of the transcriptional profiling: Worms were individually staged using behavioral criteria, namely sleep-like and wake behavior, and subjected to microarray analysis. Because sleep-like behavior in larvae occurs during the molt, we obtained a dataset that reflects the expression changed during the molt and sleep-like behavior. Worm images are from <xref ref-type="bibr" rid="pone.0113269-Turek1">[23]</xref>.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0113269.g001" position="float" xlink:type="simple"/></fig><fig id="pone-0113269-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0113269.g002</object-id><label>Figure 2</label><caption>
+<title>Cross-correlation analysis.</title>
+<p>Cross-correlation plot obtained by microarray analysis of worms during L3 sleep-like behavior, L4 wake, L4 sleep-like behavior, and young adults during wake. Heat map analysis shows that the biggest changes in gene expression are due to developmental progression and not molting.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0113269.g002" position="float" xlink:type="simple"/></fig><fig id="pone-0113269-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0113269.g003</object-id><label>Figure 3</label><caption>
+<title>Genes that oscillate with the molting cycle.</title>
+<p>A) Genes that are up regulated during molting and that show an oscillation with the molting cycle with an amplitude of at least 50%. B) Genes that are down regulated during molting and that show an oscillation with the molting cycle with an amplitude of at least 50%. Time “zero” corresponds to 36 to 38 hours after the release of L1 from starvation. The L4 stage lasts about 10 h. Lethargus animals were collected around timepoint 10 h for a period of 2 h based on the behavior of the worms. Only animals that were not pumping and not moving were collected.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0113269.g003" position="float" xlink:type="simple"/></fig></sec><sec id="s3b">
+<title>Validation of data by comparison to known oscillating genes and by qPCR</title>
+<p>Recent work used RNA sequencing to show that there is extensive oscillatory gene expression during <italic>C. elegans</italic> larval development <xref ref-type="bibr" rid="pone.0113269-Hendriks1">[14]</xref>, <xref ref-type="bibr" rid="pone.0113269-Kim1">[16]</xref>. We wanted to validate our data set and see how many of the genes that we have identified have been reported to be oscillating. We found that from the 178 core genes that were down regulated during molting 128 were shown to be oscillating according to the literature <xref ref-type="bibr" rid="pone.0113269-Hendriks1">[14]</xref>. From the 342 core genes that were up regulated during molting 254 were shown to be oscillating <xref ref-type="bibr" rid="pone.0113269-Hendriks1">[14]</xref> (<xref ref-type="fig" rid="pone-0113269-g004">Figure 4</xref>). We then looked at the phase of the oscillation of the expression of the genes that were both previously shown to be oscillating and that we also identified to be enriched during molting. The phase is defined by dividing the length of the full period, roughly eight hours, by 360°. This results in 45° corresponding to one hour. The phase for each gene is determined by fitting a cosine function with a fixed period of eight hours <xref ref-type="bibr" rid="pone.0113269-Hendriks1">[14]</xref>. Almost all genes that we found to be enriched during molting had a phase of about 170°–290° (p = 2.9*10<sup>−94</sup>), and all genes that were enriched during post-molting were outside of this phase range (p = 6.5*10<sup>−23</sup>). This indicates that we were able to identify oscillating genes that have the peak oscillation during the molt. Thus, our dataset obtained for molting and post-molting worms using microarrays is consistent with data obtained for developmentally staged worms using RNA sequencing <xref ref-type="bibr" rid="pone.0113269-Hendriks1">[14]</xref>. In addition to the previously identified oscillating genes we found 88 new genes with oscillating expression that are up regulated during molting, and 50 new genes with oscillating expression that are down regulated during molting.</p>
+<fig id="pone-0113269-g004" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0113269.g004</object-id><label>Figure 4</label><caption>
+<title>Validation of dataset.</title>
+<p><bold>A)</bold> Oscillation phase of genes that have altered gene expression during molting. Comparison of oscillating genes with previously published data <xref ref-type="bibr" rid="pone.0113269-Hendriks1">[14]</xref> validates the data set. Each point represents one gene that was shown to oscillate both in previously published data and in our data set. <bold>B)</bold> qPCR analysis confirms oscillation of expression of <italic>inx-19</italic> and <italic>dat-1</italic>. Time “zero” on x axis corresponds to 36 to 38 hours after the release of L1 from starvation.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0113269.g004" position="float" xlink:type="simple"/></fig>
+<p>To further validate the oscillation of expression, we performed qPCR for two genes that were not shown previously to oscillate, <italic>inx-19</italic> and <italic>dat-1</italic>. Both genes showed oscillating gene expression according to qPCR analysis consistent with the microarray results (<xref ref-type="fig" rid="pone-0113269-g004">Figure 4B</xref>). Thus, we provide a validated data set of novel oscillating genes.</p>
+</sec><sec id="s3c">
+<title>Genes that are up regulated during molting</title>
+<p>342 genes were up regulated during molting. To identify biological processes relevant to molting we performed a gene ontology term (GO term) enrichment analysis (<xref ref-type="table" rid="pone-0113269-t001">Table 1</xref>). This analysis showed that the vast majority of genes that we found appear to relate to cuticle synthesis and not to the sleep-like behavior, consistent with previous results <xref ref-type="bibr" rid="pone.0113269-Hendriks1">[14]</xref>.</p>
+<table-wrap id="pone-0113269-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0113269.t001</object-id><label>Table 1</label><caption>
+<title>GO term enrichment and depletion analysis.</title>
+</caption><alternatives><graphic id="pone-0113269-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0113269.t001" xlink:type="simple"/>
+<table><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">GO term<xref ref-type="table-fn" rid="nt101">1</xref></td>
+<td align="left" rowspan="1" colspan="1">Number of genes</td>
+<td align="left" rowspan="1" colspan="1">P-value</td>
+<td align="left" rowspan="1" colspan="1">Fold change</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="4" align="left" rowspan="1"><bold>Up regulated</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">structural constituent of cuticle (MF)</td>
+<td align="left" rowspan="1" colspan="1">19</td>
+<td align="left" rowspan="1" colspan="1">1.80E-12</td>
+<td align="left" rowspan="1" colspan="1">9.1</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">structural molecule activity (MF)</td>
+<td align="left" rowspan="1" colspan="1">22</td>
+<td align="left" rowspan="1" colspan="1">9.20E-07</td>
+<td align="left" rowspan="1" colspan="1">3.5</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">extracellular region (CC)</td>
+<td align="left" rowspan="1" colspan="1">18</td>
+<td align="left" rowspan="1" colspan="1">1.20E-06</td>
+<td align="left" rowspan="1" colspan="1">4.2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">serine-type endopeptidase inhibitor activity (MF)</td>
+<td align="left" rowspan="1" colspan="1">9</td>
+<td align="left" rowspan="1" colspan="1">7.30E-06</td>
+<td align="left" rowspan="1" colspan="1">8.8</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">response to stress (BP)</td>
+<td align="left" rowspan="1" colspan="1">11</td>
+<td align="left" rowspan="1" colspan="1">3.20E-04</td>
+<td align="left" rowspan="1" colspan="1">4.1</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">membrane (CC)</td>
+<td align="left" rowspan="1" colspan="1">113</td>
+<td align="left" rowspan="1" colspan="1">4.60E-04</td>
+<td align="left" rowspan="1" colspan="1">1.2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">metallopeptidase activity (MF)</td>
+<td align="left" rowspan="1" colspan="1">10</td>
+<td align="left" rowspan="1" colspan="1">5.10E-04</td>
+<td align="left" rowspan="1" colspan="1">4.3</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">chitin metabolic process (BP)</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+<td align="left" rowspan="1" colspan="1">2.40E-03</td>
+<td align="left" rowspan="1" colspan="1">14.5</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">defense response (BP)</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+<td align="left" rowspan="1" colspan="1">2.90E-02</td>
+<td align="left" rowspan="1" colspan="1">5.9</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">amine transport (BP)</td>
+<td align="left" rowspan="1" colspan="1">3</td>
+<td align="left" rowspan="1" colspan="1">3.00E-02</td>
+<td align="left" rowspan="1" colspan="1">10.9</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">peroxidase activity (MF)</td>
+<td align="left" rowspan="1" colspan="1">3</td>
+<td align="left" rowspan="1" colspan="1">4.40E-02</td>
+<td align="left" rowspan="1" colspan="1">8.9</td>
+</tr>
+<tr>
+<td colspan="4" align="left" rowspan="1"><bold>Down regulated</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">catalytic activity (MF)</td>
+<td align="left" rowspan="1" colspan="1">57</td>
+<td align="left" rowspan="1" colspan="1">4.30E-07</td>
+<td align="left" rowspan="1" colspan="1">1.7</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">metabolic process (BP)</td>
+<td align="left" rowspan="1" colspan="1">51</td>
+<td align="left" rowspan="1" colspan="1">1.30E-04</td>
+<td align="left" rowspan="1" colspan="1">1.5</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">transferase activity (MF)</td>
+<td align="left" rowspan="1" colspan="1">25</td>
+<td align="left" rowspan="1" colspan="1">1.60E-04</td>
+<td align="left" rowspan="1" colspan="1">2.2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">lipid metabolic process (BP)</td>
+<td align="left" rowspan="1" colspan="1">10</td>
+<td align="left" rowspan="1" colspan="1">1.60E-03</td>
+<td align="left" rowspan="1" colspan="1">3.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">L-serine metabolic process (BP)</td>
+<td align="left" rowspan="1" colspan="1">3</td>
+<td align="left" rowspan="1" colspan="1">2.10E-03</td>
+<td align="left" rowspan="1" colspan="1">41.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">cation binding (MF)</td>
+<td align="left" rowspan="1" colspan="1">30</td>
+<td align="left" rowspan="1" colspan="1">2.30E-03</td>
+<td align="left" rowspan="1" colspan="1">1.7</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">carboxylic acid biosynthetic process (BP)</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+<td align="left" rowspan="1" colspan="1">1.50E-02</td>
+<td align="left" rowspan="1" colspan="1">7.7</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">monooxygenase activity (MF)</td>
+<td align="left" rowspan="1" colspan="1">5</td>
+<td align="left" rowspan="1" colspan="1">1.50E-02</td>
+<td align="left" rowspan="1" colspan="1">5.2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">integral to membrane (CC)</td>
+<td align="left" rowspan="1" colspan="1">68</td>
+<td align="left" rowspan="1" colspan="1">2.10E-02</td>
+<td align="left" rowspan="1" colspan="1">1.2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">icosanoid metabolic process (BP)</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+<td align="left" rowspan="1" colspan="1">2.60E-02</td>
+<td align="left" rowspan="1" colspan="1">74</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">cysteine synthase activity (MF)</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+<td align="left" rowspan="1" colspan="1">3.50E-02</td>
+<td align="left" rowspan="1" colspan="1">55.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">ecdysis, collagen and cuticulin-based cuticle (BP)</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+<td align="left" rowspan="1" colspan="1">4.40E-02</td>
+<td align="left" rowspan="1" colspan="1">44.4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">cellular ketone metabolic process (BP)</td>
+<td align="left" rowspan="1" colspan="1">6</td>
+<td align="left" rowspan="1" colspan="1">5.00E-02</td>
+<td align="left" rowspan="1" colspan="1">3</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt101"><label>1</label><p>MF – molecular function, CC – cellular component, BP – biological process. The P-value was calculated with a Fisher’s Exact test (modified as EASE score). The P-value gives an indication how likely it is that a certain GO term is represented by a given number of genes (coming from the analysis) by chance. Compared to the total number of genes representing certain GO term in the whole <italic>C. elegans</italic> genome.</p></fn></table-wrap-foot></table-wrap></sec><sec id="s3d">
+<title>Genes with neuronal expression that oscillate with the molting cycle</title>
+<p>The majority of genes that oscillate with the sleep-wake-like cycle appear to relate to molting. In order to obtain a starting point for investigating the behavioral changes during lethargus we selected those genes that both oscillated and are expressed in the nervous system <xref ref-type="bibr" rid="pone.0113269-Hobert1">[41]</xref>. We found only 18 neuronal genes that were up regulated during sleep-like behavior and four genes that were down regulated during sleep-like behavior (<xref ref-type="table" rid="pone-0113269-t002">Table 2</xref>). This de-enrichment of neuronal genes is consistent with a previous analysis <xref ref-type="bibr" rid="pone.0113269-Hendriks1">[14]</xref>. The majority of the neuronal oscillating genes have human homologs. Among the genes that were up regulated there were two G-protein coupled receptors (B0334.6, Y70D2A.1), insulin-like molecules and a neuropeptide (<italic>nlp-24</italic>, <italic>ins-18</italic>, <italic>ins-21</italic>), ligand-gated ion channels (<italic>lgc-18</italic>, <italic>lgc-21</italic>, <italic>lgc-31</italic>), calcium-binding protein genes that contain EF hands (F23F1.2, H10E21.4, K03A1.4), serpentine/seven transmembrane helix receptors (<italic>srz-78</italic>, <italic>str-131</italic>, <italic>str-146</italic>) and the dopamine plasma membrane transporter gene <italic>dat-1</italic>. Among the genes that were down regulated during sleep-like behavior were a carboxypeptidase gene (<italic>cpd-1</italic>), dipeptidyl peptidase IV gene <italic>dpf-6</italic> and a calcium-binding protein gene that contain EF hand (Y12A6A.1). Only one of these genes, <italic>dat-1</italic>, has been implicated in the control of sleep-like behavior in <italic>C. elegans</italic> <xref ref-type="bibr" rid="pone.0113269-Singh2">[36]</xref>. Dopamine transporters have also been implicated in the control of sleep in mammals and are the target of the wakefulness-inducing drug modafinil <xref ref-type="bibr" rid="pone.0113269-Wisor1">[35]</xref>. Thus, our dataset of neuronal oscillating genes presents a starting point for studying sleep-like behavior in <italic>C. elegans</italic>.</p>
+<table-wrap id="pone-0113269-t002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0113269.t002</object-id><label>Table 2</label><caption>
+<title>Genes that oscillate with the molting cycle and that are expressed in neurons.</title>
+</caption><alternatives><graphic id="pone-0113269-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0113269.t002" xlink:type="simple"/>
+<table><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Gene name</td>
+<td align="left" rowspan="1" colspan="1">Putative gene role</td>
+<td align="left" rowspan="1" colspan="1">Close human homolog</td>
+<td align="left" rowspan="1" colspan="1">Putative homolog role</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="4" align="left" rowspan="1"><bold>Up regulated</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">B0334.6</td>
+<td align="left" rowspan="1" colspan="1">probable G-protein coupled receptor</td>
+<td align="left" rowspan="1" colspan="1">GPR139 (89.1%)</td>
+<td align="left" rowspan="1" colspan="1">probable G-protein coupled receptor</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">daf-10</td>
+<td align="left" rowspan="1" colspan="1">intraflagellar transport</td>
+<td align="left" rowspan="1" colspan="1">IFT122 (74.7%)</td>
+<td align="left" rowspan="1" colspan="1">intraflagellar transport protein</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">dat-1</td>
+<td align="left" rowspan="1" colspan="1">dopamine transporter</td>
+<td align="left" rowspan="1" colspan="1">SLC6A2 (89.3%)</td>
+<td align="left" rowspan="1" colspan="1">noradrenaline transporter</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">F23F1.2</td>
+<td align="left" rowspan="1" colspan="1">EF-hand Ca<sup>2+</sup> binding</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">H10E21.4</td>
+<td align="left" rowspan="1" colspan="1">EF-hand Ca<sup>2+</sup> binding</td>
+<td align="left" rowspan="1" colspan="1">CALM1 (50.0%)</td>
+<td align="left" rowspan="1" colspan="1">calmodulin</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">ins-12</td>
+<td align="left" rowspan="1" colspan="1">insulin-like molecule</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">ins-20</td>
+<td align="left" rowspan="1" colspan="1">insulin-like molecule</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">inx-19</td>
+<td align="left" rowspan="1" colspan="1">innexin (gap junction protein)</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">K03A1.4</td>
+<td align="left" rowspan="1" colspan="1">EF-hand Ca<sup>2+</sup> binding</td>
+<td align="left" rowspan="1" colspan="1">cDNA FLJ75174 (76.1%)</td>
+<td align="left" rowspan="1" colspan="1">highly similar to calmodulin</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">lgc-18</td>
+<td align="left" rowspan="1" colspan="1">ligand-gated ion channel</td>
+<td align="left" rowspan="1" colspan="1">CRNA1 (77.9%)</td>
+<td align="left" rowspan="1" colspan="1">associated with cholinergic receptor</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">lgc-21</td>
+<td align="left" rowspan="1" colspan="1">ligand-gated ion channel</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">lgc-31</td>
+<td align="left" rowspan="1" colspan="1">ligand-gated ion channel</td>
+<td align="left" rowspan="1" colspan="1">ENSP00000347754 (54.1%)</td>
+<td align="left" rowspan="1" colspan="1">5-hydroxytryptamine receptor</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">lim-8</td>
+<td align="left" rowspan="1" colspan="1">links membrane attachmentproteins to myosin thick filaments</td>
+<td align="left" rowspan="1" colspan="1">LMO7 (74.8%)</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">nlp-24</td>
+<td align="left" rowspan="1" colspan="1">neuropeptide</td>
+<td align="left" rowspan="1" colspan="1">ENSP00000380734 (66.2%)</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">srz-78</td>
+<td align="left" rowspan="1" colspan="1">serpentine receptor</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">str-131</td>
+<td align="left" rowspan="1" colspan="1">seven TM receptor</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">str-146</td>
+<td align="left" rowspan="1" colspan="1">seven TM receptor</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Y70D2A.1</td>
+<td align="left" rowspan="1" colspan="1">probable G-protein coupled receptor</td>
+<td align="left" rowspan="1" colspan="1">GPR139 (56.0%)</td>
+<td align="left" rowspan="1" colspan="1">probable G-protein coupled receptor</td>
+</tr>
+<tr>
+<td colspan="4" align="left" rowspan="1"><bold>Down regulated</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">cal-3</td>
+<td align="left" rowspan="1" colspan="1">EF-hand Ca<sup>2+</sup> binding</td>
+<td align="left" rowspan="1" colspan="1">CALM1 (61.1%)</td>
+<td align="left" rowspan="1" colspan="1">calmodulin</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">cpd-1</td>
+<td align="left" rowspan="1" colspan="1">carboxypeptidase D</td>
+<td align="left" rowspan="1" colspan="1">CPD (60.8%)</td>
+<td align="left" rowspan="1" colspan="1">carboxypeptidase D</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">dpf-6</td>
+<td align="left" rowspan="1" colspan="1">dipeptidyl peptidase four (IV)</td>
+<td align="left" rowspan="1" colspan="1">APEH (31.1%)</td>
+<td align="left" rowspan="1" colspan="1">acylamino-acid-releasing enzyme</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Y12A6A.1</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap></sec></sec><sec id="s4">
+<title>Discussion</title>
+<p>Molting and sleep have been shown in several species to be accompanied by changes in gene expression<xref ref-type="bibr" rid="pone.0113269-Hendriks1">[14]</xref>, <xref ref-type="bibr" rid="pone.0113269-Kim1">[16]</xref>, <xref ref-type="bibr" rid="pone.0113269-Johnstone2">[17]</xref>, <xref ref-type="bibr" rid="pone.0113269-Cirelli1">[30]</xref>–<xref ref-type="bibr" rid="pone.0113269-Mackiewicz2">[34]</xref>. Here we find that molting, which is characterized by re-synthesis of a new cuticle and sleep-like behavior, also is accompanied by changes in gene expression. Because synthesis of a new cuticle is a biochemically demanding process it is not surprising that the majority of genes for which we found altered gene expression levels appear to relate to the molting process <xref ref-type="bibr" rid="pone.0113269-Page1">[2]</xref>. This result is consistent with previous reports <xref ref-type="bibr" rid="pone.0113269-Hendriks1">[14]</xref>.</p>
+<p>Because of the vast number of genes that are required for synthesizing a new cuticle, it is difficult from this analysis to predict which, if any, of the genes are required for the behavioral changes during lethargus such as the sleep-like behavior. We preselected potential regulators of sleep-like behavior by selecting only genes that are expressed in neurons. Most of these oscillating neuronal genes have homologs in mammals. This dataset contains at least one gene, <italic>dat-1</italic>, which has been implicated in the control of sleep <xref ref-type="bibr" rid="pone.0113269-Wisor1">[35]</xref>, <xref ref-type="bibr" rid="pone.0113269-Singh2">[36]</xref>. The neuronal oscillating genes provide a potential starting point for investigating the genetics of sleep-like behavior.</p>
+<p>Our analysis revealed novel oscillating genes but it also did not re-identify all genes that were previously shown to oscillate. Prominent examples of oscillating genes that we did not find are <italic>lin-42</italic> <xref ref-type="bibr" rid="pone.0113269-Jeon1">[15]</xref> and <italic>mlt-10</italic> <xref ref-type="bibr" rid="pone.0113269-Frand1">[11]</xref>. A potential explanation for why our dataset lacked these genes can be found by looking of the phases of these genes, which are 100° and 136°, respectively. Our analysis aimed to identify genes with altered expression during molting, not all genes that have oscillating expression across development. We thus sampled worms during molting (corresponding to approx. 170°–290°) and two hours post molting (corresponding to approx. 330°–60°). Thus, our analysis covers molting well, but does not cover all phases of the intermolt. As can be seen in <xref ref-type="fig" rid="pone-0113269-g004">Figure 4</xref>, we did not find many hits in the phase range of 120° to 170°. <italic>lin-42</italic> and <italic>mlt-10</italic> peak in this area, which may explain why we have not identified them. Because the worms were selected based on a behavioral phenotype the population of selected animals could be enriched in core lethargus animals. Sleep-like immobility is most prominent during the middle of the lethargus period. Thus, our data set may not contain many animals from the early or late phase of lethargus and genes that have maximum mRNA expression during this time may have been missed. Thus, while we think our dataset effectively identified genes that are enriched during molting it did not identify all genes that oscillate during development.</p>
+<p>Here we provide a dataset that includes many genes that were not previously shown to oscillate with the molting cycle. The data should be useful for researchers that are working on changes that occur during molting.</p>
+</sec><sec id="s5">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0113269.s001" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" xlink:href="info:doi/10.1371/journal.pone.0113269.s001" position="float" xlink:type="simple"><label>Table S1</label><caption>
+<p><bold>Genes with altered expression during sleep-like and wake behavior.</bold></p>
+<p>(XLSX)</p>
+</caption></supplementary-material></sec></body>
+<back>
+<ack>
+<p>The Transcriptome Analysis Laboratory Göttingen, headed by Gabriela Salinas-Riester, did the microarray experiments and data processing. We thank Halyna Shcherbata for letting us use her qPCR machine and reagents.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0113269-Aguinaldo1"><label>1</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Aguinaldo</surname><given-names>AM</given-names></name>, <name name-style="western"><surname>Turbeville</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Linford</surname><given-names>LS</given-names></name>, <name name-style="western"><surname>Rivera</surname><given-names>MC</given-names></name>, <name name-style="western"><surname>Garey</surname><given-names>JR</given-names></name>, <etal>et al</etal>. (<year>1997</year>) <article-title>Evidence for a clade of nematodes, arthropods and other moulting animals</article-title>. <source>Nature</source> <volume>387</volume>: <fpage>489</fpage>–<lpage>493</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Page1"><label>2</label>
+<mixed-citation publication-type="other" xlink:type="simple">Page AP, Johnstone IL (2007) The cuticle. WormBook: 1–15.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Johnstone1"><label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Johnstone</surname><given-names>IL</given-names></name> (<year>2000</year>) <article-title>Cuticle collagen genes. Expression in Caenorhabditis elegans</article-title>. <source>Trends Genet</source> <volume>16</volume>: <fpage>21</fpage>–<lpage>27</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Sebastiano1"><label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sebastiano</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Lassandro</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Bazzicalupo</surname><given-names>P</given-names></name> (<year>1991</year>) <article-title>cut-1 a Caenorhabditis elegans gene coding for a dauer-specific noncollagenous component of the cuticle</article-title>. <source>Dev Biol</source> <volume>146</volume>: <fpage>519</fpage>–<lpage>530</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Muriel1"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Muriel</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Brannan</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Taylor</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Johnstone</surname><given-names>IL</given-names></name>, <name name-style="western"><surname>Lithgow</surname><given-names>GJ</given-names></name>, <etal>et al</etal>. (<year>2003</year>) <article-title>M142.2 (cut-6), a novel Caenorhabditis elegans matrix gene important for dauer body shape</article-title>. <source>Dev Biol</source> <volume>260</volume>: <fpage>339</fpage>–<lpage>351</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Sapio1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sapio</surname><given-names>MR</given-names></name>, <name name-style="western"><surname>Hilliard</surname><given-names>MA</given-names></name>, <name name-style="western"><surname>Cermola</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Favre</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Bazzicalupo</surname><given-names>P</given-names></name> (<year>2005</year>) <article-title>The Zona Pellucida domain containing proteins, CUT-1, CUT-3 and CUT-5, play essential roles in the development of the larval alae in Caenorhabditis elegans</article-title>. <source>Dev Biol</source> <volume>282</volume>: <fpage>231</fpage>–<lpage>245</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Nelson1"><label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nelson</surname><given-names>FK</given-names></name>, <name name-style="western"><surname>Albert</surname><given-names>PS</given-names></name>, <name name-style="western"><surname>Riddle</surname><given-names>DL</given-names></name> (<year>1983</year>) <article-title>Fine structure of the Caenorhabditis elegans secretory-excretory system</article-title>. <source>J Ultrastruct Res</source> <volume>82</volume>: <fpage>156</fpage>–<lpage>171</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Singh1"><label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Singh</surname><given-names>RN</given-names></name>, <name name-style="western"><surname>Sulston</surname><given-names>JE</given-names></name> (<year>1987</year>) <article-title>Some Observations on Moulting in Caenorhabditis elegans</article-title>. <source>Nematologica</source> <volume>24</volume>: <fpage>63</fpage>–<lpage>71</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Davis1"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Davis</surname><given-names>MW</given-names></name>, <name name-style="western"><surname>Birnie</surname><given-names>AJ</given-names></name>, <name name-style="western"><surname>Chan</surname><given-names>AC</given-names></name>, <name name-style="western"><surname>Page</surname><given-names>AP</given-names></name>, <name name-style="western"><surname>Jorgensen</surname><given-names>EM</given-names></name> (<year>2004</year>) <article-title>A conserved metalloprotease mediates ecdysis in Caenorhabditis elegans</article-title>. <source>Development</source> <volume>131</volume>: <fpage>6001</fpage>–<lpage>6008</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Brooks1"><label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brooks</surname><given-names>DR</given-names></name>, <name name-style="western"><surname>Appleford</surname><given-names>PJ</given-names></name>, <name name-style="western"><surname>Murray</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Isaac</surname><given-names>RE</given-names></name> (<year>2003</year>) <article-title>An essential role in molting and morphogenesis of Caenorhabditis elegans for ACN-1, a novel member of the angiotensin-converting enzyme family that lacks a metallopeptidase active site</article-title>. <source>J Biol Chem</source> <volume>278</volume>: <fpage>52340</fpage>–<lpage>52346</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Frand1"><label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Frand</surname><given-names>AR</given-names></name>, <name name-style="western"><surname>Russel</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Ruvkun</surname><given-names>G</given-names></name> (<year>2005</year>) <article-title>Functional genomic analysis of C. elegans molting</article-title>. <source>PLoS Biol</source> <volume>3</volume>: <fpage>e312</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Kostrouchova1"><label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kostrouchova</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Krause</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Kostrouch</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Rall</surname><given-names>JE</given-names></name> (<year>2001</year>) <article-title>Nuclear hormone receptor CHR3 is a critical regulator of all four larval molts of the nematode Caenorhabditis elegans</article-title>. <source>Proc Natl Acad Sci U S A</source> <volume>98</volume>: <fpage>7360</fpage>–<lpage>7365</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Monsalve1"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Monsalve</surname><given-names>GC</given-names></name>, <name name-style="western"><surname>Van Buskirk</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Frand</surname><given-names>AR</given-names></name> (<year>2011</year>) <article-title>LIN-42/PERIOD controls cyclical and developmental progression of C. elegans molts</article-title>. <source>Curr Biol</source> <volume>21</volume>: <fpage>2033</fpage>–<lpage>2045</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Hendriks1"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hendriks</surname><given-names>GJ</given-names></name>, <name name-style="western"><surname>Gaidatzis</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Aeschimann</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Grosshans</surname><given-names>H</given-names></name> (<year>2014</year>) <article-title>Extensive oscillatory gene expression during C. elegans larval development</article-title>. <source>Mol Cell</source> <volume>53</volume>: <fpage>380</fpage>–<lpage>392</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Jeon1"><label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jeon</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Gardner</surname><given-names>HF</given-names></name>, <name name-style="western"><surname>Miller</surname><given-names>EA</given-names></name>, <name name-style="western"><surname>Deshler</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Rougvie</surname><given-names>AE</given-names></name> (<year>1999</year>) <article-title>Similarity of the C. elegans developmental timing protein LIN-42 to circadian rhythm proteins</article-title>. <source>Science</source> <volume>286</volume>: <fpage>1141</fpage>–<lpage>1146</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Kim1"><label>16</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kim</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Grun</surname><given-names>D</given-names></name>, <name name-style="western"><surname>van Oudenaarden</surname><given-names>A</given-names></name> (<year>2013</year>) <article-title>Dampening of expression oscillations by synchronous regulation of a microRNA and its target</article-title>. <source>Nat Genet</source> <volume>45</volume>: <fpage>1337</fpage>–<lpage>1344</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Johnstone2"><label>17</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Johnstone</surname><given-names>IL</given-names></name>, <name name-style="western"><surname>Barry</surname><given-names>JD</given-names></name> (<year>1996</year>) <article-title>Temporal reiteration of a precise gene expression pattern during nematode development</article-title>. <source>EMBO J</source> <volume>15</volume>: <fpage>3633</fpage>–<lpage>3639</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Cassada1"><label>18</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cassada</surname><given-names>RC</given-names></name>, <name name-style="western"><surname>Russell</surname><given-names>RL</given-names></name> (<year>1975</year>) <article-title>The dauerlarva, a post-embryonic developmental variant of the nematode Caenorhabditis elegans</article-title>. <source>Dev Biol</source> <volume>46</volume>: <fpage>326</fpage>–<lpage>342</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Campbell1"><label>19</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Campbell</surname><given-names>SS</given-names></name>, <name name-style="western"><surname>Tobler</surname><given-names>I</given-names></name> (<year>1984</year>) <article-title>Animal sleep: a review of sleep duration across phylogeny</article-title>. <source>Neurosci Biobehav Rev</source> <volume>8</volume>: <fpage>269</fpage>–<lpage>300</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Raizen1"><label>20</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Raizen</surname><given-names>DM</given-names></name>, <name name-style="western"><surname>Zimmerman</surname><given-names>JE</given-names></name>, <name name-style="western"><surname>Maycock</surname><given-names>MH</given-names></name>, <name name-style="western"><surname>Ta</surname><given-names>UD</given-names></name>, <name name-style="western"><surname>You</surname><given-names>YJ</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Lethargus is a Caenorhabditis elegans sleep-like state</article-title>. <source>Nature</source> <volume>451</volume>: <fpage>569</fpage>–<lpage>572</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Bringmann1"><label>21</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bringmann</surname><given-names>H</given-names></name> (<year>2011</year>) <article-title>Agarose hydrogel microcompartments for imaging sleep- and wake-like behavior and nervous system development in Caenorhabditis elegans larvae</article-title>. <source>J Neurosci Methods</source> <volume>201</volume>: <fpage>78</fpage>–<lpage>88</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Iwanir1"><label>22</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Iwanir</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Tramm</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Nagy</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Wright</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Ish</surname><given-names>D</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>The microarchitecture of C. elegans behavior during lethargus: homeostatic bout dynamics, a typical body posture, and regulation by a central neuron</article-title>. <source>sleep</source> <volume>36</volume>: <fpage>385</fpage>–<lpage>395</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Turek1"><label>23</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Turek</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Lewandrowski</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Bringmann</surname><given-names>H</given-names></name> (<year>2013</year>) <article-title>An AP2 transcription factor is required for a sleep-active neuron to induce sleep-like quiescence in C. elegans</article-title>. <source>Curr Biol</source> <volume>23</volume>: <fpage>2215</fpage>–<lpage>2223</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Driver1"><label>24</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Driver</surname><given-names>RJ</given-names></name>, <name name-style="western"><surname>Lamb</surname><given-names>AL</given-names></name>, <name name-style="western"><surname>Wyner</surname><given-names>AJ</given-names></name>, <name name-style="western"><surname>Raizen</surname><given-names>DM</given-names></name> (<year>2013</year>) <article-title>DAF-16/FOXO Regulates Homeostasis of Essential Sleep-like Behavior during Larval Transitions in C. elegans</article-title>. <source>Curr Biol</source> <volume>23</volume>: <fpage>501</fpage>–<lpage>506</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Schwarz1"><label>25</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schwarz</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Lewandrowski</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Bringmann</surname><given-names>H</given-names></name> (<year>2011</year>) <article-title>Reduced activity of a sensory neuron during a sleep-like state in Caenorhabditis elegans</article-title>. <source>Curr Biol</source> <volume>21</volume>: <fpage>R983</fpage>–<lpage>984</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Schwarz2"><label>26</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schwarz</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Bringmann</surname><given-names>H</given-names></name> (<year>2013</year>) <article-title>Reduced Sleep-Like Quiescence in Both Hyperactive and Hypoactive Mutants of the Galphaq Gene egl-30 during lethargus in Caenorhabditis elegans</article-title>. <source>PLoS One</source> <volume>8</volume>: <fpage>e75853</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Choi1"><label>27</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Choi</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Chatzigeorgiou</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Taylor</surname><given-names>KP</given-names></name>, <name name-style="western"><surname>Schafer</surname><given-names>WR</given-names></name>, <name name-style="western"><surname>Kaplan</surname><given-names>JM</given-names></name> (<year>2013</year>) <article-title>Analysis of NPR-1 reveals a circuit mechanism for behavioral quiescence in C. elegans</article-title>. <source>Neuron</source> <volume>78</volume>: <fpage>869</fpage>–<lpage>880</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Cho1"><label>28</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cho</surname><given-names>JY</given-names></name>, <name name-style="western"><surname>Sternberg</surname><given-names>PW</given-names></name> (<year>2014</year>) <article-title>Multilevel modulation of a sensory motor circuit during C. elegans sleep and arousal</article-title>. <source>Cell</source> <volume>156</volume>: <fpage>249</fpage>–<lpage>260</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Schwarz3"><label>29</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schwarz</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Spies</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Bringmann</surname><given-names>H</given-names></name> (<year>2012</year>) <article-title>Reduced muscle contraction and a relaxed posture during sleep-like Lethargus</article-title>. <source>Worm</source> <volume>1</volume>: <fpage>12</fpage>–<lpage>14</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Cirelli1"><label>30</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cirelli</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Gutierrez</surname><given-names>CM</given-names></name>, <name name-style="western"><surname>Tononi</surname><given-names>G</given-names></name> (<year>2004</year>) <article-title>Extensive and divergent effects of sleep and wakefulness on brain gene expression</article-title>. <source>Neuron</source> <volume>41</volume>: <fpage>35</fpage>–<lpage>43</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Mackiewicz1"><label>31</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mackiewicz</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Shockley</surname><given-names>KR</given-names></name>, <name name-style="western"><surname>Romer</surname><given-names>MA</given-names></name>, <name name-style="western"><surname>Galante</surname><given-names>RJ</given-names></name>, <name name-style="western"><surname>Zimmerman</surname><given-names>JE</given-names></name>, <etal>et al</etal>. (<year>2007</year>) <article-title>Macromolecule biosynthesis: a key function of sleep</article-title>. <source>Physiol Genomics</source> <volume>31</volume>: <fpage>441</fpage>–<lpage>457</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Jones1"><label>32</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jones</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Pfister-Genskow</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Benca</surname><given-names>RM</given-names></name>, <name name-style="western"><surname>Cirelli</surname><given-names>C</given-names></name> (<year>2008</year>) <article-title>Molecular correlates of sleep and wakefulness in the brain of the white-crowned sparrow</article-title>. <source>J Neurochem</source> <volume>105</volume>: <fpage>46</fpage>–<lpage>62</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Cirelli2"><label>33</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cirelli</surname><given-names>C</given-names></name>, <name name-style="western"><surname>LaVaute</surname><given-names>TM</given-names></name>, <name name-style="western"><surname>Tononi</surname><given-names>G</given-names></name> (<year>2005</year>) <article-title>Sleep and wakefulness modulate gene expression in Drosophila</article-title>. <source>J Neurochem</source> <volume>94</volume>: <fpage>1411</fpage>–<lpage>1419</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Mackiewicz2"><label>34</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mackiewicz</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Zimmerman</surname><given-names>JE</given-names></name>, <name name-style="western"><surname>Shockley</surname><given-names>KR</given-names></name>, <name name-style="western"><surname>Churchill</surname><given-names>GA</given-names></name>, <name name-style="western"><surname>Pack</surname><given-names>AI</given-names></name> (<year>2009</year>) <article-title>What are microarrays teaching us about sleep?</article-title> <source>Trends Mol Med</source> <volume>15</volume>: <fpage>79</fpage>–<lpage>87</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Wisor1"><label>35</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wisor</surname><given-names>JP</given-names></name>, <name name-style="western"><surname>Nishino</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Sora</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Uhl</surname><given-names>GH</given-names></name>, <name name-style="western"><surname>Mignot</surname><given-names>E</given-names></name>, <etal>et al</etal>. (<year>2001</year>) <article-title>Dopaminergic role in stimulant-induced wakefulness</article-title>. <source>J Neurosci</source> <volume>21</volume>: <fpage>1787</fpage>–<lpage>1794</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Singh2"><label>36</label>
+<mixed-citation publication-type="other" xlink:type="simple">Singh K, Ju JY, Walsh MB, DiIorio MA, Hart AC (2014) Deep Conservation of Genes Required for Both Drosphila melanogaster and Caenorhabditis elegans Sleep Includes a Role for Dopaminergic Signaling. sleep 37.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Brenner1"><label>37</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brenner</surname><given-names>S</given-names></name> (<year>1974</year>) <article-title>The genetics of Caenorhabditis elegans</article-title>. <source>Genetics</source> <volume>77</volume>: <fpage>71</fpage>–<lpage>94</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Opitz1"><label>38</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Opitz</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Salinas-Riester</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Grade</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Jung</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Jo</surname><given-names>P</given-names></name>, <etal>et al</etal>. (<year>2010</year>) <article-title>Impact of RNA degradation on gene expression profiling</article-title>. <source>BMC Med Genomics</source> <volume>3</volume>: <fpage>36</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Huangda1"><label>39</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Huang da</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Sherman</surname><given-names>BT</given-names></name>, <name name-style="western"><surname>Lempicki</surname><given-names>RA</given-names></name> (<year>2009</year>) <article-title>Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources</article-title>. <source>Nat Protoc</source> <volume>4</volume>: <fpage>44</fpage>–<lpage>57</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Koressaar1"><label>40</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Koressaar</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Remm</surname><given-names>M</given-names></name> (<year>2007</year>) <article-title>Enhancements and modifications of primer design program Primer3</article-title>. <source>Bioinformatics</source> <volume>23</volume>: <fpage>1289</fpage>–<lpage>1291</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0113269-Hobert1"><label>41</label>
+<mixed-citation publication-type="other" xlink:type="simple">Hobert O (2013) The neuronal genome of Caenorhabditis elegans. WormBook: 1–106.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

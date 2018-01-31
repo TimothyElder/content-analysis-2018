@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article article-type="research-article" dtd-version="3.0" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0144226</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-15-04629</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Mesenchymal Stem Cells Obtained from Synovial Fluid Mesenchymal Stem Cell-Derived Induced Pluripotent Stem Cells on a Matrigel Coating Exhibited Enhanced Proliferation and Differentiation Potential</article-title>
+<alt-title alt-title-type="running-head">Characteristics of MSCs Obtained from iPSCs</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Zheng</surname>
+<given-names>Yu-Liang</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" equal-contrib="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Sun</surname>
+<given-names>Yang-Peng</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Zhang</surname>
+<given-names>Hong</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Liu</surname>
+<given-names>Wen-Jing</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Jiang</surname>
+<given-names>Rui</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Li</surname>
+<given-names>Wen-Yu</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Zheng</surname>
+<given-names>You-Hua</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Zhang</surname>
+<given-names>Zhi-Guang</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Guanghua School of Stomatology, Hospital of Stomatology, Sun Yat-sen University, Guangdong Provincial Key Laboratory of Stomatology, Guangzhou, Guangdong, P.R. China</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>The First Affiliated Hospital, Sun Yat-sen University, Guangzhou, Guangdong, P.R. China</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou, Guangdong, P.R. China</addr-line></aff>
+<aff id="aff004"><label>4</label> <addr-line>Guangdong Second Traditional Chinese Medicine Hospital, Guangzhou, Guangdong, P.R. China</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Ivanovic</surname>
+<given-names>Zoran</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>French Blood Institute, FRANCE</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="con" id="contrib001">
+<p>Conceived and designed the experiments: YPS YLZ ZGZ. Performed the experiments: YPS YLZ HZ WJL YHZ. Analyzed the data: YPS YLZ HZ WJL. Contributed reagents/materials/analysis tools: YPS YLZ HZ RJ. Wrote the paper: YPS YLZ ZGZ WYL. Guided conception of the study, advised and oversaw the work: ZGZ YPS.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">kouqiangzzg@hotmail.com</email> (ZZ); <email xlink:type="simple">sunyp@mail2.sysu.edu.cn</email> (YS)</corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>9</day>
+<month>12</month>
+<year>2015</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2015</year>
+</pub-date>
+<volume>10</volume>
+<issue>12</issue>
+<elocation-id>e0144226</elocation-id>
+<history>
+<date date-type="received">
+<day>31</day>
+<month>1</month>
+<year>2015</year>
+</date>
+<date date-type="accepted">
+<day>16</day>
+<month>11</month>
+<year>2015</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2015</copyright-year>
+<copyright-holder>Zheng et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0144226"/>
+<abstract>
+<p>Induced pluripotent stem cell-derived mesenchymal stem cells (iPSC-MSCs) serve as a promising source for cell-based therapies in regenerative medicine. However, optimal methods for transforming iPSCs into MSCs and the characteristics of iPSC-MSCs obtained from different methods remain poorly understood. In this study, we developed a one-step method for obtaining iPSC-MSCs (CD146+STRO-1+ MSCs) from human synovial fluid MSC-derived induced iPSCs (SFMSC-iPSCs). CD146-STRO-1-SFMSCs were reprogrammed into iPSCs by transduction with lentivirus-mediated Sox2, Oct-3/4, klf4, and c-Myc. SFMSC-iPSCs were maintained with mTeSR1 medium in Matrigel-coated culture plates. Single dissociated cells were obtained by digesting the SFMSC-iPSCs with trypsin. The dissociated cells were then plated into Matrigel-coated culture plate with alpha minimum essential medium supplemented with 10% fetal bovine serum, 1× Glutamax, and the ROCK inhibitor Y-27632. Cells were then passaged in standard cell culture plates with alpha minimum essential medium supplemented with 10% fetal bovine serum and 1× Glutamax. After passaging <italic>in vitro</italic>, the cells showed a homogenous spindle-shape similar to their ancestor cells (SFMSCs), but with more robust proliferative activity. Flow cytometric analysis revealed typical MSC surface markers, including expression of CD73, CD90, CD105, and CD44 and lack of CD45, CD34, CD11b, CD19, and HLA-DR. However, these cells were positive for CD146 and stro-1, which the ancestor cells were not. Moreover, the cells could also be induced to differentiate in osteogenic, chondrogenic, and adipogenic lineages <italic>in vitro</italic>. The differentiation potential was improved compared with the ancestor cells <italic>in vitro</italic>. The cells were not found to exhibit oncogenicity <italic>in vivo</italic>. Therefore, the method presented herein facilitated the generation of STRO-1+CD146+ MSCs from SFMSC-iPSCs exhibiting enhanced proliferation and differentiation potential.</p>
+</abstract>
+<funding-group>
+<funding-statement>This study was supported by grants from the National Science Foundation of China (81271115), <ext-link ext-link-type="uri" xlink:href="http://isisn.nsfc.gov.cn/egrantweb/" xlink:type="simple">http://isisn.nsfc.gov.cn/egrantweb/</ext-link>.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="8"/>
+<table-count count="2"/>
+<page-count count="19"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Pluripotent stem cells, including embryonic stem cells (ESCs) and induced pluripotent stem cells (iPSCs), can maintain sufficient cell stores through unlimited self-renewal capacity and can differentiate into any cell type within the body. However, ethical controversy, immune rejection, and the potential oncogenicity of ESCs limit their applications in the clinical setting. Recently, the generation of iPSCs from adult somatic cells has allowed for the use of stem cells without the ethical dilemmas surrounding ESCs [<xref ref-type="bibr" rid="pone.0144226.ref001">1</xref>–<xref ref-type="bibr" rid="pone.0144226.ref003">3</xref>]. iPSCs have been shown to exhibit characteristics similar to ESCs in terms of morphology, surface markers expression, unlimited self-renewal, and differentiation potential [<xref ref-type="bibr" rid="pone.0144226.ref001">1</xref>–<xref ref-type="bibr" rid="pone.0144226.ref004">4</xref>]. Moreover, although iPSCs may be an inexhaustible cell source for regenerative medicine, they still carry the risk of oncogenicity.</p>
+<p>Recent studies have shown that MSCs possess immunomodulatory properties and exhibit immune tolerance during transplantation [<xref ref-type="bibr" rid="pone.0144226.ref005">5</xref>,<xref ref-type="bibr" rid="pone.0144226.ref006">6</xref>]. MSCs can also migrate to damaged tissues and promote tissue repair by secretion of cytokines, chemokines, and extracellular matrix proteins [<xref ref-type="bibr" rid="pone.0144226.ref007">7</xref>]. Additionally, no reports have demonstrated the oncogenic characteristics of MSCs. Therefore, MSCs may be an attractive source for stem cell-based therapies in regenerative medicine. MSCs are present in diverse tissues, such as bone marrow, adipose tissue, dental pulp, synovium, synovial fluid, and muscle [<xref ref-type="bibr" rid="pone.0144226.ref008">8</xref>–<xref ref-type="bibr" rid="pone.0144226.ref013">13</xref>]. However, harvesting MSCs requires suitable donors and may be invasive. In addition, the number of MSCs acquired during harvest can be limited, and the capacity of MSCs for proliferation and differentiation decreases during cultivation or aging [<xref ref-type="bibr" rid="pone.0144226.ref014">14</xref>,<xref ref-type="bibr" rid="pone.0144226.ref015">15</xref>]. Therefore, establishing a stable, robust source of MSCs is imperative for successful therapeutic applications.</p>
+<p>Recent studies have reported that MSCs can be obtained from iPSCs (iPSC-MSCs) using different protocols, such as coculture with the desired cell type, growth factors, or differentiation through embryoid bodies (EBs), indicating that iPSC-MSCs may be an attractive source for stem cell-based therapies in regenerative medicine [<xref ref-type="bibr" rid="pone.0144226.ref014">14</xref>–<xref ref-type="bibr" rid="pone.0144226.ref027">27</xref>]. However, the characteristics of iPSC-MSCs vary depending on the specific ancestor cells and transformation protocols, and appropriate methods for transforming iPSCs into MSCs have not been developed [<xref ref-type="bibr" rid="pone.0144226.ref014">14</xref>,<xref ref-type="bibr" rid="pone.0144226.ref017">17</xref>–<xref ref-type="bibr" rid="pone.0144226.ref019">19</xref>,<xref ref-type="bibr" rid="pone.0144226.ref025">25</xref>,<xref ref-type="bibr" rid="pone.0144226.ref027">27</xref>].</p>
+<p>Koyama et al. [<xref ref-type="bibr" rid="pone.0144226.ref009">9</xref>] reported that stromal cell antigen 1 (STRO-1)+CD146+ synovial fluid-derived MSCs (SFMSCs) exist in the synovial fluid of the temporomandibular joint (TMJ) in patients with temporomandibular disorders (TMD). They proposed that SFMSCs may be a promising candidate cell type for cell-based strategies for articular cartilage repair. However, the expression of STRO-1 and CD146 in MSCs is not stable and depends on the donor, culture conditions, and cell status [<xref ref-type="bibr" rid="pone.0144226.ref028">28</xref>–<xref ref-type="bibr" rid="pone.0144226.ref030">30</xref>]. Additionally, Simmons et al. [<xref ref-type="bibr" rid="pone.0144226.ref031">31</xref>] reported that STRO-1 antigen is progressively lost during culture and aging. Furthermore, the amount and status of SFMSCs obtained from patients with TMD shows great interpatient variability.</p>
+<p>In this study, we reprogrammed SFMSCs that had lost STRO-1 and CD146 antigens during culture in vitro into iPSCs by reprogramming techniques with Sox2, Oct-3/4, klf4, and c-Myc. We then transformed these iPSCs into MSCs on Matrigel-coated plates.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="sec003">
+<title>Ethics statement</title>
+<p>Individuals who donated synovial fluid provided written informed consent to participate in this study. The study protocol was approved by the Institutional Ethics Board of the Hospital of Stomatology, Sun Yat-sen University, Guangzhou, China.</p>
+</sec>
+<sec id="sec004">
+<title>Measurement of cytokine levels in synovial fluid and culture of SFMSCs</title>
+<p>Synovial fluid samples were collected from three TMD patients who did not respond to conservative treatment during arthrocentesis of the TMJ. These patients had no other systemic diseases, and their ages ranged from 21–58 years old. One patient was a man, and two patients were women. The collection and culture procedure was similar to that in our previous study [<xref ref-type="bibr" rid="pone.0144226.ref032">32</xref>]. Briefly, the upper joint compartment was expanded with 2.0 mL of lidocaine containing 25% vitamin B12 using a #8 needle and syringe for local anesthesia, and the fluid was then withdrawn. The collected synovial fluid samples were centrifuged at 300 × <italic>g</italic> for 5 min. After centrifugation, the cells were plated on culture plates with complete culture medium (alpha minimum essential medium supplemented with 10% fetal bovine serum [Gibco, USA] and 1× Glutamax [Gibco]) and incubated at 37°C in 5% CO2. After 48 h, the medium was withdrawn to remove non-adherent cells and replaced with fresh medium. Cells were then grown for about 2 weeks, after which the cells were passaged every 7 days at a density of 500 cells/cm<sup>2</sup>. The supernatants were used for cytokine level detection using a method similar to that described in previous studies [<xref ref-type="bibr" rid="pone.0144226.ref033">33</xref>,<xref ref-type="bibr" rid="pone.0144226.ref034">34</xref>]. Briefly, the supernatants were centrifuged (4°C, 10 min, 3000 × <italic>g</italic>) before measurement. The optical density (OD) of the solution before injection and after aspiration was measured at 550 nm using a microplate reader (Infinite200; Tecan). 50 μL of each supernatant was used to detected the cytokine level (IL-8, IL-1β, IL-6, IL-10, TNF, IL-12p70) with a Cytometric Bead Array kit (BD; cat. no.: 551811) according to the manufacturer’s instructions. The concentration of each cytokine in synovial fluid was calculated using the following formula: C<sub>final</sub> = C<sub>after</sub> / ([OD<sub>before</sub>−OD<sub>after</sub>] / OD<sub>before</sub>), where C<sub>final</sub> indicates the synovial fluid concentration, C<sub>after</sub> indicates the aspirate solution concentration, OD<sub>after</sub> indicates the absorbance of solution after aspirate, and OD<sub>before</sub> indicates the absorbance of solution before injection.</p>
+</sec>
+<sec id="sec005">
+<title>Generation and culture of SFMSC-iPSCs</title>
+<p>The expression vectors (pMXs-Oct3/4, pMXs-SOX2, pMXs-KLF4, and pMXs-c-MYC), packaging vector (pUMVC), and envelop vector (pVSV-G) were a gift from Prof. Qi Zhang of The Third Affiliated Hospital, Sun Yat-sen University. The protocol for SFMSC-iPSC induction was similar to that described in a previous report [<xref ref-type="bibr" rid="pone.0144226.ref001">1</xref>]. Briefly, 293FT cells (Invitrogen) were plated at 4 × 10<sup>6</sup> cells per 100-mm dish with 9 mL high-glucose Dulbecco’s modified Eagle medium supplemented with 10% fetal bovine serum (HG-DMEM-FSB) and incubated overnight. The culture medium was replaced 2 h before transfection. Cells were transfected with pMXs, pUMVC, and pVSV-G using the calcium phosphate precipitation method. The culture medium was then replaced at 12 h after transfection. Additionally, 48 and 72 h after transfection, the supernatant was collected and filtered through a 0.45-μm pore-size cellulose acetate filter (Millipore). SFMSCs (passage 6) from the three TMD patients were plated at 5 × 10<sup>4</sup> per well in a six-well plate with 2 mL HG-DMEM-FBS on the third day after transfection. The culture medium was then replaced after another 24 h with the virus-containing supernatant (collected after 48 h) and supplemented with 8 mg/mL polybrene. Cells were incubated for 12 h, and culture medium was replaced with 2 mL HG-DMEM-FBS. On the fifth day, the culture medium was replaced with the virus-containing supernatant (collected after 72 h) supplemented with 8 mg/mL polybrene. Twelve hours later, the culture medium was replaced with 2 mL HG-DMEM supplemented with 10% defined fetal bovine serum for ESCs (Gibco; HG-DMEM-DFBS). Ten days after transfection, SFMSCs were harvested by trypsinization and replated at 1 × 10<sup>4</sup> cells per 100-mm dish on a feeder layer of mouse embryonic fibroblasts (MEFs) with HG-DMEM-DFBS supplemented with 50 μg/mL vitamin C and 1 mM valproic acid. The medium was changed every day. Twenty days after transfection, colonies were picked up and transferred into 1 mL of mTeSR1 medium for human iPSCs and ESCs (Stem Cell, USA). The cell suspension was then transferred into 6-well plates coated with Matrigel (HESC-QUALIFIED, BD) with 2 mL mTeSR1 medium per well. One colony was chosen randomly from each patient was further analyzed in this study.</p>
+</sec>
+<sec id="sec006">
+<title>Generation and culture of SFMSC-iPSC-MSCs</title>
+<p>SFMSC-iPSCs were harvested using 0.05% trypsin (Gibco). The dissociated cells were then seeded at a density of 1 × 10<sup>4</sup> cells/cm<sup>2</sup> in cell culture plates coated with Matrigel (1:500, HESC-QUALIFIED, BD; Corning) with complete culture medium supplemented with the ROCK inhibitor Y27632 (10 μM). The culture medium was replaced every 3 days. Adherent cells were then harvested using 0.05% trypsin and seeded in standard cell culture plates with complete culture medium after 1 week at a density of 500 cells/cm<sup>2</sup>. We defined these cells as SFMSC-iPSC-MSCs (passage 1).</p>
+</sec>
+<sec id="sec007">
+<title>Cell proliferation and senescence assay</title>
+<p>SFMSCs (passage 6) and SFMSC-iPSC-MSCs (passage 4) were seeded in triplicate at a density of 900 cells/cm<sup>2</sup> in 12-well plates. The culture medium was changed every other day. Cell numbers were counted daily during the first week using a Z2 Coulter Particle count and size analyzer (Beckman Coulter). Repeated measurements (n = 3) were carried out for each well. To assess population doubling (PD) and calculate the doubling time (DT), cell number and culture times were measured and recorded. PD and DT were calculated using the following formula: PD = (lnN–lnN0) / ln2, DT = T / PD, where N is the cell number at the end point, N0 is the cell number at the initial time, and T is the time interval. A senescence β-Galactosidase Staining Kit (Beyotime Biotechnology, China) was used to detect the senescence of SFMSCs (passage 6) and SFMSC-iPSCs cultured in 12-well plates with complete culture medium according to the manufacturer’s instructions.</p>
+</sec>
+<sec id="sec008">
+<title>Karyotype analysis</title>
+<p>After passaging for 5 days, SFMSC-iPSC-MSCs were treated with colchicine at 37°C for 30 min, harvested with 0.25% trypsin, treated with 0.075 M KCl solution, and fixed in carnoy fluid. Fixed cells were analyzed by the G-band method.</p>
+</sec>
+<sec id="sec009">
+<title>Flow cytometric analysis of cell surface antigens</title>
+<p>SFMSCs (passage 6) and SFMSC-iPSC-MSCs (passage 4) were harvested using 0.25% trypsin. The phenotypes of both cells were studied by flow cytometry analysis for a panel of different surface markers: fluorescein isothiocyanate-conjugated anti-human CD90 (1:20; BD Biosciences), allophycocyanin-conjugated anti-human CD73 (1:11; Miltenyi Biotec), allophycocyanin-conjugated anti-human CD105 (1:20; BD Biosciences), phycoerythrin-conjugated anti-human CD44 (1:20; BD Biosciences), phycoerythrin-conjugated anti-human CD45/CD34 CD11b/CD19/HLA-DR (1:20; BD Biosciences), phycoerythrin-conjugated anti-human CD146 (1:5; BD Biosciences). Briefly, each sample was transferred to a 1.5-mL Eppendorf tube (about 5 × 10<sup>5</sup> cells per tube), then incubated with the antibodies or negative control antibodies for 30 min at 4°C with a total volume of 100 mL per tube. After incubation with antibodies, the cells were washed with PBS and resuspended in 1 mL PBS. At least 10,000 events were acquired for each sample using an FC500 flow cytometer and MXP software (Beckman Coulter) according to the manufacturer’s instructions. Analysis of flow cytometry data was performed using CXP Software (Beckman Coulter).</p>
+</sec>
+<sec id="sec010">
+<title>Alkaline phosphatase (AP) staining and immunofluorescence</title>
+<p>AP staining was performed using an Alkaline Phosphatase kit (Millipore, USA). For immunofluorescence, cells were fixed with PBS containing 4% paraformaldehyde for 30 min at room temperature. After washing with PBS, the cells were treated with 0.1% Triton X-100 for 15 min at room temperature before blocking for 2 h with 1 mL of 1× PBS containing 5% bovine serum albumin (BSA). Primary antibodies included mouse anti-human NANOG (1:200, Novus), mouse anti-human OCT4 (1:200, Novus), rabbit anti-human SOX2 (1:50, Novus), mouse anti-human SSEA4 (1:500, Cell Signaling Technology, Beverly, MA, USA), mouse anti-human TRA-1-60 (1:50, Novus), mouse anti-human TRA-1-81 (1:50, Novus), rabbit anti-human VCAM-1 (1:100, Santa Cruz Biotechnology, Santa Cruz, CA, USA), mouse anti-human STRO-1 (1:50, Novus). The secondary antibodies used were DyLight 488-TFP ester-conjugated goat anti-rabbit IgG antibody (1:100, EarthOx), fluorescein isothiocyanate-conjugated rabbit anti-mouse IgM antibody (1:200, eBioscience), fluorescein isothiocyanate-conjugated goat anti-mouse IgG antibody (1:100, Santa Cruz Biotechnology). Nuclei were stained with 1 μg/mL DAPI (Cell Signaling).</p>
+</sec>
+<sec id="sec011">
+<title>Differentiation assays <italic>in vitro</italic></title>
+<p>For formation of embryoid bodies (EBs), SFMSC-iPSCs were harvested by treating with collagenase IV. The clumps of cells were seeded in untreated 6-well plates (NEST) in mTSeR1 culture medium. The medium was changed every other day. After 8 days in floating culture, EBs were examined under an inverted phase-contrast microscope (Axiovert 40, Zeiss).</p>
+<sec id="sec012">
+<title>For osteogenic differentiation</title>
+<p>SFMSCs and SFMSC-iPSC-MSCs were seeded at a density of 5000 cells/cm<sup>2</sup> in 6-well plates and incubated in complete culture medium at 37°C in 5% CO<sub>2</sub>. After 24 h, the medium was replaced with osteogenic induction medium consisting of H-DMEM (Gibco), 10% FBS (Gibco), 10 mM sodium β-glycerophosphate (Santa Cruz Biotechnology), 10 nM 1,25-dihydroxyvitamin D3 (Sigma), and 50 μg/L ascorbic acid-2-phosphate (Wako, Japan). The medium was replaced every 3 days. After induction, medium was assessed by Alizarin Red staining by incubation with a fresh 0.1% Alizarin Red solution for 30 min at 37°C.</p>
+</sec>
+<sec id="sec013">
+<title>For adipogenic differentiation</title>
+<p>SFMSCs and SFMSC-iPSC-MSCs were seeded at a density of 5000 cells/cm<sup>2</sup> in 6-well plates and incubated in complete culture medium at 37°C in 5% CO<sub>2</sub>. After 24 h, the medium was replaced with adipogenic induction medium consisting of H-DMEM (Gibco) containing 10% FBS (Gibco), 200 mM indomethacin (Sigma-Aldrich, St. Louis, MO, USA), 0.5 mM isobutyl methylxanthin (MP Biomedicals), 1 mM dexamethasone (MP Biomedicals), and 10 mg/mL insulin (MP Biomedicals). The medium was replaced every 3 days. After induction, cell staining was performed with a fresh 0.5% sudan black B solution for 3 min.</p>
+</sec>
+<sec id="sec014">
+<title>For chondrogenic differentiation</title>
+<p>Approximately 3 × 10<sup>5</sup> SFMSCs and SFMSC-iPSC-MSCs were transferred to 15-mL centrifuge tubes and then centrifuged at 450 × <italic>g</italic> for 8 min. Then, 400 mL chondrocyte differentiation induction medium consisting of H-DMEM (Gibco), 1× ITS-A (Gibco), 100 nM dexamethasone (MP Biomedicals), 50 mM ascorbic acid (Sigma-Aldrich), 40 mg/mL proline (Sigma-Aldrich), and 10 ng/mL transforming growth factor-beta 1 (PeproTech) was added. The medium was refreshed every 3 days. Chondrogenic differentiation was assessed by histological staining. Paraffin-embedded cartilage nodules were sliced at 5 μm thickness. After deparaffinization and rehydration, the sections were stained with 0.1% Safranin O solution for 5 min. For glycosaminoglycan quantification assays, 3 × 10<sup>5</sup> SFMSCs and SFMSC-iPSC-MSCs were transferred into 15-mL centrifuge tubes for chondrogenic differentiation. After culturing for 21 days, each cartilage nodule was digested with 100 μL proteinase K (50 μg/mL; Sigma) at 60°C overnight. Proteinase K was then inactivated by heating the solution for 10 min at 90°C, and the solution was then centrifuged (4°C, 30 min, 12000 × <italic>g</italic>). This preparation was used to quantify glycosaminoglycans as reported previously [<xref ref-type="bibr" rid="pone.0144226.ref035">35</xref>]. Briefly, working buffer was prepared by dissolving 16 mg DMMB in 25 mL ethanol, filtering through filter paper, adding 100 mL of a solution containing 1 M GuHCl, 1 g sodium formate, and 1 mL of 98% formic acid, and then adding distill water to a final volume of 500 mL. Next, 0.5 mL working buffer was added to 50 μL preparation, and the mixture was shaken and centrifuged (4°C, 10 min, 12000 × <italic>g</italic>). The supernatant was then discarded, and the pellet was dissolved with 500 μL decomplexation solution (4 M GuHCl solubilized in 50 mM sodium acetate containing 10% propanol solution buffer [pH 6.8]) and shaken for 30 min. Known amounts (1, 2, 4, 8, 10 μg/mL) of chondroitin sulfate (Sigma) were used as the standard solution. The OD of the solution was measured at 656 nm using a microplate reader (Infinite200; Tecan).</p>
+</sec>
+</sec>
+<sec id="sec015">
+<title>Tumor-generation assay <italic>in vivo</italic></title>
+<p>SFMSC-iPSCs and SFMSC-iPSC-MSCs were harvested by collagenase IV and trypsin treatment, then collected into tubes, centrifuged, and resuspended in DMEM/F12. Cells were injected subcutaneously into the dorsal flanks of three SCID mice (China). Twelve weeks after injection, tumors were dissected and fixed with 4% paraformaldehyde. Paraffin-embedded tissue was sliced and stained with hematoxylin and eosin.</p>
+</sec>
+<sec id="sec016">
+<title>Immunohistochemistry</title>
+<p>Sections of cartilage nodule tissue were deparaffinized and rehydrated and then treated with 3% H<sub>2</sub>O<sub>2</sub>. Slides were next incubated in 0.01 M citrate buffer for 20 min at 94–98°C and blocked with 5% BSA. Primary antibodies included rabbit anti-human collagen type II antibodies (1:80, Sigma-Aldrich). The staining was visualized using a microscope (Axioskop 40, Zeiss) by applying streptavidin-biotin complex reagent (Boster) and 3,3′-diaminobenzidine (DAB; Boster) after the treatment with a solution of biotinylated goat anti-rabbit IgG (Boster). Sections were treated using the same process but without incubation with a primary antibody as the negative control.</p>
+</sec>
+<sec id="sec017">
+<title>Gene expression analysis by real time-PCR</title>
+<p>Total RNA was isolated using TRIzol reagent (Roche). cDNA was synthesized using a Transcriptor First Strand cDNA Synthesis Kit (Roche) according to the manufacturer’s instructions. Relative mRNA expression levels were determined by applying a SYBR Green qPCR kit (Roche) using GAPDH as the reference control. The primers for these genes are listed in <xref ref-type="table" rid="pone.0144226.t001">Table 1</xref>. The 2<sup>-ΔΔCT</sup> method was used to analyze the relative gene expression levels by normalizing with GAPDH as an endogenous control and calibrating according to the primer efficiency. ΔΔCT was calculated using the following formula: (Ct<sub>target gene</sub>−Ct<sub>gapdh</sub>)sample–(Ct<sub>target gene</sub>−Ct<sub>gapdh</sub>)control.</p>
+<table-wrap id="pone.0144226.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0144226.t001</object-id>
+<label>Table 1</label> <caption><title>Oligonucleotide primers used in qPCR.</title></caption>
+<alternatives>
+<graphic id="pone.0144226.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0144226.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center">Gene</th>
+<th align="center">Primer sequence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" rowspan="2"><italic>GAPDH</italic></td>
+<td align="left">Forward: GACAGTCAGCCGCATCTTCT</td>
+</tr>
+<tr>
+<td align="left">Reverse: TTAAAAGCAGCCCTGGTGAC</td>
+</tr>
+<tr>
+<td align="center" rowspan="2"><italic>RUNX-2</italic></td>
+<td align="left">Forward: TCAACGATCTGAGATTTGTGGG</td>
+</tr>
+<tr>
+<td align="left">Reverse: GGGGAGGATTTGTGAAGACGG</td>
+</tr>
+<tr>
+<td align="center" rowspan="2"><italic>OCN</italic></td>
+<td align="left">Forward: CCACCGAGACACCATGAGAG</td>
+</tr>
+<tr>
+<td align="left">Reverse: TCAGCCAACTCGTCACAGTC</td>
+</tr>
+<tr>
+<td align="center" rowspan="2"><italic>PPARG2</italic></td>
+<td align="left">Forward: GCAAACCCCTATTCCATGCTG</td>
+</tr>
+<tr>
+<td align="left">Reverse: CACGGAGCTGATCCCAAAGT</td>
+</tr>
+<tr>
+<td align="center" rowspan="2"><italic>LPL</italic></td>
+<td align="left">Forward: CAAGAGTGAGTGAACAAC</td>
+</tr>
+<tr>
+<td align="left">Reverse: AATTATGCTGAAGGACAAC</td>
+</tr>
+<tr>
+<td align="center" rowspan="2"><italic>SOX9</italic></td>
+<td align="left">ACACACAGCTCACTCGACCTTG</td>
+</tr>
+<tr>
+<td align="left">AGGGAATTCTGGTTGGTCCTCT</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p><bold>Abbreviations:</bold> <italic>GAPDH</italic>, glyceraldehyde-3-phosphate dehydrogenase; <italic>RUNX-2</italic>, runt-related transcription factor 2; <italic>OCN</italic>, osteocalcin; <italic>PPARG2</italic>, peroxisome proliferator-activated receptor gamma, transcript variant 2; <italic>LPL</italic>, lipoprotein lipase; <italic>SOX9</italic>, sex determining region Y-box 9.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec018">
+<title>Statistical analysis</title>
+<p>Numerical data are expressed as means ± standard deviations (SDs). Statistical significance was evaluated via Student’s t-test, and <italic>p</italic>-values of less than 0.05 were considered significant.</p>
+</sec>
+</sec>
+<sec id="sec019" sec-type="results">
+<title>Results</title>
+<sec id="sec020">
+<title>Patient information and <italic>in vitro</italic> characterization of SFMSCs</title>
+<p>A summary of the patients’ characteristics is shown in <xref ref-type="table" rid="pone.0144226.t002">Table 2</xref>. After culturing the diluted synovial fluid samples for a few days, SFMSC proliferation was observed in culture, and the cells exhibited a typical fibroblastic spindle shape (<xref ref-type="fig" rid="pone.0144226.g001">Fig 1A–1C</xref>). STRO-1 was detected in these SFMSCs at passage 2 (<xref ref-type="fig" rid="pone.0144226.g001">Fig 1D–1F</xref>) but was almost completely absent after ex vivo expansion at passage 6 (<xref ref-type="fig" rid="pone.0144226.g001">Fig 1G and 1I</xref>). Flow cytometric analysis showed that ex vivo-expanded SFMSCs (passage 6) expressed CD90, CD105, CD73, and CD44. CD146, CD45, CD34, CD11b, CD19, and HLA-DR were not detected on the cells (<xref ref-type="fig" rid="pone.0144226.g002">Fig 2</xref>).</p>
+<fig id="pone.0144226.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0144226.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>SFMSCs.</title>
+<p>(A–C) Microscopic image showing the typical morphology of SFMSCs. (D–F) Immunofluorescent staining of SFMSCs showing positive expression of STRO-1 at passage 2. (G–I) Immunofluorescent staining of SFMSCs showing decreased expression of STRO-1 at passage 6. Scale bars = 100 μm.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0144226.g001" xlink:type="simple"/>
+</fig>
+<fig id="pone.0144226.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0144226.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Flow cytometric analysis of SFMSCs and SFMSC-iPSC-MSCs.</title>
+<p>Both SFCs and SFMSCs expressed typical MSCs surface markers, including CD90, CD44, CD105, and CD73. CD45, CD34, CD11b, CD19, and HLA-DR were not detected on the surfaces of these cells. SFMSC-iPSC-MSCs expressed CD146. The black lines represent negative controls, and the red lines are the results for the experimental groups.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0144226.g002" xlink:type="simple"/>
+</fig>
+<table-wrap id="pone.0144226.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0144226.t002</object-id>
+<label>Table 2</label> <caption><title>Summary of patients’ characteristics.</title></caption>
+<alternatives>
+<graphic id="pone.0144226.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0144226.t002" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center" rowspan="2">Patient no.</th>
+<th align="center">Age (years)(years)</th>
+<th align="center">Sex</th>
+<th align="center">Lateral</th>
+<th align="center">Diagnosis</th>
+<th align="center" colspan="6">Cytokine level (pg/mL)</th>
+</tr>
+<tr>
+<th align="center"/>
+<th align="center"/>
+<th align="center"/>
+<th align="center"/>
+<th align="center">IL-8</th>
+<th align="center">IL-1β</th>
+<th align="center">IL-6</th>
+<th align="center">IL-10</th>
+<th align="center">TNF</th>
+<th align="center">IL-12p70</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">A</td>
+<td align="center">21</td>
+<td align="center">F</td>
+<td align="center">Left</td>
+<td align="center">Anterior disk displacement without reduction</td>
+<td align="center">42.39</td>
+<td align="center">65.50</td>
+<td align="center">21.92</td>
+<td align="center">21.26</td>
+<td align="center">54.37</td>
+<td align="center">87.29</td>
+</tr>
+<tr>
+<td align="center">B</td>
+<td align="center">32</td>
+<td align="center">M</td>
+<td align="center">Right</td>
+<td align="center">Osteoarthrosis</td>
+<td align="center">282.24</td>
+<td align="center">424.01</td>
+<td align="center">270.81</td>
+<td align="center">215.54</td>
+<td align="center">321.55</td>
+<td align="center">482.77</td>
+</tr>
+<tr>
+<td align="center">C</td>
+<td align="center">58</td>
+<td align="center">F</td>
+<td align="center">Left</td>
+<td align="center">Osteoarthrosis</td>
+<td align="center">79.99</td>
+<td align="center">126.28</td>
+<td align="center">78.08</td>
+<td align="center">58.33</td>
+<td align="center">96.42</td>
+<td align="center">188.73</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec021">
+<title>Generation and characterization of SFMSC-iPSCs</title>
+<p>Four days after transfection, the mesenchymal-epithelial transformation (MET) was observed (<xref ref-type="fig" rid="pone.0144226.g003">Fig 3A</xref>). Twenty days after transfection, typical hES cell-like colonies were observed in culture (<xref ref-type="fig" rid="pone.0144226.g003">Fig 3B</xref>). We then picked up hES cell-like cell clones and cultured cells in Matrigel-coated 6-well plates with mTeSR1 medium; we defined these cell colonies as SFMSC-iPSCs (passage number 1). The cell status of SFMSC-iPSCs was maintained well and stably in vitro (<xref ref-type="fig" rid="pone.0144226.g003">Fig 3C and 3D</xref>). AP staining showed that SFMSC-iPSCs exhibited alkaline phosphatase activity (<xref ref-type="fig" rid="pone.0144226.g003">Fig 3E</xref>, Figs A, I in <xref ref-type="supplementary-material" rid="pone.0144226.s001">S1 File</xref>). After seeding SFMSC-iPSCs in untreated 6-well plates with mTSeR1 medium for 8 days as a floating culture, EBs were formed (<xref ref-type="fig" rid="pone.0144226.g003">Fig 3F</xref>, Figs B, J in <xref ref-type="supplementary-material" rid="pone.0144226.s001">S1 File</xref>). According to immunofluorescent staining, SFMSC-iPSCs also expressed NANOG, OCT-4, SOX-2, SSEA-4, TRA-1-60, TRA-1-81, typical markers of hESs (<xref ref-type="fig" rid="pone.0144226.g003">Fig 3G–3L</xref>, Figs C–H, K–P in <xref ref-type="supplementary-material" rid="pone.0144226.s001">S1 File</xref>).</p>
+<fig id="pone.0144226.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0144226.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Induction of iPSCs from SFMSCs (Patient A).</title>
+<p>(A) Microscopic image showing the morphology of SFMSCs after transfection for 4 days. (B) Microscopic image showing the morphology of SFMSCs after transfection for 20 days. (C) Typical image of hES cell-like colony after culture with Matrigel and mTeSR1 medium culture. (D) High-magnification image of SFMSC-iPSCs. (E) Staining of SFMSC-iPSCs showing positive expression of alkaline phosphatase. (F) Floating culture of SFMSC-iPSCs at day 8. Immunofluorescent staining of SFMSC-iPSCs showing positive expression of NANOG (G), OCT-4 (H), SOX-2 (I), SSEA-4 (J), TRA-1-60 (K), and TRA-1-81 (L). Scale bars = 100 μm.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0144226.g003" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec022">
+<title>Generation and characterization of SFMSC-iPSC-MSCs</title>
+<p>After passaging in vitro, the cells exhibited a typical fibroblastic spindle shape (<xref ref-type="fig" rid="pone.0144226.g004">Fig 4A–4C</xref>). Flow cytometric analysis showed that SFMSC-iPSC-MSCs expressed typical surface markers of MSCs, such as CD90, CD105, CD73, and CD44. CD45, CD34, CD11b, CD19, and HLA-DR, were not detected (<xref ref-type="fig" rid="pone.0144226.g002">Fig 2</xref>). Interesting, STRO-1, which was not expressed in ancestor cells (SFMSCs) at passage 6, re-emerged on SFMSC-iPSC-MSCs (<xref ref-type="fig" rid="pone.0144226.g004">Fig 4D–4F</xref>).</p>
+<fig id="pone.0144226.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0144226.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>SFMSC-iPSC-MSCs.</title>
+<p>(A–C) Microscopic image showing the typical morphology of SFMSC-iPSC-MSCs. (D–F) Immunofluorescent staining of SFMSC-iPSC-MSCs showing positive expression of STRO-1 at passage 3. Scale bars = 100 μm.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0144226.g004" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec023">
+<title>Cell proliferation potential of SFMSC-iPSC-MSCs and SFMSCs</title>
+<p>Cell growth curve showed that cell proliferation improved obviously after transformation (<xref ref-type="fig" rid="pone.0144226.g005">Fig 5A, 5D and 5G</xref>)). The average PD of SFMSCs (passage 6) was 1.72 ± 0.04, and SFMSC-iPSC-MSCs (passage 4) displayed an average PD of 2.81 ± 0.15. The average DTs were 41.85 ± 0.84 h for SFMSCs (passage 6) and 25.66 ± 1.40 h for SFMSC-iPSC-MSCs (passage 4). Accumulation of senescent cells was not obvious according to β-galactosidase staining in SFMSCs (passage 6). Accumulation of senescent cells was observed in SFMSC-iPSC-MSCs after passaging in vitro (Patient A, passage number 11 [<xref ref-type="fig" rid="pone.0144226.g005">Fig 5B and 5C</xref>]; Patient B, passage number 13 [<xref ref-type="fig" rid="pone.0144226.g005">Fig 5E and 5F</xref>]; Patient B, passage number 10 [<xref ref-type="fig" rid="pone.0144226.g005">Fig 5H and 5C</xref>]), indicating these cells were not immortalized.</p>
+<fig id="pone.0144226.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0144226.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>Cell growth curve and senescence assay of SFMSC-iPSC-MSCs and SFMSCs.</title>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0144226.g005" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec024">
+<title>Differentiation of SFMSC-iPSC-MSCs and SFMSCs</title>
+<sec id="sec025">
+<title>Adipogenic differentiation</title>
+<p>After 28 days of culture in adipogenic induction medium, both SFMSCs and SFMSC-iPSC-MSCs developed into sudan black B-positive, lipid-laden fat cells (<xref ref-type="fig" rid="pone.0144226.g006">Fig 6C, 6D, 6I, 6J, 6O and 6P</xref>). Moreover, the expression levels of <italic>LPL</italic> and <italic>PPARG2</italic> genes in SFMSC-iPSC-MSCs were higher, respectively, than that in SFMSCs (<xref ref-type="fig" rid="pone.0144226.g006">Fig 6U and 6V</xref>).</p>
+<fig id="pone.0144226.g006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0144226.g006</object-id>
+<label>Fig 6</label>
+<caption>
+<title>Multipotent differentiation of SFMSCs and SFMSC-iPSC-MSCs.</title>
+<p>Alizarin red staining identified calcium deposits in SFMSCs (A, G, M) and SFMSC-iPSC-MSCs (B, H, N) after osteogenic induction for 28 days. Lipid droplets were observed in SFMSCs (C, I, O) and SFMSC-iPSC-MSCs (D, J, P) after culture in adipogenic induction medium for 28 days by sudan black B staining. Cartilage nodules formed by SFMSCs (E, K, Q) and SFMSC-iPSC-MSCs (F, L, R) after chondrogenic induction for 21 days. <italic>OCN</italic> (S) and <italic>RUNX-2</italic> (T) gene expression in SFMSCs and SFMSC-iPSC-MSCs after osteogenic induction for 21 days. <italic>LPL</italic> (U) and <italic>PPARG2</italic> (V) gene expression in SFMSCs and SFMSC-iPSC-MSCs after adipogenic induction for 28 days. <italic>SOX9</italic> (W) gene expression and GAG (X) protein expression in SFMSCs and SFMSC-iPSC-MSCs after chondrogenic induction for 21 days.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0144226.g006" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec026">
+<title>Osteogenic differentiation</title>
+<p>After 28 days of culture in osteogenic induction medium, calcium deposits were observed in both SFMSC and SFMSC-iPSC-MSC cultures by Alizarin Red staining (<xref ref-type="fig" rid="pone.0144226.g006">Fig 6A, 6B, 6G, 6H, 6M and 6N</xref>). Expression levels of the osteogenic transcription factor gene <italic>RUNX-2</italic> and the <italic>OCN</italic> gene in SFMSC-iPSC-MSCs were higher than that in SFMSCs, respectively, after osteogenic induction for 21 days (<xref ref-type="fig" rid="pone.0144226.g006">Fig 6S and 6T</xref>).</p>
+</sec>
+<sec id="sec027">
+<title>Chondrogenic differentiation</title>
+<p>After 21 days of culture in chondrogenic induction medium, both SFMSCs and SFMSC-iPSC-MSCs formed cartilage nodules (<xref ref-type="fig" rid="pone.0144226.g006">Fig 6E and 6F</xref>); this effect was not observed in the respective control cell cultures. After 21 days of culture in chondrogenic induction medium, immunochemical staining for collagen type II was positive throughout sections of nodules formed by both cell types (Figs A-F in <xref ref-type="supplementary-material" rid="pone.0144226.s003">S3 File</xref>) whereas no immunostaining was detected in the respective control sections. Moreover, the expression levels of the <italic>SOX9</italic> gene and GAG protein in SFMSC-iPSC-MSCs were higher, respectively, than those in SFMSCs (<xref ref-type="fig" rid="pone.0144226.g006">Fig 6W and 6X</xref>).</p>
+</sec>
+</sec>
+<sec id="sec028">
+<title>Karyotype analysis of SFMSC-iPSC-MSCs</title>
+<p>Y-27632 is essential for iPSC survival during single-cell dissociation. Single-cell dissociation with trypsin could induce genetic instability. However, in this study, the karyotype of SFMSC-iPSC-MSCs derived from patient A (<xref ref-type="fig" rid="pone.0144226.g007">Fig 7A</xref>), patient B (<xref ref-type="fig" rid="pone.0144226.g007">Fig 7B</xref>), patient C (<xref ref-type="fig" rid="pone.0144226.g007">Fig 7C</xref>) still remained normal.</p>
+<fig id="pone.0144226.g007" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0144226.g007</object-id>
+<label>Fig 7</label>
+<caption>
+<title>Karyotype analysis of SFMSC-iPSC-MSCs.</title>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0144226.g007" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec029">
+<title>Tumor-generation assay <italic>in vivo</italic></title>
+<p>At 12 weeks after implantation of SFMSC-iPSCs, tumor formation was observed in SCID mice. The tumors contained various tissues originating from three germ layers, including keratin-containing epidermal tissues (<xref ref-type="fig" rid="pone.0144226.g008">Fig 8A</xref>, Figs A, E in <xref ref-type="supplementary-material" rid="pone.0144226.s002">S2 File</xref>), gut-like epithelial tissues (<xref ref-type="fig" rid="pone.0144226.g008">Fig 8B</xref>, Figs B, F in <xref ref-type="supplementary-material" rid="pone.0144226.s002">S2 File</xref>), striated muscle (<xref ref-type="fig" rid="pone.0144226.g008">Fig 8C</xref>, Figs C, G in <xref ref-type="supplementary-material" rid="pone.0144226.s002">S2 File</xref>), and cartilage (<xref ref-type="fig" rid="pone.0144226.g008">Fig 8D</xref>, Figs D, H in <xref ref-type="supplementary-material" rid="pone.0144226.s002">S2 File</xref>), as shown by the results of histological examination. No side effects of injection of SFMSC-iPSC-MSCs were observed.</p>
+<fig id="pone.0144226.g008" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0144226.g008</object-id>
+<label>Fig 8</label>
+<caption>
+<title>Hematoxylin and eosin staining of teratomas derived from SFMSC-iPSCs (Patient A).</title>
+<p>Scale bars = 100 μm.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0144226.g008" xlink:type="simple"/>
+</fig>
+</sec>
+</sec>
+<sec id="sec030" sec-type="conclusions">
+<title>Discussion</title>
+<p>The local inflammatory milieu may affect the characteristics of MSCs [<xref ref-type="bibr" rid="pone.0144226.ref036">36</xref>]. Moreover, the inflammatory milieu of patients with TMD varies. In this study, we only chose three patients with TMD as donors of synovial fluid samples. Thus, this sample was very limited. Therefore, TMJ status and cytokine levels in patients with TMD who donated synovial fluid samples were assayed in this study.</p>
+<p>In our preliminary study, the number of SFMSCs and the proliferation potential of the cells varied from patient to patient (data not shown). The cell number required for clinical approaches is very high, and this may be an obstacle for the clinical application of this technique. Therefore, for therapeutic application of these cells, identification of an alternative method for solving this dilemma is needed.</p>
+<p>In this study, we reprogrammed SFMSCs that had lost STRO-1 and CD146 antigens during culture in vitro into iPSCs by reprogramming techniques with Sox2, Oct-3/4, klf4, and c-Myc. We then successfully transformed these iPSCs into MSCs on a Matrigel coating. These SFMSC-iPSC-MSCs exhibited improved proliferative activity and differentiation potential in vitro. These findings further support previous studies demonstrating that reprogrammed SFMSCs derived from iPSCs and controlled induction of iPSCs into MSCs may be an attractive approach to obtaining a readily available source of progenitor cells for therapeutic applications.</p>
+<p>MSCs derived from different iPSC lines exhibit variability in their characteristics [<xref ref-type="bibr" rid="pone.0144226.ref027">27</xref>]. Thus, detailed characterization of iPSC-MSCs induced by specific methods is imperative. MSCs express a variety of surface antigens, including CD105 (an ecto-5′-nucleotidase originally recognized by monoclonal antibodies targeting SH3 and SH4), CD73 (an endoglin originally recognized by monoclonal antibodies targeting SH2), and CD90 (also known as Thy-1), and lack expression of CD34 (a primitive hematopoietic progenitor and endothelial cell marker), CD45 (a pan-leukocyte marker), CD79alpha/CD19 (a B cell marker), CD14/CD11b (prominently expressed on monocytes and macrophages), and HLA-DR (a marker only present in MSCs upon with stimulation with interferon-c), according to the minimal criteria proposed by The Mesenchymal and Tissue Stem Cell Committee of the International Society for Cellular Therapy (ISCT) for use as the uniform definition of human MSCs [<xref ref-type="bibr" rid="pone.0144226.ref037">37</xref>]. The MSC-like cells generated in this study met the ISCT’s criteria for defining an MSC population. STRO-1 is a surface marker for a purely primitive subset of MSCs and has not been confirmed as a definitive marker of MSCs due to the unstable and variably frequency of STRO-1 expression in MSCs. Indeed, STRO-1 expression is highly dependent on donor, culture conditions, and cell status [<xref ref-type="bibr" rid="pone.0144226.ref029">29</xref>]; however, MSCs that express STRO-1 have been shown to exert more powerful immunosuppressive effects in vitro and have greater homing ability in vivo [<xref ref-type="bibr" rid="pone.0144226.ref038">38</xref>,<xref ref-type="bibr" rid="pone.0144226.ref039">39</xref>]. Bakopoulou et al. [<xref ref-type="bibr" rid="pone.0144226.ref040">40</xref>] reported that STRO-1+/CD146+ stem cells residing in the apical papilla exhibited enhanced multipotent stem cell properties compared to the STRO-1-CD146+ stem cell subset. Koyama et al. [<xref ref-type="bibr" rid="pone.0144226.ref009">9</xref>] published the first report showing that STRO-1+CD146+SFMSCs, which had characteristics similar to those of bone marrow-derived MSCs, exist in the synovial fluid of the TMJ in patients with TMD. However, STRO-1 and CD146 antigen expression in SFMSCs disappeared easily following in vitro culture according to our previous studies [<xref ref-type="bibr" rid="pone.0144226.ref032">32</xref>]. In this study, we obtained SFMSCs from TMD patients; in these cells, STRO-1 was expressed in early passages, but disappeared quickly after a few passages in vitro. Furthermore, these SFMSCs showed poorer and poorer proliferative ability and multipotent differentiation potential during culture in vitro.</p>
+<p>STRO-1+CD146+SFMSCs have been proposed to be an attractive autologous cell source for cell-based therapies and engineering strategies due to their extensive proliferative capacity, multipotent differentiation potential, and anti-inflammatory effects [<xref ref-type="bibr" rid="pone.0144226.ref009">9</xref>]. However, the unstable antigen expression, heterogeneity, and varying cell numbers of SFMSCs obtained from TMD patients significantly limit their therapeutic potential. Interestingly, with our protocol, we observed re-emergence of STRO-1 and CD146 expression.</p>
+<p>Some recent studies have demonstrated the generation and characterization of MSCs from ESCs [<xref ref-type="bibr" rid="pone.0144226.ref016">16</xref>,<xref ref-type="bibr" rid="pone.0144226.ref019">19</xref>,<xref ref-type="bibr" rid="pone.0144226.ref022">22</xref>,<xref ref-type="bibr" rid="pone.0144226.ref023">23</xref>,<xref ref-type="bibr" rid="pone.0144226.ref025">25</xref>,<xref ref-type="bibr" rid="pone.0144226.ref041">41</xref>] or iPSCs [<xref ref-type="bibr" rid="pone.0144226.ref014">14</xref>,<xref ref-type="bibr" rid="pone.0144226.ref015">15</xref>,<xref ref-type="bibr" rid="pone.0144226.ref027">27</xref>]. Interestingly, the characteristics of MSCs derived from iPSCs or ESCs vary depending on the particular ancestor cells used or on the transformation protocol [<xref ref-type="bibr" rid="pone.0144226.ref027">27</xref>]. Chen et al. [<xref ref-type="bibr" rid="pone.0144226.ref015">15</xref>] demonstrated that iPSC-MSCs exhibited robust osteogenic and chondrogenic differentiation potential but limited adipogenic differentiation potential using the transforming growth factor-β pathway inhibitor SB431542. Lian et al. [<xref ref-type="bibr" rid="pone.0144226.ref042">42</xref>] obtained iPSC-MSCs successfully in a defined culture system using a combination of CD24 (-) and CD105 (+) sorting. The iPSC-MSCs exhibited highly efficient adipogenic, chondrogenic, and osteogenic differentiation potential. Olivier et al. [<xref ref-type="bibr" rid="pone.0144226.ref017">17</xref>] reported that MSCs obtained from ESCs in their study exhibited bipotent differentiation potential. CD146+STRO-1- MSCs could be derived from iPSCs based on fibrillar collagen coating culture and exhibited adipogenic, chondrogenic, and osteogenic differentiation potential [<xref ref-type="bibr" rid="pone.0144226.ref024">24</xref>]. Moreover, Wu et al. [<xref ref-type="bibr" rid="pone.0144226.ref019">19</xref>] reported that Nestin(+)/CD271(-)/STRO-1(-) mesenchymal-like precursors derived from hESCs in chemically defined conditions exhibited the ability to differentiate into osteoblasts, adipocytes, and chondrocytes.</p>
+<p>In this study, we tried to reverse the status of SFMSCs that were CD146 negative and STRO-1 negative by reprogramming the SFMSCs into iPSCs by transduction with lentivirus-mediated Sox2, Oct-3/4, klf4, and c-Myc factors. These iPSCs showed characteristics similar to those of hESCs. These findings add further support to previous studies showing that SFMSCs could also be reprogrammed into iPSCs. Moreover, the SFMC-iPSC-MSCs obtained in our study exhibited typical characteristics of MSCs. Interestingly, CD146 and STRO-1 re-emerged on MSCs derived from SFMSC-iPSCs, and exhibit improved adipogenic, chondrogenic, and osteogenic differentiation potential, compared to their ancestor cells (SFMSCs). The molecular mechanisms underlying these characteristic changes remain unclear. A number of factors could have contributed to these characteristics of SFMSC-iPSC-MSCs. Notably, the iPSC lines used in this study were generated using combinations of transcription factors, including Sox2, Oct-3/4, klf4, and c-Myc. Moreover, we cannot exclude the role of reprogramming factors integrated in the genome. Further studies are required to confirm this using SFMSC-iPSCs derived from safer nonintegrative reprogramming systems. From our current work, we are unable to definitively show that the differences in these characteristic changes in SFMSC-iPSC-MSCs are a result of transformation of iPSCs into MSCs mediated by the Matrigel matrix.</p>
+<p>The molecular mechanism mediating the transformation of iPSCs into MSCs remains poorly understood. To induce iPSC differentiation to MSCs, dissociated SFMSC-iPSCs were treated with the ROCK inhibitor Y-27632, which has been reported to decrease the dependence of hESCs on cell-cell contact and permit survival of single hESCs [<xref ref-type="bibr" rid="pone.0144226.ref043">43</xref>]. Therefore, we speculate that Y-27632 plays an important role in the transformation process. Therefore, Y-27632 may offer more opportunities for dissociated single SFMSC-iPSCs to interact with Matrigel matrix, thereby enhancing the effects of Matrigel matrix on the differentiation process by decreasing the apoptosis rates of dissociated single SFMSC-iPSCs.</p>
+<p>The major components of the Matrigel matrix are entactin, collagen IV, laminin, and heparan sulfate proteoglycan. The matrix also contains plasminogen activators, growth factors, and other undefined components. The role of Matrigel in this transformation process remains unclear. However, the cell statuses of dissociated single SFMSC-iPSCs plated in plates coated with Matrigel matrix were better than those plated in plates without any matrix coating (data not show). Because biomaterials can influence cell fate through physicochemical stimulation [<xref ref-type="bibr" rid="pone.0144226.ref044">44</xref>,<xref ref-type="bibr" rid="pone.0144226.ref045">45</xref>], we hypothesize that Matrigel matrix may promote the transformation of SFMSC-iPSCs into MSCs through physicochemical stimulation to SFMSC-iPSCs. Further studies are needed to elucidate the details of these mechanisms.</p>
+</sec>
+<sec id="sec031" sec-type="conclusions">
+<title>Conclusion</title>
+<p>This study further supports previous studies showing SFMSCs can also be reprogrammed into iPSCs by transduction with lentivirus-mediated Sox2, Oct-3/4, klf4, and c-Myc factors. STRO-1 and CD146 expression on SFMSCs was highly dependent on the patient and culture condition and disappeared easily during in vitro culture. Thus, we found that uniform, dynamic MSCs could be obtained from SFMSC-iPSCs on plates coated with Matrigel matrix. The generated SFMSC-iPSC-MSCs showed typical MSC characteristics and more dynamic characteristics than their ancestor cells. Moreover, STRO-1 and CD146 expression re-emerged on SFMSC-iPSC-MSCs. These data provide important insights into optimal culture conditions for obtaining MSCs from SFMSC-iPSCs.</p>
+</sec>
+<sec id="sec032">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0144226.s001" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0144226.s001" xlink:type="simple">
+<label>S1 File</label>
+<caption>
+<title>Induction of iPSCs from SFMSCs (Patients B and C).</title>
+<p>Staining of SFMSC-iPSCs showing positive expression of alkaline phosphatase (Fig A, Fig I). Floating culture of SFMSC-iPSCs at day 8 (Fig B, Fig J). Immunofluorescent staining of SFMSC-iPSCs showing positive expression of NANOG (Fig C, Fig K), OCT-4 (Fig D, Fig L), SOX-2 (Fig E, Fig M), SSEA-4 (Fig F, Fig N), TRA-1-60 (Fig G, Fig O), and TRA-1-81 (Fig H, Fig P). Scale bars = 100 μm.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0144226.s002" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0144226.s002" xlink:type="simple">
+<label>S2 File</label>
+<caption>
+<title>Hematoxylin and eosin staining of teratomas derived from SFMSC-iPSCs (Patients B and C).</title>
+<p>Scale bars = 100 μm.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0144226.s003" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0144226.s003" xlink:type="simple">
+<label>S3 File</label>
+<caption>
+<title>Collagen type II immunohistochemical staining of cartilage nodules.</title>
+<p>Cartilage nodules formed by SFMSCs (Fig A, Fig B, Fig C) and SFMSC-iPSC-MSCs (Fig D, Fig E, Fig F) after induction for 3 weeks. Scale bars = 100 μm.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>We thank all the study nurses and study physicians for their valuable assistance. We would like to thank Editage for English language editing.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0144226.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Takahashi</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Tanabe</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Ohnuki</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Narita</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ichisaka</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Tomoda</surname> <given-names>K</given-names></name>, <etal>et al</etal>. <article-title>Induction of pluripotent stem cells from adult human fibroblasts by defined factors</article-title>. <source>Cell</source>. <year>2007</year>;<volume>131</volume>(<issue>5</issue>):<fpage>861</fpage>–<lpage>72</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.cell.2007.11.019" xlink:type="simple">10.1016/j.cell.2007.11.019</ext-link></comment> <object-id pub-id-type="pmid">18035408</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Park</surname> <given-names>IH</given-names></name>, <name name-style="western"><surname>Zhao</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>West</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Yabuuchi</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Huo</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Ince</surname> <given-names>TA</given-names></name>, <etal>et al</etal>. <article-title>Reprogramming of human somatic cells to pluripotency with defined factors</article-title>. <source>Nature</source>. <year>2008</year>;<volume>451</volume>(<issue>7175</issue>):<fpage>141</fpage>–<lpage>6</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nature06534" xlink:type="simple">10.1038/nature06534</ext-link></comment> <object-id pub-id-type="pmid">18157115</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yu</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Vodyanik</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Smuga-Otto</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Antosiewicz-Bourget</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Frane</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Tian</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Induced pluripotent stem cell lines derived from human somatic cells</article-title>. <source>Science</source>. <year>2007</year>;<volume>318</volume>(<issue>5858</issue>):<fpage>1917</fpage>–<lpage>20</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1126/science.1151526" xlink:type="simple">10.1126/science.1151526</ext-link></comment> <object-id pub-id-type="pmid">18029452</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kang</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Kou</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Gao</surname> <given-names>S</given-names></name>. <article-title>iPS cells can support full-term development of tetraploid blastocyst-complemented embryos</article-title>. <source>Cell stem cell</source>. <year>2009</year>;<volume>5</volume>(<issue>2</issue>):<fpage>135</fpage>–<lpage>8</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.stem.2009.07.001" xlink:type="simple">10.1016/j.stem.2009.07.001</ext-link></comment> <object-id pub-id-type="pmid">19631602</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nauta</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Fibbe</surname> <given-names>WE</given-names></name>. <article-title>Immunomodulatory properties of mesenchymal stromal cells</article-title>. <source>Blood</source>. <year>2007</year>;<volume>110</volume>(<issue>10</issue>):<fpage>3499</fpage>–<lpage>506</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1182/blood-2007-02-069716" xlink:type="simple">10.1182/blood-2007-02-069716</ext-link></comment> <object-id pub-id-type="pmid">17664353</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Devine</surname> <given-names>SM</given-names></name>, <name name-style="western"><surname>Cobbs</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Jennings</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Bartholomew</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Hoffman</surname> <given-names>R</given-names></name>. <article-title>Mesenchymal stem cells distribute to a wide range of tissues following systemic infusion into nonhuman primates</article-title>. <source>Blood</source>. <year>2003</year>;<volume>101</volume>(<issue>8</issue>):<fpage>2999</fpage>–<lpage>3001</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1182/blood-2002-06-1830" xlink:type="simple">10.1182/blood-2002-06-1830</ext-link></comment> <object-id pub-id-type="pmid">12480709</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mundra</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Gerling</surname> <given-names>IC</given-names></name>, <name name-style="western"><surname>Mahato</surname> <given-names>RI</given-names></name>. <article-title>Mesenchymal stem cell-based therapy</article-title>. <source>Molecular pharmaceutics</source>. <year>2013</year>;<volume>10</volume>(<issue>1</issue>):<fpage>77</fpage>–<lpage>89</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1021/mp3005148" xlink:type="simple">10.1021/mp3005148</ext-link></comment> <object-id pub-id-type="pmid">23215004</object-id>; PubMed Central PMCID: PMC3549356.</mixed-citation></ref>
+<ref id="pone.0144226.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Harvanova</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Tothova</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Sarissky</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Amrichova</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Rosocha</surname> <given-names>J</given-names></name>. <article-title>Isolation and characterization of synovial mesenchymal stem cells</article-title>. <source>Folia biologica</source>. <year>2011</year>;<volume>57</volume>(<issue>3</issue>):<fpage>119</fpage>–<lpage>24</lpage>. <object-id pub-id-type="pmid">21888835</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Koyama</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Okubo</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Nakao</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Osawa</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Fujimura</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Bessho</surname> <given-names>K</given-names></name>. <article-title>Pluripotency of mesenchymal cells derived from synovial fluid in patients with temporomandibular joint disorder</article-title>. <source>Life Sci</source>. <year>2011</year>;<volume>89</volume>(<issue>19–20</issue>):<fpage>741</fpage>–<lpage>7</lpage>. Epub 2011/10/01. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.lfs.2011.09.005" xlink:type="simple">10.1016/j.lfs.2011.09.005</ext-link></comment> S0024-3205(11)00433-4 [pii]. <object-id pub-id-type="pmid">21958469</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zuk</surname> <given-names>PA</given-names></name>, <name name-style="western"><surname>Zhu</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ashjian</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>De Ugarte</surname> <given-names>DA</given-names></name>, <name name-style="western"><surname>Huang</surname> <given-names>JI</given-names></name>, <name name-style="western"><surname>Mizuno</surname> <given-names>H</given-names></name>, <etal>et al</etal>. <article-title>Human adipose tissue is a source of multipotent stem cells</article-title>. <source>Molecular biology of the cell</source>. <year>2002</year>;<volume>13</volume>(<issue>12</issue>):<fpage>4279</fpage>–<lpage>95</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1091/mbc.E02-02-0105" xlink:type="simple">10.1091/mbc.E02-02-0105</ext-link></comment> <object-id pub-id-type="pmid">12475952</object-id>; PubMed Central PMCID: PMC138633.</mixed-citation></ref>
+<ref id="pone.0144226.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pittenger</surname> <given-names>MF</given-names></name>, <name name-style="western"><surname>Mackay</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Beck</surname> <given-names>SC</given-names></name>, <name name-style="western"><surname>Jaiswal</surname> <given-names>RK</given-names></name>, <name name-style="western"><surname>Douglas</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Mosca</surname> <given-names>JD</given-names></name>, <etal>et al</etal>. <article-title>Multilineage potential of adult human mesenchymal stem cells</article-title>. <source>Science</source>. <year>1999</year>;<volume>284</volume>(<issue>5411</issue>):<fpage>143</fpage>–<lpage>7</lpage>. <object-id pub-id-type="pmid">10102814</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lei</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Gao</surname> <given-names>LN</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>FM</given-names></name>, <name name-style="western"><surname>Jin</surname> <given-names>Y</given-names></name>. <article-title>Mesenchymal stem cell characteristics of dental pulp and periodontal ligament stem cells after in vivo transplantation</article-title>. <source>Biomaterials</source>. <year>2014</year>;<volume>35</volume>(<issue>24</issue>):<fpage>6332</fpage>–<lpage>43</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.biomaterials.2014.04.071" xlink:type="simple">10.1016/j.biomaterials.2014.04.071</ext-link></comment> <object-id pub-id-type="pmid">24824581</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Li</surname> <given-names>Y</given-names></name>. <article-title>A New Muscle-Derived Stem Cell: How Does It Fit-Motor Neuron Repair or Nerve Synapse?</article-title> <source>Cell transplantation</source>. <year>2014</year>;<volume>23</volume>(<issue>6</issue>):<fpage>776</fpage>–<lpage>7</lpage>. <object-id pub-id-type="pmid">WOS:000338484000053</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wei</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Tan</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Manasi</surname></name>, <name name-style="western"><surname>Qiu</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Kong</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Yong</surname> <given-names>P</given-names></name>, <etal>et al</etal>. <article-title>One-step derivation of cardiomyocytes and mesenchymal stem cells from human pluripotent stem cells</article-title>. <source>Stem Cell Res</source>. <year>2012</year>;<volume>9</volume>(<issue>2</issue>):<fpage>87</fpage>–<lpage>100</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.scr.2012.04.003" xlink:type="simple">10.1016/j.scr.2012.04.003</ext-link></comment> <object-id pub-id-type="pmid">22683798</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chen</surname> <given-names>YS</given-names></name>, <name name-style="western"><surname>Pelekanos</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Ellis</surname> <given-names>RL</given-names></name>, <name name-style="western"><surname>Horne</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Wolvetang</surname> <given-names>EJ</given-names></name>, <name name-style="western"><surname>Fisk</surname> <given-names>NM</given-names></name>. <article-title>Small molecule mesengenic induction of human induced pluripotent stem cells to generate mesenchymal stem/stromal cells</article-title>. <source>Stem Cells Transl Med</source>. <year>2012</year>;<volume>1</volume>(<issue>2</issue>):<fpage>83</fpage>–<lpage>95</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5966/sctm.2011-0022" xlink:type="simple">10.5966/sctm.2011-0022</ext-link></comment> <object-id pub-id-type="pmid">23197756</object-id>; PubMed Central PMCID: PMC3659681.</mixed-citation></ref>
+<ref id="pone.0144226.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gadkari</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Zhao</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Teklemariam</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Hantash</surname> <given-names>BM</given-names></name>. <article-title>Human embryonic stem cell derived-mesenchymal stem cells: an alternative mesenchymal stem cell source for regenerative medicine therapy</article-title>. <source>Regenerative medicine</source>. <year>2014</year>;<volume>9</volume>(<issue>4</issue>):<fpage>453</fpage>–<lpage>65</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.2217/rme.14.13" xlink:type="simple">10.2217/rme.14.13</ext-link></comment> <object-id pub-id-type="pmid">25159063</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Olivier</surname> <given-names>EN</given-names></name>, <name name-style="western"><surname>Rybicki</surname> <given-names>AC</given-names></name>, <name name-style="western"><surname>Bouhassira</surname> <given-names>EE</given-names></name>. <article-title>Differentiation of human embryonic stem cells into bipotent mesenchymal stem cells</article-title>. <source>Stem cells</source>. <year>2006</year>;<volume>24</volume>(<issue>8</issue>):<fpage>1914</fpage>–<lpage>22</lpage>. <object-id pub-id-type="pmid">16644919</object-id></mixed-citation></ref>
+<ref id="pone.0144226.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mahmood</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Harkness</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Abdallah</surname> <given-names>BM</given-names></name>, <name name-style="western"><surname>Elsafadi</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Al-Nbaheen</surname> <given-names>MS</given-names></name>, <name name-style="western"><surname>Aldahmash</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Derivation of stromal (skeletal and mesenchymal) stem-like cells from human embryonic stem cells</article-title>. <source>Stem cells and development</source>. <year>2012</year>;<volume>21</volume>(<issue>17</issue>):<fpage>3114</fpage>–<lpage>24</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1089/scd.2012.0035" xlink:type="simple">10.1089/scd.2012.0035</ext-link></comment> <object-id pub-id-type="pmid">22612317</object-id>; PubMed Central PMCID: PMC3495116.</mixed-citation></ref>
+<ref id="pone.0144226.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wu</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Gu</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Zhao</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Tan</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Zhu</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Derivation of multipotent nestin(+)/CD271 (-)/STRO-1 (-) mesenchymal-like precursors from human embryonic stem cells in chemically defined conditions</article-title>. <source>Human cell</source>. <year>2013</year>;<volume>26</volume>(<issue>1</issue>):<fpage>19</fpage>–<lpage>27</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s13577-011-0022-3" xlink:type="simple">10.1007/s13577-011-0022-3</ext-link></comment> <object-id pub-id-type="pmid">21674199</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Choo</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Lim</surname> <given-names>SK</given-names></name>. <article-title>Derivation of mesenchymal stem cells from human embryonic stem cells</article-title>. <source>Methods in molecular biology</source>. <year>2011</year>;<volume>690</volume>:<fpage>175</fpage>–<lpage>82</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/978-1-60761-962-8_12" xlink:type="simple">10.1007/978-1-60761-962-8_12</ext-link></comment> <object-id pub-id-type="pmid">21042993</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brown</surname> <given-names>SE</given-names></name>, <name name-style="western"><surname>Tong</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Krebsbach</surname> <given-names>PH</given-names></name>. <article-title>The derivation of mesenchymal stem cells from human embryonic stem cells</article-title>. <source>Cells, tissues, organs</source>. <year>2009</year>;<volume>189</volume>(<issue>1–4</issue>):<fpage>256</fpage>–<lpage>60</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1159/000151746" xlink:type="simple">10.1159/000151746</ext-link></comment> <object-id pub-id-type="pmid">18728355</object-id>; PubMed Central PMCID: PMC2690958.</mixed-citation></ref>
+<ref id="pone.0144226.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Trivedi</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Hematti</surname> <given-names>P</given-names></name>. <article-title>Derivation and immunological characterization of mesenchymal stromal cells from human embryonic stem cells</article-title>. <source>Experimental hematology</source>. <year>2008</year>;<volume>36</volume>(<issue>3</issue>):<fpage>350</fpage>–<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.exphem.2007.10.007" xlink:type="simple">10.1016/j.exphem.2007.10.007</ext-link></comment> <object-id pub-id-type="pmid">18179856</object-id>; PubMed Central PMCID: PMC2315792.</mixed-citation></ref>
+<ref id="pone.0144226.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Barberi</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Willis</surname> <given-names>LM</given-names></name>, <name name-style="western"><surname>Socci</surname> <given-names>ND</given-names></name>, <name name-style="western"><surname>Studer</surname> <given-names>L</given-names></name>. <article-title>Derivation of multipotent mesenchymal precursors from human embryonic stem cells</article-title>. <source>PLoS medicine</source>. <year>2005</year>;<volume>2</volume>(<issue>6</issue>):<fpage>e161</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pmed.0020161" xlink:type="simple">10.1371/journal.pmed.0020161</ext-link></comment> <object-id pub-id-type="pmid">15971941</object-id>; PubMed Central PMCID: PMC1160574.</mixed-citation></ref>
+<ref id="pone.0144226.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liu</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Goldberg</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Dennis</surname> <given-names>JE</given-names></name>, <name name-style="western"><surname>Gronowicz</surname> <given-names>GA</given-names></name>, <name name-style="western"><surname>Kuhn</surname> <given-names>LT</given-names></name>. <article-title>One-step derivation of mesenchymal stem cell (MSC)-like cells from human pluripotent stem cells on a fibrillar collagen coating</article-title>. <source>PloS one</source>. <year>2012</year>;<volume>7</volume>(<issue>3</issue>):<fpage>e33225</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0033225" xlink:type="simple">10.1371/journal.pone.0033225</ext-link></comment> <object-id pub-id-type="pmid">22457746</object-id>; PubMed Central PMCID: PMC3310052.</mixed-citation></ref>
+<ref id="pone.0144226.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lee</surname> <given-names>EJ</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>HN</given-names></name>, <name name-style="western"><surname>Kang</surname> <given-names>HJ</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>KH</given-names></name>, <name name-style="western"><surname>Hur</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Cho</surname> <given-names>HJ</given-names></name>, <etal>et al</etal>. <article-title>Novel embryoid body-based method to derive mesenchymal stem cells from human embryonic stem cells</article-title>. <source>Tissue engineering Part A</source>. <year>2010</year>;<volume>16</volume>(<issue>2</issue>):<fpage>705</fpage>–<lpage>15</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1089/ten.tea.2008.0596" xlink:type="simple">10.1089/ten.tea.2008.0596</ext-link></comment> <object-id pub-id-type="pmid">19895342</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hynes</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Menicanin</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Gronthos</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Bartold</surname> <given-names>MP</given-names></name>. <article-title>Differentiation of iPSC to Mesenchymal Stem-Like Cells and Their Characterization</article-title>. <source>Methods in molecular biology</source>. <year>2014</year>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/7651_2014_142" xlink:type="simple">10.1007/7651_2014_142</ext-link></comment> <object-id pub-id-type="pmid">25468410</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hynes</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Menicanin</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Mrozik</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Gronthos</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Bartold</surname> <given-names>PM</given-names></name>. <article-title>Generation of functional mesenchymal stem cells from different induced pluripotent stem cell lines</article-title>. <source>Stem cells and development</source>. <year>2014</year>;<volume>23</volume>(<issue>10</issue>):<fpage>1084</fpage>–<lpage>96</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1089/scd.2013.0111" xlink:type="simple">10.1089/scd.2013.0111</ext-link></comment> <object-id pub-id-type="pmid">24367908</object-id>; PubMed Central PMCID: PMC4015475.</mixed-citation></ref>
+<ref id="pone.0144226.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sakaguchi</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Sekiya</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Yagishita</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Muneta</surname> <given-names>T</given-names></name>. <article-title>Comparison of human stem cells derived from various mesenchymal tissues: superiority of synovium as a cell source</article-title>. <source>Arthritis and rheumatism</source>. <year>2005</year>;<volume>52</volume>(<issue>8</issue>):<fpage>2521</fpage>–<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/art.21212" xlink:type="simple">10.1002/art.21212</ext-link></comment> <object-id pub-id-type="pmid">16052568</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Stewart</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Walsh</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Screen</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Jefferiss</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Chainey</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Jordan</surname> <given-names>GR</given-names></name>, <etal>et al</etal>. <article-title>Further characterization of cells expressing STRO-1 in cultures of adult human bone marrow stromal cells</article-title>. <source>Journal of bone and mineral research: the official journal of the American Society for Bone and Mineral Research</source>. <year>1999</year>;<volume>14</volume>(<issue>8</issue>):<fpage>1345</fpage>–<lpage>56</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1359/jbmr.1999.14.8.1345" xlink:type="simple">10.1359/jbmr.1999.14.8.1345</ext-link></comment> <object-id pub-id-type="pmid">10457267</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Russell</surname> <given-names>KC</given-names></name>, <name name-style="western"><surname>Tucker</surname> <given-names>HA</given-names></name>, <name name-style="western"><surname>Bunnell</surname> <given-names>BA</given-names></name>, <name name-style="western"><surname>Andreeff</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Schober</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Gaynor</surname> <given-names>AS</given-names></name>, <etal>et al</etal>. <article-title>Cell-surface expression of neuron-glial antigen 2 (NG2) and melanoma cell adhesion molecule (CD146) in heterogeneous cultures of marrow-derived mesenchymal stem cells</article-title>. <source>Tissue engineering Part A</source>. <year>2013</year>;<volume>19</volume>(<issue>19–20</issue>):<fpage>2253</fpage>–<lpage>66</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1089/ten.TEA.2012.0649" xlink:type="simple">10.1089/ten.TEA.2012.0649</ext-link></comment> <object-id pub-id-type="pmid">23611563</object-id>; PubMed Central PMCID: PMC3761443.</mixed-citation></ref>
+<ref id="pone.0144226.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Simmons</surname> <given-names>PJ</given-names></name>, <name name-style="western"><surname>Torok-Storb</surname> <given-names>B</given-names></name>. <article-title>Identification of stromal cell precursors in human bone marrow by a novel monoclonal antibody, STRO-1</article-title>. <source>Blood</source>. <year>1991</year>;<volume>78</volume>(<issue>1</issue>):<fpage>55</fpage>–<lpage>62</lpage>. <object-id pub-id-type="pmid">2070060</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sun</surname> <given-names>YP</given-names></name>, <name name-style="western"><surname>Zheng</surname> <given-names>YH</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>WJ</given-names></name>, <name name-style="western"><surname>Zheng</surname> <given-names>YL</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>ZG</given-names></name>. <article-title>Synovium fragment-derived cells exhibit characteristics similar to those of dissociated multipotent cells in synovial fluid of the temporomandibular joint</article-title>. <source>PloS one</source>. <year>2014</year>;<volume>9</volume>(<issue>7</issue>):<fpage>e101896</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0101896" xlink:type="simple">10.1371/journal.pone.0101896</ext-link></comment> <object-id pub-id-type="pmid">25003199</object-id>; PubMed Central PMCID: PMC4087006.</mixed-citation></ref>
+<ref id="pone.0144226.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kim</surname> <given-names>YK</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>SG</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>BS</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>JY</given-names></name>, <name name-style="western"><surname>Yun</surname> <given-names>PY</given-names></name>, <name name-style="western"><surname>Bae</surname> <given-names>JH</given-names></name>, <etal>et al</etal>. <article-title>Analysis of the cytokine profiles of the synovial fluid in a normal temporomandibular joint: preliminary study</article-title>. <source>J Craniomaxillofac Surg</source>. <year>2012</year>;<volume>40</volume>(<issue>8</issue>):<fpage>e337</fpage>–<lpage>41</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jcms.2012.02.002" xlink:type="simple">10.1016/j.jcms.2012.02.002</ext-link></comment> <object-id pub-id-type="pmid">22425498</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>de Bruin</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>de Rooster</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>van Bree</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Cox</surname> <given-names>E</given-names></name>. <article-title>Use of vitamin B12 in joint lavage for determination of dilution factors of canine synovial fluid</article-title>. <source>American journal of veterinary research</source>. <year>2005</year>;<volume>66</volume>(<issue>11</issue>):<fpage>1903</fpage>–<lpage>6</lpage>. <object-id pub-id-type="pmid">16334948</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref035"><label>35</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Barbosa</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Garcia</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Barbier-Chassefiere</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Caruelle</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Martelly</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Papy-Garcia</surname> <given-names>D</given-names></name>. <article-title>Improved and simple micro assay for sulfated glycosaminoglycans quantification in biological extracts and its use in skin and muscle tissue studies</article-title>. <source>Glycobiology</source>. <year>2003</year>;<volume>13</volume>(<issue>9</issue>):<fpage>647</fpage>–<lpage>53</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/glycob/cwg082" xlink:type="simple">10.1093/glycob/cwg082</ext-link></comment> <object-id pub-id-type="pmid">12773478</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref036"><label>36</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Papadopoulou</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Yiangou</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Athanasiou</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Zogas</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Kaloyannidis</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Batsis</surname> <given-names>I</given-names></name>, <etal>et al</etal>. <article-title>Mesenchymal stem cells are conditionally therapeutic in preclinical models of rheumatoid arthritis</article-title>. <source>Annals of the rheumatic diseases</source>. <year>2012</year>;<volume>71</volume>(<issue>10</issue>):<fpage>1733</fpage>–<lpage>40</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1136/annrheumdis-2011-200985" xlink:type="simple">10.1136/annrheumdis-2011-200985</ext-link></comment> <object-id pub-id-type="pmid">22586171</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref037"><label>37</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dominici</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Le Blanc</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Mueller</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Slaper-Cortenbach</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Marini</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Krause</surname> <given-names>D</given-names></name>, <etal>et al</etal>. <article-title>Minimal criteria for defining multipotent mesenchymal stromal cells. The International Society for Cellular Therapy position statement</article-title>. <source>Cytotherapy</source>. <year>2006</year>;<volume>8</volume>(<issue>4</issue>):<fpage>315</fpage>–<lpage>7</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1080/14653240600855905" xlink:type="simple">10.1080/14653240600855905</ext-link></comment> <object-id pub-id-type="pmid">16923606</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref038"><label>38</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nasef</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>YZ</given-names></name>, <name name-style="western"><surname>Mazurier</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Bouchet</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Bensidhoum</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Francois</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Selected Stro-1-enriched bone marrow stromal cells display a major suppressive effect on lymphocyte proliferation</article-title>. <source>International journal of laboratory hematology</source>. <year>2009</year>;<volume>31</volume>(<issue>1</issue>):<fpage>9</fpage>–<lpage>19</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1751-553X.2007.00997.x" xlink:type="simple">10.1111/j.1751-553X.2007.00997.x</ext-link></comment> <object-id pub-id-type="pmid">19143868</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref039"><label>39</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bensidhoum</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Chapel</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Francois</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Demarquay</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Mazurier</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Fouillard</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>Homing of in vitro expanded Stro-1- or Stro-1+ human mesenchymal stem cells into the NOD/SCID mouse and their role in supporting human CD34 cell engraftment</article-title>. <source>Blood</source>. <year>2004</year>;<volume>103</volume>(<issue>9</issue>):<fpage>3313</fpage>–<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1182/blood-2003-04-1121" xlink:type="simple">10.1182/blood-2003-04-1121</ext-link></comment> <object-id pub-id-type="pmid">14715641</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref040"><label>40</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bakopoulou</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Leyhausen</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Volk</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Koidis</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Geurtsen</surname> <given-names>W</given-names></name>. <article-title>Comparative characterization of STRO-1(neg)/CD146(pos) and STRO-1(pos)/CD146(pos) apical papilla stem cells enriched with flow cytometry</article-title>. <source>Archives of oral biology</source>. <year>2013</year>;<volume>58</volume>(<issue>10</issue>):<fpage>1556</fpage>–<lpage>68</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.archoralbio.2013.06.018" xlink:type="simple">10.1016/j.archoralbio.2013.06.018</ext-link></comment> <object-id pub-id-type="pmid">23871383</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref041"><label>41</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lian</surname> <given-names>Q</given-names></name>, <name name-style="western"><surname>Lye</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Suan Yeo</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Khia</surname> <given-names>Way Tan E</given-names></name>, <name name-style="western"><surname>Salto-Tellez</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>TM</given-names></name>, <etal>et al</etal>. <article-title>Derivation of clinically compliant MSCs from CD105+, CD24- differentiated human ESCs</article-title>. <source>Stem cells</source>. <year>2007</year>;<volume>25</volume>(<issue>2</issue>):<fpage>425</fpage>–<lpage>36</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1634/stemcells.2006-0420" xlink:type="simple">10.1634/stemcells.2006-0420</ext-link></comment> <object-id pub-id-type="pmid">17053208</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref042"><label>42</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lian</surname> <given-names>Q</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>HK</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>Y</given-names></name>, <etal>et al</etal>. <article-title>Functional mesenchymal stem cells derived from human induced pluripotent stem cells attenuate limb ischemia in mice</article-title>. <source>Circulation</source>. <year>2010</year>;<volume>121</volume>(<issue>9</issue>):<fpage>1113</fpage>–<lpage>23</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1161/CIRCULATIONAHA.109.898312" xlink:type="simple">10.1161/CIRCULATIONAHA.109.898312</ext-link></comment> <object-id pub-id-type="pmid">20176987</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref043"><label>43</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Watanabe</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Ueno</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kamiya</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Nishiyama</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Matsumura</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Wataya</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>A ROCK inhibitor permits survival of dissociated human embryonic stem cells</article-title>. <source>Nature biotechnology</source>. <year>2007</year>;<volume>25</volume>(<issue>6</issue>):<fpage>681</fpage>–<lpage>6</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nbt1310" xlink:type="simple">10.1038/nbt1310</ext-link></comment> <object-id pub-id-type="pmid">17529971</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref044"><label>44</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Engler</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Sen</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Sweeney</surname> <given-names>HL</given-names></name>, <name name-style="western"><surname>Discher</surname> <given-names>DE</given-names></name>. <article-title>Matrix elasticity directs stem cell lineage specification</article-title>. <source>Cell</source>. <year>2006</year>;<volume>126</volume>(<issue>4</issue>):<fpage>677</fpage>–<lpage>89</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.cell.2006.06.044" xlink:type="simple">10.1016/j.cell.2006.06.044</ext-link></comment> <object-id pub-id-type="pmid">16923388</object-id>.</mixed-citation></ref>
+<ref id="pone.0144226.ref045"><label>45</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Keung</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Kumar</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Schaffer</surname> <given-names>DV</given-names></name>. <article-title>Presentation counts: microenvironmental regulation of stem cells by biophysical and material cues</article-title>. <source>Annual review of cell and developmental biology</source>. <year>2010</year>;<volume>26</volume>:<fpage>533</fpage>–<lpage>56</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1146/annurev-cellbio-100109-104042" xlink:type="simple">10.1146/annurev-cellbio-100109-104042</ext-link></comment> <object-id pub-id-type="pmid">20590452</object-id>.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

@@ -1,0 +1,843 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0179881</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-17-14443</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>Gene expression</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Animals</subject><subj-group><subject>Vertebrates</subject><subj-group><subject>Amniotes</subject><subj-group><subject>Mammals</subject><subj-group><subject>Ruminants</subject><subj-group><subject>Goats</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>Genetic interference</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Molecular biology</subject><subj-group><subject>Molecular biology techniques</subject><subj-group><subject>Sequencing techniques</subject><subj-group><subject>RNA sequencing</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Molecular biology techniques</subject><subj-group><subject>Sequencing techniques</subject><subj-group><subject>RNA sequencing</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Experimental organism systems</subject><subj-group><subject>Model organisms</subject><subj-group><subject>Mouse models</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Model organisms</subject><subj-group><subject>Mouse models</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Experimental organism systems</subject><subj-group><subject>Animal models</subject><subj-group><subject>Mouse models</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Extraction techniques</subject><subj-group><subject>RNA extraction</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Proteins</subject><subj-group><subject>Interferons</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Cellular types</subject><subj-group><subject>Animal cells</subject><subj-group><subject>Blood cells</subject><subj-group><subject>White blood cells</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Cellular types</subject><subj-group><subject>Animal cells</subject><subj-group><subject>Immune cells</subject><subj-group><subject>White blood cells</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Immunology</subject><subj-group><subject>Immune cells</subject><subj-group><subject>White blood cells</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Immunology</subject><subj-group><subject>Immune cells</subject><subj-group><subject>White blood cells</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Loss of prion protein induces a primed state of type I interferon-responsive genes</article-title>
+<alt-title alt-title-type="running-head">PrPC modulates type I interferon signaling</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Malachin</surname>
+<given-names>Giulia</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Reiten</surname>
+<given-names>Malin R.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-2480-1294</contrib-id>
+<name name-style="western">
+<surname>Salvesen</surname>
+<given-names>Øyvind</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Aanes</surname>
+<given-names>Håvard</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-7984-0229</contrib-id>
+<name name-style="western">
+<surname>Kamstra</surname>
+<given-names>Jorke H.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-5663-4879</contrib-id>
+<name name-style="western">
+<surname>Skovgaard</surname>
+<given-names>Kerstin</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Heegaard</surname>
+<given-names>Peter M. H.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Ersdal</surname>
+<given-names>Cecilie</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Espenes</surname>
+<given-names>Arild</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" equal-contrib="yes" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-9222-8509</contrib-id>
+<name name-style="western">
+<surname>Tranulis</surname>
+<given-names>Michael A.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-2871-9813</contrib-id>
+<name name-style="western">
+<surname>Bakkebø</surname>
+<given-names>Maren K.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Faculty of Veterinary Medicine, Norwegian University of Life Sciences, Oslo, Norway</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Department of Microbiology, Division of diagnostics and intervention, Institute of Clinical Medicine, Oslo University Hospital, Rikshospitalet, Oslo, Norway</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Innate Immunology Group, Section for Immunology and Vaccinology, National Veterinary Institute, Technical University of Denmark, Kgs. Lyngby, Denmark</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Mouillet-Richard</surname>
+<given-names>Sophie</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>INSERM, FRANCE</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">Michael.Tranulis@nmbu.no</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>26</day>
+<month>6</month>
+<year>2017</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2017</year>
+</pub-date>
+<volume>12</volume>
+<issue>6</issue>
+<elocation-id>e0179881</elocation-id>
+<history>
+<date date-type="received">
+<day>18</day>
+<month>4</month>
+<year>2017</year>
+</date>
+<date date-type="accepted">
+<day>6</day>
+<month>6</month>
+<year>2017</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2017</copyright-year>
+<copyright-holder>Malachin et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0179881"/>
+<abstract>
+<p>The cellular prion protein (PrP<sup>C</sup>) has been extensively studied because of its pivotal role in prion diseases; however, its functions remain incompletely understood. A unique line of goats has been identified that carries a nonsense mutation that abolishes synthesis of PrP<sup>C</sup>. In these animals, the PrP-encoding mRNA is rapidly degraded. Goats without PrP<sup>C</sup> are valuable in re-addressing loss-of-function phenotypes observed in <italic>Prnp</italic> knockout mice. As PrP<sup>C</sup> has been ascribed various roles in immune cells, we analyzed transcriptomic responses to loss of PrP<sup>C</sup> in peripheral blood mononuclear cells (PBMCs) from normal goat kids (<italic>n</italic> = 8, <italic>PRNP</italic><sup>+/+</sup>) and goat kids without PrP<sup>C</sup> (<italic>n</italic> = 8, <italic>PRNP</italic><sup>Ter/Ter</sup>) by mRNA sequencing. PBMCs normally express moderate levels of PrP<sup>C</sup>. The vast majority of genes were similarly expressed in the two groups. However, a curated list of 86 differentially expressed genes delineated the two genotypes. About 70% of these were classified as interferon-responsive genes. In goats without PrP<sup>C</sup>, the majority of type I interferon-responsive genes were in a primed, modestly upregulated state, with fold changes ranging from 1.4 to 3.7. Among these were <italic>ISG15</italic>, <italic>DDX58</italic> (RIG-1), <italic>MX1</italic>, <italic>MX2</italic>, <italic>OAS1</italic>, <italic>OAS2 and DRAM1</italic>, all of which have important roles in pathogen defense, cell proliferation, apoptosis, immunomodulation and DNA damage response. Our data suggest that PrP<sup>C</sup> contributes to the fine-tuning of resting state PBMCs expression level of type I interferon-responsive genes. The molecular mechanism by which this is achieved will be an important topic for further research into PrP<sup>C</sup> physiology.</p>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100005416</institution-id>
+<institution>Norges Forskningsråd</institution>
+</institution-wrap>
+</funding-source>
+<award-id>227386/E40</award-id>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-9222-8509</contrib-id>
+<name name-style="western">
+<surname>Tranulis</surname>
+<given-names>Michael A.</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>MAT received funding from the Norwegian Research Council, Grant number 227386/E40 (<ext-link ext-link-type="uri" xlink:href="http://www.forskningsradet.no/no/Forsiden/1173185591033" xlink:type="simple">http://www.forskningsradet.no/no/Forsiden/1173185591033</ext-link>). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="4"/>
+<table-count count="1"/>
+<page-count count="16"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All FASTQ files are available from the SRA database (SRA study accession number SRP102642).</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>The cellular prion protein (PrP<sup>C</sup>) can misfold into disease-provoking conformers (PrP scrapie; PrP<sup>Sc</sup>) that give rise to several neurodegenerative prion diseases, such as Creutzfeldt-Jakob disease (CJD) in humans, scrapie in sheep and goats, and bovine spongiform encephalopathy in cattle [<xref ref-type="bibr" rid="pone.0179881.ref001">1</xref>]. The seeding of PrP<sup>Sc</sup> in brain tissue acts as a template for further misfolding of PrP<sup>C</sup>, ultimately leading to severe neurodegeneration and neuronal death [<xref ref-type="bibr" rid="pone.0179881.ref001">1</xref>].</p>
+<p>PrP<sup>C</sup> is abundant throughout the nervous system, and, albeit at lower levels, in most other tissues of the body [<xref ref-type="bibr" rid="pone.0179881.ref002">2</xref>]. The protein is conserved in mammalian species [<xref ref-type="bibr" rid="pone.0179881.ref003">3</xref>, <xref ref-type="bibr" rid="pone.0179881.ref004">4</xref>] and expressed already during early embryonal stages [<xref ref-type="bibr" rid="pone.0179881.ref005">5</xref>]. It was therefore surprising that <italic>Prnp</italic><sup>0/0</sup> mice developed normally and revealed no major phenotypes besides being prion-disease resistant [<xref ref-type="bibr" rid="pone.0179881.ref006">6</xref>–<xref ref-type="bibr" rid="pone.0179881.ref008">8</xref>]. Interestingly, in four <italic>Prnp</italic><sup>0/0</sup> mouse models (<italic>Ngsk</italic>, <italic>Rcm0</italic>, <italic>ZrchII</italic>, and <italic>Rikn</italic>), ablation of the <italic>Prnp</italic> gene induced severe degeneration of cerebellar Purkinje neurons [<xref ref-type="bibr" rid="pone.0179881.ref009">9</xref>–<xref ref-type="bibr" rid="pone.0179881.ref012">12</xref>]. This was, however, subsequently shown to be caused by ectopic expression of the prion-like protein Doppel (<italic>Dpl</italic>) in the brain, as a side-effect of the transgenic protocols [<xref ref-type="bibr" rid="pone.0179881.ref010">10</xref>]. Two additional <italic>Prnp</italic>-ablated mouse lines (<italic>ZrchI</italic> and <italic>Npu</italic>) displayed no neurodegeneration [<xref ref-type="bibr" rid="pone.0179881.ref007">7</xref>, <xref ref-type="bibr" rid="pone.0179881.ref008">8</xref>]. Furthermore, other experiments have shown that a polymorphism in another <italic>Prnp</italic> flanking gene, <italic>Sirp-alpha</italic>, could significantly influence the interpretation of data that concerns the roles for PrP<sup>C</sup> in phagocytosis [<xref ref-type="bibr" rid="pone.0179881.ref013">13</xref>]. Despite these inherent challenges with <italic>Prnp</italic>-null models [<xref ref-type="bibr" rid="pone.0179881.ref014">14</xref>], collectively known as the flanking-gene problem, the <italic>Prnp</italic><sup>0/0</sup> lines have proven extremely valuable in exploring PrP<sup>C</sup> physiology. They have provided clues regarding maintenance of axonal myelin [<xref ref-type="bibr" rid="pone.0179881.ref015">15</xref>–<xref ref-type="bibr" rid="pone.0179881.ref017">17</xref>], modulation of circadian rhythms [<xref ref-type="bibr" rid="pone.0179881.ref018">18</xref>], and neuronal excitability [<xref ref-type="bibr" rid="pone.0179881.ref019">19</xref>], in addition to protective roles in severe stress such as ischemia [<xref ref-type="bibr" rid="pone.0179881.ref020">20</xref>] and hypoxic brain damage [<xref ref-type="bibr" rid="pone.0179881.ref021">21</xref>].</p>
+<p>A more general problem is the gap between mice and human physiologies [<xref ref-type="bibr" rid="pone.0179881.ref022">22</xref>–<xref ref-type="bibr" rid="pone.0179881.ref024">24</xref>]. The two species diverged about 65 million years ago, and differ substantially in both size and life span. Mice have evolved into short-lived animals relying on massive reproductive capacity, whereas humans reside at the other end of the spectrum, with low reproduction rates and life spans of approximately 80 years. This is of particular significance in modeling chronic human diseases that take decades to develop, and often involve subtle immunological imbalances [<xref ref-type="bibr" rid="pone.0179881.ref022">22</xref>]. In addition, translation to human medicine has proven challenging.</p>
+<p>Recently, we identified what seems to be a unique line of dairy goats carrying a nonsense mutation that completely abolishes synthesis of PrP<sup>C</sup> [<xref ref-type="bibr" rid="pone.0179881.ref025">25</xref>]. This spontaneous, non-transgenic model, is referred to as <italic>PRNP</italic><sup>Ter/Ter</sup>. Approximately 10 percent of the Norwegian dairy goat population carries the mutated allele. These animals appear to have normal fertility and behavior in all aspects of standard husbandry. We have no data to suggest that they are over-represented in disease statistics or otherwise failing in production performance. Careful analysis of hematological and blood biochemical parameters, as well as basic immunological features, did not reveal any abnormalities [<xref ref-type="bibr" rid="pone.0179881.ref026">26</xref>]. It was, however, noted that goats without PrP<sup>C</sup> had slightly elevated numbers of red blood cells, identical to an observation in transgenic cattle without PrP<sup>C</sup> [<xref ref-type="bibr" rid="pone.0179881.ref027">27</xref>], suggesting that this is a true biological loss-of-function phenotype, at least in ruminants.</p>
+<p>Peripheral blood mononuclear cells (PBMCs) express moderate, but dynamic, levels of PrP<sup>C</sup> [<xref ref-type="bibr" rid="pone.0179881.ref028">28</xref>]. We observed that goats heterozygous for the mutation (<italic>PRNP</italic><sup>+/Ter</sup>) express half the amount of cell surface PrP<sup>C</sup> on PBMCs [<xref ref-type="bibr" rid="pone.0179881.ref026">26</xref>]; however, a 50 percent reduction in levels compared to PBMCs from <italic>PRNP</italic><sup>+/+</sup> goats did not stimulate compensatory expression from the normal allele. Intrigued by this, and the fact that many reports have pointed to putative functions for PrP<sup>C</sup> in immune cells (reviewed in [<xref ref-type="bibr" rid="pone.0179881.ref029">29</xref>], [<xref ref-type="bibr" rid="pone.0179881.ref030">30</xref>, <xref ref-type="bibr" rid="pone.0179881.ref031">31</xref>]), mRNA sequencing of PBMCs derived from normal goats and goats without PrP<sup>C</sup> was performed. The main goal of this study was to evaluate whether the loss of PrP<sup>C</sup> elicits a transcriptional response in PBMCs that could reveal biological processes involving PrP<sup>C</sup>. Our findings show that in the absence of PrP<sup>C</sup>, a subtle, but highly significant change in the transcriptional profile of PBMCs is seen, dominated by upregulation in the expression of type I interferon-responsive genes.</p>
+</sec>
+<sec id="sec002" sec-type="results">
+<title>Results</title>
+<sec id="sec003">
+<title>RNA-seq data quality control</title>
+<p>High quality RNA sequencing data (FASTQ) were derived from Beijing Genome Institute (BGI), with an average total reads of 58,806,319 per sample, average total mapped reads of 42,168,758, and average uniquely mapped reads of 38,253,898 per sample (<xref ref-type="supplementary-material" rid="pone.0179881.s001">S1 Fig</xref>). To validate the sequencing data, primers (<xref ref-type="supplementary-material" rid="pone.0179881.s005">S1 Table</xref>) were designed for 12 randomly selected differentially expressed genes (DEGs), using reverse transcription (RT) quantitative real-time PCR (qPCR) on the original RNA. As shown in <xref ref-type="fig" rid="pone.0179881.g001">Fig 1</xref>, qPCR analysis of mRNA levels correlated well with the RNA-seq analysis (r = 0.9616, p &lt; 0.0001, Pearson correlation). Minor discrepancies could be due to sample variations, as RNA from only six goats per group were used for qPCR validation, compared with eight goats per group for RNA-seq analysis.</p>
+<fig id="pone.0179881.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0179881.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Validation of RNA sequencing data with quantitative PCR.</title>
+<p>Validation of 12 randomly chosen, differentially expressed genes was performed with qPCR using the original RNA. Expression data from the two methods are presented as relative expression between <italic>PRNP</italic><sup>Ter/Ter</sup> and <italic>PRNP</italic><sup>+/+</sup> animals (RNA-seq data <italic>n</italic> = 8, qPCR <italic>n</italic> = 6; r = 0.9616, p &lt; 0.0001, Pearson correlation).</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0179881.g001" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec004">
+<title>Lack of PrP<sup>C</sup> subtly alters the transcriptome in immune cells</title>
+<p>A high correlation was observed between averaged <italic>PRNP</italic><sup>+/+</sup> and <italic>PRNP</italic><sup>Ter/Ter</sup> normalized gene expression data (r = 0.99, Pearson correlation). However, we found that not all <italic>PRNP</italic><sup>+/+</sup> and <italic>PRNP</italic><sup>Ter/Ter</sup> goats could be clearly separated from each other, probably reflecting the phenotypic diversity of the goats (<xref ref-type="supplementary-material" rid="pone.0179881.s002">S2 Fig</xref>). Despite this, using edgeR [<xref ref-type="bibr" rid="pone.0179881.ref032">32</xref>] and a p-value cut-off &lt; 0.05, 735 genes were differentially expressed between the two genotypes (<xref ref-type="supplementary-material" rid="pone.0179881.s007">S1 File</xref>). Further filtration of the gene list using cut offs for fold change (log2 FC ± 0.5) and mean number of reads (&gt; 100 reads in one of the groups) generated a high-confidence gene list of 127 DEGs, of which 67 were upregulated and 60 were downregulated in the <italic>PRNP</italic><sup>Ter/Ter</sup> genotype (<xref ref-type="supplementary-material" rid="pone.0179881.s006">S2 Table</xref>). Of note, as we have previously shown that the PBMC cell populations, mainly T cells, B cells and monocytes, are stable between the two genotypes compared in our study [<xref ref-type="bibr" rid="pone.0179881.ref026">26</xref>], the DEGs result from real genotype-associated shifts in gene expression, not shifts in the cell populations. Reassuringly, the <italic>PRNP</italic> gene was among the DEGs, with very few reads mapping to this locus in the mutant. The chromosomal distribution of the DEGs is found in <xref ref-type="supplementary-material" rid="pone.0179881.s003">S3 Fig</xref>. The <italic>PRNP</italic> gene is located on chromosome 13 in goats. Only 1 (<italic>SIGLEC1</italic>) of the 86 annotated DEGs also maps to chromosome 13. This gene is expressed at a low level and is irrelevant for the findings in our study.</p>
+<p>Of the average total number of genes expressed in PBMCs from both genotypes, only 0.7 percent of the genes were altered upon loss of PrP<sup>C</sup> (<xref ref-type="fig" rid="pone.0179881.g002">Fig 2A</xref>). Using Ingenuity Pathway Analysis (IPA), of the 127 high-confidence DEGs, 86 genes were functionally annotated. Interestingly, 22 of these genes were categorized as “Viral infection” (p-value = 3.27x10<sup>-5</sup>), and additional genes were related to other anti-virus-associated terms. The majority of these genes were upregulated in the <italic>PRNP</italic><sup>Ter/Ter</sup> genotype compared with the <italic>PRNP</italic><sup>+/+</sup> genotype. Of the top canonical pathways, “Interferon signaling” was by far the most affected (p-value = 8.92x10<sup>-6</sup>). Due to these findings, we performed further analyses of the annotated DEGs using the Interferome database [<xref ref-type="bibr" rid="pone.0179881.ref033">33</xref>]. Strikingly, 60 of the 86 annotated DEGs were interferon-responsive genes (<xref ref-type="fig" rid="pone.0179881.g002">Fig 2B</xref>). Of these, 42 were upregulated (red bar) and 18 downregulated (blue bar) in the <italic>PRNP</italic><sup>Ter/Ter</sup> genotype. <xref ref-type="fig" rid="pone.0179881.g002">Fig 2C</xref> shows the inter-individual variation in gene expression of all samples represented in a heatmap, and hierarchical clustering analysis of the 60 interferon-responsive genes revealed a clustering of downregulated and upregulated genes between the <italic>PRNP</italic><sup>+/+</sup> and <italic>PRNP</italic><sup>Ter/Ter</sup> genotypes.</p>
+<fig id="pone.0179881.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0179881.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Interferon-responsive genes dominate among the differentially expressed genes in goats lacking PrP<sup>C</sup>.</title>
+<p>Graphical presentation of (A) the total number and percentage of differentially expressed genes (DEGs) between the two genotypes, compared to the average total number of genes expressed in peripheral blood mononuclear cells from both genotypes, and (B) the total number of upregulated and downregulated annotated DEGs. The fraction of upregulated (red) and downregulated (blue) interferon-responsive genes among the DEGs are also shown. (C) Hierarchical clustering of the interferon-responsive genes among the DEGs and expression data from all individual goats of both genotypes. Hierarchical clustering was performed using the ward algorithm on log2-normalized fold changes.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0179881.g002" xlink:type="simple"/>
+</fig>
+<p>Since the observed data could be due to altered expression levels of interferons or components in type I interferon signaling, we analyzed expression levels of a number of genes that could affect the expression of interferon-responsive genes. However, differences between the genotypes were not detected (<xref ref-type="table" rid="pone.0179881.t001">Table 1</xref>), except for <italic>IFNB2-like</italic>, which was slightly downregulated in the <italic>PRNP</italic><sup>Ter/Ter</sup> genotype (p-value = 0.025).</p>
+<table-wrap id="pone.0179881.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0179881.t001</object-id>
+<label>Table 1</label> <caption><title>Mean unique reads of genes related to Interferon signaling from <italic>PRNP</italic><sup>+/+</sup> (<italic>n</italic> = 8, ± SEM) and <italic>PRNP</italic><sup>Ter/Ter</sup> (<italic>n</italic> = 8, ± SEM) goats.</title></caption>
+<alternatives>
+<graphic id="pone.0179881.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0179881.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center">Gene symbol</th>
+<th align="center">Transcript ID</th>
+<th align="center"><italic>PRNP</italic><sup>+/+</sup></th>
+<th align="center"><italic>PRNP</italic><sup>Ter/Ter</sup></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Interferons</td>
+<td align="left"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><italic>IFNA-H-like</italic></td>
+<td align="left">XM_005683618.1</td>
+<td align="center">0.3 ± 0.3</td>
+<td align="center">0.0 ± 0.0</td>
+</tr>
+<tr>
+<td align="left"><italic>IFNB2-like</italic></td>
+<td align="left">XM_005702021.1</td>
+<td align="center">63.0 ± 5.3</td>
+<td align="center">43.4 ± 4.2 <xref ref-type="table-fn" rid="t001fn001">*</xref></td>
+</tr>
+<tr>
+<td align="left"><italic>IFNK</italic></td>
+<td align="left">XM_005683589.1</td>
+<td align="center">0.1 ± 0.1</td>
+<td align="center">0.0 ± 0.0</td>
+</tr>
+<tr>
+<td align="left"><italic>IFNO1-like</italic></td>
+<td align="left">XM_005683620.1</td>
+<td align="center">26.5 ± 6.8</td>
+<td align="center">19.1 ± 4.9</td>
+</tr>
+<tr>
+<td align="left"><italic>IFNT2A</italic></td>
+<td align="left">XM_005683606.1</td>
+<td align="center">0.9 ± 0.4</td>
+<td align="center">0.9 ± 0.5</td>
+</tr>
+<tr>
+<td align="left"><italic>IFNG</italic></td>
+<td align="left">XM_005680208.1</td>
+<td align="center">38.4 ± 10.9</td>
+<td align="center">27.8 ± 4.5</td>
+</tr>
+<tr>
+<td align="left"><italic>IFNL3</italic></td>
+<td align="left">XM_005692539.1</td>
+<td align="center">0.1 ± 0.1</td>
+<td align="center">0.0 ± 0.0</td>
+</tr>
+<tr>
+<td align="left"><italic>IFNL4-like</italic></td>
+<td align="left">XM_005692540.1</td>
+<td align="center">0.5 ± 0.3</td>
+<td align="center">0.3 ± 0.2</td>
+</tr>
+<tr>
+<td align="center">Interferon receptors</td>
+<td align="left"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><italic>IFNAR1</italic></td>
+<td align="left">XM_005674742.1</td>
+<td align="center">11565.5 ± 613.5</td>
+<td align="center">11818.3 ± 683.0</td>
+</tr>
+<tr>
+<td align="left"><italic>IFNAR2</italic></td>
+<td align="left">XM_005674684.1</td>
+<td align="center">3484.1 ± 245.4</td>
+<td align="center">3664.9 ± 188.7</td>
+</tr>
+<tr>
+<td align="left"><italic>IFNGR1</italic></td>
+<td align="left">XM_005684807.1</td>
+<td align="center">3056.4 ± 268.9</td>
+<td align="center">3772.4 ± 252.6</td>
+</tr>
+<tr>
+<td align="left"><italic>IFNGR2</italic></td>
+<td align="left">XM_005674741.1</td>
+<td align="center">7492.8 ± 179.1</td>
+<td align="center">8209.5 ± 408.9</td>
+</tr>
+<tr>
+<td align="left"><italic>IFNLR1</italic></td>
+<td align="left">XM_005677011.1</td>
+<td align="center">95.5 ± 10.8</td>
+<td align="center">122.4 ± 22.4</td>
+</tr>
+<tr>
+<td align="center">Interferon signaling components</td>
+<td align="left"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><italic>JAK1</italic></td>
+<td align="left">XM_005678310.1</td>
+<td align="center">31579.9 ± 920.9</td>
+<td align="center">31909.0 ± 908.7</td>
+</tr>
+<tr>
+<td align="left"><italic>JAK2</italic></td>
+<td align="left">XM_005683698.1</td>
+<td align="center">2399.1 ± 109.3</td>
+<td align="center">2587.5 ± 84.7</td>
+</tr>
+<tr>
+<td align="left"><italic>JAK3</italic></td>
+<td align="left">XM_005682189.1</td>
+<td align="center">11636.9 ± 600.5</td>
+<td align="center">9816.8 ± 603.9</td>
+</tr>
+<tr>
+<td align="left"><italic>TYK2</italic></td>
+<td align="left">XM_005682457.1</td>
+<td align="center">4528.3 ± 205.6</td>
+<td align="center">4775.3 ± 328.4</td>
+</tr>
+<tr>
+<td align="left"><italic>STAT1</italic></td>
+<td align="left">XM_005676277.1</td>
+<td align="center">26477.4 ± 2414.9</td>
+<td align="center">28314.6 ± 1119.4</td>
+</tr>
+<tr>
+<td align="left"><italic>STAT2</italic></td>
+<td align="left">XM_005680347.1</td>
+<td align="center">5548.9 ± 332.1</td>
+<td align="center">6363.6 ± 408.4</td>
+</tr>
+<tr>
+<td align="left"><italic>STAT3</italic></td>
+<td align="left">XM_005693850.1</td>
+<td align="center">98.5 ± 10.5</td>
+<td align="center">92.5 ± 8.2</td>
+</tr>
+<tr>
+<td align="left"><italic>STAT4</italic></td>
+<td align="left">XM_005676278.1</td>
+<td align="center">2101.9 ± 158.6</td>
+<td align="center">1949.5 ± 120.6</td>
+</tr>
+<tr>
+<td align="left"><italic>STAT5A</italic></td>
+<td align="left">XM_005693847.1</td>
+<td align="center">5250.6 ± 172.7</td>
+<td align="center">5365.3 ± 194.9</td>
+</tr>
+<tr>
+<td align="left"><italic>STAT5B</italic></td>
+<td align="left">XM_005693846.1</td>
+<td align="center">4604.1 ± 137.3</td>
+<td align="center">4511.0 ± 155.2</td>
+</tr>
+<tr>
+<td align="left"><italic>STAT6</italic></td>
+<td align="left">XM_005680308.1</td>
+<td align="center">15197.3 ± 704.8</td>
+<td align="center">15596.6 ± 692.7</td>
+</tr>
+<tr>
+<td align="left"><italic>IRF1</italic></td>
+<td align="left">XM_005682621.1</td>
+<td align="center">12308.6 ± 1155.2</td>
+<td align="center">10936.5 ± 1329.5</td>
+</tr>
+<tr>
+<td align="left"><italic>IRF2</italic></td>
+<td align="left">XM_005698710.1</td>
+<td align="center">624.5 ± 26.6</td>
+<td align="center">663.4 ± 17.1</td>
+</tr>
+<tr>
+<td align="left"><italic>IRF3</italic></td>
+<td align="left">XM_005692726.1</td>
+<td align="center">1073.9 ± 74.3</td>
+<td align="center">1169.1 ± 60.4</td>
+</tr>
+<tr>
+<td align="left"><italic>IRF4</italic></td>
+<td align="left">XM_005696935.1</td>
+<td align="center">1482.5 ± 157.3</td>
+<td align="center">1379.5 ± 140.9</td>
+</tr>
+<tr>
+<td align="left"><italic>IRF5</italic></td>
+<td align="left">XM_005679456.1</td>
+<td align="center">764.9 ± 61.4</td>
+<td align="center">811.8 ± 65.6</td>
+</tr>
+<tr>
+<td align="left"><italic>IRF6</italic></td>
+<td align="left">XM_005691036.1</td>
+<td align="center">7.3 ± 2.2</td>
+<td align="center">5.4 ± 1.9</td>
+</tr>
+<tr>
+<td align="left"><italic>IRF8</italic></td>
+<td align="left">XM_005691907.1</td>
+<td align="center">3565.8 ± 219.0</td>
+<td align="center">3824.8 ± 210.8</td>
+</tr>
+<tr>
+<td align="left"><italic>IRF9</italic></td>
+<td align="left">XM_005685224.1</td>
+<td align="center">205.8 ± 16.7</td>
+<td align="center">234.5 ± 28.2</td>
+</tr>
+<tr>
+<td align="center">Inhibitors and enhancers</td>
+<td align="left"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><italic>IRF2BP-like</italic></td>
+<td align="left">XM_005686182.1</td>
+<td align="center">2686.3 ± 135.5</td>
+<td align="center">2794.5 ± 123.7</td>
+</tr>
+<tr>
+<td align="left"><italic>IRF2BP1</italic></td>
+<td align="left">XM_005692789.1</td>
+<td align="center">1265.3 ± 33.0</td>
+<td align="center">1232.4 ± 32.3</td>
+</tr>
+<tr>
+<td align="left"><italic>IRF2BP2</italic></td>
+<td align="left">XM_005699013.1</td>
+<td align="center">8090.8 ± 600.5</td>
+<td align="center">8588.9 ± 793.4</td>
+</tr>
+<tr>
+<td align="left"><italic>PIAS1</italic></td>
+<td align="left">XM_005685148.1</td>
+<td align="center">1266.8 ± 66.9</td>
+<td align="center">1320.0 ± 86.4</td>
+</tr>
+<tr>
+<td align="left"><italic>PIAS2</italic></td>
+<td align="left">XM_005697179.1</td>
+<td align="center">390.6 ± 16.9</td>
+<td align="center">405.0 ± 19.2</td>
+</tr>
+<tr>
+<td align="left"><italic>PIAS3</italic></td>
+<td align="left">XM_005677741.1</td>
+<td align="center">99.1 ± 7.8</td>
+<td align="center">99.5 ± 8.1</td>
+</tr>
+<tr>
+<td align="left"><italic>PIAS4</italic></td>
+<td align="left">XM_005682570.1</td>
+<td align="center">39.4 ± 2.7</td>
+<td align="center">40.0 ± 4.8</td>
+</tr>
+<tr>
+<td align="left"><italic>SOCS2</italic></td>
+<td align="left">XM_005679820.1</td>
+<td align="center">0.8 ± 0.4</td>
+<td align="center">1.4 ± 0.6</td>
+</tr>
+<tr>
+<td align="left"><italic>SOCS3</italic></td>
+<td align="left">XM_005694412.1</td>
+<td align="center">372.0 ± 48.8</td>
+<td align="center">346.4 ± 47.5</td>
+</tr>
+<tr>
+<td align="left"><italic>SOCS4</italic></td>
+<td align="left">XM_005685884.1</td>
+<td align="center">845.4 ± 24.5</td>
+<td align="center">823.3 ± 28.0</td>
+</tr>
+<tr>
+<td align="left"><italic>SOCS5</italic></td>
+<td align="left">XM_005686570.1</td>
+<td align="center">1748.9 ± 82.0</td>
+<td align="center">1737.6 ± 75.8</td>
+</tr>
+<tr>
+<td align="left"><italic>SOCS6</italic></td>
+<td align="left">XM_005709580.1</td>
+<td align="center">137.5 ± 14.4</td>
+<td align="center">144.6 ± 14.0</td>
+</tr>
+<tr>
+<td align="left"><italic>SOCS7</italic></td>
+<td align="left">XM_005709575.1</td>
+<td align="center">2286.3 ± 193.8</td>
+<td align="center">2144.5 ± 198.7</td>
+</tr>
+<tr>
+<td align="left"><italic>IL18</italic></td>
+<td align="left">XM_005689450.1</td>
+<td align="center">21.3 ± 4.5</td>
+<td align="center">18.9 ± 3.6</td>
+</tr>
+<tr>
+<td align="left"><italic>PTK2</italic></td>
+<td align="left">XM_005688815.1</td>
+<td align="center">82.4 ± 11.4</td>
+<td align="center">92.1 ± 7.4</td>
+</tr>
+<tr>
+<td align="left"><italic>PTK2B</italic></td>
+<td align="left">XM_005684041.1</td>
+<td align="center">99.3 ± 11.6</td>
+<td align="center">114.5 ± 17.5</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>*: p = 0.025</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec005">
+<title>Introduction of <italic>PRNP</italic> inhibited <italic>MX2</italic> gene expression in SH-SY5Y cells</title>
+<p>To test whether PrP<sup>C</sup> could influence IFN-α responsiveness in a cell culture system with a different genetic makeup, we used human neuroblastoma SH-SY5Y cells, which normally express extremely low levels of PrP<sup>C</sup>. SH-SY5Y clones stably expressing human PrP<sup>C</sup> were generated (SH-SY5Y PrP<sup>high</sup>) and assessed with regard to glycosylation and proteolytic processing to ensure physiological post-translational modification and trafficking of PrP<sup>C</sup> (<xref ref-type="supplementary-material" rid="pone.0179881.s004">S4 Fig</xref>). Eight clones stably expressing PrP<sup>C</sup> as well as untransfected SH-SY5Y cells were exposed to 3 U/ml IFN-α for 3h. One of the transfected clones showed aberrantly high <italic>MX2</italic> gene expression levels and was excluded from the analysis. Of the seven clones included in the experiment, six displayed a significantly reduced response to IFN- α, as assessed by the interferon-responsive gene <italic>MX2</italic> expression levels, compared with the untransfected SH-SY5Y cells, using Dunnett’s post hoc test for multiple comparisons (<xref ref-type="fig" rid="pone.0179881.g003">Fig 3</xref>) (<italic>n</italic> = 4, mean ± SEM). The levels of PrP<sup>C</sup> expression did not directly correlate with the degree of <italic>MX2</italic> expression-level inhibition; however, this was not expected due to the complexity of the interferon signaling pathway, and the possible distance between PrP<sup>C</sup> interference and <italic>MX2</italic> gene expression. On average, the clones showed a significantly inhibited response to IFN- α (p-value = 0.0001) compared with the untransfected SH-SY5Y cells, using a two-way ANOVA.</p>
+<fig id="pone.0179881.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0179881.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>PrP<sup>C</sup> suppresses upregulation of <italic>MX2</italic> gene expression upon INF-α stimulation in SH-SY5Y cells.</title>
+<p>Untransfected human neuroblastoma SH-SY5Y cells and seven different clones transfected with a plasmid containing human <italic>PRNP</italic> to produce SH-SY5Y clones expressing human PrP<sup>C</sup>, were stimulated for 3h with IFN-α (3 U/ml) (mean ± SEM, <italic>n</italic> = 4), and <italic>MX2</italic> gene expression was assessed. Six out of seven clones displayed a significantly lower response to IFN-α compared with the untransfected SH-SY5Y cells, using Dunnett’s post hoc test for multiple comparisons.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0179881.g003" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec006">
+<title>Increased interferon-responsive gene expression in blood leukocytes devoid of PrP<sup>C</sup> after LPS challenge</title>
+<p>In an independent, parallel study [<xref ref-type="bibr" rid="pone.0179881.ref034">34</xref>, <xref ref-type="bibr" rid="pone.0179881.ref035">35</xref>], goats were challenged intravenously with lipopolysaccharide (LPS), thereby indirectly stimulating interferon pathways. RNA was extracted from circulating blood leukocytes, and gene expression of interferon-responsive genes was assessed by FLUIDIGM qPCR. As shown in <xref ref-type="fig" rid="pone.0179881.g004">Fig 4A</xref>, basal level expression (0h) of several interferon-responsive genes was slightly higher in the <italic>PRNP</italic><sup>Ter/Ter</sup> (<italic>n</italic> = 13) genotype than in the <italic>PRNP</italic><sup>+/+</sup> (<italic>n</italic> = 12) genotype, albeit being significantly different for only <italic>IFI6</italic> (p-value = 0.037). Moreover, <italic>STAT1</italic> mRNA expression levels did not differ between the genotypes. One hour after LPS challenge, the mRNA expression level of interferon-responsive genes increased slightly and the difference between the two genotypes was more pronounced (<xref ref-type="fig" rid="pone.0179881.g004">Fig 4B</xref>), with three genes showing a statistically significant difference in expression level (<italic>ISG15</italic> (p-value = 0.049), <italic>IFIT1</italic> (p-value = 0.02), and <italic>MX1</italic> (p-value = 0.019), assessed by multiple t-tests).</p>
+<fig id="pone.0179881.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0179881.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Expression of interferon-responsive genes in blood leukocytes after <italic>in vivo</italic> lipopolysaccharide (LPS) challenge in goats without PrP<sup>C</sup>.</title>
+<p>RNA was extracted from circulating blood leukocytes from both genotypes, and gene expression was analyzed by FLUIDIGM qPCR. (A) Basal expression level (0 h) of selected interferon-responsive genes and <italic>STAT1</italic> in <italic>PRNP</italic><sup>+/+</sup> (<italic>n</italic> = 12) and <italic>PRNP</italic><sup>Ter/Ter</sup> (<italic>n</italic> = 13) animals. (B) Gene expression of interferon-responsive genes and <italic>STAT1</italic> after <italic>in vivo</italic> LPS challenge (1 h) from <italic>PRNP</italic><sup>+/+</sup> (<italic>n</italic> = 7) and <italic>PRNP</italic><sup>Ter/Ter</sup> (<italic>n</italic> = 8) animals. Values are mean ± SEM. Statistical significance is indicated by *, p-value &lt; 0.05, as assessed by multiple t-tests.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0179881.g004" xlink:type="simple"/>
+</fig>
+</sec>
+</sec>
+<sec id="sec007" sec-type="conclusions">
+<title>Discussion</title>
+<p>Similar to observations in transgenic mice [<xref ref-type="bibr" rid="pone.0179881.ref006">6</xref>], goats [<xref ref-type="bibr" rid="pone.0179881.ref036">36</xref>], and cattle [<xref ref-type="bibr" rid="pone.0179881.ref027">27</xref>] with knockout (KO) of <italic>PRNP</italic>, the <italic>PRNP</italic><sup>Ter/Ter</sup> goats display no obvious loss-of-function phenotype [<xref ref-type="bibr" rid="pone.0179881.ref025">25</xref>, <xref ref-type="bibr" rid="pone.0179881.ref026">26</xref>]. Consequently, only subtle transcriptomic alterations were expected, corroborating data from KO mouse models [<xref ref-type="bibr" rid="pone.0179881.ref037">37</xref>–<xref ref-type="bibr" rid="pone.0179881.ref041">41</xref>]. Accordingly, this study revealed subtle expression differences affecting less than a percent of the expressed genes. However, analysis of the annotated DEGs using the Interferome database [<xref ref-type="bibr" rid="pone.0179881.ref033">33</xref>], identified a distinct expression profile, with 70 percent of the DEGs being classified as interferon responsive, of which several were among the top upregulated genes. Importantly, animals were age-matched and derived from the same research flock. The health status of this herd is frequently monitored and considered excellent. Prior to sampling, animals were assessed clinically by a veterinarian and found healthy, which was also confirmed by hematological analysis in an accompanying study [<xref ref-type="bibr" rid="pone.0179881.ref026">26</xref>]. Furthermore, we were unable to detect any differences in gene expression levels of neither interferons nor IFN signaling components. A flanking gene problem will also be present in the <italic>PRNP</italic><sup>Ter/Ter</sup> goats; however, preliminary data indicate that this is very limited compared to inbred knockout mouse models. In the absence of alternative explanations, we consider the observed gene expression profile to be a true signature of PrP<sup>C</sup> loss-of-function. It is likely that this profile, which is evident at rest in the outbred and immunocompetent goats, might be even weaker or absent in inbred transgenic mice, housed in pathogen-depleted environments. It is, however, interesting to note that studies of prion disease in mice have revealed a gene expression profile similar to that observed in PrP<sup>C</sup>-deficient goats. Analysis of transcripts from mouse whole brain throughout the course of experimental CJD revealed an upregulation of several interferon-responsive genes, e.g. <italic>OAS</italic>, <italic>ISG15</italic>, and <italic>IRF</italic>-family members. Importantly, the upregulation of these genes occurred very early in the course of the disease, approximately 50 days before the onset of neuropathological signs and detection of PrP<sup>Sc</sup> [<xref ref-type="bibr" rid="pone.0179881.ref042">42</xref>]. Similar findings were recently reported in another study of prion-infected mice [<xref ref-type="bibr" rid="pone.0179881.ref043">43</xref>]. In a hamster model of scrapie, several interferon-responsive genes, including those encoding OAS and Mx protein, were upregulated during development of scrapie [<xref ref-type="bibr" rid="pone.0179881.ref044">44</xref>]. In addition, three interferon-responsive genes, assessed by qPCR studies, were moderately upregulated in a hamster model and different mouse models inoculated with scrapie strains [<xref ref-type="bibr" rid="pone.0179881.ref045">45</xref>]. Recently, transcriptomic data from cerebellar organotypic cultured slices infected with prions showed that a slight upregulation of several interferon-responsive genes was evident at 38 and 45 days post infection [<xref ref-type="bibr" rid="pone.0179881.ref046">46</xref>]. It is tempting to speculate that some of the observed gene expression alterations at very early stages of prion disease could, at least partly, reflect induced loss-of-PrP<sup>C</sup> function, and, thus, explain the similarity with the expression profile reported here. Further investigations are clearly needed to test this hypothesis.</p>
+<p>Studies of human SH-SY5Y neuroblastoma cells transfected with human <italic>PRNP</italic> displayed a significantly dampened response (MX2 expression) to a low-level IFN-α stimulation, compared with untransfected cells that are virtually devoid of PrP<sup>C</sup>. Furthermore, in an independent, parallel study involving older goat kids than those recruited for the RNA seq study, animals were challenged with LPS, which is a potent pro-inflammatory compound. In contrast to mice, which are relatively tolerant towards LPS, goats have a similar sensitivity as humans [<xref ref-type="bibr" rid="pone.0179881.ref034">34</xref>, <xref ref-type="bibr" rid="pone.0179881.ref035">35</xref>]. In line with data from the present RNA sequencing study, resting state expression levels of interferon-responsive genes in leukocytes were slightly elevated in the <italic>PRNP</italic><sup>Ter/Ter</sup> genotype. Interestingly, the expression differences between the genotypes were increased one hour after LPS injection. Apparently, leukocytes without the expression of PrP<sup>C</sup> upregulated interferon-responsive genes more rapidly than their PrP<sup>C</sup>-expressing counterparts. The regulation of interferon-responsive genes expression level is multifaceted and tightly controlled at several levels [<xref ref-type="bibr" rid="pone.0179881.ref047">47</xref>, <xref ref-type="bibr" rid="pone.0179881.ref048">48</xref>], involving receptor downregulation, upregulation of a plethora of inhibitors as well as epigenetic modifications.</p>
+<p>Taken together, our data suggest that PrP<sup>C</sup> contributes to dampening of type I interferon signaling at rest and that loss of PrP<sup>C</sup> induces a primed state of interferon-responsive genes. Accordingly, direct or indirect stimulation of type I IFN signaling, elicits a somewhat stronger immediate response when PrP<sup>C</sup> is absent. These data do not conflict with roles acclaimed to the prion protein. Indeed, they might strengthen previous observations and provide mechanistic hints of PrP<sup>C</sup> physiology.</p>
+</sec>
+<sec id="sec008">
+<title>Material and methods</title>
+<sec id="sec009">
+<title>Animals</title>
+<p>The animals (FOTS approval number ID 8058) included in the study were of the Norwegian Dairy Goat Breed obtained from a research herd of approximately 100 winter-fed goats at the Norwegian University of Life Sciences. Based on health surveillance through membership in the Goat health monitoring service and The Norwegian Association of Sheep and Goat Farmers and daily monitoring, the general health status of the herd is considered to be good. The entire flock was previously genotyped [<xref ref-type="bibr" rid="pone.0179881.ref025">25</xref>] concerning <italic>PRNP</italic> genotypes, and through selective breeding, goat kids with the two genotypes <italic>PRNP</italic><sup>+/+</sup> (<italic>n</italic> = 8; 4 female and 4 male) and <italic>PRNP</italic><sup>Ter/Ter</sup> (<italic>n</italic> = 8; 4 female and 4 male) were retrieved. Prior to inclusion in the experiment, all goat kids were examined clinically and found to be healthy.</p>
+</sec>
+<sec id="sec010">
+<title>Isolation of peripheral blood mononuclear cells</title>
+<p>Blood was sampled from the jugular vein into EDTA tubes at 2–3 months of age. Peripheral blood mononuclear cells (PBMCs) were isolated by gradient centrifugation (Lymphoprep®, Axis-Shield, Dundee, Scotland) at 1760 x <italic>g</italic> without brake, and washed with PBS supplemented with EDTA (2 mM). Red blood cells were lysed by brief exposure to sterile water, and washed with PBS supplemented with EDTA (2 mM) prior to counting and trypan blue viability assessment using a Countess® Automated Cell Counter (Life Technologies, Thermo Fisher Scientific, Waltham, MA).</p>
+</sec>
+<sec id="sec011">
+<title>Cell culture studies</title>
+<p>Human neuroblastoma SH-SY5Y cells (Sigma-Aldrich, Merck, Kenilworth, NJ) were cultured in Eagle’s Minimum Essential Medium and Ham’s F12 (1:1) (Sigma-Aldrich) supplemented with 10% heat-inactivated fetal bovine serum (FBS), glutamine and antibiotics (1% streptomycin and penicillin) (all from Gibco, Thermo Fisher Scientific), and cultivated in T25 flasks at 37°C with 5% (v/v) CO<sub>2</sub> at saturated humidity. SH-SY5Y cells were stably transfected with a plasmid construct, pCI-neo (Promega, Madison, WI) encoding human <italic>PRNP</italic>, using jetPRIME (Polyplus, Illkirch, France) according to the manufacturer's instructions. Transfected cells were grown under selection pressure of Geneticin (Thermo Fisher Scientific), and nine different single clones with variable levels of PrP<sup>C</sup> (SH-SY5Y PrP<sup>high</sup>) were isolated (<xref ref-type="supplementary-material" rid="pone.0179881.s004">S4 Fig</xref>). Clone no. 8 showed an abnormal phenotype, and was excluded from the studies.</p>
+</sec>
+<sec id="sec012">
+<title>Western blotting</title>
+<p>Untransfected SH-SY5Y cells and transfected SH-SY5Y PrP<sup>high</sup> clones were lysed in homogenizer buffer (Tris HCl 50 uM, NaCl 150 mM, EDTA 1 mM, DOC 0.25%, NP40 1%) supplemented with protease inhibitor cocktail (Roche complete, Roche Holding AG, Basel, Switzerland). Protein concentrations were measured using Protein assay (Bio-Rad, Hercules, CA). To obtain deglycosylated protein, 20 μg of total protein were incubated overnight with PNGase-F (New England Biolabs, Ipswich, MA), according to the manufacturer’s instructions.</p>
+<p>Fifty μg of protein or the deglycosylated samples were separated on sodium dodecyl sulfate (SDS) polyacrylamide gel electrophoresis (12% Criterion™ XT Bis-Tris, Bio-Rad), and transferred to polyvinylidene fluoride (PVDF) membranes (GE Healthcare, Little Chalfont, United Kingdom). After incubation with blocking buffer (5% non-fat milk in TBS-Tween) for 90 minutes at room temperature, samples were incubated in 1% non-fat milk in TBS-Tween containing mouse anti-PrP<sup>C</sup> primary antibody diluted 1:4000 (6H4, Prionics, Thermo Fischer Scientific) over-night at 4°C. Subsequently, the membrane was washed and incubated for 90 minutes in 1% non-fat milk containing Alkaline Phosphatase (AP)-conjugated anti-mouse IgG diluted 1:4000 (Novex, Life Technologies, Thermo Fischer Scientific). Membrane was developed using EFC™ substrate (GE Healthcare) and visualized with Typhoon 9200 (Amersham Bioscience, GE Healthcare).</p>
+</sec>
+<sec id="sec013">
+<title>Isolation and sequencing of RNA</title>
+<p>Total RNA was extracted using the Qiagen RNeasy mini plus kit (Qiagen, Germantown, MD) following the manufacturer’s instructions. RNA concentration and purity was analyzed using NanoDrop-1000 Spectrophotometer (Thermo Fisher Scientific) or Epoch Microplate Spectrophotometer (BioTek Instruments Inc, Winooski, VT), and quality was assessed before RNA sequencing using RNA Nano Chips on an Agilent 2100 Bioanalyzer (both from Agilent Technologies, Santa Clara, CA). RNA was stored at -80°C. Individual RNA samples of high quality (RIN ≥ 9.8) were sequenced by mRNA poly-A-tail, paired-end sequencing (Illumina HiSeq 2000) with 91 bp read-lengths (Beijing Genomics Institute (BGI), Hong Kong), retrieving a minimum depth of 5G clean data per sample. In detail, after the total RNA extraction and DNase I treatment, magnetic beads with Oligo (dT) were used to isolate mRNA. Mixed with the fragmentation buffer, the mRNA was fragmented into short fragments, and cDNA was synthesized using the mRNA fragments as templates. Short fragments were purified and resolved with EB buffer for end reparation and single nucleotide A (adenine) addition. The short fragments were connected with adapters. After agarose gel electrophoresis, the suitable fragments were selected for the PCR amplification as templates. During the QC steps, Agilent 2100 Bioanalyzer and ABI StepOnePlus Real-Time PCR System were used in quantification and qualification of the sample library.</p>
+<p>For the IFN-studies, RNA quality was assessed by TAE/formamide RNA gel electrophoresis. RNA samples were mixed with formamide (50% v/v, Sigma) and orange loading dye (New England Biolabs), denatured by heating for 5 min at 65°C, put on ice, and loaded on 1% agarose gel containing 1xTAE buffer (0.04 M Tris-acetate, 1 mM EDTA) and visualized with SYBR™ Safe (Invitrogen, Thermo Fisher Scientific).</p>
+</sec>
+<sec id="sec014">
+<title>Analysis of RNA sequencing data</title>
+<p>Reads were mapped to the goat genome assembly (CHIR_1.0) using SOAP2 [<xref ref-type="bibr" rid="pone.0179881.ref049">49</xref>]. Reads per gene were obtained using SOAP2 and the goat genome annotation (RefSeq, CHIR_1.0). Read counts were normalized to reads per kilobase per million mapped reads (RPKM) [<xref ref-type="bibr" rid="pone.0179881.ref050">50</xref>]. Testing for differentially expressed genes was performed using the function exactTest in edgeR [<xref ref-type="bibr" rid="pone.0179881.ref032">32</xref>].</p>
+</sec>
+<sec id="sec015">
+<title>Expression analysis by reverse transcription (RT) quantitative real-time PCR (qPCR) analysis</title>
+<p>cDNA was synthesized using SuperScript III Reverse Transcriptase, RNase Out, dNTP mix and Random Primers (all from Invitrogen, Thermo Fisher Scientific) at the following conditions: 5 min at 65°C, &gt;1 min on ice, 5 min at 25°C, 1 h at 50°C and 15 min at 70°C.</p>
+<p>For the RNA sequencing validation study, qPCR was conducted with LightCycler 480 Sybr Green I Master mix (Roche). cDNA corresponding to 2.5 ng RNA was used per reaction. The samples were run in duplicates in a total volume of 20 μl on a LightCycler 96 System (Roche). Conditions: 5 min at 95°C; 40 cycles of 10 sec at 95°C, 10 sec at 60°C and 10 sec at 72°C; and melting curve with 5 sec at 95°C, 1 min at 65°C and 97°C. Relative expression levels were calculated using a standard curve generated from one randomly selected animal, run in triplicate, with GAPDH as a reference gene, and one randomly selected animal as a positive control. The average of six <italic>PRNP</italic><sup>Ter/Ter</sup> animals was divided by the average of six <italic>PRNP</italic><sup>+/+</sup> animals, and compared relative to RNA sequencing data.</p>
+<p>For the interferon-treatment studies using SH-SY5Y cells, qPCR was conducted with LightCycler 480 Sybr Green I Master mix (Roche). cDNA corresponding to 10 ng RNA was used per reaction. The samples were run in triplicate in a total volume of 10 μl on a LightCycler 96 System (Roche). Conditions: 5 min at 95°C; 40 cycles of 10 sec at 95°C, 10 sec at 60°C and 10 sec at 72°C; and melting curve with 5 sec at 95°C, 1 min at 65°C and 97°C. Relative expression levels were calculated using the ΔΔCt method. ActB was used as a reference gene. An inter-run calibrator was included on every plate as a positive control. The qPCR-amplified sample was run on a 1% agarose gel, and visualized using SYBR™ Safe (Thermo Fisher Scientific).</p>
+</sec>
+<sec id="sec016">
+<title>LPS challenge and FLUIDIGM qPCR of whole blood leukocyte interferon-responsive genes</title>
+<p>An intravenous LPS challenge was performed (0.1 μg/kg, <italic>Escherichia coli</italic> O26:B6) in 16 Norwegian dairy goats age 6–7 months (<italic>8 PRNP</italic><sup><italic>+/+</italic></sup> (female) and 8 <italic>PRNP</italic><sup><italic>Ter/</italic>Ter</sup> (7 female, 1 castrated male)) (FOTS approval number IDs 5827, 6903, and 7881), and 10 controls were included (5 of each genotype). In brief, blood samples were collected in PAX-gene blood RNA tubes before (0 h) and after LPS challenge (1 h). High quality RNA (RIN 9.0 ± 0.34) was extracted using the PAXgene Blood miRNA kit, and cDNA synthesis was performed in two replicates (QuantiTect Reverse Transcription Kit). The relative expression of ISGs in circulating leukocytes was assessed after qPCR on the Fluidigm Biomark HD platform and data analysis using GenEx5 software (MultiD, Sweden). The full study protocol, method description, and primer sequences can be found in [<xref ref-type="bibr" rid="pone.0179881.ref034">34</xref>, <xref ref-type="bibr" rid="pone.0179881.ref035">35</xref>].</p>
+</sec>
+<sec id="sec017">
+<title>Statistical analysis</title>
+<p>Multiple <italic>t</italic>-tests or two-way ANOVA followed by Dunnett’s post hoc test for multiple comparisons were used for statistical analysis of the data using Graph Pad Prism v. 6.07 (Graphpad, La Jolla, CA). For correlation analysis, the Pearson correlation coefficient was calculated. Mean values are presented ± SEM.</p>
+</sec>
+<sec id="sec018">
+<title>Ethics statement</title>
+<p>The animal experiments were performed in compliance with ethical guidelines, and approved by the Norwegian Animal Research Authority (FOTS approval number IDs 8058, 5827, 6903, and 7881) with reference to the Norwegian regulation on animal experimentation (FOR-2015-06-18-761).</p>
+</sec>
+</sec>
+<sec id="sec019">
+<title>Supporting information</title>
+<supplementary-material id="pone.0179881.s001" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0179881.s001" xlink:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title>Individual number of reads obtained from RNA sequencing.</title>
+<p>Total reads, total mapped reads and uniquely mapped reads across all samples, <italic>n</italic> = 16, 8 of each genotype.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0179881.s002" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0179881.s002" xlink:type="simple">
+<label>S2 Fig</label>
+<caption>
+<title>Hierarchical clustering dendrogram.</title>
+<p>Hierarchical clustering dendrogram of all genes after normalization of expression data (RPKM) using Euclidean distance and complete linkage.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0179881.s003" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0179881.s003" xlink:type="simple">
+<label>S3 Fig</label>
+<caption>
+<title>Chromosomal distribution of differentially expressed genes.</title>
+<p>(A) Frequency of differentially expressed genes (735 genes) per chromosome. Total number of genes per chromosome were obtained from National Center for Biotechnology Information (NCBI), based on the Capra hircus CHIR_1.0-Primary Assembly. (B) Chromosomal distribution of annotated differentially expressed genes (86 genes).</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0179881.s004" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0179881.s004" xlink:type="simple">
+<label>S4 Fig</label>
+<caption>
+<title>Clones of human neuroblastoma SH-SY5Y cells expressing human <italic>PRNP</italic>.</title>
+<p>Protein expression of PrP<sup>C</sup> for untreated and PNGase-F-treated untransfected human neuroblastoma SH-SY5Y cells and SH-SY5Y clones transfected with human <italic>PRNP</italic> (<italic>n</italic> = 8), determined by Western Blot analysis using 6H4 mouse anti-PrP<sup>C</sup> as the primary antibody. Protein bands correspond to glycosylated PrP<sup>C</sup>, deglycosylated PrP<sup>C</sup> and PrP<sup>C</sup> C1 fragment as indicated.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0179881.s005" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0179881.s005" xlink:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Forward and reverse primers used for qPCR.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0179881.s006" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0179881.s006" xlink:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>Differentially expressed genes between <italic>PRNP</italic><sup>Ter/Ter</sup> (<italic>n</italic> = 8) and <italic>PRNP</italic><sup>+/+</sup> (<italic>n</italic> = 8) goats (127 genes).</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0179881.s007" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" xlink:href="info:doi/10.1371/journal.pone.0179881.s007" xlink:type="simple">
+<label>S1 File</label>
+<caption>
+<title>Differentially expressed genes (735 genes).</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>We thank Susan Skogtvedt Røed and Berit Christophersen for skillful laboratory work, Agnes Klouman and the staff at the Animal Production Experimental Centre, and Dag Inge Våge and Torfinn Nome for technical help with the sequencing data. The authors acknowledge Lucy Robertson for proofreading the manuscript, and Ingrid Olsaker for use of the Ingenuity Pathway Analysis software.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0179881.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Prusiner</surname> <given-names>SB</given-names></name>. <article-title>Prions</article-title>. <source>Proceedings of the National Academy of Sciences</source>. <year>1998</year>;<volume>95</volume>(<issue>23</issue>):<fpage>13363</fpage>–<lpage>83</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1073/pnas.95.23.13363" xlink:type="simple">10.1073/pnas.95.23.13363</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0179881.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Linden</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Martins</surname> <given-names>VR</given-names></name>, <name name-style="western"><surname>Prado</surname> <given-names>MAM</given-names></name>, <name name-style="western"><surname>Cammarota</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Izquierdo</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Brentani</surname> <given-names>RR</given-names></name>. <article-title>Physiology of the prion protein</article-title>. <source>Physiological Reviews</source>. <year>2008</year>;<volume>88</volume>(<issue>2</issue>):<fpage>673</fpage>–<lpage>728</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1152/physrev.00007.2007" xlink:type="simple">10.1152/physrev.00007.2007</ext-link></comment> <object-id pub-id-type="pmid">18391177</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wopfner</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Weidenhöfer</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Schneider</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>von Brunn</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Gilch</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Schwarz</surname> <given-names>TF</given-names></name>, <etal>et al</etal>. <article-title>Analysis of 27 mammalian and 9 avian PrPs reveals high conservation of flexible regions of the prion protein</article-title>. <source>Journal of Molecular Biology</source>. <year>1999</year>;<volume>289</volume>(<issue>5</issue>):<fpage>1163</fpage>–<lpage>78</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1006/jmbi.1999.2831" xlink:type="simple">http://dx.doi.org/10.1006/jmbi.1999.2831</ext-link></comment> <object-id pub-id-type="pmid">10373359</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rongyan</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Xianglong</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Lanhui</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Xiangyun</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Fujun</surname> <given-names>F</given-names></name>. <article-title>Evolution and differentiation of the prion protein gene (<italic>PRNP</italic>) among species</article-title>. <source>Journal of Heredity</source>. <year>2008</year>;<volume>99</volume>(<issue>6</issue>):<fpage>647</fpage>–<lpage>52</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/jhered/esn073" xlink:type="simple">10.1093/jhered/esn073</ext-link></comment> <object-id pub-id-type="pmid">18799453</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Peralta</surname> <given-names>OA</given-names></name>, <name name-style="western"><surname>Huckle</surname> <given-names>WR</given-names></name>, <name name-style="western"><surname>Eyestone</surname> <given-names>WH</given-names></name>. <article-title>Developmental expression of the cellular prion protein (PrP<sup>C</sup>) in bovine embryos</article-title>. <source>Molecular Reproduction and Development</source>. <year>2012</year>;<volume>79</volume>(<issue>7</issue>):<fpage>488</fpage>–<lpage>98</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/mrd.22057" xlink:type="simple">10.1002/mrd.22057</ext-link></comment> <object-id pub-id-type="pmid">22674901</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bueler</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Fischer</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Lang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Bluethmann</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Lipp</surname> <given-names>H-P</given-names></name>, <name name-style="western"><surname>DeArmond</surname> <given-names>SJ</given-names></name>, <etal>et al</etal>. <article-title>Normal development and behaviour of mice lacking the neuronal cell-surface PrP protein</article-title>. <source>Nature</source>. <year>1992</year>;<volume>356</volume>(<issue>6370</issue>):<fpage>577</fpage>–<lpage>82</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/356577a0" xlink:type="simple">10.1038/356577a0</ext-link></comment> <object-id pub-id-type="pmid">1373228</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Manson</surname> <given-names>JC</given-names></name>, <name name-style="western"><surname>Clarke</surname> <given-names>AR</given-names></name>, <name name-style="western"><surname>Hooper</surname> <given-names>ML</given-names></name>, <name name-style="western"><surname>Aitchison</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>McConnell</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Hope</surname> <given-names>J</given-names></name>. <article-title>129/Ola mice carrying a null mutation in PrP that abolishes mRNA production are developmentally normal</article-title>. <source>Mol Neurobiol</source>. <year>1994</year>;<volume>8</volume>(<issue>2–3</issue>):<fpage>121</fpage>–<lpage>7</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/BF02780662" xlink:type="simple">10.1007/BF02780662</ext-link></comment> <object-id pub-id-type="pmid">7999308</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Büeler</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Aguzzi</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Sailer</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Greiner</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Autenried</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Aguet</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Mice devoid of PrP are resistant to scrapie</article-title>. <source>Cell</source>. <year>1993</year>;<volume>73</volume>(<issue>7</issue>):<fpage>1339</fpage>–<lpage>47</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/0092-8674(93)90360-3" xlink:type="simple">http://dx.doi.org/10.1016/0092-8674(93)90360-3</ext-link></comment> <object-id pub-id-type="pmid">8100741</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sakaguchi</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Katamine</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Nishida</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Moriuchi</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Shigematsu</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Sugimoto</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Loss of cerebellar Purkinje cells in aged mice homozygous for a disrupted PrP gene</article-title>. <source>Nature</source>. <year>1996</year>;<volume>380</volume>(<issue>6574</issue>):<fpage>528</fpage>–<lpage>31</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/380528a0" xlink:type="simple">10.1038/380528a0</ext-link></comment> <object-id pub-id-type="pmid">8606772</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Moore</surname> <given-names>RC</given-names></name>, <name name-style="western"><surname>Mastrangelo</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Bouzamondo</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Heinrich</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Legname</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Prusiner</surname> <given-names>SB</given-names></name>, <etal>et al</etal>. <article-title>Doppel-induced cerebellar degeneration in transgenic mice</article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source>. <year>2001</year>;<volume>98</volume>(<issue>26</issue>):<fpage>15288</fpage>–<lpage>93</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1073/pnas.251550798" xlink:type="simple">10.1073/pnas.251550798</ext-link></comment> <object-id pub-id-type="pmid">11734625</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rossi</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Cozzio</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Flechsig</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Klein</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Rülicke</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Aguzzi</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Onset of ataxia and Purkinje cell loss in PrP null mice inversely correlated with Dpl level in brain</article-title>. <source>Journal Article</source>. <year>2001</year>;<volume>20</volume>(<issue>4</issue>):<fpage>694</fpage>–<lpage>702</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/emboj/20.4.694" xlink:type="simple">10.1093/emboj/20.4.694</ext-link></comment> <object-id pub-id-type="pmid">11179214</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yokoyama</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Kimura</surname> <given-names>KM</given-names></name>, <name name-style="western"><surname>Ushiki</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Yamada</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Morooka</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Nakashiba</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title><italic>In vivo</italic> conversion of cellular prion protein to pathogenic isoforms, as monitored by conformation-specific antibodies</article-title>. <source>Journal of Biological Chemistry</source>. <year>2001</year>;<volume>276</volume>(<issue>14</issue>):<fpage>11265</fpage>–<lpage>71</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1074/jbc.M008734200" xlink:type="simple">10.1074/jbc.M008734200</ext-link></comment> <object-id pub-id-type="pmid">11152682</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nuvolone</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kana</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Hutter</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Sakata</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Mortin-Toth</surname> <given-names>SM</given-names></name>, <name name-style="western"><surname>Russo</surname> <given-names>G</given-names></name>, <etal>et al</etal>. <article-title>SIRPα polymorphisms, but not the prion protein, control phagocytosis of apoptotic cells</article-title>. <source>The Journal of Experimental Medicine</source>. <year>2013</year>;<volume>210</volume>(<issue>12</issue>):<fpage>2539</fpage>–<lpage>52</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1084/jem.20131274" xlink:type="simple">10.1084/jem.20131274</ext-link></comment> <object-id pub-id-type="pmid">24145514</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Steele</surname> <given-names>AD</given-names></name>, <name name-style="western"><surname>Lindquist</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Aguzzi</surname> <given-names>A</given-names></name>. <article-title>The prion protein knockout mouse: A phenotype under challenge</article-title>. <source>Prion</source>. <year>2007</year>;<volume>1</volume>(<issue>2</issue>):<fpage>83</fpage>–<lpage>93</lpage>. <object-id pub-id-type="pmid">19164918</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Baumann</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Tolnay</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Brabeck</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Pahnke</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kloz</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Niemann</surname> <given-names>HH</given-names></name>, <etal>et al</etal>. <article-title>Lethal recessive myelin toxicity of prion protein lacking its central domain</article-title>. <source>Journal Article</source>. <year>2007</year>;<volume>26</volume>(<issue>2</issue>):<fpage>538</fpage>–<lpage>47</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/sj.emboj.7601510" xlink:type="simple">10.1038/sj.emboj.7601510</ext-link></comment> <object-id pub-id-type="pmid">17245436</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bremer</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Baumann</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Tiberi</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Wessig</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Fischer</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Schwarz</surname> <given-names>P</given-names></name>, <etal>et al</etal>. <article-title>Axonal prion protein is required for peripheral myelin maintenance</article-title>. <source>Nat Neurosci</source>. <year>2010</year>;<volume>13</volume>(<issue>3</issue>):<fpage>310</fpage>–<lpage>8</lpage>. <ext-link ext-link-type="uri" xlink:href="http://www.nature.com/neuro/journal/v13/n3/suppinfo/nn.2483_S1.html" xlink:type="simple">http://www.nature.com/neuro/journal/v13/n3/suppinfo/nn.2483_S1.html</ext-link>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nn.2483" xlink:type="simple">10.1038/nn.2483</ext-link></comment> <object-id pub-id-type="pmid">20098419</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nuvolone</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Hermann</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Sorce</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Russo</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Tiberi</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Schwarz</surname> <given-names>P</given-names></name>, <etal>et al</etal>. <article-title>Strictly co-isogenic C57BL/6J-Prnp<sup>−/−</sup> mice: A rigorous resource for prion science</article-title>. <source>The Journal of Experimental Medicine</source>. <year>2016</year>;<volume>213</volume>(<issue>3</issue>):<fpage>313</fpage>–<lpage>27</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1084/jem.20151610" xlink:type="simple">10.1084/jem.20151610</ext-link></comment> <object-id pub-id-type="pmid">26926995</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tobler</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Gaus</surname> <given-names>SE</given-names></name>, <name name-style="western"><surname>Deboer</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Achermann</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Fischer</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Rulicke</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Altered circadian activity rhythms and sleep in mice devoid of prion protein</article-title>. <source>Nature</source>. <year>1996</year>;<volume>380</volume>(<issue>6575</issue>):<fpage>639</fpage>–<lpage>42</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/380639a0" xlink:type="simple">10.1038/380639a0</ext-link></comment> <object-id pub-id-type="pmid">8602267</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Walz</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Amaral</surname> <given-names>OB</given-names></name>, <name name-style="western"><surname>Rockenbach</surname> <given-names>IC</given-names></name>, <name name-style="western"><surname>Roesler</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Izquierdo</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Cavalheiro</surname> <given-names>EA</given-names></name>, <etal>et al</etal>. <article-title>Increased sensitivity to seizures in mice lacking cellular prion protein</article-title>. <source>Epilepsia</source>. <year>1999</year>;<volume>40</volume>(<issue>12</issue>):<fpage>1679</fpage>–<lpage>82</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1528-1157.1999.tb01583.x" xlink:type="simple">10.1111/j.1528-1157.1999.tb01583.x</ext-link></comment> <object-id pub-id-type="pmid">10612329</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Spudich</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Frigg</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Kilic</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Kilic</surname> <given-names>Ü</given-names></name>, <name name-style="western"><surname>Oesch</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Raeber</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Aggravation of ischemic brain injury by prion protein deficiency: Role of ERK-1/-2 and STAT-1</article-title>. <source>Neurobiology of Disease</source>. <year>2005</year>;<volume>20</volume>(<issue>2</issue>):<fpage>442</fpage>–<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.nbd.2005.04.002" xlink:type="simple">http://dx.doi.org/10.1016/j.nbd.2005.04.002</ext-link></comment> <object-id pub-id-type="pmid">15893468</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>McLennan</surname> <given-names>NF</given-names></name>, <name name-style="western"><surname>Brennan</surname> <given-names>PM</given-names></name>, <name name-style="western"><surname>McNeill</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Davies</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Fotheringham</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Rennison</surname> <given-names>KA</given-names></name>, <etal>et al</etal>. <article-title>Prion protein accumulation and neuroprotection in hypoxic brain damage</article-title>. <source>The American Journal of Pathology</source>. <year>2004</year>;<volume>165</volume>(<issue>1</issue>):<fpage>227</fpage>–<lpage>35</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0002-9440(10)63291-9" xlink:type="simple">10.1016/S0002-9440(10)63291-9</ext-link></comment> <object-id pub-id-type="pmid">15215178</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mestas</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Hughes</surname> <given-names>CCW</given-names></name>. <article-title>Of mice and not men: Differences between mouse and human immunology</article-title>. <source>The Journal of Immunology</source>. <year>2004</year>;<volume>172</volume>(<issue>5</issue>):<fpage>2731</fpage>–<lpage>8</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4049/jimmunol.172.5.2731" xlink:type="simple">10.4049/jimmunol.172.5.2731</ext-link></comment> <object-id pub-id-type="pmid">14978070</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Davis</surname> <given-names>MM</given-names></name>. <article-title>A prescription for human immunology</article-title>. <source>Immunity</source>. <year>2008</year>;<volume>29</volume>(<issue>6</issue>):<fpage>835</fpage>–<lpage>8</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.immuni.2008.12.003" xlink:type="simple">10.1016/j.immuni.2008.12.003</ext-link></comment> <object-id pub-id-type="pmid">19100694</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bolker</surname> <given-names>J</given-names></name>. <article-title>Model organisms: There's more to life than rats and flies</article-title>. <source>Nature</source>. <year>2012</year>;<volume>491</volume>(<issue>7422</issue>):<fpage>31</fpage>–<lpage>3</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/491031a" xlink:type="simple">10.1038/491031a</ext-link></comment> <object-id pub-id-type="pmid">23128209</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Benestad</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Austbo</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Tranulis</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Espenes</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Olsaker</surname> <given-names>I</given-names></name>. <article-title>Healthy goats naturally devoid of prion protein</article-title>. <source>Veterinary Research</source>. <year>2012</year>;<volume>43</volume>(<issue>1</issue>):<fpage>87</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1297-9716-43-87" xlink:type="simple">10.1186/1297-9716-43-87</ext-link></comment> <object-id pub-id-type="pmid">23249298</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Reiten</surname> <given-names>MR</given-names></name>, <name name-style="western"><surname>Bakkebø</surname> <given-names>MK</given-names></name>, <name name-style="western"><surname>Brun-Hansen</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Lewandowska-Sabat</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Olsaker</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Tranulis</surname> <given-names>MA</given-names></name>, <etal>et al</etal>. <article-title>Hematological shift in goat kids naturally devoid of prion protein</article-title>. <source>Frontiers in Cell and Developmental Biology</source>. <year>2015</year>;<volume>3</volume>:<fpage>44</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fcell.2015.00044" xlink:type="simple">10.3389/fcell.2015.00044</ext-link></comment> <object-id pub-id-type="pmid">26217662</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Richt</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Kasinathan</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Hamir</surname> <given-names>AN</given-names></name>, <name name-style="western"><surname>Castilla</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Sathiyaseelan</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Vargas</surname> <given-names>F</given-names></name>, <etal>et al</etal>. <article-title>Production of cattle lacking prion protein</article-title>. <source>Nature biotechnology</source>. <year>2007</year>;<volume>25</volume>(<issue>1</issue>):<fpage>132</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nbt1271" xlink:type="simple">10.1038/nbt1271</ext-link></comment> <object-id pub-id-type="pmid">17195841</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dürig</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Giese</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Schulz-Schaeffer</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Rosenthal</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Schmücker</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Bieschke</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Differential constitutive and activation-dependent expression of prion protein in human peripheral blood leucocytes</article-title>. <source>British Journal of Haematology</source>. <year>2000</year>;<volume>108</volume>(<issue>3</issue>):<fpage>488</fpage>–<lpage>95</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1046/j.1365-2141.2000.01881.x" xlink:type="simple">10.1046/j.1365-2141.2000.01881.x</ext-link></comment> <object-id pub-id-type="pmid">10759704</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Isaacs</surname> <given-names>JD</given-names></name>, <name name-style="western"><surname>Jackson</surname> <given-names>GS</given-names></name>, <name name-style="western"><surname>Altmann</surname> <given-names>DM</given-names></name>. <article-title>The role of the cellular prion protein in the immune system</article-title>. <source>Clinical and Experimental Immunology</source>. <year>2006</year>;<volume>146</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>8</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1365-2249.2006.03194.x" xlink:type="simple">10.1111/j.1365-2249.2006.03194.x</ext-link></comment> <object-id pub-id-type="pmid">16968391</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Isaacs</surname> <given-names>JD</given-names></name>, <name name-style="western"><surname>Garden</surname> <given-names>OA</given-names></name>, <name name-style="western"><surname>Kaur</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Collinge</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Jackson</surname> <given-names>GS</given-names></name>, <name name-style="western"><surname>Altmann</surname> <given-names>DM</given-names></name>. <article-title>The cellular prion protein is preferentially expressed by CD4<sup>+</sup> CD25<sup>+</sup> Foxp3<sup>+</sup> regulatory T cells</article-title>. <source>Immunology</source>. <year>2008</year>;<volume>125</volume>(<issue>3</issue>):<fpage>313</fpage>–<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1365-2567.2008.02853.x" xlink:type="simple">10.1111/j.1365-2567.2008.02853.x</ext-link></comment> <object-id pub-id-type="pmid">18462346</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mariante</surname> <given-names>RM</given-names></name>, <name name-style="western"><surname>Nóbrega</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Martins</surname> <given-names>RAP</given-names></name>, <name name-style="western"><surname>Areal</surname> <given-names>RB</given-names></name>, <name name-style="western"><surname>Bellio</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Linden</surname> <given-names>R</given-names></name>. <article-title>Neuroimmunoendocrine regulation of the prion protein in neutrophils</article-title>. <source>The Journal of Biological Chemistry</source>. <year>2012</year>;<volume>287</volume>(<issue>42</issue>):<fpage>35506</fpage>–<lpage>15</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1074/jbc.M112.394924" xlink:type="simple">10.1074/jbc.M112.394924</ext-link></comment> <object-id pub-id-type="pmid">22910907</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Robinson</surname> <given-names>MD</given-names></name>, <name name-style="western"><surname>McCarthy</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Smyth</surname> <given-names>GK</given-names></name>. <article-title>edgeR: a Bioconductor package for differential expression analysis of digital gene expression data</article-title>. <source>Bioinformatics</source>. <year>2010</year>;<volume>26</volume>(<issue>1</issue>):<fpage>139</fpage>–<lpage>40</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/bioinformatics/btp616" xlink:type="simple">10.1093/bioinformatics/btp616</ext-link></comment> <object-id pub-id-type="pmid">19910308</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rusinova</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Forster</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Yu</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Kannan</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Masse</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Cumming</surname> <given-names>H</given-names></name>, <etal>et al</etal>. <article-title>INTERFEROME v2.0: an updated database of annotated interferon-regulated genes</article-title>. <source>Nucleic Acids Research</source>. <year>2013</year>;<volume>41</volume>(Database issue):<fpage>D1040</fpage>–<lpage>D6</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/nar/gks1215" xlink:type="simple">10.1093/nar/gks1215</ext-link></comment> <object-id pub-id-type="pmid">23203888</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Salvesen</surname> <given-names>Ø</given-names></name>, <name name-style="western"><surname>Reiten</surname> <given-names>MR</given-names></name>, <name name-style="western"><surname>Heegaard</surname> <given-names>PMH</given-names></name>, <name name-style="western"><surname>Tranulis</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Espenes</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Skovgaard</surname> <given-names>K</given-names></name>, <etal>et al</etal>. <article-title>Activation of innate immune genes in caprine blood leukocytes after systemic endotoxin challenge</article-title>. <source>BMC Veterinary Research</source>. <year>2016</year>;<volume>12</volume>:<fpage>241</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12917-016-0870-x" xlink:type="simple">10.1186/s12917-016-0870-x</ext-link></comment> <object-id pub-id-type="pmid">27793136</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref035"><label>35</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Salvesen</surname> <given-names>Ø</given-names></name>, <name name-style="western"><surname>Reiten</surname> <given-names>MR</given-names></name>, <name name-style="western"><surname>Espenes</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Bakkebø</surname> <given-names>MK</given-names></name>, <name name-style="western"><surname>Tranulis</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Ersdal</surname> <given-names>C</given-names></name>. <article-title>LPS-induced systemic inflammation reveals an immunomodulatory role for the prion protein at the blood-brain interface</article-title>. <source>Journal of Neuroinflammation</source>. <year>2017</year>;<volume>14</volume>:<fpage>106</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12974-017-0879-5" xlink:type="simple">10.1186/s12974-017-0879-5</ext-link></comment> <object-id pub-id-type="pmid">28532450</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref036"><label>36</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yu</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Xu</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Zhu</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Yu</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Generation of goats lacking prion protein</article-title>. <source>Molecular Reproduction and Development</source>. <year>2009</year>;<volume>76</volume>(<issue>1</issue>):<fpage>3</fpage>–. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/mrd.20960" xlink:type="simple">10.1002/mrd.20960</ext-link></comment> <object-id pub-id-type="pmid">18951376</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref037"><label>37</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Benvegnù</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Roncaglia</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Agostini</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Casalone</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Corona</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Gustincich</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Developmental influence of the cellular prion protein on the gene expression profile in mouse hippocampus</article-title>. <source>Physiol Genomics</source>. <year>2011</year>;<volume>43</volume>(<issue>12</issue>):<fpage>711</fpage>–<lpage>25</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1152/physiolgenomics.00205.2010" xlink:type="simple">10.1152/physiolgenomics.00205.2010</ext-link></comment> <object-id pub-id-type="pmid">21406608</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref038"><label>38</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Satoh</surname> <given-names>J-i</given-names></name>, <name name-style="western"><surname>Kuroda</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Katamine</surname> <given-names>S</given-names></name>. <article-title>Gene expression profile in prion protein-deficient fibroblasts in culture</article-title>. <source>The American Journal of Pathology</source>. <year>2000</year>;<volume>157</volume>(<issue>1</issue>):<fpage>59</fpage>–<lpage>68</lpage>. <object-id pub-id-type="pmid">10880376</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref039"><label>39</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ramljak</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Asif</surname> <given-names>AR</given-names></name>, <name name-style="western"><surname>Armstrong</surname> <given-names>VW</given-names></name>, <name name-style="western"><surname>Wrede</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Groschup</surname> <given-names>MH</given-names></name>, <name name-style="western"><surname>Buschmann</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Physiological role of the cellular prion protein (PrP<sup>c</sup>): Protein profiling study in two cell culture systems</article-title>. <source>Journal of Proteome Research</source>. <year>2008</year>;<volume>7</volume>(<issue>7</issue>):<fpage>2681</fpage>–<lpage>95</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1021/pr7007187" xlink:type="simple">10.1021/pr7007187</ext-link></comment> <object-id pub-id-type="pmid">18537284</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref040"><label>40</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chadi</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Young</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Le Guillou</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Tilly</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Bitton</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Martin-Magniette</surname> <given-names>M-L</given-names></name>, <etal>et al</etal>. <article-title>Brain transcriptional stability upon prion protein-encoding gene invalidation in zygotic or adult mouse</article-title>. <source>BMC Genomics</source>. <year>2010</year>;<volume>11</volume>:<fpage>448</fpage>–. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2164-11-448" xlink:type="simple">10.1186/1471-2164-11-448</ext-link></comment> <object-id pub-id-type="pmid">20649983</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref041"><label>41</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Crecelius</surname> <given-names>AC</given-names></name>, <name name-style="western"><surname>Helmstetter</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Strangmann</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Mitteregger</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Fröhlich</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Arnold</surname> <given-names>GJ</given-names></name>, <etal>et al</etal>. <article-title>The brain proteome profile is highly conserved between Prnp<sup>−/−</sup> and Prnp<sup>+/+</sup> mice</article-title>. <source>NeuroReport</source>. <year>2008</year>;<volume>19</volume>(<issue>10</issue>):<fpage>1027</fpage>–<lpage>31</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/WNR.0b013e3283046157" xlink:type="simple">10.1097/WNR.0b013e3283046157</ext-link></comment> <object-id pub-id-type="pmid">18580573</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref042"><label>42</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Baker</surname> <given-names>CA</given-names></name>, <name name-style="western"><surname>Lu</surname> <given-names>ZY</given-names></name>, <name name-style="western"><surname>Manuelidis</surname> <given-names>L</given-names></name>. <article-title>Early induction of interferon-responsive mRNAs in Creutzfeldt-Jakob disease</article-title>. <source>Journal of NeuroVirology</source>. <year>2004</year>;<volume>10</volume>:<fpage>29</fpage>–<lpage>40</lpage>. <object-id pub-id-type="pmid">14982726</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref043"><label>43</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Carroll</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Striebel</surname> <given-names>JF</given-names></name>, <name name-style="western"><surname>Race</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Phillips</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Chesebro</surname> <given-names>B</given-names></name>. <article-title>Prion infection of mouse brain reveals multiple new upregulated genes involved in neuroinflammation or signal transduction</article-title>. <source>Journal of Virology</source>. <year>2015</year>;<volume>89</volume>(<issue>4</issue>):<fpage>2388</fpage>–<lpage>404</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JVI.02952-14" xlink:type="simple">10.1128/JVI.02952-14</ext-link></comment> <object-id pub-id-type="pmid">25505076</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref044"><label>44</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Riemer</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Queck</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Simon</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Kurth</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Baier</surname> <given-names>M</given-names></name>. <article-title>Identification of upregulated genes in scrapie-infected brain tissue</article-title>. <source>Journal of Virology</source>. <year>2000</year>;<volume>74</volume>(<issue>21</issue>):<fpage>10245</fpage>–<lpage>8</lpage>. <object-id pub-id-type="pmid">11024157</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref045"><label>45</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Stobart</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Parchaliuk</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Simon</surname> <given-names>SLR</given-names></name>, <name name-style="western"><surname>LeMaistre</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Lazar</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Rubenstein</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Differential expression of interferon responsive genes in rodent models of transmissible spongiform encephalopathy disease</article-title>. <source>Molecular Neurodegeneration</source>. <year>2007</year>;<volume>2</volume>:<fpage>5</fpage>–. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1750-1326-2-5" xlink:type="simple">10.1186/1750-1326-2-5</ext-link></comment> <object-id pub-id-type="pmid">17367538</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref046"><label>46</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Herrmann</surname> <given-names>US</given-names></name>, <name name-style="western"><surname>Sonati</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Falsig</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Reimann</surname> <given-names>RR</given-names></name>, <name name-style="western"><surname>Dametto</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>O’Connor</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Prion infections and anti-PrP antibodies trigger converging neurotoxic pathways</article-title>. <source>PLoS Pathogens</source>. <year>2015</year>;<volume>11</volume>(<issue>2</issue>):<fpage>e1004662</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.ppat.1004662" xlink:type="simple">10.1371/journal.ppat.1004662</ext-link></comment> <object-id pub-id-type="pmid">25710374</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref047"><label>47</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ivashkiv</surname> <given-names>LB</given-names></name>, <name name-style="western"><surname>Donlin</surname> <given-names>LT</given-names></name>. <article-title>Regulation of type I interferon responses</article-title>. <source>Nat Rev Immunol</source>. <year>2014</year>;<volume>14</volume>(<issue>1</issue>):<fpage>36</fpage>–<lpage>49</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nri3581" xlink:type="simple">10.1038/nri3581</ext-link></comment> <object-id pub-id-type="pmid">24362405</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref048"><label>48</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Porritt</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Hertzog</surname> <given-names>PJ</given-names></name>. <article-title>Dynamic control of type I IFN signalling by an integrated network of negative regulators</article-title>. <source>Trends in Immunology</source>. <year>2015</year>;<volume>36</volume>(<issue>3</issue>):<fpage>150</fpage>–<lpage>60</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.it.2015.02.002" xlink:type="simple">http://dx.doi.org/10.1016/j.it.2015.02.002</ext-link></comment> <object-id pub-id-type="pmid">25725583</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref049"><label>49</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Li</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Yu</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Lam</surname> <given-names>T-W</given-names></name>, <name name-style="western"><surname>Yiu</surname> <given-names>S-M</given-names></name>, <name name-style="western"><surname>Kristiansen</surname> <given-names>K</given-names></name>, <etal>et al</etal>. <article-title>SOAP2: an improved ultrafast tool for short read alignment</article-title>. <source>Bioinformatics</source>. <year>2009</year>;<volume>25</volume>(<issue>15</issue>):<fpage>1966</fpage>–<lpage>7</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/bioinformatics/btp336" xlink:type="simple">10.1093/bioinformatics/btp336</ext-link></comment> <object-id pub-id-type="pmid">19497933</object-id></mixed-citation></ref>
+<ref id="pone.0179881.ref050"><label>50</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mortazavi</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Williams</surname> <given-names>BA</given-names></name>, <name name-style="western"><surname>McCue</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Schaeffer</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Wold</surname> <given-names>B</given-names></name>. <article-title>Mapping and quantifying mammalian transcriptomes by RNA-Seq</article-title>. <source>Nat Meth</source>. <year>2008</year>;<volume>5</volume>(<issue>7</issue>):<fpage>621</fpage>–<lpage>8</lpage>. <ext-link ext-link-type="uri" xlink:href="http://www.nature.com/nmeth/journal/v5/n7/suppinfo/nmeth.1226_S1.html" xlink:type="simple">http://www.nature.com/nmeth/journal/v5/n7/suppinfo/nmeth.1226_S1.html</ext-link>.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

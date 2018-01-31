@@ -1,0 +1,90 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="correction" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmcid">3820444</article-id>
+      <article-id pub-id-type="doi">10.1371/annotation/d41768c5-b58a-4355-ad17-166f70e347b8</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Correction</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Correction: SNP Detection in mRNA in Living Cells Using Allele Specific FRET Probes</article-title>
+        <alt-title alt-title-type="running-head">Correction</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Dahan</surname>
+            <given-names>Liya</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Huang</surname>
+            <given-names>Lingyan</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Kedmi</surname>
+            <given-names>Ranit</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Behlke</surname>
+            <given-names>Mark A.</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Peer</surname>
+            <given-names>Dan</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <pub-date pub-type="collection">
+        <year>2013</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>7</day>
+        <month>11</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>8</volume>
+      <issue>11</issue>
+      <elocation-id>10.1371/annotation/d41768c5-b58a-4355-ad17-166f70e347b8</elocation-id>
+      <permissions>
+        <copyright-year>2013</copyright-year>
+        
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license>
+      </permissions>
+      <related-article id="d35e87" related-article-type="corrected-article" ext-link-type="doi" xlink:href="info:doi/10.1371/journal.pone.0072389" vol="8" page="e72389" xlink:type="simple">
+<article-title>SNP Detection in mRNA in Living Cells Using Allele Specific FRET Probes</article-title>
+</related-article>
+    <author-notes><fn fn-type="conflict"><p>No competing interests declared.</p></fn></author-notes></article-meta>
+  </front>
+  <body><p>Figures 4 and 5 were incorrectly switched. The image currently appearing as Figure 4 belongs with the title and legend of Figure 5, and the image currently appearing as Figure 5 belongs with the title and legend of Figure 4. The titles and legends themselves are in correct order.
+
+In addition, there was an error in Figure 3. Please see the correct Figure 3 here: <fig position="float"><graphic xlink:href="info:doi/10.1371/annotation/d41768c5-b58a-4355-ad17-166f70e347b8.g003.cn" xlink:type="simple" position="float"/></fig></p></body><back>
+    <fn-group>
+      
+    </fn-group>
+  </back>
+</article>

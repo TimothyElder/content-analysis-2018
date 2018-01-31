@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1d3" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0155954</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-16-01983</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Health care</subject><subj-group><subject>Socioeconomic aspects of health</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Public and occupational health</subject><subj-group><subject>Socioeconomic aspects of health</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Public and occupational health</subject><subj-group><subject>Behavioral and social aspects of health</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social sciences</subject><subj-group><subject>Sociology</subject><subj-group><subject>Social mobility</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Developmental biology</subject><subj-group><subject>Organism development</subject><subj-group><subject>Aging</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Physiological processes</subject><subj-group><subject>Aging</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Physiological processes</subject><subj-group><subject>Aging</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Epidemiology</subject><subj-group><subject>Lifecourse epidemiology</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social sciences</subject><subj-group><subject>Sociology</subject><subj-group><subject>Social research</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Research design</subject><subj-group><subject>Cohort studies</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biomechanics</subject><subj-group><subject>Hand strength</subject></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>The Association of Levels of and Decline in Grip Strength in Old Age with Trajectories of Life Course Occupational Position</article-title>
+<alt-title alt-title-type="running-head">The Association of Grip Strength in Old Age Life Course Occupational Position</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-1576-5519</contrib-id>
+<name name-style="western">
+<surname>Kröger</surname>
+<given-names>Hannes</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Fritzell</surname>
+<given-names>Johan</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Hoffmann</surname>
+<given-names>Rasmus</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>European University Institute, Florence, Italy</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Aging Research Center, Karolinska Institutet &amp; Stockholm University, Stockholm, Sweden</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Song</surname>
+<given-names>Yiqing</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Indiana University Richard M. Fairbanks School of Public Health, UNITED STATES</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="con" id="contrib001">
+<p>Analyzed the data: HK. Wrote the paper: HK RH JF.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">hannes.kroger@eui.eu</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>27</day>
+<month>5</month>
+<year>2016</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2016</year>
+</pub-date>
+<volume>11</volume>
+<issue>5</issue>
+<elocation-id>e0155954</elocation-id>
+<history>
+<date date-type="received">
+<day>15</day>
+<month>1</month>
+<year>2016</year>
+</date>
+<date date-type="accepted">
+<day>6</day>
+<month>5</month>
+<year>2016</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2016</copyright-year>
+<copyright-holder>Kröger et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0155954"/>
+<abstract>
+<sec id="sec001">
+<title>Background</title>
+<p>The study of the influence of life course <bold><italic>occupational</italic></bold> position (OP) on health in old age demands analysis of time patterns in both OP and health. We study associations between life course time patterns of OP and decline in grip strength in old age.</p>
+</sec>
+<sec id="sec002">
+<title>Methods</title>
+<p>We analyze 5 waves from the Survey of Health Ageing and Retirement in Europe (n = 5108, ages 65–90). We use a pattern-mixture latent growth model to predict the level and decline in grip strength in old age by trajectory of life course OP. We extend and generalize the structured regression approach to establish the explanatory power of different life course models for both the level and decline of grip strength.</p>
+</sec>
+<sec id="sec003">
+<title>Results</title>
+<p>Grip strength declined linearly by 0.70 kg (95% CI -0.74;-0.66) for men and 0.42 kg (95% CI -0.45;-0.39) for women per year. The level of men’s grip strength can best be explained by a critical period during midlife, with those exposed to low OP during this period having 1.67 kg (95% CI -2.33;-1.00) less grip strength. These differences remain constant over age. For women, no association between OP and levels of or decline in grip strength was found.</p>
+</sec>
+<sec id="sec004">
+<title>Conclusions</title>
+<p>Men’s OP in midlife seems to be a critical period for the level of grip strength in old age. Inequalities remain constant over age. The integration of the structured regression approach and latent growth modelling offers new possibilities for life course epidemiology.</p>
+</sec>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution>European Research Council (BE)</institution>
+</funding-source>
+<award-id>313532</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Hoffmann</surname>
+<given-names>Rasmus</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award002">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100004785</institution-id>
+<institution>NordForsk</institution>
+</institution-wrap>
+</funding-source>
+<award-id>74637</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Fritzell</surname>
+<given-names>Johan</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>This work was supported by the European Research Council (ERC): [ERC: 313532] (<ext-link ext-link-type="uri" xlink:href="https://erc.europa.eu/" xlink:type="simple">https://erc.europa.eu/</ext-link>) and NordForsk [74637] (<ext-link ext-link-type="uri" xlink:href="http://www.nordforsk.org/" xlink:type="simple">http://www.nordforsk.org/</ext-link>). The SHARE data collection has been primarily funded by the European Commission through the 5th Framework Programme (project QLK6-CT-2001-00360 in the thematic programme Quality of Life), through the 6th Framework Programme (projects SHARE-I3, RII-CT-2006-062193, COMPARE, CIT5- CT-2005-028857, and SHARELIFE, CIT4-CT-2006-028812) and through the 7th Framework Programme (SHARE-PREP, N° 211909, SHARE-LEAP, N° 227822 and SHARE M4, N° 261982). Additional funding from the U.S. National Institute on Aging (U01 AG09740-13S2, P01 AG005842, P01 AG08291, P30 AG12815, R21 AG025169, Y1-AG-4553-01, IAG BSR06-11 and OGHA 04-064), and the German Ministry of Education and Research, as well as from various national sources, is gratefully acknowledged (see <ext-link ext-link-type="uri" xlink:href="http://www.share-project.org" xlink:type="simple">www.share-project.org</ext-link> for a full list of funding institutions). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="2"/>
+<table-count count="7"/>
+<page-count count="16"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>The data cannot be uploaded in a repository due to data protection policy of SHARE. We cite from the SHARE website: “Data users are not allowed to make copies of the data available to others and/or enable any third party access to the database. Anyone wanting to use the data must contact CentERdata directly to request a copy of the data free of charge. Access to the SHARE data will only be granted on an individual basis. Each person working on a scientific project and/or publication using SHARE data has to fill out and sign the statement concerning the use of SHARE data individually.” However, data are available from SHARE Research Data Center which is physically located at CentERdata on the Tilburg University campus in the Netherlands. There is no fee for scientific use of the data. The download procedure and the conditions for data access are described here: <ext-link ext-link-type="uri" xlink:href="http://www.shareproject.org/data-access-documentation/research-data-center-data-access.html" xlink:type="simple">http://www.shareproject.org/data-access-documentation/research-data-center-data-access.html</ext-link>. Further, we will upload the Code necessary to replicate the data management, analyses, and data extraction (including tables and graphs). In this way other researchers can register with SHARE for free, download the data set, run our code and in this way reproduce all our results.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec005" sec-type="intro">
+<title>Introduction</title>
+<p>Life course research in social epidemiology has often considered either time-patterns of socio-economic position (SEP) as predictors for static measurements of physical function, or static measurements of SEP as determinants of levels and change in physical function in old age. In the first type of study, the objective is often to identify the influence of different trajectories of SEP on health in later life. Many studies try to distinguish between models of accumulation, critical periods, or social mobility. While some authors have argued that this distinction might never be possible[<xref ref-type="bibr" rid="pone.0155954.ref001">1</xref>], other approaches have been developed that treat discriminating between models as an empirical problem[<xref ref-type="bibr" rid="pone.0155954.ref002">2</xref>–<xref ref-type="bibr" rid="pone.0155954.ref006">6</xref>]. The accumulation model proposes that in each period in the life course risk factors can influence health, and that resulting health inequalities accumulate over time. The critical or sensitive period models stress the importance of a particular time window in the life course (often childhood) as the main or even sole period in which SEP exacts an influence on health later in life[<xref ref-type="bibr" rid="pone.0155954.ref007">7</xref>]. Whereas the stronger version of this model assumes irreversibility, the softer version, often referred to as sensitive period model, note that later events can modify the effects of the earlier exposure. Alternatively, social mobility models stress possible health effects of both inter- and intra-generational upwards or downwards social mobility. These studies take a dynamic perspective on SEP or other risk factors, but predominantly a static perspective on the health outcome [<xref ref-type="bibr" rid="pone.0155954.ref008">8</xref>–<xref ref-type="bibr" rid="pone.0155954.ref012">12</xref>]. The second type of studies often use indicators from a certain point in time, or time-constant indicators of SEP, to predict trajectories of health[<xref ref-type="bibr" rid="pone.0155954.ref013">13</xref>–<xref ref-type="bibr" rid="pone.0155954.ref015">15</xref>] Moreover, few of these studies focus on health at old age. If the developments are investigated with respect to health inequalities, three general scenarios can be expected. The <italic>age-as-leveler</italic> hypothesis predicts decreasing inequalities with higher age due to selective mortality, lack of further exposure to poor working conditions, and the overriding influence of biological aging[<xref ref-type="bibr" rid="pone.0155954.ref016">16</xref>,<xref ref-type="bibr" rid="pone.0155954.ref017">17</xref>]. Proponents of <italic>cumulative (dis)advantage</italic> would expect existing inequalities to increase as certain factors like health behavior or living conditions continue to work as drivers of health inequality in old age[<xref ref-type="bibr" rid="pone.0155954.ref018">18</xref>]. Lastly, it is possible that health inequalities remain largely stable throughout old age.</p>
+<p>We endeavor to combine these two perspectives to investigate the association between trajectories in occupational position (OP) throughout the life course and levels and decline of grip strength. This combined approach yields a more comprehensive picture of the interplay between trajectories of OP and physical function in old age[<xref ref-type="bibr" rid="pone.0155954.ref019">19</xref>]. We estimate the association between levels of and decline in grip strength with life course OP for all possible trajectories separately, and test patterns in these trajectories according to the established models of accumulation, critical periods, or social mobility. For this purpose, we generalize the structured regression approach[<xref ref-type="bibr" rid="pone.0155954.ref020">20</xref>] to the framework of structural equation modeling (SEM) to be compatible with the prediction of differences in intercept and slope of a latent growth model (LGM).</p>
+<p>Grip strength has become a popular indicator of physical functioning in surveys. It is both indicative of overall muscle and physical functioning [<xref ref-type="bibr" rid="pone.0155954.ref021">21</xref>]. Physical functioning in old age is an important prerequisite for independence, quality of life and for avoiding comorbidities due to inhibited mobility [<xref ref-type="bibr" rid="pone.0155954.ref022">22</xref>]. Grip strength is objectively measured, avoiding biases that might arise in self-reports. It is further predictive of mortality, showing that it is related to health status more generally. Further, its measurement has no relevant floor or ceiling effects. This means that improvement or worsening of the indicator is possible at almost all levels of the measurement. This is especially important if individual decline is to be measured and a great advantage over scales of physical functioning like activities of daily living (ADL) in surveys which do have floor and ceiling effects.</p>
+<p>Our study contributes to life course epidemiology: firstly, by integrating theories on life course models of exposure and change in health inequalities; secondly, by providing empirical results from a large European dataset; and thirdly, by illustrating a novel combination of the structured regression approach with LGM.</p>
+</sec>
+<sec id="sec006" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<p>The analysis is based on anonymized secondary data. The SHARE survey is subject to ethical approval of Ethics Council of the Max-Planck-Society for the Advancement of Science.</p>
+<p>The Survey of Health Ageing and Retirement in Europe consists of data on health and socioeconomic variables of non-institutionalized individuals aged 50 and older across 20 European countries[<xref ref-type="bibr" rid="pone.0155954.ref023">23</xref>]. We use waves 1–5, collected bi-annually between 2004 and 2013. In the third wave, retrospective life course data was collected on OP from childhood to old age[<xref ref-type="bibr" rid="pone.0155954.ref024">24</xref>].</p>
+<p>The total sample of the SHARE respondents was restricted in the following way. Firstly, only participants of wave three who answered the life history questionnaire were retained. Secondly, all those who reported never having been employed, or who had missing information on childhood or adulthood OP, were excluded. The third restriction was that all individuals had to be between 65 and 90 (birth cohorts 1922 to 1938) and no longer working during the period of observation. The resulting sample consists of 3067 men and 2041 women in 13 countries taking part in wave three (Austria, Germany, Sweden, Netherlands, Spain, Italy, France, Denmark, Greece, Switzerland, Belgium, Czech Republic, Poland).</p>
+<sec id="sec007">
+<title>Measures</title>
+<p>We dichotomized OP, separating the group of <italic>elementary occupation</italic> (ISCO-88 major group 9) from all others. Workers in this group perform mostly simple and routine tasks, in some cases with considerable physical effort[<xref ref-type="bibr" rid="pone.0155954.ref025">25</xref>]. We defined three life course periods: Childhood (0–15), young adulthood (16–35), and midlife (36–64). The cut-off between young adulthood and midlife was chosen at 35, because grip strength peaks around the mid-thirties[<xref ref-type="bibr" rid="pone.0155954.ref026">26</xref>,<xref ref-type="bibr" rid="pone.0155954.ref027">27</xref>]. The indicator of exposure to low OP for childhood is the OP of the main breadwinner at age ten. For young adulthood and midlife periods the indicator refers to their own occupational status. We coded as ‘exposed to low OP’ all individuals who had worked in an elementary occupation for at least half of the years in which they reported an occupational status.</p>
+<p>The highest grip strength measurement of two measurements per hand (dynamometer type: Smedley, S Dynamometer, TTM, Tokyo, 100kg)[<xref ref-type="bibr" rid="pone.0155954.ref028">28</xref>] is used as an indicator of grip strength, measured in all five waves. Grip strength has been shown to be a predictor of disability[<xref ref-type="bibr" rid="pone.0155954.ref022">22</xref>,<xref ref-type="bibr" rid="pone.0155954.ref029">29</xref>–<xref ref-type="bibr" rid="pone.0155954.ref031">31</xref>], morbidity[<xref ref-type="bibr" rid="pone.0155954.ref021">21</xref>,<xref ref-type="bibr" rid="pone.0155954.ref029">29</xref>,<xref ref-type="bibr" rid="pone.0155954.ref032">32</xref>], and mortality [<xref ref-type="bibr" rid="pone.0155954.ref033">33</xref>–<xref ref-type="bibr" rid="pone.0155954.ref036">36</xref>], and a correlate of other aspects of physical aging like frailty[<xref ref-type="bibr" rid="pone.0155954.ref037">37</xref>]. Furthermore, different dimensions of SEP predict grip strength[<xref ref-type="bibr" rid="pone.0155954.ref038">38</xref>–<xref ref-type="bibr" rid="pone.0155954.ref040">40</xref>], making it a useful indicator for grip strength in old age.</p>
+<p>Grip strength is not observed for all individuals at each wave. We divided the sample into five missing value patterns (<xref ref-type="table" rid="pone.0155954.t001">Table 1</xref>) and applied a pattern-mixture (PM) model [<xref ref-type="bibr" rid="pone.0155954.ref041">41</xref>] to correct for possible bias in the estimation of the LGM due to health related drop-outs or item-non-response[<xref ref-type="bibr" rid="pone.0155954.ref042">42</xref>]. This includes a correction for those who drop out due to death and those who are no longer able to perform the grip strength measurement. The means of the intercept and slope, and their association with life course occupational status, are estimated separately for these five groups. We also reran the analyzes using the more restrictive missing at random (MAR) assumption. The conclusions in our paper are not affected by the decision to adopt a PM over a MAR approach. We report the PM results in the main paper, because they rely on less strict assumptions than the MAR approach. We document the core results of MAR in Tables C, P and Q in <xref ref-type="supplementary-material" rid="pone.0155954.s001">S1 Appendix</xref>.</p>
+<table-wrap id="pone.0155954.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0155954.t001</object-id>
+<label>Table 1</label> <caption><title>Missing value patterns and participation in waves in the sample–Frequency (%).</title></caption>
+<alternatives>
+<graphic id="pone.0155954.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0155954.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Missing value Pattern</th>
+<th align="center">Men</th>
+<th align="center">Women</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">(1) Complete cases</td>
+<td align="center">832 (27.13)</td>
+<td align="center">545 (26.70)</td>
+</tr>
+<tr>
+<td align="left">(2) Intermittent missings</td>
+<td align="center">479 (15.62)</td>
+<td align="center">362 (17.74)</td>
+</tr>
+<tr>
+<td align="left">(3) No information after wave2(including drop-outs in wave 4)</td>
+<td align="center">891 (29.05)</td>
+<td align="center">503 (24.64)</td>
+</tr>
+<tr>
+<td align="left">(4) No information in wave 5</td>
+<td align="center">527 (17.18)</td>
+<td align="center">362 (17.74)</td>
+</tr>
+<tr>
+<td align="left">(5) Start at wave2, afterwards complete cases</td>
+<td align="center">338 (11.02)</td>
+<td align="center">269 (13.18)</td>
+</tr>
+<tr>
+<td align="left">Participation in wave 1</td>
+<td align="center">2112 (68.86)</td>
+<td align="center">1299 (63.65)</td>
+</tr>
+<tr>
+<td align="left">Participation in wave 2</td>
+<td align="center">2836 (92.47)</td>
+<td align="center">1895 (92.85)</td>
+</tr>
+<tr>
+<td align="left">Participation in wave 3</td>
+<td align="center">3067 (100)</td>
+<td align="center">2041 (100)</td>
+</tr>
+<tr>
+<td align="left">Participation in wave 4</td>
+<td align="center">2239 (73.00)</td>
+<td align="center">1575 (77.17)</td>
+</tr>
+<tr>
+<td align="left">Participation in wave 5</td>
+<td align="center">1784 (58.17)</td>
+<td align="center">1297 (63.55)</td>
+</tr>
+<tr>
+<td align="left">Total</td>
+<td align="center">3067</td>
+<td align="center">2041</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p><italic>Note</italic>: The estimation of the mean of the intercept, slope, and their association with life course OP is estimated separately for the 5 patterns. The weighted average is then calculated (see “Formulas for the estimation of the LGM and the generalization of SRA” in the <xref ref-type="sec" rid="sec013">supporting information</xref> for details).</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>In our model we let the initial level of grip strength (intercept) and the decline in grip strength (slope) be correlated. Positive values of the correlation indicate that those with higher initial levels of grip strength have a stronger decline, while negative values mean that initially high levels of grip strength are associated with slower decline. This means that all parameter estimates and comparisons of models in our analyses take this potential association into account and can be interpreted as after accounting for possible correlation of initial level and subsequent decline in grip strength.</p>
+<p>All data preparation and summary statistics were conducted using Stata 14.1 with user written extensions [<xref ref-type="bibr" rid="pone.0155954.ref043">43</xref>,<xref ref-type="bibr" rid="pone.0155954.ref044">44</xref>]. The whole code necessary to replicate the analyses is available in <xref ref-type="supplementary-material" rid="pone.0155954.s002">S1 Code</xref>.</p>
+</sec>
+<sec id="sec008">
+<title>Statistical analysis</title>
+<p>We proceed in three steps in our analysis. First, we estimate the overall level of and decline in grip strength using LGM. We use month-specific age at each wave as an individually varying time-point[<xref ref-type="bibr" rid="pone.0155954.ref045">45</xref>]. The LGM is defined in the following way:
+<disp-formula id="pone.0155954.e001">
+<alternatives>
+<graphic id="pone.0155954.e001g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0155954.e001" xlink:type="simple"/>
+<mml:math display="block" id="M1">
+<mml:mtable columnalign="left"><mml:mtr><mml:mtd><mml:msub><mml:mi mathvariant="bold-italic">y</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mspace width="0.15em"/><mml:mi mathvariant="bold-italic">Λ</mml:mi><mml:msub><mml:mi mathvariant="bold-italic">η</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi mathvariant="bold-italic">ϵ</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mi mathvariant="bold-italic">η</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi mathvariant="bold-italic">μ</mml:mi><mml:mi>η</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi mathvariant="bold-italic">ζ</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mtd></mml:mtr></mml:mtable>
+</mml:math>
+</alternatives>
+<label>(1)</label>
+</disp-formula></p>
+<p>The index <italic>i</italic> refers to the observed individuals. <bold><italic>y</italic></bold> is the vector of the five observed measures of grip strength, <bold><italic>Λ</italic></bold> is the vector of constraints, identifying intercept and slope<bold>. <italic>ϵ</italic></bold><sub><italic>i</italic></sub> represents the vector of individual specific errors in grip strength. <bold><italic>η</italic></bold><sub><italic>i</italic></sub> contains the values of each individual on the intercept and slope parameter, <bold><italic>μ</italic></bold><sub><italic>η</italic></sub> holds the means of the intercept and slope, representing level and decline in physical functioning, and <bold><italic>ζ</italic></bold><sub><bold><italic>i</italic></bold></sub> is the individual deviation from the mean of the intercept and slope, representing the variability in level and decline of physical functioning.</p>
+<p>Second, we estimate the association between life course OP trajectories and both level and decline of grip strength. In our model we include dummy variables for each of the countries and dummies for three year cohorts. The coefficients of these dummies reflect differences in initial level and decline of grip strength between cohorts and countries. Therefore, our estimates can be interpreted as differences in level and decline of grip strength between different trajectories of occupational position, after adjusting for differences between countries and cohorts.</p>
+<p>Third, we use the structured regression approach (SRA), which was developed to distinguish between patterns of life course exposure according to the theories of accumulation, critical and sensitive periods, and social mobility[<xref ref-type="bibr" rid="pone.0155954.ref020">20</xref>]. We generalize the original approach so that it can be applied in a SEM framework for the prediction of level and decline of grip strength.</p>
+<p>The intercept (level) and slope (decline) of grip strength are predicted by exposure in the three periods of life course and all their interactions (<bold><italic>X</italic></bold><sub><bold><italic>i</italic></bold></sub>) and controlled for differences between countries and cohorts (<bold><italic>C</italic></bold><sub><italic>i</italic></sub>):
+<disp-formula id="pone.0155954.e002">
+<alternatives>
+<graphic id="pone.0155954.e002g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0155954.e002" xlink:type="simple"/>
+<mml:math display="block" id="M2">
+<mml:mrow><mml:msub><mml:mi mathvariant="bold-italic">η</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi mathvariant="bold-italic">μ</mml:mi><mml:mi>η</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi mathvariant="bold-italic">X</mml:mi><mml:mi mathvariant="bold-italic">i</mml:mi></mml:msub><mml:msub><mml:mi mathvariant="bold-italic">β</mml:mi><mml:mi>η</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi mathvariant="bold-italic">C</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:msub><mml:mi mathvariant="bold-italic">γ</mml:mi><mml:mi>η</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi mathvariant="bold-italic">ζ</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow>
+</mml:math>
+</alternatives>
+<label>(2)</label>
+</disp-formula></p>
+<p>In the SRA, a saturated model is defined as consisting of the freely estimated effects of all periods of exposure (and all their possible interactions) on grip strength. This estimates different levels of the outcome variable for every possible trajectory of OP, yielding maximum explanatory power. If a significant association with trajectories of OP can be found in the saturated model, a set of restrictions corresponding to life course models is applied to the saturated model, and the relative model fit is assessed. For testing constraints on the coefficients predicting both levels of and decline in grip strength, we use Wald tests, which can be easily implemented into SEM, instead of the original F-test. Following a further development of the SRA, we compare the Akaike information criterion (AIC) of those models that show a p-value of over 0.1[<xref ref-type="bibr" rid="pone.0155954.ref046">46</xref>]. (For more technical details of the models, see <xref ref-type="supplementary-material" rid="pone.0155954.s001">S1 Appendix</xref>).</p>
+</sec>
+</sec>
+<sec id="sec009" sec-type="results">
+<title>Results</title>
+<p><xref ref-type="table" rid="pone.0155954.t002">Table 2</xref> reports the sample statistics for men and women. In the first step, we estimated LGMs for men and women to determine the shape of decline of grip strength[<xref ref-type="bibr" rid="pone.0155954.ref045">45</xref>]. We compared the model fit of three specifications of the growth trajectory (linear, quadratic, linear-semi-parametric). <xref ref-type="fig" rid="pone.0155954.g001">Fig 1</xref> shows the fit of predictions of the three model specifications against the actually observed decline (locally weighted scatterplot smoothing), and <xref ref-type="table" rid="pone.0155954.t003">Table 3</xref> shows the BIC for the respective models. A linear decline models the trajectory of grip strength in our data set well. For men, we can observe an average grip strength of 37.54 kg (95% CI 37.28;37.80) at age 75, and an average estimated decline of 0.70 kg (95% CI -0.74;-0.66) between the ages of 65 and 90.</p>
+<fig id="pone.0155954.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0155954.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Model fit of three specifications of the slope in latent growth model of grip strength for men and women.</title>
+<p><italic>Note</italic>: Figure shows the predictions of three specifications compared to the observed trajectory of grip strength estimated by locally weighted scatterplot smoothing (LOESS).</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0155954.g001" xlink:type="simple"/>
+</fig>
+<table-wrap id="pone.0155954.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0155954.t002</object-id>
+<label>Table 2</label> <caption><title>Sample Statistics.</title></caption>
+<alternatives>
+<graphic id="pone.0155954.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0155954.t002" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="2">Men</th>
+<th align="center" colspan="2">Women</th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center">Mean</th>
+<th align="center">Number of missing values</th>
+<th align="center">Mean</th>
+<th align="center">Number of missing values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Age at wave 1 (years)</td>
+<td align="right">71.77</td>
+<td align="center">0</td>
+<td align="right">71.83</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">Grip strength wave 1 (kg)</td>
+<td align="right">39.53</td>
+<td align="center">1025</td>
+<td align="right">24.63</td>
+<td align="center">805</td>
+</tr>
+<tr>
+<td align="left">Grip strength wave 2 (kg)</td>
+<td align="right">37.85</td>
+<td align="center">312</td>
+<td align="right">24.28</td>
+<td align="center">219</td>
+</tr>
+<tr>
+<td align="left">Grip strength wave 3 (kg)</td>
+<td align="right">36.83</td>
+<td align="center">244</td>
+<td align="right">23.09</td>
+<td align="center">206</td>
+</tr>
+<tr>
+<td align="left">Grip strength wave 4 (kg)</td>
+<td align="right">36.22</td>
+<td align="center">1156</td>
+<td align="right">22.65</td>
+<td align="center">684</td>
+</tr>
+<tr>
+<td align="left">Grip strength wave 5 (kg)</td>
+<td align="right">35.13</td>
+<td align="center">1615</td>
+<td align="right">22.03</td>
+<td align="center">989</td>
+</tr>
+<tr>
+<td align="left">Low OP in childhood (%)</td>
+<td align="right">19.2</td>
+<td align="center">0</td>
+<td align="right">17.05</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">Low OP in young adulthood (%)</td>
+<td align="right">17.87</td>
+<td align="center">0</td>
+<td align="right">22.34</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">Low OP in midlife (%)</td>
+<td align="right">15.91</td>
+<td align="center">0</td>
+<td align="right">20.87</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">Austria (%)</td>
+<td align="right">2.67</td>
+<td align="center">0</td>
+<td align="right">3.58</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">Germany (%)</td>
+<td align="right">7.56</td>
+<td align="center">0</td>
+<td align="right">6.96</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">Sweden (%)</td>
+<td align="right">8.31</td>
+<td align="center">0</td>
+<td align="right">12.1</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">Netherlands (%)</td>
+<td align="right">7.92</td>
+<td align="center">0</td>
+<td align="right">5</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">Spain (%)</td>
+<td align="right">8.74</td>
+<td align="center">0</td>
+<td align="right">4.16</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">Italy (%)</td>
+<td align="right">11.18</td>
+<td align="center">0</td>
+<td align="right">5.59</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">France (%)</td>
+<td align="right">8.38</td>
+<td align="center">0</td>
+<td align="right">11.02</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">Denmark (%)</td>
+<td align="right">6.94</td>
+<td align="center">0</td>
+<td align="right">11.71</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">Greece (%)</td>
+<td align="right">10.76</td>
+<td align="center">0</td>
+<td align="right">6.37</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">Switzerland (%)</td>
+<td align="right">4.73</td>
+<td align="center">0</td>
+<td align="right">5</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">Belgium (%)</td>
+<td align="right">11.93</td>
+<td align="center">0</td>
+<td align="right">9.75</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">Czech Republic (%)</td>
+<td align="right">5.48</td>
+<td align="center">0</td>
+<td align="right">11.42</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">Poland (%)</td>
+<td align="right">5.38</td>
+<td align="center">0</td>
+<td align="right">7.35</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">Cohorts 1922–1927 (%)</td>
+<td align="right">16.79</td>
+<td align="center">0</td>
+<td align="right">17.3</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">Cohorts 1928–1930 (%)</td>
+<td align="right">16.56</td>
+<td align="center">0</td>
+<td align="right">17.15</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">Cohorts 1931–1933 (%)</td>
+<td align="right">21.52</td>
+<td align="center">0</td>
+<td align="right">21.66</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">Cohorts 1934–1936 (%)</td>
+<td align="right">26.7</td>
+<td align="center">0</td>
+<td align="right">25.18</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">Cohorts 1937–1938 (%)</td>
+<td align="right">18.42</td>
+<td align="center">0</td>
+<td align="right">18.72</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">Observations</td>
+<td align="center" colspan="2">3067</td>
+<td align="center" colspan="2">2041</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<table-wrap id="pone.0155954.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0155954.t003</object-id>
+<label>Table 3</label> <caption><title>Model fit (BIC) of three specifications of the slope for the latent growth model of grip strength.</title></caption>
+<alternatives>
+<graphic id="pone.0155954.t003g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0155954.t003" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Slope</th>
+<th align="left">Linear</th>
+<th align="left">Quadratic</th>
+<th align="left">Linear semi-parametric</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Men</td>
+<td align="center"><bold>82256</bold></td>
+<td align="center">82276</td>
+<td align="center">82276</td>
+</tr>
+<tr>
+<td align="left">Women</td>
+<td align="center"><bold>50533</bold></td>
+<td align="center">50557</td>
+<td align="center">50540</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t003fn001"><p><italic>Note</italic>: Bold numbers indicate best model fit.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>At the age of 75, women have an average grip strength of 23.60 kg (95% CI 23.38;23.82). During the period of observation, the annual decrease is estimated to be 0.42 kg (95% CI -0.45;-0.39). The correlation between intercept and decline in grip strength is weak for both men (0.04; 95% CI -0.09;0.17) and women (-0.11; 95% CI -0.28; 0.07), and not statistically significant (for more detailed results see Table B in <xref ref-type="supplementary-material" rid="pone.0155954.s001">S1 Appendix</xref>). This means that the initial level of grip strength is not associated with rate of decline for men or women.</p>
+<p>In the second step, we use life course trajectories of OP to predict the average level and the annual decline of grip strength. <xref ref-type="fig" rid="pone.0155954.g002">Fig 2</xref> shows these predictions. The figure uses a 1 for exposure to low OP and a 0 for no exposure. Tables <xref ref-type="table" rid="pone.0155954.t004">4</xref> and <xref ref-type="table" rid="pone.0155954.t005">5</xref> report the respective predicted intercept and slope parameters for each of the trajectories of OP. Trajectory (101) is not plotted due to the low number of cases that make the prediction unreliable. For men, we can see that the lines run mostly parallel, although there are slight differences between the levels. A slight exception is trajectory (010), those who are exposed to low OP only in young adulthood. They are predicted to have a higher decline in physical health. From <xref ref-type="table" rid="pone.0155954.t004">Table 4</xref> we can see that men who achieve intergenerational upward mobility (100) have, on average, the highest grip strength, followed by those with intra-generational mobility (110) and those who are never exposed (000). The lowest levels of grip strength are found in those of opposite <bold><italic>occupational</italic></bold> trajectory: the inter-generationally downwardly mobile (011), the continuously exposed (111), and those who are intra-generationally downwardly mobile (001). The difference to the three highest groups is about 2 kg, which is substantial as it translates into a difference of 3 years’ decline in physical function.</p>
+<fig id="pone.0155954.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0155954.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Model implied predictions of developments of grip strength by OP trajectory for men and women.</title>
+<p><italic>Note</italic>: Trajectory (101) was not plotted, because the number of observations was too small to yield reliable predictions. Trajectories are described by 1 for exposure to low OP, and 0 for no exposure. The first digit indicates the status for childhood, the second for early adulthood and the third digit represents midlife. For example, 000 means always is high OP, 111 always in low OP, 001 represents downward social mobility in adulthood.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0155954.g002" xlink:type="simple"/>
+</fig>
+<table-wrap id="pone.0155954.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0155954.t004</object-id>
+<label>Table 4</label> <caption><title>Predictions of intercept and slope of grip strength by life course OP pattern (kg)–Men.</title></caption>
+<alternatives>
+<graphic id="pone.0155954.t004g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0155954.t004" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center">Trajectory</th>
+<th align="center">N</th>
+<th align="center">(%)</th>
+<th align="center">Intercept (at age 75)</th>
+<th align="center">Slope (decline per year)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">000</td>
+<td align="center">2125</td>
+<td align="center">69.29</td>
+<td align="center">38.26 [37.30;39.23]</td>
+<td align="center">-0.71 [-0.86;-0.56]</td>
+</tr>
+<tr>
+<td align="center">001</td>
+<td align="center">62</td>
+<td align="center">2.02</td>
+<td align="center">36.67 [34.53;38.81]</td>
+<td align="center">-0.66 [-0.92;-0.40]</td>
+</tr>
+<tr>
+<td align="center">010</td>
+<td align="center">83</td>
+<td align="center">2.71</td>
+<td align="center">37.66 [36.05;39.27]</td>
+<td align="center">-0.92 [-1.15;-0.69]</td>
+</tr>
+<tr>
+<td align="center">011</td>
+<td align="center">208</td>
+<td align="center">6.78</td>
+<td align="center">36.69 [35.38;38.00]</td>
+<td align="center">-0.60 [-0.80;-0.40]</td>
+</tr>
+<tr>
+<td align="center">100</td>
+<td align="center">315</td>
+<td align="center">10.27</td>
+<td align="center">38.93 [37.72;40.14]</td>
+<td align="center">-0.74 [-0.93;-0.55]</td>
+</tr>
+<tr>
+<td align="center">101</td>
+<td align="center">17</td>
+<td align="center">0.55</td>
+<td align="center">37.71 [33.73;41.68]</td>
+<td align="center">-0.40 [-0.87;0.06]</td>
+</tr>
+<tr>
+<td align="center">110</td>
+<td align="center">56</td>
+<td align="center">1.83</td>
+<td align="center">38.60 [36.26;40.94]</td>
+<td align="center">-0.60 [-0.95;-0.26]</td>
+</tr>
+<tr>
+<td align="center">111</td>
+<td align="center">201</td>
+<td align="center">6.55</td>
+<td align="center">36.60 [35.19;38.01]</td>
+<td align="center">-0.79 [-1.00;-0.58]</td>
+</tr>
+<tr>
+<td align="center">Total</td>
+<td align="center">3067</td>
+<td align="center">100</td>
+<td align="center">37.54 [37.28;37.80]</td>
+<td align="center">-0.70 [-0.74;-0.66]</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t004fn001"><p><italic>Note</italic>: 95% confidence interval in brackets. Trajectories are described by 1 for exposure to low OP, and 0 for no exposure. Averaged across countries and predicted for the level of the cohorts 1931–1933.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<table-wrap id="pone.0155954.t005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0155954.t005</object-id>
+<label>Table 5</label> <caption><title>Predictions of intercept and slope of grip strength by life course OP pattern (kg)–Women.</title></caption>
+<alternatives>
+<graphic id="pone.0155954.t005g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0155954.t005" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center">Trajectory</th>
+<th align="center">N</th>
+<th align="center">(%)</th>
+<th align="center">Intercept</th>
+<th align="center">Slope</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">000</td>
+<td align="center">1354</td>
+<td align="center">66.34</td>
+<td align="center">23.75 [22.83;24.67]</td>
+<td align="center">-0.42 [-0.57;-0.28]</td>
+</tr>
+<tr>
+<td align="center">001</td>
+<td align="center">69</td>
+<td align="center">3.38</td>
+<td align="center">23.24 [21.76;24.72]</td>
+<td align="center">-0.31 [-0.53;-0.09]</td>
+</tr>
+<tr>
+<td align="center">010</td>
+<td align="center">74</td>
+<td align="center">3.63</td>
+<td align="center">24.79 [23.29;26.29]</td>
+<td align="center">-0.44 [-0.67;-0.21]</td>
+</tr>
+<tr>
+<td align="center">011</td>
+<td align="center">196</td>
+<td align="center">9.60</td>
+<td align="center">23.71 [22.53;24.89]</td>
+<td align="center">-0.44 [-0.62;-0.26]</td>
+</tr>
+<tr>
+<td align="center">100</td>
+<td align="center">149</td>
+<td align="center">7.30</td>
+<td align="center">23.74 [22.56;24.92]</td>
+<td align="center">-0.42 [-0.60;-0.23]</td>
+</tr>
+<tr>
+<td align="center">101</td>
+<td align="center">13</td>
+<td align="center">0.64</td>
+<td align="center">25.61 [22.55;28.67]</td>
+<td align="center">-0.71 [-1.11;-0.31]</td>
+</tr>
+<tr>
+<td align="center">110</td>
+<td align="center">38</td>
+<td align="center">1.86</td>
+<td align="center">25.12 [23.30;26.95]</td>
+<td align="center">-0.38 [-0.65;-0.11]</td>
+</tr>
+<tr>
+<td align="center">111</td>
+<td align="center">148</td>
+<td align="center">7.25</td>
+<td align="center">23.33 [22.06;24.60]</td>
+<td align="center">-0.37 [-0.57;-0.17]</td>
+</tr>
+<tr>
+<td align="center">Total</td>
+<td align="center">2041</td>
+<td align="center">100</td>
+<td align="center">23.60 [23.38;23.82]</td>
+<td align="center">-0.42 [-0.45;-0.39]</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t005fn001"><p><italic>Note</italic>: 95% confidence interval in brackets. Trajectories are described by 1 for exposure to low OP, and 0 for no exposure. Averaged across countries and predicted for the level of the cohorts 1931–1933.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>In the lower part of <xref ref-type="fig" rid="pone.0155954.g002">Fig 2</xref> and in <xref ref-type="table" rid="pone.0155954.t005">Table 5</xref> we can see that both slopes and levels of grip strength are much closer together for women than for men. This indicates only small differences related to life course OP. The only trajectories that have notably higher levels of grip strength are (110) and (010), containing those who are intra-generationally upwardly mobile and those who are exposed only in young adulthood, respectively. Note, however, that these categories contain only few women.</p>
+<p>In the third step of our analysis, we conducted Wald tests on the restrictions of the coefficients that reflect the different life-course models. The technical description of these restrictions can be found in Table A of <xref ref-type="supplementary-material" rid="pone.0155954.s001">S1 Appendix</xref>. For the level of grip strength for men, the best model is a critical period in midlife showing the highest p-value and lowest AIC (Tables <xref ref-type="table" rid="pone.0155954.t006">6</xref> and <xref ref-type="table" rid="pone.0155954.t007">7</xref>). Based on this model, those who are in a low OP during midlife are predicted to have 1.67 kg (95% CI -2.33;-1.00) less grip strength in old age. <xref ref-type="table" rid="pone.0155954.t006">Table 6</xref> shows further that there is no significant association between life course patterns of OP and the slope of grip strength for men in the model, as the null model cannot be rejected. That means that decline in health does not differ systematically across trajectories of OP. There is no increase or decrease in differences; health inequalities remain constant.</p>
+<table-wrap id="pone.0155954.t006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0155954.t006</object-id>
+<label>Table 6</label> <caption><title>Relative model fit of life course model (p-value).</title></caption>
+<alternatives>
+<graphic id="pone.0155954.t006g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0155954.t006" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Life course model</th>
+<th align="center" colspan="2">Men</th>
+<th align="center" colspan="2">Women</th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center">Intercept</th>
+<th align="center">Slope</th>
+<th align="center">Intercept</th>
+<th align="center">Slope</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Null</td>
+<td align="center">0.00</td>
+<td align="center">0.09</td>
+<td align="center">0.26</td>
+<td align="center">0.58</td>
+</tr>
+<tr>
+<td align="left">Accumulation</td>
+<td align="center">0.03</td>
+<td align="center">0.06</td>
+<td align="center">0.18</td>
+<td align="center">0.49</td>
+</tr>
+<tr>
+<td align="left">Social mobility—early</td>
+<td align="center">0.01</td>
+<td align="center">0.03</td>
+<td align="center">0.15</td>
+<td align="center">0.40</td>
+</tr>
+<tr>
+<td align="left">Social mobility—late</td>
+<td align="center">0.00</td>
+<td align="center">0.11</td>
+<td align="center">0.68</td>
+<td align="center">0.39</td>
+</tr>
+<tr>
+<td align="left">Social mobility–any</td>
+<td align="center">0.06</td>
+<td align="center">0.08</td>
+<td align="center">0.32</td>
+<td align="center">0.36</td>
+</tr>
+<tr>
+<td align="left">Critical period—childhood</td>
+<td align="center">0.00</td>
+<td align="center">0.07</td>
+<td align="center">0.18</td>
+<td align="center">0.49</td>
+</tr>
+<tr>
+<td align="left">Critical period–young adulthood</td>
+<td align="center">0.11</td>
+<td align="center">0.06</td>
+<td align="center">0.20</td>
+<td align="center">0.47</td>
+</tr>
+<tr>
+<td align="left">Critical period—midlife</td>
+<td align="center">0.66</td>
+<td align="center">0.08</td>
+<td align="center">0.24</td>
+<td align="center">0.49</td>
+</tr>
+<tr>
+<td align="left">Sensitive period</td>
+<td align="center">0.87</td>
+<td align="center">0.09</td>
+<td align="center">0.29</td>
+<td align="center">0.27</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t006fn001"><p><italic>Note</italic>: p-values are calculated based on Wald tests on parameter constraints. The null model needs to show a value below 0.05. Higher value indicates better model fit relative to the saturated model (for technical details see <xref ref-type="supplementary-material" rid="pone.0155954.s001">S1 Appendix</xref>). The technical description of the restrictions for the models can be found in Table A of <xref ref-type="supplementary-material" rid="pone.0155954.s001">S1 Appendix</xref>.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<table-wrap id="pone.0155954.t007" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0155954.t007</object-id>
+<label>Table 7</label> <caption><title>Relative model fit of life course model (AIC).</title></caption>
+<alternatives>
+<graphic id="pone.0155954.t007g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0155954.t007" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Life course model</th>
+<th align="center" colspan="2">Men</th>
+<th align="center" colspan="2">Women</th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center">Intercept</th>
+<th align="center">Slope</th>
+<th align="center">Intercept</th>
+<th align="center">Slope</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Null</td>
+<td align="center">81884</td>
+<td align="center">81882</td>
+<td align="center">50474</td>
+<td align="center">50470</td>
+</tr>
+<tr>
+<td align="left">Accumulation</td>
+<td align="center">81896</td>
+<td align="center">81880</td>
+<td align="center">50472</td>
+<td align="center">50469</td>
+</tr>
+<tr>
+<td align="left">Social mobility—early</td>
+<td align="center">81887</td>
+<td align="center">81884</td>
+<td align="center">50475</td>
+<td align="center">50472</td>
+</tr>
+<tr>
+<td align="left">Social mobility—late</td>
+<td align="center">81898</td>
+<td align="center">81881</td>
+<td align="center">50470</td>
+<td align="center">50472</td>
+</tr>
+<tr>
+<td align="left">Social mobility–any</td>
+<td align="center">81883</td>
+<td align="center">81882</td>
+<td align="center">50473</td>
+<td align="center">50473</td>
+</tr>
+<tr>
+<td align="left">Critical period—childhood</td>
+<td align="center">81898</td>
+<td align="center">81882</td>
+<td align="center">50474</td>
+<td align="center">50470</td>
+</tr>
+<tr>
+<td align="left">Critical period–young adulthood</td>
+<td align="center">81880</td>
+<td align="center">81882</td>
+<td align="center">50474</td>
+<td align="center">50471</td>
+</tr>
+<tr>
+<td align="left">Critical period—midlife</td>
+<td align="center"><bold>81874</bold></td>
+<td align="center">81881</td>
+<td align="center">50473</td>
+<td align="center">50470</td>
+</tr>
+<tr>
+<td align="left">Sensitive period</td>
+<td align="center">81875</td>
+<td align="center">81882</td>
+<td align="center">50474</td>
+<td align="center">50474</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t007fn001"><p><italic>Note</italic>: p-values are calculated based on Wald tests on parameter constraints. The null model needs to show a value below 0.05. Higher value indicates better model fit relative to the saturated model (for technical details see <xref ref-type="supplementary-material" rid="pone.0155954.s001">S1 Appendix</xref>). Best fit given rejection of the null model is marked as bold. The technical description of the restrictions for the models can be found in Table A of <xref ref-type="supplementary-material" rid="pone.0155954.s001">S1 Appendix</xref>.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>For women, the application of the life course model tests confirms the impression given by <xref ref-type="fig" rid="pone.0155954.g002">Fig 2</xref>. Both the levels of and decline in physical health are not related systematically to women’s OP trajectory (<xref ref-type="table" rid="pone.0155954.t006">Table 6</xref>).</p>
+<p>To check the sensitivity of our results to the coding of the exposure to low OP variable, we reran the analyses, with exposure defined as a blue-collar occupation (ISCO major groups 6–9) versus all white-collar occupations yielding very similar results (Tables D-G in <xref ref-type="supplementary-material" rid="pone.0155954.s001">S1 Appendix</xref>). In addition, we also reran our models to include those individuals with missing information for 1 or 2 periods. The results remain stable (Tables L–O in <xref ref-type="supplementary-material" rid="pone.0155954.s001">S1 Appendix</xref>). As additional sensitivity checks, we controlled separately for height and weight, which also did not change our results (Tables H-K in <xref ref-type="supplementary-material" rid="pone.0155954.s001">S1 Appendix</xref>).</p>
+</sec>
+<sec id="sec010" sec-type="conclusions">
+<title>Discussion</title>
+<p>In this study we investigated the influence of low OP over the life course on levels and decline in grip strength at old age. For men, the results of the generalized structured regression approach suggest that exposure to low OP is especially harmful during midlife. For women, no relevant association to life course OP could be found.</p>
+<p>For men, the results stand in contrast to other studies which stress the importance of early life exposure to low OP and different dimensions of health[<xref ref-type="bibr" rid="pone.0155954.ref015">15</xref>,<xref ref-type="bibr" rid="pone.0155954.ref047">47</xref>–<xref ref-type="bibr" rid="pone.0155954.ref051">51</xref>], because taking the different trajectories into account did not reveal a relevant influence of parental OP during childhood on grip strength in old age. However, it should be noted that there are also other studies which do not find an association of childhood OP and grip strength[<xref ref-type="bibr" rid="pone.0155954.ref052">52</xref>].</p>
+<p>We found that the difference in physical function between those exposed during peak working age and those unexposed was already established at the age of 65, and our analysis provided no evidence for any of the life course theories suggesting convergence (age-as-leveler) or divergence (cumulative disadvantage) after that age. One possible explanation might be that exposure to low OP reduces maximum attainable strength (functional reserve)[<xref ref-type="bibr" rid="pone.0155954.ref053">53</xref>], but does not affect the rate of decline in old age. An argument against this proposition is that studies have shown that maximum grip strength is usually reached before the age of 35[<xref ref-type="bibr" rid="pone.0155954.ref026">26</xref>], which is before the critical period of exposure. Consequently, it seems more likely that there is differential decline in grip strength during the period of later working life, favoring those who are not exposed. To the extent that our indicator of OP capture more directly working life experience our results then could actually be seen as being in line with the cumulative disadvantage since those earlier exposed are now retired from the labour market and therefore not directly exposed. More importantly is to stress that our findings with similar decline from different levels of grip strength imply that inequalities in physical function continues also at advanced old age. Both in research and practice, it is consequently important to highlight the heterogeneity in old-age health and the impact of social stratification.</p>
+<p>Previous studies for adult and old-age health have found mixed support for the gender difference in influence of OP on physical function; some find a similar association for men and women[<xref ref-type="bibr" rid="pone.0155954.ref039">39</xref>,<xref ref-type="bibr" rid="pone.0155954.ref054">54</xref>], some find weaker or no association for women[<xref ref-type="bibr" rid="pone.0155954.ref038">38</xref>], as in our study. The clear gender difference found in our study stresses the importance of gender-specific analysis, because both trajectories and their health consequences might be different for men and women[<xref ref-type="bibr" rid="pone.0155954.ref055">55</xref>].</p>
+<p>One explanation for the lack of association between life course OP and grip strength in old age for women is that the women in the cohorts under investigation who are continuously active on the labor market represent a health-selected population. When the male breadwinner model is dominant, women with health limitations are more likely to drop out of employment. This might suppress a possible association between their life course OP and health in old age. Accordingly, a study adopting the household as the unit to define OP, what is normally called the dominance approach, might have led to a different finding for women [<xref ref-type="bibr" rid="pone.0155954.ref056">56</xref>,<xref ref-type="bibr" rid="pone.0155954.ref057">57</xref>].</p>
+<sec id="sec011">
+<title>Strengths and limitations</title>
+<p>In our study we combined a dynamic view on OP over the life course with a dynamic view on inequalities in physical function in old age. This gives a more comprehensive perspective on differences in aging by jointly addressing life course models of accumulation, critical period, and social mobility with theories on the development of health inequalities such as age-as-leveler and cumulative advantage. We demonstrated that the structured regression approach can be generalized to a SEM framework, allowing more flexible tests of life course models. We made use of a large representative data set that collected grip strength as an objective indicator of grip strength over five points in time. This allowed us to combine life course information on OP with estimated of the trajectories in grip strength which is rarer due to the restricted number of data sets containing information on both aspects. We took differences in likelihood of drop-out due to poor health (and death) and low grip strength into account by modeling separately for five patterns of missing values. Our study demonstrates the need and the potential to integrate different strands of theory on socially stratified processes of aging with the appropriate methods developed in different fields of longitudinal and life course research.</p>
+<p>A recent study proposed an alternative strategy of establishing the explanatory power of life course models[<xref ref-type="bibr" rid="pone.0155954.ref058">58</xref>] for which an integration with LGM might be useful in future research.</p>
+<p>Despite these strengths there are several limitations to our study. Occupational position reflects only one dimension of socioeconomic position (SEP) of individuals. Usually, income, education, and wealth are treated as other important dimensions of SEP. It has been shown that these different dimension can have different impact on health and health inequalities in the life course [<xref ref-type="bibr" rid="pone.0155954.ref059">59</xref>,<xref ref-type="bibr" rid="pone.0155954.ref060">60</xref>] and on the trajectories of different health indicators, including functional limitations [<xref ref-type="bibr" rid="pone.0155954.ref061">61</xref>]. Therefore, our results should not be generalized to all aspects of SEP. Instead further research could look at trajectories in other dimensions. The limitations are that education is usually time-constant at a certain age, early in the life of individuals. Wealth on the other hand is by definition the outcome of a cumulative process, increasing for most individuals throughout the life course. Classical upward or downward mobility patterns therefore do not apply to this dimension. Last, income could be analyzed in a similar fashion, but here data availability is the problem as information about income over the whole life course (including parental income) is still hard to acquire in combination with old age health outcomes. Improvements in survey data and cohort studies might allow replications of our analyses with trajectories of income as the determinant of physical functioning in old age.</p>
+<p>The dichotomization is on the one hand necessary to ensure that the trajectories do not become overly complex. On the other hand using a dichotomous indicator will hide a lot of variation within the categories. However, we showed that a different coding into blue-collar and white-collar workers did not change the results. Comparative work with alternative indicators of OP should be added in the future. It should be further noted that by definition the use of an occupational indicator limits the analyses to the employed population. Alternative indicators of SEP like trajectories of household income could be used in future studies to get estimates for the non-employed as well.</p>
+<p>The use of retrospective data has several advantages and disadvantages for our study. Despite the fact that SHARE uses a life grid approach that is designed to maximize accuracy in remembering occurrence and temporal ordering of events in the life course[<xref ref-type="bibr" rid="pone.0155954.ref024">24</xref>,<xref ref-type="bibr" rid="pone.0155954.ref062">62</xref>], retrospective data faces the problem of incorrect recall of occupational status[<xref ref-type="bibr" rid="pone.0155954.ref063">63</xref>–<xref ref-type="bibr" rid="pone.0155954.ref065">65</xref>]. In contrast to many prospective cohort studies, we have continuous yearly information on occupational status from age 16 onwards. That allows us to average occupational status during adulthood and midlife respectively, which should reduce measurement error and recall bias. Another advantage of retrospective data is that there are no drop-outs during the observation of OP in the life course[<xref ref-type="bibr" rid="pone.0155954.ref066">66</xref>–<xref ref-type="bibr" rid="pone.0155954.ref068">68</xref>]. We face the problem of increasing selectivity only to a small degree, as there are only 2 waves in which drop-out can occur before OP is measured for the whole life course. Still, it needs to be acknowledged that we might have a positively-selected sample with regard to (decline in) health if those who dropped out before answering the retrospective questionnaire in wave 3 have lower health overall, or a stronger health decline. This might lead to an underestimation of the association between life course occupational position with grip strength in our study. Additionally, our sample only includes survivors to old age. This means that mortality in early and midlife can lead to a reduction in health inequalities that we do not observe. Thus, the results only apply to those who survived until the age of 65 and should not be generalized to younger ages. A further problem might arise if childhood OP has a higher degree of error than midlife OP. In this case the relative strength of the association of childhood OP with grip strength might be underestimated compared to the association of midlife OP with grip strength.</p>
+<p>One possible concern with using grip strength related to an occupational indicator is that workers in elementary occupations have physically more demanding jobs, which could lead to a training effect of their muscles. After retirement they could therefore have a higher decline as they no longer engage in physical labor, which would reflect detraining, and not decline in grip strength. We do not believe that this constitutes a source of bias. Firstly, the literature on detraining shows that detraining happens very quickly, i.e. training effects vanish almost completely after half a year, often earlier, depending on the training treatment[<xref ref-type="bibr" rid="pone.0155954.ref069">69</xref>–<xref ref-type="bibr" rid="pone.0155954.ref071">71</xref>]. The sample consists of those who are no longer working, and therefore any possible detraining will, for the most part, have happened before the observation begins. Second, there is little evidence that suggests that blue-collar workers or workers who have a high physical workload have higher grip strength than white-collar workers[<xref ref-type="bibr" rid="pone.0155954.ref026">26</xref>,<xref ref-type="bibr" rid="pone.0155954.ref072">72</xref>–<xref ref-type="bibr" rid="pone.0155954.ref075">75</xref>], a result that we can replicate with our data for those individuals below 65 who are still active on the labor market. Finally, it is important to note that the results cannot be interpreted as causal estimates in the counter-factual sense. It is possible that there are common factors for both trajectories in occupational position and level and development of grip strength in old age (e.g. physiological dispositions acquired very early in life). The results should be regarded as associations representing the total effect of life course OP on grip strength, including direct and mediated associations, and possible selection effects during the life course.</p>
+</sec>
+</sec>
+<sec id="sec012" sec-type="conclusions">
+<title>Conclusions</title>
+<p>Combining a dynamic perspective on both life course OP and grip strength in old age provides a good view on the pattern of health inequalities in old age. For men, mid-life exposure to low OP correlates with decline in grip strength. No further convergence or divergence could be found during old age. As grip strength is a reliable indicator of other aspects of physical functioning we would expect to see similar results in the association of life course OP and other indicators of physical functioning. Furthermore, it is important to look at socioeconomic trajectories of men and women separately. Our extension of the structured regression approach to SEM and LGM can be used in future research in life course epidemiology.</p>
+</sec>
+<sec id="sec013">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0155954.s001" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pone.0155954.s001" xlink:type="simple">
+<label>S1 Appendix</label>
+<caption>
+<title>Technical details on models and results of sensitivity analyses.</title>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0155954.s002" mimetype="application/zip" position="float" xlink:href="info:doi/10.1371/journal.pone.0155954.s002" xlink:type="simple">
+<label>S1 Code</label>
+<caption>
+<title>Code to replicate all analyses conducted in the study.</title>
+<p>(ZIP)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>The authors would like to thank two anonymous reviewers for their helpful comments on an earlier version of the paper.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0155954.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hallqvist</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Lynch</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Bartley</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Lang</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Blane</surname> <given-names>D</given-names></name>. <article-title>Can we disentangle life course processes of accumulation, critical period and social mobility? An analysis of disadvantaged socio-economic positions and myocardial infarction in the Stockholm Heart Epidemiology Program</article-title>. <source>Soc Sci Med</source>. <year>2004</year>;<volume>58</volume>.</mixed-citation></ref>
+<ref id="pone.0155954.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Otero-Rodríguez</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>León-Muñoz</surname> <given-names>LM</given-names></name>, <name name-style="western"><surname>Banegas</surname> <given-names>JR</given-names></name>, <name name-style="western"><surname>Guallar-Castillón</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Rodríguez-Artalejo</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Regidor</surname> <given-names>E</given-names></name>. <article-title>Life-course socioeconomic position and change in quality of life among older adults: evidence for the role of a critical period, accumulation of exposure and social mobility</article-title>. <source>J Epidemiol Community Health</source>. <year>2011</year>;<volume>65</volume>: <fpage>964</fpage>–<lpage>971</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1136/jech.2010.113555" xlink:type="simple">10.1136/jech.2010.113555</ext-link></comment> <object-id pub-id-type="pmid">20974837</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Heraclides</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Brunner</surname> <given-names>E</given-names></name>. <article-title>Social mobility and social accumulation across the life course in relation to adult overweight and obesity: the Whitehall II study</article-title>. <source>J Epidemiol Community Health</source>. <year>2010</year>;<volume>64</volume>: <fpage>714</fpage>–<lpage>719</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1136/jech.2009.087692" xlink:type="simple">10.1136/jech.2009.087692</ext-link></comment> <object-id pub-id-type="pmid">19737739</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Niedzwiedz</surname> <given-names>CL</given-names></name>, <name name-style="western"><surname>Katikireddi</surname> <given-names>SV</given-names></name>, <name name-style="western"><surname>Pell</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Mitchell</surname> <given-names>R</given-names></name>. <article-title>Life course socio-economic position and quality of life in adulthood: a systematic review of life course models</article-title>. <source>BMC Public Health</source>. <year>2012</year>;<volume>12</volume>: <fpage>628</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1471-2458-12-628" xlink:type="simple">10.1186/1471-2458-12-628</ext-link></comment> <object-id pub-id-type="pmid">22873945</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Galobardes</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Lynch</surname> <given-names>JW</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>GD</given-names></name>. <article-title>Childhood Socioeconomic Circumstances and Cause-specific Mortality in Adulthood: Systematic Review and Interpretation</article-title>. <source>Epidemiol Rev</source>. <year>2004</year>;<volume>26</volume>: <fpage>7</fpage>–<lpage>21</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/epirev/mxh008" xlink:type="simple">10.1093/epirev/mxh008</ext-link></comment> <object-id pub-id-type="pmid">15234944</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref006"><label>6</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Fritzell</surname> <given-names>J</given-names></name>. <chapter-title>Life course inequalities: generations and social class</chapter-title>. In: <name name-style="western"><surname>Fritzell</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Lundberg</surname> <given-names>O</given-names></name>, editors. <source>Health Inequalities and Welfare Resources: Continuity and Change in Sweden</source>. <publisher-loc>Bristol</publisher-loc>: <publisher-name>Policy Press</publisher-name>; <year>2007</year>. pp. <fpage>67</fpage>–<lpage>86</lpage>.</mixed-citation></ref>
+<ref id="pone.0155954.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ben-Shlomo</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Kuh</surname> <given-names>D</given-names></name>. <article-title>A life course approach to chronic disease epidemiology: conceptual models, empirical challenges and interdisciplinary perspectives</article-title>. <source>Int J Epidemiol</source>. <year>2002</year>;<volume>31</volume>: <fpage>285</fpage>–<lpage>293</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/ije/31.2.285" xlink:type="simple">10.1093/ije/31.2.285</ext-link></comment> <object-id pub-id-type="pmid">11980781</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kapetanakis</surname> <given-names>VV</given-names></name>, <name name-style="western"><surname>Rudnicka</surname> <given-names>AR</given-names></name>, <name name-style="western"><surname>Wathern</surname> <given-names>AK</given-names></name>, <name name-style="western"><surname>Lennon</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Papacosta</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Cook</surname> <given-names>DG</given-names></name>, <etal>et al</etal>. <article-title>Adiposity in Early, Middle and Later Adult Life and Cardiometabolic Risk Markers in Later Life; Findings from the British Regional Heart Study</article-title>. <source>PLOS ONE</source>. <year>2014</year>;<volume>9</volume>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0114289" xlink:type="simple">10.1371/journal.pone.0114289</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0155954.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Muniz de Quadros L de</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Quevedo L de</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Motta</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Carraro</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Ribeiro</surname> <given-names>FG</given-names></name>, <name name-style="western"><surname>Horta</surname> <given-names>BL</given-names></name>, <etal>et al</etal>. <article-title>Social Mobility and Mental Disorders at 30 Years of Age in Participants of the 1982 Cohort, Pelotas, Rio Grande Do Sul—RS</article-title>. <source>PLOS ONE</source>. <year>2015</year>;<volume>10</volume>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0136886" xlink:type="simple">10.1371/journal.pone.0136886</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0155954.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Park</surname> <given-names>MH</given-names></name>, <name name-style="western"><surname>Sovio</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Viner</surname> <given-names>RM</given-names></name>, <name name-style="western"><surname>Hardy</surname> <given-names>RJ</given-names></name>, <name name-style="western"><surname>Kinra</surname> <given-names>S</given-names></name>. <article-title>Overweight in Childhood, Adolescence and Adulthood and Cardiovascular Risk in Later Life: Pooled Analysis of Three British Birth Cohorts</article-title>. <source>PLOS ONE</source>. <year>2013</year>;<volume>8</volume>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0070684" xlink:type="simple">10.1371/journal.pone.0070684</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0155954.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sovio</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Giambartolomei</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Kinra</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Bowen</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Dudbridge</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Nitsch</surname> <given-names>D</given-names></name>, <etal>et al</etal>. <article-title>Early and current socio-economic position and cardiometabolic risk factors in the Indian Migration Study</article-title>. <source>Eur J Prev Cardiol</source>. <year>2013</year>;<volume>20</volume>: <fpage>844</fpage>–<lpage>853</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1177/2047487312446136" xlink:type="simple">10.1177/2047487312446136</ext-link></comment> <object-id pub-id-type="pmid">22514214</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gustafsson</surname> <given-names>PE</given-names></name>, <name name-style="western"><surname>Persson</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Hammarström</surname> <given-names>A</given-names></name>. <article-title>Socio-economic disadvantage and body mass over the life course in women and men: results from the Northern Swedish Cohort</article-title>. <source>Eur J Public Health</source>. <year>2011</year>; ckr061. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/eurpub/ckr061" xlink:type="simple">10.1093/eurpub/ckr061</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0155954.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sacker</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Worts</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>McDonough</surname> <given-names>P</given-names></name>. <article-title>Social influences on trajectories of self-rated health: evidence from Britain, Germany, Denmark and the USA</article-title>. <source>J Epidemiol Community Health</source>. <year>2009</year>;<volume>65</volume>: <fpage>130</fpage>–<lpage>136</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1136/jech.2009.091199" xlink:type="simple">10.1136/jech.2009.091199</ext-link></comment> <object-id pub-id-type="pmid">19996360</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Østbye</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Malhotra</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Landerman</surname> <given-names>LR</given-names></name>. <article-title>Body mass trajectories through adulthood: results from the National Longitudinal Survey of Youth 1979 Cohort (1981–2006)</article-title>. <source>Int J Epidemiol</source>. <year>2011</year>;<volume>40</volume>: <fpage>240</fpage>–<lpage>250</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/ije/dyq142" xlink:type="simple">10.1093/ije/dyq142</ext-link></comment> <object-id pub-id-type="pmid">20819785</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Haas</surname> <given-names>S</given-names></name>. <article-title>Trajectories of functional health: the “long arm”of childhood health and socioeconomic factors</article-title>. <source>Soc Sci Med</source>. <year>2008</year>;<volume>66</volume>: <fpage>849</fpage>–<lpage>861</lpage>. <object-id pub-id-type="pmid">18158208</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hoffmann</surname> <given-names>R</given-names></name>. <article-title>Illness, not age, is the leveler of social mortality differences in old age</article-title>. <source>J Gerontol B Psychol Sci Soc Sci</source>. <year>2011</year>;<volume>66</volume>: <fpage>374</fpage>–<lpage>379</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/geronb/gbr014" xlink:type="simple">10.1093/geronb/gbr014</ext-link></comment> <object-id pub-id-type="pmid">21430089</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Bennett</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Krause</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Kobayashi</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Brown</surname> <given-names>JW</given-names></name>, <etal>et al</etal>. <article-title>Old Age Mortality in Japan Does the Socioeconomic Gradient Interact With Gender and Age?</article-title> <source>J Gerontol B Psychol Sci Soc Sci</source>. <year>2002</year>;<volume>57</volume>: <fpage>S294</fpage>–<lpage>S307</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/geronb/57.5.S294" xlink:type="simple">10.1093/geronb/57.5.S294</ext-link></comment> <object-id pub-id-type="pmid">12198109</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Willson</surname> <given-names>AE</given-names></name>, <name name-style="western"><surname>Shuey</surname> <given-names>KM</given-names></name>, <name name-style="western"><surname>Glen</surname> <given-names>H</given-names></name>. <name name-style="western"><surname>Elder</surname> <given-names>J</given-names></name>. <article-title>Cumulative Advantage Processes as Mechanisms of Inequality in Life Course Health</article-title>. <source>Am J Sociol</source>. <year>2007</year>;<volume>112</volume>: <fpage>1886</fpage>–<lpage>1924</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1086/509520" xlink:type="simple">10.1086/509520</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0155954.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>McDonough</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Sacker</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Wiggins</surname> <given-names>RD</given-names></name>. <article-title>Time on my side? Life course trajectories of poverty and health</article-title>. <source>Soc Sci Med</source>. <year>2005</year>;<volume>61</volume>: <fpage>1795</fpage>–<lpage>1808</lpage>. <object-id pub-id-type="pmid">16029777</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mishra</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Nitsch</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Black</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Stavola</surname> <given-names>BD</given-names></name>, <name name-style="western"><surname>Kuh</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Hardy</surname> <given-names>R</given-names></name>. <article-title>A structured approach to modelling the effects of binary exposure variables over the life course</article-title>. <source>Int J Epidemiol</source>. <year>2009</year>;<volume>38</volume>: <fpage>528</fpage>–<lpage>537</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/ije/dyn229" xlink:type="simple">10.1093/ije/dyn229</ext-link></comment> <object-id pub-id-type="pmid">19028777</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cooper</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Kuh</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Cooper</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Gale</surname> <given-names>CR</given-names></name>, <name name-style="western"><surname>Lawlor</surname> <given-names>DA</given-names></name>, <name name-style="western"><surname>Matthews</surname> <given-names>F</given-names></name>, <etal>et al</etal>. <article-title>Objective measures of physical capability and subsequent health: a systematic review</article-title>. <source>Age Ageing</source>. <year>2011</year>;<volume>40</volume>: <fpage>14</fpage>–<lpage>23</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/ageing/afq117" xlink:type="simple">10.1093/ageing/afq117</ext-link></comment> <object-id pub-id-type="pmid">20843964</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vermeulen</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Neyens</surname> <given-names>JC</given-names></name>, <name name-style="western"><surname>van Rossum</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Spreeuwenberg</surname> <given-names>MD</given-names></name>, <name name-style="western"><surname>de Witte</surname> <given-names>LP</given-names></name>. <article-title>Predicting ADL disability in community-dwelling elderly people using physical frailty indicators: a systematic review</article-title>. <source>BMC Geriatr</source>. <year>2011</year>;<volume>11</volume>: <fpage>33</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1471-2318-11-33" xlink:type="simple">10.1186/1471-2318-11-33</ext-link></comment> <object-id pub-id-type="pmid">21722355</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Börsch-Supan</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Brandt</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Hunkler</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Kneip</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Korbmacher</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Malter</surname> <given-names>F</given-names></name>, <etal>et al</etal>. <article-title>Data Resource Profile: The Survey of Health, Ageing and Retirement in Europe (SHARE)</article-title>. <source>Int J Epidemiol</source>. <year>2013</year>;<volume>42</volume>: <fpage>992</fpage>–<lpage>1001</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/ije/dyt088" xlink:type="simple">10.1093/ije/dyt088</ext-link></comment> <object-id pub-id-type="pmid">23778574</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Börsch-Supan</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Schröder</surname> <given-names>M</given-names></name>. <article-title>Retrospective Data Collection in the Survey of Health, Ageing and Retirement in Europe</article-title>. <source>SHARELIFE Methodol</source>. <year>2011</year>;<volume>5</volume>.</mixed-citation></ref>
+<ref id="pone.0155954.ref025"><label>25</label><mixed-citation publication-type="book" xlink:type="simple"><collab>International Labour Office</collab>. <chapter-title>International standard classification of occupations: ISCO-88</chapter-title>. <publisher-loc>Geneva</publisher-loc>: <publisher-name>International Labour Office</publisher-name>; <year>1990</year>.</mixed-citation></ref>
+<ref id="pone.0155954.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Günther</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Bürger</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Rickert</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Crispin</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Schulz</surname> <given-names>CU</given-names></name>. <article-title>Grip Strength in Healthy Caucasian Adults: Reference Values</article-title>. <source>J Hand Surg</source>. <year>2008</year>;<volume>33</volume>: <fpage>558</fpage>–<lpage>565</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jhsa.2008.01.008" xlink:type="simple">10.1016/j.jhsa.2008.01.008</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0155954.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dodds</surname> <given-names>RM</given-names></name>, <name name-style="western"><surname>Syddall</surname> <given-names>HE</given-names></name>, <name name-style="western"><surname>Cooper</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Benzeval</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Deary</surname> <given-names>IJ</given-names></name>, <name name-style="western"><surname>Dennison</surname> <given-names>EM</given-names></name>, <etal>et al</etal>. <article-title>Grip Strength across the Life Course: Normative Data from Twelve British Studies</article-title>. <source>PLoS ONE</source>. <year>2014</year>;<volume>9</volume>: <fpage>e113637</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0113637" xlink:type="simple">10.1371/journal.pone.0113637</ext-link></comment> <object-id pub-id-type="pmid">25474696</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Andersen-Ranberg</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Petersen</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Frederiksen</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Mackenbach</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Christensen</surname> <given-names>K</given-names></name>. <article-title>Cross-national differences in grip strength among 50+ year-old Europeans: results from the SHARE study</article-title>. <source>Eur J Ageing</source>. <year>2009</year>;<volume>6</volume>: <fpage>227</fpage>–<lpage>236</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s10433-009-0128-6" xlink:type="simple">10.1007/s10433-009-0128-6</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0155954.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kuh</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Bassey</surname> <given-names>EJ</given-names></name>, <name name-style="western"><surname>Butterworth</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Hardy</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Wadsworth</surname> <given-names>MEJ</given-names></name>, <collab>Team and the MS</collab>. <article-title>Grip Strength, Postural Control, and Functional Leg Power in a Representative Cohort of British Men and Women: Associations With Physical Activity, Health Status, and Socioeconomic Conditions</article-title>. <source>J Gerontol A Biol Sci Med Sci</source>. <year>2005</year>;<volume>60</volume>: <fpage>224</fpage>–<lpage>231</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/gerona/60.2.224" xlink:type="simple">10.1093/gerona/60.2.224</ext-link></comment> <object-id pub-id-type="pmid">15814867</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rantanen</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Guralnik</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Foley</surname> <given-names>D</given-names></name>, <etal>et al</etal>. <article-title>Midlife hand grip strength as a predictor of old age disability</article-title>. <source>JAMA</source>. <year>1999</year>;<volume>281</volume>: <fpage>558</fpage>–<lpage>560</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1001/jama.281.6.558" xlink:type="simple">10.1001/jama.281.6.558</ext-link></comment> <object-id pub-id-type="pmid">10022113</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>den Ouden</surname> <given-names>MEM</given-names></name>, <name name-style="western"><surname>Schuurmans</surname> <given-names>MJ</given-names></name><article-title>, Arts IEMA, van der Schouw YT. Physical performance characteristics related to disability in older persons: A systematic review</article-title>. <source>Maturitas</source>. <year>2011</year>;<volume>69</volume>: <fpage>208</fpage>–<lpage>219</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.maturitas.2011.04.008" xlink:type="simple">10.1016/j.maturitas.2011.04.008</ext-link></comment> <object-id pub-id-type="pmid">21596497</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nybo</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Gaist</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Jeune</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>McGue</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Vaupel</surname> <given-names>JW</given-names></name>, <name name-style="western"><surname>Christensen</surname> <given-names>K</given-names></name>. <article-title>Functional Status and Self-Rated Health in 2,262 Nonagenarians: The Danish 1905 Cohort Survey</article-title>. <source>J Am Geriatr Soc</source>. <year>2001</year>;<volume>49</volume>: <fpage>601</fpage>–<lpage>609</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1046/j.1532-5415.2001.49121.x" xlink:type="simple">10.1046/j.1532-5415.2001.49121.x</ext-link></comment> <object-id pub-id-type="pmid">11380754</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gale</surname> <given-names>CR</given-names></name>, <name name-style="western"><surname>Martyn</surname> <given-names>CN</given-names></name>, <name name-style="western"><surname>Cooper</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Sayer</surname> <given-names>AA</given-names></name>. <article-title>Grip strength, body composition, and mortality</article-title>. <source>Int J Epidemiol</source>. <year>2007</year>;<volume>36</volume>: <fpage>228</fpage>–<lpage>235</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/ije/dyl224" xlink:type="simple">10.1093/ije/dyl224</ext-link></comment> <object-id pub-id-type="pmid">17056604</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sasaki</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Kasagi</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Yamada</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Fujita</surname> <given-names>S</given-names></name>. <article-title>Grip strength predicts cause-specific mortality in middle-aged and elderly persons</article-title>. <source>Am J Med</source>. <year>2007</year>;<volume>120</volume>: <fpage>337</fpage>–<lpage>342</lpage>. <object-id pub-id-type="pmid">17398228</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref035"><label>35</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Martin-Ruiz</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>von Zglinicki</surname> <given-names>M</given-names></name>. <chapter-title>A life course approach to biomarkers of ageing</chapter-title>. In: <name name-style="western"><surname>Kuh</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Cooper</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Hardy</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Richards</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ben-Shlomo</surname> <given-names>Y</given-names></name>, editors. <source>A Life Course Approach to Healthy Ageing</source>. <publisher-loc>New York</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>; <year>2014</year>. pp. <fpage>177</fpage>–<lpage>186</lpage>.</mixed-citation></ref>
+<ref id="pone.0155954.ref036"><label>36</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cooper</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Kuh</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Hardy</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Group</surname> <given-names>MR</given-names></name>. <article-title>Objectively measured physical capability levels and mortality: systematic review and meta-analysis</article-title>. <source>BMJ</source>. <year>2010</year>;<volume>341</volume>: <fpage>c4467</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1136/bmj.c4467" xlink:type="simple">10.1136/bmj.c4467</ext-link></comment> <object-id pub-id-type="pmid">20829298</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref037"><label>37</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Syddall</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Cooper</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Martin</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Briggs</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Sayer</surname> <given-names>AA</given-names></name>. <article-title>Is grip strength a useful single marker of frailty?</article-title> <source>Age Ageing</source>. <year>2003</year>;<volume>32</volume>: <fpage>650</fpage>–<lpage>656</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/ageing/afg111" xlink:type="simple">10.1093/ageing/afg111</ext-link></comment> <object-id pub-id-type="pmid">14600007</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref038"><label>38</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hairi</surname> <given-names>FM</given-names></name>, <name name-style="western"><surname>Mackenbach</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Andersen-Ranberg</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Avendano</surname> <given-names>M</given-names></name>. <article-title>Does socio-economic status predict grip strength in older Europeans? Results from the SHARE study in non-institutionalised men and women aged 50+</article-title>. <source>J Epidemiol Community Health</source>. <year>2010</year>;<volume>64</volume>: <fpage>829</fpage>–<lpage>837</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1136/jech.2009.088476" xlink:type="simple">10.1136/jech.2009.088476</ext-link></comment> <object-id pub-id-type="pmid">19884112</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref039"><label>39</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hurst</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Stafford</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Cooper</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Hardy</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Richards</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kuh</surname> <given-names>D</given-names></name>. <article-title>Lifetime Socioeconomic Inequalities in Physical and Cognitive Aging</article-title>. <source>Am J Public Health</source>. <year>2013</year>;<volume>103</volume>: <fpage>1641</fpage>–<lpage>1648</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.2105/AJPH.2013.301240" xlink:type="simple">10.2105/AJPH.2013.301240</ext-link></comment> <object-id pub-id-type="pmid">23865666</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref040"><label>40</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Russo</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Onder</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Cesari</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Zamboni</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Barillaro</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Capoluongo</surname> <given-names>E</given-names></name>, <etal>et al</etal>. <article-title>Lifetime occupation and physical function: a prospective cohort study on persons aged 80 years and older living in a community</article-title>. <source>Occup Environ Med</source>. <year>2006</year>;<volume>63</volume>: <fpage>438</fpage>–<lpage>442</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1136/oem.2005.023549" xlink:type="simple">10.1136/oem.2005.023549</ext-link></comment> <object-id pub-id-type="pmid">16782827</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref041"><label>41</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Enders</surname> <given-names>CK</given-names></name>. <article-title>Missing not at random models for latent growth curve analyses</article-title>. <source>Psychol Methods</source>. <year>2011</year>;<volume>16</volume>: <fpage>1</fpage>–<lpage>16</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1037/a0022640" xlink:type="simple">10.1037/a0022640</ext-link></comment> <object-id pub-id-type="pmid">21381816</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref042"><label>42</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Frederiksen</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Hjelmborg</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Mortensen</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Mcgue</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Vaupel</surname> <given-names>JW</given-names></name>, <name name-style="western"><surname>Christensen</surname> <given-names>K</given-names></name>. <article-title>Age trajectories of grip strength: cross-sectional and longitudinal data among 8,342 Danes aged 46 to 102</article-title>. <source>Ann Epidemiol</source>. <year>2006</year>;<volume>16</volume>: <fpage>554</fpage>–<lpage>562</lpage>. <object-id pub-id-type="pmid">16406245</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref043"><label>43</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kröger</surname> <given-names>H</given-names></name>. <article-title>Newspell—Easy management of complex spell data</article-title>. <source>Stata J</source>. <year>2015</year>;<volume>15</volume>: <fpage>155</fpage>–<lpage>172</lpage>.</mixed-citation></ref>
+<ref id="pone.0155954.ref044"><label>44</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jann</surname> <given-names>B</given-names></name>. <article-title>Making regression tables simplified</article-title>. <source>Stata J</source>. <year>2007</year>;<volume>7</volume>: <fpage>227</fpage>.</mixed-citation></ref>
+<ref id="pone.0155954.ref045"><label>45</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sterba</surname> <given-names>SK</given-names></name>. <article-title>Fitting Nonlinear Latent Growth Curve Models With Individually Varying Time Points</article-title>. <source>Struct Equ Model Multidiscip J</source>. <year>2014</year>;<volume>21</volume>: <fpage>630</fpage>–<lpage>647</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1080/10705511.2014.919828" xlink:type="simple">10.1080/10705511.2014.919828</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0155954.ref046"><label>46</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mishra</surname> <given-names>GD</given-names></name>, <name name-style="western"><surname>Chiesa</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Goodman</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Stavola</surname> <given-names>BD</given-names></name>, <name name-style="western"><surname>Koupil</surname> <given-names>I</given-names></name>. <article-title>Socio-economic position over the life course and all-cause, and circulatory diseases mortality at age 50–87 years: results from a Swedish birth cohort</article-title>. <source>Eur J Epidemiol</source>. <year>2013</year>;<volume>28</volume>: <fpage>139</fpage>–<lpage>147</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s10654-013-9777-z" xlink:type="simple">10.1007/s10654-013-9777-z</ext-link></comment> <object-id pub-id-type="pmid">23435736</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref047"><label>47</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kuh</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Bassey</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Hardy</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Sayer</surname> <given-names>AA</given-names></name>, <name name-style="western"><surname>Wadsworth</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Cooper</surname> <given-names>C</given-names></name>. <article-title>Birth Weight, Childhood Size, and Muscle Strength in Adult Life: Evidence from a Birth Cohort Study</article-title>. <source>Am J Epidemiol</source>. <year>2002</year>;<volume>156</volume>: <fpage>627</fpage>–<lpage>633</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/aje/kwf099" xlink:type="simple">10.1093/aje/kwf099</ext-link></comment> <object-id pub-id-type="pmid">12244031</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref048"><label>48</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sayer</surname> <given-names>AA</given-names></name>, <name name-style="western"><surname>Syddall</surname> <given-names>HE</given-names></name>, <name name-style="western"><surname>Gilbody</surname> <given-names>HJ</given-names></name>, <name name-style="western"><surname>Dennison</surname> <given-names>EM</given-names></name>, <name name-style="western"><surname>Cooper</surname> <given-names>C</given-names></name>. <article-title>Does Sarcopenia Originate in Early Life? Findings From the Hertfordshire Cohort Study</article-title>. <source>J Gerontol A Biol Sci Med Sci</source>. <year>2004</year>;<volume>59</volume>: <fpage>M930</fpage>–<lpage>M934</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/gerona/59.9.M930" xlink:type="simple">10.1093/gerona/59.9.M930</ext-link></comment> <object-id pub-id-type="pmid">15472158</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref049"><label>49</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hayward</surname> <given-names>MD</given-names></name>, <name name-style="western"><surname>Gorman</surname> <given-names>BK</given-names></name>. <article-title>The long arm of childhood: The influence of early-life social conditions on men’s mortality</article-title>. <source>Demography</source>. <year>2004</year>;<volume>41</volume>: <fpage>87</fpage>–<lpage>107</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1353/dem.2004.0005" xlink:type="simple">10.1353/dem.2004.0005</ext-link></comment> <object-id pub-id-type="pmid">15074126</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref050"><label>50</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Case</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Fertig</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Paxson</surname> <given-names>C</given-names></name>. <article-title>The lasting impact of childhood health and circumstance</article-title>. <source>J Health Econ</source>. <year>2005</year>;<volume>24</volume>: <fpage>365</fpage>–<lpage>389</lpage>. <object-id pub-id-type="pmid">15721050</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref051"><label>51</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Starr</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Deary</surname> <given-names>IJ</given-names></name><article-title>. Socio-economic position predicts grip strength and its decline between 79 and 87 years: the Lothian Birth Cohort 1921</article-title>. <source>Age Ageing</source>. <year>2011</year>;<volume>40</volume>: <fpage>749</fpage>–<lpage>752</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/ageing/afr070" xlink:type="simple">10.1093/ageing/afr070</ext-link></comment> <object-id pub-id-type="pmid">21705769</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref052"><label>52</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Birnie</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Cooper</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Martin</surname> <given-names>RM</given-names></name>, <name name-style="western"><surname>Kuh</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Sayer</surname> <given-names>AA</given-names></name>, <name name-style="western"><surname>Alvarado</surname> <given-names>BE</given-names></name>, <etal>et al</etal>. <article-title>Childhood Socioeconomic Position and Objectively Measured Physical Capability Levels in Adulthood: A Systematic Review and Meta-Analysis</article-title>. <source>PLoS ONE</source>. <year>2011</year>;<volume>6</volume>: <fpage>e15564</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0015564" xlink:type="simple">10.1371/journal.pone.0015564</ext-link></comment> <object-id pub-id-type="pmid">21297868</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref053"><label>53</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Kuh</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Richards</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Cooper</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Hardy</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Ben-Shlomo</surname> <given-names>Y</given-names></name>. <chapter-title>Life course epidemiology, ageing research and maturing cohort studies: a dynamic combination for understanding healthy ageing</chapter-title>. In: <name name-style="western"><surname>Kuh</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Cooper</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Hardy</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Richards</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ben-Shlomo</surname> <given-names>Y</given-names></name>, editors. <source>A Life Course Approach to Healthy Ageing</source>. <publisher-loc>New York</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>; <year>2014</year>. pp. <fpage>3</fpage>–<lpage>15</lpage>.</mixed-citation></ref>
+<ref id="pone.0155954.ref054"><label>54</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Murray</surname> <given-names>ET</given-names></name>, <name name-style="western"><surname>Hardy</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Strand</surname> <given-names>BH</given-names></name>, <name name-style="western"><surname>Cooper</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Guralnik</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Kuh</surname> <given-names>D</given-names></name>. <article-title>Gender and Life Course Occupational Social Class Differences in Trajectories of Functional Limitations in Midlife: Findings From the 1946 British Birth Cohort</article-title>. <source>J Gerontol A Biol Sci Med Sci</source>. <year>2011</year>;<volume>66A</volume>: <fpage>1350</fpage>–<lpage>1359</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/gerona/glr139" xlink:type="simple">10.1093/gerona/glr139</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0155954.ref055"><label>55</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Corna</surname> <given-names>LM</given-names></name>. <article-title>A life course perspective on socioeconomic inequalities in health: A critical review of conceptual frameworks</article-title>. <source>Adv Life Course Res</source>. <year>2013</year>;<volume>18</volume>: <fpage>150</fpage>–<lpage>159</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.alcr.2013.01.002" xlink:type="simple">10.1016/j.alcr.2013.01.002</ext-link></comment> <object-id pub-id-type="pmid">24796266</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref056"><label>56</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Erikson</surname> <given-names>R</given-names></name>. <article-title>Social Class of Men, Women and Families</article-title>. <source>Sociology</source>. <year>1984</year>;<volume>18</volume>: <fpage>500</fpage>–<lpage>514</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1177/0038038584018004003" xlink:type="simple">10.1177/0038038584018004003</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0155954.ref057"><label>57</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Blane</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Berney</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Montgomery</surname> <given-names>SM</given-names></name>. <article-title>Domestic labour, paid employment and women’s health: analysis of life course data</article-title>. <source>Soc Sci Med</source>. <year>2001</year>;<volume>52</volume>: <fpage>959</fpage>–<lpage>965</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0277-9536(00)00188-X" xlink:type="simple">10.1016/S0277-9536(00)00188-X</ext-link></comment> <object-id pub-id-type="pmid">11234868</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref058"><label>58</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Smith</surname> <given-names>ADAC</given-names></name>, <name name-style="western"><surname>Heron</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Mishra</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Gilthorpe</surname> <given-names>MS</given-names></name>, <name name-style="western"><surname>Ben-Shlomo</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Tilling</surname> <given-names>K</given-names></name>. <article-title>Model Selection of the Effect of Binary Exposures over the Life Course</article-title>. <source>Epidemiology</source>. <year>2015</year>;<volume>26</volume>: <fpage>719</fpage>–<lpage>726</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/EDE.0000000000000348" xlink:type="simple">10.1097/EDE.0000000000000348</ext-link></comment> <object-id pub-id-type="pmid">26172863</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref059"><label>59</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Bartley</surname> <given-names>M</given-names></name>. <source>Health Inequality: An Introduction to Theories, Concepts and Methods</source> [Internet]. {<publisher-name>Polity Press</publisher-name>}; <year>2004</year>. Available: <ext-link ext-link-type="uri" xlink:href="http://www.amazon.ca/exec/obidos/redirect?tag=citeulike09-20&amp;path=ASIN/0745627803" xlink:type="simple">http://www.amazon.ca/exec/obidos/redirect?tag=citeulike09-20&amp;path=ASIN/0745627803</ext-link></mixed-citation></ref>
+<ref id="pone.0155954.ref060"><label>60</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Torssander</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Erikson</surname> <given-names>R</given-names></name>. <article-title>Stratification and Mortality—A Comparison of Education, Class, Status, and Income</article-title>. <source>Eur Sociol Rev</source>. <year>2010</year>;<volume>26</volume>: <fpage>465</fpage>–<lpage>474</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/esr/jcp034" xlink:type="simple">10.1093/esr/jcp034</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0155954.ref061"><label>61</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kok</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Aartsen</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Deeg</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Huisman</surname> <given-names>M</given-names></name>. <article-title>Socioeconomic inequalities in a 16-year longitudinal measurement of Successful Aging</article-title>. <source>J Epidemiol Community Health</source>. <year>2016</year>;[forthcoming].</mixed-citation></ref>
+<ref id="pone.0155954.ref062"><label>62</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Blane</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Netuveli</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Stone</surname> <given-names>J</given-names></name>. <article-title>The development of life course epidemiology</article-title>. <source>Rev DÉpidémiologie Santé Publique</source>. <year>2007</year>;<volume>55</volume>: <fpage>31</fpage>–<lpage>38</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.respe.2006.12.004" xlink:type="simple">10.1016/j.respe.2006.12.004</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0155954.ref063"><label>63</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Solga</surname> <given-names>H</given-names></name>. <article-title>Longitudinal Surveys and the Study of Occupational Mobility: Panel and Retrospective Design in Comparison</article-title>. <source>Qual Quant</source>. <year>2001</year>;<volume>35</volume>: <fpage>291</fpage>–<lpage>309</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1023/A:1010387414959" xlink:type="simple">10.1023/A:1010387414959</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0155954.ref064"><label>64</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dex</surname> <given-names>S</given-names></name>. <article-title>The Reliability of Recall Data: a Literature Review</article-title>. <source>Bull Méthodologie Sociol</source>. <year>1995</year>;<volume>49</volume>: <fpage>58</fpage>–<lpage>89</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1177/075910639504900105" xlink:type="simple">10.1177/075910639504900105</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0155954.ref065"><label>65</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Havari</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Mazzonna</surname> <given-names>F</given-names></name>. <article-title>Can We Trust Older People’s Statements on Their Childhood Circumstances? Evidence from SHARELIFE</article-title>. <source>Eur J Popul</source>. <year>2015</year>;<volume>31</volume>: <fpage>233</fpage>–<lpage>257</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s10680-014-9332-y" xlink:type="simple">10.1007/s10680-014-9332-y</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0155954.ref066"><label>66</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Diggle</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Farewell</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Henderson</surname> <given-names>R</given-names></name>. <article-title>Analysis of longitudinal data with drop-out: objectives, assumptions and a proposal</article-title>. <source>J R Stat Soc Ser C Appl Stat</source>. <year>2007</year>;<volume>56</volume>: <fpage>499</fpage>–<lpage>550</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1467-9876.2007.00590.x" xlink:type="simple">10.1111/j.1467-9876.2007.00590.x</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0155954.ref067"><label>67</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hogan</surname> <given-names>JW</given-names></name>, <name name-style="western"><surname>Roy</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Korkontzelou</surname> <given-names>C</given-names></name>. <article-title>Handling drop-out in longitudinal studies</article-title>. <source>Stat Med</source>. <year>2004</year>;<volume>23</volume>: <fpage>1455</fpage>–<lpage>1497</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/sim.1728" xlink:type="simple">10.1002/sim.1728</ext-link></comment> <object-id pub-id-type="pmid">15116353</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref068"><label>68</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jones</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Koolman</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Rice</surname> <given-names>N</given-names></name>. <article-title>Health-related non-response in the British Household Panel Survey and European Community Household Panel: using inverse-probability-weighted estimators in non-linear models</article-title>. <source>J R Stat Soc Ser A Stat Soc</source>. <year>2006</year>;<volume>169</volume>: <fpage>543</fpage>–<lpage>569</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1467-985X.2006.00399.x" xlink:type="simple">10.1111/j.1467-985X.2006.00399.x</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0155954.ref069"><label>69</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fatouros</surname> <given-names>IG</given-names></name>, <name name-style="western"><surname>Kambas</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Katrabasas</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Nikolaidis</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Chatzinikolaou</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Leontsini</surname> <given-names>D</given-names></name>, <etal>et al</etal>. <article-title>Strength training and detraining effects on muscular strength, anaerobic power, and mobility of inactive older men are intensity dependent</article-title>. <source>Br J Sports Med</source>. <year>2005</year>;<volume>39</volume>: <fpage>776</fpage>–<lpage>780</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1136/bjsm.2005.019117" xlink:type="simple">10.1136/bjsm.2005.019117</ext-link></comment> <object-id pub-id-type="pmid">16183776</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref070"><label>70</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Alomari</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Mekary</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Welsch</surname> <given-names>MA</given-names></name>. <article-title>Rapid vascular modifications to localized rhythmic handgrip training and detraining</article-title>. <source>Eur J Appl Physiol</source>. <year>2010</year>;<volume>109</volume>: <fpage>803</fpage>–<lpage>809</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s00421-010-1367-0" xlink:type="simple">10.1007/s00421-010-1367-0</ext-link></comment> <object-id pub-id-type="pmid">20225082</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref071"><label>71</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Toraman</surname> <given-names>NF</given-names></name>. <article-title>Short term and long term detraining: is there any difference between young-old and old people?</article-title> <source>Br J Sports Med</source>. <year>2005</year>;<volume>39</volume>: <fpage>561</fpage>–<lpage>564</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1136/bjsm.2004.015420" xlink:type="simple">10.1136/bjsm.2004.015420</ext-link></comment> <object-id pub-id-type="pmid">16046344</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref072"><label>72</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nygård</surname> <given-names>C-H</given-names></name>, <name name-style="western"><surname>Luopajärvi</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Suurnäkki</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Ilmarinen</surname> <given-names>J</given-names></name>. <article-title>Muscle strength and muscle endurance of middle-aged women and men associated to type, duration and intensity of muscular load at work</article-title>. <source>Int Arch Occup Environ Health</source>. <year>1988</year>;<volume>60</volume>: <fpage>291</fpage>–<lpage>297</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/BF00378476" xlink:type="simple">10.1007/BF00378476</ext-link></comment> <object-id pub-id-type="pmid">3372036</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref073"><label>73</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schibye</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Hansen</surname> <given-names>AF</given-names></name>, <name name-style="western"><surname>Søgaard</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Christensen</surname> <given-names>H</given-names></name>. <article-title>Aerobic power and muscle strength among young and elderly workers with and without physically demanding work tasks</article-title>. <source>Appl Ergon</source>. <year>2001</year>;<volume>32</volume>: <fpage>425</fpage>–<lpage>431</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0003-6870(01)00034-5" xlink:type="simple">10.1016/S0003-6870(01)00034-5</ext-link></comment> <object-id pub-id-type="pmid">11534787</object-id></mixed-citation></ref>
+<ref id="pone.0155954.ref074"><label>74</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Era</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Lyyra</surname> <given-names>AL</given-names></name>, <name name-style="western"><surname>Viitasalo</surname> <given-names>JT</given-names></name>, <name name-style="western"><surname>Heikkinen</surname> <given-names>E</given-names></name>. <article-title>Determinants of isometric muscle strength in men of different ages</article-title>. <source>Eur J Appl Physiol</source>. <year>1992</year>;<volume>64</volume>: <fpage>84</fpage>–<lpage>91</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/BF00376446" xlink:type="simple">10.1007/BF00376446</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0155954.ref075"><label>75</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Clement</surname> <given-names>FJ</given-names></name>. <article-title>Longitudinal and Cross-Sectional Assessments of Age Changes in Physical Strength as Related to Sex, Social Class, and Mental Ability</article-title>. <source>J Gerontol</source>. <year>1974</year>;<volume>29</volume>: <fpage>423</fpage>–<lpage>429</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/geronj/29.4.423" xlink:type="simple">10.1093/geronj/29.4.423</ext-link></comment> <object-id pub-id-type="pmid">4833758</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

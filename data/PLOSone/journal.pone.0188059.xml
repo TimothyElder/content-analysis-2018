@@ -1,0 +1,548 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-17-21501</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0188059</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Computer and information sciences</subject><subj-group><subject>Information technology</subject><subj-group><subject>Data processing</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Applied mathematics</subject><subj-group><subject>Algorithms</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Simulation and modeling</subject><subj-group><subject>Algorithms</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Computer and information sciences</subject><subj-group><subject>Data visualization</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Computer and information sciences</subject><subj-group><subject>Data management</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Neuroscience</subject><subj-group><subject>Sensory perception</subject><subj-group><subject>Vision</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Sensory perception</subject><subj-group><subject>Vision</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Sensory perception</subject><subj-group><subject>Vision</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Lipids</subject><subj-group><subject>Lipid metabolism</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Metabolism</subject><subj-group><subject>Lipid metabolism</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Storage and handling</subject><subj-group><subject>Specimen storage</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Chromatographic techniques</subject><subj-group><subject>Liquid chromatography</subject><subj-group><subject>Liquid chromatography-mass spectrometry</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Chemistry</subject><subj-group><subject>Analytical chemistry</subject><subj-group><subject>Mass spectrometry</subject><subj-group><subject>Liquid chromatography-mass spectrometry</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Spectrum analysis techniques</subject><subj-group><subject>Mass spectrometry</subject><subj-group><subject>Liquid chromatography-mass spectrometry</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Fast, axis-agnostic, dynamically summarized storage and retrieval for mass spectrometry data</article-title>
+<alt-title alt-title-type="running-head">Fast, axis-agnostic, dynamically summarized storage and retrieval for mass spectrometry data</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Handy</surname> <given-names>Kyle</given-names></name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Rosen</surname> <given-names>Jebediah</given-names></name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Gillan</surname> <given-names>André</given-names></name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-1864-9110</contrib-id>
+<name name-style="western">
+<surname>Smith</surname> <given-names>Rob</given-names></name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"/>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001">
+<addr-line>Department of Computer Science, University of Montana, Missoula, Montana, United States of America</addr-line>
+</aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Jacobs</surname> <given-names>Jon M.</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1">
+<addr-line>Pacific Northwest National Laboratory, UNITED STATES</addr-line>
+</aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">robert.smith@mso.umt.edu</email></corresp>
+</author-notes>
+<pub-date pub-type="collection">
+<year>2017</year>
+</pub-date>
+<pub-date pub-type="epub">
+<day>15</day>
+<month>11</month>
+<year>2017</year>
+</pub-date>
+<volume>12</volume>
+<issue>11</issue>
+<elocation-id>e0188059</elocation-id>
+<history>
+<date date-type="received">
+<day>5</day>
+<month>6</month>
+<year>2017</year>
+</date>
+<date date-type="accepted">
+<day>31</day>
+<month>10</month>
+<year>2017</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2017</copyright-year>
+<copyright-holder>Handy et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0188059"/>
+<abstract>
+<p>Mass spectrometry, a popular technique for elucidating the molecular contents of experimental samples, creates data sets comprised of millions of three-dimensional (m/z, retention time, intensity) data points that correspond to the types and quantities of analyzed molecules. Open and commercial MS data formats are arranged by retention time, creating latency when accessing data across multiple m/z. Existing MS storage and retrieval methods have been developed to overcome the limitations of retention time-based data formats, but do not provide certain features such as dynamic summarization and storage and retrieval of point meta-data (such as signal cluster membership), precluding efficient viewing applications and certain data-processing approaches. This manuscript describes MzTree, a spatial database designed to provide real-time storage and retrieval of dynamically summarized standard and augmented MS data with fast performance in both m/z and RT directions. Performance is reported on real data with comparisons against related published retrieval systems.</p>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100000076</institution-id>
+<institution>Directorate for Biological Sciences</institution>
+</institution-wrap>
+</funding-source>
+<award-id>1552240</award-id>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-1864-9110</contrib-id>
+<name name-style="western">
+<surname>Smith</surname> <given-names>Rob</given-names></name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>This work was supported by National Science Foundation under Grant No. 1552240 to R.S. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="6"/>
+<table-count count="0"/>
+<page-count count="14"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data can be found at Proteome Exchange, ID numbers PXD004785, PXD004720, PXD001587, PXD004720, PXD003282, PXD004599, PXD004499, PXD004313, PXD004204. File details and usage are listed in the Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Liquid chromatography-mass spectrometry is a popular technique often used for high-throughput protein, lipid, and metabolite experimental quantification and identification [<xref ref-type="bibr" rid="pone.0188059.ref001">1</xref>]. Quantification and identification of molecules requires the computational analysis of raw mass spectrometer output [<xref ref-type="bibr" rid="pone.0188059.ref002">2</xref>], files consisting of millions of three-dimensional points with mass-to-charge (m/z), retention time (RT), and intensity axes. Standard non-proprietary file formats for mass spectrometry (MS) data are <italic>mzML</italic> [<xref ref-type="bibr" rid="pone.0188059.ref003">3</xref>] and <italic>mzXML</italic> [<xref ref-type="bibr" rid="pone.0188059.ref004">4</xref>]. Like its proprietary counterparts, mzML is arranged by RT scans. RT-centric data formats make time-efficient data processing a challenge, as it requires the traversal of MS data scan by scan, making it impossible to quickly extract regional windows bounded by an m/z interval over several RT scans. This limitation precludes certain MS data processing techniques that require regional data queries that would be computationally intensive with RT-centric formats such as native mzML.</p>
+<p>Recognizing the limitations of native mzML, the community has developed several storage and retrieval systems for MS data, such as mz5 [<xref ref-type="bibr" rid="pone.0188059.ref005">5</xref>] and mzDB [<xref ref-type="bibr" rid="pone.0188059.ref006">6</xref>]. mz5 is a queryable MS data store based on the HDF5 database system and provides faster access than XML-based mzML, but still requires iteration through each relevant scan in order to retrieve the subset of individual points in the requested window.</p>
+<p>mzDB provides fast, axis-agnostic access to MS data for small queries. However, mzDB is designed to return all points within query bounds without intermediate reduction. This raw approach precludes usage in viewing or online applications, where intermediate and large query areas will cause latency or failure of the client application.</p>
+<p>Existing MS storage and retrieval methods do not provide a mechanism for realtime inclusion of point metadata. Several recent data processing algorithms segment MS data into component signals [<xref ref-type="bibr" rid="pone.0188059.ref007">7</xref>, <xref ref-type="bibr" rid="pone.0188059.ref008">8</xref>]. Segmentation algorithms attempt to delineate signals first into extracted ion chromatograms (XICs), then combine them into isotopic envelopes (illustrated as neutromer traces and chargite distribution traces the unambiguous nomenclature proposed in [<xref ref-type="bibr" rid="pone.0188059.ref009">9</xref>]). While at least two static, XML-based data formats have been proposed to store point metadata (featureXML [<xref ref-type="bibr" rid="pone.0188059.ref010">10</xref>] and peakML [<xref ref-type="bibr" rid="pone.0188059.ref011">11</xref>]), to date no system has been proposed that can store signal segmentations as they are delineated, preventing real-time acquisition and modification of point metadata.</p>
+<p>Current methods for MS storage and retrieval do not accommodate the following use cases:</p>
+<list list-type="bullet">
+<list-item>
+<p>Processing of the entire raw file through queries of adjacent regions, such as in file format conversion and peak picking.</p>
+</list-item>
+<list-item>
+<p>Accessing large m/z, RT windows of data, such as during algorithmic processing and to supply viewers capable of zooming out to wide views.</p>
+</list-item>
+<list-item>
+<p>Querying local m/z, RT windows of the file for zoomed in views and data processing algorithms such as XIC extraction or precursor mass and intensity calculation.</p>
+</list-item>
+<list-item>
+<p>Assigning, storing, and retrieving segmentation IDs associated with each point for development, testing, and evaluation of XIC extraction and envelope clustering (feature detection) algorithms.</p>
+</list-item>
+<list-item>
+<p>Repeatedly querying adjacent data regions, such as when scrolling left, right, up, or down in m/z or RT in an MS1 viewer such as JS-MS.</p>
+</list-item>
+</list>
+<p>In this manuscript, we present MzTree, a novel storage and retrieval system for MS data. MzTree is comprised of a novel file format, a sophisticated data structure, and a wrapping HTTP server that enable efficient MS data storage, modification, and querying. MzTree is designed for uses that require frequent, fast, axis-agnostic queries of MS1 data. It automatically constructs a sophisticated summary of data windows to provide fast returns of data at any granularity and has a point caching system that is particularly well-suited to queries of adjoining m/z, RT windows. MzTree is the first MS data storage format that models each (m/z, RT, intensity) point individually, extended with segmentation assignment attributes. MzTree can track segmentations of any shape and size, persisting all assignments for downstream processing. MzTree utilizes optimized disk I/O storage to allow for processing files of any size without suffering performance degradation. For portability and dependency-repression, MzTree is implemented in Java 8.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and methods</title>
+<sec id="sec003">
+<title>Instantiation</title>
+<p>The MzTree data structure is based on the R-Tree data structure [<xref ref-type="bibr" rid="pone.0188059.ref013">13</xref>]. An R-Tree is a hierarchy of data regions with each node’s region minimally encapsulating its child nodes’ data regions (bottom-right <xref ref-type="fig" rid="pone.0188059.g001">Fig 1</xref>). Leaf nodes encapsulate real data. R-Trees are queried with a two-dimensional range. The tree is traversed by expanding nodes with overlapping data regions until leaf nodes are reached.</p>
+<fig id="pone.0188059.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0188059.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>The MzTree data structure.</title>
+<p>MzTree partitions spatially-organized data by data volume, using the Sort-Tile Recursive algorithm [<xref ref-type="bibr" rid="pone.0188059.ref012">12</xref>]. Nodes maintain references to their points as point IDs. The point cache is a hashmap from point ID to point object (m/z, RT, intensity and XIC ID) and is the only in-memory location for MS data points.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0188059.g001" xlink:type="simple"/>
+</fig>
+<p>R-Trees are designed for efficiently indexing spatial data, but do not leverage MS-specific properties, such as the tendency of MS data to cluster over specific m/zs. MzTree uses a special partitioning method that leverages these properties, resulting in fewer nodes traversed per search and, in turn, faster query response times.</p>
+<p><bold>Algorithm 1</bold> Divide: Recursively constructs an MzTree on a data set <italic>D</italic><sub>0</sub> given a root node <italic>N</italic><sub>0</sub>, number of points per node <italic>p</italic>, sorting state <italic>s</italic>, and branching factor <italic>b</italic></p>
+<p specific-use="line">1: <bold>procedure</bold> <sc>divide</sc>(<italic>D</italic><sub>0</sub>, <italic>N</italic><sub>0</sub>, <italic>s</italic>, <italic>p</italic>, <italic>b</italic>)</p>
+<p specific-use="line">2:  <bold>if</bold> <italic>length</italic>(<italic>D</italic><sub>0</sub>) &gt; <italic>p</italic> <bold>then</bold>         ▷ Non-leaf nodes only</p>
+<p specific-use="line">3:   <bold>if</bold> <italic>s</italic> <bold>then</bold>          ▷ Sorting alternates, m/z ↔ RT</p>
+<p specific-use="line">4:    <italic>D</italic><sub>0</sub> ← <italic>sortByRT</italic>(<italic>D</italic><sub>0</sub>)</p>
+<p specific-use="line">5:   <bold>else</bold></p>
+<p specific-use="line">6:    <italic>D</italic><sub>0</sub> ← <italic>sortByMz</italic>(<italic>D</italic><sub>0</sub>)</p>
+<p specific-use="line">7:   <bold>end if</bold></p>
+<p specific-use="line">8:   <italic>l</italic> ← <italic>length</italic>(<italic>D</italic><sub>0</sub>)/<italic>b</italic>             ▷ Partition size <italic>l</italic></p>
+<p specific-use="line">9:   <italic>i</italic> ← 0</p>
+<p specific-use="line">10:   <bold>while</bold> <italic>i</italic> &lt; <italic>length</italic>(<italic>D</italic><sub>0</sub>) <bold>do</bold></p>
+<p specific-use="line">11:    <italic>D</italic> ← <italic>D</italic><sub>0</sub>[<italic>i</italic> * <italic>l</italic> : (<italic>i</italic> + 1) * <italic>l</italic>]            ▷ Partition</p>
+<p specific-use="line">12:    <italic>N</italic> ← <italic>Node</italic>()                ▷ Child node</p>
+<p specific-use="line">13:    <italic>divide</italic>(<italic>D</italic>, <italic>N</italic>, !<italic>s</italic>, <italic>p</italic>, <italic>b</italic>)          ▷ Recurse, negate <italic>s</italic></p>
+<p specific-use="line">14:    <italic>addChild</italic>(<italic>N</italic><sub>0</sub>, <italic>N</italic>)</p>
+<p specific-use="line">15:    <italic>i</italic> ← <italic>i</italic> + <italic>l</italic></p>
+<p specific-use="line">16:   <bold>end while</bold></p>
+<p specific-use="line">17:   <italic>N</italic><sub>0</sub>.<italic>pointIDs</italic> ← <italic>weightedStriding</italic>(<italic>N</italic><sub>0</sub>, <italic>p</italic>)</p>
+<p specific-use="line">18:  <bold>else</bold></p>
+<p specific-use="line">19:   <italic>N</italic><sub>0</sub>.<italic>pointIDs</italic> = <italic>getPointIDs</italic>(<italic>D</italic><sub>0</sub>)</p>
+<p specific-use="line">20:  <bold>end if</bold></p>
+<p specific-use="line">21: <bold>end procedure</bold></p>
+<p specific-use="line">22: <bold>procedure</bold> <sc>add</sc>C<sc>hild</sc>(<italic>N</italic><sub>0</sub>, <italic>N</italic>)</p>
+<p specific-use="line">23:  <italic>N</italic><sub>0</sub>.<italic>minMz</italic> ← <italic>min</italic>(<italic>N</italic><sub>0</sub>.<italic>minMz</italic>, <italic>N</italic>.<italic>minMz</italic>)</p>
+<p specific-use="line">24:  <italic>N</italic><sub>0</sub>.<italic>maxMz</italic> ← <italic>max</italic>(<italic>N</italic><sub>0</sub>.<italic>maxMz</italic>, <italic>N</italic>.<italic>maxMz</italic>)</p>
+<p specific-use="line">25:  <italic>N</italic><sub>0</sub>.<italic>minRt</italic> ← <italic>min</italic>(<italic>N</italic><sub>0</sub>.<italic>minRt</italic>, <italic>N</italic>.<italic>minRt</italic>)</p>
+<p specific-use="line">26:  <italic>N</italic><sub>0</sub>.<italic>maxRt</italic> ← <italic>max</italic>(<italic>N</italic><sub>0</sub>.<italic>maxRt</italic>, <italic>N</italic>.<italic>maxRt</italic>)</p>
+<p specific-use="line">27:  <italic>N</italic><sub>0</sub>.<italic>children</italic>.<italic>append</italic>(<italic>N</italic><sub>0</sub>)</p>
+<p specific-use="line">28: <bold>end procedure</bold></p>
+<p>Lines 3-6 of Algorithm 1 describe how MzTree partitions successive subspaces of an MS file by iteratively prioritizing either the m/z or RT dimension on each divide, resulting in an MzTree optimally balanced for any m/z, RT window query. The division of the sorted data is determined using the Sort-Tile-Recursive (STR) algorithm [<xref ref-type="bibr" rid="pone.0188059.ref012">12</xref>]. STR is designed to divide R-Tree partitions by point volume, not data range, ensuring full or nearly full nodes at every point in the tree.</p>
+<p>Inputs to the procedure are a data set <italic>D</italic><sub>0</sub>, a root node <italic>N</italic><sub>0</sub>, number of points per node <italic>p</italic>, and branching factor <italic>b</italic>. The number of points per node <italic>p</italic> dictates recursion: the base case triggers when the length of <italic>D</italic><sub>0</sub> becomes less than <italic>p</italic>–the current node is deemed a leaf node and all point IDs are collected (Line 19). Non-leaf nodes proceed into the recursive block. In the recursive block, a partition size is calculated as the length of the data set over the branching factor <italic>b</italic> (Line 8). The data set is equally partitioned by volume and not area. For each partition, a new child node is constructed (Line 12); both the partition and child node are passed in a recursive call with the sorting flag switched (Line 13). Switching the sorting flag changes the partitioned dimension, producing the rectangular partitions illustrated by <xref ref-type="fig" rid="pone.0188059.g001">Fig 1</xref>. <italic>Divide</italic> is not fully tail-recursive; the current node must collect its child node after return of the recursive call. Adding a child consists of storing a reference to the child node and subsuming the child’s data bounds.</p>
+</sec>
+<sec id="sec004">
+<title>Weighted striding</title>
+<p>As the tree is instantiated, a process referred to as <italic>summarization</italic> is performed at each node (see Algorithm 1 line 17). Summarization is required in all applications that require accessing more data than can be efficiently transmitted. For example, summarization is required when an algorithm needs information regarding a large window of data to make a decision, but need not know everything about every point in the window, or when a user wishes to view the overarching layout of an entire run, but without needing the viewer to render every single point. Summarization is a novel aspect of MzTree, and occurs in two contexts: static summarization, which occurs at instantiation, and dynamic summarization, which occurs at query time. Both static and dynamic summarization are performed using a novel procedure referred to as <italic>weighted striding</italic>. Weighted striding is designed with three objectives:</p>
+<list list-type="order">
+<list-item>
+<p><bold>Integral samples:</bold> Summaries must be samples of real points, not derived points. This requirement prevents the context-specific bias implicit in any derivation technique, as well as the computational overhead required to calculate derived summaries.</p>
+</list-item>
+<list-item>
+<p><bold>Representative sub-samples:</bold> Summaries must visually resemble the underlying data. This requirement increases the odds that high-level impressions to users or algorithms convey the same information conveyed by the underlying data.</p>
+</list-item>
+<list-item>
+<p><bold>Deterministic sub-samples:</bold> Samples must be collected without stochasticity. This requirement provides repeatable consistency that can be used to engineer decisions in algorithms and ensures a uniform, reproducible user experience.</p>
+</list-item>
+</list>
+<p>Weighted striding provides point subsamples that preserve the ratio of high and low intensity points from the original data. In effect, it emulates windowed averaging without the need to derive new summarized points. It provides stochastic-like subsamples through a completely deterministic process, which is required in order to reproduce the same response to the same query. Weighted striding iterates through the list of points in a given window of data, recruiting the requested number of points for the subsample by accumulating intensity until a threshold is met (see <xref ref-type="fig" rid="pone.0188059.g002">Fig 2</xref>). With each point assignment, the process is continued with any intensity over threshold added to the next iteration. The process continues, wrapping back to the start of the array if necessary, until the requested number of points in the subsample are recruited. <xref ref-type="fig" rid="pone.0188059.g002">Fig 2</xref> depicts the weighted striding technique with a stride length of 1 for demonstration purposes. In practice, higher values provide more representative samples, as the multiple passes they provide over the point array provide representation of areas that might be skipped over with smaller stride lengths. Experimental experience suggests 42 to be a suitable number for the stride length. Additionally, the method does not contain any stochastic elements. Repeated queries will always receive the same points.</p>
+<fig id="pone.0188059.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0188059.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Weighted striding summarization.</title>
+<p>The weighted striding technique promotes higher intensity points while still admitting low intensity points to achieve a representative sub-sample. Shown here with10 points total, <italic>total intensity</italic> = 30, <italic>stride length = 1</italic>, <italic>sample size = 3</italic>, and <italic>accumulation threshold = 10</italic>.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0188059.g002" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec005">
+<title>Static summarization</title>
+<p>Static summarization occurs at MzTree build time to minimize response time for each query. The MzTree’s hierarchical structure consists of layers of nodes containing point IDs corresponding to the weighted striding of contiguous areas of the data set in increasing granularity, with leaf nodes consisting of the actual points (see <xref ref-type="fig" rid="pone.0188059.g001">Fig 1</xref>). At each hierarchical layer of the MzTree, a summarization is compiled and stored. Summarization does not require significant storage resources, as only the IDs of the subsample are duplicated.</p>
+</sec>
+<sec id="sec006">
+<title>Dynamic summarization</title>
+<p>During use, MzTree responds to queries consisting of a data window described by m/z and RT bounds, as well as a requested number of points, specific to the application. To respond to the query, the MzTree nodes are traversed breadth-first until sufficient summary nodes are reached to provide the requested number of points, or, if insufficient points exist in the queried region, until leaf nodes are reached and all points within the bounds are returned. Because it is unlikely that the number of points in the union of pertinant summarization nodes exactly equals the number of points requested in the query, weighted striding is performed on the raw result to create a subsample of points of appropriate cardinality.</p>
+</sec>
+<sec id="sec007">
+<title>Memory management</title>
+<p>XML-based MS data formats with sizes up to dozens of gigabytes, even up to 50 gigabytes are routinely encountered [<xref ref-type="bibr" rid="pone.0188059.ref014">14</xref>], presenting an ever-increasing challenge for efficient data storage and processing. Most MS data processing software is not prepared to manage this volume of data [<xref ref-type="bibr" rid="pone.0188059.ref014">14</xref>], as they require loading the entire MS dataset into main memory (RAM) to initiate analysis. MzTree is intentionally designed with a user-set memory upper bound, ensuring that a data set of any size can be processed by machines with insufficient memory to store the entire file. The memory threshold dictates what share of the MzTree is stored on the disk, and what portion can be stored in a RAM-based cache. MzTree moves data from disk into cache based on past user requests. The size of the cache and the proximity (in RT or m/z) of successive queries increases the hit rate of pre-cached data. By default, eighty percent of the JVM heap is allocated to the point cache.</p>
+</sec>
+<sec id="sec008">
+<title>Point metadata</title>
+<p>MzTree is a good candidate for data processing applications. MzTree models data points individually (see <xref ref-type="fig" rid="pone.0188059.g003">Fig 3</xref>), and allows the storage, retrieval, and modification of point-specific metadata, such as membership in XICs or isotopic envelopes, in real-time. MzTree’s point metadata can be used by data processing algorithms such as correspondence [<xref ref-type="bibr" rid="pone.0188059.ref015">15</xref>], alignment, segmentation, or feature finding. Communication with MzTree is facilitated by the HTTP protocol, making it possible to run MzTree locally or on a remote server. The API is based on JSON, making it clear and easy to use.</p>
+<fig id="pone.0188059.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0188059.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>MzTree entity-relationship diagram.</title>
+<p>Entities modeled are MzTree Nodes, MS Data Points, and XICs (traces). The MzTree data store stores each entity relationally.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0188059.g003" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec009">
+<title>File structure</title>
+<p>Each MzTree is comprised of MS point data, MzTree node data, and point metadata. All entities are modeled relationally (see <xref ref-type="fig" rid="pone.0188059.g003">Fig 3</xref>). For rapid retrieval and real-time editing, the summarized nodes and point metadata items (such as XIC and isotopic envelope membership) are stored in an SQLite database. Because they are immutable, the point entities are stored in a custom binary format, allowing random access, providing constant time lookup as opposed to the logarithmic times required by indexing schemes.</p>
+<p>In addition to constant time point access, the point file optimizes access to leaf nodes by physically grouping points of a leaf node. During construction of an MzTree, each leaf node’s data partition is written to the data store atomically, minimizing the number of file blocks used to store the partition, and logically storing the leaf node’s partition as a contiguous block. Given a leaf node, MzTree can navigate to its data block in constant time, and read its data partition with only a single file seek. For queries that do not require summarization, MzTree will navigate directly to the appropriate leaf nodes and return the requested data points with as few file seeks as possible. This upgrade, compared to the previous, disarranged version of the point file, presented a 3-fold improvement in query time.</p>
+</sec>
+<sec id="sec010">
+<title>File conversion</title>
+<p>The current MzTree implementation has three methods of instantiation corresponding to the input data. Each method requires an initial, nominal time requirement that is orders of magnitude faster than running a mass spectrometry experiment (see <xref ref-type="sec" rid="sec012">Results</xref> below).</p>
+<p>The first method imports from an mzML file. Importing an mzML file begins by streaming mzML spectra data and converting it to (m/z, RT, intensity) tuples. To ease processing demands and reduce noise level, points with an intensity value below one are excluded. Each point is written to the MzTree point storage as it is read from the mzML file. After all points are imported, the hierarchical summary nodes are constructed as described above.</p>
+<p>To facilitate data processing, MzTree can also import or export .csv files with the schema <italic>[m/z, RT, intensity, XIC ID, isotope distribution ID]</italic>. Each line is parsed as an MS data point, then construction of the MzTree continues identically to construction via an mzML file. MzTree can export point data of a data range to a CSV of this format. Supporting CSV import/export allows MzTree to produce segmented data in an easily-accessible format for downstream processing.</p>
+<p>Once an MzTree is instantiated, it can almost instantaneously be accessed at any time.</p>
+</sec>
+<sec id="sec011">
+<title>Memory requirements</title>
+<p>mzML file sizes can be as large as tens of gigabytes. As the field advances, this size is expected to trend upwards [<xref ref-type="bibr" rid="pone.0188059.ref014">14</xref>]. To date, most applications that provide interactive sessions with MS data are required to load the entirety of the data set into memory. In our experience, representing all points in an mzML file in tuple form requires around 3x the memory of native mzML. The required memory for conversion simply isn’t available on most desktops. Constructing an R-Tree requires the entire data set to be sorted along a single axis before partitioning at each recursive step. By building the first level of the tree based on the RT dimension, MzTree avoids memory limitations by reducing load requirements to a single scan instead of the entire mzML file, and enabling MzTree to process an mzML file of any size. Due to memory requirements of the MzTree structure itself, at least 1GB of RAM is required for the application.</p>
+</sec>
+</sec>
+<sec id="sec012" sec-type="conclusions">
+<title>Results and discussion</title>
+<p>By specifically optimizing for them, MzTree outperforms existing methods on use cases of interest, including:</p>
+<list list-type="bullet">
+<list-item>
+<p>Processing of the entire raw file through queries of adjacent regions, such as in file format conversion and peak picking.</p>
+</list-item>
+<list-item>
+<p>Accessing large m/z, RT windows of data, such as during algorithmic processing and to supply viewers capable of zooming out to wide views.</p>
+</list-item>
+<list-item>
+<p>Querying local m/z, RT windows of the file for zoomed in views and data processing algorithms such as XIC extraction or precursor mass and intensity calculation.</p>
+</list-item>
+<list-item>
+<p>Repeatedly querying adjacent data regions, such as when scrolling left, right, up, or down in m/z or RT in an MS1 viewer.</p>
+</list-item>
+</list>
+<p>Here we compare MzTree to leading MS file formats most like it–mzML, mz5 [<xref ref-type="bibr" rid="pone.0188059.ref005">5</xref>] and mzDB [<xref ref-type="bibr" rid="pone.0188059.ref006">6</xref>]–in the arenas of data querying, file conversion time and size on disk. Querying comparisons are of two kinds: random and path. Random queries are a sequence of randomly generated queries over the dataset designed to measure the performance of applications that perform several successive unrelated queries; path queries are a sequence of queries that stochastically traversing the dataset from a random seed, designed to measure the performance of applications that perform several successive queries to adjacent areas. In an attempt to illustrate the effects of several optimizations, MzTree’s performance is measured with and without certain optimizations.</p>
+<p>All experiments were completed on a Dell XPS 8900, 8-processor Intel Core i7-6700K CPU @ 4.00GHz, 256GB SSD, with Xubuntu 16.04 (except mzDB conversions), with 32GB RAM. The mzDB conversions were conducted on the same machine, but under Windows, since <italic>pwiz-mzdb</italic> is only available for Windows.</p>
+<p>To perform tests two Java code stubs were written to directly access MzTree’s query and conversion functions without HTTP server related overhead. Proteowizard [<xref ref-type="bibr" rid="pone.0188059.ref016">16</xref>] version 3.0.9870 presents the <italic>msaccess</italic> and <italic>msconvert</italic> modules for querying and converting, respectively, mzml and mz5. The mzDB group provides publicly available modules, <italic>mzdb-access</italic> version 0.5.0 and <italic>pwiz-mzdb</italic> version 0.9.9, for querying mzDB and converting from Thermo RAW to mzDB, respectively. The latest versions of these modules can be found at github.com/mzdb/mzdb-access. <italic>pwiz-mzdb</italic> is only available for Windows, thus RAW to mzDB was performed on the Windows partition on the same drive of the same machine used for all other tests.</p>
+<p>Sixteen public .mzML and raw files were used for the analysis. Though these datasets were pulled from ProteomeXchange [<xref ref-type="bibr" rid="pone.0188059.ref017">17</xref>] for convenience, results should generalize to any complex LC-MS experimental data including, for example, lipid and metabolomics data. Identifiers for each dataset as well as detailed results for random querying, path querying, conversion time and size on disk are available in the supplementary data.</p>
+<sec id="sec013">
+<title>Queries of large regions</title>
+<p>All MS data processing situations involve a limited amount of RAM, either imposed by the platform used (such as a browser’s maximal number of points renderable, or a system’s available RAM), yet none of the methods discussed here have the ability to return information about a data region or entire file when the area of interest includes too many points to store in memory.</p>
+<p>MzTree’s summarization technique allows the user to retrieve information about any file or any region in any file no matter how large that region may be (see <xref ref-type="fig" rid="pone.0188059.g004">Fig 4</xref>. This allows the user to use MzTree as a data source for algorithmic data processing or visualization on any MS data set, not just those that fit entirely in memory.</p>
+<fig id="pone.0188059.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0188059.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Summarization memory savings.</title>
+<p>Of all methods discussed in this paper, MzTree is the only one that can handle data sets that require more RAM than the application provides. MzTree’s summarization feature (shown here with limit set to 5,000 points) allows users to work with arbitrarily large data sets even in situations where available RAM is less than that required to hold the unsummarized set of returned points, such as system memory limits or visualization rendering limits.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0188059.g004" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec014">
+<title>Non-adjacent queries in either dimension</title>
+<p>Most current data processing queries use m/z-major data regions, where the RT height of the query bounds exceeds the m/z width. In these types of queries, MzTree retrieves points in less time than competing methods (see <xref ref-type="fig" rid="pone.0188059.g005">Fig 5(a)</xref>). This performance holds whether or not summarization is used.</p>
+<fig id="pone.0188059.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0188059.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>Query response times.</title>
+<p>(a) Query times from 100 random queries from non-adjacent regions where query RT height &lt; m/z width. MzTree is able to retrieve m/z-major data regions faster than any other analyzed method. Without summarization (that is, returning all points in the region), MzTree retrieves all points faster than other methods with only a few exceptions. (b) Query times from 100 random queries from non-adjacent regions where query RT height &gt; m/z width. Mz tree is able to retrieve RT-major data regions at least as fast as other methods on small queries, and much faster on larger queries. (c) Query times from 40 paths through adjacent regions with 100 queries each where query RT height &lt; m/z width. While mzML outperforms mz5 and mzDB, MzTree outperforms all methods on realistically-sized (¡multiple GB) queries. In addition to the standard MzTree and MzTree without summarization, a single-instance MzTree is shown to quantify the benefits of the point cache (set to 80% of the default JVM heap), a feature other methods do not have. (d) Query times from 40 paths through adjacent regions with 100 queries each where query RT height &gt; m/z width. While mzML outperforms mz5 and mzDB, MzTree outperforms all methods on realistically-sized (¡multiple GB) queries. In addition to the standard MzTree and MzTree without summarization, a single-instance MzTree is shown to quantify the benefits of the point cache (set to 80% of the default JVM heap), a feature other methods do not have.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0188059.g005" xlink:type="simple"/>
+</fig>
+<p>In some use cases, such as alternative data processing techniques and visualization scenarios, the user is more interested in RT-major data regions, where the m/z width of the query bounds exceeds the RT height. Because of axis-agnostic design, MzTree is comparably fast in both m/z- and RT-major queries, where competing methods perform relatively worse than in m/z-major queries (see <xref ref-type="fig" rid="pone.0188059.g005">Fig 5(b)</xref>). MzTree’s improved performance is due to axis-agnostic design, as both mz5 [<xref ref-type="bibr" rid="pone.0188059.ref005">5</xref>] and mzDB [<xref ref-type="bibr" rid="pone.0188059.ref006">6</xref>] are optimized for m/z-centric queries.</p>
+</sec>
+<sec id="sec015">
+<title>Adjacent queries in either dimension</title>
+<p>Use cases such as total coverage data processing or visualization will generate many queries to adjacent regions of data as the algorithm/user processes the next portion of the file. MzTree’s point cache is specifically designed as an optimization for this use case. Point caching retains the points from the previous query for reuse when the next query region overlaps the previous.</p>
+<p>For this section, 25 different sequences of 100 queries were generated by simulating user navigation through the 301M point dataset. Paths were generated by mutating a data range with a random jump to either zoom-in, zoom-out, move up in RT, down in RT, up in m/z, or down in m/z. Each of the resulting 25 query paths were subjected to each file format, and the overall number of points and overall execution time per path were recorded.</p>
+<p>For both RT-major queries (see <xref ref-type="fig" rid="pone.0188059.g005">Fig 5(c)</xref>) and m/z-major queries (see <xref ref-type="fig" rid="pone.0188059.g005">Fig 5(d)</xref>), MzTree outperforms other methods on queries over several orders of magnitude in size.</p>
+</sec>
+<sec id="sec016">
+<title>File conversion</title>
+<p>Conversion times from mzML to each file format are displayed in <xref ref-type="fig" rid="pone.0188059.g006">Fig 6(a)</xref>. Note that because mzDB is not currently able to convert from mzML, times reported for mzDB are from Thermo RAW directly to mzDB using the <italic>pwiz-mzdb</italic> version 0.9.9 module from Proteowizard [<xref ref-type="bibr" rid="pone.0188059.ref016">16</xref>] version 3.0.9870. For the other methods, RAW files were converted to mzML using Proteowizard’s <italic>msaccess</italic> and <italic>msconvert</italic> modules.</p>
+<fig id="pone.0188059.g006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0188059.g006</object-id>
+<label>Fig 6</label>
+<caption>
+<title>Footprint of data structures as function of number of points.</title>
+<p>The MzTree grows in time and space roughly linearly with the number of points, but the one-time conversion takes far less time than an MS experiment and provides optimized savings over multiple queries. (a) Time required to convert from mzML to MzTree. (b) Space required for an MzTree.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0188059.g006" xlink:type="simple"/>
+</fig>
+<p>The resulting sizes of each data structure on disk after conversion are reported in <xref ref-type="fig" rid="pone.0188059.g006">Fig 6(b)</xref>. The size of the MzTree grows roughly linearly with the number of points.</p>
+<p>Part of MzTree’s optimization consists of a data structure intentionally designed for the use cases described above. Though there is an overhead cost associated with file conversion, the time requirement is orders of magnitude smaller than the actual MS experiment, while the space requirement scales roughly linearly with the number of points. As a one-time cost, the conversion time and space amortizes well in cases where multiple queries will occur on one file.</p>
+<p>It should be noted that MzTree is not designed for every MS data processing use case. The version described here requires a binary format of fixed size, and cannot be dynamically expanded to retain additional information, such as MS/MS spectra, imzML format, or drift time, although the system can be expanded programmatically to create a new file time to accommodate these and any other use cases. For now, users with differing use cases than those described above are advised to use mzDB. Future work on MzTree will include the ability to dynamically expand file types.</p>
+</sec>
+</sec>
+<sec id="sec017" sec-type="conclusions">
+<title>Conclusion</title>
+<p>Unbiased MS data processing and viewing requires axis-agnostic querying and modification abilities. Current methods for MS data storage are RT-centric, precluding axis agnostic queries and create a static data structure that does not allow the addition of point metadata for signal segmentation.</p>
+<p>MzTree provides an optimized solution for repetitive queries of m/z, RT windows of data suitable for axis agnostic data processing algorithms and efficient MS viewers by leveraging a point tree with levels alternatively sorted by RT or m/z, and with nodes in the tree corresponding to rectangular regions with similar cardinality. The subset of points in each node is determined by a novel algorithm for point summarization called weighted striding, which preserves signal shape while providing an upper bound on memory usage across data segments from local neighborhoods to entire MS files. MzTree includes an HTTP server as one possible implementation of the query API.</p>
+<p>In comparison to existing MS data storage methods, MzTree performs faster in servicing both random and sequential queries, regardless of the major axis of the query. It features reasonable conversion times, and is capable of maintaining memory limitations on MS files of any size. It is freely available under GPL 3.0 at <ext-link ext-link-type="uri" xlink:href="https://github.com/optimusmoose/MZTree" xlink:type="simple">https://github.com/optimusmoose/MZTree</ext-link>.</p>
+</sec>
+<sec id="sec018">
+<title>Supporting information</title>
+<supplementary-material id="pone.0188059.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0188059.s001" xlink:type="simple">
+<label>S1 File</label>
+<caption>
+<title>Supplementary text.</title>
+<p>Listing sources of data used in analysis.</p>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0188059.s002" position="float" xlink:href="info:doi/10.1371/journal.pone.0188059.s002" xlink:type="simple">
+<label>S2 File</label>
+<caption>
+<title>Supplementary data.</title>
+<p>Conversion time and size on disk results for all formats.</p>
+<p>(ODS)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0188059.s003" position="float" xlink:href="info:doi/10.1371/journal.pone.0188059.s003" xlink:type="simple">
+<label>S3 File</label>
+<caption>
+<title>Supplementary data.</title>
+<p>RT-major adjacent query results.</p>
+<p>(ODS)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0188059.s004" position="float" xlink:href="info:doi/10.1371/journal.pone.0188059.s004" xlink:type="simple">
+<label>S4 File</label>
+<caption>
+<title>Supplementary data.</title>
+<p>RT-major random query results.</p>
+<p>(ODS)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0188059.s005" position="float" xlink:href="info:doi/10.1371/journal.pone.0188059.s005" xlink:type="simple">
+<label>S5 File</label>
+<caption>
+<title>Supplementary data.</title>
+<p>XIC adjacent query results.</p>
+<p>(ODS)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0188059.s006" position="float" xlink:href="info:doi/10.1371/journal.pone.0188059.s006" xlink:type="simple">
+<label>S6 File</label>
+<caption>
+<title>Supplementary data.</title>
+<p>XIC random query results.</p>
+<p>(ODS)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0188059.s007" position="float" xlink:href="info:doi/10.1371/journal.pone.0188059.s007" xlink:type="simple">
+<label>S7 File</label>
+<caption>
+<title>Supplementary data.</title>
+<p>Simulated summarization results.</p>
+<p>(ODS)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>This material is based upon work supported by the National Science Foundation under Grant No. 1552240 to R.S.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0188059.ref001">
+<label>1</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Smith</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Mathis</surname> <given-names>AD</given-names></name>, <name name-style="western"><surname>Ventura</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Prince</surname> <given-names>JT</given-names></name>. <article-title>Proteomics, Lipidomics, Metabolomics: A Mass Spectrometry Tutorial from a Computer Scientist’s Point of View</article-title>. <source>BMC Bioinformatics</source>. <year>2014</year>;<volume>15</volume>(<issue>Suppl 7</issue>):<fpage>S9</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2105-15-S7-S9" xlink:type="simple">10.1186/1471-2105-15-S7-S9</ext-link></comment> <object-id pub-id-type="pmid">25078324</object-id></mixed-citation>
+</ref>
+<ref id="pone.0188059.ref002">
+<label>2</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Smith</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Ventura</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Prince</surname> <given-names>JT</given-names></name>. <article-title>Controlling for Confounding Variables in MS-omics Protocol: Why Modularity Matters</article-title>. <source>Briefings in Bioinformatics</source>. <year>2013</year>;.</mixed-citation>
+</ref>
+<ref id="pone.0188059.ref003">
+<label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Deutsch</surname> <given-names>E</given-names></name>. <article-title>mzML: a single, unifying data format for mass spectrometer output</article-title>. <source>Proteomics</source>. <year>2008</year>;<volume>8</volume>(<issue>14</issue>):<fpage>2776</fpage>–<lpage>2777</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/pmic.200890049" xlink:type="simple">10.1002/pmic.200890049</ext-link></comment> <object-id pub-id-type="pmid">18655045</object-id></mixed-citation>
+</ref>
+<ref id="pone.0188059.ref004">
+<label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Pedrioli</surname> <given-names>PG</given-names></name>, <name name-style="western"><surname>Eng</surname> <given-names>JK</given-names></name>, <name name-style="western"><surname>Hubley</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Vogelzang</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Deutsch</surname> <given-names>EW</given-names></name>, <name name-style="western"><surname>Raught</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Pratt</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Nilsson</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Angeletti</surname> <given-names>RH</given-names></name>, <name name-style="western"><surname>Apweiler</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Cheung</surname> <given-names>K</given-names></name> <article-title>A common open representation of mass spectrometry data and its application to proteomics research</article-title>. <source>Nature Biotechnology</source>. <year>2004</year>;<volume>22</volume>(<issue>11</issue>):<fpage>1459</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nbt1031" xlink:type="simple">10.1038/nbt1031</ext-link></comment> <object-id pub-id-type="pmid">15529173</object-id></mixed-citation>
+</ref>
+<ref id="pone.0188059.ref005">
+<label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Wilhelm</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kirchner</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Steen</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Steen</surname> <given-names>H</given-names></name>. <article-title>mz5: space-and time-efficient storage of mass spectrometry data sets</article-title>. <source>Molecular &amp; Cellular Proteomics</source>. <year>2012</year>;<volume>11</volume>(<issue>1</issue>):<fpage>O111</fpage>–<lpage>011379</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0188059.ref006">
+<label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Bouyssié</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Dubois</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Nasso</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>de Peredo</surname> <given-names>AG</given-names></name>, <name name-style="western"><surname>Burlet-Schiltz</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Aebersold</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>mzDB: A File Format Using Multiple Indexing Strategies for the Efficient Analysis of Large LC-MS/MS and SWATH-MS Data Sets</article-title>. <source>Molecular &amp; Cellular Proteomics</source>. <year>2015</year>;<volume>14</volume>(<issue>3</issue>):<fpage>771</fpage>–<lpage>781</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1074/mcp.O114.039115" xlink:type="simple">10.1074/mcp.O114.039115</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0188059.ref007">
+<label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Cox</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Mann</surname> <given-names>M</given-names></name>. <article-title>MaxQuant enables high peptide identification rates, individualized ppb-range mass accuracies and proteome-wide protein quantification</article-title>. <source>Nature Biotechnology</source>. <year>2008</year>;<volume>26</volume>(<issue>12</issue>):<fpage>1367</fpage>–<lpage>1372</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nbt.1511" xlink:type="simple">10.1038/nbt.1511</ext-link></comment> <object-id pub-id-type="pmid">19029910</object-id></mixed-citation>
+</ref>
+<ref id="pone.0188059.ref008">
+<label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Teleman</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Chawade</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Sandin</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Levander</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Malmström</surname> <given-names>J</given-names></name>. <article-title>Dinosaur: a refined open source peptide MS feature detector</article-title>. <source>Journal of proteome research</source>. <year>2016</year>;. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1021/acs.jproteome.6b00016" xlink:type="simple">10.1021/acs.jproteome.6b00016</ext-link></comment> <object-id pub-id-type="pmid">27224449</object-id></mixed-citation>
+</ref>
+<ref id="pone.0188059.ref009">
+<label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Smith</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Taylor</surname> <given-names>RM</given-names></name>, <name name-style="western"><surname>Prince</surname> <given-names>JT</given-names></name>. <article-title>Current controlled vocabularies are insufficient to uniquely map molecular entities to mass spectrometry signal</article-title>. <source>BMC bioinformatics</source>. <year>2015</year>;<volume>16</volume>(<issue>7</issue>):<fpage>1</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0188059.ref010">
+<label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Sturm</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Bertsch</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Gropl</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Hildebrandt</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Hussong</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Lange</surname> <given-names>E</given-names></name>, <etal>et al</etal>. <article-title>OpenMS—An open-source software framework for mass spectrometry</article-title>. <source>BMC Bioinformatics</source>. <year>2008</year>;<volume>9</volume>(<issue>1</issue>):<fpage>163</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2105-9-163" xlink:type="simple">10.1186/1471-2105-9-163</ext-link></comment> <object-id pub-id-type="pmid">18366760</object-id></mixed-citation>
+</ref>
+<ref id="pone.0188059.ref011">
+<label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Scheltema</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Jankevics</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Jansen</surname> <given-names>RC</given-names></name>, <name name-style="western"><surname>Swertz</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Breitling</surname> <given-names>R</given-names></name>. <article-title>PeakML/mzMatch: a file format, Java library, R library, and tool-chain for mass spectrometry data analysis</article-title>. <source>Analytical chemistry</source>. <year>2011</year>;<volume>83</volume>(<issue>7</issue>):<fpage>2786</fpage>–<lpage>2793</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1021/ac2000994" xlink:type="simple">10.1021/ac2000994</ext-link></comment> <object-id pub-id-type="pmid">21401061</object-id></mixed-citation>
+</ref>
+<ref id="pone.0188059.ref012">
+<label>12</label>
+<mixed-citation publication-type="other" xlink:type="simple">Leutenegger ST, Lopez MA, Edgington J. STR: A simple and efficient algorithm for R-tree packing. In: Data Engineering, 1997. Proceedings. 13th International Conference on. IEEE; 1997. p. 497–506.</mixed-citation>
+</ref>
+<ref id="pone.0188059.ref013">
+<label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Guttman</surname> <given-names>A</given-names></name>. <article-title>R-trees: A Dynamic Index Structure for Spatial Searching</article-title>. <source>SIGMOD Rec</source>. <year>1984</year>;<volume>14</volume>(<issue>2</issue>):<fpage>47</fpage>–<lpage>57</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1145/971697.602266" xlink:type="simple">10.1145/971697.602266</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0188059.ref014">
+<label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Röst</surname> <given-names>HL</given-names></name>, <name name-style="western"><surname>Schmitt</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Aebersold</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Malmström</surname> <given-names>L</given-names></name>. <article-title>Fast and efficient XML data access for next-generation mass spectrometry</article-title>. <source>PloS one</source>. <year>2015</year>;<volume>10</volume>(<issue>4</issue>):<fpage>e0125108</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0125108" xlink:type="simple">10.1371/journal.pone.0125108</ext-link></comment> <object-id pub-id-type="pmid">25927999</object-id></mixed-citation>
+</ref>
+<ref id="pone.0188059.ref015">
+<label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Smith</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Ventura</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Prince</surname> <given-names>JT</given-names></name>. <article-title>LC-MS Alignment in Theory and Practice: A Comprehensive Algorithmic Review</article-title>. <source>Briefings in Bioinformatics</source>. <year>2013</year>;.</mixed-citation>
+</ref>
+<ref id="pone.0188059.ref016">
+<label>16</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Kessner</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Chambers</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Burke</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Agus</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Mallick</surname> <given-names>P</given-names></name>. <article-title>ProteoWizard: open source software for rapid proteomics tools development</article-title>. <source>Bioinformatics</source>. <year>2008</year>;<volume>24</volume>(<issue>21</issue>):<fpage>2534</fpage>–<lpage>2536</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/bioinformatics/btn323" xlink:type="simple">10.1093/bioinformatics/btn323</ext-link></comment> <object-id pub-id-type="pmid">18606607</object-id></mixed-citation>
+</ref>
+<ref id="pone.0188059.ref017">
+<label>17</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Vizcaíno</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Deutsch</surname> <given-names>EW</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Csordas</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Reisinger</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Ríos</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Dianes</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Sun</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Farrah</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Bandeira</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Binz</surname> <given-names>PA</given-names></name>, <name name-style="western"><surname>Xenarios</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Eisenacher</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Mayer</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Gatto</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Campos</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Chalkley</surname> <given-names>RJ</given-names></name>, <name name-style="western"><surname>Kraus</surname> <given-names>HJ</given-names></name>, <name name-style="western"><surname>Albar</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Martinez-Bartolomé</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Apweiler</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Omenn</surname> <given-names>GS</given-names></name>, <name name-style="western"><surname>Martens</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Jones</surname> <given-names>AR</given-names></name>, <name name-style="western"><surname>Hermjakob</surname> <given-names>H</given-names></name> <article-title>ProteomeXchange provides globally coordinated proteomics data submission and dissemination</article-title>. <source>Nature Biotechnology</source>. <year>2014</year>;<volume>32</volume>(<issue>3</issue>):<fpage>223</fpage>–<lpage>226</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nbt.2839" xlink:type="simple">10.1038/nbt.2839</ext-link></comment> <object-id pub-id-type="pmid">24727771</object-id></mixed-citation>
+</ref>
+</ref-list>
+</back>
+</article>

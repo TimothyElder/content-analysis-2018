@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0137322</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-15-21370</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Age Related Macular Degeneration and Total Hip Replacement Due to Osteoarthritis or Fracture: Melbourne Collaborative Cohort Study</article-title>
+<alt-title alt-title-type="running-head">Age Related Macular Degeneration and Total Hip Replacement</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Chong</surname>
+<given-names>Elaine W.</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+<xref rid="aff002" ref-type="aff"><sup>2</sup></xref>
+<xref rid="econtrib001" ref-type="fn"><sup>‡</sup></xref>
+<xref rid="cor001" ref-type="corresp">*</xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Wang</surname>
+<given-names>Yuanyuan</given-names>
+</name>
+<xref rid="aff003" ref-type="aff"><sup>3</sup></xref>
+<xref rid="econtrib001" ref-type="fn"><sup>‡</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Robman</surname>
+<given-names>Liubov D.</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+<xref rid="aff003" ref-type="aff"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Aung</surname>
+<given-names>Khin Zaw</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Makeyeva</surname>
+<given-names>Galina A.</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Giles</surname>
+<given-names>Graham G.</given-names>
+</name>
+<xref rid="aff004" ref-type="aff"><sup>4</sup></xref>
+<xref rid="aff005" ref-type="aff"><sup>5</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Graves</surname>
+<given-names>Stephen</given-names>
+</name>
+<xref rid="aff006" ref-type="aff"><sup>6</sup></xref>
+<xref rid="aff007" ref-type="aff"><sup>7</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Cicuttini</surname>
+<given-names>Flavia M.</given-names>
+</name>
+<xref rid="aff003" ref-type="aff"><sup>3</sup></xref>
+<xref rid="econtrib001" ref-type="fn"><sup>‡</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Guymer</surname>
+<given-names>Robyn H.</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+<xref rid="econtrib001" ref-type="fn"><sup>‡</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Centre for Eye Research Australia (CERA), The University of Melbourne, Royal Victorian Eye and Ear Hospital, Melbourne, Victoria, Australia</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Singapore Eye Research Institute, Singapore National Eye Centre, Singapore, Singapore</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Department of Epidemiology and Preventive Medicine, School of Public Health and Preventive Medicine, Monash University, Alfred Hospital, Melbourne, Victoria, Australia</addr-line></aff>
+<aff id="aff004"><label>4</label> <addr-line>Centre for Epidemiology and Biostatistics, Melbourne School of Population and Global Health, The University of Melbourne, Melbourne, Victoria, Australia</addr-line></aff>
+<aff id="aff005"><label>5</label> <addr-line>Cancer Epidemiology Centre, Cancer Council Victoria, Melbourne, Victoria, Australia</addr-line></aff>
+<aff id="aff006"><label>6</label> <addr-line>Department of Orthopaedic, Repatriation General Hospital, Adelaide, South Australia, Australia</addr-line></aff>
+<aff id="aff007"><label>7</label> <addr-line>Australian Orthopaedic Association National Joint Replacement Registry, Discipline of Public Health, School of Population Health &amp; Clinical Practice, University of Adelaide, Adelaide, South Australia, Australia</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Sennlaub</surname>
+<given-names>Florian</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Institut de la Vision, FRANCE</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="con" id="contrib001">
+<p>Conceived and designed the experiments: EWC YW LDR GGG SG FMC RHG. Performed the experiments: EWC YW LDR KZA GAM GGG SG FMC RHG. Analyzed the data: EWC YW LDR FMC RHG. Contributed reagents/materials/analysis tools: EWC YW LDR KZA GAM GGG SG FMC RHG. Wrote the paper: EWC YW FMC RHG.</p>
+</fn>
+<fn fn-type="other" id="econtrib001">
+<p>‡ EWC and YW are joint first authors on this work. FMC and RHG are joint senior authors on this work.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">elainechongwt@alumni.unimelb.edu.au</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>10</day>
+<month>9</month>
+<year>2015</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2015</year>
+</pub-date>
+<volume>10</volume>
+<issue>9</issue>
+<elocation-id>e0137322</elocation-id>
+<history>
+<date date-type="received">
+<day>17</day>
+<month>5</month>
+<year>2015</year>
+</date>
+<date date-type="accepted">
+<day>16</day>
+<month>8</month>
+<year>2015</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2015</copyright-year>
+<copyright-holder>Chong et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0137322" xlink:type="simple"/>
+<abstract>
+<p>Osteoarthritis is the leading cause of total hip replacement, accounting for more than 80% of all total hip replacements. Emerging evidence suggests that osteoarthritis has a chronic inflammatory component to its pathogenesis similar to age-related macular degeneration. We evaluated the association between age-related macular degeneration and total hip replacement as proxy for severe osteoarthritis or fractured neck of femur in the Melbourne Collaborative Cohort Study. 20,744 participants had complete data on both age-related macular degeneration assessed from colour fundus photographs taken during 2003–2007 and total hip replacement. Total hip replacements due to hip osteoarthritis and fractured neck of femur during 2001–2011 were identified by linking the cohort records to the Australian Orthopedic Association National Joint Replacement Registry. Logistic regression was used to examine the association between age-related macular degeneration and risk of total hip replacement due to osteoarthritis and fracture separately, adjusted for confounders. There were 791 cases of total hip replacement for osteoarthritis and 102 cases of total hip replacement due to fractured neck of femur. After adjustment for age, sex, body mass index, smoking, and grouped country of birth, intermediate age-related macular degeneration was directly associated with total hip replacement for osteoarthritis (odds ratio 1.22, 95% CI 1.00–1.49). Late age-related macular degeneration was directly associated with total hip replacement due to fractured neck of femur (odds ratio 5.21, 95% CI2.25–12.02). The association between intermediate age-related macular degeneration and an increased 10-year incidence of total hip replacement due to osteoarthritis suggests the possibility of similar inflammatory processes underlying both chronic diseases. The association of late age-related macular degeneration with an increased 10-year incidence of total hip replacement due to fractured neck of femur may be due to an increased prevalence of fractures in those with poor central vision associated with the late complications of age-related macular degeneration.</p>
+</abstract>
+<funding-group>
+<funding-statement>Victoria Health, The Cancer Council Victoria and National Health &amp; Medical Research Council of Australia (NHMRC) [Program Grant 209057, Capacity Building Grant 251533 and Enabling Grant 396414] funded the MCCS study. Ophthalmic component was funded by the Ophthalmic Research Institute of Australia and American Health Assistance Foundation #M2008-082. CERA is a recipient of the NHMRC Centre for Clinical Research Excellence Grant [529923] and Operational Infrastructure Support from the Victorian Government. The AOA NJRR is funded by the Commonwealth Department of Health. People support was provided through the NHMRC public health medical scholarship (EC), Novartis Medical Retinal Fellowship (EC), NHMRC Career Development Fellowship (YW, #1065464), Wagstaff Fellowship (LR), NHMRC Career Development (RG, #300052) and Practitioner (RG, #529905) Fellowships. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="1"/>
+<table-count count="2"/>
+<page-count count="11"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability" xlink:type="simple">
+<meta-name>Data Availability</meta-name>
+<meta-value>The data underlying the findings presented in this manuscript are partially included in the body of manuscript in the form of tables and figure, and additional information will be publicly available on request. The Melbourne Collaborative Cohort Study (MCCS, commonly known as Health 2020) data are publicly available at <ext-link ext-link-type="uri" xlink:href="http://www.cancervic.org.au/research/epidemiology/health_2020" xlink:type="simple">http://www.cancervic.org.au/research/epidemiology/health_2020</ext-link>. The data collected by Health 2020 are used by researchers at Cancer Council Victoria, but are also available to other researchers for approved collaborative research (please see PEDIGREE program for more details). The dataset for this manuscript was constructed from the data belonging to and held by three independent organisations working in strong collaboration on an approved collaborative research: 1. Cancer Council Victoria owns the Health 2020 data including the IDs, demographics, body measurements, medical history, pathology tests results, as well as dietary intakes and lifestyle data. 2. The Centre for Eye Research Australia owns the data on retinal grading and AMD status. 3. The Australian Orthopaedic Association National Joint Replacement Registry owns the data on hip replacement. The researchers/authors involved in this manuscript have applied for and obtained the approvals from the Human Research and Ethics Committees of all three collaborating parties holding the data to conduct this research, to access and collate the data. The request from other researchers to access and analyse the raw data would also require the Human Research and Ethics Committee approval from all three organisations. Any requests for additional information from this data set regarding re-analysis or additional analysis should be forwarded to the authors. The authors would be pleased to provide additional details on request to readers of the authors' publication and contribute to their research. The authors provide the following contact information for those who may wish to contact the authors to request the data: At the Cancer Council Victoria, please contact Prof Graham Giles, <email xlink:type="simple">graham.giles@cancervic.org.au</email>. Access to the MCCS data is via the PEDIGREE consortium access committee for which the contact person is Ashley Fletcher, <email xlink:type="simple">Ashley.Fletcher@cancervic.org.au</email>. For data from the Centre for Eye Research Australia, University of Melbourne, please contact Prof Robyn Guymer, <email xlink:type="simple">rh.guymer@unimelb.edu.au</email>. For data from The Royal Victorian Eye and Ear Hospital, please contact Administrative Officer, Research &amp; Ethics, Kerryn Baker, <email xlink:type="simple">Kerryn.Baker@eyeandear.org.au</email>. For data from the Australian Orthopaedic Association National Joint Replacement Registry, please contact Prof Stephen Graves, <email xlink:type="simple">segraves@aoanjrr.org.au</email> or Ann Tomkins, <email xlink:type="simple">atomkins@aoanjrr.org.au</email>.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Hip osteoarthritis (OA) and fractured neck of femur (#NOF) are both major public health problems[<xref rid="pone.0137322.ref001" ref-type="bibr">1</xref>,<xref rid="pone.0137322.ref002" ref-type="bibr">2</xref>]. Hip OA is one of the commonest and most disabling forms of OA with one in four individuals at risk of developing symptomatic hip OA in their lifetime[<xref rid="pone.0137322.ref003" ref-type="bibr">3</xref>]. Hip OA leads to loss of mobility and severe restriction in activity, significantly decreasing quality of life[<xref rid="pone.0137322.ref004" ref-type="bibr">4</xref>]. Currently, hip OA is the leading cause of total hip replacement (THR), accounting for 88% of all THR in Australia[<xref rid="pone.0137322.ref005" ref-type="bibr">5</xref>]. Although #NOF is a common clinical problem in the elderly, for whom it is a major cause of morbidity and mortality[<xref rid="pone.0137322.ref001" ref-type="bibr">1</xref>], it accounted for a small percentage (4%) of all THR in Australia[<xref rid="pone.0137322.ref005" ref-type="bibr">5</xref>]. It is estimated that falls in the elderly lead to injury 60% of the time, most are minor (50%), but 1 in ten results in more serious injuries (5%) and fractures (5%). Hospital admission for these injuries are often the precipitating event in 40% of admissions to long term institutional care[<xref rid="pone.0137322.ref006" ref-type="bibr">6</xref>] and only half of those with a hip fracture regain the same degree of mobility that they had before[<xref rid="pone.0137322.ref007" ref-type="bibr">7</xref>]. In Australia, hip fractures accounted for approximately 0.9% of government health services expenditure for 1995–1996[<xref rid="pone.0137322.ref008" ref-type="bibr">8</xref>]. The number of THR for the treatment for end-stage hip diseases has increased by 45% in the last decade, with 27,508 procedures performed in Australia, in 2012[<xref rid="pone.0137322.ref005" ref-type="bibr">5</xref>].</p>
+<p>Age-related macular degeneration (AMD) is a progressive degenerative disease, which causes central vision loss, resulting in difficulty with reading, recognizing faces and driving. AMD is one of the leading causes of blindness and visual impairment in Australia and the developed world, and presents a major burden on healthcare resources[<xref rid="pone.0137322.ref009" ref-type="bibr">9</xref>]. Typically, visual acuity is often normal or mildly affected in early or intermediate AMD (where drusen accumulate in the macula, sometimes along with pigmentary changes). Late AMD typically results in significant central vision loss, due to either neovascular AMD (‘wet’ AMD) or geographic atrophy (‘dry’ AMD), but peripheral vision for navigation is usually preserved.</p>
+<p>It is now well accepted that AMD is a chronic inflammatory disease with strong associations found with genes in inflammatory pathways[<xref rid="pone.0137322.ref010" ref-type="bibr">10</xref>–<xref rid="pone.0137322.ref012" ref-type="bibr">12</xref>]. OA is also regarded as a chronic low grade inflammatory disease[<xref rid="pone.0137322.ref013" ref-type="bibr">13</xref>] associated with increased C-reactive protein levels[<xref rid="pone.0137322.ref014" ref-type="bibr">14</xref>]. Evidence also suggests that genes associated with the inflammatory pathways are associated with OA[<xref rid="pone.0137322.ref015" ref-type="bibr">15</xref>]. As chronic systemic inflammation is thought to play an important role in the pathogenesis of both AMD and OA[<xref rid="pone.0137322.ref011" ref-type="bibr">11</xref>,<xref rid="pone.0137322.ref012" ref-type="bibr">12</xref>,<xref rid="pone.0137322.ref016" ref-type="bibr">16</xref>,<xref rid="pone.0137322.ref017" ref-type="bibr">17</xref>], we hypothesized that there might be an association between AMD and OA because of common inflammatory pathways. To date, we are unaware of studies evaluating the associations between AMD and OA. With THR being one of the most commonly performed joint replacement surgery in Australia, and hip OA accounting for the large majority of all THR surgeries (&gt; 80%), we used THR data from the Australian Orthopedic Association National Joint Replacement Registry (AOA NJRR) which records joint replacements performed across the health system in Australia, as a surrogate measure for severe hip OA, to address this question.</p>
+<p>Registry data on THR due to #NOF were also analyzed with respect to AMD. To date, two studies have directly evaluated AMD and its association with hip fractures. One study found an 11% increase in the four-year odds of hip fracture only with geographic atrophy but not neovascular AMD, while the other study found a 9% increase in hip fracture with newly diagnosed AMD (AMD type was not well defined)[<xref rid="pone.0137322.ref018" ref-type="bibr">18</xref>,<xref rid="pone.0137322.ref019" ref-type="bibr">19</xref>]. In the present study we also evaluated whether AMD was associated with #NOF, particularly as late AMD leads to vision loss and vision loss is known to increase the risk of falls and fractures[<xref rid="pone.0137322.ref020" ref-type="bibr">20</xref>].</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Patients and Methods</title>
+<sec id="sec003">
+<title>Study participants</title>
+<p>The Melbourne Collaborative Cohort Study (MCCS) recruited 41,514 participants (24,469 women) majority aged between 40–69 years at baseline (1990–1994) to examine links between lifestyle risk factors and chronic diseases[<xref rid="pone.0137322.ref021" ref-type="bibr">21</xref>]. Participants were recruited via Electoral Rolls (registration to vote is compulsory in Australia), advertisements, and community announcements in the local media. Of the total sample, 27,883 (67%) attended a follow-up examination between 2003 and 2007. Of these, 22,405 (80%) participated in colour fundus photography, with 21,287 with photographs of good quality to enable image-based classification of their AMD status. During the time period of this study there were no anti-vascular endothelial growth factor (VEGF) treatments available for wet AMD hence late neovascular AMD would have been readily seen on a colour photograph. Of the participants with graded fundus images, a further 543 participants were excluded because they had died or had left Australia before 1 January 2001, had joint replacement performed before 1 January 2001 (THR data collection only started after this date), or had the first recorded procedure being a revision surgery. The remaining cohort of 20,744 was included in the final analysis (<xref rid="pone.0137322.g001" ref-type="fig">Fig 1</xref>). The Cancer Council Victoria’s Human Research Ethics Committee approved the study. The Human Research Ethics Committee of the Royal Victorian Eye and Ear Hospital approved the AMD study protocol. The research adhered to the tenets of the Declaration of Helsinki. All participants gave written consent to participate and for the investigators to obtain access to their medical records.</p>
+<fig id="pone.0137322.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0137322.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Study flowchart.</title>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0137322.g001" position="float" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec004">
+<title>AMD assessment</title>
+<p>At follow-up from 2003 to 2007, digital non-stereoscopic 45° macular photographs of both eyes were taken with a Canon CR6-45NM non-mydriatic retinal camera. Retinal photographs were graded for AMD by two experienced graders, using “OptoLite/OptoMize Pro” software (Digital HealthCare Image Management Systems, Cambridge, UK), and classified according to the Clinical Classification of AMD[<xref rid="pone.0137322.ref022" ref-type="bibr">22</xref>]. Quality control procedures for the photographs in the MCCS have been described elsewhere[<xref rid="pone.0137322.ref023" ref-type="bibr">23</xref>].</p>
+<p>Participants were allocated to a single AMD category according to the more advanced visible changes on the macula images of the worse affected eye. Participants with images of insufficient quality in one or two eyes were excluded, as AMD status in the worse eye could not be reliably determined; this excluded persons with very small pupils or visually significant cataracts. Early AMD was defined as presence of one or more drusen 63 to 124μm in size (without pigmentary change); Intermediate AMD was defined as the presence of one or more drusen ≥125 μm in size (with or without pigmentary abnormalities), or one or more drusen 63 to 124μm with pigmentary abnormalities, in a 6000-μm diameter grading grid centered on the fovea, in the absence of late AMD in either eye (geographic atrophy or neovascular AMD)[<xref rid="pone.0137322.ref022" ref-type="bibr">22</xref>]. Geographic atrophy was defined as an area of retinal pigment epithelium (RPE) depigmentation larger than or equal to 175μm, which was roughly round or oval with sharp margins and visible underlying choroidal vessels. Neovascular AMD was defined as serous and/or haemorrhagic retinal pigment detachments, and /or subretinal neovascular membrane, and/or fibrous scarring in the absence of other retinal-vascular conditions. Participants with drusen &lt;63μm and those without retina pathology that precluded fundus grading for AMD were used as controls.</p>
+</sec>
+<sec id="sec005">
+<title>Identification of total hip replacement due to hip OA or fracture</title>
+<p>To define a group of participants with severe hip OA or #NOF, we were able to access the AOA NJRR, which also records the reason for the hip replacement surgery. Australia has a publicly funded universal health insurance system (Medicare), therefore the entire Australian population has complete access to quality health care service including joint replacements. Therefore hip replacement as recorded in the AOA NJRR provides validated and complete data on the incidence of severe hip OA or #NOF, requiring hip replacement surgery. The implementation of the AOA NJRR commenced in 1999 and was completed nationally by mid 2002. Victorian data collection commenced on 1<sup>st</sup> January 2001, therefore persons with fundus images but who had THR prior to this date were excluded from this study. The Registry had detailed information on the joint replacement prostheses, patient demographics, the indication for joint replacement, whether it was a primary joint replacement or a revision surgery and the type of revision[<xref rid="pone.0137322.ref024" ref-type="bibr">24</xref>]. Although contribution to data collection for the registry is voluntary, the registry receives cooperation from all hospitals and surgeons undertaking joint replacement surgery. In addition, the AOA NJRR validates its data against State and Territory Health Department unit record data using a sequential multilevel matching process. Following the validation process and retrieval of unreported records, the Registry collects an almost complete set of data relating to hip and knee replacement in Australia[<xref rid="pone.0137322.ref024" ref-type="bibr">24</xref>].</p>
+<p>Identifying information for MCCS participants, including first name, last name, date of birth, and sex, were provided to the AOA NJRR in order to identify those MCCS participants who had had a joint replacement performed between 1 January 2001 and 31 December 2011. Data matching was performed on these data provided using the Freely Extensible Biomedical Record Linkage (Febrl) system. Exact matches were identified and probabilistic matches were reviewed. Using the Febrl system four matching runs were performed. The first run was an exact match on all the data fields comprising first name, last name, date of birth and gender. Subsequent runs were based on probabilistic or ‘fuzzy’ matching criteria using the remaining unmatched procedures. This allows for matches where the data fields may be close but not necessarily equal. Three such probabilistic matches were considered: (1) Procedures with the same date of birth. A match was determined on the quality of the remaining data fields; (2) Procedures with the same postcode and first name. A match was determined on the quality of the remaining data fields. (3) Procedures with the same first and last name. A match was determined on the quality of the remaining data fields. Of the procedures matched to the MCCS data, 91.0% were an exact match, i.e. first name, last name, date of birth and gender. The data linkage of the AOA NJRR with the MCCS was approved by The Cancer Council Victoria’s Human Research Ethics Committee and the Monash University Human Research Ethics Committee.</p>
+<p>THR for OA or #NOF was defined as any THR in combination with a contemporaneous diagnosis of hip OA or #NOF between January 2001 and December 2011, as recorded in the AOA NJRR. Data on bone mineral density or cause of #NOF were not available in this database. The MCCS was not primarily designed to assess joint disease in its baseline questionnaires; however using the AOA NJRR data, the prevalence of severe OA or #NOF requiring joint replacement can be suitably captured. But OA affecting other joints that do not commonly undergo joint replacement surgery was not captured in this study.</p>
+</sec>
+<sec id="sec006">
+<title>Assessment of demographic, lifestyle and anthropometric factors</title>
+<p>At baseline, a structured interview schedule was used to obtain demographic and lifestyle information including date of birth, country of birth, smoking, alcohol consumption, current physical activity during leisure time, dietary intakes, education, and medical history. Height and weight were measured according to standard protocols once at baseline attendance for each participant and body mass index (BMI) was calculated.</p>
+</sec>
+<sec id="sec007">
+<title>Statistical analysis</title>
+<p>The characteristics of study participants were compared among those with THR for OA, those with THR for #NOF, and those with no THR, using one way analysis of variance (ANOVA) for continuous variables and chi-squared test for categorical variables. Binary logistic regression models were used to estimate the odds ratio (OR) and 95% confidence intervals (CI) for any THR due to hip OA or #NOF in relation to AMD (early, intermediate and late AMD), using those with no AMD as the reference group. Age, sex, BMI, country of birth, and smoking status were included in all models. Visual acuity was not recorded hence we were unable to include this in our analyses. Other potential confounding variables were included in the analyses if they changed the OR by more than 5%. These included education level, multivitamin supplement, physical activity, alcohol consumption, and history of stroke, hypertension, cardiovascular disease or diabetes. None of these variables changed the OR by more than 5%, and were not included in the final regression models. All statistical analyses were performed using Stata 12.0 (StataCorp LP, College Station, TX, USA).</p>
+</sec>
+</sec>
+<sec id="sec008" sec-type="results">
+<title>Results</title>
+<p>The characteristics of the 20,744 participants are presented in <xref rid="pone.0137322.t001" ref-type="table">Table 1</xref>. There were 4,267 persons with early AMD, 2,678 with intermediate AMD and 118 with late AMD. AMD prevalence of 20.6% (95% CI 20.0%, 21.1%) for early, 12.9% (95% CI 12.5%, 13.4%) for intermediate AMD and 0.6% (95% CI 0.5%, 0.7%) for late AMD was comparable with the respective categories in the Melbourne population-based study on AMD prevalence[<xref rid="pone.0137322.ref025" ref-type="bibr">25</xref>]. 791 (3.8%) THR due to OA and 102 (0.5%) THR due to #NOF were identified. Persons who had THR for #NOF (mean age 73.3 years) tended to be older than those who had THR for OA (mean age 68.6 years) (p&lt;0.001). There were more females in the group with THR for #NOF (p&lt;0.001) and more persons born in Australia or UK in the group with THR for OA (p&lt;0.001). Smoking status (p = 0.12) and BMI (p = 0.46) did not differ between groups.</p>
+<table-wrap id="pone.0137322.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0137322.t001</object-id>
+<label>Table 1</label> <caption><title>Characteristics of study participants.</title></caption>
+<alternatives>
+<graphic id="pone.0137322.t001g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0137322.t001" xlink:type="simple"/>
+<table>
+<colgroup span="1">
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" rowspan="1" colspan="1"/>
+<th align="center" rowspan="1" colspan="1">THR due to OA (n = 791)</th>
+<th align="center" rowspan="1" colspan="1">THR due to #NOF (n = 102)</th>
+<th align="center" rowspan="1" colspan="1">No THR (n = 19,851)</th>
+<th align="center" rowspan="1" colspan="1">P value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Age at photo (years)</td>
+<td align="center" rowspan="1" colspan="1">68.6 (7.8)</td>
+<td align="center" rowspan="1" colspan="1">73.3 (6.5)</td>
+<td align="center" rowspan="1" colspan="1">64.9 (8.7)</td>
+<td align="center" rowspan="1" colspan="1">&lt;0.001</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Female, n (%)</td>
+<td align="center" rowspan="1" colspan="1">512 (64.7)</td>
+<td align="center" rowspan="1" colspan="1">77 (75.5)</td>
+<td align="center" rowspan="1" colspan="1">11,893 (59.9)</td>
+<td align="center" rowspan="1" colspan="1">&lt;0.001</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Body mass index (kg/m<sup>2</sup>)</td>
+<td align="center" rowspan="1" colspan="1">26.9 (4.2)</td>
+<td align="center" rowspan="1" colspan="1">26.0 (3.8)</td>
+<td align="center" rowspan="1" colspan="1">26.1 (4.1)</td>
+<td align="center" rowspan="1" colspan="1">0.46</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Country of birth, n (%)</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1">&lt;0.001</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">    Australia/UK</td>
+<td align="center" rowspan="1" colspan="1">746 (94.3)</td>
+<td align="center" rowspan="1" colspan="1">90 (88.2)</td>
+<td align="center" rowspan="1" colspan="1">17,213 (86.7)</td>
+<td align="center" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">    Italy/Greece</td>
+<td align="center" rowspan="1" colspan="1">45 (5.7)</td>
+<td align="center" rowspan="1" colspan="1">12 (11.8)</td>
+<td align="center" rowspan="1" colspan="1">2,638 (13.3)</td>
+<td align="center" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Smoking, n (%)</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1">0.12</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">    Non-smoker</td>
+<td align="center" rowspan="1" colspan="1">467 (59.0)</td>
+<td align="center" rowspan="1" colspan="1">62 (60.8)</td>
+<td align="center" rowspan="1" colspan="1">12,032 (60.6)</td>
+<td align="center" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">    Former smoker</td>
+<td align="center" rowspan="1" colspan="1">271 (34.3)</td>
+<td align="center" rowspan="1" colspan="1">29 (28.4)</td>
+<td align="center" rowspan="1" colspan="1">6,109 (30.8)</td>
+<td align="center" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">    Current smoker</td>
+<td align="center" rowspan="1" colspan="1">53 (6.7)</td>
+<td align="center" rowspan="1" colspan="1">11 (10.8)</td>
+<td align="center" rowspan="1" colspan="1">1,708 (8.6)</td>
+<td align="center" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td colspan="2" align="left" rowspan="1">Age-related macular degeneration (AMD)</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1">&lt;0.001</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">    No AMD</td>
+<td align="center" rowspan="1" colspan="1">508 (64.2)</td>
+<td align="center" rowspan="1" colspan="1">57 (55.9)</td>
+<td align="center" rowspan="1" colspan="1">13,116 (66.1)</td>
+<td align="center" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">    Early AMD</td>
+<td align="center" rowspan="1" colspan="1">148 (18.7)</td>
+<td align="center" rowspan="1" colspan="1">20 (19.6)</td>
+<td align="center" rowspan="1" colspan="1">4,099 (20.7)</td>
+<td align="center" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">    Intermediate AMD</td>
+<td align="center" rowspan="1" colspan="1">132 (16.7)</td>
+<td align="center" rowspan="1" colspan="1">18 (17.7)</td>
+<td align="center" rowspan="1" colspan="1">2,528 (12.7)</td>
+<td align="center" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">    Late AMD</td>
+<td align="center" rowspan="1" colspan="1">3 (0.4)</td>
+<td align="center" rowspan="1" colspan="1">7 (6.9)</td>
+<td align="center" rowspan="1" colspan="1">108 (0.5)</td>
+<td align="center" rowspan="1" colspan="1"/>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>Data presented as mean (SD) or number (%)</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p><xref rid="pone.0137322.t002" ref-type="table">Table 2</xref> shows AMD and its association with THR. After adjustment for age, sex, BMI, smoking, and country of birth, persons with intermediate AMD had an increased cumulative 10-year incidence of THR for OA compared with those without AMD (OR 1.22, 95% CI 1.00–1.49), but there were no associations with the early stage of AMD or late AMD. Persons with late AMD were at higher risk of THR due to #NOF compared with those without AMD (OR 5.21, 95% CI 2.25–12.02). No significant association was observed for early or intermediate AMD and #NOF. There was no evidence for an effect modification by sex on the association between prevalent AMD and cumulative 10-year incidence of THR. The results were similar when additional adjustment was performed for medical history (diabetes, hypertension and atherosclerosis), lifestyle factors (physical activity and alcohol consumption), use of vitamin supplements and nonsteroidal anti-inflammatory drugs, and education (data not shown).</p>
+<table-wrap id="pone.0137322.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0137322.t002</object-id>
+<label>Table 2</label> <caption><title>Relationship of AMD with risk of total hip replacement for osteoarthritis and fractured neck of femur.</title></caption>
+<alternatives>
+<graphic id="pone.0137322.t002g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0137322.t002" xlink:type="simple"/>
+<table>
+<colgroup span="1">
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" rowspan="1" colspan="1"/>
+<th colspan="2" align="center" rowspan="1">Univariable analysis</th>
+<th colspan="2" align="center" rowspan="1">Multivariable analysis<xref rid="t002fn001" ref-type="table-fn">*</xref></th>
+</tr>
+<tr>
+<th align="left" rowspan="1" colspan="1"/>
+<th align="center" rowspan="1" colspan="1">Odds ratio</th>
+<th align="center" rowspan="1" colspan="1">P value</th>
+<th align="center" rowspan="1" colspan="1">Odds ratio</th>
+<th align="center" rowspan="1" colspan="1">P value</th>
+</tr>
+<tr>
+<th align="left" rowspan="1" colspan="1"/>
+<th align="center" rowspan="1" colspan="1">(95% CI)</th>
+<th align="center" rowspan="1" colspan="1"/>
+<th align="center" rowspan="1" colspan="1">(95% CI)</th>
+<th align="center" rowspan="1" colspan="1"/>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2" align="left" rowspan="1"><bold>Total hip replacement for osteoarthritis</bold></td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">No AMD</td>
+<td align="center" rowspan="1" colspan="1">1.00</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1">1.00</td>
+<td align="center" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Early AMD</td>
+<td align="center" rowspan="1" colspan="1">0.93 (0.77, 1.12)</td>
+<td align="center" rowspan="1" colspan="1">0.46</td>
+<td align="center" rowspan="1" colspan="1">1.02 (0.85, 1.24)</td>
+<td align="center" rowspan="1" colspan="1">0.81</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Intermediate AMD</td>
+<td align="center" rowspan="1" colspan="1">1.35 (1.11, 1.64)</td>
+<td align="center" rowspan="1" colspan="1">0.003</td>
+<td align="center" rowspan="1" colspan="1"><bold>1.22 (1.004, 1.49)</bold></td>
+<td align="center" rowspan="1" colspan="1"><bold>0.046</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Late AMD</td>
+<td align="center" rowspan="1" colspan="1">0.72 (0.23, 2.27)</td>
+<td align="center" rowspan="1" colspan="1">0.57</td>
+<td align="center" rowspan="1" colspan="1">0.44 (0.14, 1.39)</td>
+<td align="center" rowspan="1" colspan="1">0.16</td>
+</tr>
+<tr>
+<td colspan="5" align="left" rowspan="1"><bold>Total hip replacement for fractured neck of femur</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">No AMD</td>
+<td align="center" rowspan="1" colspan="1">1.00</td>
+<td align="center" rowspan="1" colspan="1"/>
+<td align="center" rowspan="1" colspan="1">1.00</td>
+<td align="center" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Early AMD</td>
+<td align="center" rowspan="1" colspan="1">1.12 (0.67, 1.87)</td>
+<td align="center" rowspan="1" colspan="1">0.66</td>
+<td align="center" rowspan="1" colspan="1">1.26 (0.75, 2.11)</td>
+<td align="center" rowspan="1" colspan="1">0.38</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Intermediate AMD</td>
+<td align="center" rowspan="1" colspan="1">1.64 (0.96, 2.79)</td>
+<td align="center" rowspan="1" colspan="1">0.07</td>
+<td align="center" rowspan="1" colspan="1">1.17 (0.69, 2.01)</td>
+<td align="center" rowspan="1" colspan="1">0.56</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Late AMD</td>
+<td align="center" rowspan="1" colspan="1">14.91 (6.65, 33.44)</td>
+<td align="center" rowspan="1" colspan="1">&lt;0.001</td>
+<td align="center" rowspan="1" colspan="1"><bold>5.21 (2.25, 12.02)</bold></td>
+<td align="center" rowspan="1" colspan="1"><bold>&lt;0.001</bold></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p>*adjusted for age, gender, body mass index, smoking, and country of birth</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec009" sec-type="conclusions">
+<title>Discussion</title>
+<p>We found a direct association between AMD and the 10-year cumulative incidence of THR due to OA and #NOF in the elderly. Intermediate AMD was directly associated with an increased 10-year incidence of THR due to OA, and late AMD was directly associated with increased 10-year incidence of THR for #NOF.</p>
+<p>The association between AMD and the risk of hip OA has not been examined previously. We found an increased 10-year cumulative incidence of THR due to OA with intermediate AMD. This relationship was independent of age, sex, BMI, lifestyle factors (physical activity, smoking, alcohol consumption, and vitamin supplements) and medical history (diabetes, hypertension, atherosclerosis, and use of nonsteroidal anti-inflammatory drugs). Chronic inflammation is thought to play an important role in the pathogenesis of both AMD and OA[<xref rid="pone.0137322.ref011" ref-type="bibr">11</xref>–<xref rid="pone.0137322.ref013" ref-type="bibr">13</xref>,<xref rid="pone.0137322.ref016" ref-type="bibr">16</xref>,<xref rid="pone.0137322.ref017" ref-type="bibr">17</xref>], and these conditions may potentially share common inflammatory pathways. Inflammation-related genes have been associated with OA[<xref rid="pone.0137322.ref015" ref-type="bibr">15</xref>]. In OA, there is marked hyperplasia of the synovial lining cells with an infiltration of inflammatory cells mainly of macrophages but also T and B cells[<xref rid="pone.0137322.ref026" ref-type="bibr">26</xref>], mast cells[<xref rid="pone.0137322.ref027" ref-type="bibr">27</xref>] and natural killer cells[<xref rid="pone.0137322.ref028" ref-type="bibr">28</xref>]. Inflammatory mediators have also been found in OA synovial fluid as well as serum[<xref rid="pone.0137322.ref014" ref-type="bibr">14</xref>,<xref rid="pone.0137322.ref029" ref-type="bibr">29</xref>]. It has been shown that inflammation is present in OA joints well before the development of significant radiographic changes[<xref rid="pone.0137322.ref017" ref-type="bibr">17</xref>], with overexpression of inflammatory mediators in early rather than late disease[<xref rid="pone.0137322.ref030" ref-type="bibr">30</xref>]. The hip biomechanics (hip bone shape and pressure points) may also contribute to an increased risk of OA.</p>
+<p>In the early and intermediate stages of AMD, drusen which are deposits located below the retinal pigment epithelium (RPE), have been postulated to be a by-product of a localised inflammatory response following RPE and Bruch’s Membrane injury involving the complement system, or themselves drive inflammation due to the abnormal lipid rich deposits[<xref rid="pone.0137322.ref031" ref-type="bibr">31</xref>,<xref rid="pone.0137322.ref032" ref-type="bibr">32</xref>]. Inflammatory cells and infiltrates, including components of the activated complement cascade, have been found in both drusen and in Bruch’s Membrane[<xref rid="pone.0137322.ref031" ref-type="bibr">31</xref>,<xref rid="pone.0137322.ref032" ref-type="bibr">32</xref>]. Genetic studies have found a strong association of polymorphisms in the complement factor H (<italic>CFH</italic>) gene (Y402H) with AMD; where <italic>CFH</italic> is an inhibitor of the alternative complement pathway[<xref rid="pone.0137322.ref010" ref-type="bibr">10</xref>]. Hence the activation of the immune system is a central feature of both OA and AMD[<xref rid="pone.0137322.ref011" ref-type="bibr">11</xref>,<xref rid="pone.0137322.ref017" ref-type="bibr">17</xref>]. After controlling for potential confounders, the relationship between intermediate AMD and the risk of OA-related THR was statistically significant although there were no significant associations with early or late AMD. There were too few cases of late AMD (n = 3 for THR for OA) to find an association between late AMD and risk of OA-related THR. It could be postulated that the systemic inflammatory disease processes may have been too early in early AMD cases to observe chronic associations. Our data showed an association which needs further exploration to evaluate potential common pathways as this may shed further light into their pathogenesis.</p>
+<p>We did however, demonstrate that late AMD was associated with a 5.2 fold increased 10-year cumulative incidence of primary THR for #NOF. A US study using a 5% random sample of Medicare beneficiaries from 1996–1999, which included 8,596 coded cases of exudative AMD, 26,942 coded cases of atrophic AMD, and 1,013,748 cases without AMD codes, reported a 4.6% 4-year cumulative incidence (1995–1999) of hip fracture. This study found atrophic AMD to be directly associated with an 11% increase in the four-year odds of hip fracture (OR 1.11, 95% CI 1.06 to 1.16, P &gt;0.001), but there were no associations with exudative AMD (OR 1.03, 95% CI 0.95, 1.12)[<xref rid="pone.0137322.ref018" ref-type="bibr">18</xref>]. The accuracy of the International Classification of Diseases taxonomy coding in the Medicare database has been reported to be high for hip fractures and exudative AMD, however the accuracy of atrophic AMD was undetermined. Of note, in the United States, the Medicare health insurance programme does not have the same coverage as in Australia. The authors postulated that miscoding error could have biased the results towards null. A similar American longitudinal retrospective cohort study using 5% sample Medicare claims data found elderly individuals with newly diagnosed AMD (91.5% of AMD was coded dry or unspecified) in 1994 had higher rates of hip fracture than those without AMD during a 10-year follow-up period, OR 1.09 (1.04–1.14)[<xref rid="pone.0137322.ref019" ref-type="bibr">19</xref>].</p>
+<p>It is well documented that reduced visual acuity is associated with a 30–90% increased odds of hip fracture[<xref rid="pone.0137322.ref033" ref-type="bibr">33</xref>]. It is estimated that over 95% of #NOF in the elderly are the result of a fall[<xref rid="pone.0137322.ref001" ref-type="bibr">1</xref>]. It is likely that AMD, particularly in its late stages, increases the risk of falls through impaired vision. Our findings of an association with vision-threatening late AMD and high risk of #NOF is likely to relate to falls due to poor visual acuity (anti-VEGF treatment was not available at the time when AMD was determined in our study), although we are not able to directly test this as acuity information was not collected. It is not surprising that an association between early or intermediate AMD was not found, as visual acuity is not typically affected.</p>
+<p>Strengths of our study include the large sample size in one comprehensive study that provided AMD, OA and #NOF data. AMD status was accurately determined via colored fundus photography, and THR cases ascertained directly from the AOA NJRR. The AOA NJRR data is validated and nearly complete in terms of joint replacement performed in Australia. Detailed AMD grading was performed on high-resolution digital color fundus images, which was the most appropriate methodology during the period before intra-vitreal anti-VEGF treatment for neovascular AMD was commonly available. Our study also has some limitations. The fact that AMD was assessed within the THR follow-up time frame limited the assessment of a temporal relationship between AMD and THR risk. AMD status was obtained at only one time point (2003–2007) and data on THR were collected between 2001 and 2011 during which time the AMD status could have changed. The number of participants with late AMD was small, and we had no data on visual acuity, or bone mineral density to include in our analyses. For #NOF, the registry only identifies the patients who have #NOF treated by THR which is estimated to be about 1/3 of all #NOF in Australia[<xref rid="pone.0137322.ref005" ref-type="bibr">5</xref>].</p>
+<p>Our findings have both clinical and public health implications. The association of intermediate AMD with the risk of THR due to OA suggests that similar underlying mechanisms and therefore genetic risk profile may exist for both chronic inflammatory conditions, and this association warrants further research. If common inflammatory pathways were present, this can be targeted as a treatment to reduce inflammatory mediators for both diseases. Additionally, we recognize that late AMD is strongly associated with the risk of #NOF, with fractures often associated with falls. More work is needed to optimize vision to reduce this risk of falls and fractures in this high risk group as along with issues surrounding the treatment of #NOF. It is well recognized that mortality rates after # NOFs are much higher than that in the general population[<xref rid="pone.0137322.ref034" ref-type="bibr">34</xref>]. According to the Australian Macular Degeneration Foundation, there are an estimated 20,734 new cases neovascular AMD annually (based on incidence figures from the Blue Mountains Eye Study[<xref rid="pone.0137322.ref035" ref-type="bibr">35</xref>]). Neovascular AMD is now treatable by regular intravitreal injections of anti-VEGF agents. It is important that vision loss from neovascular AMD is minimized by early assessment and timely treatment before scarring occurs and vision loss becomes irreversible. Early detection of neovascular AMD and rapid treatment with anti-VEGF can potentially reduce the risk of hip fracture in the elderly and the associated health care burden.</p>
+</sec>
+<sec id="sec010" sec-type="conclusions">
+<title>Conclusions</title>
+<p>The association between intermediate AMD and an increased 10-year incidence of THR due to OA suggests the possibility of similar inflammatory processes underlying both chronic diseases. The association of late AMD with an increased 10-year incidence of THR due to #NOF may be due to an increased prevalence of fractures in those with poor central vision associated with the late complications of AMD.</p>
+</sec>
+</body>
+<back>
+<ack>
+<p>We thank the participants in Melbourne Collaborative Cohort Study for their participation in the study.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0137322.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Stevens</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Olson</surname> <given-names>S</given-names></name> (<year>2000</year>) <article-title>Reducing falls and resulting hip fractures among older women</article-title>. <source>MMWR Recomm Rep</source> <volume>49</volume>: <fpage>3</fpage>–<lpage>12</lpage>. <object-id pub-id-type="pmid">15580729</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref002"><label>2</label><mixed-citation publication-type="book" xlink:type="simple"><collab xlink:type="simple">Australian Institute of Health and Welfare</collab> (<year>2007</year>) <chapter-title>Impairments and disability associated with arthritis and osteoporosis</chapter-title>. <publisher-name>Australian Institute of Health and Welfare</publisher-name>. <publisher-loc>Canberra</publisher-loc>; <name name-style="western"><surname>Rahman</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Bhatia</surname> <given-names>K</given-names></name>, editors.</mixed-citation></ref>
+<ref id="pone.0137322.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Murphy</surname> <given-names>LB</given-names></name>, <name name-style="western"><surname>Helmick</surname> <given-names>CG</given-names></name>, <name name-style="western"><surname>Schwartz</surname> <given-names>TA</given-names></name>, <name name-style="western"><surname>Renner</surname> <given-names>JB</given-names></name>, <name name-style="western"><surname>Tudor</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Koch</surname> <given-names>GG</given-names></name>, <etal>et al</etal>. (<year>2010</year>) <article-title>One in four people may develop symptomatic hip osteoarthritis in his or her lifetime</article-title>. <source>Osteoarthritis Cartilage</source> <volume>18</volume>: <fpage>1372</fpage>–<lpage>1379</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.joca.2010.08.005" xlink:type="simple">10.1016/j.joca.2010.08.005</ext-link></comment> <object-id pub-id-type="pmid">20713163</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Salaffi</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Carotti</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Stancati</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Grassi</surname> <given-names>W</given-names></name> (<year>2005</year>) <article-title>Health-related quality of life in older adults with symptomatic hip and knee osteoarthritis: a comparison with matched healthy controls</article-title>. <source>Aging Clin Exp Res</source> <volume>17</volume>: <fpage>255</fpage>–<lpage>263</lpage>. <object-id pub-id-type="pmid">16285189</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref005"><label>5</label><mixed-citation publication-type="other" xlink:type="simple">Registry AOANJR (2013) Australian Orthopaedic Association National Joint Replacement Registry. Annual Report. Adelaide.</mixed-citation></ref>
+<ref id="pone.0137322.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Masud</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Morris</surname> <given-names>RO</given-names></name> (<year>2001</year>) <article-title>Epidemiology of falls</article-title>. <source>Age Ageing</source> <volume>30</volume> <issue>Suppl 4</issue>: <fpage>3</fpage>–<lpage>7</lpage>. <object-id pub-id-type="pmid">11769786</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Marottoli</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Berkman</surname> <given-names>LF</given-names></name>, <name name-style="western"><surname>Cooney</surname> <given-names>LM</given-names> <suffix>Jr</suffix></name> (<year>1992</year>) <article-title>Decline in physical function following hip fracture</article-title>. <source>J Am Geriatr Soc</source> <volume>40</volume>: <fpage>861</fpage>–<lpage>866</lpage>. <object-id pub-id-type="pmid">1512379</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sanders</surname> <given-names>KM</given-names></name>, <name name-style="western"><surname>Nicholson</surname> <given-names>GC</given-names></name>, <name name-style="western"><surname>Ugoni</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Pasco</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Seeman</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Kotowicz</surname> <given-names>MA</given-names></name> (<year>1999</year>) <article-title>Health burden of hip and other fractures in Australia beyond 2000. Projections based on the Geelong Osteoporosis Study</article-title>. <source>Med J Aust</source> <volume>170</volume>: <fpage>467</fpage>–<lpage>470</lpage>. <object-id pub-id-type="pmid">10376021</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref009"><label>9</label><mixed-citation publication-type="book" xlink:type="simple"><collab xlink:type="simple">Deloitte Access Economics</collab> (<year>2011</year>) <chapter-title>Eyes on the future</chapter-title>. <source>A clear outlook on Age-related Macular Degeneration</source>. <publisher-loc>Australia</publisher-loc>: <publisher-name>Macular Degeneration Foundation</publisher-name>. 15 &amp; 77 p.</mixed-citation></ref>
+<ref id="pone.0137322.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hageman</surname> <given-names>GS</given-names></name>, <name name-style="western"><surname>Anderson</surname> <given-names>DH</given-names></name>, <name name-style="western"><surname>Johnson</surname> <given-names>LV</given-names></name>, <name name-style="western"><surname>Hancox</surname> <given-names>LS</given-names></name>, <name name-style="western"><surname>Taiber</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Hardisty</surname> <given-names>LI</given-names></name>, <etal>et al</etal>. (<year>2005</year>) <article-title>A common haplotype in the complement regulatory gene factor H (HF1/CFH) predisposes individuals to age-related macular degeneration</article-title>. <source>Proc Natl Acad Sci U S A</source> <volume>102</volume>: <fpage>7227</fpage>–<lpage>7232</lpage>. <object-id pub-id-type="pmid">15870199</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Telander</surname> <given-names>DG</given-names></name> (<year>2011</year>) <article-title>Inflammation and age-related macular degeneration (AMD)</article-title>. <source>Semin Ophthalmol</source> <volume>26</volume>: <fpage>192</fpage>–<lpage>197</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3109/08820538.2011.570849" xlink:type="simple">10.3109/08820538.2011.570849</ext-link></comment> <object-id pub-id-type="pmid">21609232</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Donoso</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Frost</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Callahan</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Hageman</surname> <given-names>G</given-names></name> (<year>2006</year>) <article-title>The role of inflammation in the pathogenesis of age-related macular degeneration</article-title>. <source>Surv Ophthalmol</source> <volume>51</volume>: <fpage>137</fpage>–<lpage>152</lpage>. <object-id pub-id-type="pmid">16500214</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Goldring</surname> <given-names>MB</given-names></name>, <name name-style="western"><surname>Otero</surname> <given-names>M</given-names></name> (<year>2011</year>) <article-title>Inflammation in osteoarthritis</article-title>. <source>Curr Opin Rheumatol</source> <volume>23</volume>: <fpage>471</fpage>–<lpage>478</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/BOR.0b013e328349c2b1" xlink:type="simple">10.1097/BOR.0b013e328349c2b1</ext-link></comment> <object-id pub-id-type="pmid">21788902</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Spector</surname> <given-names>TD</given-names></name>, <name name-style="western"><surname>Hart</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Nandra</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Doyle</surname> <given-names>DV</given-names></name>, <name name-style="western"><surname>Mackillop</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Gallimore</surname> <given-names>JR</given-names></name>, <etal>et al</etal>. (<year>1997</year>) <article-title>Low-level increases in serum C-reactive protein are present in early osteoarthritis of the knee and predict progressive disease</article-title>. <source>Arthritis Rheum</source> <volume>40</volume>: <fpage>723</fpage>–<lpage>727</lpage>. <object-id pub-id-type="pmid">9125256</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Valdes</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Spector</surname> <given-names>TD</given-names></name> (<year>2010</year>) <article-title>The genetic epidemiology of osteoarthritis</article-title>. <source>Curr Opin Rheumatol</source> <volume>22</volume>: <fpage>139</fpage>–<lpage>143</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/BOR.0b013e3283367a6e" xlink:type="simple">10.1097/BOR.0b013e3283367a6e</ext-link></comment> <object-id pub-id-type="pmid">20090528</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Scanzello</surname> <given-names>CR</given-names></name>, <name name-style="western"><surname>Plaas</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Crow</surname> <given-names>MK</given-names></name> (<year>2008</year>) <article-title>Innate immune system activation in osteoarthritis: is osteoarthritis a chronic wound?</article-title> <source>Curr Opin Rheumatol</source> <volume>20</volume>: <fpage>565</fpage>–<lpage>572</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/BOR.0b013e32830aba34" xlink:type="simple">10.1097/BOR.0b013e32830aba34</ext-link></comment> <object-id pub-id-type="pmid">18698179</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sokolove</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Lepus</surname> <given-names>CM</given-names></name> (<year>2013</year>) <article-title>Role of inflammation in the pathogenesis of osteoarthritis: latest findings and interpretations</article-title>. <source>Ther Adv Musculoskelet Dis</source> <volume>5</volume>: <fpage>77</fpage>–<lpage>94</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1177/1759720X12467868" xlink:type="simple">10.1177/1759720X12467868</ext-link></comment> <object-id pub-id-type="pmid">23641259</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Anastasopoulos</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Yu</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Coleman</surname> <given-names>AL</given-names></name> (<year>2006</year>) <article-title>Age-related macular degeneration is associated with an increased risk of hip fractures in the Medicare database</article-title>. <source>Am J Ophthalmol</source> <volume>142</volume>: <fpage>1081</fpage>–<lpage>1083</lpage>. <object-id pub-id-type="pmid">17157603</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wysong</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>PP</given-names></name>, <name name-style="western"><surname>Sloan</surname> <given-names>FA</given-names></name> (<year>2009</year>) <article-title>Longitudinal incidence of adverse outcomes of age-related macular degeneration</article-title>. <source>Arch Ophthalmol</source> <volume>127</volume>: <fpage>320</fpage>–<lpage>327</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1001/archophthalmol.2008.613" xlink:type="simple">10.1001/archophthalmol.2008.613</ext-link></comment> <object-id pub-id-type="pmid">19273797</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hong</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Mitchell</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Burlutsky</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Samarawickrama</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>JJ</given-names></name> (<year>2014</year>) <article-title>Visual impairment and the incidence of falls and fractures among older people: longitudinal findings from the Blue Mountains Eye Study</article-title>. <source>Invest Ophthalmol Vis Sci</source> <volume>55</volume>: <fpage>7589</fpage>–<lpage>7593</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1167/iovs.14-14262" xlink:type="simple">10.1167/iovs.14-14262</ext-link></comment> <object-id pub-id-type="pmid">25370514</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Giles</surname> <given-names>GG</given-names></name>, <name name-style="western"><surname>English</surname> <given-names>DR</given-names></name> (<year>2002</year>) <article-title>The Melbourne Collaborative Cohort Study</article-title>. <source>IARC Sci Publ</source> <volume>156</volume>: <fpage>69</fpage>–<lpage>70</lpage>. <object-id pub-id-type="pmid">12484128</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ferris</surname> <given-names>FL</given-names> <suffix>3rd</suffix></name>, <name name-style="western"><surname>Wilkinson</surname> <given-names>CP</given-names></name>, <name name-style="western"><surname>Bird</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Chakravarthy</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Chew</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Csaky</surname> <given-names>K</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Clinical classification of age-related macular degeneration</article-title>. <source>Ophthalmology</source> <volume>120</volume>: <fpage>844</fpage>–<lpage>851</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.ophtha.2012.10.036" xlink:type="simple">10.1016/j.ophtha.2012.10.036</ext-link></comment> <object-id pub-id-type="pmid">23332590</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Aung</surname> <given-names>KZ</given-names></name>, <name name-style="western"><surname>Robman</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Chong</surname> <given-names>EW</given-names></name>, <name name-style="western"><surname>English</surname> <given-names>DR</given-names></name>, <name name-style="western"><surname>Giles</surname> <given-names>GG</given-names></name>, <name name-style="western"><surname>Guymer</surname> <given-names>RH</given-names></name> (<year>2009</year>) <article-title>Non-mydriatic digital macular photography: how good is the second eye photograph?</article-title> <source>Ophthalmic Epidemiol</source> <volume>16</volume>: <fpage>254</fpage>–<lpage>261</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3109/09286580902864419" xlink:type="simple">10.3109/09286580902864419</ext-link></comment> <object-id pub-id-type="pmid">19874148</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Graves</surname> <given-names>SE</given-names></name>, <name name-style="western"><surname>Davidson</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Ingerson</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Ryan</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Griffith</surname> <given-names>EC</given-names></name>, <name name-style="western"><surname>McDermott</surname> <given-names>BF</given-names></name>, <etal>et al</etal>. (<year>2004</year>) <article-title>The Australian Orthopaedic Association National Joint Replacement Registry</article-title>. <source>Med J Aust</source> <volume>180</volume>: <fpage>S31</fpage>–<lpage>34</lpage>. <object-id pub-id-type="pmid">14984361</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>VanNewkirk</surname> <given-names>MR</given-names></name>, <name name-style="western"><surname>Weih</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>McCarty</surname> <given-names>CA</given-names></name>, <name name-style="western"><surname>Taylor</surname> <given-names>HR</given-names></name> (<year>2001</year>) <article-title>Cause-specific prevalence of bilateral visual impairment in Victoria, Australia: the Visual Impairment Project</article-title>. <source>Ophthalmology</source> <volume>108</volume>: <fpage>960</fpage>–<lpage>967</lpage>. <object-id pub-id-type="pmid">11320028</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bondeson</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Blom</surname> <given-names>AB</given-names></name>, <name name-style="western"><surname>Wainwright</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Hughes</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Caterson</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>van den Berg</surname> <given-names>WB</given-names></name> (<year>2010</year>) <article-title>The role of synovial macrophages and macrophage-produced mediators in driving inflammatory and destructive responses in osteoarthritis</article-title>. <source>Arthritis Rheum</source> <volume>62</volume>: <fpage>647</fpage>–<lpage>657</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/art.27290" xlink:type="simple">10.1002/art.27290</ext-link></comment> <object-id pub-id-type="pmid">20187160</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dean</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Hoyland</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Denton</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Donn</surname> <given-names>RP</given-names></name>, <name name-style="western"><surname>Freemont</surname> <given-names>AJ</given-names></name> (<year>1993</year>) <article-title>Mast cells in the synovium and synovial fluid in osteoarthritis</article-title>. <source>Br J Rheumatol</source> <volume>32</volume>: <fpage>671</fpage>–<lpage>675</lpage>. <object-id pub-id-type="pmid">8348268</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Skrzeczynska-Moncznik</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Stefanska</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Zabel</surname> <given-names>BA</given-names></name>, <name name-style="western"><surname>Kapinska-Mrowiecka</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Butcher</surname> <given-names>EC</given-names></name>, <name name-style="western"><surname>Cichy</surname> <given-names>J</given-names></name> (<year>2009</year>) <article-title>Chemerin and the recruitment of NK cells to diseased skin</article-title>. <source>Acta Biochim Pol</source> <volume>56</volume>: <fpage>355</fpage>–<lpage>360</lpage>. <object-id pub-id-type="pmid">19543554</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sohn</surname> <given-names>DH</given-names></name>, <name name-style="western"><surname>Sokolove</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Sharpe</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Erhart</surname> <given-names>JC</given-names></name>, <name name-style="western"><surname>Chandra</surname> <given-names>PE</given-names></name>, <name name-style="western"><surname>Lahey</surname> <given-names>LJ</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Plasma proteins present in osteoarthritic synovial fluid can stimulate cytokine production via Toll-like receptor 4</article-title>. <source>Arthritis Res Ther</source> <volume>14</volume>: <fpage>R7</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/ar3555" xlink:type="simple">10.1186/ar3555</ext-link></comment> <object-id pub-id-type="pmid">22225630</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Benito</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Veale</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>FitzGerald</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>van den Berg</surname> <given-names>WB</given-names></name>, <name name-style="western"><surname>Bresnihan</surname> <given-names>B</given-names></name> (<year>2005</year>) <article-title>Synovial tissue inflammation in early and late osteoarthritis</article-title>. <source>Ann Rheum Dis</source> <volume>64</volume>: <fpage>1263</fpage>–<lpage>1267</lpage>. <object-id pub-id-type="pmid">15731292</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hageman</surname> <given-names>GS</given-names></name>, <name name-style="western"><surname>Luthert</surname> <given-names>PJ</given-names></name>, <name name-style="western"><surname>Victor</surname> <given-names>Chong NH</given-names></name>, <name name-style="western"><surname>Johnson</surname> <given-names>LV</given-names></name>, <name name-style="western"><surname>Anderson</surname> <given-names>DH</given-names></name>, <name name-style="western"><surname>Mullins</surname> <given-names>RF</given-names></name> (<year>2001</year>) <article-title>An integrated hypothesis that considers drusen as biomarkers of immune-mediated processes at the RPE-Bruch's membrane interface in aging and age-related macular degeneration</article-title>. <source>Prog Retin Eye Res</source> <volume>20</volume>: <fpage>705</fpage>–<lpage>732</lpage>. <object-id pub-id-type="pmid">11587915</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Anderson</surname> <given-names>DH</given-names></name>, <name name-style="western"><surname>Mullins</surname> <given-names>RF</given-names></name>, <name name-style="western"><surname>Hageman</surname> <given-names>GS</given-names></name>, <name name-style="western"><surname>Johnson</surname> <given-names>LV</given-names></name> (<year>2002</year>) <article-title>A role for local inflammation in the formation of drusen in the aging eye</article-title>. <source>Am J Ophthalmol</source> <volume>134</volume>: <fpage>411</fpage>–<lpage>431</lpage>. <object-id pub-id-type="pmid">12208254</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Legood</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Scuffham</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Cryer</surname> <given-names>C</given-names></name> (<year>2002</year>) <article-title>Are we blind to injuries in the visually impaired? A review of the literature</article-title>. <source>Inj Prev</source> <volume>8</volume>: <fpage>155</fpage>–<lpage>160</lpage>. <object-id pub-id-type="pmid">12120837</object-id></mixed-citation></ref>
+<ref id="pone.0137322.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Panula</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Pihlajamaki</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Mattila</surname> <given-names>VM</given-names></name>, <name name-style="western"><surname>Jaatinen</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Vahlberg</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Aarnio</surname> <given-names>P</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Mortality and cause of death in hip fracture patients aged 65 or older: a population-based study</article-title>. <source>BMC Musculoskelet Disord</source> <volume>12</volume>: <fpage>105</fpage>.</mixed-citation></ref>
+<ref id="pone.0137322.ref035"><label>35</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>Rochtchina</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Chia</surname> <given-names>EM</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Cumming</surname> <given-names>RG</given-names></name> (<year>2007</year>) <article-title>Ten-year incidence and progression of age-related maculopathy: the blue Mountains Eye Study</article-title>. <source>Ophthalmology</source> <volume>114</volume>: <fpage>92</fpage>–<lpage>98</lpage>. <object-id pub-id-type="pmid">17198852</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article article-type="research-article" dtd-version="3.0" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0146826</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-15-43887</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>A Mutation in Plant-Specific SWI2/SNF2-Like Chromatin-Remodeling Proteins, DRD1 and DDM1, Delays Leaf Senescence in <italic>Arabidopsis thaliana</italic></article-title>
+<alt-title alt-title-type="running-head">DRD1 Mutation and Leaf Senescence</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Cho</surname>
+<given-names>Eun Ju</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Choi</surname>
+<given-names>Seung Hee</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Kim</surname>
+<given-names>Ji Hong</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Kim</surname>
+<given-names>Ji Eun</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Lee</surname>
+<given-names>Min Hee</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Chung</surname>
+<given-names>Byung Yeoup</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Woo</surname>
+<given-names>Hye Ryun</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Kim</surname>
+<given-names>Jin-Hong</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Advanced Radiation Technology Institute, Korea Atomic Energy ResearchInstitute, 29 Geumgu-gil, Jeongeup-si, Jeollabuk-do, 56212, Republic of Korea</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Department of New Biology, DGIST, Daegu, 42988, Republic of Korea</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Department of Radiation Biotechnology and Applied Radioisotope Science, University of Science and Technology, 217 Gajeong-ro, Yuseong-gu, Daejeon, 34113, Republic of Korea</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Candela</surname>
+<given-names>Hector</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Universidad Miguel Hernández de Elche, SPAIN</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="con" id="contrib001">
+<p>Conceived and designed the experiments: EJC SHC JHK. Performed the experiments: EJC SHC JK JEK MHL. Analyzed the data: EJC SHC JHK. Contributed reagents/materials/analysis tools: HRW BYC JHK. Wrote the paper: EJC SHC JHK.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">jhongkim@kaeri.re.kr</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>11</day>
+<month>1</month>
+<year>2016</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2016</year>
+</pub-date>
+<volume>11</volume>
+<issue>1</issue>
+<elocation-id>e0146826</elocation-id>
+<history>
+<date date-type="received">
+<day>6</day>
+<month>10</month>
+<year>2015</year>
+</date>
+<date date-type="accepted">
+<day>22</day>
+<month>12</month>
+<year>2015</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2016</copyright-year>
+<copyright-holder>Cho et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0146826"/>
+<abstract>
+<p>Leaf senescence is a finely regulated complex process; however, evidence for the involvement of epigenetic processes in the regulation of leaf senescence is still fragmentary. Therefore, we chose to examine the functions of DRD1, a SWI2/SNF2 chromatin remodeling protein, in epigenetic regulation of leaf senescence, particularly because <italic>drd1-6</italic> mutants exhibited a delayed leaf senescence phenotype. Photosynthetic parameters such as Fv/Fm and ETRmax were decreased in WT leaves compared to leaves of <italic>drd1-6</italic> mutants after dark treatment. The WT leaves remarkably lost more chlorophyll and protein content during dark-induced senescence (DIS) than the <italic>drd1-6</italic> leaves did. The induction of senescence-associated genes was noticeably inhibited in the <italic>drd1-6</italic> mutant after 5-d of DIS. We compared changes in epigenetic regulation during DIS via quantitative expression analysis of 180-bp centromeric (<italic>CEN</italic>) and transcriptionally silent information (<italic>TSI</italic>) repeats. Their expression levels significantly increased in both the WT and the <italic>drd1-6</italic> mutant, but did much less in the latter. Moreover, the delayed leaf senescence was observed in <italic>ddm1-2</italic> mutants as well as the <italic>drd1-6</italic>, but not in <italic>drd1-p</italic> mutants. These data suggest that SWI2/SNF2 chromatin remodeling proteins such as DRD1 and DDM1 may influence leaf senescence possibly via epigenetic regulation.</p>
+</abstract>
+<funding-group>
+<funding-statement>This research was supported by the Nuclear R &amp; D Program of the Ministry of Education, Science and Technology (MEST), Republic of Korea. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="8"/>
+<table-count count="2"/>
+<page-count count="21"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Leaf senescence is an endogenously controlled degenerative process that occurs in the final stage of leaf development, leading to leaf death [<xref ref-type="bibr" rid="pone.0146826.ref001">1</xref>, <xref ref-type="bibr" rid="pone.0146826.ref002">2</xref>]. During leaf senescence, a series of events involving the degradation of chloroplast, decrease in photosynthetic activity, loss of chlorophyll, and the recycling of valuable nutrients to other parts of the plant, occur [<xref ref-type="bibr" rid="pone.0146826.ref003">3</xref>]. Initial chloroplast degradation is followed by nuclear and vacuolar breakdown. This latter mechanism is accompanied by the release of nucleases and proteases, acidification of the cytoplasm, and rapid degradation of nucleic acids and proteins [<xref ref-type="bibr" rid="pone.0146826.ref004">4</xref>, <xref ref-type="bibr" rid="pone.0146826.ref005">5</xref>]. Developmental senescence is a highly regulated genetic process that occurs in an age-dependent manner [<xref ref-type="bibr" rid="pone.0146826.ref006">6</xref>]; however, it is also influenced by complex interaction of developmental stage with various internal and external factors [<xref ref-type="bibr" rid="pone.0146826.ref002">2</xref>]. Internal factors include developmental age, diverse phytohormones, and reproductive development. External or environmental factors include stresses such as high light intensity, temperature extremes, drought, ozone, shading, nutrient deficiency, and pathogen infection. It is clear that multiple pathways regulating multiple internal and external factors exist and are interconnected to form a complex network that regulates senescence.</p>
+<p>Studies of changes in gene expression by using microarray analysis have shown that senescence is often regulated by transcription factors. Over 800 genes have been identified as senescence-associated genes (SAGs), and among them, over 100 genes encode transcription factors [<xref ref-type="bibr" rid="pone.0146826.ref006">6</xref>, <xref ref-type="bibr" rid="pone.0146826.ref007">7</xref>], including WRKY, NAC, MYB, TUB, bZIP, and C2H2 transcription factor families. The <italic>Arabidopsis WRKY53</italic> transcription factor plays a central role in the regulation of the early stages of senescence [<xref ref-type="bibr" rid="pone.0146826.ref008">8</xref>–<xref ref-type="bibr" rid="pone.0146826.ref011">11</xref>]. A knock-out line of the <italic>WRKY53</italic> gene shows delayed leaf senescence; on the other hand, overexpression of this gene leads to precocious senescence [<xref ref-type="bibr" rid="pone.0146826.ref009">9</xref>, <xref ref-type="bibr" rid="pone.0146826.ref011">11</xref>]. The WRKY53 transcription factor controls several SAGs involved in the control of leaf senescence [<xref ref-type="bibr" rid="pone.0146826.ref009">9</xref>].</p>
+<p>Epigenetic regulation plays an important role in cellular senescence and organism aging in higher organisms [<xref ref-type="bibr" rid="pone.0146826.ref011">11</xref>–<xref ref-type="bibr" rid="pone.0146826.ref013">13</xref>]. The epigenetic mechanisms including DNA methylation, histone modification, and ATP-dependent chromatin remodeling control expression of the senescence-associated genes (<italic>SAGs</italic>) by reprogramming of chromatin state with aging. Interestingly, global DNA hypomethylation and specific loci hypermethylation occur in aging. Recently, many molecules that control global alteration in chromatin structure during senescence have been analyzed. Screening of activation-tagged lines in <italic>Arabidopsis</italic> for delayed leaf senescence identified the <italic>ORE7/ESC</italic> gene, which encodes an AT-hook DNA-binding protein. Expression of <italic>ORE7</italic> results in a dosage-dependent effect on the initiation of leaf senescence and interphase chromatin organization [<xref ref-type="bibr" rid="pone.0146826.ref014">14</xref>]. It was also reported that histones at the WRKY53 promoter and coding regions undergo H3K4 methylation to be active chromatin state for upregulation of target SAGs after onset of leaf senescence [<xref ref-type="bibr" rid="pone.0146826.ref011">11</xref>]. However, in case of the SWITCH/ SUCROSE NONFERMENTING (SWI/SNF) chromatin remodelers, its role in leaf senescence has not been explored in spite of existence of a number of SWI/SNF chromatin remodelers. The SWI/SNF chromatin remodelers can alter chromatin structure through ATP hydrolysis and play important roles in diverse developmental process. DRD1 (AGI locus no. At2g16390) is a putative chromatin remodeling protein and member of the plant-specific subfamily of SWI2/SNF2-like proteins [<xref ref-type="bibr" rid="pone.0146826.ref015">15</xref>, <xref ref-type="bibr" rid="pone.0146826.ref016">16</xref>]. DRD1 is a well-known epigenetic regulator, which was the first SNF2-like protein implicated in RNA-guided epigenetic modification of other genes [<xref ref-type="bibr" rid="pone.0146826.ref015">15</xref>]. It also cooperates with PolVb (NRBD1b and NRBD2a) to facilitate RNA-directed DNA methylation (RdDM) and silencing of homologous DNA [<xref ref-type="bibr" rid="pone.0146826.ref017">17</xref>]. A genetic screen has also revealed that RNA-directed non-CG methylation requires DRD1 [<xref ref-type="bibr" rid="pone.0146826.ref018">18</xref>].</p>
+<p>In this study, we examined senescence symptoms in the <italic>Arabidopsis drd1-6</italic> mutant at the physiological and molecular level. We found significantly delayed leaf senescence in rosette leaves and whole plant in <italic>drd1-6</italic> mutant during DIS and natural senescence. Similar phenotypes were observed in <italic>ddm1-2</italic> mutant as well as <italic>drd1-6</italic> mutant, but not in <italic>drd1-p</italic> mutant. Identification and analysis of gene expression by microarray in <italic>drd1-6</italic> mutants during DIS indicated that genes were clustered according to their responsiveness to dark treatment and gene expression patterns. In addition, using quantitative gene expression analysis of 180-bp centromeric (<italic>CEN</italic>) and transcriptionally silent information (<italic>TSI</italic>) repeats, we showed that epigenetic regulation occurs during DIS. This study suggests that a SWI2/SNF2-like protein, DRD1, is positively associated with leaf senescence possibly via epigenetic regulation.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="sec003">
+<title>Plant material and growth conditions</title>
+<p><italic>Arabidopsis thaliana</italic> ecotype Columbia (Col-0) wild type (WT) and <italic>drd1-6</italic> mutant seeds were sterilized in 70% (v/v) ethanol for 1 min, and suspended in 30% Clorox, 0.01% Triton X-100 for 15 min, rinsed with sterile deionized water. Sterilized seeds were stratified at 4°C for 2 day and then grown on the soil in a growth chamber at 100 ~ 130 μmol m<sup>-2</sup> s<sup>-1</sup> and a 16 h photoperiod at 22/18°C (Day/Night). <italic>Arabidopsis drd1-6</italic> allele used in this study has a nucleotide sequence change from G to A, which results in an amino acid substitution of the 756<sup>th</sup> tryptophan (W) to a stop codon in helicase superfamily C-terminal (HELICc) domain (<xref ref-type="fig" rid="pone.0146826.g001">Fig 1A</xref>). The <italic>drd1-p</italic> allele that carries a T-DNA insertion in the promoter of <italic>DRD1</italic> was obtained from the Salk Collection (SALK_132061) and was confirmed as a knockdown mutant by a PCR-based method (<xref ref-type="fig" rid="pone.0146826.g001">Fig 1B</xref>). In case of <italic>ddm1-2</italic>, substitution of G to A in the splice donor site of intron 11 brings about a deletion, a frameshift, and a premature translation termination, resulting in lack of HELICc domain (<xref ref-type="fig" rid="pone.0146826.g001">Fig 1A</xref>). The <italic>drd1-6</italic> and <italic>ddm1-2</italic> mutants have been reported previously [<xref ref-type="bibr" rid="pone.0146826.ref015">15</xref>, <xref ref-type="bibr" rid="pone.0146826.ref019">19</xref>].</p>
+<fig id="pone.0146826.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0146826.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>The positions of mutations and expression of <italic>DRD1</italic> gene.</title>
+<p>(A) Domain structures of DRD1 and DDM1 and positions of <italic>drd1-6</italic>, <italic>drd1-p</italic> and <italic>ddm1-2</italic>. Amino acid sequence change from tryptophan (W) to stop codon in helicase superfamily C-terminal (HELICc) domain in <italic>drd1-6</italic>. The triangle indicates the position of T-DNA insertion in <italic>drd1-p</italic> mutant. In case of <italic>ddm1-2</italic>, substitution of G to A in the splice donor site of intron 11 brings about lack of helicase superfamily C-terminal (HELICc) domain. (B) RT-PCR analysis of <italic>DRD1</italic> and control <italic>ACTIN2</italic> genes in WT and <italic>drd1-p</italic> mutant leaves. The <italic>drd1-p</italic> mutant displayed a decrease in <italic>DRD1</italic> expression levels compared to WT.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0146826.g001" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec004">
+<title>Senescence analysis</title>
+<p>For the dark-induced senescence (DIS) assay, rosette leaves from 28-day-old <italic>Arabidopsis</italic> WT and <italic>drd1-6</italic> mutant plants were excised and placed on moisturized filter papers in petri dishes. The plates were kept under darkness for 7 days. The rosette leaves of 28-day-old plants were used for treatments of individually darkened leaves (IDL). IDL treatments were performed as described previously [<xref ref-type="bibr" rid="pone.0146826.ref020">20</xref>]. The rosette leaves were covered with aluminum foil for 5 days, and then harvested.</p>
+</sec>
+<sec id="sec005">
+<title>RNA isolation and expression analysis</title>
+<p>Total RNA was isolated from rosette leaves of <italic>Arabidopsis</italic> using RNeasy Mini Kit (Qiagen, Hilden, Germany) according to manufacturer’s instructions. For RT-PCR, the first strand cDNA was produced by Maxime RT PreMix Kit (iNtRON Biotechnology, Seongnam, Korea), and then used in PCR with Maxime PCR PreMix Kit (iNtRON Biotechnology, Seongnam, Korea). The gene-specific primers described in <xref ref-type="supplementary-material" rid="pone.0146826.s004">S1 Table</xref> were used for PCR reactions. <italic>ACTIN2</italic> gene was used as a control. PCR conditions were as follows: template DNA was denatured at 94°C for 2 min, and then amplified by 30 cycles at 94°C for 20 sec, 55°C for 10 sec, 72°C for 30 sec, and extended at 72°C for 5 min. Quantitative real-time PCR was performed in the 7300 Real-Time PCR system (Applied Biosystems, Massachusetts, USA) using SYBR Premix Ex Taq (Takara Bio Inc., Shiga, Japan). The relative expression ratios of target genes were calculated in comparison with a reference gene, <italic>ACTIN2</italic>, using the comparative C<sub>T</sub> method [<xref ref-type="bibr" rid="pone.0146826.ref021">21</xref>].</p>
+</sec>
+<sec id="sec006">
+<title>Measurement of chlorophyll and protein content</title>
+<p>Chlorophyll and protein were extracted from rosette leaves of WT and <italic>drd1-6</italic> mutant and quantified as described previously [<xref ref-type="bibr" rid="pone.0146826.ref022">22</xref>]. One hundred mg of leaf tissues were ground with liquid nitrogen, and then 1 ml 100% (v/v) acetone was added. After centrifugation at 10,000 x g for 10 min at 4<sup>°</sup>C, supernatants were harvested and their absorbance measured at two wavelengths: A645, and A662. The chlorophyll level was calculated as follows: C<sub>a+b</sub> = 18.09 x A645 + 7.05 x A662. Unit was converted from μg Chl/ml to μg Chl/g fresh weight. Total protein was extracted by grinding leaf tissues in protein extraction buffer (50 mM Tris, pH 8.0, 0.25 M sucrose, 2 mM DTT, 2 mM EDTA, 1 mM PMSF, and 1x Complete protease inhibitor cocktail [Roche, Mannheim, Germany]). The protein content was determined after centrifugation at 10,000 x g for 10 min at 4<sup>°</sup>C by the Bradford method [<xref ref-type="bibr" rid="pone.0146826.ref023">23</xref>].</p>
+</sec>
+<sec id="sec007">
+<title>Photosynthesis analysis</title>
+<p>For evaluation of photosynthetic activity, chlorophyll fluorescence was measured using the IMAGING-PAM chlorophyll fluorometer (WALZ, Effeltrich, Germany) as described previously [<xref ref-type="bibr" rid="pone.0146826.ref024">24</xref>]. The maximum photochemical efficiency (Fv/Fm) of PSII was deduced from chlorophyll fluorescence. The maximal electron transport rate (ETRmax) of WT and the <italic>drd1-6</italic> mutant was obtained from the relative ETR vs. photosynthetic photon flux density (PPFD) curve.</p>
+</sec>
+<sec id="sec008">
+<title>Blue-native PAGE and immunoblot analysis</title>
+<p>Blue-native PAGE were followed the experimental procedures as described previously [<xref ref-type="bibr" rid="pone.0146826.ref025">25</xref>] with some modifications. Thylakoid membranes were isolated from DIS-treated rosette leaves in WT and <italic>drd1-6</italic> mutant and solubilized with 1% (w/v) n-dodecyl-β-D-maltoside and loaded to 6 ~ 12% gradient gel. For immunoblot analysis, thylakoid membrane proteins were denatured with 100 mM Tris-HCl, pH6.8, containing 17% (v/v) glycerol, 3.5% (w/v) SDS, 6 M urea, and 10% (W/V) β-mercaptoethanol for 30 min at 70°C. They were separated via SDS-Urea PAGE (12% polyacrylamide) and were detected with rabbit antiserum raised against the DE loop (Residues 225 to 249) of the spinach D1 protein as described previously [<xref ref-type="bibr" rid="pone.0146826.ref026">26</xref>].</p>
+</sec>
+<sec id="sec009">
+<title>Affymetrix ATH1 Genome Array and data analysis</title>
+<p>Genome-wide gene expression analysis was conducted using the GeneChip® <italic>Arabidopsis</italic> ATH1 Genome Array (Affymetrix, Santa Clara, CA). All experimental procedures such as RNA preparation, RNA quality check, conversion of RNA into double-stranded cDNA, generation of biotin-labeled cRNA from the double-stranded cDNA, and hybridization of the biotin-labeled cRNA with the ATH1 Genome Array, were performed according to the instructions and recommendations provided by Affymetrix. Following the hybridization, the GeneChip arrays were scanned using a GeneChip® Scanner 3000 7G (Affymetrix, Santa Clara, CA) and the scanned data were analyzed for differentially expressed genes (DEG) of control vs. test samples via a DAVID program (<ext-link ext-link-type="uri" xlink:href="http://david.abcc.ncifcrf.gov/" xlink:type="simple">http://david.abcc.ncifcrf.gov/</ext-link>). Gene ontology analysis was performed using the DEGs with more than two-fold change between control and test samples from two independent experiments.</p>
+</sec>
+</sec>
+<sec id="sec010" sec-type="results">
+<title>Results</title>
+<sec id="sec011">
+<title>The <italic>drd1-6</italic> plant exhibits delayed leaf senescence</title>
+<p>We observed strong delay of age-dependent natural senescence and extended life span of whole plant in the <italic>drd1-6</italic> mutant. DRD1 is a representative member of SWI2/SNF2 subfamily and is required for either Pol V transcription or activation in RdDM pathway. To elucidate a relationship between senescence and SWI2/SNF2 chromatin remodelers in <italic>Arabidopsis</italic>, we analyzed the <italic>drd1-6</italic> mutant in this study. The <italic>drd1-6</italic> mutant had a nucleotide sequence substitution from G to A, which results in an amino acid substitution of the 756<sup>th</sup> tryptophan (W) to a stop codon in the helicase superfamily C-terminal (HELICc) domain (<xref ref-type="fig" rid="pone.0146826.g001">Fig 1</xref>). To study the effect of <italic>drd1-6</italic> mutation on leaf senescence, we first compared the phenotypes in mutant versus wild-type leaves. The 28-day-old WT and <italic>drd1-6</italic> plants have a similar phenotype as shown in <xref ref-type="fig" rid="pone.0146826.g002">Fig 2</xref>. However, we observed that flowering time was delayed by 3~8 days in <italic>drd1-6</italic> mutants compared to WT under our growth conditions. Although it was reported that flowering time was not affected by mutation of <italic>DRD1</italic> gene [<xref ref-type="bibr" rid="pone.0146826.ref027">27</xref>], it may be variable depending on growth conditions. In addition, while the 55-day-old WT leaves had turned completely yellow and showed signs of death, the <italic>drd1-6</italic> mutant leaves remained green, suggestive of a prolonged life span (<xref ref-type="fig" rid="pone.0146826.g002">Fig 2A</xref>). Generally, a prolonged observation is needed to follow the series of events in natural senescence, particularly because senescence-associated processes tend to become chaotic over time [<xref ref-type="bibr" rid="pone.0146826.ref020">20</xref>]. Therefore, in order to observe leaf senescence over a short period and to derive clear conclusions from these observations, we induced senescence in individually darkened leaves (IDLs). Rosette leaves of the 28-day-old WT and <italic>drd1-6</italic> were covered individually with foil for the dark treatment. WT leaves turned yellow after the 5-d treatment, but the <italic>drd1-6</italic> leaves maintained a constant green color (<xref ref-type="fig" rid="pone.0146826.g002">Fig 2B</xref>). To examine the effect of the <italic>drd1-6</italic> mutation in dark-induced senescence (DIS), the 28-day-old WT and the <italic>drd1-6</italic> rosette leaves were detached and incubated under dark conditions. After 5-d dark incubation, WT leaves had completely turned yellow and showed signs of death (<xref ref-type="fig" rid="pone.0146826.g002">Fig 2C</xref>). By contrast, the <italic>drd1-6</italic> leaves remained green until 7 days of DIS (<xref ref-type="supplementary-material" rid="pone.0146826.s001">S1 Fig</xref>). These data together support that the <italic>drd1-6</italic> mutant shows a delay not only in dark-induced leaf senescence, but also in natural senescence.</p>
+<fig id="pone.0146826.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0146826.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Delayed leaf senescence symptoms in the <italic>drd1-6</italic> mutant.</title>
+<p>(A) Phenotypes of 28-day-old and 55-day-old wild-type (WT) and <italic>drd1-6</italic> mutant whole plants. (B) Individually darkened leaf (IDL) senescence of WT (left) and <italic>drd1-6</italic> (right) plants. Rosette leaves of 28-day-old WT and <italic>drd1-6</italic> mutant (IDL 0 d) were induced to undergo senescence for 5 d under dark conditions (IDL 5 d). The red and blue arrows indicate 5 d IDL of WT and <italic>drd1-6</italic> plants, respectively. (C) Phenotypes of detached WT and <italic>drd1-6</italic> leaves after 5-d dark incubation. (D) Photochemical efficiency of photosystem II (Fv/Fm) and (E) maximal electron transport rate (ETRmax) in WT and the <italic>drd1-6</italic> leaves were examined at the indicated days during dark-induced senescence (DIS). Data represent average values ± SE (n = 27) of three independent experiments. * indicates <italic>P</italic> &lt; 0.01 by student’s t-test.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0146826.g002" xlink:type="simple"/>
+</fig>
+<p>To further characterize the delayed senescence of the <italic>drd1-6</italic> plants, various parameters of senescence were examined. Photosystem II (PSII) efficiency has been used to measure leaf senescence, since it declines rapidly during senescence, indicating a loss of photosynthetic capabilities and ultimately death of the leaves [<xref ref-type="bibr" rid="pone.0146826.ref028">28</xref>]. The maximum photochemical efficiency of photosystem II (variable fluorescence / maximal fluorescence, Fv/Fm = 0.815; 100%) was markedly reduced in the WT plants and slightly reduced in the <italic>drd1-6</italic> mutants (<xref ref-type="fig" rid="pone.0146826.g002">Fig 2D</xref>). Another parameter—maximal electron transfer rate (ETRmax)—can also be used to measure potential photosynthetic capacity. The WT plants showed a marked decrease in ETRmax during DIS, while the <italic>drd1-6</italic> mutants showed a significantly lower decrease (<xref ref-type="fig" rid="pone.0146826.g002">Fig 2E</xref>). These results indicate that the <italic>drd1-6</italic> mutant shows considerable delay in several of the parameters used to measure leaf senescence.</p>
+<p>Leaf senescence is affected by developmental age of plants [<xref ref-type="bibr" rid="pone.0146826.ref002">2</xref>]. Although we observed a strong phenotype of delayed senescence in the <italic>drd1-6</italic> mutant, such a phenotype might be attributed merely to a delay in plant development. To check this possibility, we compared DIS among the 28-day-old WT, 34, 36, and 38-day-old <italic>drd1-6</italic> plants at different developmental stages. All the <italic>drd1-6</italic> plants showed a much higher photochemical efficiency during DIS compared to the WT plants, supporting the delayed progress of leaf senescence (<xref ref-type="fig" rid="pone.0146826.g003">Fig 3</xref>). These results imply that the delayed leaf senescence in the <italic>drd1-6</italic> mutant cannot be attributed merely to a developmental difference between the WT and the <italic>drd1-6</italic> mutant. Accordingly, it is suggested that a mutation in DRD1 can modulate leaf senescence itself as well as plant development.</p>
+<fig id="pone.0146826.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0146826.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Delayed leaf senescence symptoms in the <italic>drd1-6</italic> mutant at later developmental stages.</title>
+<p>Rosette leaves of 28-day-old WT and the 34, 36, and 38-day-old <italic>drd1-6</italic> mutants were detached and darkened for 0, 3, 5 days. Photochemical efficiency of photosystem II (Fv/Fm) in WT and mutant leaves was examined at the indicated days. Data represent average values ± SE (n = 20) of independent experiments. Bars with the same letter are not significantly different at <italic>P</italic> &lt; 0.05 by Tukey’s honestly significant difference (HSD) test.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0146826.g003" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec012">
+<title>The breakdown of photosynthetic pigments and proteins was delayed in the <italic>drd1-6</italic> mutant</title>
+<p>As shown above, the <italic>drd1-6</italic> mutant exhibited delayed leaf senescence in terms of photosynthetic parameters, Fv/Fm and ETRmax. Therefore, we measured the chlorophyll and protein contents which are closely related to the photosynthetic abilities. The chlorophyll content was decreased up to 11.8% in the WT, but it was retained at a level of 24.4% in the <italic>drd1-6</italic> mutant after 7-d dark incubation (<xref ref-type="fig" rid="pone.0146826.g004">Fig 4A</xref>). Moreover, the protein contents of WT and <italic>drd1-6</italic> rosette leaves were differentially decreased up to 30.9% and 46.1%, respectively (<xref ref-type="fig" rid="pone.0146826.g004">Fig 4B</xref> and <xref ref-type="supplementary-material" rid="pone.0146826.s002">S2 Fig</xref>). When the progress of leaf senescence was assessed using chlorophyll and protein levels, the <italic>drd1-6</italic> mutant exhibited substantial delay in leaf senescence.</p>
+<fig id="pone.0146826.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0146826.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Effects on chlorophyll and protein degradation in the <italic>drd1-6</italic> plants during DIS.</title>
+<p>(A) Chlorophyll content was measured using rosette leaves after 0d, 3 d, 5 d, and 7 d of DIS, as indicated. (B) Protein contents from the WT and the <italic>drd1-6</italic> mutant leaves before (0 d) and after 3 d, 5 d, and 7 d of DIS. (C) Blue-Native Polyacrylamide Gel-Electrophoresis (BN-PAGE) of thylakoid protein complexes. Dodecylmaltoside-solubilized thylakoid membrane proteins corresponding to equal amounts of fresh weight were subjected to BN-PAGE. (D) Immunoblot analysis of thylakoid protein complexes. Thylakoid membranes were solubilized and subjected 15 μg of protein per well to SDS-PAGE. The band indicated by the arrow head was identified by LC MS/MS (see <xref ref-type="supplementary-material" rid="pone.0146826.s005">S2 Table</xref>). (E) D1 protein was identified by immunoblot analysis using anti-D1 antiserum.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0146826.g004" xlink:type="simple"/>
+</fig>
+<p>Disintegration of chloroplasts is the primary symptom of leaf senescence [<xref ref-type="bibr" rid="pone.0146826.ref002">2</xref>]. In the thylakoid membranes, chlorophylls are tightly bound to light-harvesting complexes (LHC) in photosystems [<xref ref-type="bibr" rid="pone.0146826.ref029">29</xref>]. To analyze the stability of photosystem sub-complexes during leaf senescence in detail, we isolated thylakoid membranes from the WT and the <italic>drd1-6</italic> leaves at 0, 3, 5, and 7-d of DIS, and then solubilized them with a mild detergent, 1% (w/v) n-dodecyl-β-D-maltoside. Blue-Native Polyacrylamide Gel-Electrophoresis (BN-PAGE) of the thylakoid membrane proteins showed increased degradation of chlorophyll-protein (CP) complexes in the WT from 3 d of DIS (<xref ref-type="fig" rid="pone.0146826.g004">Fig 4C</xref>). CP complexes were initially degraded in the order of PSII dimer to PSII monomer or LHCII trimer to LHCII monomer. Almost all the complexes were degraded at 7 d of DIS in the WT. On the other hand, the CP complexes of the <italic>drd1-6</italic> leaves were much less affected during the same period of DIS. Degradation of the CP complexes by DIS was delayed by approximately 2 days in the <italic>drd1-6</italic> mutant compared to the WT.</p>
+<p>For further identification of the thylakoid membrane proteins primarily degraded during DIS, the solubilized thylakoid membranes were also subjected to electrophoresis on a denaturing gel. Some proteins corresponding to approximately 20~35 kDa were gradually degraded during DIS with degradation rates that were much higher in the WT than in <italic>drd1-6</italic> mutants (<xref ref-type="fig" rid="pone.0146826.g004">Fig 4D</xref>). We analyzed the band using liquid chromatography-coupled electrospray ionization MS/MS (LC MS/MS). We found that the band included PSII protein D1 and D2, cytochrome f, oxygen-evolving enhancer protein 1–2, chlorophyll a-b-binding protein CP26 and CP29.2, etc. (<xref ref-type="supplementary-material" rid="pone.0146826.s005">S2 Table</xref>). Immunoblot analysis revealed that D1 protein, which is approximately 32 kDa and essential for photosynthetic activity as a core component of PSII, was retained tolerably at 7 d of DIS in the <italic>drd1-6</italic> mutants (<xref ref-type="fig" rid="pone.0146826.g004">Fig 4E</xref>). By contrast, this protein was degraded earlier in the WT plants.</p>
+</sec>
+<sec id="sec013">
+<title>The <italic>DRD1</italic> mutation causes repression of senescence-associated gene expression during DIS</title>
+<p>Leaf senescence is accompanied by increased expression of senescence-associated genes (<italic>SAGs</italic>) [<xref ref-type="bibr" rid="pone.0146826.ref006">6</xref>] and decreased expression of related photosynthesis genes and protein synthesis genes (<italic>PAGs</italic>) [<xref ref-type="bibr" rid="pone.0146826.ref030">30</xref>]. To characterize the delay in leaf senescence of the <italic>drd1-6</italic> mutant, we analyzed the expression of various senescence-related genes by RT-PCR and qRT-PCR (<xref ref-type="fig" rid="pone.0146826.g005">Fig 5A and 5B</xref>). The expression of <italic>SAG12</italic>, a senescence-associated cysteine protease gene in <italic>Arabidopsis</italic>, was strongly enhanced in WT plants at 5 d of DIS but not significantly induced in the <italic>drd1-6</italic> mutants (<xref ref-type="fig" rid="pone.0146826.g005">Fig 5</xref>). Chlorophyll degradation is a key step in senescence, and a number of genes involved are under tight transcriptional control [<xref ref-type="bibr" rid="pone.0146826.ref031">31</xref>]. Chlorophyll degradation-related genes such as <italic>CBR</italic> (chlorophyll b reductase) and <italic>PAO</italic> (pheophorbide α oxygenase) also had higher expression levels in WT plants than in the <italic>drd1-6</italic> mutants during DIS (<xref ref-type="fig" rid="pone.0146826.g005">Fig 5</xref>), and this could be accountable for the differential chlorophyll contents as shown in <xref ref-type="fig" rid="pone.0146826.g004">Fig 4A</xref>. Chlorophyll was retained in the <italic>drd1-6</italic> mutants despite the induction of the chlorophyll degradation pathway. In contrast, the expression level of the <italic>ANS</italic> gene, which encodes an enzyme for anthocyanidin synthesis [<xref ref-type="bibr" rid="pone.0146826.ref032">32</xref>], increased in WT during DIS but decreased in the <italic>drd1-6</italic> mutant (<xref ref-type="fig" rid="pone.0146826.g005">Fig 5</xref>). Expression patterns of these genes obtained by RT-PCR were similar to those obtained by qRT-PCR. In senescing leaves, anthocyanins accumulate prior to chlorophyll breakdown and play a photoprotective role against the development of leaf senescence [<xref ref-type="bibr" rid="pone.0146826.ref033">33</xref>]. Together, these results imply that specific changes in genes that control chlorophyll and anthocyanin metabolism contribute to the green phenotype of the <italic>drd1-6</italic> mutants during DIS.</p>
+<fig id="pone.0146826.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0146826.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>Expression of senescence-associated genes in the <italic>drd1-6</italic> mutant during DIS.</title>
+<p>(A) RT-PCR and (B) Quantitative real-time PCR (qRT-PCR) analysis of gene expression in WT and the <italic>drd1-6</italic> mutant leaves at the indicated days. <italic>SAG12</italic>, senescence-associated gene 12; <italic>ANS</italic>, antocyanidin synthase gene; <italic>CBR</italic>, chlorophyll b reductase gene; and <italic>PAO</italic>, pheophorbide α oxygenase gene. The values are normalized to <italic>ACTIN2</italic> expression. Data indicate the mean ± SD (n = 9) of three independent experiments.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0146826.g005" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec014">
+<title>Comparison of genome-wide transcriptomes in WT and <italic>drd1-6</italic> plants during DIS</title>
+<p>To reveal differences in gene expression and signaling pathways between WT and <italic>drd1-6</italic> mutant plants during DIS, we compared genome-wide transcriptomes by using the Affymetrix ATH1 Genome Array. The numbers of differentially expressed genes (DEGs) between the WT and the <italic>drd1-6</italic> mutants steeply increased at 5 d of DIS (<xref ref-type="fig" rid="pone.0146826.g006">Fig 6A</xref>). As shown in <xref ref-type="fig" rid="pone.0146826.g006">Fig 6B</xref>, 5384 genes were upregulated and 2486 genes were downregulated in WT during 5-d DIS, whereas 2668 and 1916 genes were upregulated or downregulated in the <italic>drd1-6</italic> mutants. During DIS, the expression of a higher number of genes changes in the WT than in the <italic>drd1-6</italic> mutants. We identified that 648 and 2,144 genes were upregulated or downregulated in the <italic>drd1-6</italic> mutant relative to WT at 5 d of DIS (<xref ref-type="fig" rid="pone.0146826.g006">Fig 6A</xref>). Moreover, gene ontology (GO) analysis of the DEGs showed changes in the primary transcriptome of induced or repressed genes, which were selected for the top 5 significance values based on P values in each GO category at 5-d DIS (<xref ref-type="table" rid="pone.0146826.t001">Table 1</xref>). In the biological process of GO category, the top 5 significance values among the induced genes were most related to photosynthesis. In contrast, the repressed genes were those associated with protein transport, protein localization, vesicle-mediated transport, and autophagy. These results indicate that photosynthetic activity was rapidly reduced in WT. Accordingly, the common 2792 DEGs at 5-d DIS from 2 independent genechip analyses were further analyzed using photosynthesis-related keywords such as chlorophyll, chloroplast, photosystem, or photomorphogenesis. As expected from <xref ref-type="fig" rid="pone.0146826.g004">Fig 4</xref>, gene expression levels of many thylakoid structural components constituting photosystems were considerably maintained in the <italic>drd1-6</italic> mutant until 5 d of DIS, whereas those of some proteases were repressed (<xref ref-type="table" rid="pone.0146826.t002">Table 2</xref>).</p>
+<fig id="pone.0146826.g006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0146826.g006</object-id>
+<label>Fig 6</label>
+<caption>
+<title>Transcript level changes in rosette leaves during DIS.</title>
+<p>(A) Microarray analysis represents that the numbers of genes show two- (black), three- (gray), or fourfold (white) up- (upper) or down-(lower) regulation in expression of 0 d, 3 d, and 5 d DIS <italic>drd1-6</italic> mutant compared to WT. (B) The number of genes with two-, three-, or fourfold increase or decrease in gene expression during 3 d and 5 d DIS compared to control (0 d) in the WT and the <italic>drd1-6</italic> mutant are represented by black, gray, and white bars, respectively. Data represent the means of two independent Affymetrix Gene Chip analyses. FD, fold difference.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0146826.g006" xlink:type="simple"/>
+</fig>
+<table-wrap id="pone.0146826.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0146826.t001</object-id>
+<label>Table 1</label> <caption><title>Gene ontology analysis of differentially expressed genes (DEGs) between the WT and the <italic>drd1-6</italic> after 5-d DIS.</title></caption>
+<alternatives>
+<graphic id="pone.0146826.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0146826.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="justify">GOC</th>
+<th align="justify">GO_ID</th>
+<th align="justify">GO term</th>
+<th align="justify">C</th>
+<th align="justify"><italic>P</italic> value</th>
+<th align="justify">k</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="justify" colspan="2"><italic>Induced genes</italic></td>
+<td align="justify"/>
+<td align="justify"/>
+<td align="justify"/>
+<td align="justify"/>
+</tr>
+<tr>
+<td align="justify">BP</td>
+<td align="justify">0015979</td>
+<td align="justify">photosynthesis</td>
+<td align="justify">175/13998 (1.25)</td>
+<td align="justify">7.43e-20</td>
+<td align="justify">37/648 (5.71)</td>
+</tr>
+<tr>
+<td align="justify"/>
+<td align="justify">0006412</td>
+<td align="justify">translation</td>
+<td align="justify">1231/13998 (8.79)</td>
+<td align="justify">3.19e-16</td>
+<td align="justify">94/648 (14.51)</td>
+</tr>
+<tr>
+<td align="justify"/>
+<td align="justify">0019684</td>
+<td align="justify">photosynthesis, light reaction</td>
+<td align="justify">85/13998 (0.61)</td>
+<td align="justify">1.03e-11</td>
+<td align="justify">20/648 (3.09)</td>
+</tr>
+<tr>
+<td align="justify"/>
+<td align="justify">0009765</td>
+<td align="justify">photosynthesis, light harvesting</td>
+<td align="justify">32/13998 (0.23)</td>
+<td align="justify">1.69e-09</td>
+<td align="justify">12/648 (1.85)</td>
+</tr>
+<tr>
+<td align="justify"/>
+<td align="justify">0044271</td>
+<td align="justify">nitrogen compound biosynthetic process</td>
+<td align="justify">506/13998 (3.61)</td>
+<td align="justify">3.43e-06</td>
+<td align="justify">37/648 (5.71)</td>
+</tr>
+<tr>
+<td align="justify">CC</td>
+<td align="justify">0005840</td>
+<td align="justify">ribosome</td>
+<td align="justify">470/13779 (3.41)</td>
+<td align="justify">2.32e-54</td>
+<td align="justify">101/648 (15.59)</td>
+</tr>
+<tr>
+<td align="justify"/>
+<td align="justify">0030529</td>
+<td align="justify">ribonucleoprotein complex</td>
+<td align="justify">671/13779 (4.87)</td>
+<td align="justify">1.07e-50</td>
+<td align="justify">114/648 (17.59)</td>
+</tr>
+<tr>
+<td align="justify"/>
+<td align="justify">0043228</td>
+<td align="justify">non-membrane-bounded organelle</td>
+<td align="justify">1144/13779 (8.30)</td>
+<td align="justify">1.29e-48</td>
+<td align="justify">144/648 (22.22)</td>
+</tr>
+<tr>
+<td align="justify"/>
+<td align="justify">0043232</td>
+<td align="justify">intracellular non-membrane-bounded organelle</td>
+<td align="justify">1144/13779 (8.30)</td>
+<td align="justify">1.29e-48</td>
+<td align="justify">144/648 (22.22)</td>
+</tr>
+<tr>
+<td align="justify"/>
+<td align="justify">0022626</td>
+<td align="justify">cytosolic ribosome</td>
+<td align="justify">317/13779 (2.30)</td>
+<td align="justify">6.13e-15</td>
+<td align="justify">77/648 (11.88)</td>
+</tr>
+<tr>
+<td align="justify">MF</td>
+<td align="justify">0003735</td>
+<td align="justify">structural constituent of ribosome</td>
+<td align="left">394/14806 (2.66)</td>
+<td align="justify">2.46e-54</td>
+<td align="justify">90/648 (13.89)</td>
+</tr>
+<tr>
+<td align="justify"/>
+<td align="justify">0005198</td>
+<td align="justify">structural molecule activity</td>
+<td align="left">583/14806 (3.63)</td>
+<td align="justify">4.27e-47</td>
+<td align="justify">95/648 (14.66)</td>
+</tr>
+<tr>
+<td align="justify"/>
+<td align="justify">0019843</td>
+<td align="justify">rRNA binding</td>
+<td align="left">76/14806 (0.51)</td>
+<td align="justify">4.47e-20</td>
+<td align="justify">26/648 (4.01)</td>
+</tr>
+<tr>
+<td align="justify"/>
+<td align="justify">0008266</td>
+<td align="justify">poly(U) RNA binding</td>
+<td align="left">20/14806 (0.14)</td>
+<td align="justify">9.87e-07</td>
+<td align="justify">8/648 (1.23)</td>
+</tr>
+<tr>
+<td align="justify"/>
+<td align="justify">0008187</td>
+<td align="justify">poly-pyrimidine tract binding</td>
+<td align="left">20/14806 (0.14)</td>
+<td align="justify">9.87e-07</td>
+<td align="justify">8/648 (1.23)</td>
+</tr>
+<tr>
+<td align="justify" colspan="2"><italic>Repressed genes</italic></td>
+<td align="justify"/>
+<td align="justify"/>
+<td align="justify"/>
+<td align="justify"/>
+</tr>
+<tr>
+<td align="justify">BP</td>
+<td align="justify">0015031</td>
+<td align="justify">protein transport</td>
+<td align="justify">488/13998 (3.49)</td>
+<td align="justify">5.70e-15</td>
+<td align="justify">96/2144 (4.48)</td>
+</tr>
+<tr>
+<td align="justify"/>
+<td align="justify">0045184</td>
+<td align="justify">establishment of protein localization</td>
+<td align="justify">488/13998 (3.49)</td>
+<td align="justify">5.70e-15</td>
+<td align="justify">96/2144 (4.48)</td>
+</tr>
+<tr>
+<td align="justify"/>
+<td align="justify">0008104</td>
+<td align="justify">protein localization</td>
+<td align="justify">505/13998 (3.61)</td>
+<td align="justify">5.18e-14</td>
+<td align="justify">96/2144 (4.48)</td>
+</tr>
+<tr>
+<td align="justify"/>
+<td align="justify">0016192</td>
+<td align="justify">vesicle-mediated transport</td>
+<td align="justify">290/13998 (2.07)</td>
+<td align="justify">1.83e-12</td>
+<td align="justify">64/2144 (2.99)</td>
+</tr>
+<tr>
+<td align="justify"/>
+<td align="justify">0006914</td>
+<td align="justify">autophagy</td>
+<td align="justify">21/13998 (0.15)</td>
+<td align="justify">2.52e-12</td>
+<td align="justify">16/2144 (0.75)</td>
+</tr>
+<tr>
+<td align="justify">CC</td>
+<td align="justify">0042579</td>
+<td align="justify">microbody</td>
+<td align="justify">177/13779 (1.28)</td>
+<td align="justify">2.31e-10</td>
+<td align="justify">43/2144 (2.01)</td>
+</tr>
+<tr>
+<td align="justify"/>
+<td align="justify">0005777</td>
+<td align="justify">peroxisome</td>
+<td align="justify">177/13779 (1.28)</td>
+<td align="justify">2.31e-10</td>
+<td align="justify">43/2144 (2.01)</td>
+</tr>
+<tr>
+<td align="justify"/>
+<td align="justify">0005788</td>
+<td align="justify">endoplasmic reticulum lumen</td>
+<td align="justify">23/13779 (0.17)</td>
+<td align="justify">5.79e-06</td>
+<td align="justify">11/2144 (0.51)</td>
+</tr>
+<tr>
+<td align="justify"/>
+<td align="justify">0044432</td>
+<td align="justify">endoplasmic reticulum part</td>
+<td align="justify">92/13779 (0.67)</td>
+<td align="justify">1.38e-05</td>
+<td align="justify">22/2144 (1.03)</td>
+</tr>
+<tr>
+<td align="justify"/>
+<td align="justify">0031224</td>
+<td align="justify">intrinsic to membrane</td>
+<td align="justify">2658/13779 (19.29)</td>
+<td align="justify">8.90e-05</td>
+<td align="justify">269/2144 (12.55)</td>
+</tr>
+<tr>
+<td align="justify">MF</td>
+<td align="justify">0016791</td>
+<td align="justify">phosphatase activity</td>
+<td align="justify">308/14806 (2.08)</td>
+<td align="justify">3.75e-05</td>
+<td align="justify">50/2144 (2.33)</td>
+</tr>
+<tr>
+<td align="justify"/>
+<td align="justify">0016701</td>
+<td align="justify">oxidoreductase activity</td>
+<td align="justify">72/14806 (0.49)</td>
+<td align="justify">1.38e-04</td>
+<td align="justify">18/2144 (0.84)</td>
+</tr>
+<tr>
+<td align="justify"/>
+<td align="justify">0005509</td>
+<td align="justify">calcium ion binding</td>
+<td align="justify">405/14806 (2.74)</td>
+<td align="justify">1.64e-04</td>
+<td align="justify">59/2144 (2.75)</td>
+</tr>
+<tr>
+<td align="justify"/>
+<td align="justify">0008092</td>
+<td align="justify">cytoskeletal protein binding</td>
+<td align="justify">112/14806 (0.76)</td>
+<td align="justify">2.83e-04</td>
+<td align="justify">23/2144 (1.07)</td>
+</tr>
+<tr>
+<td align="justify"/>
+<td align="justify">0004721</td>
+<td align="justify">phosphoprotein phosphatase activity</td>
+<td align="justify">206/14806 (1.39)</td>
+<td align="justify">5.82e-04</td>
+<td align="justify">34/2144 (1.59)</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>The DEGs were selected to have more than a twofold difference in the <italic>drd1-6</italic> relative to the WT. The 2792 DEGs commonly selected from two independent genechip analyses were used for gene ontology analysis. GOC, BP, CC and MF represent the GO category, biological process, cellular component, and molecular function. GO terms in the table were selected for the top five significances based on <italic>P</italic> values in each GO category. C, the total frequency of a given GO term in all annotations in the <italic>Arabidopsis</italic> genome; k, cluster frequency of a given GO term in the differentially expressed genes selected. Numbers in parentheses are percentages.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<table-wrap id="pone.0146826.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0146826.t002</object-id>
+<label>Table 2</label> <caption><title>Gene lists closely associated with the phenotypic differences between the WT and the <italic>drd1-6</italic> by DIS.</title></caption>
+<alternatives>
+<graphic id="pone.0146826.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0146826.t002" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="justify">ID</th>
+<th align="justify">FD</th>
+<th align="justify">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="justify" colspan="3"><italic>Induced genes</italic></td>
+</tr>
+<tr>
+<td align="justify">At5g54270</td>
+<td align="justify">10.7739395</td>
+<td align="justify">Lhcb3 chlorophyll a/b binding protein</td>
+</tr>
+<tr>
+<td align="justify">At2g05070</td>
+<td align="justify">7.02751945</td>
+<td align="justify">putative chlorophyll a/b binding protein</td>
+</tr>
+<tr>
+<td align="justify">At3g08940</td>
+<td align="justify">6.8425835</td>
+<td align="justify">putative chlorophyll a/b-binding protein similar to CP29</td>
+</tr>
+<tr>
+<td align="justify">At4g05180</td>
+<td align="justify">6.22219935</td>
+<td align="justify">photosystem II oxygen-evolving enhancer protein 3 precursor—like protein</td>
+</tr>
+<tr>
+<td align="justify">At1g31330</td>
+<td align="justify">5.864707</td>
+<td align="justify">photosystem I subunit III precursor</td>
+</tr>
+<tr>
+<td align="justify">At4g10340</td>
+<td align="justify">5.7859877</td>
+<td align="justify">chlorophyll a/b-binding protein similar to CP26</td>
+</tr>
+<tr>
+<td align="justify">At3g18490</td>
+<td align="justify">5.63445015</td>
+<td align="justify">putative chloroplast nucleoid DNA-binding protein</td>
+</tr>
+<tr>
+<td align="justify">At1g15820</td>
+<td align="justify">5.586536</td>
+<td align="justify">chlorophyll binding protein</td>
+</tr>
+<tr>
+<td align="justify">At4g02770</td>
+<td align="justify">5.09564285</td>
+<td align="justify">putative photosystem I reaction center subunit II precursor similar to PSI-D</td>
+</tr>
+<tr>
+<td align="justify">At1g74470</td>
+<td align="justify">4.7775743</td>
+<td align="justify">geranylgeranyl reductase involving in chlorophyll pathway</td>
+</tr>
+<tr>
+<td align="justify">At1g55670</td>
+<td align="justify">4.4582806</td>
+<td align="justify">photosystem I subunit V precursor</td>
+</tr>
+<tr>
+<td align="justify">At3g47470</td>
+<td align="justify">4.1839614</td>
+<td align="justify">chlorophyll a-b binding protein 4 precursor homolog</td>
+</tr>
+<tr>
+<td align="justify">At1g67740</td>
+<td align="justify">3.9063101</td>
+<td align="justify">putative photosystem II core complex</td>
+</tr>
+<tr>
+<td align="justify">At2g34430</td>
+<td align="justify">3.6510979</td>
+<td align="justify">putative photosystem II type I chlorophyll a b binding protein</td>
+</tr>
+<tr>
+<td align="justify">At3g51820</td>
+<td align="justify">3.5500011</td>
+<td align="justify">chlorophyll synthetase</td>
+</tr>
+<tr>
+<td align="justify">At1g35680</td>
+<td align="justify">3.50588475</td>
+<td align="justify">chloroplast 50S ribosomal protein L21 precursor</td>
+</tr>
+<tr>
+<td align="justify">At5g35630</td>
+<td align="justify">3.3689262</td>
+<td align="justify">chloroplast glutamate-ammonia ligase precursor</td>
+</tr>
+<tr>
+<td align="justify">At3g54890</td>
+<td align="justify">3.2839881</td>
+<td align="justify">chlorophyll a/b-binding protein</td>
+</tr>
+<tr>
+<td align="justify">At3g16140</td>
+<td align="justify">3.23015765</td>
+<td align="justify">photosystem I subunit VI precursor</td>
+</tr>
+<tr>
+<td align="justify">At4g18480</td>
+<td align="justify">3.18219105</td>
+<td align="justify">chloroplast protein ch-42 precursor</td>
+</tr>
+<tr>
+<td align="justify">At3g50820</td>
+<td align="justify">3.03489055</td>
+<td align="justify">putative protein 1 photosystem II oxygen-evolving complex</td>
+</tr>
+<tr>
+<td align="justify">At1g52230</td>
+<td align="justify">2.94588435</td>
+<td align="justify">photosystem I subunit VI precursor</td>
+</tr>
+<tr>
+<td align="justify">At4g27440</td>
+<td align="justify">2.84899315</td>
+<td align="justify">protochlorophyllide reductase precursor</td>
+</tr>
+<tr>
+<td align="justify">At1g03130</td>
+<td align="justify">2.7013172</td>
+<td align="justify">putative photosystem I reaction center subunit II precursor</td>
+</tr>
+<tr>
+<td align="justify">At3g15000</td>
+<td align="justify">2.6441301</td>
+<td align="justify">unknown protein similar to DAG protein required for chloroplast differentiation</td>
+</tr>
+<tr>
+<td align="justify">At1g34000</td>
+<td align="justify">2.60216525</td>
+<td align="justify">hypothetical protein contains similarity to photosystem II 22 kDa protein</td>
+</tr>
+<tr>
+<td align="justify">At1g61520</td>
+<td align="justify">2.46207155</td>
+<td align="justify">PSI type III chlorophyll a/b-binding protein</td>
+</tr>
+<tr>
+<td align="justify">At4g21280</td>
+<td align="justify">2.3480178</td>
+<td align="justify">photosystem II oxygen-evolving complex protein 3</td>
+</tr>
+<tr>
+<td align="justify">At2g24090</td>
+<td align="justify">2.2699696</td>
+<td align="justify">putative chloroplast ribosomal protein L35</td>
+</tr>
+<tr>
+<td align="justify">At5g09420</td>
+<td align="justify">2.1607257</td>
+<td align="justify">putative subunit of TOC complex chloroplast gene Toc64</td>
+</tr>
+<tr>
+<td align="justify">At3g25920</td>
+<td align="justify">2.09885045</td>
+<td align="justify">chloroplast 50S ribosomal protein L15 precursor</td>
+</tr>
+<tr>
+<td align="justify" colspan="3"><italic>Repressed genes</italic></td>
+</tr>
+<tr>
+<td align="justify">At4g11110</td>
+<td align="justify">0.45944909</td>
+<td align="justify">photomorphogenesis repressor COP1 like protein</td>
+</tr>
+<tr>
+<td align="justify">At5g20300</td>
+<td align="justify">0.39383131</td>
+<td align="justify">putative protein chloroplast outer envelope protein OEP86 precursor</td>
+</tr>
+<tr>
+<td align="justify">At1g06870</td>
+<td align="justify">0.37378715</td>
+<td align="justify">chloroplast thylakoidal processing peptidase</td>
+</tr>
+<tr>
+<td align="justify">At4g12060</td>
+<td align="justify">0.36089346</td>
+<td align="justify">putative nuclear gene encoding chloroplast protein CLPC</td>
+</tr>
+<tr>
+<td align="justify">At4g03320</td>
+<td align="justify">0.31882931</td>
+<td align="justify">putative chloroplast protein import component similar to Tic20</td>
+</tr>
+<tr>
+<td align="justify">At3g59080</td>
+<td align="justify">0.300814865</td>
+<td align="justify">putative chloroplast nucleoid DNA binding protein CND41</td>
+</tr>
+<tr>
+<td align="justify">At5g52250</td>
+<td align="justify">0.273200955</td>
+<td align="justify">putative protein similar to photomorphogenesis repressor COP1</td>
+</tr>
+<tr>
+<td align="justify">At2g17760</td>
+<td align="justify">0.21195865</td>
+<td align="justify">putative chloroplast nucleoid DNA-binding protein similar to peptidase family A1</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p>The lists were sorted out from the common 2792 DEGs of two independent genechip analyses by applying keywords as follows: chlorophyll, chloroplast, photosystem, or photomorphogenesis. FD, an average of fold difference for each gene between the WT and the <italic>drd1-6</italic> after 5-d DIS.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec015">
+<title>Difference in the epigenetic regulation of senescence between WT and <italic>drd1-6</italic> mutant plants</title>
+<p>DRD1 is known to participate in RNA-directed DNA methylation [<xref ref-type="bibr" rid="pone.0146826.ref015">15</xref>]. Therefore, to account for the delayed senescence of the <italic>drd1-6</italic> mutant, we compared changes in the epigenetic regulation during DIS between the WT and the <italic>drd1-6</italic> mutant plants via quantitative gene expression analysis of 180-bp centromeric (<italic>CEN</italic>) repeats and pericentromeric repeats termed <italic>TSI</italic> (transcriptionally silent information). The expression levels of <italic>CEN</italic> and <italic>TSI</italic> repeats significantly increased in both the WT and the <italic>drd1-6</italic> mutants during DIS; however, these increases were slower and lesser in the <italic>drd1-6</italic> mutant than in the WT plant (<xref ref-type="fig" rid="pone.0146826.g007">Fig 7A and 7B</xref>; <xref ref-type="supplementary-material" rid="pone.0146826.s003">S3 Fig</xref>). This result suggests that transcriptional gene silencing of <italic>CEN</italic> and <italic>TSI</italic> repeats, which is mediated by DNA methylation, should be released during DIS and this release be slower in the <italic>drd1-6</italic> mutant than in the WT. Moreover, the expression of histone methyltransferase or acetyltransferase genes, such as <italic>SDG8</italic>, <italic>SDG27</italic>, or <italic>HAC1</italic>, exhibited slightly delayed induction with DIS in the <italic>drd1-6</italic> mutant compared to WT, albeit to different degrees (<xref ref-type="fig" rid="pone.0146826.g007">Fig 7C</xref>).</p>
+<fig id="pone.0146826.g007" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0146826.g007</object-id>
+<label>Fig 7</label>
+<caption>
+<title>Expression of transcriptional gene silencing markers and histone methyltransferase/acetyltransferase genes in the <italic>drd1-6</italic> mutant.</title>
+<p>(A) Expression analysis using transcriptional gene silencing markers 180-bp centromeric repeats (<italic>CEN</italic>) and (B) transcriptionally silent information (<italic>TSI</italic>) of WT and the <italic>drd1-6</italic> mutant during DIS. Relative RNA levels were measured by qRT-PCR and the values are normalized to <italic>ACTIN2</italic> expression. Data indicate the mean ± SD (n = 9) from three independent experiments. Bars with the same letter are not significantly different at <italic>P</italic> &lt; 0.05 by Tukey’s honestly significant difference (HSD) test. (C) RT-PCR analysis in the WT and the <italic>drd1-6</italic> mutant leaves at the indicated days. <italic>SDG8</italic>, set domain group 8; <italic>SDG27</italic>, set domain protein 27; and <italic>HAC1</italic>: histone acetyltransferase of the CBP family 1. <italic>ACTIN2</italic> was used as control. Representative data from three or more independent experiments with similar results are shown.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0146826.g007" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec016">
+<title>Delayed leaf senescence is shown in <italic>ddm1-2</italic> mutant as well as <italic>drd1-6</italic> mutant</title>
+<p>To support the involvement of DRD1 in leaf senescence, we later obtained another mutant allele of <italic>DRD1</italic>, <italic>drd1-p</italic>, and identified it as a knockdown mutant (<xref ref-type="fig" rid="pone.0146826.g001">Fig 1</xref>). When the rosette leaves of the 28-day-old WT, <italic>drd1-6</italic>, and <italic>drd1-p</italic> mutant plants were detached and incubated under darkness for 5 days, the <italic>DRD1</italic> knockdown mutant, <italic>drd1-p</italic>, did not exhibit a noticeable phenotype of delayed senescence compared to WT (<xref ref-type="fig" rid="pone.0146826.g008">Fig 8</xref>). In addition, we observed no difference between the WT and <italic>drd1-p</italic> mutant in vegetative development and flowering time. Although the expression of <italic>DRD1</italic> gene was downregulated in the <italic>drd1-p</italic> mutant, the putative role of DRD1 in regulation of leaf senescence as well as development seems to be not affected in this mutant. Some DRD1 proteins might be produced enough to regulate leaf senescence in the <italic>drd1-p</italic> mutant. Therefore, we hypothesized that the helicase superfamily C-terminal (HELICc) domain of SWI2/SNF2 chromatin remodelers is important for regulation of leaf senescence. To test this hypothesis, we investigated DIS in another mutant, <italic>ddm1-2</italic>, which has a mutation in the helicase domain of DDM1, a SWI2/SNF2-like chromatin remodeling protein like DRD1. The substitution of G to A in the <italic>ddm1-2</italic> mutant is predicted to disrupt the HELICc domain because of premature translation termination (<xref ref-type="fig" rid="pone.0146826.g001">Fig 1</xref>). Interestingly, the <italic>ddm1-2</italic> mutant leaves stayed green and maintained structural integrity for a longer period than the wild-type leaves did during DIS (<xref ref-type="fig" rid="pone.0146826.g008">Fig 8A</xref>). Similar to the <italic>drd1-6</italic> mutant, this mutant also exhibited delayed leaf senescence in terms of the photochemical efficiency, Fv/Fm. The photochemical efficiency dropped to 61.7% or 89.9% of the control in the wild-type or the <italic>ddm1-2</italic> leaves at 3-d of DIS and then to 11.0% or 40.6% at 5-d of DIS, respectively (<xref ref-type="fig" rid="pone.0146826.g008">Fig 8B</xref>). These data suggest that both DRD1 and DDM1 may influence leaf senescence, and that the helicase domain of these SWI2/SNF2-like chromatin remodeling proteins might be important for regulation of leaf senescence.</p>
+<fig id="pone.0146826.g008" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0146826.g008</object-id>
+<label>Fig 8</label>
+<caption>
+<title>Delayed leaf senescence symptoms in the <italic>ddm1-2</italic> as well as in the <italic>drd1-6</italic> mutant.</title>
+<p>(A) Phenotypes of detached WT, <italic>drd1-6</italic>, <italic>drd1-p</italic> and <italic>ddm1-2</italic> leaves after 0, 3, and 5-d dark incubation. (B) Photochemical efficiency of photosystem II (Fv/Fm) in WT and mutant leaves in (A). Data represent average values ± SE (n = 27) of three independent experiments. Bars with the same letter are not significantly different at <italic>P</italic> &lt; 0.05 by Tukey’s honestly significant difference (HSD) test.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0146826.g008" xlink:type="simple"/>
+</fig>
+</sec>
+</sec>
+<sec id="sec017" sec-type="conclusions">
+<title>Discussion</title>
+<p>Leaf senescence is a complex process in which the effects of diverse factors are integrated into complicated genetic regulatory networks involving extensive transcriptional control [<xref ref-type="bibr" rid="pone.0146826.ref006">6</xref>, <xref ref-type="bibr" rid="pone.0146826.ref007">7</xref>]. In this study, we showed a significantly delayed leaf senescence phenotype in the <italic>drd1-6</italic> mutant, confirmed by changes in senescence parameters, including chlorophyll and protein content, the maximum photochemical efficiency (Fv/Fm), and the maximal electron transport rate (ETRmax) (Figs <xref ref-type="fig" rid="pone.0146826.g002">2</xref>–<xref ref-type="fig" rid="pone.0146826.g004">4</xref>). Leaf senescence is a genetically regulated developmental process that leads to cell death [<xref ref-type="bibr" rid="pone.0146826.ref002">2</xref>]. Chlorophyll degradation, which is an active process to salvage nutrients from old tissues, is the first symptom of leaf senescence [<xref ref-type="bibr" rid="pone.0146826.ref003">3</xref>, <xref ref-type="bibr" rid="pone.0146826.ref007">7</xref>]. The chlorophyll pathway has previously been examined [<xref ref-type="bibr" rid="pone.0146826.ref034">34</xref>] and numerous genes in the pathway have been studied. The key enzyme of this pathway appears to be the one encoding pheophorbide α oxygenase (PAO), which cleaves the tetrapyrrole ring to produce red chlorophyll catabolite (RCC) [<xref ref-type="bibr" rid="pone.0146826.ref035">35</xref>]. The expression of <italic>PAO</italic> gene dramatically increased during senescence (<xref ref-type="fig" rid="pone.0146826.g005">Fig 5</xref>) in the WT plants, implicating this enzyme as a control point in the process [<xref ref-type="bibr" rid="pone.0146826.ref007">7</xref>]. Moreover, chlorophyll breakdown is tightly connected with the removal of pigment-protein complexes and the degradation of chlorophyll-binding protein [<xref ref-type="bibr" rid="pone.0146826.ref031">31</xref>]. The first step of chlorophyll degradation is the conversion of chlorophyll b in the light-harvesting complex II (LHCII) trimer to 7-hydroxymethyl chlorophyll a, in a process that is catalyzed by chlorophyll b reductase (CBR) [<xref ref-type="bibr" rid="pone.0146826.ref036">36</xref>]. As shown in <xref ref-type="fig" rid="pone.0146826.g004">Fig 4</xref>, LHCII almost disappeared after 5-d dark incubation in WT, and <italic>CBR</italic> gene was highly expressed in WT plants (<xref ref-type="fig" rid="pone.0146826.g005">Fig 5</xref>). The D1 protein, responsible for degradation of chlorophyll-binding proteins has a rapid turnover rate not only under photoinhibitory conditions, but also during senescence [<xref ref-type="bibr" rid="pone.0146826.ref037">37</xref>]. The photosynthetic complex structure of the thylakoid membrane proteins in chloroplast remained and did not change dramatically under senescence induction in the <italic>drd1-6</italic> mutants (<xref ref-type="fig" rid="pone.0146826.g004">Fig 4</xref>), suggesting that the leaf senescence of the <italic>drd1-6</italic> mutant is significantly delayed.</p>
+<p>A massive decrease in RNA and protein synthesis as well as in the total levels of these constituents occurs during leaf senescence [<xref ref-type="bibr" rid="pone.0146826.ref038">38</xref>]. The most abundant chloroplast protein is ribulose-1,5-bis-phosphate carboxylase/oxygenase (Rubisco), whose levels decrease rapidly in the early phase of leaf senescence [<xref ref-type="bibr" rid="pone.0146826.ref039">39</xref>], although the mechanism of intrachloroplastic Rubisco degradation is still unknown [<xref ref-type="bibr" rid="pone.0146826.ref040">40</xref>]. In total protein levels, Rubisco was gradually degraded in the WT during DIS, but not in the <italic>drd1-6</italic> mutant (<xref ref-type="fig" rid="pone.0146826.g004">Fig 4</xref>). As shown in <xref ref-type="fig" rid="pone.0146826.g004">Fig 4</xref>, total protein was rapidly degraded in the WT, indicating that DIS occurs faster in the WT plants than in the <italic>drd1-6</italic> mutant.</p>
+<p>Leaf senescence involves the induction of a genome-wide redirection of gene expression [<xref ref-type="bibr" rid="pone.0146826.ref001">1</xref>, <xref ref-type="bibr" rid="pone.0146826.ref007">7</xref>, <xref ref-type="bibr" rid="pone.0146826.ref041">41</xref>, <xref ref-type="bibr" rid="pone.0146826.ref042">42</xref>]. Molecular genetic analyses identified transcript levels of senescence-associated genes, <italic>SAG12</italic> and <italic>CBR</italic>, specifically upregulated in senescing leaves (<xref ref-type="fig" rid="pone.0146826.g005">Fig 5</xref>). To identify genes that are upregulated or downregulated during leaf senescence in <italic>Arabidopsis</italic> [<xref ref-type="bibr" rid="pone.0146826.ref006">6</xref>, <xref ref-type="bibr" rid="pone.0146826.ref041">41</xref>], we performed Affymetrix GeneChip microarray. Microarray data can be used as a tool to develop and test hypotheses for transcriptional control during senescence [<xref ref-type="bibr" rid="pone.0146826.ref043">43</xref>]. In senescing leaves, many of the genes, e.g., those encoding photosynthetic proteins, are generally downregulated, whereas other senescence-associated genes (<italic>SAGs</italic>) are upregulated. According to our microarray results, such expression changes were much more conspicuous in the WT compared with the <italic>drd1-6</italic> mutants (<xref ref-type="fig" rid="pone.0146826.g006">Fig 6B</xref>). Moreover, GO analysis of DEGs showed that a large number of genes participating in photosynthesis were substantially downregulated in the WT plants (Tables <xref ref-type="table" rid="pone.0146826.t001">1</xref> and <xref ref-type="table" rid="pone.0146826.t002">2</xref>).</p>
+<p>DRD1 is a member of the plant-specific subfamily of SWI2/SNF2 chromatin remodeling proteins. Although SWI2/SNF2 chromatin remodeling proteins play roles in plant development and stress response [<xref ref-type="bibr" rid="pone.0146826.ref044">44</xref>–<xref ref-type="bibr" rid="pone.0146826.ref046">46</xref>], their roles in leaf senescence remain unknown. In this study, we showed that <italic>DRD1</italic> mutation delayed leaf senescence substantially based on various senescence parameters. As shown in Figs <xref ref-type="fig" rid="pone.0146826.g002">2</xref> and <xref ref-type="fig" rid="pone.0146826.g004">4</xref>, the effects of <italic>DRD1</italic> mutation were increasingly manifested with progress of leaf senescence. Moreover, the <italic>drd1-6</italic> mutant exhibited not only a delay in leaf senescence, but also a prolonged whole life span. Although it was reported that a mutation in <italic>DRD1</italic> gene did not affect flowering time [<xref ref-type="bibr" rid="pone.0146826.ref027">27</xref>], the delayed flowering phenotype was observed in the <italic>drd1-6</italic> mutant with a several-day variation compared to the WT plants. Accordingly, <italic>DRD1</italic> mutation seems to bring pleiotropic effects on development including flowering and leaf senescence. Since the effects of <italic>DRD1</italic> mutation on leaf senescence can be attributed to the delayed development, we substantiated the delayed leaf senescence in the <italic>drd1-6</italic> mutant by comparing DIS of the 28-day-old WT and 34, 36, and 38-day-old <italic>drd1-6</italic> plants (<xref ref-type="fig" rid="pone.0146826.g003">Fig 3</xref>). This result indicates that DRD1 is substantially involved in leaf senescence as well as plant development. It is also worthy to note that the delayed leaf senescence was observed in the <italic>ddm1-2</italic> mutant as well as the <italic>drd1-6</italic> mutant (<xref ref-type="fig" rid="pone.0146826.g008">Fig 8</xref>). In contrast, the <italic>drd1-p</italic> mutant, in which <italic>DRD1</italic> gene was downregulated, did not show such a phenotype. This normal phenotype in the <italic>drd1-p</italic> mutant is possibly attributed to the existence of some intact DRD1 proteins, which is expected by the lower transcription level. However, as described above, <italic>DDM1</italic> and <italic>DRD1</italic> genes are grouped into the same SWI2/SNF2 family of ATP-dependent chromatin remodelers and both the <italic>ddm1-2</italic> and <italic>drd1-6</italic> mutants have a mutation in the helicase domain. Taken together, these results suggest that the ATP-helicase domain of SWI2/SNF2 chromatin remodelers may be probably important for regulation of leaf senescence.</p>
+<p>An age-associated decline in total genomic DNA methylation occurs [<xref ref-type="bibr" rid="pone.0146826.ref012">12</xref>, <xref ref-type="bibr" rid="pone.0146826.ref047">47</xref>, <xref ref-type="bibr" rid="pone.0146826.ref048">48</xref>]. Plant DNA can trigger both symmetric (CpG and CpNpG) and asymmetric DNA methylation (CpNpN) [<xref ref-type="bibr" rid="pone.0146826.ref049">49</xref>], which are associated with repressive chromatin gene promoters and with repression of gene expression [<xref ref-type="bibr" rid="pone.0146826.ref013">13</xref>]. Most DNA methylation occurs in transposon-rich heterochromatic regions [<xref ref-type="bibr" rid="pone.0146826.ref050">50</xref>, <xref ref-type="bibr" rid="pone.0146826.ref051">51</xref>] and leads to transcriptional gene silencing (TGS). TGS openness inactivates foreign genes integrated into plant genomes but likely also suppresses an unknown subset of chromosomal information [<xref ref-type="bibr" rid="pone.0146826.ref052">52</xref>]. The <italic>drd1-6</italic> mutant expression is suppressed by endogenous repeats such as <italic>CEN</italic> and <italic>TSI</italic> (<xref ref-type="fig" rid="pone.0146826.g007">Fig 7A and 7B</xref>). Therefore, one of possible mechanisms underlying the epigenetic regulation of leaf senescence is that DRD1 may regulate leaf senescence positively via RNA-directed DNA methylation (RdDM) of endogenous repeats. Actually, it has been reported that activation of transposable elements during senescence and senescence-triggering stresses could affect the expression of neighboring genes [<xref ref-type="bibr" rid="pone.0146826.ref053">53</xref>, <xref ref-type="bibr" rid="pone.0146826.ref054">54</xref>]. Environmental factors such as salt and pathogen also bring about change in DNA methylation, leading to altered transcription of repetitive sequences and/or neighboring genes [<xref ref-type="bibr" rid="pone.0146826.ref055">55</xref>, <xref ref-type="bibr" rid="pone.0146826.ref056">56</xref>].</p>
+<p>Another possibility is chromatin remodeling-mediated control of senescence-associated gene expression. Similar to ORE7, DRD1 may induce changes of chromatin structures directly. Then, the induced changes of chromatin structures by DRD1 can allow transcription proteins to access permissive chromatin. Otherwise, DRD1 may lead to alteration of chromatin structure via altered histone modification indirectly. SDG is an HKMT (histone lysine methyltransferase), a chromatin-modifying enzyme [<xref ref-type="bibr" rid="pone.0146826.ref057">57</xref>], and HAC1 is a histone acetyltransferase (HAT) belonging to the CBP family. <italic>SDG8</italic>, <italic>SDG27</italic>, and <italic>HAC1</italic> are expressed at low levels in the <italic>drd1-6</italic> mutant compared with WT plants (<xref ref-type="fig" rid="pone.0146826.g007">Fig 7C</xref>). Consequently, senescent WT plants are expected to show greater histone methylation or acetylation activity. The interphase chromatin of senescing leaves shows a traditional partitioning of histone modification marks indexing euchromatic and heterochromatic domains [<xref ref-type="bibr" rid="pone.0146826.ref011">11</xref>]. During leaf senescence, global changes in chromatin organization correlate with the massive changes in the transcriptome observed, including downregulation of numerous genes and induction of many senescence-associated genes and photosynthesis-related genes (Tables <xref ref-type="table" rid="pone.0146826.t001">1</xref> and <xref ref-type="table" rid="pone.0146826.t002">2</xref>) [<xref ref-type="bibr" rid="pone.0146826.ref007">7</xref>, <xref ref-type="bibr" rid="pone.0146826.ref041">41</xref>, <xref ref-type="bibr" rid="pone.0146826.ref058">58</xref>]. In conclusion, these results indicate that such epigenetic modifications may contribute to replicative senescence, and a mutation in DRD1 gene can influence the progress of leaf senescence. However, the exact underlying mechanisms by which DRD1 is involved in leaf senescence, remain to be further elucidated.</p>
+</sec>
+<sec id="sec018">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0146826.s001" mimetype="image/jpeg" position="float" xlink:href="info:doi/10.1371/journal.pone.0146826.s001" xlink:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title>Phenotype of detached WT and <italic>drd1-6</italic> mutant leaves at the indicated days during DIS.</title>
+<p>(JPG)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0146826.s002" mimetype="image/jpeg" position="float" xlink:href="info:doi/10.1371/journal.pone.0146826.s002" xlink:type="simple">
+<label>S2 Fig</label>
+<caption>
+<title>SDS-PAGE analysis in WT and <italic>drd1-6</italic> mutant during DIS.</title>
+<p>Twenty micrograms of total protein was isolated from WT and <italic>drd1-6</italic> mutant rosette leaves at the indicated days. Total proteins were loaded 12% SDS-PAGE gel and stained by coomassie blue.</p>
+<p>(JPG)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0146826.s003" mimetype="image/jpeg" position="float" xlink:href="info:doi/10.1371/journal.pone.0146826.s003" xlink:type="simple">
+<label>S3 Fig</label>
+<caption>
+<title>Relative gene expression of <italic>CEN</italic> and <italic>TSI</italic> during DIS.</title>
+<p>(A) Expression levels of transcriptional gene silencing markers 180-bp centromeric repeats and (B) <italic>TSI</italic> in <italic>drd1-6</italic> mutant, relative to those in WT during DIS. Relative transcript levels were measured by quantitative real-time PCR and the values are normalized to <italic>ACTIN2</italic> expression. Data indicate the mean ± SD (<italic>n</italic> = 9) from three independent experiments.</p>
+<p>(JPG)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0146826.s004" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0146826.s004" xlink:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Primer lists used in this study.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0146826.s005" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0146826.s005" xlink:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>Identification of thylakoid membrane proteins which are declined during DIS in <italic>Arabidopsis</italic>.</title>
+<p>GI, GenInfo Identifier in the NCBI database; Mass, predicted molecular mass; PI, calculated isoelectric point; and % coverage, protein sequence coverage.</p>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="pone.0146826.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lim</surname> <given-names>PO</given-names></name>, <name name-style="western"><surname>Nam</surname> <given-names>HG</given-names></name>. <article-title>The molecular and genetic control of leaf senescence and longevity in <italic>Arabidopsis</italic></article-title>. <source>Current topics in developmental biology</source>. <year>2005</year>;<volume>67</volume>:<fpage>49</fpage>–<lpage>83</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0070-2153(05)67002-0" xlink:type="simple">10.1016/S0070-2153(05)67002-0</ext-link></comment> <object-id pub-id-type="pmid">15949531</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lim</surname> <given-names>PO</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>HJ</given-names></name>, <name name-style="western"><surname>Nam</surname> <given-names>HG</given-names></name>. <article-title>Leaf senescence</article-title>. <source>Annual review of plant biology</source>. <year>2007</year>;<volume>58</volume>:<fpage>115</fpage>–<lpage>36</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1146/annurev.arplant.57.032905.105316" xlink:type="simple">10.1146/annurev.arplant.57.032905.105316</ext-link></comment> <object-id pub-id-type="pmid">17177638</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kusaba</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ito</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Morita</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Iida</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Sato</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Fujimoto</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Rice NON-YELLOW COLORING1 is involved in light-harvesting complex II and grana degradation during leaf senescence</article-title>. <source>The Plant cell</source>. <year>2007</year>;<volume>19</volume>(<issue>4</issue>):<fpage>1362</fpage>–<lpage>75</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1105/tpc.106. 042911" xlink:type="simple">10.1105/tpc.106. 042911</ext-link></comment> <object-id pub-id-type="pmid">17416733</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kuriyama</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Fukuda</surname> <given-names>H</given-names></name>. <article-title>Developmental programmed cell death in plants</article-title>. <source>Current opinion in plant biology</source>. <year>2002</year>;<volume>5</volume>(<issue>6</issue>):<fpage>568</fpage>–<lpage>73</lpage>. <object-id pub-id-type="pmid">12393021</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Obara</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Kuriyama</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Fukuda</surname> <given-names>H</given-names></name>. <article-title>Direct evidence of active and rapid nuclear degradation triggered by vacuole rupture during programmed cell death in <italic>Zinnia</italic></article-title>. <source>Plant physiology</source>. <year>2001</year>;<volume>125</volume>(<issue>2</issue>):<fpage>615</fpage>–<lpage>26</lpage>. <object-id pub-id-type="pmid">11161019</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Breeze</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Harrison</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Page</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Warner</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Shen</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Transcriptional regulation of plant senescence: from functional genomics to systems biology</article-title>. <source>Plant biology</source>. <year>2008</year>;<volume>10</volume> <issue>Suppl 1</issue>:<fpage>99</fpage>–<lpage>109</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1438-8677.2008.00076.x" xlink:type="simple">10.1111/j.1438-8677.2008.00076.x</ext-link></comment> <object-id pub-id-type="pmid">18721315</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Buchanan-Wollaston</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Earl</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Harrison</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Mathas</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Navabpour</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Page</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>The molecular analysis of leaf senescence-a genomics approach</article-title>. <source>Plant biotechnology journal</source>. <year>2003</year>;<volume>1</volume>(<issue>1</issue>):<fpage>3</fpage>–<lpage>22</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1046/j.1467-7652.2003.00004.x" xlink:type="simple">10.1046/j.1467-7652.2003.00004.x</ext-link></comment> <object-id pub-id-type="pmid">17147676</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hinderhofer</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Zentgraf</surname> <given-names>U</given-names></name>. <article-title>Identification of a transcription factor specifically expressed at the onset of leaf senescence</article-title>. <source>Planta</source>. <year>2001</year>;<volume>213</volume>(<issue>3</issue>):<fpage>469</fpage>–<lpage>73</lpage>. <object-id pub-id-type="pmid">11506370</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Miao</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Laun</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Zimmermann</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Zentgraf</surname> <given-names>U</given-names></name>. <article-title>Targets of the WRKY53 transcription factor and its role during leaf senescence in <italic>Arabidopsis</italic></article-title>. <source>Plant molecular biology</source>. <year>2004</year>;<volume>55</volume>(<issue>6</issue>):<fpage>853</fpage>–<lpage>67</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s11103-004-2142-6" xlink:type="simple">10.1007/s11103-004-2142-6</ext-link></comment> <object-id pub-id-type="pmid">15604721</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zentgraf</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Laun</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Miao</surname> <given-names>Y</given-names></name>. <article-title>The complex regulation of WRKY53 during leaf senescence of <italic>Arabidopsis thaliana</italic></article-title>. <source>European journal of cell biology</source>. <year>2010</year>;<volume>89</volume>(<issue>2–3</issue>):<fpage>133</fpage>–<lpage>7</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.ejcb.2009.10.014" xlink:type="simple">10.1016/j.ejcb.2009.10.014</ext-link></comment> <object-id pub-id-type="pmid">20004496</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ay</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Irmler</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Fischer</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Uhlemann</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Reuter</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Humbeck</surname> <given-names>K</given-names></name>. <article-title>Epigenetic programming via histone methylation at WRKY53 controls leaf senescence in <italic>Arabidopsis thaliana</italic></article-title>. <source>The Plant journal: for cell and molecular biology</source>. <year>2009</year>;<volume>58</volume>(<issue>2</issue>):<fpage>333</fpage>–<lpage>46</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-313X.2008.03782.x" xlink:type="simple">10.1111/j.1365-313X.2008.03782.x</ext-link></comment> <object-id pub-id-type="pmid">19143996</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wilson</surname> <given-names>VL</given-names></name>, <name name-style="western"><surname>Jones</surname> <given-names>PA</given-names></name>. <article-title>DNA methylation decreases in aging but not in immortal cells</article-title>. <source>Science</source>. <year>1983</year>;<volume>220</volume>(<issue>4601</issue>):<fpage>1055</fpage>–<lpage>7</lpage>. <object-id pub-id-type="pmid">6844925</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chinnusamy</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Zhu</surname> <given-names>JK</given-names></name>. <article-title>Epigenetic regulation of stress responses in plants</article-title>. <source>Current opinion in plant biology</source>. <year>2009</year>;<volume>12</volume>(<issue>2</issue>):<fpage>133</fpage>–<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.pbi.2008.12.006" xlink:type="simple">10.1016/j.pbi.2008.12.006</ext-link></comment> <object-id pub-id-type="pmid">19179104</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lim</surname> <given-names>PO</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Breeze</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Koo</surname> <given-names>JC</given-names></name>, <name name-style="western"><surname>Woo</surname> <given-names>HR</given-names></name>, <name name-style="western"><surname>Ryu</surname> <given-names>JS</given-names></name>, <etal>et al</etal>. <article-title>Overexpression of a chromatin architecture-controlling AT-hook protein extends leaf longevity and increases the post-harvest storage life of plants</article-title>. <source>The Plant journal: for cell and molecular biology</source>. <year>2007</year>;<volume>52</volume>(<issue>6</issue>):<fpage>1140</fpage>–<lpage>53</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-313X.2007.03317.x" xlink:type="simple">10.1111/j.1365-313X.2007.03317.x</ext-link></comment> <object-id pub-id-type="pmid">17971039</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kanno</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Mette</surname> <given-names>MF</given-names></name>, <name name-style="western"><surname>Kreil</surname> <given-names>DP</given-names></name>, <name name-style="western"><surname>Aufsatz</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Matzke</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Matzke</surname> <given-names>AJ</given-names></name>. <article-title>Involvement of putative SNF2 chromatin remodeling protein DRD1 in RNA-directed DNA methylation</article-title>. <source>Current biology: CB</source>. <year>2004</year>;<volume>14</volume>(<issue>9</issue>):<fpage>801</fpage>–<lpage>5</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.cub. 2004.04.037" xlink:type="simple">10.1016/j.cub. 2004.04.037</ext-link></comment> <object-id pub-id-type="pmid">15120073</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kanno</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Aufsatz</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Jaligot</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Mette</surname> <given-names>MF</given-names></name>, <name name-style="western"><surname>Matzke</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Matzke</surname> <given-names>AJ</given-names></name>. <article-title>A SNF2-like protein facilitates dynamic control of DNA methylation</article-title>. <source>EMBO reports</source>. <year>2005</year>;<volume>6</volume>(<issue>7</issue>):<fpage>649</fpage>–<lpage>55</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/sj.embor.7400446" xlink:type="simple">10.1038/sj.embor.7400446</ext-link></comment> <object-id pub-id-type="pmid">15947783</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Huettel</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Kanno</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Daxinger</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Aufsatz</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Matzke</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>Matzke</surname> <given-names>M</given-names></name>. <article-title>Endogenous targets of RNA-directed DNA methylation and Pol IV in <italic>Arabidopsis</italic></article-title>. <source>The EMBO journal</source>. <year>2006</year>;<volume>25</volume>(<issue>12</issue>):<fpage>2828</fpage>–<lpage>36</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/sj.emboj.7601150" xlink:type="simple">10.1038/sj.emboj.7601150</ext-link></comment> <object-id pub-id-type="pmid">16724114</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chan</surname> <given-names>SW</given-names></name>, <name name-style="western"><surname>Henderson</surname> <given-names>IR</given-names></name>, <name name-style="western"><surname>Jacobsen</surname> <given-names>SE</given-names></name>. <article-title>Gardening the genome: DNA methylation in <italic>Arabidopsis thaliana</italic></article-title>. <source>Nature reviews Genetics</source>. <year>2005</year>;<volume>6</volume>(<issue>5</issue>):<fpage>351</fpage>–<lpage>60</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nrg1601" xlink:type="simple">10.1038/nrg1601</ext-link></comment> <object-id pub-id-type="pmid">15861207</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vongs</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Kakutani</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Martienssen</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Richards</surname> <given-names>EJ</given-names></name>. <article-title><italic>Arabidopsis thaliana</italic> DNA methylation mutants</article-title>. <source>Science</source>. <year>1993</year>;<volume>260</volume>(<issue>5116</issue>):<fpage>1926</fpage>–<lpage>8</lpage>. <object-id pub-id-type="pmid">8316832</object-id></mixed-citation></ref>
+<ref id="pone.0146826.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wada</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Ishida</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Izumi</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Yoshimoto</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Ohsumi</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Mae</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Autophagy plays a role in chloroplast degradation during senescence in individually darkened leaves</article-title>. <source>Plant physiology</source>. <year>2009</year>;<volume>149</volume>(<issue>2</issue>):<fpage>885</fpage>–<lpage>93</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1104/pp.108.130013" xlink:type="simple">10.1104/pp.108.130013</ext-link></comment> <object-id pub-id-type="pmid">19074627</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liu</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Saint</surname> <given-names>DA</given-names></name>. <article-title>A new quantitative method of real time reverse transcription polymerase chain reaction assay based on simulation of polymerase chain reaction kinetics</article-title>. <source>Analytical biochemistry</source>. <year>2002</year>;<volume>302</volume>(<issue>1</issue>):<fpage>52</fpage>–<lpage>9</lpage>. <object-id pub-id-type="pmid">11846375</object-id></mixed-citation></ref>
+<ref id="pone.0146826.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lichtenthaler</surname> <given-names>HK</given-names></name>. <article-title>[34] Chlorophylls and carotenoids: Pigments of photosynthetic biomembranes</article-title>. <source>Methods in enzymology</source>. <year>1987</year>;(<issue>148C</issue>):<fpage>350</fpage>–<lpage>82</lpage>.</mixed-citation></ref>
+<ref id="pone.0146826.ref023"><label>23</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Kruger</surname> <given-names>NJ</given-names></name>. <chapter-title>The Bradford method for protein quantitation</chapter-title>. <source>Basic protein and peptide protocols</source>: <publisher-name>Springer</publisher-name>; <year>1994</year>. p. <fpage>9</fpage>–<lpage>15</lpage>.</mixed-citation></ref>
+<ref id="pone.0146826.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kim</surname> <given-names>J-H</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>MH</given-names></name>, <name name-style="western"><surname>Moon</surname> <given-names>YR</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>J-S</given-names></name>, <name name-style="western"><surname>Wi</surname> <given-names>SG</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>TH</given-names></name>, <etal>et al</etal>. <article-title>Characterization of metabolic disturbances closely linked to the delayed senescence of <italic>Arabidopsis</italic> leaves after γ irradiation</article-title>. <source>Environmental and experimental botany</source>. <year>2009</year>;<volume>67</volume>(<issue>2</issue>):<fpage>363</fpage>–<lpage>71</lpage>.</mixed-citation></ref>
+<ref id="pone.0146826.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Suorsa</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Regel</surname> <given-names>RE</given-names></name>, <name name-style="western"><surname>Paakkarinen</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Battchikova</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Herrmann</surname> <given-names>RG</given-names></name>, <name name-style="western"><surname>Aro</surname> <given-names>EM</given-names></name>. <article-title>Protein assembly of photosystem II and accumulation of subcomplexes in the absence of low molecular mass subunits PsbL and PsbJ</article-title>. <source>European journal of biochemistry / FEBS</source>. <year>2004</year>;<volume>271</volume>(<issue>1</issue>):<fpage>96</fpage>–<lpage>107</lpage>. <object-id pub-id-type="pmid">14686923</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kim</surname> <given-names>J-H</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>C-H</given-names></name><article-title>. In vivo deleterious effects specific to reactive oxygen species on photosystem I and II after photo-oxidative treatments of rice (<italic>Oryza sativa L</italic>.) leaves</article-title>. <source>Plant science</source>. <year>2005</year>;<volume>168</volume>(<issue>4</issue>):<fpage>1115</fpage>–<lpage>25</lpage>.</mixed-citation></ref>
+<ref id="pone.0146826.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chan</surname> <given-names>SW</given-names></name>, <name name-style="western"><surname>Henderson</surname> <given-names>IR</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Shah</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Chien</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Jacobsen</surname> <given-names>SE</given-names></name>. <article-title>RNAi, DRD1, and histone methylation actively target developmentally important non-CG DNA methylation in <italic>Arabidopsis</italic></article-title>. <source>PLoS genetics</source>. <year>2006</year>;<volume>2</volume>(<issue>6</issue>):<fpage>e83</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/ journal.pgen.0020083" xlink:type="simple">10.1371/ journal.pgen.0020083</ext-link></comment> <object-id pub-id-type="pmid">16741558</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Oh</surname> <given-names>SA</given-names></name>, <name name-style="western"><surname>Park</surname> <given-names>JH</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>GI</given-names></name>, <name name-style="western"><surname>Paek</surname> <given-names>KH</given-names></name>, <name name-style="western"><surname>Park</surname> <given-names>SK</given-names></name>, <name name-style="western"><surname>Nam</surname> <given-names>HG</given-names></name>. <article-title>Identification of three genetic loci controlling leaf senescence in <italic>Arabidopsis thaliana</italic></article-title>. <source>The Plant Journal</source>. <year>1997</year>;<volume>12</volume>(<issue>3</issue>):<fpage>527</fpage>–<lpage>35</lpage>. <object-id pub-id-type="pmid">9351240</object-id></mixed-citation></ref>
+<ref id="pone.0146826.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Park</surname> <given-names>SY</given-names></name>, <name name-style="western"><surname>Yu</surname> <given-names>JW</given-names></name>, <name name-style="western"><surname>Park</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Yoo</surname> <given-names>SC</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>NY</given-names></name>, <etal>et al</etal>. <article-title>The senescence-induced staygreen protein regulates chlorophyll degradation</article-title>. <source>The Plant cell</source>. <year>2007</year>;<volume>19</volume>(<issue>5</issue>): <fpage>1649</fpage>–<lpage>64</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1105/tpc.106.044891" xlink:type="simple">10.1105/tpc.106.044891</ext-link></comment> <object-id pub-id-type="pmid">17513504</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bate</surname> <given-names>NJ</given-names></name>, <name name-style="western"><surname>Rothstein</surname> <given-names>SJ</given-names></name>, <name name-style="western"><surname>Thompson</surname> <given-names>JE</given-names></name>. <article-title>Expression of nuclear and chloroplast photosynthesis-specific genes during leaf senescence</article-title>. <source>Journal of experimental botany</source>. <year>1991</year>;<volume>42</volume>(<issue>6</issue>):<fpage>801</fpage>–<lpage>11</lpage>.</mixed-citation></ref>
+<ref id="pone.0146826.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hortensteiner</surname> <given-names>S</given-names></name>. <article-title>Chlorophyll degradation during senescence</article-title>. <source>Annual review of plant biology</source>. <year>2006</year>;<volume>57</volume>:<fpage>55</fpage>–<lpage>77</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1146/annurev.arplant.57.032905.105212" xlink:type="simple">10.1146/annurev.arplant.57.032905.105212</ext-link></comment> <object-id pub-id-type="pmid">16669755</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Holton</surname> <given-names>TA</given-names></name>, <name name-style="western"><surname>Cornish</surname> <given-names>EC</given-names></name>. <article-title>Genetics and Biochemistry of Anthocyanin Biosynthesis</article-title>. <source>The Plant cell</source>. <year>1995</year>;<volume>7</volume>(<issue>7</issue>):<fpage>1071</fpage>–<lpage>83</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1105/tpc.7.7.1071" xlink:type="simple">10.1105/tpc.7.7.1071</ext-link></comment> <object-id pub-id-type="pmid">12242398</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hoch</surname> <given-names>WA</given-names></name>, <name name-style="western"><surname>Singsaas</surname> <given-names>EL</given-names></name>, <name name-style="western"><surname>McCown</surname> <given-names>BH</given-names></name>. <article-title>Resorption protection. Anthocyanins facilitate nutrient recovery in autumn by shielding leaves from potentially damaging light levels</article-title>. <source>Plant physiology</source>. <year>2003</year>;<volume>133</volume>(<issue>3</issue>):<fpage>1296</fpage>–<lpage>305</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1104/pp. 103.027631" xlink:type="simple">10.1104/pp. 103.027631</ext-link></comment> <object-id pub-id-type="pmid">14526111</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Matile</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Hortensteiner</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Thomas</surname> <given-names>H</given-names></name>. <article-title>Chlorophyll Degradation</article-title>. <source>Annual review of plant physiology and plant molecular biology</source>. <year>1999</year>;<volume>50</volume>:<fpage>67</fpage>–<lpage>95</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1146/annurev. arplant.50.1.67" xlink:type="simple">10.1146/annurev. arplant.50.1.67</ext-link></comment> <object-id pub-id-type="pmid">15012204</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref035"><label>35</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pruzinska</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Tanner</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Anders</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Roca</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Hortensteiner</surname> <given-names>S</given-names></name>. <article-title>Chlorophyll breakdown: pheophorbide a oxygenase is a Rieske-type iron-sulfur protein, encoded by the accelerated cell death 1 gene</article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source>. <year>2003</year>;<volume>100</volume>(<issue>25</issue>):<fpage>15259</fpage>–<lpage>64</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas. 2036571100" xlink:type="simple">10.1073/pnas. 2036571100</ext-link></comment> <object-id pub-id-type="pmid">14657372</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref036"><label>36</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Folly</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Engel</surname> <given-names>N</given-names></name>. <article-title>Chlorophyll b to chlorophyll a conversion precedes chlorophyll degradation in <italic>Hordeum vulgare L</italic></article-title>. <source>The Journal of biological chemistry</source>. <year>1999</year>;<volume>274</volume> (<issue>31</issue>):<fpage>21811</fpage>–<lpage>6</lpage>. <object-id pub-id-type="pmid">10419497</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref037"><label>37</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Roberts</surname> <given-names>DR</given-names></name>, <name name-style="western"><surname>Thompson</surname> <given-names>JE</given-names></name>, <name name-style="western"><surname>Dumbroff</surname> <given-names>EB</given-names></name>, <name name-style="western"><surname>Gepstein</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Mattoo</surname> <given-names>AK</given-names></name>. <article-title>Differential changes in the synthesis and steady-state levels of thylakoid proteins during bean leaf senescence</article-title>. <source>Plant molecular biology</source>. <year>1987</year>;<volume>9</volume>(<issue>4</issue>):<fpage>343</fpage>–<lpage>53</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/ BF00014909" xlink:type="simple">10.1007/ BF00014909</ext-link></comment> <object-id pub-id-type="pmid">24277087</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref038"><label>38</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Noodén</surname> <given-names>LD</given-names></name>, <name name-style="western"><surname>Guiamét</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>John</surname> <given-names>I</given-names></name>. <article-title>Senescence mechanisms</article-title>. <source>Physiologia plantarum</source>. <year>1997</year>;<volume>101</volume>(<issue>4</issue>):<fpage>746</fpage>–<lpage>53</lpage>.</mixed-citation></ref>
+<ref id="pone.0146826.ref039"><label>39</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mae</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Kai</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Makino</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Ohira</surname> <given-names>K</given-names></name>. <article-title>Relation between ribulose bisphosphate carboxylase content and chloroplast number in naturally senescing primary leaves of wheat</article-title>. <source>Plant and cell physiology</source>. <year>1984</year>;<volume>25</volume>(<issue>2</issue>):<fpage>333</fpage>–<lpage>6</lpage>.</mixed-citation></ref>
+<ref id="pone.0146826.ref040"><label>40</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Feller</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Anders</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Mae</surname> <given-names>T</given-names></name>. <article-title>Rubiscolytics: fate of Rubisco after its enzymatic function in a cell is terminated</article-title>. <source>Journal of experimental botany</source>. <year>2008</year>;<volume>59</volume>(<issue>7</issue>):<fpage>1615</fpage>–<lpage>24</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/jxb/erm242" xlink:type="simple">10.1093/jxb/erm242</ext-link></comment> <object-id pub-id-type="pmid">17975207</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref041"><label>41</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Buchanan-Wollaston</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Page</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Harrison</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Breeze</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Lim</surname> <given-names>PO</given-names></name>, <name name-style="western"><surname>Nam</surname> <given-names>HG</given-names></name>, <etal>et al</etal>. <article-title>Comparative transcriptome analysis reveals significant differences in gene expression and signalling pathways between developmental and dark/starvation-induced senescence in <italic>Arabidopsis</italic></article-title>. <source>The Plant journal: for cell and molecular biology</source>. <year>2005</year>;<volume>42</volume>(<issue>4</issue>):<fpage>567</fpage>–<lpage>85</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-313X.2005.02399.x" xlink:type="simple">10.1111/j.1365-313X.2005.02399.x</ext-link></comment> <object-id pub-id-type="pmid">15860015</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref042"><label>42</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Guo</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Cai</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Gan</surname> <given-names>S</given-names></name>. <article-title>Transcriptome of <italic>Arabidopsis</italic> leaf senescence</article-title>. <source>Plant, cell &amp; environment</source>. <year>2004</year>;<volume>27</volume>(<issue>5</issue>):<fpage>521</fpage>–<lpage>49</lpage>.</mixed-citation></ref>
+<ref id="pone.0146826.ref043"><label>43</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Breeze</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Harrison</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>McHattie</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Hughes</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Hickman</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Hill</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>High-resolution temporal profiling of transcripts during <italic>Arabidopsis</italic> leaf senescence reveals a distinct chronology of processes and regulation</article-title>. <source>The Plant cell</source>. <year>2011</year>;<volume>23</volume> (<issue>3</issue>):<fpage>873</fpage>–<lpage>94</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1105/tpc.111.083345" xlink:type="simple">10.1105/tpc.111.083345</ext-link></comment> <object-id pub-id-type="pmid">21447789</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref044"><label>44</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gentry</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Hennig</surname> <given-names>L</given-names></name>. <article-title>Remodelling chromatin to shape development of plants</article-title>. <source>Experimental cell research</source>. <year>2014</year>;<volume>321</volume>(<issue>1</issue>):<fpage>40</fpage>–<lpage>6</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.yexcr.2013.11.010" xlink:type="simple">10.1016/j.yexcr.2013.11.010</ext-link></comment> <object-id pub-id-type="pmid">24270012</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref045"><label>45</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Han</surname> <given-names>SK</given-names></name>, <name name-style="western"><surname>Sang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Rodrigues</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Biol</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>MF</given-names></name>, <name name-style="western"><surname>Rodriguez</surname> <given-names>PL</given-names></name>, <etal>et al</etal>. <article-title>The SWI2/SNF2 chromatin remodeling ATPase BRAHMA represses abscisic acid responses in the absence of the stress stimulus in <italic>Arabidopsis</italic></article-title>. <source>The Plant cell</source>. <year>2012</year>;<volume>24</volume>(<issue>12</issue>):<fpage>4892</fpage>–<lpage>906</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1105/tpc.112.105114" xlink:type="simple">10.1105/tpc.112.105114</ext-link></comment> <object-id pub-id-type="pmid">23209114</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref046"><label>46</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Shaked</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Avivi-Ragolsky</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Levy</surname> <given-names>AA</given-names></name>. <article-title>Involvement of the <italic>Arabidopsis</italic> SWI2/SNF2 chromatin remodeling gene family in DNA damage response and recombination</article-title>. <source>Genetics</source>. <year>2006</year>;<volume>173</volume>(<issue>2</issue>):<fpage>985</fpage>–<lpage>94</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1534/genetics.105.051664" xlink:type="simple">10.1534/genetics.105.051664</ext-link></comment> <object-id pub-id-type="pmid">16547115</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref047"><label>47</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Singhal</surname> <given-names>RP</given-names></name>, <name name-style="western"><surname>Mays-Hoopes</surname> <given-names>LL</given-names></name>, <name name-style="western"><surname>Eichhorn</surname> <given-names>GL</given-names></name>. <article-title>DNA methylation in aging of mice</article-title>. <source>Mechanisms of ageing and development</source>. <year>1987</year>;<volume>41</volume>(<issue>3</issue>):<fpage>199</fpage>–<lpage>210</lpage>. <object-id pub-id-type="pmid">3431172</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref048"><label>48</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sedivy</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Banumathy</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Adams</surname> <given-names>PD</given-names></name>. <article-title>Aging by epigenetics-a consequence of chromatin damage?</article-title> <source>Experimental cell research</source>. <year>2008</year>;<volume>314</volume>(<issue>9</issue>):<fpage>1909</fpage>–<lpage>17</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.yexcr.2008.02.023" xlink:type="simple">10.1016/j.yexcr.2008.02.023</ext-link></comment> <object-id pub-id-type="pmid">18423606</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref049"><label>49</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>He</surname> <given-names>XJ</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Zhu</surname> <given-names>JK</given-names></name>. <article-title>Regulation and function of DNA methylation in plants and animals</article-title>. <source>Cell research</source>. <year>2011</year>;<volume>21</volume>(<issue>3</issue>):<fpage>442</fpage>–<lpage>65</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/cr.2011.23" xlink:type="simple">10.1038/cr.2011.23</ext-link></comment> <object-id pub-id-type="pmid">21321601</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref050"><label>50</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhang</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Yazaki</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Sundaresan</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Cokus</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Chan</surname> <given-names>SW</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>H</given-names></name>, <etal>et al</etal>. <article-title>Genome-wide high-resolution mapping and functional analysis of DNA methylation in <italic>Arabidopsis</italic></article-title>. <source>Cell</source>. <year>2006</year>;<volume>126</volume>(<issue>6</issue>):<fpage>1189</fpage>–<lpage>201</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.cell.2006.08.003" xlink:type="simple">10.1016/j.cell.2006.08.003</ext-link></comment> <object-id pub-id-type="pmid">16949657</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref051"><label>51</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zilberman</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Gehring</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Tran</surname> <given-names>RK</given-names></name>, <name name-style="western"><surname>Ballinger</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Henikoff</surname> <given-names>S</given-names></name>. <article-title>Genome-wide analysis of <italic>Arabidopsis thaliana</italic> DNA methylation uncovers an interdependence between methylation and transcription</article-title>. <source>Nature genetics</source>. <year>2007</year>;<volume>39</volume>(<issue>1</issue>):<fpage>61</fpage>–<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/ng 1929" xlink:type="simple">10.1038/ng 1929</ext-link></comment> <object-id pub-id-type="pmid">17128275</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref052"><label>52</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Steimer</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Amedeo</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Afsar</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Fransz</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Mittelsten Scheid</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Paszkowski</surname> <given-names>J</given-names></name>. <article-title>Endogenous targets of transcriptional gene silencing in <italic>Arabidopsis</italic></article-title>. <source>The Plant cell</source>. <year>2000</year>;<volume>12</volume>(<issue>7</issue>):<fpage>1165</fpage>–<lpage>78</lpage>. <object-id pub-id-type="pmid">10899982</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref053"><label>53</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ay</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Janack</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Humbeck</surname> <given-names>K</given-names></name>. <article-title>Epigenetic control of plant senescence and linked processes</article-title>. <source>Journal of experimental botany</source>. <year>2014</year>;<volume>65</volume>(<issue>14</issue>):<fpage>3875</fpage>–<lpage>87</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/ jxb/eru132" xlink:type="simple">10.1093/ jxb/eru132</ext-link></comment> <object-id pub-id-type="pmid">24683182</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref054"><label>54</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tsuchiya</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Eulgem</surname> <given-names>T</given-names></name>. <article-title>An alternative polyadenylation mechanism coopted to the <italic>Arabidopsis</italic> RPP7 gene through intronic retrotransposon domestication</article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source>. <year>2013</year>;<volume>110</volume>(<issue>37</issue>):<fpage>E3535</fpage>–<lpage>43</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.1312545110" xlink:type="simple">10.1073/pnas.1312545110</ext-link></comment> <object-id pub-id-type="pmid">23940361</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref055"><label>55</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bilichak</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Ilnystkyy</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Hollunder</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kovalchuk</surname> <given-names>I</given-names></name>. <article-title>The progeny of <italic>Arabidopsis thaliana</italic> plants exposed to salt exhibit changes in DNA methylation, histone modifications and gene expression</article-title>. <source>PloS one</source>. <year>2012</year>;<volume>7</volume>(<issue>1</issue>):<fpage>e30515</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/ journal.pone.0030515" xlink:type="simple">10.1371/ journal.pone.0030515</ext-link></comment> <object-id pub-id-type="pmid">22291972</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref056"><label>56</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dowen</surname> <given-names>RH</given-names></name>, <name name-style="western"><surname>Pelizzola</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Schmitz</surname> <given-names>RJ</given-names></name>, <name name-style="western"><surname>Lister</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Dowen</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Nery</surname> <given-names>JR</given-names></name>, <etal>et al</etal>. <article-title>Widespread dynamic DNA methylation in response to biotic stress</article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source>. <year>2012</year>;<volume>109</volume>(<issue>32</issue>):<fpage>E2183</fpage>–<lpage>91</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.1209329109" xlink:type="simple">10.1073/pnas.1209329109</ext-link></comment> <object-id pub-id-type="pmid">22733782</object-id>.</mixed-citation></ref>
+<ref id="pone.0146826.ref057"><label>57</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pontvianne</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Abou-Ellail</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Douet</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Comella</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Matia</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Chandrasekhara</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Nucleolin is required for DNA methylation state and the expression of rRNA gene variants in <italic>Arabidopsis thaliana</italic></article-title>. <source>PLoS genetics</source>. <year>2010</year>;<volume>6</volume>(<issue>11</issue>):<fpage>e1001225</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pgen.1001225" xlink:type="simple">10.1371/journal.pgen.1001225</ext-link></comment> <object-id pub-id-type="pmid">21124873</object-id></mixed-citation></ref>
+<ref id="pone.0146826.ref058"><label>58</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gepstein</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Sabehi</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Carp</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Hajouj</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Nesher</surname> <given-names>MF</given-names></name>, <name name-style="western"><surname>Yariv</surname> <given-names>I</given-names></name>, <etal>et al</etal>. <article-title>Large-scale identification of leaf senescence-associated genes</article-title>. <source>The Plant journal: for cell and molecular biology</source>. <year>2003</year>;<volume>36</volume>(<issue>5</issue>):<fpage>629</fpage>–<lpage>42</lpage>. <object-id pub-id-type="pmid">14617064</object-id>.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

@@ -1,0 +1,989 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0190769</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-17-24652</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Nutrition</subject><subj-group><subject>Diet</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Nutrition</subject><subj-group><subject>Diet</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Body fluids</subject><subj-group><subject>Blood</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Body fluids</subject><subj-group><subject>Blood</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Body fluids</subject><subj-group><subject>Blood</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Body fluids</subject><subj-group><subject>Blood</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Renal system</subject><subj-group><subject>Kidneys</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Renal system</subject><subj-group><subject>Kidneys</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Digestive system</subject><subj-group><subject>Gastrointestinal tract</subject><subj-group><subject>Small intestine</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Digestive system</subject><subj-group><subject>Gastrointestinal tract</subject><subj-group><subject>Small intestine</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Immune physiology</subject><subj-group><subject>Spleen</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Immune physiology</subject><subj-group><subject>Spleen</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Proteins</subject><subj-group><subject>Albumins</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Lipids</subject><subj-group><subject>Cholesterol</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Liver</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Anatomy</subject><subj-group><subject>Liver</subject></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Effects of dietary level of tannic acid and protein on internal organ weights and biochemical blood parameters of rats</article-title>
+<alt-title alt-title-type="running-head">Tannic acid and its effect on health status of rats</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-3428-9805</contrib-id>
+<name name-style="western">
+<surname>Barszcz</surname>
+<given-names>Marcin</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<xref ref-type="corresp" rid="cor001">*</xref>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Taciak</surname>
+<given-names>Marcin</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Tuśnio</surname>
+<given-names>Anna</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Skomiał</surname>
+<given-names>Jacek</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+</contrib-group>
+<aff id="aff001"><addr-line>Department of Animal Nutrition, The Kielanowski Institute of Animal Physiology and Nutrition, Polish Academy of Sciences, Jabłonna, Poland</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Kunze</surname>
+<given-names>Gotthard</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Leibniz-Institut fur Pflanzengenetik und Kulturpflanzenforschung Gatersleben, GERMANY</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">m.barszcz@ifzz.pl</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>5</day>
+<month>1</month>
+<year>2018</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2018</year>
+</pub-date>
+<volume>13</volume>
+<issue>1</issue>
+<elocation-id>e0190769</elocation-id>
+<history>
+<date date-type="received">
+<day>29</day>
+<month>6</month>
+<year>2017</year>
+</date>
+<date date-type="accepted">
+<day>28</day>
+<month>11</month>
+<year>2017</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2018</copyright-year>
+<copyright-holder>Barszcz et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0190769"/>
+<abstract>
+<p>Tannic acid (TA) is a polyphenolic compound with a health-promoting potential for humans. It is hypothesised that TA effects on the relative weight of internal organs and biochemical blood indices are modified by dietary protein level in rats. The study involved 72 rats divided into 12 groups fed diets with 10 or 18% of crude protein (CP) and supplemented with 0, 0.25, 0.5, 1, 1.5 or 2% of TA. After 3 weeks of feeding, the relative weight of the caecum was greater in rats fed TA diets, while feeding diets with 10% of CP increased the relative weight of the stomach, small intestine and caecum, but decreased that of kidneys and spleen. Albumin concentration was higher in rats fed 0.25% and 0.5% TA diets than in rats given the 2% TA diets. The 2% TA diets reduced creatine kinase (CK) activity compared to non-supplemented diets and those with 0.5, 1 and 1.5% of TA. Rats fed the 10% CP diets had a higher activity of alkaline phosphatase, amylase, and γ-glutamyltransferase as well as the concentration of iron and cholesterol, but lower that of urea and uric acid. The interaction affected only cholinesterase activity. In conclusion, TA induced caecal hypertrophy and could act as a cardioprotective agent, as demonstrated by reduced CK activity, but these effects were not modified by dietary protein level.</p>
+</abstract>
+<funding-group>
+<funding-statement>This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="0"/>
+<table-count count="3"/>
+<page-count count="9"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Tannic acid (TA) is a polyphenolic compound consisting of a central glucose molecule, which hydroxyl groups are linked by ester bonds with gallic acid moieties. One molecule contains 8 to 10 moles of gallic acid per mole of glucose [<xref ref-type="bibr" rid="pone.0190769.ref001">1</xref>]. TA is a well-known representative of gallotannins, a class of hydrolysable tannins, which are widely distributed throughout the feeds and foods of plant origin [<xref ref-type="bibr" rid="pone.0190769.ref002">2</xref>]. TA is a potent antioxidant with antimutagenic and anticarcinogenic properties. Thus, it may protect DNA against oxidative damage and may be useful in the therapy of diseases related to oxidative stress such as colorectal cancer and heart and liver damage [<xref ref-type="bibr" rid="pone.0190769.ref003">3</xref>–<xref ref-type="bibr" rid="pone.0190769.ref005">5</xref>]. Its health-promoting potential may be applied in farm animal nutrition, as previously shown for gallotannin preparation that improved feed efficiency and reduced proteolytic fermentation in the caecum of piglets [<xref ref-type="bibr" rid="pone.0190769.ref006">6</xref>]. However, TA forms insoluble complexes with dietary protein, causing its reduced digestibility [<xref ref-type="bibr" rid="pone.0190769.ref007">7</xref>]. This activity of TA results from the great number of hydroxyl groups and is responsible for the inhibition of digestive enzymes, which loose their catalytic activity due to configuration changes [<xref ref-type="bibr" rid="pone.0190769.ref008">8</xref>]. Therefore, TA is traditionally classified as an antinutritional factor for animals, because it negatively affects growth performance and is toxic in high doses. The effects of TA include alterations in morphology and physiology of internal organs such as the liver, intestine, kidneys and spleen [<xref ref-type="bibr" rid="pone.0190769.ref009">9</xref>,<xref ref-type="bibr" rid="pone.0190769.ref010">10</xref>]. Disorders in organ physiology may be reflected in biochemical blood indices. Currently, growing interest in the use of TA as a health-promoting substance is observed [<xref ref-type="bibr" rid="pone.0190769.ref005">5</xref>,<xref ref-type="bibr" rid="pone.0190769.ref011">11</xref>–<xref ref-type="bibr" rid="pone.0190769.ref013">13</xref>], but there are no results concerning its effect on biochemical blood parameters, which should be evaluated, because they clearly indicate the health status of the organism. These indices might be also affected by dietary protein level, as found in the past for plasma total protein, albumin, lipid profile and tissue iron concentration [<xref ref-type="bibr" rid="pone.0190769.ref014">14</xref>–<xref ref-type="bibr" rid="pone.0190769.ref016">16</xref>]. Considering that TA binds to dietary protein, determination of the interactive effect of both factors on physiological parameters seems to be particularly important. Therefore, the present study was performed to investigate the effect of dietary level of TA and crude protein (CP) on the relative weight of internal organs and biochemical blood profile in rats as model animals. It was specifically hypothesised that TA effects could be modified by dietary protein level.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and methods</title>
+<sec id="sec003">
+<title>Ethics statement</title>
+<p>All procedures were approved by the Third Warsaw Local Ethics Committee for Animal Experimentation (Warsaw University of Life Sciences-SGGW, Warsaw, Poland), according to the principles of the European Union and Polish Law on Animal Protection.</p>
+</sec>
+<sec id="sec004">
+<title>Rats, diets and experimental design</title>
+<p>The experiment was performed on 72 ten-week-old male Crl:W (Han) Wistar rats, divided into 12 groups, each of an average initial body weight of 189 ± 1.4 g. Rats were fed casein-based diets with 10% or 18% of CP and supplemented with 0, 0.25, 0.5, 1, 1.5 or 2% of TA (<xref ref-type="table" rid="pone.0190769.t001">Table 1</xref>). Animals were kept individually in wire-bottom metabolic cages to collect faeces for analysis of protein digestibility, as described previously [<xref ref-type="bibr" rid="pone.0190769.ref007">7</xref>]. Housing temperature was maintained at 22 ± 1°C and the light regimen was 12 h light/12 dark. Animals had free access to feed and water throughout the experiment.</p>
+<table-wrap id="pone.0190769.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0190769.t001</object-id>
+<label>Table 1</label> <caption><title>Composition of experimental diets (%).</title></caption>
+<alternatives>
+<graphic id="pone.0190769.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0190769.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">CP<xref ref-type="table-fn" rid="t001fn001"><sup>1</sup></xref> level, %</th>
+<th align="center" colspan="6">10</th>
+<th align="center" colspan="6">18</th>
+</tr>
+<tr>
+<th align="left">TA<xref ref-type="table-fn" rid="t001fn002"><sup>2</sup></xref> level, %</th>
+<th align="center">0.0</th>
+<th align="center">0.25</th>
+<th align="center">0.5</th>
+<th align="center">1.0</th>
+<th align="center">1.5</th>
+<th align="center">2.0</th>
+<th align="center">0.0</th>
+<th align="center">0.25</th>
+<th align="center">0.5</th>
+<th align="center">1.0</th>
+<th align="center">1.5</th>
+<th align="center">2.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Casein</td>
+<td align="char" char=".">12.9</td>
+<td align="char" char=".">12.9</td>
+<td align="char" char=".">12.9</td>
+<td align="char" char=".">12.9</td>
+<td align="char" char=".">12.9</td>
+<td align="char" char=".">12.9</td>
+<td align="char" char=".">23.3</td>
+<td align="char" char=".">23.3</td>
+<td align="char" char=".">23.3</td>
+<td align="char" char=".">23.3</td>
+<td align="char" char=".">23.3</td>
+<td align="char" char=".">23.3</td>
+</tr>
+<tr>
+<td align="left">Tannic acid</td>
+<td align="char" char=".">0.0</td>
+<td align="char" char=".">0.25</td>
+<td align="char" char=".">0.5</td>
+<td align="char" char=".">1.0</td>
+<td align="char" char=".">1.5</td>
+<td align="char" char=".">2.0</td>
+<td align="char" char=".">0.0</td>
+<td align="char" char=".">0.25</td>
+<td align="char" char=".">0.5</td>
+<td align="char" char=".">1.0</td>
+<td align="char" char=".">1.5</td>
+<td align="char" char=".">2.0</td>
+</tr>
+<tr>
+<td align="left">Corn starch</td>
+<td align="char" char=".">53.7</td>
+<td align="char" char=".">53.5</td>
+<td align="char" char=".">53.2</td>
+<td align="char" char=".">52.7</td>
+<td align="char" char=".">52.2</td>
+<td align="char" char=".">51.7</td>
+<td align="char" char=".">43.3</td>
+<td align="char" char=".">43.1</td>
+<td align="char" char=".">42.8</td>
+<td align="char" char=".">42.3</td>
+<td align="char" char=".">41.8</td>
+<td align="char" char=".">41.3</td>
+</tr>
+<tr>
+<td align="left">Sucrose</td>
+<td align="char" char=".">12.0</td>
+<td align="char" char=".">12.0</td>
+<td align="char" char=".">12.0</td>
+<td align="char" char=".">12.0</td>
+<td align="char" char=".">12.0</td>
+<td align="char" char=".">12.0</td>
+<td align="char" char=".">12.0</td>
+<td align="char" char=".">12.0</td>
+<td align="char" char=".">12.0</td>
+<td align="char" char=".">12.0</td>
+<td align="char" char=".">12.0</td>
+<td align="char" char=".">12.0</td>
+</tr>
+<tr>
+<td align="left">Pectin</td>
+<td align="char" char=".">8.0</td>
+<td align="char" char=".">8.0</td>
+<td align="char" char=".">8.0</td>
+<td align="char" char=".">8.0</td>
+<td align="char" char=".">8.0</td>
+<td align="char" char=".">8.0</td>
+<td align="char" char=".">8.0</td>
+<td align="char" char=".">8.0</td>
+<td align="char" char=".">8.0</td>
+<td align="char" char=".">8.0</td>
+<td align="char" char=".">8.0</td>
+<td align="char" char=".">8.0</td>
+</tr>
+<tr>
+<td align="left">Cellulose</td>
+<td align="char" char=".">4.0</td>
+<td align="char" char=".">4.0</td>
+<td align="char" char=".">4.0</td>
+<td align="char" char=".">4.0</td>
+<td align="char" char=".">4.0</td>
+<td align="char" char=".">4.0</td>
+<td align="char" char=".">4.0</td>
+<td align="char" char=".">4.0</td>
+<td align="char" char=".">4.0</td>
+<td align="char" char=".">4.0</td>
+<td align="char" char=".">4.0</td>
+<td align="char" char=".">4.0</td>
+</tr>
+<tr>
+<td align="left">Soybean oil</td>
+<td align="char" char=".">4.3</td>
+<td align="char" char=".">4.3</td>
+<td align="char" char=".">4.3</td>
+<td align="char" char=".">4.3</td>
+<td align="char" char=".">4.3</td>
+<td align="char" char=".">4.3</td>
+<td align="char" char=".">4.3</td>
+<td align="char" char=".">4.3</td>
+<td align="char" char=".">4.3</td>
+<td align="char" char=".">4.3</td>
+<td align="char" char=".">4.3</td>
+<td align="char" char=".">4.3</td>
+</tr>
+<tr>
+<td align="left">DL-methionine</td>
+<td align="char" char=".">0.09</td>
+<td align="char" char=".">0.09</td>
+<td align="char" char=".">0.09</td>
+<td align="char" char=".">0.09</td>
+<td align="char" char=".">0.09</td>
+<td align="char" char=".">0.09</td>
+<td align="char" char=".">0.09</td>
+<td align="char" char=".">0.09</td>
+<td align="char" char=".">0.09</td>
+<td align="char" char=".">0.09</td>
+<td align="char" char=".">0.09</td>
+<td align="char" char=".">0.09</td>
+</tr>
+<tr>
+<td align="left">Mineral mix<xref ref-type="table-fn" rid="t001fn003"><sup>3</sup></xref></td>
+<td align="char" char=".">3.0</td>
+<td align="char" char=".">3.0</td>
+<td align="char" char=".">3.0</td>
+<td align="char" char=".">3.0</td>
+<td align="char" char=".">3.0</td>
+<td align="char" char=".">3.0</td>
+<td align="char" char=".">3.0</td>
+<td align="char" char=".">3.0</td>
+<td align="char" char=".">3.0</td>
+<td align="char" char=".">3.0</td>
+<td align="char" char=".">3.0</td>
+<td align="char" char=".">3.0</td>
+</tr>
+<tr>
+<td align="left">Vitamin mix<xref ref-type="table-fn" rid="t001fn004"><sup>4</sup></xref></td>
+<td align="char" char=".">2.0</td>
+<td align="char" char=".">2.0</td>
+<td align="char" char=".">2.0</td>
+<td align="char" char=".">2.0</td>
+<td align="char" char=".">2.0</td>
+<td align="char" char=".">2.0</td>
+<td align="char" char=".">2.0</td>
+<td align="char" char=".">2.0</td>
+<td align="char" char=".">2.0</td>
+<td align="char" char=".">2.0</td>
+<td align="char" char=".">2.0</td>
+<td align="char" char=".">2.0</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p><sup>1</sup>Crude protein</p></fn>
+<fn id="t001fn002"><p><sup>2</sup>Tannic acid</p></fn>
+<fn id="t001fn003"><p><sup>3</sup>AIN-93G Mineral Mix (MP Biomedicals, Inc., Eschwege, Germany); %: calcium carbonate 35.7; monopotassium phosphate 19.6; potassium citrate monohydrate 7.078; sodium chloride 7.4; potassium sulphate 4.66; magnesium oxide 2.4; ferric citrate 0.606; zinc carbonate 0.165; manganese carbonate 0.063; copper carbonate 0.03; potassium iodate 0.001; sodium selenate, anhydrous 0.00103; ammonium molybdate·4H<sub>2</sub>O 0.000795; sodium metasilicate·9H<sub>2</sub>O 0.145; chromium potassium sulfate·12H<sub>2</sub>O 0.0275; lithium chloride 0.00174; boric acid 0.008145; sodium fluoride 0.00635; nickel carbonate 0.00318; ammonium vanadate 0.00066; powdered sugar 22.1.</p></fn>
+<fn id="t001fn004"><p><sup>4</sup>AIN-93-VX Vitamin Mix (MP Biomedicals, Inc., Eschwege, Germany); g/kg: nicotinic acid 3.00; D-calcium pantothenate 1.60; pyridoxine HCl 0.70; thiamine HCl 0.60; riboflavin 0.60; folic acid 0.20; D-biotin 0.02; vitamin B<sub>12</sub> (0.1% triturated in mannitol) 2.50; α-tocopherol powder (250 IU/g) 30.00; vitamin A palmitate (250 000 IU/g) 1.60; vitamin D<sub>3</sub> (400 000 IU/g) 0.25; phylloquinone 0.075; powdered sucrose 959.655.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec005">
+<title>Sample collection</title>
+<p>After 21 days of the experiment, the rats were sacrificed by CO<sub>2</sub> asphyxiation and cervical dislocation. Blood samples were taken into heparinised tubes by cardiac puncture, centrifuged (3350 g, 10 min) and plasma was stored at -40°C for further analyses. Internal organs (liver, pancreas, stomach, small intestine, caecum, spleen, kidneys) were excised, cleaned and weighed. Digestive organs were emptied by squeezing out the digesta, flushed with physiological saline, blotted dry and weighed.</p>
+</sec>
+<sec id="sec006">
+<title>Biochemical blood parameters</title>
+<p>Blood plasma was analysed for: total protein, albumin, urea, uric acid, creatinine, cholesterol, high-density lipoprotein, triacylglycerols, total bilirubin, alanine aminotransferase, aspartate aminotransferase, γ-glutamyltransferase (γ-GT), alkaline phosphatase (ALP), creatine kinase (CK), amylase, cholinesterase, lactate dehydrogenase, glucose, chloride, phosphorus, iron, calcium and magnesium. All parameters were determined spectrophotometrically on a MAXMAT PL multidisciplinary diagnostic platform (Erba Diagnostics France SARL, Montpellier, France) using ready-to-use reagents (ELITech Group, Puteaux, France).</p>
+</sec>
+<sec id="sec007">
+<title>Statistical analysis</title>
+<p>Data were analysed by two-way analysis of variance followed by Duncan’s multiple range test using the STATGRAPHICS<sup>®</sup> Centurion XVI ver. 16.1.03 statistical package (StatPoint Technologies, Inc., Warrenton, Virginia, USA). The significance level was set at P &lt; 0.05.</p>
+</sec>
+</sec>
+<sec id="sec008" sec-type="results">
+<title>Results</title>
+<p>All TA diets significantly increased (P &lt; 0.05) the relative weight of caecal tissue compared to non-supplemented diets. The greatest differences were found between control animals and rats fed diets with 1.5% and 2% of TA (<xref ref-type="table" rid="pone.0190769.t002">Table 2</xref>, <xref ref-type="supplementary-material" rid="pone.0190769.s001">S1 Table</xref>). The dietary level of CP significantly affected the relative weight of the stomach, small intestine, caecum, kidneys and spleen (P &lt; 0.05). Rats fed the 10% CP diets had a higher weight of the stomach, small intestine and caecum, but lower of kidneys and spleen, as compared with the animals administered the 18% CP diets. There was no effect of CP level on the relative weight of the liver and pancreas. The relative weight of internal organs was not affected by the interaction.</p>
+<table-wrap id="pone.0190769.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0190769.t002</object-id>
+<label>Table 2</label> <caption><title>Relative weight of internal organs (g/100 g body weight) of rats.</title> <p>Data are presented as mean ± SD.</p></caption>
+<alternatives>
+<graphic id="pone.0190769.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0190769.t002" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" colspan="2">Experimental factors</th>
+<th align="left" rowspan="2">Stomach</th>
+<th align="left" rowspan="2">Small intestine</th>
+<th align="left" rowspan="2">Caecum</th>
+<th align="left" rowspan="2">Liver</th>
+<th align="left" rowspan="2">Pancreas</th>
+<th align="left" rowspan="2">Kidneys</th>
+<th align="left" rowspan="2">Spleen</th>
+</tr>
+<tr>
+<th align="left">CP<xref ref-type="table-fn" rid="t002fn001"><sup>1</sup></xref> level, %</th>
+<th align="left">TA<xref ref-type="table-fn" rid="t002fn002"><sup>2</sup></xref> level, %</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">10</td>
+<td align="char" char=".">0.0</td>
+<td align="center">0.41<xref ref-type="table-fn" rid="t002fn003">*</xref> ± 0.04</td>
+<td align="center">2.83<xref ref-type="table-fn" rid="t002fn003">*</xref> ± 0.54</td>
+<td align="center">0.28<xref ref-type="table-fn" rid="t002fn003">*</xref><xref ref-type="table-fn" rid="t002fn004"><sup>a</sup></xref> ± 0.04</td>
+<td align="center">3.79 ± 0.41</td>
+<td align="center">0.34 ± 0.07</td>
+<td align="center">0.63<xref ref-type="table-fn" rid="t002fn003">*</xref> ± 0.03</td>
+<td align="center">0.21<xref ref-type="table-fn" rid="t002fn003">*</xref> ± 0.01</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="char" char=".">0.25</td>
+<td align="center">0.46<xref ref-type="table-fn" rid="t002fn003">*</xref> ± 0.04</td>
+<td align="center">3.43<xref ref-type="table-fn" rid="t002fn003">*</xref> ± 0.59</td>
+<td align="center">0.34<xref ref-type="table-fn" rid="t002fn003">*</xref><xref ref-type="table-fn" rid="t002fn004"><sup>b</sup></xref> ± 0.03</td>
+<td align="center">3.96 ± 0.36</td>
+<td align="center">0.36 ± 0.06</td>
+<td align="center">0.68<xref ref-type="table-fn" rid="t002fn003">*</xref> ± 0.04</td>
+<td align="center">0.19<xref ref-type="table-fn" rid="t002fn003">*</xref> ± 0.02</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="char" char=".">0.5</td>
+<td align="center">0.44<xref ref-type="table-fn" rid="t002fn003">*</xref> ± 0.02</td>
+<td align="center">3.14<xref ref-type="table-fn" rid="t002fn003">*</xref> ± 0.44</td>
+<td align="center">0.33<xref ref-type="table-fn" rid="t002fn003">*</xref><xref ref-type="table-fn" rid="t002fn004"><sup>b</sup></xref> ± 0.06</td>
+<td align="center">4.07 ± 0.40</td>
+<td align="center">0.38 ± 0.04</td>
+<td align="center">0.65<xref ref-type="table-fn" rid="t002fn003">*</xref> ± 0.07</td>
+<td align="center">0.22<xref ref-type="table-fn" rid="t002fn003">*</xref> ± 0.04</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="char" char=".">1.0</td>
+<td align="center">0.45<xref ref-type="table-fn" rid="t002fn003">*</xref> ± 0.04</td>
+<td align="center">3.47<xref ref-type="table-fn" rid="t002fn003">*</xref> ± 0.52</td>
+<td align="center">0.36<xref ref-type="table-fn" rid="t002fn003">*</xref><xref ref-type="table-fn" rid="t002fn004"><sup>b</sup></xref> ± 0.03</td>
+<td align="center">4.15 ± 0.24</td>
+<td align="center">0.42 ± 0.09</td>
+<td align="center">0.69<xref ref-type="table-fn" rid="t002fn003">*</xref> ± 0.05</td>
+<td align="center">0.20<xref ref-type="table-fn" rid="t002fn003">*</xref> ± 0.01</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="char" char=".">1.5</td>
+<td align="center">0.45<xref ref-type="table-fn" rid="t002fn003">*</xref> ± 0.05</td>
+<td align="center">3.13<xref ref-type="table-fn" rid="t002fn003">*</xref> ± 0.34</td>
+<td align="center">0.34<xref ref-type="table-fn" rid="t002fn003">*</xref><xref ref-type="table-fn" rid="t002fn004"><sup>b</sup></xref> ± 0.06</td>
+<td align="center">4.16 ± 0.30</td>
+<td align="center">0.40 ± 0.12</td>
+<td align="center">0.66<xref ref-type="table-fn" rid="t002fn003">*</xref> ± 0.06</td>
+<td align="center">0.19<xref ref-type="table-fn" rid="t002fn003">*</xref> ± 0.01</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="char" char=".">2.0</td>
+<td align="center">0.47<xref ref-type="table-fn" rid="t002fn003">*</xref> ± 0.05</td>
+<td align="center">3.42<xref ref-type="table-fn" rid="t002fn003">*</xref> ± 0.53</td>
+<td align="center">0.44<xref ref-type="table-fn" rid="t002fn003">*</xref><sup>c</sup> ± 0.04</td>
+<td align="center">3.93 ± 0.25</td>
+<td align="center">0.40 ± 0.11</td>
+<td align="center">0.67<xref ref-type="table-fn" rid="t002fn003">*</xref> ± 0.04</td>
+<td align="center">0.20<xref ref-type="table-fn" rid="t002fn003">*</xref> ± 0.03</td>
+</tr>
+<tr>
+<td align="left">18</td>
+<td align="char" char=".">0.0</td>
+<td align="center">0.40 ± 0.05</td>
+<td align="center">2.77 ± 0.50</td>
+<td align="center">0.27<xref ref-type="table-fn" rid="t002fn004"><sup>a</sup></xref> ± 0.02</td>
+<td align="center">3.88 ± 0.37</td>
+<td align="center">0.38 ± 0.06</td>
+<td align="center">0.73 ± 0.05</td>
+<td align="center">0.22 ± 0.01</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="char" char=".">0.25</td>
+<td align="center">0.42 ± 0.03</td>
+<td align="center">2.76 ± 0.37</td>
+<td align="center">0.30<xref ref-type="table-fn" rid="t002fn004"><sup>b</sup></xref> ± 0.03</td>
+<td align="center">4.07 ± 0.37</td>
+<td align="center">0.40 ± 0.07</td>
+<td align="center">0.70 ± 0.07</td>
+<td align="center">0.20 ± 0.04</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="char" char=".">0.5</td>
+<td align="center">0.42 ± 0.02</td>
+<td align="center">3.09 ± 0.49</td>
+<td align="center">0.31<xref ref-type="table-fn" rid="t002fn004"><sup>b</sup></xref> ± 0.03</td>
+<td align="center">4.00 ± 0.13</td>
+<td align="center">0.37 ± 0.05</td>
+<td align="center">0.70 ± 0.04</td>
+<td align="center">0.22 ± 0.02</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="char" char=".">1.0</td>
+<td align="center">0.40 ± 0.05</td>
+<td align="center">2.84 ± 0.52</td>
+<td align="center">0.33<xref ref-type="table-fn" rid="t002fn004"><sup>b</sup></xref> ± 0.04</td>
+<td align="center">4.02 ± 0.48</td>
+<td align="center">0.37 ± 0.06</td>
+<td align="center">0.68 ± 0.03</td>
+<td align="center">0.23 ± 0.02</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="char" char=".">1.5</td>
+<td align="center">0.44 ± 0.04</td>
+<td align="center">3.18 ± 0.73</td>
+<td align="center">0.36<xref ref-type="table-fn" rid="t002fn004"><sup>b</sup></xref> ± 0.08</td>
+<td align="center">4.17 ± 0.46</td>
+<td align="center">0.42 ± 0.09</td>
+<td align="center">0.70 ± 0.04</td>
+<td align="center">0.21 ± 0.05</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="char" char=".">2.0</td>
+<td align="center">0.43 ± 0.05</td>
+<td align="center">2.97 ± 0.62</td>
+<td align="center">0.38<sup>c</sup> ± 0.05</td>
+<td align="center">4.24 ± 0.45</td>
+<td align="center">0.37 ± 0.06</td>
+<td align="center">0.68 ± 0.04</td>
+<td align="center">0.22 ± 0.02</td>
+</tr>
+<tr>
+<td align="left" colspan="2">SEM</td>
+<td align="center">0.005</td>
+<td align="center">0.064</td>
+<td align="center">0.007</td>
+<td align="center">0.042</td>
+<td align="center">0.009</td>
+<td align="center">0.006</td>
+<td align="center">0.003</td>
+</tr>
+<tr>
+<td align="left" colspan="2">ANOVA: P values</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left" colspan="2">CP level</td>
+<td align="center">&lt; 0.001</td>
+<td align="center">0.018</td>
+<td align="center">0.027</td>
+<td align="center">0.529</td>
+<td align="center">0.862</td>
+<td align="center">&lt; 0.001</td>
+<td align="center">0.037</td>
+</tr>
+<tr>
+<td align="left" colspan="2">TA level</td>
+<td align="center">0.088</td>
+<td align="center">0.465</td>
+<td align="center">&lt;0.001</td>
+<td align="center">0.365</td>
+<td align="center">0.648</td>
+<td align="center">0.945</td>
+<td align="center">0.205</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Interaction</td>
+<td align="center">0.720</td>
+<td align="center">0.362</td>
+<td align="center">0.421</td>
+<td align="center">0.732</td>
+<td align="center">0.593</td>
+<td align="center">0.080</td>
+<td align="center">0.790</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p><sup>1</sup>Crude protein.</p></fn>
+<fn id="t002fn002"><p><sup>2</sup>Tannic acid.</p></fn>
+<fn id="t002fn003"><p>*Overall mean for rats fed diets with 10% of CP (n = 36) differs significantly from that of rats fed diets with 18% of CP (n = 36).</p></fn>
+<fn id="t002fn004"><p><sup>a,b</sup>Lowercase letters refer to the overall means calculated for each level of TA (n = 12), regardless of CP level. Overall means with different letters differ significantly.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>TA level significantly affected albumin and phosphorus concentration, and the activity of CK in blood (<xref ref-type="table" rid="pone.0190769.t003">Table 3</xref>, <xref ref-type="supplementary-material" rid="pone.0190769.s002">S2 Table</xref>). Albumin concentration was higher in rats fed diets with 0.25% and 0.5% of TA than in rats given diets supplemented with 2% of TA (P &lt; 0.05), whereas phosphorus level was higher in rats on the 0.25% and 2% TA diets than in animals on the 1% TA diets (P &lt; 0.05). Feeding diets with 2% of TA significantly reduced the activity of CK compared to rats fed diets without TA and with 0.5%, 1%, and 1.5% of TA (P &lt; 0.05). Rats fed diets containing 10% of CP had a significantly higher activity of ALP, amylase and γ-GT, and the concentration of iron and cholesterol, but a lower level of urea and uric acid in blood plasma, compared to animals administered diets with a higher CP content (P &lt; 0.05). The effect of interaction was only found with respect to cholinesterase activity (P &lt; 0.05). Supplementation of lower protein-diets with 0.25% and 0.5% of TA increased cholinesterase activity compared to the control group and rats given diets with 1%, 1.5%, and 2% of TA, whereas all TA levels reduced cholinesterase activity in rats on higher protein-diets compared to the control group. Other biochemical blood parameters were not significantly affected by the experimental factors (data not shown).</p>
+<table-wrap id="pone.0190769.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0190769.t003</object-id>
+<label>Table 3</label> <caption><title>Biochemical blood parameters of rats<xref ref-type="table-fn" rid="t003fn001"><sup>1</sup></xref>.</title> <p>Data are presented as mean ± SD.</p></caption>
+<alternatives>
+<graphic id="pone.0190769.t003g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0190769.t003" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" colspan="2">Experimental factors</th>
+<th align="left" rowspan="2">Albumin, g/L</th>
+<th align="left" rowspan="2">Urea, mmol/L</th>
+<th align="left" rowspan="2">Uric acid, μmol/L</th>
+<th align="left" rowspan="2">Cholesterol, mmol/L</th>
+<th align="left" rowspan="2">ALP<xref ref-type="table-fn" rid="t003fn004"><sup>4</sup></xref>, U/L</th>
+<th align="left" rowspan="2">γ-GT<xref ref-type="table-fn" rid="t003fn005"><sup>5</sup></xref>, U/L</th>
+<th align="left" rowspan="2">Amylase, U/L</th>
+<th align="left" rowspan="2">CK<xref ref-type="table-fn" rid="t003fn006"><sup>6</sup></xref>, U/L</th>
+<th align="left" rowspan="2">CHE<xref ref-type="table-fn" rid="t003fn007"><sup>7</sup></xref>, U/L</th>
+<th align="left" rowspan="2">Phosphorus, mmol/L</th>
+<th align="left" rowspan="2">Iron, μmol/L</th>
+</tr>
+<tr>
+<th align="left">CP<xref ref-type="table-fn" rid="t003fn002"><sup>2</sup></xref> level, %</th>
+<th align="left">TA<xref ref-type="table-fn" rid="t003fn003"><sup>3</sup></xref> level, %</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">10</td>
+<td align="char" char=".">0.0</td>
+<td align="center">36<xref ref-type="table-fn" rid="t003fn009"><sup>a</sup></xref><xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 3.2</td>
+<td align="left">4.7<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 1.1</td>
+<td align="center">170<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 123</td>
+<td align="center">1.6<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 0.5</td>
+<td align="left">369<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 100</td>
+<td align="left">1.7<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 1.4</td>
+<td align="left">931<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 223</td>
+<td align="left">126<xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 27</td>
+<td align="left">238<xref ref-type="table-fn" rid="t003fn010"><sup>A</sup></xref><xref ref-type="table-fn" rid="t003fn010"><sup>B</sup></xref> ± 46</td>
+<td align="center">2.49<xref ref-type="table-fn" rid="t003fn009"><sup>a</sup></xref><xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 0.58</td>
+<td align="left">29.6<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 15.5</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="char" char=".">0.25</td>
+<td align="center">36<xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 0.9</td>
+<td align="left">4.6<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 0.6</td>
+<td align="center">171<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 35</td>
+<td align="center">1.6<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 0.3</td>
+<td align="left">428<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 79</td>
+<td align="left">1.3<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 2.0</td>
+<td align="left">794<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 207</td>
+<td align="left">99<xref ref-type="table-fn" rid="t003fn009"><sup>a</sup></xref><xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 39</td>
+<td align="left">267<xref ref-type="table-fn" rid="t003fn010"><sup>A</sup></xref><xref ref-type="table-fn" rid="t003fn010"><sup>B</sup></xref> ± 49</td>
+<td align="center">2.69<xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 0.13</td>
+<td align="left">40.1<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 13.4</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="char" char=".">0.5</td>
+<td align="center">37<xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 3.3</td>
+<td align="left">5.1<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 0.9</td>
+<td align="center">152<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 50</td>
+<td align="center">1.7<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 0.3</td>
+<td align="left">376<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 85</td>
+<td align="left">0.8<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 2.0</td>
+<td align="left">906<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 155</td>
+<td align="left">138<xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 62</td>
+<td align="left">291<xref ref-type="table-fn" rid="t003fn010"><sup>B</sup></xref> ± 36</td>
+<td align="center">2.51<xref ref-type="table-fn" rid="t003fn009"><sup>a</sup></xref><xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 0.22</td>
+<td align="left">33.4<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 14.0</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="char" char=".">1.0</td>
+<td align="center">34<xref ref-type="table-fn" rid="t003fn009"><sup>a</sup></xref><xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 1.4</td>
+<td align="left">4.4<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 0.5</td>
+<td align="center">162<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 44</td>
+<td align="center">1.5<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 0.2</td>
+<td align="left">513<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 259</td>
+<td align="left">0.5<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 0.8</td>
+<td align="left">924<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 132</td>
+<td align="left">90<xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 33</td>
+<td align="left">242<xref ref-type="table-fn" rid="t003fn010"><sup>A</sup></xref><xref ref-type="table-fn" rid="t003fn010"><sup>B</sup></xref> ± 42</td>
+<td align="center">2.16<xref ref-type="table-fn" rid="t003fn009"><sup>a</sup></xref> ± 0.39</td>
+<td align="left">43.4<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 13.8</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="char" char=".">1.5</td>
+<td align="center">35<xref ref-type="table-fn" rid="t003fn009"><sup>a</sup></xref><xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 0.9</td>
+<td align="left">3.7<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 0.6</td>
+<td align="center">150<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 46</td>
+<td align="center">1.6<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 0.2</td>
+<td align="left">418<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 234</td>
+<td align="left">2.4<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 2.4</td>
+<td align="left">922<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 101</td>
+<td align="left">148<xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 96</td>
+<td align="left">228<xref ref-type="table-fn" rid="t003fn010"><sup>A</sup></xref><xref ref-type="table-fn" rid="t003fn010"><sup>B</sup></xref> ± 36</td>
+<td align="center">2.31<xref ref-type="table-fn" rid="t003fn009"><sup>a</sup></xref><xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 0.47</td>
+<td align="left">32.5<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 17.6</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="char" char=".">2.0</td>
+<td align="center">33<xref ref-type="table-fn" rid="t003fn009"><sup>a</sup></xref> ± 1.6</td>
+<td align="left">3.6<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 1.6</td>
+<td align="center">113<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 43</td>
+<td align="center">1.6<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 0.3</td>
+<td align="left">315<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 28</td>
+<td align="left">1.6<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 1.3</td>
+<td align="left">734<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 105</td>
+<td align="left">47<xref ref-type="table-fn" rid="t003fn009"><sup>a</sup></xref> ± 11</td>
+<td align="left">204<xref ref-type="table-fn" rid="t003fn010"><sup>A</sup></xref> ± 58</td>
+<td align="center">2.64<xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 0.54</td>
+<td align="left">32.4<xref ref-type="table-fn" rid="t003fn008">*</xref> ± 12.6</td>
+</tr>
+<tr>
+<td align="left">18</td>
+<td align="char" char=".">0.0</td>
+<td align="center">35<xref ref-type="table-fn" rid="t003fn009"><sup>a</sup></xref><xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 1.4</td>
+<td align="left">6.0 ± 1.7</td>
+<td align="center">171 ± 48</td>
+<td align="center">1.3 ± 0.2</td>
+<td align="left">351 ± 58</td>
+<td align="left">0.7 ± 1.1</td>
+<td align="left">768 ± 168</td>
+<td align="left">126<xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 40</td>
+<td align="left">291<xref ref-type="table-fn" rid="t003fn010"><sup>B</sup></xref> ± 50</td>
+<td align="center">2.59<xref ref-type="table-fn" rid="t003fn009"><sup>a</sup></xref><xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 0.19</td>
+<td align="left">24.9 ± 14.3</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="char" char=".">0.25</td>
+<td align="center">37<xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 1.5</td>
+<td align="left">6.4 ± 1.3</td>
+<td align="center">212 ± 99</td>
+<td align="center">1.4 ± 0.3</td>
+<td align="left">323 ± 73</td>
+<td align="left">0.7 ± 0.8</td>
+<td align="left">895 ± 93</td>
+<td align="left">84<xref ref-type="table-fn" rid="t003fn009"><sup>a</sup></xref><xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 49</td>
+<td align="left">224<xref ref-type="table-fn" rid="t003fn010"><sup>A</sup></xref> ± 33</td>
+<td align="center">2.76<xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 0.43</td>
+<td align="left">18.2 ± 11.2</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="char" char=".">0.5</td>
+<td align="center">35<xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 1.2</td>
+<td align="left">6.6 ± 0.7</td>
+<td align="center">230 ± 93</td>
+<td align="center">1.2 ± 0.1</td>
+<td align="left">319 ± 40</td>
+<td align="left">0.9 ± 1.1</td>
+<td align="left">754 ± 105</td>
+<td align="left">88<xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 64</td>
+<td align="left">213<xref ref-type="table-fn" rid="t003fn010"><sup>A</sup></xref> ± 24</td>
+<td align="center">2.56<xref ref-type="table-fn" rid="t003fn009"><sup>a</sup></xref><xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 0.29</td>
+<td align="left">17.9 ± 4.5</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="char" char=".">1.0</td>
+<td align="center">36<xref ref-type="table-fn" rid="t003fn009"><sup>a</sup></xref><xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 3.2</td>
+<td align="left">6.4 ± 0.9</td>
+<td align="center">189 ± 92</td>
+<td align="center">1.2 ± 0.3</td>
+<td align="left">350 ± 158</td>
+<td align="left">0.4 ± 0.8</td>
+<td align="left">799 ± 212</td>
+<td align="left">132<xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 75</td>
+<td align="left">264<xref ref-type="table-fn" rid="t003fn010"><sup>A</sup></xref><xref ref-type="table-fn" rid="t003fn010"><sup>B</sup></xref> ± 77</td>
+<td align="center">2.32<xref ref-type="table-fn" rid="t003fn009"><sup>a</sup></xref> ± 0.28</td>
+<td align="left">17.2 ± 4.3</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="char" char=".">1.5</td>
+<td align="center">35<xref ref-type="table-fn" rid="t003fn009"><sup>a</sup></xref><xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 1.7</td>
+<td align="left">6.9 ± 1.5</td>
+<td align="center">184 ± 62</td>
+<td align="center">1.3 ± 0.2</td>
+<td align="left">295 ± 64</td>
+<td align="left">1.2 ± 0.9</td>
+<td align="left">715 ± 253</td>
+<td align="left">92<xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 69</td>
+<td align="left">217<xref ref-type="table-fn" rid="t003fn010"><sup>A</sup></xref> ± 29</td>
+<td align="center">2.51<xref ref-type="table-fn" rid="t003fn009"><sup>a</sup></xref><xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 0.28</td>
+<td align="left">17.1 ± 5.8</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="char" char=".">2.0</td>
+<td align="center">35<xref ref-type="table-fn" rid="t003fn009"><sup>a</sup></xref> ± 1.1</td>
+<td align="left">7.0 ± 0.5</td>
+<td align="center">169 ± 71</td>
+<td align="center">1.2 ± 0.3</td>
+<td align="left">313 ± 68</td>
+<td align="left">0.5 ± 0.8</td>
+<td align="left">780 ± 131</td>
+<td align="left">67<xref ref-type="table-fn" rid="t003fn009"><sup>a</sup></xref> ± 19</td>
+<td align="left">228<xref ref-type="table-fn" rid="t003fn010"><sup>A</sup></xref><xref ref-type="table-fn" rid="t003fn010"><sup>B</sup></xref> ± 50</td>
+<td align="center">2.75<xref ref-type="table-fn" rid="t003fn009"><sup>b</sup></xref> ± 0.40</td>
+<td align="left">20.2 ± 6.9</td>
+</tr>
+<tr>
+<td align="left" colspan="2">SEM</td>
+<td align="center">0.25</td>
+<td align="left">0.18</td>
+<td align="center">8.6</td>
+<td align="center">0.04</td>
+<td align="left">15.4</td>
+<td align="left">0.17</td>
+<td align="left">20.2</td>
+<td align="left">6.8</td>
+<td align="left">6.1</td>
+<td align="center">0.046</td>
+<td align="left">1.67</td>
+</tr>
+<tr>
+<td align="left" colspan="2">ANOVA: P values</td>
+<td align="center"/>
+<td align="left"/>
+<td align="left"/>
+<td align="center"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="center"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left" colspan="2">CP level</td>
+<td align="center">0.854</td>
+<td align="left">&lt; 0.001</td>
+<td align="center">0.026</td>
+<td align="center">&lt; 0.001</td>
+<td align="left">0.011</td>
+<td align="left">0.048</td>
+<td align="left">0.037</td>
+<td align="left">0.433</td>
+<td align="left">0.611</td>
+<td align="center">0.212</td>
+<td align="left">&lt; 0.001</td>
+</tr>
+<tr>
+<td align="left" colspan="2">TA level</td>
+<td align="center">0.033</td>
+<td align="left">0.849</td>
+<td align="center">0.554</td>
+<td align="center">0.876</td>
+<td align="left">0.346</td>
+<td align="left">0.325</td>
+<td align="left">0.691</td>
+<td align="left">0.032</td>
+<td align="left">0.112</td>
+<td align="center">0.027</td>
+<td align="left">0.863</td>
+</tr>
+<tr>
+<td align="left" colspan="2">Interaction</td>
+<td align="center">0.109</td>
+<td align="left">0.091</td>
+<td align="center">0.857</td>
+<td align="center">0.905</td>
+<td align="left">0.587</td>
+<td align="left">0.798</td>
+<td align="left">0.145</td>
+<td align="left">0.199</td>
+<td align="left">0.015</td>
+<td align="center">0.996</td>
+<td align="left">0.338</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t003fn001"><p><sup>1</sup>Only parameters that were significantly affected by the experimental factors are presented.</p></fn>
+<fn id="t003fn002"><p><sup>2</sup>Crude protein.</p></fn>
+<fn id="t003fn003"><p><sup>3</sup>Tannic acid.</p></fn>
+<fn id="t003fn004"><p><sup>4</sup>Alkaline phosphatase.</p></fn>
+<fn id="t003fn005"><p><sup>5</sup>γ-glutamyltransferase.</p></fn>
+<fn id="t003fn006"><p><sup>6</sup>Creatine kinase.</p></fn>
+<fn id="t003fn007"><p><sup>7</sup>Cholinesterase.</p></fn>
+<fn id="t003fn008"><p>*Overall mean for rats fed diets with 10% of CP (n = 36) differs significantly from that of rats fed diets with 18% of CP (n = 36).</p></fn>
+<fn id="t003fn009"><p><sup>a,b</sup>Lowercase letters refer to the overall means calculated for each level of TA (n = 12), regardless of CP level. Overall means with different letters differ significantly.</p></fn>
+<fn id="t003fn010"><p><sup>A,B</sup>Cholinesterase activity was affected only by the interaction; therefore, superscripts refer to the group average (n = 6) and means within column with different letters differ significantly.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec009" sec-type="conclusions">
+<title>Discussion</title>
+<p>The effect of diet on the relative weight of internal organs reflects changes in their metabolic activity and structure caused by protein, fibre, antinutritional factors and toxins [<xref ref-type="bibr" rid="pone.0190769.ref017">17</xref>]. Owing to the chemical structure, TA cannot be directly absorbed in the intestine but it is hydrolysed in the digestive tract by intestinal or bacterial enzymes. As a polyphenolic compound, TA is conjugated in the intestine during absorption and then in the liver, which facilitates its removal with bile and urine. However, polyphenols, including TA, have the ability to penetrate tissues, especially those involved in their metabolism, i.e. the intestine and the liver [<xref ref-type="bibr" rid="pone.0190769.ref018">18</xref>]. As reported previously [<xref ref-type="bibr" rid="pone.0190769.ref007">7</xref>], TA had no effect on feed intake, but reduced body weight gain of rats and worsened feed conversion ratio. However, the lack of effect of TA level on liver, pancreas and kidney weights may indicate that dietary supplementation with 0.25% to 2% of TA does not generate any toxic effects. The caecum was the only organ, which relative weight was affected by TA supplementation. Previously, it was demonstrated that TA increased the relative weight of caecal digesta and short-chain fatty acid production [<xref ref-type="bibr" rid="pone.0190769.ref007">7</xref>]. Therefore, enlargement of caecal tissue may be explained by reduced digestibility of nutrients and their accumulation in the caecum. This, in turn, intensified microbial activity and increased concentration of these acids that could stimulate epithelial cell proliferation. Similar effects on caecal tissue were also reported in regards to other nutritional factors modulating fermentative processes [<xref ref-type="bibr" rid="pone.0190769.ref019">19</xref>–<xref ref-type="bibr" rid="pone.0190769.ref021">21</xref>].</p>
+<p>Greater relative weights of the stomach, small intestine and caecum in rats fed diets with 10% of CP may be related to worse protein utilisation for muscle growth. This would be consistent with previously shown smaller body weight gains of rats fed diets with lower CP content [<xref ref-type="bibr" rid="pone.0190769.ref007">7</xref>]. This effect may result from a greater need to maintain viscera metabolism than to increase muscle weight. In rats, 43% of protein synthesised in the organism, originates from the liver and digestive tract [<xref ref-type="bibr" rid="pone.0190769.ref022">22</xref>]. However, in the present study, the relative weight of the liver and pancreas was not affected by CP level, which might be related to the age of rats at the beginning of the trial and duration of the experiment. In younger animals, feeding diets with higher protein content increased liver weight [<xref ref-type="bibr" rid="pone.0190769.ref023">23</xref>], but the opposite effect of such diets was also observed [<xref ref-type="bibr" rid="pone.0190769.ref024">24</xref>], indicating that the liver response to dietary protein is not uniform.</p>
+<p>The present study demonstrated a hypertrophic effect of higher CP level on kidneys, which could be explained by the metabolism of larger quantity of nitrogenous compounds in these organs. This is consistent with earlier studies [<xref ref-type="bibr" rid="pone.0190769.ref019">19</xref>,<xref ref-type="bibr" rid="pone.0190769.ref025">25</xref>] and corresponds to higher blood urea and uric acid concentrations in rats fed with the 18% CP diets. Feeding higher-protein diets also increased the relative spleen weight, which might indicate the immune system response [<xref ref-type="bibr" rid="pone.0190769.ref017">17</xref>].</p>
+<p>The biochemical blood profile was only slightly affected by TA level. Feeding diets with 2% of TA considerably reduced the activity of CK, a cardiac marker enzyme, which was in agreement with previous findings of cardioprotective effects of TA and other polyphenols [<xref ref-type="bibr" rid="pone.0190769.ref004">4</xref>,<xref ref-type="bibr" rid="pone.0190769.ref026">26</xref>,<xref ref-type="bibr" rid="pone.0190769.ref027">27</xref>]. It has recently been suggested that TA maintains the integrity of the cardiac cell membrane and prevents the leakage of CK and other cytosolic enzymes into the bloodstream [<xref ref-type="bibr" rid="pone.0190769.ref004">4</xref>], which seems to be confirmed by the results of our study. TA may exert its cardioprotective effect by reduction of Bax/Bcl-2 ratio, expression of c-fos and c-jun, inhibition of NF-κB activation, as well as due to antioxidative and antiinflammatory properties [<xref ref-type="bibr" rid="pone.0190769.ref004">4</xref>]. Cellular mechanism of TA activity also include inhibition of L-type Ca<sup>2+</sup> channels in cardiomyocytes [<xref ref-type="bibr" rid="pone.0190769.ref027">27</xref>]. The effect of TA on blood phosphorus level is difficult to explain and it is not clear why feeding diets with 0.25% and 2% of TA elevated its concentration compared to rats on the 1% TA diets. Analyses of bone metabolism or parathyroid gland activity could provide a better insight into this phenomenon.</p>
+<p>Despite the lack of influence on the liver weight, diets with 2% of TA slightly reduced the concentration of albumin, which is synthesised predominantly in this organ. This effect corresponds with earlier findings of reduced protein digestibility [<xref ref-type="bibr" rid="pone.0190769.ref007">7</xref>], enhancement of catabolic processes [<xref ref-type="bibr" rid="pone.0190769.ref001">1</xref>] and impairment of protein synthesis [<xref ref-type="bibr" rid="pone.0190769.ref010">10</xref>] in the liver of animals fed diets containing tannins. It remains to be elucidated why alterations in albumin concentration, observed in the present study, do not cause any changes in the total protein content in blood plasma.</p>
+<p>Dietary supplementation with TA had no effect on transaminase activities, which was in line with unaffected relative liver weight and indicated that hepatocyte damage did not occur. However, the activity of cholinesterase, synthesised in the liver [<xref ref-type="bibr" rid="pone.0190769.ref028">28</xref>], was altered by the interaction between TA and CP levels. Cholinesterase activity may be influenced by many factors, including protein-energy malnutrition, stress, hepatic injury or inflammatory state [<xref ref-type="bibr" rid="pone.0190769.ref028">28</xref>], but its inhibition may be only evidence of absorption TA metabolite absorption into the bloodstream, as it is for organophosphorus or carbamate esters [<xref ref-type="bibr" rid="pone.0190769.ref029">29</xref>]. Thus, the interactive effect, shown in the present study, may suggest that feeding higher-protein diets to rats facilitates absorption of TA metabolites, even at low dietary TA levels.</p>
+<p>In the present study, it was shown that dietary protein level was an important factor shaping biochemical blood profile, as it affected 7 out of 23 analysed parameters. Contrary to the aforementioned urea and uric acid, feeding diets with 18% of CP reduced cholesterol, iron, amylase, γ-GT and ALP levels. Lower cholesterol concentrations in animals fed diets with a higher protein content were observed in the past [<xref ref-type="bibr" rid="pone.0190769.ref014">14</xref>], and this phenomenon was confirmed in our study. This effect probably results from a greater bacterial production of propionic acid in the caecum of rats, which was described previously [<xref ref-type="bibr" rid="pone.0190769.ref007">7</xref>]. It is known that propionic acid inhibits liver synthesis of cholesterol from acetic acid, probably via the inhibition of 3-hydroxy-3-methylglutaryl-CoA reductase, which is a rate-limiting enzyme in cholesterol synthesis [<xref ref-type="bibr" rid="pone.0190769.ref030">30</xref>,<xref ref-type="bibr" rid="pone.0190769.ref031">31</xref>].</p>
+<p>The effect of CP level on iron concentration and enzyme activities in blood plasma is poorly understood. Higher ALP levels were observed during intensive body growth due to bone formation [<xref ref-type="bibr" rid="pone.0190769.ref032">32</xref>], but in our experiment, it was rather related to the greater relative weight of the small intestine of rats fed the 10% CP diets, as the intestinal ALP isoenzyme was shown to contribute to the total ALP activity in blood plasma [<xref ref-type="bibr" rid="pone.0190769.ref033">33</xref>].</p>
+<p>Considering the kidney’s role in clearing the bloodstream of amylase [<xref ref-type="bibr" rid="pone.0190769.ref034">34</xref>], it could be expected that smaller kidneys in rats fed the 10% CP diets were less efficient than those in rats administered the 18% CP diets. This could be the reason of the elevated activity of this enzyme and could contribute to higher levels of iron and γ-GT. On the other hand, dietary protein level did not affect creatinine concentration, which is used as a marker of glomerular function [<xref ref-type="bibr" rid="pone.0190769.ref035">35</xref>]; thus the effect on the above-mentioned indices remains to be elucidated.</p>
+</sec>
+<sec id="sec010" sec-type="conclusions">
+<title>Conclusions</title>
+<p>The findings of the present study suggested that basic physiological parameters, i.e. the relative weight of internal organs and biochemical blood profile of rats were not affected by the interaction between TA and CP levels, with the exception of cholinesterase activity. TA, up to the 2% dietary level, induced caecal hypertrophy and could act as a cardioprotective agent, as demonstrated by decreased CK activity. CP level had a greater impact on rat physiology than TA because it affected not only the caecum, but also the stomach, small intestine, kidneys and spleen. Feeding diets with a higher CP content had a hypocholesterolemic effect and additionally influenced those biochemical blood indices that might be associated with kidney physiology. However, this phenomenon is unclear and requires further investigations.</p>
+</sec>
+<sec id="sec011">
+<title>Supporting information</title>
+<supplementary-material id="pone.0190769.s001" mimetype="application/vnd.ms-excel" position="float" xlink:href="info:doi/10.1371/journal.pone.0190769.s001" xlink:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Raw and relative weight of organs.</title>
+<p>Raw data.</p>
+<p>(XLS)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0190769.s002" mimetype="application/vnd.ms-excel" position="float" xlink:href="info:doi/10.1371/journal.pone.0190769.s002" xlink:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>Biochemical blood indices.</title>
+<p>Raw data.</p>
+<p>(XLS)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>This research did not receive any specific grant from funding agencies in the public, commercial, or non-profit sectors. The authors wish to thank MSc. Łukasz Staśkiewicz for his great analytical assistance.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0190769.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Marzo</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Urdaneta</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Santidrian</surname> <given-names>S</given-names></name>. <article-title>Liver proteolytic activity in tannic acid-fed birds</article-title>. <source>Poultry Sci</source>. <year>2002</year>; <volume>81</volume>: <fpage>92</fpage>–<lpage>94</lpage>.</mixed-citation></ref>
+<ref id="pone.0190769.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Serrano</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Puupponen-Pimiä</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Dauer</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Aura</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Saura-Calixto</surname> <given-names>F</given-names></name>. <article-title>Tannins: current knowledge of food sources, intake, bioavailability and biological effects</article-title>. <source>Mol Nutr Food Res</source>. <year>2009</year>; <volume>53</volume>: <fpage>S310</fpage> –<lpage>S329</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/mnfr.200900039" xlink:type="simple">10.1002/mnfr.200900039</ext-link></comment> <object-id pub-id-type="pmid">19437486</object-id></mixed-citation></ref>
+<ref id="pone.0190769.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Weinberg</surname> <given-names>ED</given-names></name>. <article-title>Association of iron with colorectal cancer</article-title>. <source>Biometals</source>. <year>1994</year>;<volume>7</volume>: <fpage>211</fpage>–<lpage>216</lpage>. <object-id pub-id-type="pmid">8043985</object-id></mixed-citation></ref>
+<ref id="pone.0190769.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hu</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Lv</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Chu</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Wei</surname> <given-names>X</given-names></name>, <etal>et al</etal>. <article-title>Cardioprotective effects of tannic acid on isoproterenol-induced myocardial injury in rats: further insight into ‘French paradox’</article-title>. <source>Phytother Res</source>. <year>2015</year>; <volume>29</volume>: <fpage>1295</fpage>–<lpage>1303</lpage>.</mixed-citation></ref>
+<ref id="pone.0190769.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chu</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Jiang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Bao</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>X</given-names></name>, <etal>et al</etal>. <article-title>Ameliorative effects of tannic acid on carbon tetrachloride-induced liver fibrosis in vivo and in vitro</article-title>. <source>J Pharmacol Sci</source>. <year>2016</year>; <volume>130</volume>: <fpage>15</fpage>–<lpage>23</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jphs.2015.12.002" xlink:type="simple">10.1016/j.jphs.2015.12.002</ext-link></comment> <object-id pub-id-type="pmid">26810570</object-id></mixed-citation></ref>
+<ref id="pone.0190769.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Biagi</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Cipollini</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Paulicks</surname> <given-names>BR</given-names></name> <name name-style="western"><surname>Roth</surname> <given-names>FX</given-names></name>. <article-title>Effect of tannins on growth performance and intestinal ecosystem in weaned piglets</article-title>. <source>Arch Anim Nutr</source>. <year>2010</year>; <volume>64</volume>: <fpage>121</fpage>–<lpage>135</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/17450390903461584" xlink:type="simple">10.1080/17450390903461584</ext-link></comment> <object-id pub-id-type="pmid">20481351</object-id></mixed-citation></ref>
+<ref id="pone.0190769.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Barszcz</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Taciak</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Skomiał</surname> <given-names>J</given-names></name>. <article-title>A dose-response effects of tannic acid and protein on growth performance, caecal fermentation, colon morphology, and β-glucuronidase activity of rats</article-title>. <source>J Anim Feed Sci</source>. <year>2011</year>; <volume>20</volume>: <fpage>613</fpage>–<lpage>625</lpage>.</mixed-citation></ref>
+<ref id="pone.0190769.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>He</surname> <given-names>Q</given-names></name>, <name name-style="western"><surname>Lv</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Yao</surname> <given-names>K</given-names></name>. <article-title>Effects of tea polyphenols on the activities of α-amylase, pepsin, trypsin and lipase</article-title>. <source>Food Chem</source>. <year>2006</year>; <volume>101</volume>: <fpage>1178</fpage>–<lpage>1182</lpage>.</mixed-citation></ref>
+<ref id="pone.0190769.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Marzo</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Tosar</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Santidrian</surname> <given-names>S</given-names></name>. <article-title>Effect of tannic acid on the immune response of growing chickens</article-title>. <source>J Anim Sci</source>. <year>1990</year>; <volume>68</volume>: <fpage>3306</fpage>–<lpage>3312</lpage>. <object-id pub-id-type="pmid">2123848</object-id></mixed-citation></ref>
+<ref id="pone.0190769.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jansman</surname> <given-names>AJM</given-names></name>. <article-title>Tannins in feedstuffs for simple-stomached animals</article-title>. <source>Nutr Res Rev</source>. <year>1993</year>; <volume>6</volume>: <fpage>209</fpage>–<lpage>236</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1079/NRR19930013" xlink:type="simple">10.1079/NRR19930013</ext-link></comment> <object-id pub-id-type="pmid">19094309</object-id></mixed-citation></ref>
+<ref id="pone.0190769.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Coşan</surname> <given-names>DT</given-names></name>, <name name-style="western"><surname>Saydam</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Özbayer</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Doğaner</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Soyocak</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Güneş</surname> <given-names>HV</given-names></name>, <etal>et al</etal>. <article-title>Impact of tannic acid on blood pressure, oxidative stress and urinary parameters in L-NNA-induced hypertensive rats</article-title>. <source>Cytotechnology</source>. <year>2015</year>; <volume>67</volume>: <fpage>97</fpage>–<lpage>105</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10616-013-9661-4" xlink:type="simple">10.1007/s10616-013-9661-4</ext-link></comment> <object-id pub-id-type="pmid">24306272</object-id></mixed-citation></ref>
+<ref id="pone.0190769.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liu</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Hagedorn</surname> <given-names>CH</given-names></name>. <article-title>Tannic acid inhibits hepatitis C virus entry into Huh7.5 cells</article-title>. <source>PLoS One</source>. <year>2015</year>; <volume>10</volume>: <fpage>e0131358</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0131358" xlink:type="simple">10.1371/journal.pone.0131358</ext-link></comment> <object-id pub-id-type="pmid">26186636</object-id></mixed-citation></ref>
+<ref id="pone.0190769.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhang</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Zhou</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Xu</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Si</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Jia</surname> <given-names>Z</given-names></name>, <etal>et al</etal>. <article-title>Tannic acid modulates excitability of sensory neurons and nociceptive behavior and the ionic mechanism</article-title>. <source>Eur J Pharmacol</source>. <year>2015</year>; <volume>764</volume>: <fpage>633</fpage>–<lpage>642</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ejphar.2015.06.048" xlink:type="simple">10.1016/j.ejphar.2015.06.048</ext-link></comment> <object-id pub-id-type="pmid">26134502</object-id></mixed-citation></ref>
+<ref id="pone.0190769.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Leveille</surname> <given-names>GA</given-names></name>, <name name-style="western"><surname>Sauberlich</surname> <given-names>HE</given-names></name>. <article-title>Influence of dietary protein level on serum protein components and cholesterol in the growing chick</article-title>. <source>J Nutr</source>. <year>1961</year>; <volume>74</volume>: <fpage>500</fpage>–<lpage>504</lpage>.</mixed-citation></ref>
+<ref id="pone.0190769.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>van Campen</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>House</surname> <given-names>WA</given-names></name>. <article-title>Effect of a low protein diet on retention of an oral dose of <sup>65</sup>Zn and on tissue concentrations of zinc, iron, and copper in rats</article-title>. <source>J Nutr</source>. <year>1974</year>; <volume>104</volume>: <fpage>84</fpage>–<lpage>90</lpage>. <object-id pub-id-type="pmid">4809068</object-id></mixed-citation></ref>
+<ref id="pone.0190769.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Madani</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Prost</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Belleville</surname> <given-names>J</given-names></name>. <article-title>Dietary protein level and origin (casein and highly purified soybean protein) affect hepatic storage, plasma lipid transport, and antioxidative defense status in the rat</article-title>. <source>Nutrition</source>. <year>2000</year>; <volume>16</volume>: <fpage>368</fpage>–<lpage>375</lpage>. <object-id pub-id-type="pmid">10793306</object-id></mixed-citation></ref>
+<ref id="pone.0190769.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rubio</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Grant</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Daguid</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Brown</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Pusztai</surname> <given-names>A</given-names></name>. <article-title>Organs relative weight and plasma amino acid concentrations in rats fed diets based on whole legume (faba bean, lupin, chickpea, defatted soybean) seed meals or their fractions</article-title>. <source>J Sci Food Agr</source>. <year>1999</year>: <volume>79</volume>: <fpage>187</fpage>–<lpage>194</lpage>.</mixed-citation></ref>
+<ref id="pone.0190769.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Manach</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Scalbert</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Morand</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Remesy</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Jimenez</surname> <given-names>L</given-names></name>. <article-title>Polyphenols: food sources and bioavailability</article-title>. <source>Am J Clin Nutr</source>. <year>2004</year>; <volume>79</volume>: <fpage>727</fpage>–<lpage>747</lpage>. <object-id pub-id-type="pmid">15113710</object-id></mixed-citation></ref>
+<ref id="pone.0190769.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Barszcz</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Paradziej-Łukowicz</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Taciak</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Tuśnio</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Staśkiewicz</surname> <given-names>Ł</given-names></name>, <name name-style="western"><surname>Muszyńska-Furas</surname> <given-names>B</given-names></name>, <etal>et al</etal>. <article-title>Growth performance and physiological parameters of conventional and specified pathogen-free rats fed autoclaved diets with different protein sources</article-title>. <source>J Anim Physiol Anim Nutr</source>. <year>2015</year>; <volume>99</volume>: <fpage>1116</fpage>–<lpage>1126</lpage>.</mixed-citation></ref>
+<ref id="pone.0190769.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Taciak</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Barszcz</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Tuśnio</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Pastuszewska</surname> <given-names>B</given-names></name>. <article-title>Interactive effects of indigestible carbohydrates, protein type, and protein level on biomarkers of large intestine health in rats</article-title>. <source>PLoS One</source>. <year>2015</year>; <volume>10</volume>: <fpage>e0142176</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0142176" xlink:type="simple">10.1371/journal.pone.0142176</ext-link></comment> <object-id pub-id-type="pmid">26536028</object-id></mixed-citation></ref>
+<ref id="pone.0190769.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Żary-Sikorska</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Juśkiewicz</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Jundziłł</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Rybka</surname> <given-names>J</given-names></name>. <article-title>Effect of diets varying in the type of dietary fibre and its combination with polyphenols on gut function, microbial activity and antioxidant status in rats</article-title>. <source>J Anim Feed Sci</source>. <year>2016</year>; <volume>25</volume>: <fpage>250</fpage>–<lpage>258</lpage>.</mixed-citation></ref>
+<ref id="pone.0190769.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>McNurlan</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Garlick</surname> <given-names>PJ</given-names></name>. <article-title>Contribution of rat liver and gastrointestinal tract to whole-body protein synthesis in the rat</article-title>. <source>Biochem J</source>. <year>1980</year>; <volume>186</volume>: <fpage>381</fpage>–<lpage>383</lpage>. <object-id pub-id-type="pmid">7370020</object-id></mixed-citation></ref>
+<ref id="pone.0190769.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rao</surname> <given-names>GN</given-names></name>. <article-title>New nonpurified diet (NTP-2000) for rodents in the National Toxicology Program’s toxicology and carcinogenesis studies</article-title>. <source>J Nutr</source>. <year>1997</year>; <volume>127</volume>: <fpage>842S</fpage>–<lpage>846S</lpage>. <object-id pub-id-type="pmid">9164250</object-id></mixed-citation></ref>
+<ref id="pone.0190769.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pastuszewska</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Taciak</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ochtabińska</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Tuśnio</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Misztal</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Romanowicz</surname> <given-names>K</given-names></name>, <etal>et al</etal>. <article-title>Nutritional value and physiological effects of soya-free diets fed to rats during growth and reproduction</article-title>. <source>J Anim Physiol Anim Nutr</source>. <year>2008</year>; <volume>92</volume>: <fpage>63</fpage>–<lpage>74</lpage>.</mixed-citation></ref>
+<ref id="pone.0190769.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pond</surname> <given-names>WG</given-names></name>, <name name-style="western"><surname>Dickson</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Varel</surname> <given-names>VH</given-names></name>, <name name-style="western"><surname>Anugwa</surname> <given-names>FOI</given-names></name>, <name name-style="western"><surname>Ross</surname> <given-names>GS</given-names></name>. <article-title>Organ hypertrophy and responses of colon microbial populations of growing swine to high dietary protein</article-title>. <source>J Nutr</source>. <year>1990</year>; <volume>120</volume>: <fpage>1248</fpage>–<lpage>1255</lpage>. <object-id pub-id-type="pmid">2213253</object-id></mixed-citation></ref>
+<ref id="pone.0190769.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Scalbert</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Manach</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Morand</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Rémésy</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Jiménez</surname> <given-names>L</given-names></name>. <article-title>Dietary polyphenols and the prevention of diseases</article-title>. <source>Crit Rev Food Sci Nutr</source>. <year>2005</year>; <volume>45</volume>: <fpage>287</fpage>–<lpage>306</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/1040869059096" xlink:type="simple">10.1080/1040869059096</ext-link></comment> <object-id pub-id-type="pmid">16047496</object-id></mixed-citation></ref>
+<ref id="pone.0190769.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhu</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Chu</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>Z</given-names></name>, <etal>et al</etal>. <article-title>New findings on the effects of tannic acid: inhibition of L-type calcium channels, calcium transient and contractility in rat ventricular myocytes</article-title>. <source>Phytother Res</source>. <year>2016</year>; <volume>30</volume>: <fpage>510</fpage>–<lpage>516</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ptr.5558" xlink:type="simple">10.1002/ptr.5558</ext-link></comment> <object-id pub-id-type="pmid">26762248</object-id></mixed-citation></ref>
+<ref id="pone.0190769.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Santarpia</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Grandone</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Contaldo</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Pasanisi</surname> <given-names>F</given-names></name>. <article-title>Butyrylcholinesterase as a prognostic marker: a review of the literature</article-title>. <source>J Cachexia Sarcopenia and Muscle</source>. <year>2013</year>; <volume>4</volume>: <fpage>31</fpage>–<lpage>39</lpage>.</mixed-citation></ref>
+<ref id="pone.0190769.ref029"><label>29</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Stonard</surname> <given-names>MD</given-names></name>. <chapter-title>Assessment of neurotoxicity</chapter-title>. In: <name name-style="western"><surname>Evans</surname> <given-names>GO</given-names></name>, editor. <source>Animal Clinical Chemistry. A Primer for Toxicologists</source>. <publisher-name>Taylor &amp; Francis Ltd.</publisher-name>, <publisher-loc>London</publisher-loc>; <year>1996</year>. pp. <fpage>149</fpage>–<lpage>156</lpage>.</mixed-citation></ref>
+<ref id="pone.0190769.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Arora</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Sharma</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Frost</surname> <given-names>G</given-names></name>. <article-title>Propionate. Anti-obesity and satiety enhancing factor?</article-title> <source>Appetite</source>. <year>2011</year>; <volume>56</volume>: <fpage>511</fpage>–<lpage>515</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.appet.2011.01.016" xlink:type="simple">10.1016/j.appet.2011.01.016</ext-link></comment> <object-id pub-id-type="pmid">21255628</object-id></mixed-citation></ref>
+<ref id="pone.0190769.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chen</surname> <given-names>ZY</given-names></name>, <name name-style="western"><surname>Ma</surname> <given-names>KY</given-names></name>, <name name-style="western"><surname>Liang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Peng</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Zuo</surname> <given-names>Y</given-names></name>. <article-title>Role and classification of cholesterol-lowering functional foods</article-title>. <source>J Funct Foods</source>. <year>2011</year>; <volume>3</volume>: <fpage>61</fpage>–<lpage>69</lpage>.</mixed-citation></ref>
+<ref id="pone.0190769.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lepczyński</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Herosimczyk</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Barszcz</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ożgo</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Taciak</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Skomiał</surname> <given-names>J</given-names></name>. <article-title>Inulin-type fructans trigger changes in iron concentration and activity of bone metabolism biomarkers in blood plasma of growing pigs</article-title>. <source>J Anim Feed Sci</source>. <year>2016</year>; <volume>25</volume>: <fpage>343</fpage>–<lpage>347</lpage>.</mixed-citation></ref>
+<ref id="pone.0190769.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hoffmann</surname> <given-names>WE</given-names></name>, <name name-style="western"><surname>Everds</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Pignatello</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Solter</surname> <given-names>PF</given-names></name>. <article-title>Automated and semiautomated analysis of rat alkaline phosphatase isoenzymes</article-title>. <source>Toxicol Pathol</source>. <year>1994</year>; <volume>22</volume>: <fpage>633</fpage>–<lpage>638</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/019262339402200607" xlink:type="simple">10.1177/019262339402200607</ext-link></comment> <object-id pub-id-type="pmid">7732280</object-id></mixed-citation></ref>
+<ref id="pone.0190769.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ueda</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Araki</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Shiota</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Taketa</surname> <given-names>K</given-names></name>. <article-title>Age and sex-dependent alterations of serum amylase and isoamylase levels in normal human adults</article-title>. <source>J Gastroenterol</source>. <year>1994</year>; <volume>29</volume>: <fpage>189</fpage>–<lpage>191</lpage>. <object-id pub-id-type="pmid">7516788</object-id></mixed-citation></ref>
+<ref id="pone.0190769.ref035"><label>35</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Stonard</surname> <given-names>MD</given-names></name>. <chapter-title>Assessment of nephrotoxicity</chapter-title>. In: <name name-style="western"><surname>Evans</surname> <given-names>GO</given-names></name>, editor. <source>Animal Clinical Chemistry. A Primer for Toxicologists</source>. <publisher-name>Taylor &amp; Francis Ltd.</publisher-name>, <publisher-loc>London</publisher-loc>; <year>1996</year>. pp. <fpage>83</fpage>–<lpage>94</lpage>.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

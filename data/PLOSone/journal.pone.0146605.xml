@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article article-type="research-article" dtd-version="3.0" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0146605</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-15-39637</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Circulating Adipocyte Fatty Acid Binding Protein (FABP4) Levels Are Associated with Irisin in the Middle-Aged General Chinese Population</article-title>
+<alt-title alt-title-type="running-head">Adipocyte Fatty Acid Binding Protein Levels Are Associated with Irisin</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Zhang</surname>
+<given-names>Shan</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Yang</surname>
+<given-names>Lili</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Chen</surname>
+<given-names>Peihong</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Jin</surname>
+<given-names>Hua</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Xie</surname>
+<given-names>Xinmiao</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Yang</surname>
+<given-names>Meili</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Gao</surname>
+<given-names>Ting</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Hu</surname>
+<given-names>Cheng</given-names>
+</name>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Yu</surname>
+<given-names>Xuemei</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Department of Endocrinology and Metabolism, Fengxian Central Hospital, Shanghai, China</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Department of Endocrinology and Metabolism, Third Clinical Medical College of Southern Medical University, Guangzhou, China</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Department of Endocrinology and Metabolism, Fifth Affiliated Hospital of Zunyi Medical College, Zhuhai, China</addr-line></aff>
+<aff id="aff004"><label>4</label> <addr-line>Shanghai Diabetes Institute, Shanghai Key Laboratory of Diabetes Mellitus, Shanghai Clinical Center for Diabetes, Shanghai Jiao Tong University Affiliated Sixth People's Hospital, Shanghai, China</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Hribal</surname>
+<given-names>Marta Letizia</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>University of Catanzaro Magna Graecia, ITALY</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="con" id="contrib001">
+<p>Conceived and designed the experiments: XY. Performed the experiments: SZ LY XX MY TG PC HJ. Analyzed the data: SZ LY CH XY. Contributed reagents/materials/analysis tools: SZ LY XX MY TG PC HJ CH XY. Wrote the paper: SZ LY CH XY. Read and approved the final manuscript: SZ LY XX MY TG PC HJ CH XY.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">xuemeiyu12@163.com</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>11</day>
+<month>1</month>
+<year>2016</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2016</year>
+</pub-date>
+<volume>11</volume>
+<issue>1</issue>
+<elocation-id>e0146605</elocation-id>
+<history>
+<date date-type="received">
+<day>9</day>
+<month>9</month>
+<year>2015</year>
+</date>
+<date date-type="accepted">
+<day>18</day>
+<month>12</month>
+<year>2015</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2016</copyright-year>
+<copyright-holder>Zhang et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0146605"/>
+<abstract>
+<sec id="sec001">
+<title>Background</title>
+<p>Adipocyte fatty acid binding protein (FABP4) has been recently characterized as an adipokine that is closely associated with obesity and metabolic syndrome. Irisin, a novel myokine, activates thermogenesis by increasing the transformation of white adipocytes to brown, and it has improved glucose homeostasis in animal models. In this study, we aimed to explore the relationship between serum FABP4 and irisin in middle-aged Chinese subjects.</p>
+</sec>
+<sec id="sec002">
+<title>Methods</title>
+<p>A total of 111 normal residents (56 men and 55 women) of Fengxian District who were 40 to 60 years of age were recruited. Circulating FABP4 and irisin were determined by enzyme-linked immunosorbent assay. Anthropometric parameters, oral glucose tolerance test results, hemoglobin A1C (HbA1C), blood lipids, homeostasis model assessment of insulin resistance, homeostasis model assessment-β and body fat composition were also determined.</p>
+</sec>
+<sec id="sec003">
+<title>Results</title>
+<p>All participants were categorized by FABP4 tertiles. There were significant differences in blood pressure, body fat percentage, 2-h plasma glucose, and skeletal muscle mass among the three groups (<italic>P</italic>&lt;0.05). Furthermore, FABP4 levels in the women were significantly higher than in the men (<italic>P</italic>&lt;0.05). However, there was no sexual dimorphism in serum irisin (<italic>P</italic>&gt;0.05). To exclude the effect of sex difference, partial correlations analysis showed that FABP4 was positively correlated with diastolic blood pressure (<italic>P</italic>&lt;0.05) and body fat percentage (<italic>P</italic>&lt;0.05) negatively correlated with skeletal muscle mass (<italic>P</italic>&lt;0.05) and irisin (<italic>P</italic>&lt;0.05), while irisin was positively correlated with HbA1c (<italic>P</italic>&lt;0.05) and negatively correlated with creatinine (<italic>P</italic>&lt;0.05). Multivariate regression analysis demonstrated that serum FABP4 was independently associated with skeletal muscle mass (<italic>P</italic>&lt;0.001), diastolic blood pressure (<italic>P</italic>&lt;0.05) and irisin (<italic>P</italic>&lt;0.05) after adjustment for age, body mass index, body fat percentage, total cholesterol and HbA1C.</p>
+</sec>
+<sec id="sec004">
+<title>Conclusions</title>
+<p>Elevated FABP4 levels increase the risks of obesity-related metabolic disorders and hypertension. Serum irisin might exert antagonistic effects on FABP4 in the middle-aged Chinese population.</p>
+</sec>
+</abstract>
+<funding-group>
+<funding-statement>This work was funded by grants from the Shanghai Committee of Science and Technology(134119b2500), China. The URLs of the funder's website is that <ext-link ext-link-type="uri" xlink:href="http://www.stcsm.gov.cn/gk/gkml/xxgkbzsm/335201.htm" xlink:type="simple">http://www.stcsm.gov.cn/gk/gkml/xxgkbzsm/335201.htm</ext-link>. The author received no specific funding for this work.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="0"/>
+<table-count count="3"/>
+<page-count count="10"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>Due to the sensitive nature of the data and the consent agreements signed by participants, data cannot be made publicly available. Data are available upon request. Please include a proposal for use of the data, which will be submitted to the authors' ethics committee for approval. Requests for the data may be sent to <email xlink:type="simple">xuemeiyu12@163.com</email>. The authors confirm that all interested parties will be able to obtain the data via the contact provided after some documentation is completed.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec005" sec-type="intro">
+<title>Introduction</title>
+<p>The fatty acid binding protein (FABP) family consists of intracellular lipid carriers that participate in regulating lipid transport and metabolism, and serum FABPs have been considered specific markers of tissue injury [<xref ref-type="bibr" rid="pone.0146605.ref001">1</xref>]. However, the adipocyte fatty acid binding protein (FABP4, also known as A-FABP and aP2), which is secreted from adipocytes and macrophages, has recently been investigated as a marker that is closely associated with obesity and metabolic syndrome [<xref ref-type="bibr" rid="pone.0146605.ref001">1</xref>]. Targeted disruption of mouse FABP4 genes elevated cellular free fatty acid levels and impaired lipolysis in adipocytes [<xref ref-type="bibr" rid="pone.0146605.ref002">2</xref>]. <italic>In vivo</italic>, disruption of FABP4 mainly affects two pathways, decreasing free fatty acid efflux in fat cells and increasing the consumption of glucose while inhibiting the utilization of fatty acids [<xref ref-type="bibr" rid="pone.0146605.ref003">3</xref>]. In macrophages, FABP4 participates in the regulation of the inflammatory response, promoting the concentration of cholesterol and the formation of foam cells [<xref ref-type="bibr" rid="pone.0146605.ref004">4</xref>]. In obese mice, FABP4 deletion improved insulin resistance and lipid metabolic disorders [<xref ref-type="bibr" rid="pone.0146605.ref005">5</xref>]. Elevated serum levels of FABP4 were associated with obesity, insulin resistance, dyslipidemia and hypertension in healthy subjects [<xref ref-type="bibr" rid="pone.0146605.ref001">1</xref>].</p>
+<p>Irisin, a novel myokine and adipokine, is secreted by skeletal muscles and is induced by exercise [<xref ref-type="bibr" rid="pone.0146605.ref006">6</xref>,<xref ref-type="bibr" rid="pone.0146605.ref007">7</xref>]. Serum irisin promotes uncoupling protein 1 (UCP1) expression both <italic>in vitro</italic> and <italic>in vivo</italic>, and it activates the browning of white adipose tissue [<xref ref-type="bibr" rid="pone.0146605.ref006">6</xref>]. Increased serum irisin levels cause increases in energy expenditures and resistance to diet-induced insulin resistance in mice [<xref ref-type="bibr" rid="pone.0146605.ref006">6</xref>,<xref ref-type="bibr" rid="pone.0146605.ref007">7</xref>]. Additionally, Moreno-Navarrete et al. observed that serum irisin was negatively correlated with obesity and insulin resistance in patients with type 2 diabetes mellitus [<xref ref-type="bibr" rid="pone.0146605.ref008">8</xref>]. In patients with nonalcoholic fatty liver disease, serum irisin was significantly reduced, and triglycerides gradually decreased as irisin increased [<xref ref-type="bibr" rid="pone.0146605.ref009">9</xref>].</p>
+<p>Secreted by adipocytes, FABP4 was positively associated with body mass index (BMI) and body fat percentage [<xref ref-type="bibr" rid="pone.0146605.ref010">10</xref>], whereas the correlation between irisin and BMI remains a controversial issue. However, the interaction of FABP4 and irisin has not been clarified. This study aimed to examine the relationships between serum FABP4 levels and irisin in a middle-aged Chinese population.</p>
+</sec>
+<sec id="sec006" sec-type="materials|methods">
+<title>Methods</title>
+<sec id="sec007">
+<title>Ethics statement</title>
+<p>This study was approved by the Medical Ethics Committee of the Shanghai Fengxian District Central Hospital and was performed in accordance with the principles of the Declaration of Helsinki as revised in 2000. All of the subjects provided written informed consent before they participated in this study.</p>
+</sec>
+<sec id="sec008">
+<title>Participants</title>
+<p>From December 2012 to September 2013, a total of 111 apparently healthy subjects (men/women: 56/55), aged 40 to 60 years old, were recruited for this study. None of the subjects was taking oral hypotensive, hypolipidemic, anti-diabetic, and/or other medications known to affect glucose or lipid metabolism. Individuals with histories of diabetes mellitus, acute or chronic inflammatory disorders, cancer, heart failure, active hepatitis/liver cirrhosis, chronic renal failure or other known major diseases were also excluded from the study.</p>
+</sec>
+<sec id="sec009">
+<title>Clinical measurements</title>
+<p>Anthropometric parameters were measured, and body mass index (BMI) was calculated as body weight (kilograms) divided by body height squared (square meters). Skeletal muscle and body fat percentages were measured using a human body composition analyzer (INBODY S10, Republic of Korea). Blood pressure was measured three times using a mercury sphygmomanometer with the subject in a seated, resting position, and the average value was acquired. Blood samples were obtained from the antecubital vein following an overnight fast of at least 10 h. Oral glucose tolerance testing (OGTT) was performed in all of the subjects, and blood samples were collected after 2 h. After clotting, serum was obtained from blood specimens by centrifugation and was stored in aliquots at -80°C until analysis of FABP4 and irisin. Aspartate aminotransferase (AST), alanine aminotransferase (ALT), uric acid, creatinine, blood urea nitrogen, total cholesterol, triglycerides, low-density lipoprotein cholesterol (LDL-c), high-density lipoprotein cholesterol (HDL-c), free fatty acid, fasting plasma glucose (FPG), and 2-h plasma glucose (2hPG) were measured using an automatic biochemical analyzer (Beckman DXC800, USA). Fasting insulin (FINS) levels were measured by electrochemiluminescence immunoassay (ADVIA Centaur, Germany), and hemoglobin A1C (HbA1C) was measured using high-pressure liquid chromatography (TOSOH HLC-723 G7, Japan). High-sensitivity C-reactive protein was measured by particle-enhanced immunoturbidimetric assay.</p>
+<p>The homeostasis model assessment of insulin resistance (HOMA-IR) was calculated as FPG (mmol/L)×FINS (mU/L)/22.5. The homeostasis model assessment-β (HOMA-β) was calculated as 20×FINS (mU/L)/ (FPG [mmol/L]-3.5).</p>
+</sec>
+<sec id="sec010">
+<title>Serum FABP4 and irisin measurements</title>
+<p>Serum FABP4 concentrations were determined using enzyme-linked immunosorbent assay (ELISA) (catalog number RD191036200; BioVendor, Inc., Czech Republic), with intra-assay and inter-assay coefficients of variation (CVs) less than 9% and 15%, respectively. Irisin levels were determined by ELISA (catalog number EK-067-29; lot number 604494; Phoenix Pharmaceuticals, Inc., USA) with intra-assay and inter-assay CVs less than 10% and 15%, respectively. We first explored the concentration ranges of FABP4 and irisin in pre-experiments. According to the linear range in the manual, all of the samples were diluted with analysis buffer, and the ultimate concentrations were calibrated based on multiple dilutions. The diluted sample concentrations met the linear ranges of the kits.</p>
+</sec>
+<sec id="sec011">
+<title>Statistics</title>
+<p>All of the analyses were performed using SPSS software, version 19.0. The data are presented as means ± SDs or medians (interquartile ranges). Normally distributed variables were analyzed using one-way ANOVA, while abnormally distributed variables were analyzed using the Kruskal-Wallis test. Categorical variables were compared with the <italic>x</italic><sup><italic>2</italic></sup> test. To exclude the effects of sex difference, partial correlation coefficients were used to analyze the relationships of FABP4, irisin and clinical parameters after logarithmic transformation because of the abnormal distributions of the variables. To determine the contributions of several variables to FABP4, various parameters, including age, BMI, body fat percentage, diastolic blood pressure, skeletal muscle mass, total cholesterol, HbA1C and irisin were tested in multiple stepwise linear regression analysis. A two-sided value of <italic>P</italic>&lt;0.05 was considered statistically significant.</p>
+</sec>
+</sec>
+<sec id="sec012" sec-type="results">
+<title>Results</title>
+<p>The clinical and laboratory parameters of the study subjects are displayed in <xref ref-type="table" rid="pone.0146605.t001">Table 1</xref>. All of the participants were categorized by serum FABP4 level tertiles (tertile 1: 5.20 ng/mL-13.76 ng/mL, tertile 2: 14.10 ng/mL-19.47 ng/mL, tertile 3: 19.59 ng/mL-47.03 ng/mL). Significant differences were observed in diastolic blood pressure, systolic blood pressure, body fat percentage, 2hPG, and skeletal muscle mass among the three groups (<italic>P</italic>&lt;0.05). The values of systolic blood pressure and 2hPG were significantly lower in the 2<sup>nd</sup> tertile compared to the 3<sup>rd</sup> tertiles (<italic>P</italic>&lt;0.05), but the difference between 1<sup>st</sup> and 2<sup>nd</sup> tertiles, showed no statistical significance (<italic>P</italic>&gt;0.05). In addition, the levels of FABP4 in women were significantly higher than those in men (<italic>P</italic>&lt;0.05). However, there were no statistically significant differences among the three groups in age, BMI, ALT, AST, total cholesterol, triglycerides, HDL-c, LDL-c, free fatty acids, FPG, HbA1c, high sensitivity C-reactive protein, HOMA-IR, HOMA-β, creatinine or uric acid. Furthermore, with increased levels of FABP4, there were no observable changes in serum irisin levels. Circulating FABP4 concentrations were not altered in overweight/obese participants (BMI ≥25 kg/m<sup>2</sup>), compared with non-obese subjects (BMI &lt; 25 kg/m<sup>2</sup>). Moreover, there were no sexual dimorphism in serum irisin (<italic>P&gt;</italic>0.05).</p>
+<table-wrap id="pone.0146605.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0146605.t001</object-id>
+<label>Table 1</label> <caption><title>Clinical characteristics of the study participants.</title></caption>
+<alternatives>
+<graphic id="pone.0146605.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0146605.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Variables</th>
+<th align="left">Tertile 1</th>
+<th align="left">Tertile 2</th>
+<th align="left">Tertile 3</th>
+<th align="left"><italic>P</italic> value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><bold>FABP4 (ng/ml)</bold></td>
+<td align="left">10.28 (8.15, 13.21)</td>
+<td align="left">16.44 (14.98, 17.81)</td>
+<td align="left">24.93 (22.91, 32.39)</td>
+<td align="left">&lt;0.001<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>Age (years)</bold></td>
+<td align="left">50.62±6.36</td>
+<td align="left">50.54±6.49</td>
+<td align="left">53.30±3.99</td>
+<td align="left">0.067</td>
+</tr>
+<tr>
+<td align="left"><bold>Male/Female (n)</bold></td>
+<td align="left">(25/12)</td>
+<td align="left">(21/16)</td>
+<td align="left">(10/27)</td>
+<td align="left">0.023<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>Body Mass Index (kg/m</bold><sup><bold>2</bold></sup><bold>)</bold></td>
+<td align="left">24.18±2.58</td>
+<td align="left">24.34±3.34</td>
+<td align="left">25.57±3.12</td>
+<td align="left">0.110</td>
+</tr>
+<tr>
+<td align="left"><bold>Body Fat Percentage (%)</bold></td>
+<td align="left">28.09±5.83</td>
+<td align="left">31.08±7.08</td>
+<td align="left">35.62±4.67</td>
+<td align="left">&lt;0.001<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>Muscle Mass (kg)</bold></td>
+<td align="left">27 (23.70, 29.50)</td>
+<td align="left">22.35 (20.05, 28.33)</td>
+<td align="left">20.7 (19.00, 24.40)</td>
+<td align="left">0.005<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>Systolic Blood Pressure (mm Hg)</bold></td>
+<td align="left">127.76±18.43</td>
+<td align="left">123.51±15.20</td>
+<td align="left">133.71±14.25</td>
+<td align="left">0.030<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>Diastolic Blood Pressure (mm Hg)</bold></td>
+<td align="left">80 (70, 90)</td>
+<td align="left">80 (71, 90)</td>
+<td align="left">90 (80, 90)</td>
+<td align="left">0.013<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>ALT (IU/L)</bold></td>
+<td align="left">31 (20.50, 48.00)</td>
+<td align="left">26 (20.50, 34.00)</td>
+<td align="left">23 (18.00, 34.00)</td>
+<td align="left">0.277</td>
+</tr>
+<tr>
+<td align="left"><bold>AST (IU/L)</bold></td>
+<td align="left">24 (19.25, 32.75)</td>
+<td align="left">23 (20, 26)</td>
+<td align="left">21 (18, 28)</td>
+<td align="left">0.267</td>
+</tr>
+<tr>
+<td align="left"><bold>Total Cholesterol (mmol/L)</bold></td>
+<td align="left">5.10±1.17</td>
+<td align="left">5.34±1.14</td>
+<td align="left">5.47±1.23</td>
+<td align="left">0.386</td>
+</tr>
+<tr>
+<td align="left"><bold>Triglycerides (mmol/L)</bold></td>
+<td align="left">1.29 (0.95, 2.47)</td>
+<td align="left">1.3 (1.00, 1.95)</td>
+<td align="left">1.51 (1.00, 2.16)</td>
+<td align="left">0.741</td>
+</tr>
+<tr>
+<td align="left"><bold>HDL-c (mmol/L)</bold></td>
+<td align="left">1.28±0.28</td>
+<td align="left">1.31±0.26</td>
+<td align="left">1.32±0.26</td>
+<td align="left">0.763</td>
+</tr>
+<tr>
+<td align="left"><bold>LDL-c (mmol/L)</bold></td>
+<td align="left">2.95±0.87</td>
+<td align="left">3.13±0.74</td>
+<td align="left">3.17±0.89</td>
+<td align="left">0.476</td>
+</tr>
+<tr>
+<td align="left"><bold>Free Fatty Acids (mmol/L)</bold></td>
+<td align="left">0.48±0.28</td>
+<td align="left">0.41±0.19</td>
+<td align="left">0.49±0.24</td>
+<td align="left">0.297</td>
+</tr>
+<tr>
+<td align="left"><bold>FPG (mmol/L)</bold></td>
+<td align="left">5.60 (5.20, 7.35)</td>
+<td align="left">5.5 (4.85, 6.45)</td>
+<td align="left">6.10 (5.15, 7.40)</td>
+<td align="left">0.245</td>
+</tr>
+<tr>
+<td align="left"><bold>2hPG (mmol/L)</bold></td>
+<td align="left">11.70 (5.75, 14.85)</td>
+<td align="left">6.10 (5.30, 12.7)</td>
+<td align="left">12.00 (6.95, 15.75)</td>
+<td align="left">0.022<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>HbA1c (%)</bold></td>
+<td align="left">5.70 (5.35, 6.65)</td>
+<td align="left">5.60 (5.20, 6.05)</td>
+<td align="left">6.00 (5.45, 6.80)</td>
+<td align="left">0.098</td>
+</tr>
+<tr>
+<td align="left"><bold>High-sensitivity C-reactive Protein (mg/L)</bold></td>
+<td align="left">1.35 (0.60, 3.65)</td>
+<td align="left">1.50 (0.80, 4.40)</td>
+<td align="left">1.40 (0.60, 6.10)</td>
+<td align="left">0.928</td>
+</tr>
+<tr>
+<td align="left"><bold>HOMA-IR</bold></td>
+<td align="left">2.23 (1.22, 2.90)</td>
+<td align="left">1.92 (1.26, 3.15)</td>
+<td align="left">2.56 (1.39, 3.27)</td>
+<td align="left">0.317</td>
+</tr>
+<tr>
+<td align="left"><bold>HOMA-β</bold></td>
+<td align="left">54.97 (40.18, 92.92)</td>
+<td align="left">67.30 (45.25, 101.35)</td>
+<td align="left">75.83 (33.32, 111.40)</td>
+<td align="left">0.560</td>
+</tr>
+<tr>
+<td align="left"><bold>Creatinine (μmol/L)</bold></td>
+<td align="left">61.84±15.67</td>
+<td align="left">60.05±13.77</td>
+<td align="left">57.89±11.86</td>
+<td align="left">0.474</td>
+</tr>
+<tr>
+<td align="left"><bold>Uric Acid (μmol/L)</bold></td>
+<td align="left">296.95±77.48</td>
+<td align="left">271.95±87.70</td>
+<td align="left">276.54±69.89</td>
+<td align="left">0.351</td>
+</tr>
+<tr>
+<td align="left"><bold>Irisin (ng/ml)</bold></td>
+<td align="left">263.00 (214.70, 310.20)</td>
+<td align="left">236.90 (193.90, 340.40)</td>
+<td align="left">232.90 (198.10, 273.20)</td>
+<td align="left">0.191</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>Date are presented as the mean ± SD or median (interquartile range).</p></fn>
+<fn id="t001fn002"><p>*, <italic>p</italic> &lt; 0.05.</p></fn>
+<fn id="t001fn003"><p>ALT: alanine transaminase; AST: aspartate transaminase; HDL-c: high-density lipoprotein cholesterol; LDL-c: low-density lipoprotein cholesterol; FPG: fasting plasma glucose; 2hPG: 2-h plasma glucose; HbA1c: hemoglobin A1C; HOMA-IR: homeostasis model assessment of insulin resistance; HOMA-β: homeostasis model assessment-β; FABP4: adipocyte fatty acid-binding protein</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>In bivariate correlation analysis, FABP4 concentrations were associated with sex (<italic>r</italic> = 0.348, <italic>P</italic>&lt;0.001). To exclude the effects of sex difference, partial correlation analysis were used to analyze the relationship between circulating FABP4 levels and various clinical characteristics in all of the subjects. Partial correlation analysis showed that serum FABP4 concentrations were positively correlated with diastolic blood pressure (<italic>r</italic> = 0.270, <italic>P</italic> = 0.005) and body fat percentage (<italic>r</italic> = 0.251, <italic>P</italic> = 0.012) and negatively correlated with skeletal muscle mass (<italic>r</italic> = -0.335, <italic>P</italic> = 0.001) and irisin (<italic>r</italic> = -0.203, <italic>P</italic> = 0.033) in all of the subjects after adjusting for sex. Moreover, serum irisin levels were positively correlated with HbA1c (<italic>r</italic> = 0.190, <italic>P</italic> = 0.047) and negatively correlated with creatinine (<italic>r</italic> = -0.291, <italic>P</italic> = 0.002) after adjusting for sex. Surprisingly, an inverse associated between FABP4 levels and irisin was observed. However, we found that FABP4 had no significant correlations with age, total cholesterol, fasting glucose or HOMA-IR. The correlation coefficients of clinical parameters associated with circulating FABP4 and irisin are presented in <xref ref-type="table" rid="pone.0146605.t002">Table 2</xref>.</p>
+<table-wrap id="pone.0146605.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0146605.t002</object-id>
+<label>Table 2</label> <caption><title>Correlation analysis of variables associated with circulating FABP4 and irisin levels.</title></caption>
+<alternatives>
+<graphic id="pone.0146605.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0146605.t002" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="2">FABP4 (sex adjusted)</th>
+<th align="center" colspan="2">Irisin (sex adjusted)</th>
+</tr>
+<tr>
+<th align="left">Variables</th>
+<th align="left"><italic>r</italic></th>
+<th align="left"><italic>P</italic> value</th>
+<th align="left"><italic>r</italic></th>
+<th align="left"><italic>P</italic> value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><bold>Age (years)</bold></td>
+<td align="left">0.170</td>
+<td align="left">0.076</td>
+<td align="left">0.035</td>
+<td align="left">0.715</td>
+</tr>
+<tr>
+<td align="left"><bold>Body Mass Index (kg/m</bold><sup><bold>2</bold></sup><bold>)</bold></td>
+<td align="left">0.167</td>
+<td align="left">0.085</td>
+<td align="left">0.034</td>
+<td align="left">0.729</td>
+</tr>
+<tr>
+<td align="left"><bold>Body Fat percentage (%)</bold></td>
+<td align="left">0.251</td>
+<td align="left">0.012<xref ref-type="table-fn" rid="t002fn002">#</xref></td>
+<td align="left">-0.008</td>
+<td align="left">0.937</td>
+</tr>
+<tr>
+<td align="left"><bold>Muscle mass<xref ref-type="table-fn" rid="t002fn001">*</xref> (kg)</bold></td>
+<td align="left">-0.335</td>
+<td align="left">0.001<xref ref-type="table-fn" rid="t002fn002">#</xref></td>
+<td align="left">-0.041</td>
+<td align="left">0.684</td>
+</tr>
+<tr>
+<td align="left"><bold>Systolic Blood Pressure (mm Hg)</bold></td>
+<td align="left">0.164</td>
+<td align="left">0.090</td>
+<td align="left">0.096</td>
+<td align="left">0.321</td>
+</tr>
+<tr>
+<td align="left"><bold>Diastolic Blood Pressure (mm Hg)</bold><xref ref-type="table-fn" rid="t002fn001">*</xref></td>
+<td align="left">0.270</td>
+<td align="left">0.005<xref ref-type="table-fn" rid="t002fn002">#</xref></td>
+<td align="left">-0.026</td>
+<td align="left">0.789</td>
+</tr>
+<tr>
+<td align="left"><bold>ALT (IU/L)</bold><xref ref-type="table-fn" rid="t002fn001">*</xref></td>
+<td align="left">-0.065</td>
+<td align="left">0.498</td>
+<td align="left">0.101</td>
+<td align="left">0.293</td>
+</tr>
+<tr>
+<td align="left"><bold>AST (IU/L)</bold><xref ref-type="table-fn" rid="t002fn001">*</xref></td>
+<td align="left">-0.014</td>
+<td align="left">0.866</td>
+<td align="left">-0.006</td>
+<td align="left">0.950</td>
+</tr>
+<tr>
+<td align="left"><bold>Total Cholesterol (mmol/L)</bold></td>
+<td align="left">0.069</td>
+<td align="left">0.477</td>
+<td align="left">0.126</td>
+<td align="left">0.188</td>
+</tr>
+<tr>
+<td align="left"><bold>Triglycerides (mmol/L)</bold><xref ref-type="table-fn" rid="t002fn001">*</xref></td>
+<td align="left">0.090</td>
+<td align="left">0.350</td>
+<td align="left">0.155</td>
+<td align="left">0.107</td>
+</tr>
+<tr>
+<td align="left"><bold>HDL-c (mmol/L)</bold></td>
+<td align="left">-0.035</td>
+<td align="left">0.717</td>
+<td align="left">0.132</td>
+<td align="left">0.171</td>
+</tr>
+<tr>
+<td align="left"><bold>LDL-c (mmol/L)</bold></td>
+<td align="left">0.038</td>
+<td align="left">0.693</td>
+<td align="left">0.085</td>
+<td align="left">0.379</td>
+</tr>
+<tr>
+<td align="left"><bold>Free Fatty Acids (mmol/L)</bold></td>
+<td align="left">0.063</td>
+<td align="left">0.523</td>
+<td align="left">0.047</td>
+<td align="left">0.635</td>
+</tr>
+<tr>
+<td align="left"><bold>FPG (mmol/L)</bold><xref ref-type="table-fn" rid="t002fn001">*</xref></td>
+<td align="left">0.034</td>
+<td align="left">0.726</td>
+<td align="left">0.184</td>
+<td align="left">0.054</td>
+</tr>
+<tr>
+<td align="left"><bold>2hPG (mmol/L)</bold><xref ref-type="table-fn" rid="t002fn001">*</xref></td>
+<td align="left">0.044</td>
+<td align="left">0.649</td>
+<td align="left">0.088</td>
+<td align="left">0.363</td>
+</tr>
+<tr>
+<td align="left"><bold>HbA1c (%)</bold><xref ref-type="table-fn" rid="t002fn001">*</xref></td>
+<td align="left">-0.007</td>
+<td align="left">0.939</td>
+<td align="left">0.190</td>
+<td align="left">0.047<xref ref-type="table-fn" rid="t002fn002">#</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>High-sensitivity C-reactive Protein (mg/L)</bold><xref ref-type="table-fn" rid="t002fn001">*</xref></td>
+<td align="left">0.064</td>
+<td align="left">0.516</td>
+<td align="left">0.152</td>
+<td align="left">0.119</td>
+</tr>
+<tr>
+<td align="left"><bold>HOMA-IR</bold><xref ref-type="table-fn" rid="t002fn001">*</xref></td>
+<td align="left">0.165</td>
+<td align="left">0.087</td>
+<td align="left">0.101</td>
+<td align="left">0.299</td>
+</tr>
+<tr>
+<td align="left"><bold>HOMA-β</bold><xref ref-type="table-fn" rid="t002fn001">*</xref></td>
+<td align="left">0.091</td>
+<td align="left">0.347</td>
+<td align="left">-0.144</td>
+<td align="left">0.137</td>
+</tr>
+<tr>
+<td align="left"><bold>Creatinine (μmol/L)</bold></td>
+<td align="left">0.139</td>
+<td align="left">0.149</td>
+<td align="left">-0.291</td>
+<td align="left">0.002<xref ref-type="table-fn" rid="t002fn002">#</xref></td>
+</tr>
+<tr>
+<td align="left"><bold>Uric Acid (μmol/L)</bold></td>
+<td align="left">0.008</td>
+<td align="left">0.934</td>
+<td align="left">0.047</td>
+<td align="left">0.626</td>
+</tr>
+<tr>
+<td align="left"><bold>Irisin (ng/ml)</bold><xref ref-type="table-fn" rid="t002fn001">*</xref></td>
+<td align="left">-0.203</td>
+<td align="left">0.033<xref ref-type="table-fn" rid="t002fn002">#</xref></td>
+<td align="left"><italic>—</italic></td>
+<td align="left"><italic>—</italic></td>
+</tr>
+<tr>
+<td align="left"><bold>FABP4 (ng/ml)</bold></td>
+<td align="left"><bold><italic>—</italic></bold></td>
+<td align="left"><bold><italic>—</italic></bold></td>
+<td align="left">-0.203</td>
+<td align="left">0.033<xref ref-type="table-fn" rid="t002fn002">#</xref></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p>*, Log-transformed variable</p></fn>
+<fn id="t002fn002"><p>#, <italic>p</italic> &lt; 0.05.</p></fn>
+<fn id="t002fn003"><p>ALT: alanine transaminase; AST: aspartate transaminase; HDL-c: high-density lipoprotein cholesterol; LDL-c: low-density lipoprotein cholesterol; FPG: fasting plasma glucose; 2hPG: 2-h plasma glucose; HbA1c: hemoglobin A1C; HOMA-IR: homeostasis model assessment of insulin resistance; HOMA-β: homeostasis model assessment-β; FABP4: adipocyte fatty acid-binding protein</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>Further multivariate stepwise linear regression analysis demonstrated that serum FABP4 levels were independently associated with skeletal muscle mass (<italic>β</italic> = -0.766±0.184, <italic>P</italic>&lt;0.001), diastolic blood pressure (<italic>β</italic> = 1.074±0.303, <italic>P</italic> = 0.001) and irisin (<italic>β</italic> = -0.212±0.103, <italic>P</italic> = 0.043), adjusted for age, BMI, body fat percentage, total cholesterol and HbA1C (<xref ref-type="table" rid="pone.0146605.t003">Table 3</xref>).</p>
+<table-wrap id="pone.0146605.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0146605.t003</object-id>
+<label>Table 3</label> <caption><title>Multiple stepwise regression analysis showing variables independently associated with serum FABP4.</title></caption>
+<alternatives>
+<graphic id="pone.0146605.t003g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0146605.t003" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Independent variables</th>
+<th align="left"><italic>β</italic></th>
+<th align="left"><italic>P</italic></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><bold>Irisin (ng/ml)</bold><xref ref-type="table-fn" rid="t003fn001">*</xref></td>
+<td align="left">-0.212</td>
+<td align="left">0.043</td>
+</tr>
+<tr>
+<td align="left"><bold>Muscle Mass (kg)</bold><xref ref-type="table-fn" rid="t003fn001">*</xref></td>
+<td align="left">-0.766</td>
+<td align="left">&lt;0.001</td>
+</tr>
+<tr>
+<td align="left"><bold>Diastolic Blood Pressure (mm Hg)</bold><xref ref-type="table-fn" rid="t003fn001">*</xref></td>
+<td align="left">1.074</td>
+<td align="left">0.001</td>
+</tr>
+<tr>
+<td align="left"><bold>Age (years)</bold></td>
+<td align="left">0.020</td>
+<td align="left">0.829</td>
+</tr>
+<tr>
+<td align="left"><bold>Body Mass Index (kg/m</bold><sup><bold>2</bold></sup><bold>)</bold></td>
+<td align="left">0.178</td>
+<td align="left">0.084</td>
+</tr>
+<tr>
+<td align="left"><bold>HbA1c (%)</bold><xref ref-type="table-fn" rid="t003fn001">*</xref></td>
+<td align="left">0.014</td>
+<td align="left">0.879</td>
+</tr>
+<tr>
+<td align="left"><bold>Total Cholesterol (mmol/L)</bold></td>
+<td align="left">0.055</td>
+<td align="left">0.558</td>
+</tr>
+<tr>
+<td align="left"><bold>Body Fat percentage (%)</bold></td>
+<td align="left">0.171</td>
+<td align="left">0.113</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t003fn001"><p>*, Log-transformed variable</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec013" sec-type="conclusions">
+<title>Discussion</title>
+<p>In recent years, metabolic syndrome, which is characterized as obesity and insulin resistance, has occupied a major place in chronic disease that threatens human health. Sufficient evidence has confirmed that the plasma biomarker FABP4 is closely associated with obesity and metabolic syndrome [<xref ref-type="bibr" rid="pone.0146605.ref010">10</xref>,<xref ref-type="bibr" rid="pone.0146605.ref011">11</xref>]. In the current study, our data showed that FABP4 levels were closely associated with diastolic blood pressure and body fat percentage. Furthermore, we found a negative association between FABP4 and irisin in all of the subjects.</p>
+<p>Secreted by fat tissue, the cytokine FABP4 plays a key role in obesity. Consistent with previous findings, our results demonstrated that serum FABP4 levels were positively correlated with body fat percentage [<xref ref-type="bibr" rid="pone.0146605.ref010">10</xref>,<xref ref-type="bibr" rid="pone.0146605.ref011">11</xref>,<xref ref-type="bibr" rid="pone.0146605.ref012">12</xref>]. Recent studies have confirmed that FABP4 levels were positively associated with metabolic risk factors, such as obesity, insulin resistance, dyslipidemia and the heart failure marker NT-pro BNP [<xref ref-type="bibr" rid="pone.0146605.ref001">1</xref>,<xref ref-type="bibr" rid="pone.0146605.ref011">11</xref>,<xref ref-type="bibr" rid="pone.0146605.ref012">12</xref>]. In obese mice treated with an FABP4 inhibitor, the phosphorylation of insulin receptor and AKT in adipose tissue was significantly increased compared with vehicle controls, demonstrating increased insulin sensitivity [<xref ref-type="bibr" rid="pone.0146605.ref013">13</xref>]. Therefore, deficiency in serum FABP4 might improve the disorders associated with obesity. In addition, similar to Ishimura et al. [<xref ref-type="bibr" rid="pone.0146605.ref001">1</xref>] and Bao et al. [<xref ref-type="bibr" rid="pone.0146605.ref012">12</xref>], our study also revealed that serum FABP4 levels were significantly higher in women than in men. The larger amount of body fat in women than men might have contributed to this sexual dimorphism.</p>
+<p>The relationships between FABP4 and clinical metabolic factors have been shown in various studies. Bao et al. [<xref ref-type="bibr" rid="pone.0146605.ref012">12</xref>] found in Chinese subjects undergoing coronary angiography that circulating FABP4 was positively associated with HbA1c and HOMA-IR. Our present study proved that there were no significant correlations of FABP4 with HOMA-IR, total cholesterol, or HbA1c in the middle-aged general Chinese population. Differences in age, BMI and glycometabolic state might have had certain influences on the results. In our study, the age of the subjects varied from 40 to 60 years old, and none of them had histories of diabetes mellitus or hyperlipidemia.</p>
+<p>As an adipokine, FABP4 is also closely associated with hypertension. Ota et al. observed that serum FABP4 levels were significantly higher in non-treated essential hypertensives than normotensives, and after adjustment for age, sex, and adiposity, FABP4 was an independent predictor of mean arterial pressure [<xref ref-type="bibr" rid="pone.0146605.ref014">14</xref>]. Our results also revealed that diastolic blood pressure was an independent factor for FABP4, indicating the potential impact of FABP4 on hypertension. The role of FABP4 in the pathogenesis of hypertension might be that FABP4 induces the transformation of the insulin-mediated endothelial nitric oxide synthase (eNOS) pathway, thus reducing NO production and endothelial dysfunction [<xref ref-type="bibr" rid="pone.0146605.ref015">15</xref>].</p>
+<p>Our data showed systolic blood pressure and 2hPG were significantly lower in the 2<sup>nd</sup> tertile compared to the 3<sup>rd</sup> tertiles (<italic>P</italic>&lt;0.05), but the difference between the 1<sup>st</sup> and 2<sup>nd</sup> tertiles showed no statistical significance (<italic>P</italic>&gt;0.05), and in the 2<sup>nd</sup> tertile of FABP4 levels, the HOMA-IR scores were lower compared to the 1<sup>st</sup> and 3<sup>rd</sup> tertiles, but even this difference was not statistically significant (<italic>P</italic>&gt;0.05). The lower insulin resistance in the 2<sup>nd</sup> tertile might have contributed to the lower 2h PG after OGTT. The higher insulin sensitivity improved the transformation of the insulin-mediated eNOS pathway, increasing NO production and resulting in lower blood pressure [<xref ref-type="bibr" rid="pone.0146605.ref015">15</xref>].</p>
+<p>Recent studies have shown that the novel cytokine irisin was associated with glucose metabolic and kidney function. In accordance with Liu et al. [<xref ref-type="bibr" rid="pone.0146605.ref016">16</xref>], our study proved that serum irisin was positively associated with HbA1c, and the elevated irisin levels might constitute compensation for disorders of plasma glucose. Consistent with Ebert et al. [<xref ref-type="bibr" rid="pone.0146605.ref017">17</xref>], there was also a negative correlation between irisin and creatinine, suggesting that irisin plays an important role in the dysfunction of kidney metabolism.</p>
+<p>The relationship between irisin and FABP4 remains unclear. Irisin is secreted by skeletal muscle and induces the browning of white adipose tissue <italic>in vivo</italic> [<xref ref-type="bibr" rid="pone.0146605.ref006">6</xref>]. In multiple murine models, increased formation of brown fat tissue was shown to exert anti-obesity effects [<xref ref-type="bibr" rid="pone.0146605.ref018">18</xref>]. The improvement of obesity might reduce the secretion of FABP4 by adipocytes [<xref ref-type="bibr" rid="pone.0146605.ref001">1</xref>]. Our study revealed that irisin and skeletal muscle mass were independently negatively associated with FABP4. Accumulating evidence has suggested that irisin ameliorates obesity, glucose/lipid metabolic disorders and insulin resistance [<xref ref-type="bibr" rid="pone.0146605.ref008">8</xref>,<xref ref-type="bibr" rid="pone.0146605.ref019">19</xref>,<xref ref-type="bibr" rid="pone.0146605.ref020">20</xref>], in contrast with the metabolic function of FABP4 [<xref ref-type="bibr" rid="pone.0146605.ref001">1</xref>,<xref ref-type="bibr" rid="pone.0146605.ref005">5</xref>,<xref ref-type="bibr" rid="pone.0146605.ref013">13</xref>]. Therefore, we speculated that serum irisin might have a slightly antagonistic effect on FABP4.</p>
+<p>However, controversy has emerged regarding the association between irisin and BMI. Several previous studies have reported that circulating irisin was negatively associated with BMI and percentage of fat mass [<xref ref-type="bibr" rid="pone.0146605.ref008">8</xref>,<xref ref-type="bibr" rid="pone.0146605.ref021">21</xref>], and some studies have found that irisin was positively correlated with these parameters [<xref ref-type="bibr" rid="pone.0146605.ref007">7</xref>,<xref ref-type="bibr" rid="pone.0146605.ref022">22</xref>], while others have revealed no correlation between irisin and BMI [<xref ref-type="bibr" rid="pone.0146605.ref023">23</xref>,<xref ref-type="bibr" rid="pone.0146605.ref024">24</xref>]. In the current study, we showed that serum irisin levels had no significant correlations with BMI, body fat percentage or skeletal muscle mass. Metabolic factors, such as glucose, fatty acids, body composition and amount of exercise, might regulate the biosynthesis of irisin[<xref ref-type="bibr" rid="pone.0146605.ref025">25</xref>]. In our study, the body fat percentage of the subjects varied from 28.09±5.83 to 35.62±4.67, and the fasting plasma glucose varied from 5.5 (4.85, 6.45) to 6.10 (5.15, 7.40).</p>
+<p>There has also been controversy regarding the association between irisin and sex. Al-Daghri. et al. revealed that serum irisin levels were higher in girls than in boys [<xref ref-type="bibr" rid="pone.0146605.ref026">26</xref>]. After three weeks of sprint interval training (SIT), serum irisin levels were decreased in men and increased in women, suggested a sexually dimorphic response of irisin to SIT, but the mechanism remains unclear [<xref ref-type="bibr" rid="pone.0146605.ref027">27</xref>]. Consistent with our study, Moraes et al. found that serum irisin levels did not differ according to sex in healthy individuals [<xref ref-type="bibr" rid="pone.0146605.ref028">28</xref>]. This sexual dimorphism was not observed in new one-set T2DM [<xref ref-type="bibr" rid="pone.0146605.ref021">21</xref>] or normally glucose tolerant subjects [<xref ref-type="bibr" rid="pone.0146605.ref029">29</xref>].</p>
+<p>With the further exploration of irisin, several studies have found that immune and quantitative methods continue to generate some controversies. In the initial discovery of irisin, Bostrom et al. used western blots to demonstrate the plasma level of irisin [<xref ref-type="bibr" rid="pone.0146605.ref006">6</xref>]. To explore further the function of irisin, many of the subsequent studies determined mRNA levels of FNDC5 [<xref ref-type="bibr" rid="pone.0146605.ref030">30</xref>,<xref ref-type="bibr" rid="pone.0146605.ref031">31</xref>]. Moreover, several clinical studies have quantified the levels of irisin in serum using ELISA kits. The sensitivity and specificity of the antibody must be tested by quantitative western blotting for cross-reacting proteins in plasma [<xref ref-type="bibr" rid="pone.0146605.ref032">32</xref>]. In research into the specificity of commercially ELISA kits, Albrecht. et al. found that there were four ELISA kits that were based on polyclonal antibodies (pAbs), revealing prominent cross-reactivity with non-specific proteins in human and animal plasma [<xref ref-type="bibr" rid="pone.0146605.ref033">33</xref>]. However, the ELISA kits used in our study were not included among them.</p>
+<p>There were several limitations of our study. First, it was cross-sectional; therefore, this study could not reflect the cause-effect relationship between FABP4 and irisin. Further <italic>in vitro</italic> studies are needed to illuminate the molecular mechanism of the interaction between FABP4 and irisin. Second, the sample size was not sufficiently large. Third, FABP4 and irisin were measured in stored samples, although the samples were sufficiently fresh. Finally, the subjects in our study were aged 40 to 60 years old. Thus, whether our findings could be extended to populations of other ages requires further investigation.</p>
+<p>With the current study, we have shown that higher serum FABP4 levels increased the risks of obesity-related metabolic disorders and hypertension. Serum irisin levels contributed independently to circulating FABP4, and irisin might have a slightly antagonistic effect on FABP4 in the middle-aged general Chinese population. Our findings suggested that irisin might be associated with the synthesis and release of the adipokine FABP4, providing a direction for future studies to reveal the communication among cytokines related to metabolism.</p>
+</sec>
+</body>
+<back>
+<ack>
+<p>We greatly appreciate the contributions to this study of the doctors and nurses in the Department of Endocrinology and Metabolism, Fengxian Central Hospital. We also thank the study participants.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0146605.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ishimura</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Furuhashi</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Watanabe</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Hoshina</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Fuseya</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Mita</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Circulating levels of fatty acid-binding protein family and metabolic phenotype in the general population</article-title>. <source>Plos One</source>, <year>2013</year>;<volume>8</volume>(<issue>11</issue>):<fpage>e81318</fpage>–<lpage>e81318</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0081318" xlink:type="simple">10.1371/journal.pone.0081318</ext-link></comment> <object-id pub-id-type="pmid">24278421</object-id></mixed-citation></ref>
+<ref id="pone.0146605.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Coe</surname> <given-names>NR</given-names></name>, <name name-style="western"><surname>Simpson</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Bernlohr</surname> <given-names>DA</given-names></name>. <article-title>Targeted disruption of the adipocyte lipid-binding protein (aP2 protein) gene impairs fat cell lipolysis and increases cellular fatty acid levels</article-title>. <source>J Lipid Res</source>. <year>1999</year>;<volume>40</volume>(<issue>5</issue>): <fpage>967</fpage>–<lpage>972</lpage>. <object-id pub-id-type="pmid">10224167</object-id></mixed-citation></ref>
+<ref id="pone.0146605.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Baar</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Dingfelder</surname> <given-names>CS</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Bernlohr</surname> <given-names>DA</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Lange</surname> <given-names>AJ</given-names></name>, <etal>et al</etal>. <article-title>Investigation of in vivo fatty acid metabolism in afabp/ap2(-/-) mice</article-title>. <source>Am J Physiol Endocrinol Metab</source>.<year>2005</year>;<volume>288</volume>(<issue>4</issue>), <fpage>E187</fpage>–<lpage>E193</lpage>.</mixed-citation></ref>
+<ref id="pone.0146605.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Makowski</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Boord</surname> <given-names>JB</given-names></name>, <name name-style="western"><surname>Maeda</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Babaev</surname> <given-names>VR</given-names></name>, <name name-style="western"><surname>Uysal</surname> <given-names>KT</given-names></name>, <name name-style="western"><surname>Morgan</surname> <given-names>MA</given-names></name>, <etal>et al</etal>. <article-title>Lack of macrophage fatty-acid–binding protein aP2 protects mice deficient in apolipoprotein E against atherosclerosis</article-title>. <source>Nature Medicine</source>. <year>2001</year>;<volume>7</volume>(<issue>6</issue>): <fpage>699</fpage>–<lpage>705</lpage>. <object-id pub-id-type="pmid">11385507</object-id></mixed-citation></ref>
+<ref id="pone.0146605.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Uysal</surname> <given-names>KT</given-names></name>, <name name-style="western"><surname>Scheja</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Wiesbrock</surname> <given-names>SM</given-names></name>, <name name-style="western"><surname>Bonner-Weir</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Hotamisligil</surname> <given-names>GS</given-names></name>. <article-title>Improved glucose and lipid metabolism in genetically obese mice lacking aP2</article-title>. <source>Endocrinology</source>.<year>2000</year>;<volume>141</volume>(<issue>9</issue>): <fpage>3388</fpage>–<lpage>3396</lpage>. <object-id pub-id-type="pmid">10965911</object-id></mixed-citation></ref>
+<ref id="pone.0146605.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Boström</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Jedrychowski</surname> <given-names>MP</given-names></name>, <name name-style="western"><surname>Korde</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Ye</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Lo</surname> <given-names>JC</given-names></name>, <etal>et al</etal>. <article-title>A PGC1-α-dependent myokine that drives brown-fat-like development of white fat and thermogenesis</article-title>. <source>Nature</source>. <year>2012</year>;<volume>481</volume>(<issue>7382</issue>): <fpage>463</fpage>–<lpage>468</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nature10777" xlink:type="simple">10.1038/nature10777</ext-link></comment> <object-id pub-id-type="pmid">22237023</object-id></mixed-citation></ref>
+<ref id="pone.0146605.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Huh</surname> <given-names>JY</given-names></name>, <name name-style="western"><surname>Panagiotou</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Mougios</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Brinkoetter</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Vamvini</surname> <given-names>MT</given-names></name>, <name name-style="western"><surname>Schneider</surname> <given-names>BE</given-names></name>, <etal>et al</etal>. <article-title>FNDC5 and irisin in humans: I. Predictors of circulating concentrations in serum and plasma and II. mRNA expression and circulating concentrations in response to weight loss and exercise</article-title>. <source>Metabolism</source>. <year>2012</year>;<volume>61</volume>(<issue>12</issue>): <fpage>1725</fpage>–<lpage>1738</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.metabol.2012.09.002" xlink:type="simple">10.1016/j.metabol.2012.09.002</ext-link></comment> <object-id pub-id-type="pmid">23018146</object-id></mixed-citation></ref>
+<ref id="pone.0146605.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Moreno-Navarrete</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Ortega</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Serrano</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Guerra</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Pardo</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Tinahones</surname> <given-names>F</given-names></name>, <etal>et al</etal>. <article-title>Irisin Is Expressed and Produced by Human Muscle and Adipose Tissue in Association With Obesity and Insulin Resistance</article-title>. <source>The Journal of Clinical Endocrinology &amp; Metabolism</source>. <year>2013</year>;<volume>98</volume>(<issue>4</issue>): <fpage>E769</fpage>–<lpage>E778</lpage>.</mixed-citation></ref>
+<ref id="pone.0146605.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhang</surname> <given-names>HJ</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>XF</given-names></name>, <name name-style="western"><surname>Ma</surname> <given-names>ZM</given-names></name>, <name name-style="western"><surname>Pan</surname> <given-names>LL</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Han</surname> <given-names>CK</given-names></name>, <etal>et al</etal>. <article-title>Irisin is inversely associated with intrahepatic triglyceride contents in obese adults</article-title>. <source>J Hepatol</source>. <year>2013</year>;<volume>59</volume>(<issue>3</issue>): <fpage>557</fpage>–<lpage>562</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jhep.2013.04.030" xlink:type="simple">10.1016/j.jhep.2013.04.030</ext-link></comment> <object-id pub-id-type="pmid">23665283</object-id></mixed-citation></ref>
+<ref id="pone.0146605.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Suh</surname> <given-names>JB</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>SM</given-names></name>, <name name-style="western"><surname>Cho</surname> <given-names>GJ</given-names></name>, <name name-style="western"><surname>Choi</surname> <given-names>KM</given-names></name>. <article-title>Serum AFBP levels are elevated in patients with nonalcoholic fatty liver disease</article-title>. <source>Scand J Gastroenterol</source>. <year>2014</year>;<volume>49</volume>(<issue>8</issue>): <fpage>979</fpage>–<lpage>985</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3109/00365521.2013.836754" xlink:type="simple">10.3109/00365521.2013.836754</ext-link></comment> <object-id pub-id-type="pmid">24957697</object-id></mixed-citation></ref>
+<ref id="pone.0146605.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Xu</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Xu</surname> <given-names>JY</given-names></name>, <name name-style="western"><surname>Stejskal</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Tam</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Adipocyte Fatty Acid-Binding Protein Is a Plasma Biomarker Closely Associated with Obesity and Metabolic Syndrome</article-title>. <source>Clinical Chemistry</source>. <year>2006</year>;<volume>52</volume>(<issue>3</issue>): <fpage>405</fpage>–<lpage>413</lpage>. <object-id pub-id-type="pmid">16423904</object-id></mixed-citation></ref>
+<ref id="pone.0146605.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bao</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Lu</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Zhou</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Gao</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Serum Levels of Adipocyte Fatty Acid-Binding Protein Are Associated with the Severity of Coronary Artery Disease in Chinese Women</article-title>. <source>Plos One</source>. <year>2011</year>; <volume>6</volume>(<issue>4</issue>):<fpage>E19115</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0019115" xlink:type="simple">10.1371/journal.pone.0019115</ext-link></comment> <object-id pub-id-type="pmid">21552513</object-id></mixed-citation></ref>
+<ref id="pone.0146605.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Furuhashi</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Tuncman</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Görgün</surname> <given-names>CZ</given-names></name>, <name name-style="western"><surname>Makowski</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Atsumi</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Vaillancourt</surname> <given-names>E</given-names></name>, <etal>et al</etal>. <article-title>Treatment of diabetes and atherosclerosis by inhibiting fatty-acid-binding protein aP2</article-title>. <source>Nature</source>. <year>2007</year>;<volume>447</volume>(<issue>7147</issue>): <fpage>959</fpage>–<lpage>965</lpage>. <object-id pub-id-type="pmid">17554340</object-id></mixed-citation></ref>
+<ref id="pone.0146605.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ota</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Furuhashi</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ishimura</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Koyama</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Okazaki</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Mita</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Elevation of Fatty Acid-Binding Protein 4 Is Predisposed by Family History of Hypertension and Contributes to Blood Pressure Elevation</article-title>.<source>American Journal of Hypertension</source>. <year>2012</year>;<volume>25</volume>(<issue>10</issue>):<fpage>1124</fpage>–<lpage>1130</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/ajh.2012.88" xlink:type="simple">10.1038/ajh.2012.88</ext-link></comment> <object-id pub-id-type="pmid">22717543</object-id></mixed-citation></ref>
+<ref id="pone.0146605.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Aragones</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Saavedra</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Heras</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Cabre</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Girona</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Masana</surname> <given-names>L</given-names></name>. <article-title>Fatty acid-binding protein 4 impairs the insulin-dependent nitric oxide pathway in vascular endothelial cells</article-title>. <source>Cardiovascual Diabetology</source>. <year>2012</year>;<volume>11</volume>(<issue>3</issue>): <fpage>205</fpage>–<lpage>206</lpage>.</mixed-citation></ref>
+<ref id="pone.0146605.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liu</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>Wong</surname> <given-names>MD</given-names></name>, <name name-style="western"><surname>Toy</surname> <given-names>WC</given-names></name>, <name name-style="western"><surname>Tan</surname> <given-names>CS</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Ng</surname> <given-names>XW</given-names></name>, <etal>et al</etal>. <article-title>Lower circulating irisin is associated with type 2 diabetes mellitus</article-title>. <source>Journal of Diabetes &amp; Its Complications</source>. <year>2013</year>; <volume>27</volume>(<issue>4</issue>):<fpage>365</fpage>–<lpage>369</lpage>.</mixed-citation></ref>
+<ref id="pone.0146605.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ebert</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Focke</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Petroff</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Wurst</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Richter</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Bachmann</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Serum levels of the myokine irisin in relation to metabolic and renal function</article-title>. <source>European Journal of Endocrinology</source>. <year>2014</year>;<volume>170</volume>(<issue>4</issue>):<fpage>501</fpage>–<lpage>506</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1530/EJE-13-1053" xlink:type="simple">10.1530/EJE-13-1053</ext-link></comment> <object-id pub-id-type="pmid">24399249</object-id></mixed-citation></ref>
+<ref id="pone.0146605.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Seale</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Conroe</surname> <given-names>HM</given-names></name>, <name name-style="western"><surname>Eatall</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kajimura</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Frontini</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Ishibashi</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Prdm16 determines the thermogenic program of subcutaneous white adipose tissue in mice</article-title>. <source>The Journal of Clinical Investigation</source>. <year>2011</year>;<volume>121</volume>(<issue>1</issue>):<fpage>96</fpage>–<lpage>105</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1172/JCI44271" xlink:type="simple">10.1172/JCI44271</ext-link></comment> <object-id pub-id-type="pmid">21123942</object-id></mixed-citation></ref>
+<ref id="pone.0146605.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Xiong</surname> <given-names>XQ</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Sun</surname> <given-names>HJ</given-names></name>, <name name-style="western"><surname>Ding</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>Q</given-names></name>, <etal>et al</etal>. <article-title>FNDC5 overexpression and irisin ameliorate glucose/lipid metabolic derangements and enhance lipolysis in obesity</article-title>. <source>Biochim Biophys Acta</source>. <year>2015</year>;<volume>1852</volume>: <fpage>1867</fpage>–<lpage>1875</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.bbadis.2015.06.017" xlink:type="simple">10.1016/j.bbadis.2015.06.017</ext-link></comment> <object-id pub-id-type="pmid">26111885</object-id></mixed-citation></ref>
+<ref id="pone.0146605.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liu</surname> <given-names>TY</given-names></name>, <name name-style="western"><surname>Shi</surname> <given-names>CX</given-names></name>, <name name-style="western"><surname>Gao</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Sun</surname> <given-names>HJ</given-names></name>, <name name-style="western"><surname>Xiong</surname> <given-names>XQ</given-names></name>, <name name-style="western"><surname>Ding</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>Irisin inhibits hepatic gluconeogenesis and increases glycogen synthesis via PI3K/Akt pathway in type 2 diabetic mice and hepatocytes</article-title>. <source>Clin Sci (Lond)</source>. <year>2015</year>;<volume>129</volume>(<issue>10</issue>):<fpage>839</fpage>–<lpage>850</lpage>.</mixed-citation></ref>
+<ref id="pone.0146605.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Choi</surname> <given-names>YK</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>MK</given-names></name>, <name name-style="western"><surname>Bae</surname> <given-names>KH</given-names></name>, <name name-style="western"><surname>Seo</surname> <given-names>HA</given-names></name>, <name name-style="western"><surname>Jeong</surname> <given-names>JY</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>WK</given-names></name>, <etal>et al</etal>. <article-title>Serum irisin levels in new-onset type 2 diabetes</article-title>. <source>Diabetes Research and Clinical Practice</source>. <year>2013</year>;<volume>100</volume>(<issue>1</issue>): <fpage>96</fpage>–<lpage>101</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.diabres.2013.01.007" xlink:type="simple">10.1016/j.diabres.2013.01.007</ext-link></comment> <object-id pub-id-type="pmid">23369227</object-id></mixed-citation></ref>
+<ref id="pone.0146605.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Moreno</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Moreno-Navarrete</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Serrano</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ortega</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Delgado</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Sanchez-Ragnarsson</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Circulating irisin levels are positively associated with metabolic risk factors in sedentary subjects</article-title>. <source>Plos One</source>. <year>2015</year>;<volume>10</volume>(<issue>4</issue>):<fpage>e0124100</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0124100" xlink:type="simple">10.1371/journal.pone.0124100</ext-link></comment> <object-id pub-id-type="pmid">25897751</object-id></mixed-citation></ref>
+<ref id="pone.0146605.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sanchis-Gomar</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Alis</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Pareja-Galeano</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Sola</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Victor</surname> <given-names>VM</given-names></name>, <name name-style="western"><surname>Rocha</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Circulating irisin levels are not correlated with BMI, age, and other biological parameters in obese and diabetic patients</article-title>. <source>Endocrine</source>. <year>2014</year>;<volume>46</volume>(<issue>3</issue>):<fpage>674</fpage>–<lpage>677</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s12020-014-0170-9" xlink:type="simple">10.1007/s12020-014-0170-9</ext-link></comment> <object-id pub-id-type="pmid">24510629</object-id></mixed-citation></ref>
+<ref id="pone.0146605.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Timmons</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Baar</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Davidsen</surname> <given-names>PK</given-names></name>, <name name-style="western"><surname>Atherton</surname> <given-names>PJ</given-names></name>. <article-title>Is irisin a human exercise gene?</article-title> <source>Nature</source>. <year>2012</year>; <volume>488</volume>(<issue>7413</issue>):<fpage>E9</fpage>–<lpage>E10</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nature11364" xlink:type="simple">10.1038/nature11364</ext-link></comment> <object-id pub-id-type="pmid">22932392</object-id></mixed-citation></ref>
+<ref id="pone.0146605.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kurdiova</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Balaz</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Vician</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Maderova</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Vlcek</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Valkovic</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>Effects of obesity, diabetes and exercise on Fndc5 gene expression and irisin release in human skeletal muscle and adipose tissue: in vivo and in vitro studies</article-title>. <source>J Physiol</source>. <year>2014</year>; <volume>592</volume>(<issue>5</issue>):<fpage>1091</fpage>–<lpage>1107</lpage>.</mixed-citation></ref>
+<ref id="pone.0146605.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Al‐Daghri</surname> <given-names>NM</given-names></name>, <name name-style="western"><surname>Alkharfy</surname> <given-names>KM</given-names></name>, <name name-style="western"><surname>Rahman</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Amer</surname> <given-names>OE</given-names></name>, <name name-style="western"><surname>Vinodson</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Sabico</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Irisin as a predictor of glucose metabolism in children: sexually dimorphic effects</article-title>. <source>European Journal of Clinical Investigation</source>. <year>2014</year>; <volume>44</volume>(<issue>2</issue>):<fpage>119</fpage>–<lpage>124</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/eci.12196" xlink:type="simple">10.1111/eci.12196</ext-link></comment> <object-id pub-id-type="pmid">24188288</object-id></mixed-citation></ref>
+<ref id="pone.0146605.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Scalzo</surname> <given-names>RL</given-names></name>, <name name-style="western"><surname>Peltonen</surname> <given-names>GL</given-names></name>, <name name-style="western"><surname>Giordano</surname> <given-names>GR</given-names></name>, <name name-style="western"><surname>Binns</surname> <given-names>SE</given-names></name>, <name name-style="western"><surname>Klochak</surname> <given-names>AL</given-names></name>, <name name-style="western"><surname>Paris</surname> <given-names>HLR</given-names></name>, <etal>et al</etal>. <article-title>Regulators of human white adipose browning: evidence for sympathetic control and sexual dimorphic responses to sprint interval training</article-title>. <source>Plos One</source>, <year>2014</year>; <volume>9</volume>(<issue>3</issue>):<fpage>e90696</fpage>–<lpage>e90696</lpage>.</mixed-citation></ref>
+<ref id="pone.0146605.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Moraes</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Leal</surname> <given-names>VO</given-names></name>, <name name-style="western"><surname>Marinho</surname> <given-names>SM</given-names></name>, <name name-style="western"><surname>Barroso</surname> <given-names>SG</given-names></name>, <name name-style="western"><surname>Rocha</surname> <given-names>GS</given-names></name>, <name name-style="western"><surname>Boaventura</surname> <given-names>GT</given-names></name>, <etal>et al</etal>. <article-title>Resistance Exercise Training does not Affect Plasma Irisin Levels of Hemodialysis Patients</article-title>. <source>Hormone &amp; Metabolic Research</source>. <year>2013</year>; <volume>45</volume>(<issue>12</issue>):<fpage>900</fpage>–<lpage>904</lpage>.</mixed-citation></ref>
+<ref id="pone.0146605.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Xie</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Gao</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Yang</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Jin</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Yang</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>Associations of betatrophin levels with irisin in Chinese women with normal glucose tolerance</article-title>. <source>Diabetol Metab Syndr</source>. <year>2015</year>; <volume>7</volume>(<issue>1</issue>): <fpage>1</fpage>–<lpage>8</lpage>.</mixed-citation></ref>
+<ref id="pone.0146605.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pekkala</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Wiklund</surname> <given-names>PK</given-names></name>, <name name-style="western"><surname>Hulmi</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>Ahtiainen</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Horttanainen</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Pollanen</surname> <given-names>E</given-names></name>, <etal>et al</etal>. <article-title>Are skeletal muscle FNDC5 gene expression and irisin release regulated by exercise and related to health?</article-title> <source>Journal of Physiology</source>. <year>2013</year>; <volume>591</volume>(<issue>Pt21</issue>):<fpage>5393</fpage>–<lpage>5400</lpage>.</mixed-citation></ref>
+<ref id="pone.0146605.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Roca-Rivada</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Castelao</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Senin</surname> <given-names>LL</given-names></name>, <name name-style="western"><surname>Landrove</surname> <given-names>MO</given-names></name>, <name name-style="western"><surname>Baltra</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Belen Crujeiras</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>FNDC5/Irisin Is Not Only a Myokine but Also an Adipokine</article-title>. <source>Plos One</source>. <year>2013</year>;<volume>8</volume>(<issue>4</issue>):<fpage>7365</fpage>–<lpage>7375</lpage>.</mixed-citation></ref>
+<ref id="pone.0146605.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Erickson</surname> <given-names>HP</given-names></name>. <article-title>Irisin and FNDC5 in retrospect: An exercise hormone or a transmembrane receptor?</article-title> <source>Adipocyte</source>. <year>2013</year>; <volume>2</volume>(<issue>4</issue>):<fpage>289</fpage>–<lpage>293</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.4161/adip.26082" xlink:type="simple">10.4161/adip.26082</ext-link></comment> <object-id pub-id-type="pmid">24052909</object-id></mixed-citation></ref>
+<ref id="pone.0146605.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Albrecht</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Norheim</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Thiede</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Holen</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Ohashi</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Schering</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>Irisin–a myth rather than an exercise-inducible myokine</article-title>. <source>Scientific Reports</source>. <year>2015</year>; <volume>5</volume>: <fpage>8889</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/srep08889" xlink:type="simple">10.1038/srep08889</ext-link></comment> <object-id pub-id-type="pmid">25749243</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

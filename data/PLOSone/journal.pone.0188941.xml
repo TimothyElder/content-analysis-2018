@@ -1,0 +1,2509 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-17-05532</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0188941</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Social sciences</subject><subj-group><subject>Sociology</subject><subj-group><subject>Communications</subject><subj-group><subject>Social communication</subject><subj-group><subject>Social media</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Computer and information sciences</subject><subj-group><subject>Network analysis</subject><subj-group><subject>Social networks</subject><subj-group><subject>Social media</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social sciences</subject><subj-group><subject>Sociology</subject><subj-group><subject>Social networks</subject><subj-group><subject>Social media</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social sciences</subject><subj-group><subject>Sociology</subject><subj-group><subject>Communications</subject><subj-group><subject>Social communication</subject><subj-group><subject>Social media</subject><subj-group><subject>Twitter</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Computer and information sciences</subject><subj-group><subject>Network analysis</subject><subj-group><subject>Social networks</subject><subj-group><subject>Social media</subject><subj-group><subject>Twitter</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social sciences</subject><subj-group><subject>Sociology</subject><subj-group><subject>Social networks</subject><subj-group><subject>Social media</subject><subj-group><subject>Twitter</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Mathematical and statistical techniques</subject><subj-group><subject>Statistical methods</subject><subj-group><subject>Forecasting</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Statistics (mathematics)</subject><subj-group><subject>Statistical methods</subject><subj-group><subject>Forecasting</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Computer and information sciences</subject><subj-group><subject>Network analysis</subject><subj-group><subject>Signaling networks</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Computer and information sciences</subject><subj-group><subject>Neural networks</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Neuroscience</subject><subj-group><subject>Neural networks</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Infectious diseases</subject><subj-group><subject>Viral diseases</subject><subj-group><subject>Influenza</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Computer and information sciences</subject><subj-group><subject>Artificial intelligence</subject><subj-group><subject>Machine learning</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Neuroscience</subject><subj-group><subject>Cognitive science</subject><subj-group><subject>Cognitive psychology</subject><subj-group><subject>Learning</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Cognitive psychology</subject><subj-group><subject>Learning</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Cognitive psychology</subject><subj-group><subject>Learning</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Neuroscience</subject><subj-group><subject>Learning and memory</subject><subj-group><subject>Learning</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Forecasting influenza-like illness dynamics for military populations using neural networks and social media</article-title>
+<alt-title alt-title-type="running-head">Forecasting ILI dynamics using neural networks and social media</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-6131-3073</contrib-id>
+<name name-style="western">
+<surname>Volkova</surname> <given-names>Svitlana</given-names></name>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"/>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Ayton</surname> <given-names>Ellyn</given-names></name>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Porterfield</surname> <given-names>Katherine</given-names></name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Corley</surname> <given-names>Courtney D.</given-names></name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+</contrib-group>
+<aff id="aff001">
+<addr-line>Data Sciences and Analytics Group, Computing and Analytics Division, National Security Directorate, Pacific Northwest National Laboratory, Richland, WA, United States of America</addr-line>
+</aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Chowell</surname> <given-names>Gerardo</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1">
+<addr-line>Georgia State University, UNITED STATES</addr-line>
+</aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">svitlana.volkova@pnnl.gov</email></corresp>
+</author-notes>
+<pub-date pub-type="collection">
+<year>2017</year>
+</pub-date>
+<pub-date pub-type="epub">
+<day>15</day>
+<month>12</month>
+<year>2017</year>
+</pub-date>
+<volume>12</volume>
+<issue>12</issue>
+<elocation-id>e0188941</elocation-id>
+<history>
+<date date-type="received">
+<day>10</day>
+<month>2</month>
+<year>2017</year>
+</date>
+<date date-type="accepted">
+<day>15</day>
+<month>11</month>
+<year>2017</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2017</copyright-year>
+<copyright-holder>Volkova et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0188941"/>
+<abstract>
+<p>This work is the first to take advantage of recurrent neural networks to predict influenza-like illness (ILI) dynamics from various linguistic signals extracted from social media data. Unlike other approaches that rely on timeseries analysis of historical ILI data and the state-of-the-art machine learning models, we build and evaluate the predictive power of neural network architectures based on Long Short Term Memory (LSTMs) units capable of nowcasting (predicting in “real-time”) and forecasting (predicting the future) ILI dynamics in the 2011 – 2014 influenza seasons. To build our models we integrate information people post in social media e.g., topics, embeddings, word ngrams, stylistic patterns, and communication behavior using hashtags and mentions. We then quantitatively evaluate the predictive power of different social media signals and contrast the performance of the-state-of-the-art regression models with neural networks using a diverse set of evaluation metrics. Finally, we combine ILI and social media signals to build a joint neural network model for ILI dynamics prediction. Unlike the majority of the existing work, we specifically focus on developing models for local rather than national ILI surveillance, specifically for military rather than general populations in 26 U.S. and six international locations., and analyze how model performance depends on the amount of social media data available per location. Our approach demonstrates several advantages: (a) Neural network architectures that rely on LSTM units trained on social media data yield the best performance compared to previously used regression models. (b) Previously under-explored language and communication behavior features are more predictive of ILI dynamics than stylistic and topic signals expressed in social media. (c) Neural network models learned exclusively from social media signals yield comparable or better performance to the models learned from ILI historical data, thus, signals from social media can be potentially used to accurately forecast ILI dynamics for the regions where ILI historical data is not available. (d) Neural network models learned from combined ILI and social media signals significantly outperform models that rely solely on ILI historical data, which adds to a great potential of alternative public sources for ILI dynamics prediction. (e) Location-specific models outperform previously used location-independent models e.g., U.S. only. (f) Prediction results significantly vary across geolocations depending on the amount of social media data available and ILI activity patterns. (g) Model performance improves with more tweets available per geo-location e.g., the error gets lower and the Pearson score gets higher for locations with more tweets.</p>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100000774</institution-id>
+<institution>Defense Threat Reduction Agency</institution>
+</institution-wrap>
+</funding-source>
+<award-id>CB10082</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Corley</surname> <given-names>Courtney D.</given-names></name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>This research was supported by a contract from the Defense Threat Reduction Agency to the Pacific Northwest National Laboratory under contract CB10082, and supported in part by the Deep Learning for Scientific Discovery Initiative at the Pacific Northwest National Laboratory.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="10"/>
+<table-count count="6"/>
+<page-count count="22"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are available from the figshare repository at the following DOI: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.6084/m9.figshare.5632222" xlink:type="simple">10.6084/m9.figshare.5632222</ext-link>.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Every year there are 500,000 deaths worldwide attributed to influenza including 30,000 – 50,000 deaths in the US [<xref ref-type="bibr" rid="pone.0188941.ref001">1</xref>]. The Centers for Disease Control and Prevention (CDC) reports weekly on the level of confirmed influenza and influenza-like illnesses (ILI) seen year round in hospitals and by doctor visits that are used to monitor the spread and impact of influenza. However, by the time the CDC data is released, the information is already several weeks old. To overcome this, researchers explored alternative data sources for monitoring influenza and ILI dynamics in real time including web queries [<xref ref-type="bibr" rid="pone.0188941.ref002">2</xref>], Wikipedia logs [<xref ref-type="bibr" rid="pone.0188941.ref003">3</xref>, <xref ref-type="bibr" rid="pone.0188941.ref004">4</xref>], microblogs [<xref ref-type="bibr" rid="pone.0188941.ref005">5</xref>] and social media platforms, e.g., Twitter [<xref ref-type="bibr" rid="pone.0188941.ref006">6</xref>–<xref ref-type="bibr" rid="pone.0188941.ref009">9</xref>], as a way to enhance predictive ability for health officials when looking at influenza infection rates.</p>
+<p>Researchers theorized that the most valuable impact alternative data sources [<xref ref-type="bibr" rid="pone.0188941.ref010">10</xref>, <xref ref-type="bibr" rid="pone.0188941.ref011">11</xref>], e.g., Twitter, can make is by reducing the error in influenza predictions during the weeks the influenza infection rates are under revision by the CDC [<xref ref-type="bibr" rid="pone.0188941.ref007">7</xref>]. Indeed, they have shown through the use of basic linear autoregressive models that a combined model of Twitter and ILI data outperforms a similar model of only ILI data. These promising results give motivation for introducing richer models into this prediction task. The work done by [<xref ref-type="bibr" rid="pone.0188941.ref008">8</xref>] incorporates and experiments with several machine learning ensemble methods to forecast ILI dynamics. Using these models, they are able to accurately predict ILI activity for up to two weeks. However, they only explored basic bag-of-word features extracted from tweets. Similar to [<xref ref-type="bibr" rid="pone.0188941.ref009">9</xref>], we argue that to effectively utilize social media data, the existing natural language processing (NLP) techniques need to be improved or new methods developed in order to extract richer meaning from tweets. Furthermore, researchers advocate the use of Twitter as a way to supplement customary influenza monitoring systems to make accurate predictions [<xref ref-type="bibr" rid="pone.0188941.ref006">6</xref>, <xref ref-type="bibr" rid="pone.0188941.ref012">12</xref>].</p>
+<p>Following prior advances on infectious disease surveillance using social media data [<xref ref-type="bibr" rid="pone.0188941.ref007">7</xref>, <xref ref-type="bibr" rid="pone.0188941.ref008">8</xref>], we made use of large amounts of public Twitter data – 171M tweets collected between 2011 – 2014. We considered this data as a real-time source of information in order to forecast ILI activity estimates—the total number of people seeking medical attention with ILI symptoms. We specifically focused on military populations and collected ILI activity data and Twitter data from fine-grained geolocations – 25 in the US and 6 international from 2011 to 2014.</p>
+<p>To the best of our knowledge, this is a pioneer study that takes advantage of and evaluates the predictive power of Recurrent Neural Networks (RNNs) to predict ILI dynamics [<xref ref-type="bibr" rid="pone.0188941.ref013">13</xref>]. Moreover, unlike any previous work, the proposed models rely on different social media signals including lexical, stylistic, topics, emotions and opinions, and communication behavior patterns extracted from user tweets, and contrast model performance learned from social media data with models learned from ILI historical data. In addition, we contrast neural network model performance for nowcasting and forecasting ILI dynamics with the machine learning approaches explored by the current state-of-the-art approach [<xref ref-type="bibr" rid="pone.0188941.ref008">8</xref>]. More specifically, this work aims to answer several research questions:
+<list list-type="bullet"><list-item><p>RQ1: What machine learning models yield the best ILI predictions, e.g., the state-of-the-art regression models or neural networks?</p></list-item> <list-item><p>RQ2: What signals from social media are the most predictive of ILI dynamics, e.g., word ngrams, stylistic, communication behavior, topics, or embeddings?</p></list-item> <list-item><p>RQ3: How accurately can we predict location-specific weekly ILI dynamics? How does prediction accuracy vary across locations in a nowcasting vs. forecasting setting (making predictions up to several weeks in advance)? How does model performance depend on the amount of social media data available per location?</p></list-item></list></p>
+<p>We started our analysis by running machine learning models for ILI dynamics prediction for 2011 – 2014 on a sample dataset (4M tweets) for six geolocations to determine the best performing models and the most predictive social media signals. We found that language (word unigrams and embeddings) and communication behavior features (hashtags and mentions) are more predictive of ILI dynamics than stylistic signals extracted from social media communications. Moreover, we found that location-specific models outperform location-independent models and that prediction results vary significantly across geolocations.</p>
+<p>We then applied the best performing models—LSTMs and social media features—and combined tweet and communication behavior signals to forecast ILI dynamics for 31 geolocations (171M tweets). We demonstrated that social media signals used to learn LSTM models yield comparable performance to ILI historical data. Thus, signals from social media can be potentially used to accurately forecast ILI dynamics for the regions where ILI historical data is not available. Moreover, we showed that neural network models trained on combined ILI and social media signals significantly outperform models that rely solely on ILI historical data.</p>
+<p>We anticipate the proposed neural network models in combination with social media signals will enable surveillance epidemiologists to perform planetary-scale health monitoring, detect potential public health threats and capture early-level warnings for epidemics. Moreover, our approach is generalizable to other infectious diseases and social media platforms and can advance the existing disease surveillance approaches for E. coli [<xref ref-type="bibr" rid="pone.0188941.ref014">14</xref>], ebola [<xref ref-type="bibr" rid="pone.0188941.ref015">15</xref>, <xref ref-type="bibr" rid="pone.0188941.ref016">16</xref>], and cholera [<xref ref-type="bibr" rid="pone.0188941.ref017">17</xref>]. Social media resources could be combined with other data streams [<xref ref-type="bibr" rid="pone.0188941.ref018">18</xref>] e.g., restaurant reservations [<xref ref-type="bibr" rid="pone.0188941.ref019">19</xref>], news sources [<xref ref-type="bibr" rid="pone.0188941.ref020">20</xref>], and pharmacy sales [<xref ref-type="bibr" rid="pone.0188941.ref021">21</xref>].</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and methods</title>
+<p>In this section, we present ILI-related clinical visit data across 31 geolocations and describe our social media data collection and sampling procedure. We then outline our experimental setup for two prediction tasks—nowcasting (predicting this week’s ILI rates) and forecasting (predicting ILI activity one and two weeks in advance), describe machine learning models, social media predictors, and evaluation metrics.</p>
+<sec id="sec003">
+<title>ILI-Related clinical visit data</title>
+<p>The ILI clinical data consists of the number of visits to a Defense Medical Information System (DMIS) Identifier (ID) location for symptoms identified as influenza-like illness (ILI) based on the International Statistical Classification of Disease and Health Related Problems (ICD) codes documented in the electronic patient record (<xref ref-type="table" rid="pone.0188941.t001">Table 1</xref>). The DMIS ID facility types identified as reporting ILI symptoms in patients are hospitals, clinics, administration, and dental offices. The patients who visit these facilities include active duty, reserve, and retired members along with their dependents, and cadets, recruits, and applicants for active duty from the army, navy, marine corps, coast guard, air force, NOAA, and other public health services. This military health data was collected from 31 specific locations (25 U.S. and 6 international). Each location comprised all DMSID IDs within a 25-mile radius around military bases (mean 7 IDs, range 2-19 IDs). The percent of ILI visits to total visits was used in the subsequent analyses (mean 3.6%, range 1.1-9.5%) and is defined as weekly location-specific ILI visit proportions:
+<disp-formula id="pone.0188941.e001"><alternatives><graphic id="pone.0188941.e001g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0188941.e001" xlink:type="simple"/><mml:math display="block" id="M1"><mml:mtable displaystyle="true"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi>I</mml:mi> <mml:mi>L</mml:mi> <mml:mi>I</mml:mi> <mml:mo>=</mml:mo> <mml:mfrac><mml:mrow><mml:mo>＃</mml:mo> <mml:mspace width="3.33333pt"/><mml:mtext>of weekly ILI visits per location</mml:mtext></mml:mrow> <mml:mrow><mml:mo>＃</mml:mo> <mml:mspace width="3.33333pt"/><mml:mtext>of total weekly visits per location</mml:mtext></mml:mrow></mml:mfrac></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math></alternatives> <label>(1)</label></disp-formula></p>
+<table-wrap id="pone.0188941.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0188941.t001</object-id>
+<label>Table 1</label>
+<caption>
+<title>The ICD-9 codes used to describe ILI symptoms (NOS = Not otherwise specified).</title>
+</caption>
+<alternatives>
+<graphic id="pone.0188941.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0188941.t001" xlink:type="simple"/>
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">ICD9</th>
+<th align="left">Code Description for ILI Symptoms</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">79.99</td>
+<td align="left">Viral infection, NOS</td>
+</tr>
+<tr>
+<td align="left">382.9</td>
+<td align="left">Unspecified otitis media</td>
+</tr>
+<tr>
+<td align="left">460</td>
+<td align="left">Acute nasopharyngitis (common cold)</td>
+</tr>
+<tr>
+<td align="left">461.9</td>
+<td align="left">Acute sinusitis unspecified</td>
+</tr>
+<tr>
+<td align="left">465.8</td>
+<td align="left">Acute upper respiratory infections of other multiple sites</td>
+</tr>
+<tr>
+<td align="left">465.9</td>
+<td align="left">Acute upper respiratory infections of unspecified sites</td>
+</tr>
+<tr>
+<td align="left">466</td>
+<td align="left">Acute bronchitis</td>
+</tr>
+<tr>
+<td align="left">486</td>
+<td align="left">Pneumonia organism unspecified</td>
+</tr>
+<tr>
+<td align="left">487</td>
+<td align="left">Influenza with pneumonia</td>
+</tr>
+<tr>
+<td align="left">487.1</td>
+<td align="left">Influenza with other respiratory manifestations</td>
+</tr>
+<tr>
+<td align="left">487.8</td>
+<td align="left">Influenza with other manifestations</td>
+</tr>
+<tr>
+<td align="left">488</td>
+<td align="left">Influenza due to identified agent</td>
+</tr>
+<tr>
+<td align="left">490</td>
+<td align="left">Bronchitis, NOS</td>
+</tr>
+<tr>
+<td align="left">780.6</td>
+<td align="left">Fever</td>
+</tr>
+<tr>
+<td align="left">786.2</td>
+<td align="left">Cough</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>In <xref ref-type="fig" rid="pone.0188941.g001">Fig 1</xref> we present weekly ILI proportion dynamics between 2011 and 2014 for six example geolocations e.g., L10, L12 etc.</p>
+<fig id="pone.0188941.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0188941.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Location-specific ILI dynamics.</title>
+<p>Weekly ILI proportions between 2011 and 2014 for six example geolocations.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0188941.g001" xlink:type="simple"/>
+</fig>
+<p>We focused on ILI (influenza-like illness) predictions rather than influenza Virology data (which measures lab-confirmed cases of influenza) because: first, Virology data is not always considered to be a good predictor of ILI, and, second, it tends to be even more delayed than ILI data due to time spent on laboratory testing [<xref ref-type="bibr" rid="pone.0188941.ref022">22</xref>, <xref ref-type="bibr" rid="pone.0188941.ref023">23</xref>].</p>
+</sec>
+<sec id="sec004">
+<title>Twitter dataset</title>
+<p>Twitter data, acquired from a social media vendor and through the public API, was anonymized for usernames, user IDs, and tweet IDs based on a rigorous procedure, i.e., a state-of-the-art encryption algorithm. To ensure the privacy of all users in our sampled datasets, our analysis was based only on completely anonymized data and our findings are reported on an aggregate rather than individual level. This study was approved by our institutional review board (IRB).</p>
+<p>We collected geo-tagged tweets within a 25-mile radius of 25 military locations in the U.S. and six international locations (shown as <italic>L</italic> and <italic>i</italic> respectively on <xref ref-type="fig" rid="pone.0188941.g002">Fig 2</xref>) following standard practices on extracting geolocation coordinates from user meta-data [<xref ref-type="bibr" rid="pone.0188941.ref024">24</xref>]. The timeframe for collected tweets ranges between January 2011 to December 2014. Our large Twitter sample includes 171,027,275 tweets produced within a 25-mile radius across 31 military locations. We report tweet distribution for each military location in <xref ref-type="fig" rid="pone.0188941.g002">Fig 2</xref>.</p>
+<fig id="pone.0188941.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0188941.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Tweet distribution across geolocations.</title>
+<p>The number of tweets collected within a 25-mile radius of military installations for 31 geolocations.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0188941.g002" xlink:type="simple"/>
+</fig>
+<p>For a subset of our experiments, we subsampled 2,169 users from six geolocations (CA, NC, TX) who explicitly reveal their military affiliation by mentioning military-specific keywords, e.g., <italic>military, corporal, army brat,</italic> etc. in their user profile data from the original dataset of 171 million tweets. We used the Twitter API to collect up to 3200 of their tweets. The total number of tweets in a sample is 4,029,715 including <italic>L</italic>12 = 381, 178, <italic>L</italic>15 = 467, 509, <italic>L</italic>23 = 607, 461, <italic>L</italic>22 = 578, 843, <italic>L</italic>10 = 378, 837, and <italic>L</italic>3 = 1,615,887.</p>
+</sec>
+<sec id="sec005">
+<title>Models</title>
+<p>We focus on two prediction tasks—nowcasting (predicting current week ILI rates) and forecasting (predicting ILI activity several weeks in advance). We define our nowcasting task as predicting weekly ILI proportions for the current week <italic>Y</italic><sub><italic>t</italic><sub><italic>i</italic></sub></sub> using data from the time period <italic>X</italic><sub>[<italic>t</italic><sub><italic>i</italic>−<italic>k</italic></sub>, <italic>t</italic><sub><italic>i</italic>−1</sub>]</sub>, where <italic>k</italic> is the window size between one and four weeks. We define our forecasting task as predicting weekly ILI proportions at week <italic>Y</italic><sub><italic>t</italic><sub><italic>i</italic>+1</sub></sub> or <italic>Y</italic><sub><italic>t</italic><sub><italic>i</italic>+2</sub></sub> (one or two weeks in advance, respectively) using data from the time period <italic>X</italic><sub>[<italic>t</italic><sub><italic>i</italic>−<italic>k</italic></sub>, <italic>t</italic><sub><italic>i</italic></sub>]</sub>, inclusive.</p>
+<sec id="sec006">
+<title>Baseline models</title>
+<p>We take advantage of different regression models previously used for predicting ILI dynamics [<xref ref-type="bibr" rid="pone.0188941.ref008">8</xref>] e.g., Support Vector Machine (SVM) and AdaBoost. We also experimented with Linear Regression with Ridge and Lasso regularization, however these models yielded the lowest performance and were excluded from our analysis. We experiment with two SVM models: one model with a linear kernel and the other with a radial basis function (RBF) kernel. However, unlike previous work that only relied on word ngram features extracted from tweets [<xref ref-type="bibr" rid="pone.0188941.ref007">7</xref>], we experiment with and contrast the predictive power of lexical, stylistic, and communication behavior predictors.</p>
+</sec>
+<sec id="sec007">
+<title>Neural network models with long short-term memory layers</title>
+<p>Long short-term memory (LSTM) is a recurrent neural network with a built in memory cells to store information and exploit long range context, surrounded by gating units that can reset, read, and write information [<xref ref-type="bibr" rid="pone.0188941.ref025">25</xref>]. LSTMs have been successfully used for sequence modeling e.g, speech recognition, language modeling, translation, image captioning. LSTMs are computationally more powerful than other sequence models e.g., Hidden Markov Models with no continuous internal states, feedforward networks, and SVMs with no internal states at all.</p>
+<p>For our experiments, we implement multiple neural network architectures that rely on LSTM layers in keras for regression to forecast weekly ILI proportions. To combine ILI historical data and social media signals we rely on a two-branch neural network architecture presented in <xref ref-type="fig" rid="pone.0188941.g003">Fig 3</xref>. For this combined SM and ILI setting, we add a merge layer before the fully connected layer. If we only rely on ILI historical data, we use the left branch of the network for ILI forecasting followed by a fully connected layer. We initialize the network with one input node per timestep/week (for ILIOnly) and a single output node, using the raw scalar output as the predicted value for regression. Likewise, if we only rely on social media signals, we use the right branch for ILI forecasting, followed by a fully connected layer. For social media signals (for SM Only), we initialize the network with 10k-dimensional vectors of word-level weekly-normalized statistics (focusing on the most frequent ngrams), 1K-dimensional pre-trained embedding vectors [<xref ref-type="bibr" rid="pone.0188941.ref026">26</xref>], and 2K-dimensional topic vectors [<xref ref-type="bibr" rid="pone.0188941.ref027">27</xref>]. While relatively simple (e.g., single rather than multilayer), the above described neural network architectures permit relatively short training time, and, thus, a scalable framework for even larger datasets.</p>
+<fig id="pone.0188941.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0188941.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Diagram of a two-branch neural network model for ILI dynamics prediction.</title>
+<p>The model combines ILI historical estimates encoded using one LSTM layer on the left and social media predictors (ILI + SM) encoded using another LSTM layer on the right to forecast ILI dynamics in weeks.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0188941.g003" xlink:type="simple"/>
+</fig>
+<p>Let <bold>X</bold><sub><italic>t</italic></sub> denote a matrix of training instances at time <italic>t</italic> that could be either weekly ILI proportions at time <italic>t</italic> (in the left branch of the network) or k-dimensional vectors of word-level weekly-normalized statistics (in the right branch of the network), or both. Let <bold>I</bold><sub><italic>t</italic></sub>, <bold>F</bold><sub><italic>t</italic></sub>, <bold>C</bold><sub><italic>t</italic></sub>, <bold>O</bold><sub><italic>t</italic></sub>, <bold>M</bold><sub><italic>t</italic></sub> denote input, forget and output gates, cell and hidden states of the LSTM at time <italic>t</italic>. Cells within LSTM layers of size 2,048 in both branches of the network are described mathematically below:
+<disp-formula id="pone.0188941.e002"><alternatives><graphic id="pone.0188941.e002g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0188941.e002" xlink:type="simple"/><mml:math display="block" id="M2"><mml:mtable displaystyle="true"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mtext>Input</mml:mtext> <mml:mspace width="4.pt"/><mml:mtext>gate:</mml:mtext> <mml:mspace width="4.pt"/><mml:msub><mml:mi mathvariant="bold">I</mml:mi> <mml:mi>t</mml:mi></mml:msub> <mml:mo>=</mml:mo> <mml:mi>σ</mml:mi> <mml:mrow><mml:mo>(</mml:mo> <mml:msub><mml:mi mathvariant="bold">X</mml:mi> <mml:mi>t</mml:mi></mml:msub> <mml:mo>·</mml:mo> <mml:msub><mml:mi mathvariant="bold">W</mml:mi> <mml:mrow><mml:mi>x</mml:mi> <mml:mi>i</mml:mi></mml:mrow></mml:msub> <mml:mo>+</mml:mo> <mml:msub><mml:mi mathvariant="bold">M</mml:mi> <mml:mrow><mml:mi>t</mml:mi> <mml:mo>-</mml:mo> <mml:mn>1</mml:mn></mml:mrow></mml:msub> <mml:mo>·</mml:mo> <mml:msub><mml:mi mathvariant="bold">W</mml:mi> <mml:mrow><mml:mi>h</mml:mi> <mml:mi>i</mml:mi></mml:mrow></mml:msub> <mml:mo>+</mml:mo> <mml:msub><mml:mi mathvariant="bold">C</mml:mi> <mml:mrow><mml:mi>t</mml:mi> <mml:mo>-</mml:mo> <mml:mn>1</mml:mn></mml:mrow></mml:msub> <mml:mo>·</mml:mo> <mml:msub><mml:mi mathvariant="bold">W</mml:mi> <mml:mrow><mml:mi>c</mml:mi> <mml:mi>i</mml:mi></mml:mrow></mml:msub> <mml:mo>+</mml:mo> <mml:msub><mml:mi mathvariant="bold">b</mml:mi> <mml:mi>i</mml:mi></mml:msub> <mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math></alternatives> <label>(2)</label></disp-formula> <disp-formula id="pone.0188941.e003"><alternatives><graphic id="pone.0188941.e003g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0188941.e003" xlink:type="simple"/><mml:math display="block" id="M3"><mml:mtable displaystyle="true"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mtext>Forget</mml:mtext> <mml:mspace width="4.pt"/><mml:mtext>gate:</mml:mtext> <mml:mspace width="4.pt"/><mml:msub><mml:mi mathvariant="bold">F</mml:mi> <mml:mi>t</mml:mi></mml:msub> <mml:mo>=</mml:mo> <mml:mi>σ</mml:mi> <mml:mrow><mml:mo>(</mml:mo> <mml:msub><mml:mi mathvariant="bold">X</mml:mi> <mml:mi>t</mml:mi></mml:msub> <mml:mo>·</mml:mo> <mml:msub><mml:mi mathvariant="bold">W</mml:mi> <mml:mrow><mml:mi>x</mml:mi> <mml:mi>f</mml:mi></mml:mrow></mml:msub> <mml:mo>+</mml:mo> <mml:msub><mml:mi mathvariant="bold">M</mml:mi> <mml:mrow><mml:mi>t</mml:mi> <mml:mo>-</mml:mo> <mml:mn>1</mml:mn></mml:mrow></mml:msub> <mml:mo>·</mml:mo> <mml:msub><mml:mi mathvariant="bold">W</mml:mi> <mml:mrow><mml:mi>h</mml:mi> <mml:mi>f</mml:mi></mml:mrow></mml:msub> <mml:mo>+</mml:mo> <mml:msub><mml:mi mathvariant="bold">C</mml:mi> <mml:mrow><mml:mi>t</mml:mi> <mml:mo>-</mml:mo> <mml:mn>1</mml:mn></mml:mrow></mml:msub> <mml:mo>·</mml:mo> <mml:msub><mml:mi mathvariant="bold">W</mml:mi> <mml:mrow><mml:mi>c</mml:mi> <mml:mi>f</mml:mi></mml:mrow></mml:msub> <mml:mo>+</mml:mo> <mml:msub><mml:mi mathvariant="bold">b</mml:mi> <mml:mi>f</mml:mi></mml:msub> <mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math></alternatives> <label>(3)</label></disp-formula> <disp-formula id="pone.0188941.e004"><alternatives><graphic id="pone.0188941.e004g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0188941.e004" xlink:type="simple"/><mml:math display="block" id="M4"><mml:mtable displaystyle="true"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mtext>Cell</mml:mtext> <mml:mspace width="4.pt"/><mml:mtext>state:</mml:mtext> <mml:mspace width="4.pt"/><mml:msub><mml:mi mathvariant="bold">C</mml:mi> <mml:mi>t</mml:mi></mml:msub> <mml:mo>=</mml:mo> <mml:msub><mml:mi mathvariant="bold">F</mml:mi> <mml:mi>t</mml:mi></mml:msub> <mml:mo>•</mml:mo> <mml:msub><mml:mi mathvariant="bold">C</mml:mi> <mml:mrow><mml:mi>t</mml:mi> <mml:mo>-</mml:mo> <mml:mn>1</mml:mn></mml:mrow></mml:msub> <mml:mo>+</mml:mo> <mml:msub><mml:mi mathvariant="bold">I</mml:mi> <mml:mi>t</mml:mi></mml:msub> <mml:mo>•</mml:mo> <mml:mi>t</mml:mi> <mml:mi>a</mml:mi> <mml:mi>n</mml:mi> <mml:mi>h</mml:mi> <mml:mrow><mml:mo>(</mml:mo> <mml:msub><mml:mi mathvariant="bold">X</mml:mi> <mml:mi>t</mml:mi></mml:msub> <mml:mo>·</mml:mo> <mml:msub><mml:mi mathvariant="bold">W</mml:mi> <mml:mrow><mml:mi>x</mml:mi> <mml:mi>c</mml:mi></mml:mrow></mml:msub> <mml:mo>+</mml:mo> <mml:msub><mml:mi mathvariant="bold">M</mml:mi> <mml:mrow><mml:mi>t</mml:mi> <mml:mo>-</mml:mo> <mml:mn>1</mml:mn></mml:mrow></mml:msub> <mml:mo>·</mml:mo> <mml:msub><mml:mi mathvariant="bold">W</mml:mi> <mml:mrow><mml:mi>h</mml:mi> <mml:mi>c</mml:mi></mml:mrow></mml:msub> <mml:mo>+</mml:mo> <mml:msub><mml:mi mathvariant="bold">b</mml:mi> <mml:mi>c</mml:mi></mml:msub> <mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math></alternatives> <label>(4)</label></disp-formula> <disp-formula id="pone.0188941.e005"><alternatives><graphic id="pone.0188941.e005g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0188941.e005" xlink:type="simple"/><mml:math display="block" id="M5"><mml:mtable displaystyle="true"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mtext>Output</mml:mtext> <mml:mspace width="4.pt"/><mml:mtext>gate:</mml:mtext> <mml:mspace width="4.pt"/><mml:msub><mml:mi mathvariant="bold">O</mml:mi> <mml:mi>t</mml:mi></mml:msub> <mml:mo>=</mml:mo> <mml:mi>σ</mml:mi> <mml:mrow><mml:mo>(</mml:mo> <mml:msub><mml:mi mathvariant="bold">X</mml:mi> <mml:mi>t</mml:mi></mml:msub> <mml:mo>·</mml:mo> <mml:msub><mml:mi mathvariant="bold">W</mml:mi> <mml:mrow><mml:mi>x</mml:mi> <mml:mi>o</mml:mi></mml:mrow></mml:msub> <mml:mo>+</mml:mo> <mml:msub><mml:mi mathvariant="bold">M</mml:mi> <mml:mrow><mml:mi>t</mml:mi> <mml:mo>-</mml:mo> <mml:mn>1</mml:mn></mml:mrow></mml:msub> <mml:mo>·</mml:mo> <mml:msub><mml:mi mathvariant="bold">W</mml:mi> <mml:mrow><mml:mi>h</mml:mi> <mml:mi>o</mml:mi></mml:mrow></mml:msub> <mml:mo>+</mml:mo> <mml:msub><mml:mi mathvariant="bold">C</mml:mi> <mml:mi>t</mml:mi></mml:msub> <mml:mo>·</mml:mo> <mml:msub><mml:mi mathvariant="bold">W</mml:mi> <mml:mrow><mml:mi>c</mml:mi> <mml:mi>o</mml:mi></mml:mrow></mml:msub> <mml:mo>+</mml:mo> <mml:msub><mml:mi mathvariant="bold">b</mml:mi> <mml:mi>o</mml:mi></mml:msub> <mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math></alternatives> <label>(5)</label></disp-formula> <disp-formula id="pone.0188941.e006"><alternatives><graphic id="pone.0188941.e006g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0188941.e006" xlink:type="simple"/><mml:math display="block" id="M6"><mml:mtable displaystyle="true"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mtext>Hidden</mml:mtext> <mml:mspace width="4.pt"/><mml:mtext>state:</mml:mtext> <mml:mspace width="4.pt"/><mml:msub><mml:mi mathvariant="bold">M</mml:mi> <mml:mi>t</mml:mi></mml:msub> <mml:mo>=</mml:mo> <mml:msub><mml:mi mathvariant="bold">O</mml:mi> <mml:mi>t</mml:mi></mml:msub> <mml:mo>•</mml:mo> <mml:mi>t</mml:mi> <mml:mi>a</mml:mi> <mml:mi>n</mml:mi> <mml:mi>h</mml:mi> <mml:mrow><mml:mo>(</mml:mo> <mml:msub><mml:mi mathvariant="bold">C</mml:mi> <mml:mi>t</mml:mi></mml:msub> <mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math></alternatives> <label>(6)</label></disp-formula>
+where (<italic>σ</italic>) denotes the sigmoid activation function, (⋅) indicates matrix multiplication and (•) indicates component-wise multiplication. <bold>W</bold><sub>*<italic>i</italic></sub>, <bold>W</bold><sub>*<italic>f</italic></sub>, <bold>W</bold><sub>*<italic>c</italic></sub>, <bold>W</bold><sub>*<italic>o</italic></sub> are parameter matrices for gates learned during training. LSTM training is performed using backpropagation [<xref ref-type="bibr" rid="pone.0188941.ref028">28</xref>] with batch size of 16 using Adam optimizer (per-parameter adaptive learning rate method) to stabilize parameter updates to minimize mean squared error loss. All models are trained for 50 epochs. Note, no activation function is used for the dense output layer (fully connected layer as shown in <xref ref-type="fig" rid="pone.0188941.g003">Fig 3</xref>) because it is a regression task and we are predicting numerical ILI values directly without transform.</p>
+<p>Our neural network model predicts the ILI value at time <italic>t</italic> in the time series by training with the data from a 4-week period prior to the <italic>t</italic> step. We experiment with forecasting and predict ILI values 1 to 2 weeks in advance using the 4-week sliding window. We perform this experiment using different types of features described below as the endogenous variables and weekly ILI proportions (<xref ref-type="disp-formula" rid="pone.0188941.e001">Eq (1)</xref>) as the exogenous variable. We extract historical signals from ILI data (ILI Only), Social Media data (SM Only) or both ILI and Social Media data (ILI + SM).</p>
+<p>We train our models independently for each location shown in <xref ref-type="fig" rid="pone.0188941.g002">Fig 2</xref>. We evaluate nowcasting experiments using 4-fold cross validation (2001 – 2014) for six example locations and 3-fold c.v. (2012 – 2014) for 31 locations. For the forecasting experiments, we train models for all years prior to 2014 (2011 – 2012 for six locations and 2012 – 2013 for 31 locations) and make predictions for 2014 season. We contrast the LSTM’s performance trained on ILI and social network data with the baseline AdaBoost and SVM regressors. We also compare location-specific models with a joint location-independent model trained on all locations jointly.</p>
+</sec>
+</sec>
+<sec id="sec008">
+<title>Predictors</title>
+<p>We extract different types of features (predictors) from tweets to train machine learning models for ILI activity prediction. These include: word ngrams (unigrams, bigrams, trigrams), term frequency-inverse document (TFIDF) scores [<xref ref-type="bibr" rid="pone.0188941.ref029">29</xref>], LDA topics [<xref ref-type="bibr" rid="pone.0188941.ref027">27</xref>], text embeddings [<xref ref-type="bibr" rid="pone.0188941.ref026">26</xref>], hashtags, mentions, and communication behavior features [<xref ref-type="bibr" rid="pone.0188941.ref030">30</xref>]. Before feature extraction, we pre-processed the data—tokenized, lowercased, removed punctuation, URLs, retweets, numbers, infrequent tokens, e.g., with frequency less than five in our Twitter corpus, and masked hashtag and mention symbols.
+<list list-type="bullet"><list-item><p><bold>Tweets</bold> From the cleaned tweets, we extracted unigrams, bigrams, trigrams, and TFIDF text representations. Our vocabulary size was proportional to the number of tweets from a given location and ranged from about 100K ngrams for locations with fewer tweets to 300K ngrams for locations with many more tweets.</p></list-item> <list-item><p><bold>Tweets and Network</bold> In addition to text features we extracted hashtags and mentions (aka communication behavior features) exclusively as our ngram tweet representations ignored hashtags and mentions. Like n-gram features, we restricted these network predictors to a minimum frequency of 5 occurrences. Likewise, this vocabulary size was not fixed, but ranged depending on the location from 25K to 50K.</p></list-item> <list-item><p><bold>Topics</bold> We learned topics discussed in tweets using Latent Dirichlet Allocation proposed by [<xref ref-type="bibr" rid="pone.0188941.ref027">27</xref>] on an independent sample of one million tweets. We tuned the number of topics <italic>t</italic> = [50, …, 1000] and Dirichlet priors <italic>α</italic> and <italic>β</italic>. We found that the optimal values of priors are <italic>α</italic> = 0.1 and <italic>β</italic> = 0.005, and topics <italic>t</italic> = 1000 by maximizing log-likelihood on a development subset of tweets. We converted tweets into topic vectors by replacing words with the corresponding topic assignments.</p></list-item> <list-item><p><bold>Text Embeddings</bold> We relied on text embeddings obtained using the Word2Vec model developed by [<xref ref-type="bibr" rid="pone.0188941.ref026">26</xref>] implemented in gensim [<xref ref-type="bibr" rid="pone.0188941.ref031">31</xref>]. We learned embeddings on the same corpus of one million tweets as LDA topics. After learning embeddings—50-dimensional vector representations—we assigned words to clusters by measuring cosine similarity between pairs of word embeddings, and computed clusters using spectral clustering over a word-to-word similarity matrix. Similar to topics, we converted tweets into embedding vectors by replacing words with the corresponding cluster assignments.</p></list-item> <list-item><p><bold>Stylistic</bold> We aggregated all tweets per week and calculated 14 stylistic features including the average tweet length in words and characters; retweet, uppercased <italic>COOL</italic>, elongated <italic>Yaay</italic> and repeated mixed punctuation <italic>???!!!</italic> rate; proportions of tweets that are retweets, contain URLs, mentions, hashtags, punctuation, and emotions; and mention, hashtag, and IRL rate per word.</p></list-item></list></p>
+<p>Tweets, topics, and embeddings are inputs to the LSTM layer shown in <xref ref-type="fig" rid="pone.0188941.g003">Fig 3</xref> on the right, also represented as an example <bold>X</bold><sub><italic>t</italic></sub> matrix of instances in Eqs (<xref ref-type="disp-formula" rid="pone.0188941.e002">2</xref>)–(<xref ref-type="disp-formula" rid="pone.0188941.e006">6</xref>). More precisely, <bold>X</bold><sub><italic>t</italic></sub> is either a sequence of 10k-dimensional vectors of word-level weekly-normalized statistics, or 1K-dimensional pre-trained embedding vectors, or 2K-dimensional topic vectors over time/window.</p>
+</sec>
+<sec id="sec009">
+<title>Evaluation metrics</title>
+<p>To evaluate the performance of our models and to compare against other work [<xref ref-type="bibr" rid="pone.0188941.ref008">8</xref>], we report four evaluation metrics: Pearson correlation (CORR), root mean squared error (RMSE), root mean squared percent error (RMSPE), and maximum absolute percent error (MAPE). These evaluation metrics were calculated for the time period January 1, 2011 to December 31, 2014. The definitions for all of the metrics are given below. We define <italic>Y</italic><sub><italic>t</italic><sub><italic>i</italic></sub></sub> to denote the observed value of the ILI proportion at time <italic>t</italic><sub><italic>i</italic></sub>, <inline-formula id="pone.0188941.e007"><alternatives><graphic id="pone.0188941.e007g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0188941.e007" xlink:type="simple"/><mml:math display="inline" id="M7"><mml:msub><mml:mover accent="true"><mml:mi>Y</mml:mi> <mml:mo>^</mml:mo></mml:mover> <mml:msub><mml:mi>t</mml:mi> <mml:mi>i</mml:mi></mml:msub></mml:msub></mml:math></alternatives></inline-formula> denotes the predicted value by any model at time <italic>t</italic><sub><italic>i</italic></sub>, <inline-formula id="pone.0188941.e008"><alternatives><graphic id="pone.0188941.e008g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0188941.e008" xlink:type="simple"/><mml:math display="inline" id="M8"><mml:msubsup><mml:mi>Y</mml:mi> <mml:msub><mml:mi>t</mml:mi> <mml:mi>i</mml:mi></mml:msub> <mml:mo>′</mml:mo></mml:msubsup></mml:math></alternatives></inline-formula> denotes the mean of the values of <italic>Y</italic><sub><italic>t</italic><sub><italic>i</italic></sub></sub>, and <inline-formula id="pone.0188941.e009"><alternatives><graphic id="pone.0188941.e009g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0188941.e009" xlink:type="simple"/><mml:math display="inline" id="M9"><mml:mover accent="true"><mml:msubsup><mml:mi>Y</mml:mi> <mml:msub><mml:mi>t</mml:mi> <mml:mi>i</mml:mi></mml:msub> <mml:mo>′</mml:mo></mml:msubsup> <mml:mo>^</mml:mo></mml:mover></mml:math></alternatives></inline-formula> denotes the mean of the values of <inline-formula id="pone.0188941.e010"><alternatives><graphic id="pone.0188941.e010g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0188941.e010" xlink:type="simple"/><mml:math display="inline" id="M10"><mml:msub><mml:mover accent="true"><mml:mi>Y</mml:mi> <mml:mo>^</mml:mo></mml:mover> <mml:msub><mml:mi>t</mml:mi> <mml:mi>i</mml:mi></mml:msub></mml:msub></mml:math></alternatives></inline-formula>.</p>
+<p>Pearson Correlation (CORR) measures the linear dependence between the predicted and observed values during the time period [<italic>t</italic><sub>1</sub>, <italic>t</italic><sub><italic>n</italic></sub>]:
+<disp-formula id="pone.0188941.e011"><alternatives><graphic id="pone.0188941.e011g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0188941.e011" xlink:type="simple"/><mml:math display="block" id="M11"><mml:mtable displaystyle="true"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi>r</mml:mi> <mml:mo>=</mml:mo> <mml:mfrac><mml:mrow><mml:msubsup><mml:mo>∑</mml:mo> <mml:mrow><mml:mi>i</mml:mi> <mml:mo>=</mml:mo> <mml:mn>1</mml:mn></mml:mrow> <mml:mi>n</mml:mi></mml:msubsup> <mml:mrow><mml:mo>(</mml:mo> <mml:msub><mml:mi>Y</mml:mi> <mml:msub><mml:mi>t</mml:mi> <mml:mi>i</mml:mi></mml:msub></mml:msub> <mml:mo>-</mml:mo> <mml:msubsup><mml:mi>Y</mml:mi> <mml:msub><mml:mi>t</mml:mi> <mml:mi>i</mml:mi></mml:msub> <mml:mo>′</mml:mo></mml:msubsup> <mml:mo>)</mml:mo></mml:mrow> <mml:mrow><mml:mo>(</mml:mo> <mml:msub><mml:mover accent="true"><mml:mi>Y</mml:mi> <mml:mo>^</mml:mo></mml:mover> <mml:msub><mml:mi>t</mml:mi> <mml:mi>i</mml:mi></mml:msub></mml:msub> <mml:mo>-</mml:mo> <mml:msubsup><mml:mover accent="true"><mml:mi>Y</mml:mi> <mml:mo>^</mml:mo></mml:mover> <mml:msub><mml:mi>t</mml:mi> <mml:mi>i</mml:mi></mml:msub> <mml:mo>′</mml:mo></mml:msubsup> <mml:mo>)</mml:mo></mml:mrow> <mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow> <mml:mrow><mml:msqrt><mml:mrow><mml:msubsup><mml:mo>∑</mml:mo> <mml:mrow><mml:mi>i</mml:mi> <mml:mo>=</mml:mo> <mml:mn>1</mml:mn></mml:mrow> <mml:mi>n</mml:mi></mml:msubsup> <mml:msup><mml:mrow><mml:mo>(</mml:mo> <mml:msub><mml:mi>Y</mml:mi> <mml:msub><mml:mi>t</mml:mi> <mml:mi>i</mml:mi></mml:msub></mml:msub> <mml:mo>-</mml:mo> <mml:msubsup><mml:mi>Y</mml:mi> <mml:msub><mml:mi>t</mml:mi> <mml:mi>i</mml:mi></mml:msub> <mml:mo>′</mml:mo></mml:msubsup> <mml:mo>)</mml:mo></mml:mrow> <mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msqrt> <mml:msqrt><mml:mrow><mml:msubsup><mml:mo>∑</mml:mo> <mml:mrow><mml:mi>i</mml:mi> <mml:mo>=</mml:mo> <mml:mn>1</mml:mn></mml:mrow> <mml:mi>n</mml:mi></mml:msubsup> <mml:msup><mml:mrow><mml:mo>(</mml:mo> <mml:msub><mml:mover accent="true"><mml:mi>Y</mml:mi> <mml:mo>^</mml:mo></mml:mover> <mml:msub><mml:mi>t</mml:mi> <mml:mi>i</mml:mi></mml:msub></mml:msub> <mml:mo>-</mml:mo> <mml:msubsup><mml:mover accent="true"><mml:mi>Y</mml:mi> <mml:mo>^</mml:mo></mml:mover> <mml:msub><mml:mi>t</mml:mi> <mml:mi>i</mml:mi></mml:msub> <mml:mo>′</mml:mo></mml:msubsup> <mml:mo>)</mml:mo></mml:mrow> <mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math></alternatives> <label>(7)</label></disp-formula></p>
+<p>Root Mean Squared Error (RMSE) measures the difference between the predicted and observed values:
+<disp-formula id="pone.0188941.e012"><alternatives><graphic id="pone.0188941.e012g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0188941.e012" xlink:type="simple"/><mml:math display="block" id="M12"><mml:mtable displaystyle="true"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi>R</mml:mi> <mml:mi>M</mml:mi> <mml:mi>S</mml:mi> <mml:mi>E</mml:mi> <mml:mo>=</mml:mo> <mml:msqrt><mml:mrow><mml:mfrac><mml:mn>1</mml:mn> <mml:mi>n</mml:mi></mml:mfrac> <mml:munderover><mml:mo>∑</mml:mo> <mml:mrow><mml:mi>i</mml:mi> <mml:mo>=</mml:mo> <mml:mn>1</mml:mn></mml:mrow> <mml:mi>n</mml:mi></mml:munderover><mml:msup><mml:mrow><mml:mo>(</mml:mo> <mml:msub><mml:mi>Y</mml:mi> <mml:msub><mml:mi>t</mml:mi> <mml:mi>i</mml:mi></mml:msub></mml:msub> <mml:mo>-</mml:mo> <mml:msub><mml:mover accent="true"><mml:mi>Y</mml:mi> <mml:mo>^</mml:mo></mml:mover> <mml:msub><mml:mi>t</mml:mi> <mml:mi>i</mml:mi></mml:msub></mml:msub> <mml:mo>)</mml:mo></mml:mrow> <mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msqrt></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math></alternatives> <label>(8)</label></disp-formula></p>
+<p>Root Mean Squared Percent Error (RMSPE) measures the percent difference between the predicted and observed values:
+<disp-formula id="pone.0188941.e013"><alternatives><graphic id="pone.0188941.e013g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0188941.e013" xlink:type="simple"/><mml:math display="block" id="M13"><mml:mtable displaystyle="true"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi>R</mml:mi> <mml:mi>M</mml:mi> <mml:mi>S</mml:mi> <mml:mi>P</mml:mi> <mml:mi>E</mml:mi> <mml:mo>=</mml:mo> <mml:msqrt><mml:mrow><mml:mfrac><mml:mn>1</mml:mn> <mml:mi>n</mml:mi></mml:mfrac> <mml:munderover><mml:mo>∑</mml:mo> <mml:mrow><mml:mi>i</mml:mi> <mml:mo>=</mml:mo> <mml:mn>1</mml:mn></mml:mrow> <mml:mi>n</mml:mi></mml:munderover><mml:msup><mml:mrow><mml:mo>(</mml:mo> <mml:mfrac><mml:mrow><mml:msub><mml:mi>Y</mml:mi> <mml:msub><mml:mi>t</mml:mi> <mml:mi>i</mml:mi></mml:msub></mml:msub> <mml:mo>-</mml:mo> <mml:msub><mml:mover accent="true"><mml:mi>Y</mml:mi> <mml:mo>^</mml:mo></mml:mover> <mml:msub><mml:mi>t</mml:mi> <mml:mi>i</mml:mi></mml:msub></mml:msub></mml:mrow> <mml:msub><mml:mi>Y</mml:mi> <mml:msub><mml:mi>t</mml:mi> <mml:mi>i</mml:mi></mml:msub></mml:msub></mml:mfrac> <mml:mo>)</mml:mo></mml:mrow> <mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msqrt> <mml:mo>*</mml:mo> <mml:mn>100</mml:mn></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math></alternatives> <label>(9)</label></disp-formula></p>
+<p>Maximum Absolute Percent Error (MAPE) measures the magnitude of the maximum percent difference between the predicted and observed values:
+<disp-formula id="pone.0188941.e014"><alternatives><graphic id="pone.0188941.e014g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0188941.e014" xlink:type="simple"/><mml:math display="block" id="M14"><mml:mtable displaystyle="true"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi>M</mml:mi> <mml:mi>A</mml:mi> <mml:mi>P</mml:mi> <mml:mi>E</mml:mi> <mml:mo>=</mml:mo> <mml:mo>(</mml:mo> <mml:munder><mml:mo form="prefix" movablelimits="true">max</mml:mo> <mml:mi>i</mml:mi></mml:munder> <mml:mfrac><mml:mrow><mml:mrow><mml:mo>|</mml:mo></mml:mrow> <mml:msub><mml:mi>Y</mml:mi> <mml:msub><mml:mi>t</mml:mi> <mml:mi>i</mml:mi></mml:msub></mml:msub> <mml:mo>-</mml:mo> <mml:msub><mml:mover accent="true"><mml:mi>Y</mml:mi> <mml:mo>^</mml:mo></mml:mover> <mml:msub><mml:mi>t</mml:mi> <mml:mi>i</mml:mi></mml:msub></mml:msub> <mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow> <mml:msub><mml:mi>Y</mml:mi> <mml:msub><mml:mi>t</mml:mi> <mml:mi>i</mml:mi></mml:msub></mml:msub></mml:mfrac> <mml:mo>)</mml:mo> <mml:mo>*</mml:mo> <mml:mn>100</mml:mn></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math></alternatives> <label>(10)</label></disp-formula></p>
+<p>The evaluation metrics allow us to estimate model accuracy (Pearson correlation <italic>r</italic>, RMSE, RMSPE), robustness (MAPE), and the ability to predict upward and downward ILI tendency. All evaluation metrics were calculated for the time period from January 2011 to December 2014.</p>
+</sec>
+</sec>
+<sec id="sec010" sec-type="results">
+<title>Results</title>
+<p>This section presents nowcasting and forecasting results for location-specific ILI dynamics prediction. We first focus on analyzing machine learning models and contrast different social media signals by training independent models on tweets (ngrams, TFIDF), text embeddings, and tweet and network (hashtags and embeddings) predictors for six example geolocations. We then take the best model and feature combinations and report ILI activity forecasting results for 31 geolocations. Finally, we investigate how model performance correlates with the number of social media posts available per location.</p>
+<sec id="sec011">
+<title>RQ1: Contrasting predictive models</title>
+<sec id="sec012">
+<title>Nowcasting</title>
+<p>
+<xref ref-type="table" rid="pone.0188941.t002">Table 2</xref> presents nowcasting (current week) prediction performance for three machine learning models—AdaBoost, SVM with a linear kernel, and LSTM models learned from ILI predictors and LSTM model learned from social media features—tweets, tweets and network, and text embeddings. The results are reported using four evaluation metrics—Pearson correlation (CORR), Root Mean Squared Error (RMSE), Root Mean Squared Percent Error (RMSPE), and Maximum Absolute Percent Error (MAPE) scores. These metrics were calculated for predictions over the time period from January 2011 to December 2014 using 4-fold cross validation. The results were averaged over six locations with the mean, minimum, and maximum values reported for each metric.</p>
+<table-wrap id="pone.0188941.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0188941.t002</object-id>
+<label>Table 2</label>
+<caption>
+<title>ILI nowcasting results (current week) for six geolocations estimated using cross-validation over four years (2011–2014).</title>
+<p>Models: AdaBoost, SVM with a linear kernel, and LSTM. Metrics: Pearson correlation (CORR), RMSPE (%), MAPE (%), and RMSE. The highest performance results within each datatype are highlighted in bold.</p>
+</caption>
+<alternatives>
+<graphic id="pone.0188941.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0188941.t002" xlink:type="simple"/>
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="3">AdaBoost</th>
+<th align="center" colspan="3">SVM</th>
+<th align="center" colspan="3">LSTM</th>
+</tr>
+<tr>
+<th align="left">Metric</th>
+<th align="right">Mean</th>
+<th align="right">Min</th>
+<th align="right">Max</th>
+<th align="right">Mean</th>
+<th align="right">Min</th>
+<th align="right">Max</th>
+<th align="right">Mean</th>
+<th align="right">Min</th>
+<th align="right">Max</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" colspan="10"><bold>ILI Historical Data</bold></td>
+</tr>
+<tr>
+<td align="left">CORR</td>
+<td align="right">0.81</td>
+<td align="right">0.43</td>
+<td align="right">0.92</td>
+<td align="right"><bold>0.90</bold></td>
+<td align="right">0.85</td>
+<td align="right">0.99</td>
+<td align="right">0.86</td>
+<td align="right">0.84</td>
+<td align="right">0.87</td>
+</tr>
+<tr>
+<td align="left">RMSE</td>
+<td align="right">0.01</td>
+<td align="right">0.00</td>
+<td align="right">0.02</td>
+<td align="right">0.02</td>
+<td align="right">0.00</td>
+<td align="right">0.03</td>
+<td align="right"><bold>0.01</bold></td>
+<td align="right">0.00</td>
+<td align="right">0.01</td>
+</tr>
+<tr>
+<td align="left">RMSPE</td>
+<td align="right">12.93</td>
+<td align="right">11.63</td>
+<td align="right">15.80</td>
+<td align="right"><bold>10.31</bold></td>
+<td align="right">0.94</td>
+<td align="right">13.35</td>
+<td align="right">15.06</td>
+<td align="right">12.31</td>
+<td align="right">17.54</td>
+</tr>
+<tr>
+<td align="left">MAPE</td>
+<td align="right">42.59</td>
+<td align="right">23.81</td>
+<td align="right">68.91</td>
+<td align="right"><bold>32.20</bold></td>
+<td align="right">4.30</td>
+<td align="right">41.89</td>
+<td align="right">53.04</td>
+<td align="right">42.14</td>
+<td align="right">65.01</td>
+</tr>
+<tr>
+<td align="center" colspan="10"><bold>Social Media: Tweets Only (word bigrams)</bold></td>
+</tr>
+<tr>
+<td align="left">CORR</td>
+<td align="right">0.47</td>
+<td align="right">0.27</td>
+<td align="right">0.65</td>
+<td align="right">0.19</td>
+<td align="right">0.15</td>
+<td align="right">0.44</td>
+<td align="right"><bold>0.79</bold></td>
+<td align="right">0.66</td>
+<td align="right">0.85</td>
+</tr>
+<tr>
+<td align="left">RMSE</td>
+<td align="right">0.04</td>
+<td align="right">0.03</td>
+<td align="right">0.05</td>
+<td align="right">0.09</td>
+<td align="right">0.06</td>
+<td align="right">0.12</td>
+<td align="right"><bold>0.01</bold></td>
+<td align="right">0.01</td>
+<td align="right">0.01</td>
+</tr>
+<tr>
+<td align="left">RMSPE</td>
+<td align="right">30.48</td>
+<td align="right">26.04</td>
+<td align="right">33.33</td>
+<td align="right">72.03</td>
+<td align="right">48.70</td>
+<td align="right">102.81</td>
+<td align="right"><bold>29.52</bold></td>
+<td align="right">20.25</td>
+<td align="right">43.50</td>
+</tr>
+<tr>
+<td align="left">MAPE</td>
+<td align="right">81.02</td>
+<td align="right">59.18</td>
+<td align="right">112.64</td>
+<td align="right">129.74</td>
+<td align="right">100.00</td>
+<td align="right">219.87</td>
+<td align="right"><bold>69.54</bold></td>
+<td align="right">45.05</td>
+<td align="right">111.35</td>
+</tr>
+<tr>
+<td align="center" colspan="10"><bold>Social Media: Text Embeddings</bold></td>
+</tr>
+<tr>
+<td align="left">CORR</td>
+<td align="right">0.60</td>
+<td align="right">0.30</td>
+<td align="right">0.76</td>
+<td align="right"><bold>0.64</bold></td>
+<td align="right">0.51</td>
+<td align="right">0.77</td>
+<td align="right">0.22</td>
+<td align="right">0.02</td>
+<td align="right">0.35</td>
+</tr>
+<tr>
+<td align="left">RMSE</td>
+<td align="right">0.04</td>
+<td align="right">0.03</td>
+<td align="right">0.04</td>
+<td align="right">0.06</td>
+<td align="right">0.04</td>
+<td align="right">0.09</td>
+<td align="right"><bold>0.01</bold></td>
+<td align="right">0.01</td>
+<td align="right">0.01</td>
+</tr>
+<tr>
+<td align="left">RMSPE</td>
+<td align="right"><bold>29.92</bold></td>
+<td align="right">17.60</td>
+<td align="right">37.57</td>
+<td align="right">52.54</td>
+<td align="right">38.57</td>
+<td align="right">80.35</td>
+<td align="right">35.35</td>
+<td align="right">26.55</td>
+<td align="right">40.51</td>
+</tr>
+<tr>
+<td align="left">MAPE</td>
+<td align="right"><bold>81.38</bold></td>
+<td align="right">42.10</td>
+<td align="right">130.21</td>
+<td align="right">114.62</td>
+<td align="right">81.66</td>
+<td align="right">188.84</td>
+<td align="right">89.62</td>
+<td align="right">61.86</td>
+<td align="right">111.74</td>
+</tr>
+<tr>
+<td align="center" colspan="10"><bold>Social Media: Tweets and Network (hashtags)</bold></td>
+</tr>
+<tr>
+<td align="left">CORR</td>
+<td align="right">0.61</td>
+<td align="right">0.45</td>
+<td align="right">0.73</td>
+<td align="right">0.58</td>
+<td align="right">0.41</td>
+<td align="right">0.71</td>
+<td align="right"><bold>0.79</bold></td>
+<td align="right">0.64</td>
+<td align="right">0.86</td>
+</tr>
+<tr>
+<td align="left">RMSE</td>
+<td align="right">0.04</td>
+<td align="right">0.02</td>
+<td align="right">0.06</td>
+<td align="right">0.06</td>
+<td align="right">0.04</td>
+<td align="right">0.10</td>
+<td align="right"><bold>0.01</bold></td>
+<td align="right">0.01</td>
+<td align="right">0.01</td>
+</tr>
+<tr>
+<td align="left">RMSPE</td>
+<td align="right"><bold>31.81</bold></td>
+<td align="right">18.61</td>
+<td align="right">42.37</td>
+<td align="right">47.07</td>
+<td align="right">29.58</td>
+<td align="right">81.84</td>
+<td align="right">34.24</td>
+<td align="right">23.40</td>
+<td align="right">52.86</td>
+</tr>
+<tr>
+<td align="left">MAPE</td>
+<td align="right">83.97</td>
+<td align="right">45.10</td>
+<td align="right">107.60</td>
+<td align="right">116.39</td>
+<td align="right">74.64</td>
+<td align="right">209.14</td>
+<td align="right"><bold>80.84</bold></td>
+<td align="right">50.84</td>
+<td align="right">135.99</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>As <xref ref-type="table" rid="pone.0188941.t002">Table 2</xref> shows, ILI historical signals yield better performance compared to social media signals (as has been shown earlier [<xref ref-type="bibr" rid="pone.0188941.ref008">8</xref>, <xref ref-type="bibr" rid="pone.0188941.ref009">9</xref>]), with the SVM model producing the highest average CORR (<italic>r</italic> = 0.90), RMSPE (10.31%), and MAPE (32.2%). The best correlation per location was as high as 0.99. Thus, ILI predictors are very robust as indicated by MAPE and accurate as indicated by low average RMSE (0.01).</p>
+<p>When we relied on no ILI historical data but only social media predictors to build models we found that LSTM models outperform other approaches in all metrics e.g., Pearson correlation (0.79), RMSE (0.01), RMSPE (29.52), and MAPE (69.54). We observed that out of all social media predictors tweets yield the highest performance compared to text embeddings and hashtags.</p>
+</sec>
+</sec>
+<sec id="sec013">
+<title>RQ2: Evaluating predictive power of social media signals</title>
+<p>
+<xref ref-type="fig" rid="pone.0188941.g004">Fig 4</xref> reports detailed results for the current week ILI prediction across six geolocations obtained using three models—AdaBoost, SVM and LSTM, and four feature types—ILI, network, tweets, and embeddings. We observe that model performance significantly varies across locations e.g., RMSE is lower for L12 and L10, but 2.5 times higher for other locations; for the SVM model, RMSE is three time higher for tweets compared to ILI features; for the AdaBoost model social media signals yield 5 times higher RMSE than ILI features.</p>
+<fig id="pone.0188941.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0188941.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>ILI nowcasting results for six geolocations from various social media signals estimated using cross-validation over four years (2011–2014).</title>
+<p>Predictive models—AdaBoost, SVM, and LSTM. Predictive features—ILI, Network, Tweets, and Embeddings. Evaluation metric—Root Mean Squared Error (RMSE).</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0188941.g004" xlink:type="simple"/>
+</fig>
+<p>TFIDF, higher order ngrams, and stylistic features yield significantly lower performance as reported in <xref ref-type="fig" rid="pone.0188941.g005">Fig 5</xref> compared to other types of social media predictors e.g., embeddings, and tweet and network signals. We found that embeddings, unigrams (tweets), hashtags and mentions (tweets and network) yield the highest Pearson and the lowest RMSPE compared to all other types of social media signals.</p>
+<fig id="pone.0188941.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0188941.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>ILI nowcasting results for six geolocations obtained using SMOnly model trained on nine types of social media signals.</title>
+<p>We contrast Pearson and RMSE for six geolocations. Locations with labels show the best (embeddings, unigrams, hashtags and mentions), on the right from the dotted vertical line, and the worst (stylistic and topics) social media signals.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0188941.g005" xlink:type="simple"/>
+</fig>
+<p>Real-time (nowcasting) predictions produced by the LSTM model learned from tweet and network (SM) signals are capable of predicting the timing and magnitude of yearly peaks as shown in <xref ref-type="fig" rid="pone.0188941.g006">Fig 6</xref>. Prediction performance varies across locations e.g., Pearson correlation is between <italic>r</italic><sub><italic>L</italic>10</sub> = 0.66 and <italic>r</italic><sub><italic>L</italic>22</sub> = 0.86 for social media signals and between <italic>r</italic><sub><italic>L</italic>10</sub> = 0.84 and <italic>r</italic><sub><italic>L</italic>22</sub> = 0.87 for ILI signals.</p>
+<fig id="pone.0188941.g006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0188941.g006</object-id>
+<label>Fig 6</label>
+<caption>
+<title>True vs. predicted ILI proportions (real-time current week estimates) as a function of time (2011–2014) for six geolocations.</title>
+<p>We plot true ILI proportions (True), predictions from social media (tweet and network) features (SM), and predictions from ILI historical data (ILI) obtained using LSTM model.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0188941.g006" xlink:type="simple"/>
+</fig>
+<p>The results presented in <xref ref-type="fig" rid="pone.0188941.g006">Fig 6</xref> qualitatively show the predictive power of social media features compared to ILI predictors. Overall, SM signals accurately track (the average Pearson correlation is 0.79) ILI proportions between 2011 and 2014 across six geolocations. Moreover, the fact that the difference in Pearson correlation between ILI and SM predictors is between 0.02 and 0.05 for four locations demonstrates the value of using solely social media data to predict ILI dynamics. This is especially valuable for the regions where historical ILI estimates are not available.</p>
+<sec id="sec014">
+<title>Forecasting</title>
+<p>
+<xref ref-type="table" rid="pone.0188941.t003">Table 3</xref> presents ILI forecasts for one week in advance obtained using different models and social media predictors—tweets, topics, text embeddings, and network. First, as expected, the LSTM model can estimate ILI proportion for the current week with higher accuracy than forecasting ILI one week in advance. For example, the highest Pearson correlation obtained using LSTM model with SM data for the current week estimates is <italic>r</italic> = 0.79 vs. next week estimates <italic>r</italic> = 0.61, similarly for ILI data current week estimates <italic>r</italic> = 0.86 vs. next week estimates <italic>r</italic> = 0.84. We also observed RMSE for nowcasting is significantly lower than for forecasting one and two weeks in advance.</p>
+<table-wrap id="pone.0188941.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0188941.t003</object-id>
+<label>Table 3</label>
+<caption>
+<title>ILI forecasting (one week) results for six geolocations.</title>
+<p>Models: AdaBoost, SVM with a linear kernel, and LSTM. Metrics: RMSPE (%), MAPE (%), and RMSE (% ILI). The best performing models within each data type are highlighted in bold.</p>
+</caption>
+<alternatives>
+<graphic id="pone.0188941.t003g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0188941.t003" xlink:type="simple"/>
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="3">AdaBoost</th>
+<th align="center" colspan="3">SVM</th>
+<th align="center" colspan="3">LSTM</th>
+</tr>
+<tr>
+<th align="left">Metric</th>
+<th align="right">Mean</th>
+<th align="right">Min</th>
+<th align="right">Max</th>
+<th align="right">Mean</th>
+<th align="right">Min</th>
+<th align="right">Max</th>
+<th align="right">Mean</th>
+<th align="right">Min</th>
+<th align="right">Max</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" colspan="10"><bold>ILI Historical Data</bold></td>
+</tr>
+<tr>
+<td align="left">CORR</td>
+<td align="right">0.87</td>
+<td align="right">0.78</td>
+<td align="right">0.91</td>
+<td align="right"><bold>0.90</bold></td>
+<td align="right">0.85</td>
+<td align="right">0.99</td>
+<td align="right">0.84</td>
+<td align="right">0.79</td>
+<td align="right">0.89</td>
+</tr>
+<tr>
+<td align="left">RMSE</td>
+<td align="right">0.02</td>
+<td align="right">0.01</td>
+<td align="right">0.03</td>
+<td align="right">0.02</td>
+<td align="right">0.00</td>
+<td align="right">0.03</td>
+<td align="right"><bold>0.01</bold></td>
+<td align="right">0.00</td>
+<td align="right">0.01</td>
+</tr>
+<tr>
+<td align="left">RMSPE</td>
+<td align="right">13.35</td>
+<td align="right">11.51</td>
+<td align="right">17.88</td>
+<td align="right"><bold>10.43</bold></td>
+<td align="right">1.04</td>
+<td align="right">13.29</td>
+<td align="right">15.46</td>
+<td align="right">12.45</td>
+<td align="right">20.17</td>
+</tr>
+<tr>
+<td align="left">MAPE</td>
+<td align="right">43.61</td>
+<td align="right">23.87</td>
+<td align="right">79.53</td>
+<td align="right"><bold>31.84</bold></td>
+<td align="right">4.50</td>
+<td align="right">40.23</td>
+<td align="right">49.07</td>
+<td align="right">39.83</td>
+<td align="right">65.42</td>
+</tr>
+<tr>
+<td align="center" colspan="10"><bold>Social Media: Tweets Only (word unigrams)</bold></td>
+</tr>
+<tr>
+<td align="left">CORR</td>
+<td align="right">0.53</td>
+<td align="right">0.41</td>
+<td align="right">0.69</td>
+<td align="right">0.23</td>
+<td align="right">0.11</td>
+<td align="right">0.46</td>
+<td align="right"><bold>0.61</bold></td>
+<td align="right">0.54</td>
+<td align="right">0.64</td>
+</tr>
+<tr>
+<td align="left">RMSE</td>
+<td align="right">0.04</td>
+<td align="right">0.03</td>
+<td align="right">0.05</td>
+<td align="right">0.09</td>
+<td align="right">0.06</td>
+<td align="right">0.12</td>
+<td align="right"><bold>0.01</bold></td>
+<td align="right">0.00</td>
+<td align="right">0.01</td>
+</tr>
+<tr>
+<td align="left">RMSPE</td>
+<td align="right">29.90</td>
+<td align="right">25.55</td>
+<td align="right">35.78</td>
+<td align="right">70.25</td>
+<td align="right">50.97</td>
+<td align="right">97.87</td>
+<td align="right"><bold>20.43</bold></td>
+<td align="right">17.50</td>
+<td align="right">23.05</td>
+</tr>
+<tr>
+<td align="left">MAPE</td>
+<td align="right">73.42</td>
+<td align="right">52.72</td>
+<td align="right">98.11</td>
+<td align="right">127.99</td>
+<td align="right">100.00</td>
+<td align="right">207.35</td>
+<td align="right"><bold>46.67</bold></td>
+<td align="right">37.31</td>
+<td align="right">54.26</td>
+</tr>
+<tr>
+<td align="center" colspan="10"><bold>Social Media: Text Embeddings</bold></td>
+</tr>
+<tr>
+<td align="left">CORR</td>
+<td align="right">0.61</td>
+<td align="right">0.46</td>
+<td align="right">0.76</td>
+<td align="right"><bold>0.68</bold></td>
+<td align="right">0.56</td>
+<td align="right">0.77</td>
+<td align="right">0.18</td>
+<td align="right">0.08</td>
+<td align="right">0.29</td>
+</tr>
+<tr>
+<td align="left">RMSE</td>
+<td align="right">0.04</td>
+<td align="right">0.03</td>
+<td align="right">0.05</td>
+<td align="right">0.05</td>
+<td align="right">0.04</td>
+<td align="right">0.07</td>
+<td align="right"><bold>0.01</bold></td>
+<td align="right">0.01</td>
+<td align="right">0.01</td>
+</tr>
+<tr>
+<td align="left">RMSPE</td>
+<td align="right">29.89</td>
+<td align="right">25.32</td>
+<td align="right">34.68</td>
+<td align="right">43.33</td>
+<td align="right">26.00</td>
+<td align="right">65.11</td>
+<td align="right"><bold>29.13</bold></td>
+<td align="right">21.15</td>
+<td align="right">39.75</td>
+</tr>
+<tr>
+<td align="left">MAPE</td>
+<td align="right">83.20</td>
+<td align="right">69.60</td>
+<td align="right">105.26</td>
+<td align="right">94.04</td>
+<td align="right">52.36</td>
+<td align="right">145.65</td>
+<td align="right"><bold>74.71</bold></td>
+<td align="right">47.92</td>
+<td align="right">108.58</td>
+</tr>
+<tr>
+<td align="center" colspan="10"><bold>Social Media: Topics</bold></td>
+</tr>
+<tr>
+<td align="left">CORR</td>
+<td align="right">0.43</td>
+<td align="right">0.34</td>
+<td align="right">0.61</td>
+<td align="right"><bold>0.53</bold></td>
+<td align="right">0.45</td>
+<td align="right">0.66</td>
+<td align="right">0.21</td>
+<td align="right">0.16</td>
+<td align="right">0.27</td>
+</tr>
+<tr>
+<td align="left">RMSE</td>
+<td align="right">0.05</td>
+<td align="right">0.03</td>
+<td align="right">0.08</td>
+<td align="right">0.06</td>
+<td align="right">0.05</td>
+<td align="right">0.09</td>
+<td align="right"><bold>0.01</bold></td>
+<td align="right">0.01</td>
+<td align="right">0.01</td>
+</tr>
+<tr>
+<td align="left">RMSPE</td>
+<td align="right">42.15</td>
+<td align="right">20.60</td>
+<td align="right">69.71</td>
+<td align="right">50.54</td>
+<td align="right">35.03</td>
+<td align="right">83.12</td>
+<td align="right"><bold>28.80</bold></td>
+<td align="right">21.99</td>
+<td align="right">37.93</td>
+</tr>
+<tr>
+<td align="left">MAPE</td>
+<td align="right">116.73</td>
+<td align="right">47.86</td>
+<td align="right">192.48</td>
+<td align="right">112.85</td>
+<td align="right">70.33</td>
+<td align="right">191.04</td>
+<td align="right"><bold>75.74</bold></td>
+<td align="right">51.50</td>
+<td align="right">103.99</td>
+</tr>
+<tr>
+<td align="center" colspan="10"><bold>Social Media: Tweets and Network (hashtags)</bold></td>
+</tr>
+<tr>
+<td align="left">CORR</td>
+<td align="right">0.54</td>
+<td align="right">0.43</td>
+<td align="right">0.64</td>
+<td align="right"><bold>0.64</bold></td>
+<td align="right">0.58</td>
+<td align="right">0.73</td>
+<td align="right">0.59</td>
+<td align="right">0.53</td>
+<td align="right">0.66</td>
+</tr>
+<tr>
+<td align="left">RMSE</td>
+<td align="right">0.05</td>
+<td align="right">0.03</td>
+<td align="right">0.08</td>
+<td align="right">0.05</td>
+<td align="right">0.04</td>
+<td align="right">0.08</td>
+<td align="right"><bold>0.01</bold></td>
+<td align="right">0.01</td>
+<td align="right">0.01</td>
+</tr>
+<tr>
+<td align="left">RMSPE</td>
+<td align="right">40.93</td>
+<td align="right">29.56</td>
+<td align="right">67.97</td>
+<td align="right">40.42</td>
+<td align="right">27.91</td>
+<td align="right">53.26</td>
+<td align="right"><bold>26.63</bold></td>
+<td align="right">17.72</td>
+<td align="right">38.61</td>
+</tr>
+<tr>
+<td align="left">MAPE</td>
+<td align="right">112.70</td>
+<td align="right">79.76</td>
+<td align="right">182.72</td>
+<td align="right">99.02</td>
+<td align="right">69.56</td>
+<td align="right">131.91</td>
+<td align="right"><bold>63.30</bold></td>
+<td align="right">38.54</td>
+<td align="right">97.03</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>Our key findings for six example geolocation are listed below.
+<list list-type="bullet"><list-item><p>RQ1: LSTM models yield more accurate predictions compared to previously used AdaBoost or SVM models learned from social media signals.</p></list-item> <list-item><p>RQ2: Tweet and network signals are the most predictive signals within all other types of social media signals of ILI dynamics compared to stylistic, TFIDF, and higher order ngram features.</p></list-item> <list-item><p>ILI predictions significantly vary across locations. Model performance depends on the amount of social media data available and ILI dynamic complexity.</p></list-item> <list-item><p>Models for the current week estimates (nowcasting) are more accurate than models for one or two week forecasts.</p></list-item></list></p>
+</sec>
+</sec>
+<sec id="sec015">
+<title>RQ3: Forecasting using ILI and social media data</title>
+<p>In Tables <xref ref-type="table" rid="pone.0188941.t004">4</xref>–<xref ref-type="table" rid="pone.0188941.t006">6</xref> we report ILI prediction results (using Pearson correlation, RMSPE, and MAPE, respectively) for 31 geolocations. We train models using (1) ILI historical data, (2) the most predictive social media signals—tweets and network, and the best performing models—LSTM, and (3) joint ILI and SM signals. We train LSTM models on two season data (2012–2013) and test on the 2014 season.</p>
+<table-wrap id="pone.0188941.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0188941.t004</object-id>
+<label>Table 4</label>
+<caption>
+<title>ILI predictions for 31 geolocations estimated using Pearson correlation for nowcasting (this week) and forecasting (one and two weeks).</title>
+<p>Neural network models are trained from ILI data only (ILI), social media data only (SM), or both ILI and SM data (ILI + SM). Locations are sorted by the amount of Twitter data available in a descending order (the first column is shown in millions). Locations with min and max correlations are underlined.</p>
+</caption>
+<alternatives>
+<graphic id="pone.0188941.t004g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0188941.t004" xlink:type="simple"/>
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="left"/>
+<th align="center" colspan="3">This Week</th>
+<th align="center" colspan="3">One Week</th>
+<th align="center" colspan="3">Two Weeks</th>
+</tr>
+<tr>
+<th align="left">Tweets</th>
+<th align="left"/>
+<th align="right">ILI</th>
+<th align="right">SM</th>
+<th align="right">ILI + SM</th>
+<th align="right">ILI</th>
+<th align="right">SM</th>
+<th align="right">ILI + SM</th>
+<th align="right">ILI</th>
+<th align="right">SM</th>
+<th align="right">ILI + SM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">16.43</td>
+<td align="left">L14</td>
+<td align="right">0.86</td>
+<td align="right"><underline>0.97</underline></td>
+<td align="right"><underline>0.97</underline></td>
+<td align="right">0.73</td>
+<td align="right">0.94</td>
+<td align="right">0.94</td>
+<td align="right">0.55</td>
+<td align="right">0.88</td>
+<td align="right">0.92</td>
+</tr>
+<tr>
+<td align="left">16.38</td>
+<td align="left">i2</td>
+<td align="right">0.77</td>
+<td align="right">0.58</td>
+<td align="right">0.78</td>
+<td align="right">0.65</td>
+<td align="right">0.58</td>
+<td align="right">0.72</td>
+<td align="right">0.49</td>
+<td align="right">0.53</td>
+<td align="right">0.61</td>
+</tr>
+<tr>
+<td align="left">14.90</td>
+<td align="left">L3</td>
+<td align="right">0.84</td>
+<td align="right">0.94</td>
+<td align="right">0.96</td>
+<td align="right">0.72</td>
+<td align="right">0.90</td>
+<td align="right">0.93</td>
+<td align="right">0.61</td>
+<td align="right">0.84</td>
+<td align="right">0.89</td>
+</tr>
+<tr>
+<td align="left">12.45</td>
+<td align="left">L27</td>
+<td align="right">0.86</td>
+<td align="right">0.88</td>
+<td align="right">0.96</td>
+<td align="right">0.74</td>
+<td align="right">0.82</td>
+<td align="right">0.87</td>
+<td align="right">0.54</td>
+<td align="right">0.81</td>
+<td align="right">0.84</td>
+</tr>
+<tr>
+<td align="left">11.67</td>
+<td align="left">L20</td>
+<td align="right">0.70</td>
+<td align="right">0.88</td>
+<td align="right">0.91</td>
+<td align="right"><underline>0.25</underline></td>
+<td align="right">0.74</td>
+<td align="right">0.69</td>
+<td align="right"><underline>0.01</underline></td>
+<td align="right">0.59</td>
+<td align="right">0.62</td>
+</tr>
+<tr>
+<td align="left">10.53</td>
+<td align="left">i25</td>
+<td align="right">0.83</td>
+<td align="right">0.77</td>
+<td align="right">0.82</td>
+<td align="right">0.67</td>
+<td align="right">0.79</td>
+<td align="right">0.76</td>
+<td align="right">0.51</td>
+<td align="right">0.79</td>
+<td align="right">0.76</td>
+</tr>
+<tr>
+<td align="left">9.73</td>
+<td align="left">L28</td>
+<td align="right">0.87</td>
+<td align="right">0.90</td>
+<td align="right">0.96</td>
+<td align="right">0.75</td>
+<td align="right">0.82</td>
+<td align="right">0.88</td>
+<td align="right">0.54</td>
+<td align="right">0.79</td>
+<td align="right">0.84</td>
+</tr>
+<tr>
+<td align="left">8.87</td>
+<td align="left">L11</td>
+<td align="right">0.89</td>
+<td align="right">0.94</td>
+<td align="right"><underline>0.97</underline></td>
+<td align="right">0.79</td>
+<td align="right">0.93</td>
+<td align="right">0.92</td>
+<td align="right">0.64</td>
+<td align="right">0.90</td>
+<td align="right">0.91</td>
+</tr>
+<tr>
+<td align="left">7.49</td>
+<td align="left">L25</td>
+<td align="right">0.86</td>
+<td align="right">0.91</td>
+<td align="right">0.96</td>
+<td align="right">0.76</td>
+<td align="right">0.86</td>
+<td align="right">0.93</td>
+<td align="right">0.63</td>
+<td align="right">0.87</td>
+<td align="right"><underline>0.93</underline></td>
+</tr>
+<tr>
+<td align="left">7.04</td>
+<td align="left">L10</td>
+<td align="right">0.86</td>
+<td align="right">0.95</td>
+<td align="right">0.93</td>
+<td align="right"><underline>0.82</underline></td>
+<td align="right"><underline>0.95</underline></td>
+<td align="right">0.88</td>
+<td align="right">0.68</td>
+<td align="right">0.92</td>
+<td align="right">0.85</td>
+</tr>
+<tr>
+<td align="left">6.52</td>
+<td align="left">L4</td>
+<td align="right">0.86</td>
+<td align="right">0.95</td>
+<td align="right"><underline>0.97</underline></td>
+<td align="right">0.79</td>
+<td align="right">0.93</td>
+<td align="right"><underline>0.95</underline></td>
+<td align="right"><underline>0.69</underline></td>
+<td align="right">0.91</td>
+<td align="right">0.90</td>
+</tr>
+<tr>
+<td align="left">5.25</td>
+<td align="left">L29</td>
+<td align="right">0.88</td>
+<td align="right">0.79</td>
+<td align="right">0.92</td>
+<td align="right">0.79</td>
+<td align="right">0.76</td>
+<td align="right">0.84</td>
+<td align="right">0.57</td>
+<td align="right">0.75</td>
+<td align="right">0.76</td>
+</tr>
+<tr>
+<td align="left">5.11</td>
+<td align="left">L0</td>
+<td align="right">0.75</td>
+<td align="right">0.61</td>
+<td align="right">0.89</td>
+<td align="right">0.69</td>
+<td align="right">0.56</td>
+<td align="right">0.82</td>
+<td align="right">0.58</td>
+<td align="right">0.65</td>
+<td align="right">0.79</td>
+</tr>
+<tr>
+<td align="left">4.48</td>
+<td align="left">L23</td>
+<td align="right">0.85</td>
+<td align="right">0.93</td>
+<td align="right">0.96</td>
+<td align="right">0.72</td>
+<td align="right">0.85</td>
+<td align="right">0.88</td>
+<td align="right">0.53</td>
+<td align="right">0.83</td>
+<td align="right">0.83</td>
+</tr>
+<tr>
+<td align="left">3.94</td>
+<td align="left">L12</td>
+<td align="right"><underline>0.90</underline></td>
+<td align="right">0.84</td>
+<td align="right">0.95</td>
+<td align="right"><underline>0.82</underline></td>
+<td align="right">0.90</td>
+<td align="right">0.91</td>
+<td align="right"><underline>0.69</underline></td>
+<td align="right"><underline>0.95</underline></td>
+<td align="right">0.89</td>
+</tr>
+<tr>
+<td align="left">3.67</td>
+<td align="left">L30</td>
+<td align="right">0.86</td>
+<td align="right">0.92</td>
+<td align="right">0.94</td>
+<td align="right">0.71</td>
+<td align="right">0.85</td>
+<td align="right">0.84</td>
+<td align="right">0.50</td>
+<td align="right">0.81</td>
+<td align="right">0.73</td>
+</tr>
+<tr>
+<td align="left">3.00</td>
+<td align="left">L33</td>
+<td align="right">0.87</td>
+<td align="right">0.87</td>
+<td align="right">0.94</td>
+<td align="right">0.76</td>
+<td align="right">0.82</td>
+<td align="right">0.89</td>
+<td align="right">0.54</td>
+<td align="right">0.77</td>
+<td align="right">0.84</td>
+</tr>
+<tr>
+<td align="left">2.92</td>
+<td align="left">L15</td>
+<td align="right">0.89</td>
+<td align="right">0.96</td>
+<td align="right">0.96</td>
+<td align="right">0.77</td>
+<td align="right">0.92</td>
+<td align="right">0.88</td>
+<td align="right">0.59</td>
+<td align="right">0.91</td>
+<td align="right">0.84</td>
+</tr>
+<tr>
+<td align="left">2.77</td>
+<td align="left">L13</td>
+<td align="right">0.78</td>
+<td align="right">0.81</td>
+<td align="right">0.92</td>
+<td align="right">0.57</td>
+<td align="right">0.65</td>
+<td align="right">0.75</td>
+<td align="right">0.33</td>
+<td align="right">0.59</td>
+<td align="right">0.55</td>
+</tr>
+<tr>
+<td align="left">2.73</td>
+<td align="left">L31</td>
+<td align="right">0.88</td>
+<td align="right">0.91</td>
+<td align="right">0.96</td>
+<td align="right">0.81</td>
+<td align="right">0.88</td>
+<td align="right">0.89</td>
+<td align="right">0.67</td>
+<td align="right">0.89</td>
+<td align="right">0.84</td>
+</tr>
+<tr>
+<td align="left">2.73</td>
+<td align="left">i3</td>
+<td align="right"><underline>0.59</underline></td>
+<td align="right">0.54</td>
+<td align="right"><underline>0.66</underline></td>
+<td align="right">0.40</td>
+<td align="right">0.47</td>
+<td align="right"><underline>0.47</underline></td>
+<td align="right">0.24</td>
+<td align="right">0.43</td>
+<td align="right"><underline>0.33</underline></td>
+</tr>
+<tr>
+<td align="left">2.71</td>
+<td align="left">L32</td>
+<td align="right">0.85</td>
+<td align="right">0.84</td>
+<td align="right">0.74</td>
+<td align="right">0.74</td>
+<td align="right">0.89</td>
+<td align="right">0.86</td>
+<td align="right">0.51</td>
+<td align="right">0.88</td>
+<td align="right">0.87</td>
+</tr>
+<tr>
+<td align="left">2.08</td>
+<td align="left">L22</td>
+<td align="right">0.83</td>
+<td align="right">0.90</td>
+<td align="right">0.95</td>
+<td align="right">0.71</td>
+<td align="right">0.83</td>
+<td align="right">0.86</td>
+<td align="right">0.54</td>
+<td align="right">0.83</td>
+<td align="right">0.77</td>
+</tr>
+<tr>
+<td align="left">1.80</td>
+<td align="left">L21</td>
+<td align="right">0.81</td>
+<td align="right">0.93</td>
+<td align="right">0.95</td>
+<td align="right">0.62</td>
+<td align="right">0.81</td>
+<td align="right">0.81</td>
+<td align="right">0.46</td>
+<td align="right">0.74</td>
+<td align="right">0.69</td>
+</tr>
+<tr>
+<td align="left">1.39</td>
+<td align="left">i27</td>
+<td align="right">0.86</td>
+<td align="right">0.63</td>
+<td align="right">0.84</td>
+<td align="right">0.79</td>
+<td align="right">0.74</td>
+<td align="right">0.82</td>
+<td align="right">0.61</td>
+<td align="right">0.80</td>
+<td align="right">0.72</td>
+</tr>
+<tr>
+<td align="left">1.33</td>
+<td align="left">L34</td>
+<td align="right">0.85</td>
+<td align="right">0.91</td>
+<td align="right">0.95</td>
+<td align="right">0.72</td>
+<td align="right">0.87</td>
+<td align="right">0.88</td>
+<td align="right">0.52</td>
+<td align="right">0.83</td>
+<td align="right">0.81</td>
+</tr>
+<tr>
+<td align="left">1.16</td>
+<td align="left">L37</td>
+<td align="right">0.83</td>
+<td align="right">0.57</td>
+<td align="right">0.85</td>
+<td align="right">0.75</td>
+<td align="right">0.45</td>
+<td align="right">0.75</td>
+<td align="right">0.61</td>
+<td align="right">0.38</td>
+<td align="right">0.59</td>
+</tr>
+<tr>
+<td align="left">1.04</td>
+<td align="left">L16</td>
+<td align="right">0.86</td>
+<td align="right">0.87</td>
+<td align="right">0.92</td>
+<td align="right">0.73</td>
+<td align="right">0.84</td>
+<td align="right">0.79</td>
+<td align="right">0.50</td>
+<td align="right">0.81</td>
+<td align="right">0.69</td>
+</tr>
+<tr>
+<td align="left">0.41</td>
+<td align="left">i20</td>
+<td align="right">0.88</td>
+<td align="right"><underline>0.37</underline></td>
+<td align="right">0.81</td>
+<td align="right">0.77</td>
+<td align="right"><underline>0.22</underline></td>
+<td align="right">0.63</td>
+<td align="right">0.65</td>
+<td align="right"><underline>0.06</underline></td>
+<td align="right">0.33</td>
+</tr>
+<tr>
+<td align="left">0.35</td>
+<td align="left">L19</td>
+<td align="right">0.86</td>
+<td align="right">0.70</td>
+<td align="right">0.92</td>
+<td align="right">0.75</td>
+<td align="right">0.74</td>
+<td align="right">0.80</td>
+<td align="right">0.55</td>
+<td align="right">0.77</td>
+<td align="right">0.66</td>
+</tr>
+<tr>
+<td align="left">0.16</td>
+<td align="left">i17</td>
+<td align="right">0.80</td>
+<td align="right">0.38</td>
+<td align="right">0.68</td>
+<td align="right">0.59</td>
+<td align="right">0.32</td>
+<td align="right">0.55</td>
+<td align="right">0.38</td>
+<td align="right">0.33</td>
+<td align="right">0.37</td>
+</tr>
+<tr>
+<td align="right" colspan="2"><bold>Mean</bold></td>
+<td align="left"><bold>0.84</bold></td>
+<td align="right"><bold>0.80</bold></td>
+<td align="right"><bold>0.90</bold></td>
+<td align="right"><bold>0.71</bold></td>
+<td align="right"><bold>0.76</bold></td>
+<td align="right"><bold>0.82</bold></td>
+<td align="right"><bold>0.53</bold></td>
+<td align="right"><bold>0.74</bold></td>
+<td align="right"><bold>0.74</bold></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<table-wrap id="pone.0188941.t005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0188941.t005</object-id>
+<label>Table 5</label>
+<caption>
+<title>ILI prediction results for 31 geolocations estimated using RMSPE for nowcasting (this week) and forecasting (one and two weeks in advance).</title>
+<p>Locations with min and max correlations are underlined.</p>
+</caption>
+<alternatives>
+<graphic id="pone.0188941.t005g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0188941.t005" xlink:type="simple"/>
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="3">This Week</th>
+<th align="center" colspan="3">One Week</th>
+<th align="center" colspan="3">Two Weeks</th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="right">ILI</th>
+<th align="right">SM</th>
+<th align="right">ILI + SM</th>
+<th align="right">ILI</th>
+<th align="right">SM</th>
+<th align="right">ILI + SM</th>
+<th align="right">ILI</th>
+<th align="right">SM</th>
+<th align="right">ILI + SM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">L14</td>
+<td align="right">40.2</td>
+<td align="right">48.8</td>
+<td align="right">38.7</td>
+<td align="right">45.3</td>
+<td align="right">65.5</td>
+<td align="right">32.4</td>
+<td align="right">61.8</td>
+<td align="right">74.9</td>
+<td align="right">30.2</td>
+</tr>
+<tr>
+<td align="left">i2</td>
+<td align="right">29.0</td>
+<td align="right">28.2</td>
+<td align="right">30.3</td>
+<td align="right"><underline>28.7</underline></td>
+<td align="right"><underline>26.9</underline></td>
+<td align="right">25.2</td>
+<td align="right"><underline>33.7</underline></td>
+<td align="right"><underline>30.3</underline></td>
+<td align="right"><underline>26.2</underline></td>
+</tr>
+<tr>
+<td align="left">L3</td>
+<td align="right">39.7</td>
+<td align="right">41.7</td>
+<td align="right">55.4</td>
+<td align="right">53.5</td>
+<td align="right">73.9</td>
+<td align="right">40.6</td>
+<td align="right">52.4</td>
+<td align="right">68.6</td>
+<td align="right">53.6</td>
+</tr>
+<tr>
+<td align="left">L27</td>
+<td align="right">42.4</td>
+<td align="right">38.7</td>
+<td align="right">21.0</td>
+<td align="right">50.4</td>
+<td align="right">50.3</td>
+<td align="right">44.2</td>
+<td align="right">57.4</td>
+<td align="right">57.4</td>
+<td align="right">49.3</td>
+</tr>
+<tr>
+<td align="left">L20</td>
+<td align="right">50.2</td>
+<td align="right">55.7</td>
+<td align="right">48.7</td>
+<td align="right">65.6</td>
+<td align="right">59.8</td>
+<td align="right">67.1</td>
+<td align="right">61.2</td>
+<td align="right">57.4</td>
+<td align="right">51.2</td>
+</tr>
+<tr>
+<td align="left">Li25</td>
+<td align="right">79.1</td>
+<td align="right">53.9</td>
+<td align="right">54.0</td>
+<td align="right">77.4</td>
+<td align="right">54.4</td>
+<td align="right">75.1</td>
+<td align="right">95.2</td>
+<td align="right">70.1</td>
+<td align="right">73.4</td>
+</tr>
+<tr>
+<td align="left">L28</td>
+<td align="right">36.3</td>
+<td align="right">31.1</td>
+<td align="right">26.6</td>
+<td align="right">43.3</td>
+<td align="right">51.5</td>
+<td align="right">34.0</td>
+<td align="right">51.5</td>
+<td align="right">58.1</td>
+<td align="right">37.2</td>
+</tr>
+<tr>
+<td align="left">L11</td>
+<td align="right">37.3</td>
+<td align="right">50.0</td>
+<td align="right">31.9</td>
+<td align="right">42.6</td>
+<td align="right">71.7</td>
+<td align="right">45.6</td>
+<td align="right">57.7</td>
+<td align="right">55.9</td>
+<td align="right">47.0</td>
+</tr>
+<tr>
+<td align="left">L25</td>
+<td align="right">33.7</td>
+<td align="right">54.4</td>
+<td align="right"><underline>15.5</underline></td>
+<td align="right">35.4</td>
+<td align="right">70.9</td>
+<td align="right"><underline>24.2</underline></td>
+<td align="right">48.1</td>
+<td align="right">67.2</td>
+<td align="right">26.7</td>
+</tr>
+<tr>
+<td align="left">L10</td>
+<td align="right">38.8</td>
+<td align="right">40.7</td>
+<td align="right">33.4</td>
+<td align="right">38.3</td>
+<td align="right">37.7</td>
+<td align="right">33.6</td>
+<td align="right">49.7</td>
+<td align="right">54.6</td>
+<td align="right">29.9</td>
+</tr>
+<tr>
+<td align="left">L4</td>
+<td align="right">37.6</td>
+<td align="right">44.2</td>
+<td align="right">31.0</td>
+<td align="right">45.9</td>
+<td align="right">58.8</td>
+<td align="right">50.0</td>
+<td align="right">52.4</td>
+<td align="right">55.1</td>
+<td align="right">49.7</td>
+</tr>
+<tr>
+<td align="left">L29</td>
+<td align="right">35.0</td>
+<td align="right">45.1</td>
+<td align="right">42.1</td>
+<td align="right">46.0</td>
+<td align="right">49.2</td>
+<td align="right">40.2</td>
+<td align="right">54.6</td>
+<td align="right">48.7</td>
+<td align="right">43.3</td>
+</tr>
+<tr>
+<td align="left">L0</td>
+<td align="right"><underline>28.9</underline></td>
+<td align="right"><underline>25.7</underline></td>
+<td align="right">20.1</td>
+<td align="right">29.2</td>
+<td align="right">32.0</td>
+<td align="right">26.2</td>
+<td align="right">35.9</td>
+<td align="right">45.2</td>
+<td align="right">34.8</td>
+</tr>
+<tr>
+<td align="left">L23</td>
+<td align="right">38.8</td>
+<td align="right">62.0</td>
+<td align="right">30.0</td>
+<td align="right">45.3</td>
+<td align="right">74.2</td>
+<td align="right">40.2</td>
+<td align="right">51.8</td>
+<td align="right">65.6</td>
+<td align="right">45.0</td>
+</tr>
+<tr>
+<td align="left">L12</td>
+<td align="right">44.9</td>
+<td align="right">80.3</td>
+<td align="right">50.6</td>
+<td align="right">66.5</td>
+<td align="right">105.0</td>
+<td align="right">88.9</td>
+<td align="right">99.1</td>
+<td align="right">149.2</td>
+<td align="right">106.4</td>
+</tr>
+<tr>
+<td align="left">L30</td>
+<td align="right">48.0</td>
+<td align="right">62.8</td>
+<td align="right">35.1</td>
+<td align="right">54.6</td>
+<td align="right">75.7</td>
+<td align="right">48.9</td>
+<td align="right">63.5</td>
+<td align="right">75.1</td>
+<td align="right">60.4</td>
+</tr>
+<tr>
+<td align="left">L33</td>
+<td align="right">33.1</td>
+<td align="right">37.9</td>
+<td align="right">27.2</td>
+<td align="right">44.7</td>
+<td align="right">42.0</td>
+<td align="right">29.4</td>
+<td align="right">43.2</td>
+<td align="right">38.1</td>
+<td align="right">33.9</td>
+</tr>
+<tr>
+<td align="left">L15</td>
+<td align="right">56.9</td>
+<td align="right">99.5</td>
+<td align="right">40.5</td>
+<td align="right">62.2</td>
+<td align="right">107.5</td>
+<td align="right">71.9</td>
+<td align="right">76.8</td>
+<td align="right">154.6</td>
+<td align="right">91.0</td>
+</tr>
+<tr>
+<td align="left">L13</td>
+<td align="right">49.6</td>
+<td align="right">54.0</td>
+<td align="right">34.5</td>
+<td align="right">55.6</td>
+<td align="right">73.6</td>
+<td align="right">51.2</td>
+<td align="right">64.4</td>
+<td align="right">81.9</td>
+<td align="right">57.7</td>
+</tr>
+<tr>
+<td align="left">L31</td>
+<td align="right">39.7</td>
+<td align="right">70.6</td>
+<td align="right">29.3</td>
+<td align="right">44.5</td>
+<td align="right">79.1</td>
+<td align="right">38.9</td>
+<td align="right">48.1</td>
+<td align="right">71.5</td>
+<td align="right">57.8</td>
+</tr>
+<tr>
+<td align="left">i3</td>
+<td align="right">61.6</td>
+<td align="right">63.1</td>
+<td align="right">65.8</td>
+<td align="right">78.1</td>
+<td align="right">62.4</td>
+<td align="right">70.4</td>
+<td align="right">55.9</td>
+<td align="right">63.6</td>
+<td align="right">28.9</td>
+</tr>
+<tr>
+<td align="left">L32</td>
+<td align="right">43.1</td>
+<td align="right">97.4</td>
+<td align="right">88.3</td>
+<td align="right">57.1</td>
+<td align="right">97.8</td>
+<td align="right">74.6</td>
+<td align="right">71.9</td>
+<td align="right">141.7</td>
+<td align="right">97.1</td>
+</tr>
+<tr>
+<td align="left">L22</td>
+<td align="right">44.2</td>
+<td align="right">74.0</td>
+<td align="right">31.0</td>
+<td align="right">54.2</td>
+<td align="right">68.3</td>
+<td align="right">55.3</td>
+<td align="right">69.6</td>
+<td align="right">84.0</td>
+<td align="right">69.3</td>
+</tr>
+<tr>
+<td align="left">L21</td>
+<td align="right">49.7</td>
+<td align="right">83.5</td>
+<td align="right">37.7</td>
+<td align="right">65.0</td>
+<td align="right">68.7</td>
+<td align="right">59.5</td>
+<td align="right">77.0</td>
+<td align="right">90.0</td>
+<td align="right">75.7</td>
+</tr>
+<tr>
+<td align="left">i27</td>
+<td align="right">32.6</td>
+<td align="right">67.1</td>
+<td align="right">46.1</td>
+<td align="right">51.5</td>
+<td align="right">62.2</td>
+<td align="right">53.5</td>
+<td align="right">58.7</td>
+<td align="right">72.3</td>
+<td align="right">61.1</td>
+</tr>
+<tr>
+<td align="left">L34</td>
+<td align="right">29.2</td>
+<td align="right">36.8</td>
+<td align="right">22.6</td>
+<td align="right">38.6</td>
+<td align="right">38.4</td>
+<td align="right">35.0</td>
+<td align="right">49.8</td>
+<td align="right">39.9</td>
+<td align="right">44.6</td>
+</tr>
+<tr>
+<td align="left">L37</td>
+<td align="right">46.7</td>
+<td align="right">58.2</td>
+<td align="right">37.5</td>
+<td align="right">50.0</td>
+<td align="right">62.3</td>
+<td align="right">51.4</td>
+<td align="right">58.2</td>
+<td align="right">59.8</td>
+<td align="right">52.0</td>
+</tr>
+<tr>
+<td align="left">L16</td>
+<td align="right">42.7</td>
+<td align="right">50.6</td>
+<td align="right">38.7</td>
+<td align="right">51.0</td>
+<td align="right">57.2</td>
+<td align="right">50.5</td>
+<td align="right">59.8</td>
+<td align="right">54.2</td>
+<td align="right">54.3</td>
+</tr>
+<tr>
+<td align="left">i20</td>
+<td align="right">48.6</td>
+<td align="right">115.1</td>
+<td align="right">88.3</td>
+<td align="right">50.8</td>
+<td align="right">109.5</td>
+<td align="right">72.2</td>
+<td align="right">51.1</td>
+<td align="right">116.4</td>
+<td align="right">85.0</td>
+</tr>
+<tr>
+<td align="left">L19</td>
+<td align="right">41.8</td>
+<td align="right">92.8</td>
+<td align="right">57.8</td>
+<td align="right">61.4</td>
+<td align="right">89.0</td>
+<td align="right">49.8</td>
+<td align="right">55.6</td>
+<td align="right">89.7</td>
+<td align="right">63.0</td>
+</tr>
+<tr>
+<td align="left">i17</td>
+<td align="right"><underline>87.3</underline></td>
+<td align="right"><underline>169.1</underline></td>
+<td align="right"><underline>88.3</underline></td>
+<td align="right"><underline>128.7</underline></td>
+<td align="right"><underline>183.1</underline></td>
+<td align="right"><underline>154.2</underline></td>
+<td align="right"><underline>150.0</underline></td>
+<td align="right"><underline>181.9</underline></td>
+<td align="right"><underline>150.5</underline></td>
+</tr>
+<tr>
+<td align="left"><bold>Mean</bold></td>
+<td align="right"><bold>44.1</bold></td>
+<td align="right"><bold>62.4</bold></td>
+<td align="right"><bold>41.5</bold></td>
+<td align="right"><bold>53.6</bold></td>
+<td align="right"><bold>69.6</bold></td>
+<td align="right"><bold>52.7</bold></td>
+<td align="right"><bold>61.8</bold></td>
+<td align="right"><bold>76.6</bold></td>
+<td align="right"><bold>57.6</bold></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<table-wrap id="pone.0188941.t006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0188941.t006</object-id>
+<label>Table 6</label>
+<caption>
+<title>ILI prediction results for 31 geolocations estimated using MAPE for nowcasting (this week) and forecasting (one and two weeks).</title>
+<p>Locations with min and max MAPE scores are underlined.</p>
+</caption>
+<alternatives>
+<graphic id="pone.0188941.t006g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0188941.t006" xlink:type="simple"/>
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="3">This Week</th>
+<th align="center" colspan="3">One Week</th>
+<th align="center" colspan="3">Two Weeks</th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="right">ILI</th>
+<th align="right">SM</th>
+<th align="right">ILI + SM</th>
+<th align="right">ILI</th>
+<th align="right">SM</th>
+<th align="right">ILI + SM</th>
+<th align="right">ILI</th>
+<th align="right">SM</th>
+<th align="right">ILI + SM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">L14</td>
+<td align="right">16.81</td>
+<td align="right">15.10</td>
+<td align="right">18.18</td>
+<td align="right">20.90</td>
+<td align="right">23.94</td>
+<td align="right">11.55</td>
+<td align="right">27.46</td>
+<td align="right">28.29</td>
+<td align="right">13.18</td>
+</tr>
+<tr>
+<td align="left">i2</td>
+<td align="right">10.88</td>
+<td align="right">13.44</td>
+<td align="right">11.65</td>
+<td align="right">12.39</td>
+<td align="right">13.89</td>
+<td align="right">12.01</td>
+<td align="right">16.24</td>
+<td align="right"><underline>14.12</underline></td>
+<td align="right"><underline>12.43</underline></td>
+</tr>
+<tr>
+<td align="left">L3</td>
+<td align="right">12.96</td>
+<td align="right">15.53</td>
+<td align="right">17.25</td>
+<td align="right">18.15</td>
+<td align="right">39.67</td>
+<td align="right">12.94</td>
+<td align="right">15.89</td>
+<td align="right">35.76</td>
+<td align="right">26.80</td>
+</tr>
+<tr>
+<td align="left">L27</td>
+<td align="right">16.75</td>
+<td align="right">16.51</td>
+<td align="right">9.97</td>
+<td align="right">21.59</td>
+<td align="right">22.42</td>
+<td align="right">12.57</td>
+<td align="right">25.47</td>
+<td align="right">26.52</td>
+<td align="right">14.12</td>
+</tr>
+<tr>
+<td align="left">L20</td>
+<td align="right">20.13</td>
+<td align="right">19.79</td>
+<td align="right">17.09</td>
+<td align="right">29.51</td>
+<td align="right">23.78</td>
+<td align="right">27.39</td>
+<td align="right">26.68</td>
+<td align="right">24.31</td>
+<td align="right">17.57</td>
+</tr>
+<tr>
+<td align="left">i25</td>
+<td align="right"><underline>30.92</underline></td>
+<td align="right">25.12</td>
+<td align="right">19.34</td>
+<td align="right">31.88</td>
+<td align="right">22.35</td>
+<td align="right">27.48</td>
+<td align="right">34.77</td>
+<td align="right">26.60</td>
+<td align="right">34.70</td>
+</tr>
+<tr>
+<td align="left">L28</td>
+<td align="right">14.36</td>
+<td align="right"><underline>12.68</underline></td>
+<td align="right">11.53</td>
+<td align="right">18.71</td>
+<td align="right">27.42</td>
+<td align="right">14.62</td>
+<td align="right">20.84</td>
+<td align="right">29.87</td>
+<td align="right">13.45</td>
+</tr>
+<tr>
+<td align="left">L11</td>
+<td align="right">12.30</td>
+<td align="right">18.00</td>
+<td align="right">10.92</td>
+<td align="right">16.48</td>
+<td align="right">28.22</td>
+<td align="right">16.91</td>
+<td align="right">22.27</td>
+<td align="right">21.82</td>
+<td align="right">22.23</td>
+</tr>
+<tr>
+<td align="left">L25</td>
+<td align="right">11.43</td>
+<td align="right">21.08</td>
+<td align="right"><underline>6.95</underline></td>
+<td align="right">16.95</td>
+<td align="right">30.92</td>
+<td align="right"><underline>8.89</underline></td>
+<td align="right">16.39</td>
+<td align="right">29.59</td>
+<td align="right">12.55</td>
+</tr>
+<tr>
+<td align="left">L10</td>
+<td align="right">12.34</td>
+<td align="right">18.22</td>
+<td align="right">17.51</td>
+<td align="right">14.37</td>
+<td align="right">18.05</td>
+<td align="right">18.48</td>
+<td align="right">18.80</td>
+<td align="right">27.00</td>
+<td align="right">16.76</td>
+</tr>
+<tr>
+<td align="left">L4</td>
+<td align="right">12.34</td>
+<td align="right">18.66</td>
+<td align="right">10.25</td>
+<td align="right">17.38</td>
+<td align="right">22.39</td>
+<td align="right">17.88</td>
+<td align="right">17.83</td>
+<td align="right">20.84</td>
+<td align="right">19.20</td>
+</tr>
+<tr>
+<td align="left">L29</td>
+<td align="right">13.87</td>
+<td align="right">19.83</td>
+<td align="right">12.53</td>
+<td align="right">16.13</td>
+<td align="right">19.64</td>
+<td align="right">14.24</td>
+<td align="right">21.39</td>
+<td align="right">24.57</td>
+<td align="right">21.02</td>
+</tr>
+<tr>
+<td align="left">L0</td>
+<td align="right"><underline>10.37</underline></td>
+<td align="right">14.81</td>
+<td align="right">9.14</td>
+<td align="right"><underline>11.74</underline></td>
+<td align="right"><underline>13.84</underline></td>
+<td align="right">10.27</td>
+<td align="right"><underline>13.58</underline></td>
+<td align="right">17.89</td>
+<td align="right">13.65</td>
+</tr>
+<tr>
+<td align="left">L23</td>
+<td align="right">14.67</td>
+<td align="right">26.99</td>
+<td align="right">11.86</td>
+<td align="right">19.32</td>
+<td align="right">35.27</td>
+<td align="right">17.73</td>
+<td align="right">23.86</td>
+<td align="right">30.57</td>
+<td align="right">22.67</td>
+</tr>
+<tr>
+<td align="left">L12</td>
+<td align="right">13.96</td>
+<td align="right">33.73</td>
+<td align="right">15.29</td>
+<td align="right">26.28</td>
+<td align="right">45.55</td>
+<td align="right">30.91</td>
+<td align="right">40.91</td>
+<td align="right"><underline>72.21</underline></td>
+<td align="right">42.30</td>
+</tr>
+<tr>
+<td align="left">L30</td>
+<td align="right">17.50</td>
+<td align="right">26.37</td>
+<td align="right">16.67</td>
+<td align="right">25.96</td>
+<td align="right">32.82</td>
+<td align="right">19.66</td>
+<td align="right">25.14</td>
+<td align="right">34.83</td>
+<td align="right">29.43</td>
+</tr>
+<tr>
+<td align="left">L33</td>
+<td align="right">12.30</td>
+<td align="right">17.38</td>
+<td align="right">10.11</td>
+<td align="right">19.34</td>
+<td align="right">21.05</td>
+<td align="right">12.80</td>
+<td align="right">18.93</td>
+<td align="right">18.90</td>
+<td align="right">15.74</td>
+</tr>
+<tr>
+<td align="left">L15</td>
+<td align="right">21.32</td>
+<td align="right">37.07</td>
+<td align="right">18.22</td>
+<td align="right">25.91</td>
+<td align="right">41.65</td>
+<td align="right">33.94</td>
+<td align="right">39.65</td>
+<td align="right">69.70</td>
+<td align="right">38.24</td>
+</tr>
+<tr>
+<td align="left">L13</td>
+<td align="right">15.57</td>
+<td align="right">23.49</td>
+<td align="right">14.71</td>
+<td align="right">20.10</td>
+<td align="right">32.74</td>
+<td align="right">23.18</td>
+<td align="right">21.90</td>
+<td align="right">36.80</td>
+<td align="right">26.06</td>
+</tr>
+<tr>
+<td align="left">L31</td>
+<td align="right">14.17</td>
+<td align="right">35.02</td>
+<td align="right">12.48</td>
+<td align="right">20.84</td>
+<td align="right">40.45</td>
+<td align="right">21.08</td>
+<td align="right">21.39</td>
+<td align="right">34.41</td>
+<td align="right">25.80</td>
+</tr>
+<tr>
+<td align="left">i3</td>
+<td align="right">19.67</td>
+<td align="right">24.88</td>
+<td align="right">22.49</td>
+<td align="right">24.34</td>
+<td align="right">26.31</td>
+<td align="right">25.57</td>
+<td align="right">19.61</td>
+<td align="right">26.24</td>
+<td align="right">28.90</td>
+</tr>
+<tr>
+<td align="left">L32</td>
+<td align="right">16.25</td>
+<td align="right">38.89</td>
+<td align="right">20.99</td>
+<td align="right">23.80</td>
+<td align="right">39.49</td>
+<td align="right">27.12</td>
+<td align="right">29.24</td>
+<td align="right">63.26</td>
+<td align="right">36.96</td>
+</tr>
+<tr>
+<td align="left">L22</td>
+<td align="right">16.36</td>
+<td align="right">34.31</td>
+<td align="right">13.33</td>
+<td align="right">25.30</td>
+<td align="right">34.82</td>
+<td align="right">27.52</td>
+<td align="right">31.78</td>
+<td align="right">44.60</td>
+<td align="right">37.27</td>
+</tr>
+<tr>
+<td align="left">L21</td>
+<td align="right">17.50</td>
+<td align="right">37.72</td>
+<td align="right">16.46</td>
+<td align="right">32.36</td>
+<td align="right">30.88</td>
+<td align="right">29.58</td>
+<td align="right">34.16</td>
+<td align="right">46.03</td>
+<td align="right">38.12</td>
+</tr>
+<tr>
+<td align="left">i27</td>
+<td align="right">16.16</td>
+<td align="right">26.30</td>
+<td align="right">17.97</td>
+<td align="right">19.03</td>
+<td align="right">24.76</td>
+<td align="right">19.11</td>
+<td align="right">21.96</td>
+<td align="right">27.60</td>
+<td align="right">22.09</td>
+</tr>
+<tr>
+<td align="left">L34</td>
+<td align="right">15.74</td>
+<td align="right">17.38</td>
+<td align="right">9.45</td>
+<td align="right">20.99</td>
+<td align="right">21.37</td>
+<td align="right">13.97</td>
+<td align="right">26.00</td>
+<td align="right">21.76</td>
+<td align="right">17.22</td>
+</tr>
+<tr>
+<td align="left">L37</td>
+<td align="right">17.63</td>
+<td align="right">21.67</td>
+<td align="right">16.91</td>
+<td align="right">22.82</td>
+<td align="right">24.61</td>
+<td align="right">18.93</td>
+<td align="right">26.28</td>
+<td align="right">23.20</td>
+<td align="right">21.69</td>
+</tr>
+<tr>
+<td align="left">L16</td>
+<td align="right">15.08</td>
+<td align="right">21.89</td>
+<td align="right">13.42</td>
+<td align="right">16.89</td>
+<td align="right">20.46</td>
+<td align="right">16.00</td>
+<td align="right">19.14</td>
+<td align="right">23.54</td>
+<td align="right">18.39</td>
+</tr>
+<tr>
+<td align="left">i20</td>
+<td align="right">17.08</td>
+<td align="right">41.50</td>
+<td align="right">28.70</td>
+<td align="right">24.68</td>
+<td align="right">42.83</td>
+<td align="right">29.66</td>
+<td align="right">25.63</td>
+<td align="right">45.92</td>
+<td align="right">39.26</td>
+</tr>
+<tr>
+<td align="left">L19</td>
+<td align="right">15.99</td>
+<td align="right">35.74</td>
+<td align="right">19.52</td>
+<td align="right">23.39</td>
+<td align="right">35.40</td>
+<td align="right">22.09</td>
+<td align="right">25.66</td>
+<td align="right">36.79</td>
+<td align="right">28.04</td>
+</tr>
+<tr>
+<td align="left">i17</td>
+<td align="right">29.39</td>
+<td align="right"><underline>56.58</underline></td>
+<td align="right"><underline>31.59</underline></td>
+<td align="right"><underline>46.21</underline></td>
+<td align="right"><underline>59.07</underline></td>
+<td align="right"><underline>47.09</underline></td>
+<td align="right"><underline>53.29</underline></td>
+<td align="right">63.47</td>
+<td align="right"><underline>55.70</underline></td>
+</tr>
+<tr>
+<td align="left"><bold>Mean</bold></td>
+<td align="right"><bold>16.19</bold></td>
+<td align="right"><bold>25.34</bold></td>
+<td align="right"><bold>15.56</bold></td>
+<td align="right"><bold>22.06</bold></td>
+<td align="right"><bold>29.55</bold></td>
+<td align="right"><bold>20.68</bold></td>
+<td align="right"><bold>25.23</bold></td>
+<td align="right"><bold>33.77</bold></td>
+<td align="right"><bold>25.21</bold></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<sec id="sec016">
+<title>Combining ILI and social media predictors</title>
+<p>Tables <xref ref-type="table" rid="pone.0188941.t004">4</xref>–<xref ref-type="table" rid="pone.0188941.t006">6</xref> show that when LSTM models are trained on both ILI and SM signals the average Pearson correlations are as high as <italic>r</italic> = 0.9 for this week predictions (on average 0.06 higher than ILI only <italic>r</italic> = 0.84), <italic>r</italic> = 0.82 for one week predictions (on average 0.11 higher than ILI only <italic>r</italic> = 0.71), and <italic>r</italic> = 0.74 for two week predictions (on average 0.21 higher than ILI only <italic>r</italic> = 0.53). We observed the highest correlations for locations L14, L11, L4, L12, L10, and L25 and the lowest correlations for international locations—i3, i20, and L20. Note, these international locations have less Twitter data compared to other locations e.g., i3 = 2.73M vs. L14 = 16.43M.</p>
+</sec>
+<sec id="sec017">
+<title>Contrasting social media signals with ILI historical data</title>
+<p>Tables <xref ref-type="table" rid="pone.0188941.t004">4</xref>–<xref ref-type="table" rid="pone.0188941.t006">6</xref> further demonstrate that in case no ILI historical data is available tweet and network features extracted from public social media data can be accurate predictors of location-specific ILI dynamics. This is the case for real-time predictions (nowcasting) as well as one and two week forecasts. More specifically, we show that for some locations, e.g., L3, L27, L28, etc., our LSTM models trained exclusively on social media features can produce predictions up to two weeks in advance with comparable or better accuracy to the models trained on ILI historical data. We observed this for 58% of locations for current week predictions, 75% of locations for one week, and 90% of locations for two week forecasts.</p>
+<p>We identified locations with the highest and the lowest performance measured using RMSE, RMSPE, and MAPE metrics. The lowest estimates (the best predictions) were for locations L0, L25, and i2 and the highest estimates—for one international location, i17. Location i17 has the lowest amount of tweets available (0.16M).</p>
+<p>In Figs <xref ref-type="fig" rid="pone.0188941.g007">7</xref> and <xref ref-type="fig" rid="pone.0188941.g008">8</xref> we plot true vs. predicted ILI estimates for 2014 season for 31 locations as a function of time. We plot predicted ILI forecasts one and two weeks in advance obtained using LSTM models leaned from ILI historical data only (ILI), social media data only (SM), and combined ILI and social media data (ILISM). We demonstrate that ILI + SM features outperform ILIOnly and SMOnly features; models for one week forecasts are more accurate than models for two week forecasts (lower RMSE, MAPE and higher correlation).</p>
+<fig id="pone.0188941.g007" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0188941.g007</object-id>
+<label>Fig 7</label>
+<caption>
+<title>True vs. predicted ILI dynamics one week in advance as a function of time in 2014 for 31 geolocations.</title>
+<p>We plot true ILI values (True), one week forecasts obtained using social media features only (SM), ILI historical data (ILI), and combined ILI + SM data (ILISM).</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0188941.g007" xlink:type="simple"/>
+</fig>
+<fig id="pone.0188941.g008" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0188941.g008</object-id>
+<label>Fig 8</label>
+<caption>
+<title>True vs. predicted ILI dynamics two week forecasts as a function of time in 2014 for 31 geolocations.</title>
+<p>We plot true ILI values (True), two week forecasts obtained using social media features only (SM), ILI historical data (ILI), and combined ILI + SM data (ILISM).</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0188941.g008" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec018">
+<title>Correlating model performance and tweet volume across locations</title>
+<p>Figs <xref ref-type="fig" rid="pone.0188941.g009">9</xref> and <xref ref-type="fig" rid="pone.0188941.g010">10</xref> show how model performance measured using Pearson and RMSPE, respectively, varies across geo-locations depending on the number of tweets available per geo-location. We found that for both neural network models trained on either social media data (SMOnly) or both ILI and social media data (ILI + SM) Pearson between true and predicted ILI dynamics increases with the number of tweets increasing per geolocation. Trends are shown using dotted lines. We observe that most of the outlier locations are international (shown as triangles) e.g., Germany, Puerto Rico, Japan. Similarly, we observe that RMSPE decreases with the number of tweets increasing across geolocations. Outlier locations are mostly international except Texas and Georgia.</p>
+<fig id="pone.0188941.g009" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0188941.g009</object-id>
+<label>Fig 9</label>
+<caption>
+<title>Model performance measured as Pearson correlation between true and predicted ILI dynamics as a function of the number of tweets per location.</title>
+<p>Predictions are made for the current week, one and two weeks in advance using SMOnly and ILI + SM models. Outlier locations are marked with labels. Trends are shown as dotted lines. International locations are shown as triangles.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0188941.g009" xlink:type="simple"/>
+</fig>
+<fig id="pone.0188941.g010" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0188941.g010</object-id>
+<label>Fig 10</label>
+<caption>
+<title>Model performance measured as RMSPE as a function of the number of tweets per location.</title>
+<p>Predictions are made for the current week, one and two weeks in advance using SMOnly and ILI + SM models. Outlier locations are shown with labels. Trends are shown as dotted lines.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0188941.g010" xlink:type="simple"/>
+</fig>
+</sec>
+</sec>
+</sec>
+<sec id="sec019" sec-type="conclusions">
+<title>Discussion</title>
+<p>Social media disease surveillance has shown significant promise, however, its potential has not been fully evaluated. This work is the first to evaluate the predictive power of previously unexplored signals extracted from social media and use neural network models to forecast location-specific ILI dynamics across multiple geolocations. Unlike earlier work, we contrasted neural network model performance with previously used machine learning approaches, and showed that LSTM models outperform previously used machine learning approaches (SVM, ADABoost). We showed that our models can produce accurate and robust estimates of ILI dynamics up to several weeks in advance.</p>
+<p>We also compared the predictive power of location-specific vs. location-independent models, and qualitatively evaluated the value of social media for forecasting ILI activity up to several weeks in advance. We demonstrated that neural network models learned exclusively from social media signals yield comparable or better performance to the models learned from ILI historical data. This suggests that social media signals allow us to track people showing symptoms of influenza (not necessarily confirmed influenza). Thus, social media sources can potentially be used to forecast ILI dynamics for the regions where ILI historical data is not available.</p>
+<p>Moreover, neural network models learned from combined ILI and social media signals significantly outperform models that rely solely on ILI historical data, which adds to a great potential trove of alternative public sources for ILI dynamics prediction.</p>
+<sec id="sec020">
+<title>Modeling influenza awareness vs. infection in social media</title>
+<p>Previous work on influenza surveillance that relied on social media sources developed Twitter infection vs. awareness classifiers [<xref ref-type="bibr" rid="pone.0188941.ref006">6</xref>, <xref ref-type="bibr" rid="pone.0188941.ref007">7</xref>] and filtered flu-related tweets with hand-engineered features [<xref ref-type="bibr" rid="pone.0188941.ref032">32</xref>] to forecast ILI activity [<xref ref-type="bibr" rid="pone.0188941.ref008">8</xref>]. Unlike earlier work, in this study we relied on all tweets produced by the military population in specific geolocations to go beyond influenza-related keywords and tweets, and capture other linguistic predictors e.g., tweets about weather, personal well-being, and travel.</p>
+</sec>
+<sec id="sec021">
+<title>National vs. local influenza surveillance for targeted populations</title>
+<p>The majority of work on ILI surveillance focused on general population in the U.S. and used CDC ILINet as gold standard data [<xref ref-type="bibr" rid="pone.0188941.ref008">8</xref>, <xref ref-type="bibr" rid="pone.0188941.ref010">10</xref>, <xref ref-type="bibr" rid="pone.0188941.ref011">11</xref>, <xref ref-type="bibr" rid="pone.0188941.ref032">32</xref>]. Only limited work developed approaches for local e.g., city-level ILI surveillance [<xref ref-type="bibr" rid="pone.0188941.ref006">6</xref>] and studied ILI dynamics for targeted populations e.g., military populations [<xref ref-type="bibr" rid="pone.0188941.ref033">33</xref>].</p>
+<p>Recent work by [<xref ref-type="bibr" rid="pone.0188941.ref034">34</xref>] studied the predictive power of emotions and opinions extracted from user tweets on ILI dynamics. Author relied on social media data to understand the correlation between psychological behavior and health in the military population and the potential for use of social media affects—opinions and emotions extracted from user tweets for prediction of ILI dynamics.</p>
+</sec>
+</sec>
+<sec id="sec022">
+<title>Conclusions and future work</title>
+<p>We presented an approach that uses neural network models and a combination of ILI historical data and social media data to produce more accurate and robust forecasts of location-specific ILI dynamics for targeted populations. We tested our models on a variety of social media signals to predict weekly ILI estimates across 26 U.S. and 5 international geolocations. Our models are capable of predicting weekly ILI dynamics (nowcasting) and forecasting ILI estimates up to several weeks in advance, which can help to overcome a known two week lag-time of CDC reports. Finally, we evaluated the generalizability of predictive models by contrasting model performance across many geo-locations, and analyzed how the predictive power of the model depends on the volume of tweets across locations.</p>
+<p>Future work will include exploring image content posted in social media in combination with text and other predictors to forecast ILI dynamics. We are also interested in exploring the predictive power of neural network models and social media signals to model other infectious disease dynamics e.g., ebola, E. coli.</p>
+</sec>
+</body>
+<back>
+<ack>
+<p>This research was supported by a contract from the Defense Threat Reduction Agency to the Pacific Northwest National Laboratory under contract CB10082, and supported in part by the Deep Learning for Scientific Discovery Initiative at the Pacific Northwest National Laboratory.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0188941.ref001">
+<label>1</label>
+<mixed-citation publication-type="other" xlink:type="simple">(Seasonal) WI. Fact Sheet Number 211; 2015. <comment>Available from: <ext-link ext-link-type="uri" xlink:href="http://www.who.int/mediacentre/factsheets/fs211/en/" xlink:type="simple">http://www.who.int/mediacentre/factsheets/fs211/en/</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0188941.ref002">
+<label>2</label>
+<mixed-citation publication-type="other" xlink:type="simple">Eysenbach G. Infodemiology: tracking flu-related searches on the web for syndromic surveillance. In: AMIA Annual Symposium Proceedings. vol. 2006. American Medical Informatics Association; 2006. p. 244.</mixed-citation>
+</ref>
+<ref id="pone.0188941.ref003">
+<label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Generous</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Fairchild</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Deshpande</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Del Valle</surname> <given-names>SY</given-names></name>, <name name-style="western"><surname>Priedhorsky</surname> <given-names>R</given-names></name>. <article-title>Global disease monitoring and forecasting with Wikipedia</article-title>. <source>PLoS Comput Biol</source>. <year>2014</year>;<volume>10</volume>(<issue>11</issue>):<fpage>e1003892</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pcbi.1003892" xlink:type="simple">10.1371/journal.pcbi.1003892</ext-link></comment> <object-id pub-id-type="pmid">25392913</object-id></mixed-citation>
+</ref>
+<ref id="pone.0188941.ref004">
+<label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>McIver</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Brownstein</surname> <given-names>JS</given-names></name>. <article-title>Wikipedia usage estimates prevalence of influenza-like illness in the United States in near real-time</article-title>. <source>PLoS Comput Biol</source>. <year>2014</year>;<volume>10</volume>(<issue>4</issue>):<fpage>e1003581</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pcbi.1003581" xlink:type="simple">10.1371/journal.pcbi.1003581</ext-link></comment> <object-id pub-id-type="pmid">24743682</object-id></mixed-citation>
+</ref>
+<ref id="pone.0188941.ref005">
+<label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Corley</surname> <given-names>CD</given-names></name>, <name name-style="western"><surname>Cook</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Mikler</surname> <given-names>AR</given-names></name>, <name name-style="western"><surname>Singh</surname> <given-names>KP</given-names></name>. <article-title>Text and structural data mining of influenza mentions in web and social media</article-title>. <source>International journal of environmental research and public health</source>. <year>2010</year>;<volume>7</volume>(<issue>2</issue>):<fpage>596</fpage>–<lpage>615</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/ijerph7020596" xlink:type="simple">10.3390/ijerph7020596</ext-link></comment> <object-id pub-id-type="pmid">20616993</object-id></mixed-citation>
+</ref>
+<ref id="pone.0188941.ref006">
+<label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Broniatowski</surname> <given-names>DA</given-names></name>, <name name-style="western"><surname>Paul</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Dredze</surname> <given-names>M</given-names></name>. <article-title>National and local influenza surveillance through Twitter: an analysis of the 2012-2013 influenza epidemic</article-title>. <source>PloS one</source>. <year>2013</year>;<volume>8</volume>(<issue>12</issue>):<fpage>e83672</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0083672" xlink:type="simple">10.1371/journal.pone.0083672</ext-link></comment> <object-id pub-id-type="pmid">24349542</object-id></mixed-citation>
+</ref>
+<ref id="pone.0188941.ref007">
+<label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Paul</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Dredze</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Broniatowski</surname> <given-names>D</given-names></name>. <article-title>Twitter improves influenza forecasting</article-title>. <source>PLOS Currents Outbreaks</source>. <year>2014</year>;. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/currents.outbreaks.90b9ed0f59bae4ccaa683a39865d9117" xlink:type="simple">10.1371/currents.outbreaks.90b9ed0f59bae4ccaa683a39865d9117</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0188941.ref008">
+<label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Santillana</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Nguyen</surname> <given-names>AT</given-names></name>, <name name-style="western"><surname>Dredze</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Paul</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Nsoesie</surname> <given-names>EO</given-names></name>, <name name-style="western"><surname>Brownstein</surname> <given-names>JS</given-names></name>. <article-title>Combining search, social media, and traditional data sources to improve influenza surveillance</article-title>. <source>PLoS Comput Biology</source>. <year>2015</year>;<volume>11</volume>(<issue>10</issue>):<fpage>e1004513</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pcbi.1004513" xlink:type="simple">10.1371/journal.pcbi.1004513</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0188941.ref009">
+<label>9</label>
+<mixed-citation publication-type="book" xlink:type="simple">
+<name name-style="western"><surname>Paul</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Sarker</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Brownstein</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Nikfarjam</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Scotch</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>KL</given-names></name>, <etal>et al</etal>. <chapter-title>Social Media Mining for Public Health Monitoring and Surveillance</chapter-title>. In: <source>Pacific Symposium on Biocomputing</source>. vol. <volume>21</volume>; <year>2016</year>. p. <fpage>468</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0188941.ref010">
+<label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Velasco</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Agheneza</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Denecke</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Kirchner</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Eckmanns</surname> <given-names>T</given-names></name>. <article-title>Social Media and Internet-Based Data in Global Systems for Public Health Surveillance: A Systematic Review</article-title>. <source>Milbank Quarterly</source>. <year>2014</year>;<volume>92</volume>(<issue>1</issue>):<fpage>7</fpage>–<lpage>33</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/1468-0009.12038" xlink:type="simple">10.1111/1468-0009.12038</ext-link></comment> <object-id pub-id-type="pmid">24597553</object-id></mixed-citation>
+</ref>
+<ref id="pone.0188941.ref011">
+<label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Charles-Smith</surname> <given-names>LE</given-names></name>, <name name-style="western"><surname>Reynolds</surname> <given-names>TL</given-names></name>, <name name-style="western"><surname>Cameron</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Conway</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Lau</surname> <given-names>EH</given-names></name>, <name name-style="western"><surname>Olsen</surname> <given-names>JM</given-names></name>, <etal>et al</etal>. <article-title>Using social media for actionable disease surveillance and outbreak management: A systematic literature review</article-title>. <source>PloS one</source>. <year>2015</year>;<volume>10</volume>(<issue>10</issue>):<fpage>e0139701</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0139701" xlink:type="simple">10.1371/journal.pone.0139701</ext-link></comment> <object-id pub-id-type="pmid">26437454</object-id></mixed-citation>
+</ref>
+<ref id="pone.0188941.ref012">
+<label>12</label>
+<mixed-citation publication-type="other" xlink:type="simple">Smith MC, Broniatowski DA, Paul MJ, Dredze M. Towards Real-Time Measurement of Public Epidemic Awareness: Monitoring Influenza Awareness through Twitter; 2015.</mixed-citation>
+</ref>
+<ref id="pone.0188941.ref013">
+<label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Hochreiter</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Schmidhuber</surname> <given-names>J</given-names></name>. <article-title>Long short-term memory</article-title>. <source>Neural computation</source>. <year>1997</year>;<volume>9</volume>(<issue>8</issue>):<fpage>1735</fpage>–<lpage>1780</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1162/neco.1997.9.8.1735" xlink:type="simple">10.1162/neco.1997.9.8.1735</ext-link></comment> <object-id pub-id-type="pmid">9377276</object-id></mixed-citation>
+</ref>
+<ref id="pone.0188941.ref014">
+<label>14</label>
+<mixed-citation publication-type="other" xlink:type="simple">Diaz-Aviles E, Stewart A. Tracking twitter for epidemic intelligence: case study: Ehec/hus outbreak in Germany, 2011. In: Proceedings of the 4th Annual ACM Web Science Conference. ACM; 2012. p. 82–85.</mixed-citation>
+</ref>
+<ref id="pone.0188941.ref015">
+<label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Feldmann</surname> <given-names>H</given-names></name>. <article-title>Ebola—a growing threat?</article-title> <source>New England Journal of Medicine</source>. <year>2014</year>;<volume>371</volume>(<issue>15</issue>):<fpage>1375</fpage>–<lpage>1378</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMp1405314" xlink:type="simple">10.1056/NEJMp1405314</ext-link></comment> <object-id pub-id-type="pmid">24805988</object-id></mixed-citation>
+</ref>
+<ref id="pone.0188941.ref016">
+<label>16</label>
+<mixed-citation publication-type="other" xlink:type="simple">Odlum M. How Twitter can support early warning systems in ebola outbreak surveillance. In: 2015 APHA Annual Meeting &amp; Expo (Oct. 31-Nov. 4, 2015). APHA; 2015.</mixed-citation>
+</ref>
+<ref id="pone.0188941.ref017">
+<label>17</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Chunara</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Andrews</surname> <given-names>JR</given-names></name>, <name name-style="western"><surname>Brownstein</surname> <given-names>JS</given-names></name>. <article-title>Social and news media enable estimation of epidemiological patterns early in the 2010 Haitian cholera outbreak</article-title>. <source>The American journal of tropical medicine and hygiene</source>. <year>2012</year>;<volume>86</volume>(<issue>1</issue>):<fpage>39</fpage>–<lpage>45</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4269/ajtmh.2012.11-0597" xlink:type="simple">10.4269/ajtmh.2012.11-0597</ext-link></comment> <object-id pub-id-type="pmid">22232449</object-id></mixed-citation>
+</ref>
+<ref id="pone.0188941.ref018">
+<label>18</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Althouse</surname> <given-names>BM</given-names></name>, <name name-style="western"><surname>Scarpino</surname> <given-names>SV</given-names></name>, <name name-style="western"><surname>Meyers</surname> <given-names>LA</given-names></name>, <name name-style="western"><surname>Ayers</surname> <given-names>JW</given-names></name>, <name name-style="western"><surname>Bargsten</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Baumbach</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Enhancing disease surveillance with novel data streams: challenges and opportunities</article-title>. <source>EPJ Data Science</source>. <year>2015</year>;<volume>4</volume>(<issue>1</issue>):<fpage>1</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1140/epjds/s13688-015-0054-0" xlink:type="simple">10.1140/epjds/s13688-015-0054-0</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0188941.ref019">
+<label>19</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Nsoesie</surname> <given-names>EO</given-names></name>, <name name-style="western"><surname>Buckeridge</surname> <given-names>DL</given-names></name>, <name name-style="western"><surname>Brownstein</surname> <given-names>JS</given-names></name>. <article-title>Guess who’s not coming to dinner? Evaluating online restaurant reservations for disease surveillance</article-title>. <source>Journal of medical Internet research</source>. <year>2014</year>;<volume>16</volume>(<issue>1</issue>):<fpage>e22</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2196/jmir.2998" xlink:type="simple">10.2196/jmir.2998</ext-link></comment> <object-id pub-id-type="pmid">24451921</object-id></mixed-citation>
+</ref>
+<ref id="pone.0188941.ref020">
+<label>20</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Freifeld</surname> <given-names>CC</given-names></name>, <name name-style="western"><surname>Mandl</surname> <given-names>KD</given-names></name>, <name name-style="western"><surname>Reis</surname> <given-names>BY</given-names></name>, <name name-style="western"><surname>Brownstein</surname> <given-names>JS</given-names></name>. <article-title>HealthMap: global infectious disease monitoring through automated classification and visualization of Internet media reports</article-title>. <source>Journal of the American Medical Informatics Association</source>. <year>2008</year>;<volume>15</volume>(<issue>2</issue>):<fpage>150</fpage>–<lpage>157</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1197/jamia.M2544" xlink:type="simple">10.1197/jamia.M2544</ext-link></comment> <object-id pub-id-type="pmid">18096908</object-id></mixed-citation>
+</ref>
+<ref id="pone.0188941.ref021">
+<label>21</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Das</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Metzger</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Heffernan</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Balter</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Weiss</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Mostashari</surname> <given-names>F</given-names></name>, <etal>et al</etal>. <article-title>Monitoring over-the-counter medication sales for early detection of disease outbreaks—New York City</article-title>. <source>MMWR Morb Mortal Wkly Rep</source>. <year>2005</year>;<volume>54</volume>(<issue>Suppl</issue>):<fpage>41</fpage>–<lpage>46</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0188941.ref022">
+<label>22</label>
+<mixed-citation publication-type="other" xlink:type="simple">Brownstein JS, Mandl KD. Reengineering real time outbreak detection systems for influenza epidemic monitoring. In: AMIA Annual Symposium Proceedings. vol. 2006. American Medical Informatics Association; 2006. p. 866.</mixed-citation>
+</ref>
+<ref id="pone.0188941.ref023">
+<label>23</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Olson</surname> <given-names>DR</given-names></name>, <name name-style="western"><surname>Heffernan</surname> <given-names>RT</given-names></name>, <name name-style="western"><surname>Paladini</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Konty</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Weiss</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Mostashari</surname> <given-names>F</given-names></name>. <article-title>Monitoring the impact of influenza by age: emergency department fever and respiratory complaint surveillance in New York City</article-title>. <source>PLoS Med</source>. <year>2007</year>;<volume>4</volume>(<issue>8</issue>):<fpage>e247</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pmed.0040247" xlink:type="simple">10.1371/journal.pmed.0040247</ext-link></comment> <object-id pub-id-type="pmid">17683196</object-id></mixed-citation>
+</ref>
+<ref id="pone.0188941.ref024">
+<label>24</label>
+<mixed-citation publication-type="other" xlink:type="simple">Coppersmith G, Harman C, Dredze M. Measuring Post Traumatic Stress Disorder in Twitter. In: Proceedings of ICWSM; 2014.</mixed-citation>
+</ref>
+<ref id="pone.0188941.ref025">
+<label>25</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Hochreiter</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Schmidhuber</surname> <given-names>J</given-names></name>. <article-title>Long short-term memory</article-title>. <source>Neural computation</source>. <year>1997</year>;<volume>9</volume>(<issue>8</issue>):<fpage>1735</fpage>–<lpage>1780</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1162/neco.1997.9.8.1735" xlink:type="simple">10.1162/neco.1997.9.8.1735</ext-link></comment> <object-id pub-id-type="pmid">9377276</object-id></mixed-citation>
+</ref>
+<ref id="pone.0188941.ref026">
+<label>26</label>
+<mixed-citation publication-type="other" xlink:type="simple">Mikolov T, Chen K, Corrado G, Dean J. Efficient estimation of word representations in vector space. arXiv preprint arXiv:13013781. 2013;.</mixed-citation>
+</ref>
+<ref id="pone.0188941.ref027">
+<label>27</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Blei</surname> <given-names>DM</given-names></name>, <name name-style="western"><surname>Ng</surname> <given-names>AY</given-names></name>, <name name-style="western"><surname>Jordan</surname> <given-names>MI</given-names></name>. <article-title>Latent dirichlet allocation</article-title>. <source>The Journal of Machine Learning Research</source>. <year>2003</year>;<volume>3</volume>:<fpage>993</fpage>–<lpage>1022</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0188941.ref028">
+<label>28</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Deng</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Yu</surname> <given-names>D</given-names></name>, <etal>et al</etal>. <article-title>Deep learning: methods and applications</article-title>. <source>Foundations and Trends<sup>®</sup> in Signal Processing</source>. <year>2014</year>;<volume>7</volume>(<issue>3-4</issue>):<fpage>197</fpage>–<lpage>387</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1561/2000000039" xlink:type="simple">10.1561/2000000039</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0188941.ref029">
+<label>29</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Manning</surname> <given-names>CD</given-names></name>, <name name-style="western"><surname>Raghavan</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Schütze</surname> <given-names>H</given-names></name>. <article-title>Scoring, term weighting and the vector space model</article-title>. <source>Introduction to Information Retrieval</source>. <year>2008</year>;<volume>100</volume>:<fpage>2</fpage>–<lpage>4</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0188941.ref030">
+<label>30</label>
+<mixed-citation publication-type="other" xlink:type="simple">Volkova S, Bell E. Account Deletion Prediction on RuNet: A Case Study of Suspicious Twitter Accounts Active During the Russian-Ukrainian Crisis. In: Proceedings of the NAACL Workshop on Computational Approaches to Deception Detection; 2016.</mixed-citation>
+</ref>
+<ref id="pone.0188941.ref031">
+<label>31</label>
+<mixed-citation publication-type="other" xlink:type="simple">Řehůřek R, Sojka P. Software Framework for Topic Modeling with Large Corpora. In: Proceedings of the LREC 2010 Workshop on New Challenges for NLP Frameworks; 2010. p. 45–50.</mixed-citation>
+</ref>
+<ref id="pone.0188941.ref032">
+<label>32</label>
+<mixed-citation publication-type="other" xlink:type="simple">Lamb A, Paul MJ, Dredze M. Separating Fact from Fear: Tracking Flu Infections on Twitter. In: Proceedings of HLT-NAACL; 2013. p. 789–795.</mixed-citation>
+</ref>
+<ref id="pone.0188941.ref033">
+<label>33</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Riley</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Ben-Nun</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Armenta</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Linker</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Eick</surname> <given-names>AA</given-names></name>, <name name-style="western"><surname>Sanchez</surname> <given-names>JL</given-names></name>, <etal>et al</etal>. <article-title>Multiple estimates of transmissibility for the 2009 influenza pandemic based on influenza-like-illness data from small US military populations</article-title>. <source>PLoS Comput Biol</source>. <year>2013</year>;<volume>9</volume>(<issue>5</issue>):<fpage>e1003064</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pcbi.1003064" xlink:type="simple">10.1371/journal.pcbi.1003064</ext-link></comment> <object-id pub-id-type="pmid">23696723</object-id></mixed-citation>
+</ref>
+<ref id="pone.0188941.ref034">
+<label>34</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Volkova</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Charles</surname> <given-names>LE</given-names></name>, <name name-style="western"><surname>Harrison</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Corley</surname> <given-names>CD</given-names></name>. <article-title>Uncovering the relationships between military community health and affects expressed in social media</article-title>. <source>EPJ Data Science</source>. <year>2017</year>;<volume>6</volume>(<issue>1</issue>):<fpage>9</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1140/epjds/s13688-017-0102-z" xlink:type="simple">10.1140/epjds/s13688-017-0102-z</ext-link></comment></mixed-citation>
+</ref>
+</ref-list>
+</back>
+</article>

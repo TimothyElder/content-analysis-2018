@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1d3" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS Genet</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosgen</journal-id>
+<journal-title-group>
+<journal-title>PLOS Genetics</journal-title>
+</journal-title-group>
+<issn pub-type="ppub">1553-7390</issn>
+<issn pub-type="epub">1553-7404</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pgen.1006119</article-id>
+<article-id pub-id-type="publisher-id">PGENETICS-D-15-02991</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Cellular types</subject><subj-group><subject>Animal cells</subject><subj-group><subject>Blood cells</subject><subj-group><subject>Red blood cells</subject><subj-group><subject>Erythrocyte membrane</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>Genetic loci</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Lipids</subject><subj-group><subject>Fatty acids</subject><subj-group><subject>Oleic acid</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Lipids</subject><subj-group><subject>Fatty acids</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Population groupings</subject><subj-group><subject>Ethnicities</subject><subj-group><subject>Inuit people</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Lipids</subject><subj-group><subject>Fatty acids</subject><subj-group><subject>Linoleic acid</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Endocrinology</subject><subj-group><subject>Endocrine physiology</subject><subj-group><subject>Insulin resistance</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Endocrine physiology</subject><subj-group><subject>Insulin resistance</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Endocrine physiology</subject><subj-group><subject>Insulin resistance</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Cellular structures and organelles</subject><subj-group><subject>Cell membranes</subject><subj-group><subject>Membrane metabolism</subject></subj-group></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Identification of Novel Genetic Determinants of Erythrocyte Membrane Fatty Acid Composition among Greenlanders</article-title>
+<alt-title alt-title-type="running-head">Genetics of Fatty-Acid Composition in Greenlanders</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Andersen</surname>
+<given-names>Mette Korre</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-0593-7906</contrib-id>
+<name name-style="western">
+<surname>Jørsboe</surname>
+<given-names>Emil</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Sandholt</surname>
+<given-names>Camilla Helene</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Grarup</surname>
+<given-names>Niels</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Jørgensen</surname>
+<given-names>Marit Eika</given-names>
+</name>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Færgeman</surname>
+<given-names>Nils Joakim</given-names>
+</name>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Bjerregaard</surname>
+<given-names>Peter</given-names>
+</name>
+<xref ref-type="aff" rid="aff005"><sup>5</sup></xref>
+<xref ref-type="aff" rid="aff006"><sup>6</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Pedersen</surname>
+<given-names>Oluf</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Moltke</surname>
+<given-names>Ida</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Hansen</surname>
+<given-names>Torben</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff007"><sup>7</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Albrechtsen</surname>
+<given-names>Anders</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Section for Metabolic Genetics, The Novo Nordisk Foundation Center for Basic Metabolic Research, Faculty of Health and Medical Sciences, University of Copenhagen, Copenhagen, Denmark</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>The Bioinformatics Centre, Department of Biology, University of Copenhagen, Copenhagen, Denmark</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Steno Diabetes Center, Gentofte, Denmark</addr-line></aff>
+<aff id="aff004"><label>4</label> <addr-line>Villum Center for Bioanalytical Sciences, Department of Biochemistry and Molecular Biology, University of Southern Denmark, Odense, Denmark</addr-line></aff>
+<aff id="aff005"><label>5</label> <addr-line>National Institute of Public Health, University of Southern Denmark, Copenhagen, Denmark</addr-line></aff>
+<aff id="aff006"><label>6</label> <addr-line>Greenland Centre for Health Research, University of Greenland, Nuuk, Greenland</addr-line></aff>
+<aff id="aff007"><label>7</label> <addr-line>Faculty of Health Sciences, University of Southern Denmark, Odense, Denmark</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Zeggini</surname>
+<given-names>Eleftheria</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Wellcome Trust Sanger Institute, UNITED KINGDOM</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="con" id="contrib001">
+<p>Conceived and designed the experiments: IM TH AA. Analyzed the data: MKA EJ IM AA. Contributed reagents/materials/analysis tools: MEJ PB. Wrote the paper: MKA EJ CHS NG MEJ NJF PB OP IM TH AA.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">ida@binf.ku.dk</email> (IM); <email xlink:type="simple">torben.hansen@sund.ku.dk</email> (TH); <email xlink:type="simple">albrecht@binf.ku.dk</email> (AA)</corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>24</day>
+<month>6</month>
+<year>2016</year>
+</pub-date>
+<pub-date pub-type="collection">
+<month>6</month>
+<year>2016</year>
+</pub-date>
+<volume>12</volume>
+<issue>6</issue>
+<elocation-id>e1006119</elocation-id>
+<history>
+<date date-type="received">
+<day>19</day>
+<month>1</month>
+<year>2016</year>
+</date>
+<date date-type="accepted">
+<day>20</day>
+<month>5</month>
+<year>2016</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2016</copyright-year>
+<copyright-holder>Andersen et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pgen.1006119"/>
+<abstract>
+<p>Fatty acids (FAs) are involved in cellular processes important for normal body function, and perturbation of FA balance has been linked to metabolic disturbances, including type 2 diabetes. An individual’s level of FAs is affected by diet, lifestyle, and genetic variation. We aimed to improve the understanding of the mechanisms and pathways involved in regulation of FA tissue levels, by identifying genetic loci associated with inter-individual differences in erythrocyte membrane FA levels. We assessed the levels of 22 FAs in the phospholipid fraction of erythrocyte membranes from 2,626 Greenlanders in relation to single nucleotide polymorphisms genotyped on the MetaboChip or imputed. We identified six independent association signals. Novel loci were identified on chromosomes 5 and 11 showing strongest association with oleic acid (rs76430747 in <italic>ACSL6</italic>, beta (SE): -0.386% (0.034), p = 1.8x10<sup>-28</sup>) and docosahexaenoic acid (rs6035106 in <italic>DTD1</italic>, 0.137% (0.025), p = 6.4x10<sup>-8</sup>), respectively. For a missense variant (rs80356779) in <italic>CPT1A</italic>, we identified a number of novel FA associations, the strongest with 11-eicosenoic acid (0.473% (0.035), p = 2.6x10<sup>-38</sup>), and for variants in <italic>FADS2</italic> (rs174570), <italic>LPCAT3</italic> (rs2110073), and <italic>CERS4</italic> (rs11881630) we replicated known FA associations. Moreover, we observed metabolic implications of the <italic>ACSL6</italic> (rs76430747) and <italic>CPT1A</italic> (rs80356779) variants, which both were associated with altered HbA1c (0.051% (0.013), p = 5.6x10<sup>-6</sup> and -0.034% (0.016), p = 3.1x10<sup>-4</sup>, respectively). The latter variant was also associated with reduced insulin resistance (HOMA-IR, -0.193 (0.050), p = 3.8x10<sup>-6</sup>), as well as measures of smaller body size, including weight (-2.676 kg (0.523), p = 2.4x10<sup>-7</sup>), lean mass (-1.200 kg (0.271), p = 1.7x10<sup>-6</sup>), height (-0.966 cm (0.230), p = 2.0x10<sup>-5</sup>), and BMI (-0.638 kg/m<sup>2</sup> (0.181), p = 2.8x10<sup>-4</sup>). In conclusion, we have identified novel genetic determinants of FA composition in phospholipids in erythrocyte membranes, and have shown examples of links between genetic variants associated with altered FA membrane levels and changes in metabolic traits.</p>
+</abstract>
+<abstract abstract-type="summary">
+<title>Author Summary</title>
+<p>Disruption of fatty-acid balance has in several previous studies been linked to human health conditions, including the metabolic syndrome, type 2 diabetes, and insulin resistance. Composition of fatty acids in lipid membranes is influenced, not only by diet and lifestyle, but also by genetic variation. By identifying genes linked to changes in the level of specific fatty acids, it may be possible to identify biological mechanisms and pathways central to regulation of fatty-acid composition in lipid membranes. We therefore aimed at finding such genes by studying Greenlanders. We identified six genomic regions harboring variants, which were associated with the level of at least one of 22 assessed erythrocyte membrane fatty acids, including two novel regions not previously linked to fatty acid levels. Moreover, we showed that two of the identified variants were associated with altered levels of glycosylated hemoglobin, and one of these variants was associated with reduced insulin resistance and decreased measures of body size. These results contribute to our understanding of fatty acid metabolism, and support a link between fatty acid balance and metabolic health.</p>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution>The Danish Diabetes Academy supported by the Novo Nordisk Foundation.</institution>
+</funding-source>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Andersen</surname>
+<given-names>Mette Korre</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>The Novo Nordisk Foundation Center for Basic Metabolic Research is an independent research center at the University of Copenhagen and is partly funded by an unrestricted donation from the Novo Nordisk Foundation. This work was supported by a research grant from the Danish Diabetes Academy supported by the Novo Nordisk Foundation. The B99 and IHIT studies were supported by Karen Elise Jensen’s Foundation, NunaFonden, the Medical Research Council of Denmark, the Medical Research Council of Greenland and the Commission for Scientific Research in Greenland. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="4"/>
+<table-count count="4"/>
+<page-count count="19"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>The Authors do not have the authority to grant permission to use the data. Permission should be obtained from the Greenlandic ethical authorities who has a board set up for this purpose. Data from this project is available to researchers who have received ethics approval from the Greenland Research Ethics Committee (<email xlink:type="simple">nun@nanoq.gl</email>) and can be obtained by contacting Torben Hansen (<email xlink:type="simple">torben.hansen@sund.ku.dk</email>).</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Fatty acids (FAs) are important for normal body function, as they serve as essential structural entities of cellular membranes, as energy sources, and as signaling molecules. Perturbation of FA homeostasis may modulate membrane functions, cell signaling, and gene expression, and regulation of FA metabolism is, thus, critically important. Accordingly, variation in FA levels, measured in serum, plasma, erythrocyte membranes, or as dietary intake, has been linked to a range of cardiovascular [<xref ref-type="bibr" rid="pgen.1006119.ref001">1</xref>–<xref ref-type="bibr" rid="pgen.1006119.ref006">6</xref>] and metabolic risk factors, including the metabolic syndrome, dyslipidemia, type 2 diabetes, insulin resistance, and inflammation [<xref ref-type="bibr" rid="pgen.1006119.ref007">7</xref>–<xref ref-type="bibr" rid="pgen.1006119.ref010">10</xref>]. Moreover, significant correlation between erythrocyte membrane FAs and serum lipid levels has been observed [<xref ref-type="bibr" rid="pgen.1006119.ref011">11</xref>–<xref ref-type="bibr" rid="pgen.1006119.ref013">13</xref>], and this correlation has been suggested to be the link between erythrocyte membrane FA composition and metabolic diseases [<xref ref-type="bibr" rid="pgen.1006119.ref013">13</xref>].</p>
+<p>FAs are obtained from diet or synthesized endogenously from carbohydrate or protein sources by series of elongation and desaturation steps. ω-3 alpha-linolenic acid (18:3) and ω-6 linoleic acid (<italic>cis-cis-</italic>18:2) are essential FAs, which can only be obtained from diet and subsequently elongated and desaturated to form other ω-3 and ω-6 FAs. The levels of FAs in an individual are influenced by diet and lifestyle [<xref ref-type="bibr" rid="pgen.1006119.ref014">14</xref>,<xref ref-type="bibr" rid="pgen.1006119.ref015">15</xref>], but also have a clear hereditary component, which is estimated to account for 32–70% of FA variation [<xref ref-type="bibr" rid="pgen.1006119.ref016">16</xref>,<xref ref-type="bibr" rid="pgen.1006119.ref017">17</xref>]. The metabolic pathways regulating the circulating concentrations and membrane content of individual FAs, as well as the specific mechanisms linking FA levels to disease states are, however, poorly understood. We hypothesize, that improved understanding of these pathways and mechanisms can be achieved by identifying genetic loci associated with inter-individual differences in FA levels in erythrocyte membranes.</p>
+<p>For genetic studies, the Greenlandic population is an important and powerful resource. This population has emerged from a historically small and isolated Inuit population, which has not until very recently admixed with Europeans [<xref ref-type="bibr" rid="pgen.1006119.ref018">18</xref>]. Therefore, compared to European populations, the Greenlandic population has extended linkage disequilibrium (LD) and increased probability for presence of high frequency harmful variants due to genetic drift. These properties are advantageous in genetic studies, as they increase the statistical power to detect association signals. This was recently illustrated, when a novel type 2 diabetes associated variant, with an unusually high odds ratio of 10.3, was identified in a relatively small sample of Greenlanders [<xref ref-type="bibr" rid="pgen.1006119.ref019">19</xref>]. The Greenlandic population also differs markedly from European populations with respect to diet. The traditional diet of the Greenlanders is rich in polyunsaturated ω-3 FAs derived mainly from marine mammals and fish [<xref ref-type="bibr" rid="pgen.1006119.ref020">20</xref>], and has recently been shown to have had a large impact on genetic makeup through adaptive selection in Inuit [<xref ref-type="bibr" rid="pgen.1006119.ref021">21</xref>].</p>
+<p>In the present study, we aimed to identify novel genetic loci associated with inter-individual differences in the FA composition in erythrocyte membranes in a large-scale association study in Greenlanders.</p>
+</sec>
+<sec id="sec002" sec-type="results">
+<title>Results</title>
+<p>The erythrocyte membrane FA-association analyses were conducted in 2,626 Greenlanders living in Greenland (57.5% women) from the population-based Greenlandic Inuit Health in Transition (IHIT) cohort. These individuals were on average 44.7 years old and had an average BMI of 26.4 kg/m<sup>2</sup>. We assessed the levels of 22 FAs in the phospholipid fraction of erythrocyte membranes, and analyzing MetaboChip genotyping data, we identified six independent association signals with a p-value under the significance threshold of 4.3x10<sup>-7</sup> (<xref ref-type="supplementary-material" rid="pgen.1006119.s001">S1 Fig</xref>). These six signals, mapped to genomic loci on chromosome 5, 11, 12, 19, and 20 (<xref ref-type="table" rid="pgen.1006119.t001">Table 1</xref>). For each of these regions we assessed imputed data for fine mapping, and assessed secondary FA associations as well as associations with metabolic phenotypes (<xref ref-type="supplementary-material" rid="pgen.1006119.s002">S2 Fig</xref>). In the following, all associations are reported for the derived alleles in chromosomal order, and associations are reported down to the arbitrary p-value cut-off of p&lt;1.0x10<sup>-3</sup>.</p>
+<table-wrap id="pgen.1006119.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pgen.1006119.t001</object-id>
+<label>Table 1</label> <caption><title>Summary of MetaboChip association signals with p-values &lt;4.3x10<sup>-7</sup>.</title></caption>
+<alternatives>
+<graphic id="pgen.1006119.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Chr</th>
+<th align="left">Lead SNP</th>
+<th align="left">In gene</th>
+<th align="left">Derived allele (DAF)</th>
+<th align="left">Fatty acid</th>
+<th align="left">p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">5</td>
+<td align="left">rs251015</td>
+<td align="left"><italic>FNIP1</italic></td>
+<td align="left">C (0.692)</td>
+<td align="left">Oleic acid (18:1 ω-9)</td>
+<td align="left">2.5x10<sup>-17</sup></td>
+</tr>
+<tr>
+<td align="left">11</td>
+<td align="left">rs174570</td>
+<td align="left"><italic>FADS2</italic></td>
+<td align="left">T (0.783)</td>
+<td align="left">Adrenic acid (22:4 ω-6)</td>
+<td align="left">7.3x10<sup>-19</sup></td>
+</tr>
+<tr>
+<td align="left">11</td>
+<td align="left">rs1551304</td>
+<td align="left"><italic>TPCN2</italic></td>
+<td align="left">T (0.180)</td>
+<td align="left">Lignoceric acid (24:0)</td>
+<td align="left">1.6x10<sup>-17</sup></td>
+</tr>
+<tr>
+<td align="left">12</td>
+<td align="left">rs2110073</td>
+<td align="left"><italic>PHB2</italic></td>
+<td align="left">C (0.872)</td>
+<td align="left">Oleic acid (18:1 ω-9)</td>
+<td align="left">1.1x10<sup>-9</sup></td>
+</tr>
+<tr>
+<td align="left">19</td>
+<td align="left">rs2913968</td>
+<td align="left"><italic>RAB11B</italic></td>
+<td align="left">T (0.570)</td>
+<td align="left">Aarachidic acid (20:0)</td>
+<td align="left">2.7x10<sup>-7</sup></td>
+</tr>
+<tr>
+<td align="left">20</td>
+<td align="left">rs6035106</td>
+<td align="left"><italic>DTD1</italic></td>
+<td align="left">C (0.577)</td>
+<td align="left">Docosahexaenoic acid (22:6 ω-3)</td>
+<td align="left">6.4x10<sup>-8</sup></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>Lead SNP refers to the SNP with the lowest p-value in the MetaboChip data.</p></fn>
+<fn id="t001fn002"><p>Chr, chromosome; DAF, derived allele frequency.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>The first association signal mapped to a novel locus on <bold>chromosome 5</bold>. The lead SNP (rs251015) was located in intronic region in <italic>FNIP1</italic>, and the derived allele showed strongest association with higher levels of oleic acid (18:1 ω-9). The imputation data revealed another SNP in the locus, rs76430747, located in an intronic region of <italic>ACSL6</italic>. The derived allele of rs76430747 was associated with lower levels of oleic acid (18:1 ω-9), and higher levels of lignoceric acid (24:0) and 11-eicosenoic acid (20:1 ω-9; <xref ref-type="table" rid="pgen.1006119.t002">Table 2</xref> and <xref ref-type="fig" rid="pgen.1006119.g001">Fig 1</xref>). Conditional analyses showed that rs76430747 may explain the observed association with oleic acid (<xref ref-type="fig" rid="pgen.1006119.g002">Fig 2</xref>), whereas the results for lignoceric acid and 11-eicosenoic acid were less clear (<xref ref-type="supplementary-material" rid="pgen.1006119.s003">S3 Fig</xref>). Interestingly, the derived allele of rs76430747 was, in addition to FA levels, associated with higher HbA1c (<xref ref-type="fig" rid="pgen.1006119.g003">Fig 3</xref> and <xref ref-type="table" rid="pgen.1006119.t003">Table 3</xref>).</p>
+<table-wrap id="pgen.1006119.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pgen.1006119.t002</object-id>
+<label>Table 2</label> <caption><title>Effect sizes for candidate-SNP associations with fatty acids.</title></caption>
+<alternatives>
+<graphic id="pgen.1006119.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.t002" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<tbody>
+<tr>
+<td align="left">Chromosome</td>
+<td align="center">5</td>
+<td align="center">11</td>
+<td align="center">11</td>
+<td align="center">12</td>
+<td align="center">19</td>
+<td align="center">20</td>
+</tr>
+<tr>
+<td align="left">Candidate gene</td>
+<td align="center"><italic>ACSL6</italic></td>
+<td align="center"><italic>FADS2</italic></td>
+<td align="center"><italic>CPT1A</italic></td>
+<td align="center"><italic>LPCAT3</italic></td>
+<td align="center"><italic>CERS4</italic></td>
+<td align="center"><italic>DTD1</italic></td>
+</tr>
+<tr>
+<td align="left">Candidate SNP</td>
+<td align="center">rs76430747</td>
+<td align="center">rs174570</td>
+<td align="center">rs80356779</td>
+<td align="center">rs2110073</td>
+<td align="center">rs11881630</td>
+<td align="center">rs6035106</td>
+</tr>
+<tr>
+<td align="left">Derived allele (DAF)</td>
+<td align="center">T (0.180)</td>
+<td align="center">T (0.783)</td>
+<td align="center">T (0.730)</td>
+<td align="center">C (0.872)</td>
+<td align="center">T (0.200)</td>
+<td align="center">C (0.577)</td>
+</tr>
+<tr>
+<td align="left">ω-3 pathway</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">Eicosapentaenoic acid (20:5)</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center">0.081 (0.021)<xref ref-type="table-fn" rid="t002fn003">*</xref></td>
+</tr>
+<tr>
+<td align="left">Docosapentaenoic acid (22:5)</td>
+<td align="center"/>
+<td align="center">-0.268 (0.046)<xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center">-0.379 (0.042)<xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">0.120 (0.026)<xref ref-type="table-fn" rid="t002fn003">*</xref></td>
+</tr>
+<tr>
+<td align="left">Docosahexaenoic acid (22:6)</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"><bold>0.137 (0.025)</bold><xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+</tr>
+<tr>
+<td align="left">ω-6 pathway</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">Linoleic acid (<italic>cis-cis</italic>-18:2)</td>
+<td align="center"/>
+<td align="center">0.316 (0.037)<xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center">0.394 (0.034)<xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center">-0.207 (0.034)<xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">Gamma-linolenic acid (18:3)</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">0.036 (0.010)<xref ref-type="table-fn" rid="t002fn003">*</xref></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">Dihomo-gamma-linolenic acid (20:3)</td>
+<td align="center"/>
+<td align="center">0.185 (0.039)<xref ref-type="table-fn" rid="t002fn003">*</xref></td>
+<td align="center">0.332 (0.035)<xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">0.082 (0.023)<xref ref-type="table-fn" rid="t002fn003">*</xref></td>
+</tr>
+<tr>
+<td align="left">Arachidonic acid (20:4)</td>
+<td align="center"/>
+<td align="center">-0.328 (0.045)<xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center">-0.319 (0.040)<xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">0.109 (0.025)<xref ref-type="table-fn" rid="t002fn003">*</xref></td>
+</tr>
+<tr>
+<td align="left">Adrenic acid (22:4)</td>
+<td align="center"/>
+<td align="center"><bold>-0.375 (0.041)</bold><xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center">-0.455 (0.036)<xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">0.083 (0.023)<xref ref-type="table-fn" rid="t002fn003">*</xref></td>
+</tr>
+<tr>
+<td align="left">ω-7 pathway</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">Palmitoleic acid (16:1)</td>
+<td align="center"/>
+<td align="center">0.198 (0.046)<xref ref-type="table-fn" rid="t002fn003">*</xref></td>
+<td align="center">0.206 (0.042)<xref ref-type="table-fn" rid="t002fn003">*</xref></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">ω-9 pathway</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">Oleic acid (18:1)</td>
+<td align="center"><bold>-0.386 (0.034)</bold><xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center">0.322 (0.048)<xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center">0.400 (0.043)<xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center"><bold>0.256 (0.042)</bold><xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center"/>
+<td align="center">-0.098 (0.028)<xref ref-type="table-fn" rid="t002fn003">*</xref></td>
+</tr>
+<tr>
+<td align="left">11-eicosenoic acid (20:1)</td>
+<td align="center">0.132 (0.029)<xref ref-type="table-fn" rid="t002fn003">*</xref></td>
+<td align="center">0.348 (0.039)<xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center"><bold>0.473 (0.035)</bold><xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">Erucic acid (22:1)</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">0.098 (0.017)<xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">Nervonic acid (24:1)</td>
+<td align="center"/>
+<td align="center">-0.150 (0.042)<xref ref-type="table-fn" rid="t002fn003">*</xref></td>
+<td align="center">-0.294 (0.038)<xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">Saturated FAs</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">Palmitic acid (16:0)</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center">-0.116 (0.027)<xref ref-type="table-fn" rid="t002fn003">*</xref></td>
+</tr>
+<tr>
+<td align="left">Stearic acid (18:0)</td>
+<td align="center"/>
+<td align="center">-0.164 (0.048)<xref ref-type="table-fn" rid="t002fn003">*</xref></td>
+<td align="center">-0.228 (0.044)<xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">Arachidic acid (20:0)</td>
+<td align="center"/>
+<td align="center">0.296 (0.047)<xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center">0.408 (0.043)<xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center"/>
+<td align="center"><bold>-0.225 (0.033)</bold><xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left">Behenic acid (22:0)</td>
+<td align="center"/>
+<td align="center">0.331 (0.040)<xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center">0.436 (0.037)<xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center">-0.086 (0.025)<xref ref-type="table-fn" rid="t002fn003">*</xref></td>
+</tr>
+<tr>
+<td align="left">Lignoceric acid (24:0)</td>
+<td align="center">0.178 (0.031)<xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center">-0.230 (0.043)<xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center">-0.410 (0.038)<xref ref-type="table-fn" rid="t002fn004">**</xref></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p>Effect sizes are displayed as beta (standard error), and were estimated by transforming the FA values to a standard normal distribution, except for 18:3 ω-6 and 22:1 ω-9, where transformation was binary.</p></fn>
+<fn id="t002fn002"><p>Candidate SNP refers to the best causal candidate SNP in each locus. The effect size with the lowest p-value for each SNP is marked with bold.</p></fn>
+<fn id="t002fn003"><p>* denotes p&lt;1.0x10<sup>-3</sup></p></fn>
+<fn id="t002fn004"><p>** denotes p&lt;4.3x10<sup>-7</sup>.</p></fn>
+<fn id="t002fn005"><p>DAF, derived allele frequency.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<fig id="pgen.1006119.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pgen.1006119.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Overview of FA-synthesis pathways and candidate-SNP associations.</title>
+<p>Effects of candidate SNPs from the six identified erythrocyte membrane FA-associated loci are shown for each of the 22 assessed FAs. <italic>ACSL6</italic>, rs76430747; <italic>FADS2</italic>, rs174570; <italic>CPT1A</italic>, rs80356779; <italic>LPCAT3</italic>, rs2110073; <italic>CERS4</italic>, rs11881630; <italic>DTD1</italic>, rs6035106.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.g001" xlink:type="simple"/>
+</fig>
+<fig id="pgen.1006119.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pgen.1006119.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Association and conditional plot of the <italic>ACSL6</italic> locus with erythrocyte membrane oleic acid (18:1 ω-9).</title>
+<p>The association results of the unconditional analysis are colored according to the LD, which is calculated for the candidate SNP in the region, rs76430747. Green dots represent the results of the conditional analysis, and the circle denotes the SNP conditioned on (rs76430747). The p-values are based on imputation data.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.g002" xlink:type="simple"/>
+</fig>
+<fig id="pgen.1006119.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pgen.1006119.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>HbA1c association for <italic>ACSL6</italic> (rs76430747) and <italic>CPT1A</italic> (rs80356779).</title>
+<p>Data are shown as raw means stratified by genotype, and as effect sizes estimated without assuming an additive effect model.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.g003" xlink:type="simple"/>
+</fig>
+<table-wrap id="pgen.1006119.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pgen.1006119.t003</object-id>
+<label>Table 3</label> <caption><title>Candidate-SNP associations with metabolic traits.</title></caption>
+<alternatives>
+<graphic id="pgen.1006119.t003g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.t003" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Chr</th>
+<th align="left">SNP</th>
+<th align="left">Candidate gene</th>
+<th align="left">Derived allele (DAF)</th>
+<th align="left">Trait</th>
+<th align="left">Beta (SE)</th>
+<th align="left">p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">5</td>
+<td align="left">rs76430747</td>
+<td align="left"><italic>ACSL6</italic></td>
+<td align="left">T (0.180)</td>
+<td align="left">HbA1c (%)</td>
+<td align="left">0.051 (0.013)</td>
+<td align="left">5.6x10<sup>-6</sup></td>
+</tr>
+<tr>
+<td align="left">11</td>
+<td align="left">rs80356779</td>
+<td align="left"><italic>CPT1A</italic></td>
+<td align="left">T (0.730)</td>
+<td align="left">Weight (kg)</td>
+<td align="left">-2.676 (0.523)</td>
+<td align="left">2.4x10<sup>-7</sup></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left">Lean mass (kg)</td>
+<td align="left">-1.200 (0.271)</td>
+<td align="left">1.7x10<sup>-6</sup></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left">HOMA-IR</td>
+<td align="left">-0.193 (0.050)</td>
+<td align="left">3.8x10<sup>-6</sup></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left">Fs-insulin (pmol/l)</td>
+<td align="left">-5.710 (1.535)</td>
+<td align="left">5.9x10<sup>-6</sup></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left">Height (cm)</td>
+<td align="left">-0.966 (0.230)</td>
+<td align="left">2.0x10<sup>-5</sup></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left">Hip (cm)</td>
+<td align="left">-1.386 (0.333)</td>
+<td align="left">2.4x10<sup>-5</sup></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left">BMI (kg/m<sup>2</sup>)</td>
+<td align="left">-0.638 (0.181)</td>
+<td align="left">2.8x10<sup>-4</sup></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left">HbA1c (%)</td>
+<td align="left">-0.034 (0.016)</td>
+<td align="left">3.1x10<sup>-4</sup></td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left">Waist (cm)</td>
+<td align="left">-1.693 (0.464)</td>
+<td align="left">5.1x10<sup>-4</sup></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t003fn001"><p>Untransformed effect sizes for metabolic traits reaching p&lt;1.0x10<sup>-3</sup>.</p></fn>
+<fn id="t003fn002"><p>SNP refers to the best causal candidate in the locus.</p></fn>
+<fn id="t003fn003"><p>Chr, chromosome; DAF, derived allele frequency; SE, standard error.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>The second and the third association signals mapped to <bold>chromosome 11</bold>. The strongest signal from the MetaboChip data (rs174570) was located in intronic sequence of the well-established FA-associated <italic>FADS2</italic>. rs174570 showed association with the level of 13 FAs (<xref ref-type="table" rid="pgen.1006119.t002">Table 2</xref>). The second signal on chromosome 11, mapped a little more than 7Mb away from the <italic>FADS</italic> region to intronic sequence of <italic>TPCN2</italic>. Similar to the <italic>FADS2</italic> variant, the MetaboChip lead SNP in this locus (rs1551304) showed association with a large number of FAs (<xref ref-type="supplementary-material" rid="pgen.1006119.s011">S4 Table</xref>). Imputation based analyses revealed no better candidate SNPs in the region, instead we genotyped a known missense variant (rs80356779) in the nearby candidate gene <italic>CPT1A</italic>, attempting to identify the causal variant for this second locus.</p>
+<p>The <italic>CPT1A</italic> rs80356779 variant accentuated the association pattern across all assessed FA pathways observed for rs1551304, however, in the opposite direction for the derived allele, but the same direction for the minor alleles. Also, it mirrored the association pattern observed for the rs174570 <italic>FADS2</italic> variant (<xref ref-type="fig" rid="pgen.1006119.g001">Fig 1</xref>, <xref ref-type="table" rid="pgen.1006119.t002">Table 2</xref>). Specifically, the <italic>CPT1A</italic> rs80356779 showed a pattern where the levels of ω-7 palmitoleic acid (16:1) was increased, the downstream products of the ω-3 (docosapentaenoic acid, 22:5), ω-6 (arachidonic acid, 20:4 and adrenic acid, 22:4), ω-9 (nervonic acid, 24:1), and saturated fatty acid (SFA; lignoceric acid, 24:0) pathways were reduced, and the levels of the corresponding upstream precursors (ω-6, linoleic acid (<italic>cis-cis-</italic>18:2), gamma-linolenic acid (18:3), and dihomo-gamma-linolenic acid (20:3); ω-9, oleic acid (18:1), 11-eicosenoic acid (20:1), and erucic acid (22:1); SFA, arachidic acid (20:0) and behenic acid (22:0)) were increased (<xref ref-type="fig" rid="pgen.1006119.g001">Fig 1</xref> and <xref ref-type="table" rid="pgen.1006119.t002">Table 2</xref>). In addition to the FA associations, <italic>CPT1A</italic> rs80356779 was associated with lower HbA1c (<xref ref-type="fig" rid="pgen.1006119.g003">Fig 3</xref>), indicating improved glycemic regulation, and with several measures of smaller body size and reduced insulin resistance (<xref ref-type="table" rid="pgen.1006119.t003">Table 3</xref>).</p>
+<p>Further exploration of the region revealed an unusual LD phenomenon, where <italic>FADS2</italic> rs174570 and <italic>CPT1A</italic> rs80356779 were linked in the ancestral Inuit population despite the chromosomal distance of approximately 7 Mb. Both variants were fixed or at extremely low frequency for the derived allele in the ancestral Inuit population, while the ancestral allele of rs80356779 was entirely fixed, and the ancestral allele of rs174570 was very common in European populations (<xref ref-type="table" rid="pgen.1006119.t004">Table 4</xref>). Conditional analysis reduced the association signal for both loci, as seen for 11-eicosenoic acid (20:1 ω-9; <xref ref-type="fig" rid="pgen.1006119.g004">Fig 4</xref>). In general, most of the <italic>CTP1A</italic> associations were still significant when conditioning on the <italic>FADS2</italic> variant, while many of the <italic>FADS2</italic> associations disappeared when conditioning on the <italic>FADS2</italic> variant (<xref ref-type="fig" rid="pgen.1006119.g004">Fig 4</xref> and <xref ref-type="supplementary-material" rid="pgen.1006119.s004">S4 Fig</xref>).</p>
+<table-wrap id="pgen.1006119.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pgen.1006119.t004</object-id>
+<label>Table 4</label> <caption><title><italic>FADS2-CPT1A</italic> linkage pattern.</title></caption>
+<alternatives>
+<graphic id="pgen.1006119.t004g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.t004" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Population</th>
+<th align="center" colspan="4"><italic>FADS2-CPT1A</italic> haplotype frequency estimates</th>
+<th align="left">r<sup>2</sup></th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="left">C-C</th>
+<th align="left">C-T</th>
+<th align="left">T-C</th>
+<th align="left">T-T</th>
+<th align="left"/>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Inuit</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="char" char=".">0.007</td>
+<td align="char" char=".">0.993</td>
+<td align="left">0</td>
+</tr>
+<tr>
+<td align="left">European</td>
+<td align="left">0.686</td>
+<td align="left">0.067</td>
+<td align="char" char=".">0.236</td>
+<td align="char" char=".">0.012</td>
+<td align="left">0.004</td>
+</tr>
+<tr>
+<td align="left">Greenland</td>
+<td align="left">0.200</td>
+<td align="left">0.018</td>
+<td align="char" char=".">0.072</td>
+<td align="char" char=".">0.711</td>
+<td align="left">0.588</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t004fn001"><p>Estimates are based on the admixture proportions determined by [<xref ref-type="bibr" rid="pgen.1006119.ref018">18</xref>], and are given for the ancestral components (Inuit and European), as well as the Greenlandic population.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<fig id="pgen.1006119.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pgen.1006119.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Association and conditional plot combined for the <italic>FADS2</italic> and <italic>CPT1A</italic> loci with erythrocyte membrane 11-eicosenoic acid (20:1 ω-9).</title>
+<p>The association results of the unconditional analysis are colored according to the LD, which was calculated separately for the two regions in each plot for the candidate SNPs, rs174570 and rs80356779, respectively. The p-values are based on imputation data. Green dots represent the results of the conditional analyses, and the circle denotes the SNP conditioned on A) rs174570 and B) rs80356779.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.g004" xlink:type="simple"/>
+</fig>
+<p>The fourth association signal mapped to <bold>chromosome 12</bold>, where the MetaboChip lead SNP (rs2110073) was located in intronic sequence in <italic>PHB2</italic>. This variant was associated with higher levels of oleic acid (18:1 ω-9), and lower levels of linoleic acid (<italic>cis-cis</italic>-18:2 ω-6; <xref ref-type="fig" rid="pgen.1006119.g001">Fig 1</xref> and <xref ref-type="table" rid="pgen.1006119.t002">Table 2</xref>). Imputation based analyses revealed additional SNPs in the region in high LD with rs2110073 mapping to nearby genes including the known FA-associated <italic>LPCAT3</italic> (<xref ref-type="supplementary-material" rid="pgen.1006119.s005">S5 Fig</xref>). However, none of these SNPs had a significantly better p-value than rs2110073, and were therefore not analyzed further. Conditional analyses indicated that rs2110073 may explain the associations observed for oleic acid (18:1 ω-9) and linoleic acid (<italic>cis-cis</italic>-18:2 ω-6; <xref ref-type="supplementary-material" rid="pgen.1006119.s005">S5 Fig</xref>)</p>
+<p>The fifth association signal mapped to <bold>chromosome 19</bold>. The lead SNP (rs2913968) was located in intronic region of <italic>RAB11B</italic>, and was associated with the SFA arachidic acid (20:0). Imputation analyses pointed to another possible causal SNP, rs11881630, mapping to <italic>CERS4</italic>. Additional genotyping of this synonymous exome variant showed a stronger association signal with decreased levels of arachidic acid than observed for rs2913968 (<xref ref-type="fig" rid="pgen.1006119.g001">Fig 1</xref> and <xref ref-type="table" rid="pgen.1006119.t002">Table 2</xref>). However, association analyses conditioning on rs2913968 and rs11881630, respectively, were inconclusive in determining which, if any, of the variants that caused the association signal (<xref ref-type="supplementary-material" rid="pgen.1006119.s006">S6 Fig</xref>), and with the available data it was impossible to exclude the possibility of two independent association signals.</p>
+<p>The sixth and final association signal mapped to a novel locus on <bold>chromosome 20</bold>, where the MetaboChip lead SNP (rs6035106) was located in an intronic region of <italic>DTD1</italic>. The derived allele of this SNP was associated with higher levels of docosahexaenoic acid (22:6 ω-3), and in addition showed an interesting pattern of associations, with generally higher ω-3 and ω-6 FA levels, but lower SFA levels (<xref ref-type="fig" rid="pgen.1006119.g001">Fig 1</xref> and <xref ref-type="table" rid="pgen.1006119.t002">Table 2</xref>). The imputation data revealed no candidate SNPs in the region with a significantly better p-value, and the conditional analysis on rs6035106 showed that this variant may explain the observed docosahexaenoic acid (22:6 ω-3) association, as well as the other FA associations (<xref ref-type="supplementary-material" rid="pgen.1006119.s007">S7 Fig</xref>).</p>
+</sec>
+<sec id="sec003" sec-type="conclusions">
+<title>Discussion</title>
+<p>We identified six distinct genomic regions harboring variants significantly associated with the level of at least one of 22 assessed erythrocyte membrane FAs. These genomic regions comprise two novel loci not previously linked to FA levels (<italic>ACSL6</italic>, <italic>DTD1</italic>), one known FA-linked locus where we identify a broad range of novel FA associations (<italic>CPT1A</italic>), and three loci for which we replicate known FA-associations (<italic>FADS2</italic>, <italic>LPCAT3</italic>, <italic>CERS4</italic>).</p>
+<p>The first of the two novel FA-associated loci (rs76430747) is located on in <italic>ACSL6</italic> chromosome 5. The ACSL6 protein is a long-chain acyl-CoA synthase that activates FAs by catalyzing the formation of acyl-CoA from ATP, CoA, and FAs [<xref ref-type="bibr" rid="pgen.1006119.ref022">22</xref>]. This step is required for FAs to enter most metabolic pathways including protein modification, phospholipid synthesis, and beta-oxidation. ACSL proteins, thus, affect the distribution and amount of intracellular FAs, and the isoforms differ in tissue specificity and FA preference [<xref ref-type="bibr" rid="pgen.1006119.ref023">23</xref>]. ACSL6 is mainly expressed in brain and neuronal cells, and catalyzes very-long chain FAs, containing 18–26 carbons [<xref ref-type="bibr" rid="pgen.1006119.ref024">24</xref>]. Our results may indicate that rs76430747 causes a shift in the preference for FA incorporated into phospholipids in cellular membranes towards ω-9 11-eicosenoic acid (20:1) and the SFA lignoceric acid (24:0), as opposed to ω-9 oleic acid (18:1), which seems to be directed to degradation by beta-oxidation. Alternatively, ACSL6 facilitated activation of oleic acid (18:1) to its corresponding acyl-CoA may channel this type of FA to elongation by ELOVL3 [<xref ref-type="bibr" rid="pgen.1006119.ref025">25</xref>], explaining the observed increase in 11-eicosenoic acid (20:1) levels. Interestingly, ACSL6 has been shown to activate oleic acid in rat cell [<xref ref-type="bibr" rid="pgen.1006119.ref026">26</xref>,<xref ref-type="bibr" rid="pgen.1006119.ref027">27</xref>], which supports our functional hypothesis.</p>
+<p>Besides from their role as intermediates in lipid synthesis and FA degradation, saturated and unsaturated long-chain acyl-CoAs have also been linked to regulation of carbohydrate and lipid metabolism, gene expression, and insulin secretion [<xref ref-type="bibr" rid="pgen.1006119.ref028">28</xref>,<xref ref-type="bibr" rid="pgen.1006119.ref029">29</xref>]. These functional properties may explain the observed association between variation in <italic>ACSL6</italic> and increased HbA1c. However, this association was not supported by differences in measures of insulin secretion or glucose levels, and requires replication to be validated.</p>
+<p>The second novel FA-associated locus we identified is located on chromosome 20. The lead SNP (rs6035106) showed an interesting pattern of altered FA concentrations, with higher levels of ω-3 and ω-6 FAs, and reduced levels of SFAs, however, only associated with modest p-values. Based on this pattern we hypothesize that the causal variant in this locus induces a shift in the choice of FAs absorbed from diet, or in the specificity towards FAs incorporated into erythrocyte membrane lipids. The observed association signals mapped to <italic>DTD1</italic>, however, the product of this gene has no known functional link to FA-metabolic pathways [<xref ref-type="bibr" rid="pgen.1006119.ref030">30</xref>]. The gene-rich region contains other possible causal candidate genes, among these are <italic>SCP2D1</italic>. This gene is particularly interesting, as it encodes a protein functionally related to the protein product of <italic>SCP2</italic> [<xref ref-type="bibr" rid="pgen.1006119.ref031">31</xref>–<xref ref-type="bibr" rid="pgen.1006119.ref033">33</xref>]. The SCP2 protein has been proposed to redistribute numerous lipid species, including FAs and fatty-acyl CoAs between lipid rafts and intracellular organelles, and thus regulate signaling pathways [<xref ref-type="bibr" rid="pgen.1006119.ref031">31</xref>]. Additional studies are needed to validate the putative association between this genomic region and FA levels, and to determine if <italic>SCP2D1</italic> is the causal gene in the region.</p>
+<p>On chromosome 11 we identified a locus showing a broad range of novel FA associations. The lead SNP in this region is a missense variant (rs80356779) in <italic>CPT1A</italic>, located around 7 Mb from the <italic>FADS</italic>-gene region. The <italic>FADS</italic> genes have been shown to be associated with a range of FAs primarily in European populations in candidate gene studies [<xref ref-type="bibr" rid="pgen.1006119.ref034">34</xref>–<xref ref-type="bibr" rid="pgen.1006119.ref038">38</xref>], and in large-scale genetic studies [<xref ref-type="bibr" rid="pgen.1006119.ref039">39</xref>–<xref ref-type="bibr" rid="pgen.1006119.ref044">44</xref>], and these associations were replicated in this study. The <italic>CPT1A</italic> rs80356779 variant causes a proline to leucine substitution at position 479 in the CPT1A protein sequence (P479L), and has been studied previously in Arctic populations [<xref ref-type="bibr" rid="pgen.1006119.ref045">45</xref>–<xref ref-type="bibr" rid="pgen.1006119.ref047">47</xref>]. Conditional analyses indicate that <italic>CPT1A</italic> P479L is the causal variant in the region among Inuit. However, the <italic>FADS</italic> locus must also harbor a true association signal, as such a signal has been observed in many studies in European populations [<xref ref-type="bibr" rid="pgen.1006119.ref046">46</xref>–<xref ref-type="bibr" rid="pgen.1006119.ref048">48</xref>], where P479L is monomorphic. The <italic>FADS</italic> and <italic>CPT1A</italic> association signals are difficult to untangle, because rs174570 and rs80356779 are both fixed in the ancestral Inuit population. This unusual long-range LD phenomenon is mainly due to recent adaptive selection on these loci, and lack of admixture from other populations until only a couple of hundred years ago [<xref ref-type="bibr" rid="pgen.1006119.ref021">21</xref>,<xref ref-type="bibr" rid="pgen.1006119.ref049">49</xref>].</p>
+<p><italic>CPT1A</italic> encodes a member of the carnitine palmitoyltransferase (CPT) protein family. These proteins catalyzes the initial and rate-limiting step in mitochondrial degradation of FAs in skeletal muscle, liver, and adipose tissue [<xref ref-type="bibr" rid="pgen.1006119.ref050">50</xref>], and are thus attractive candidates to affect the levels of individual FAs. The CPT1A isoform is mainly expressed in liver [<xref ref-type="bibr" rid="pgen.1006119.ref051">51</xref>], and cell-line studies and animal models have indicated that the P479L variant results in increased CPT1A activity, and thereby possibly increased flow of FAs to degradation by beta-oxidation [<xref ref-type="bibr" rid="pgen.1006119.ref052">52</xref>,<xref ref-type="bibr" rid="pgen.1006119.ref053">53</xref>]. We hypothesize, that increased CPT1A activity is the functional explanation for the observed changes in FA concentrations across the ω-3, ω-6, ω-7, ω-9, and SFA pathways. This extensive association pattern is a novel observation. Previously only association with the ω-6 FAs linoleic acid (<italic>cis-cis-</italic>18:2), dihomo-gamma-linolenic acid (20:3), and arachidonic acid (20:4) have been reported for three <italic>CPT1A</italic> intron variants [<xref ref-type="bibr" rid="pgen.1006119.ref054">54</xref>]. Our results indicate that the Inuit specific P479L is the causal variant in <italic>CPT1A</italic> explaining the observed FA associations.</p>
+<p>Moreover, <italic>CPT1A</italic> P479L T-allele carriers (L479) showed reduced insulin resistance and smaller body size. This phenotypic impact of L479 is an extension of the previously reported association with reduced body fat and central obesity in Yup’ik Eskimos [<xref ref-type="bibr" rid="pgen.1006119.ref047">47</xref>], and it is well in line with data from functional studies showing that increased FA oxidation is linked to reduced accumulation of body fat and improved lipid profile [<xref ref-type="bibr" rid="pgen.1006119.ref055">55</xref>–<xref ref-type="bibr" rid="pgen.1006119.ref058">58</xref>], whereas inhibition of fat oxidation by a CPT1 inhibitor in rodents causes increased adiposity and insulin resistance [<xref ref-type="bibr" rid="pgen.1006119.ref059">59</xref>]. We also observed association between L479 and improved glycemic regulation, which may simply be a consequence of the genotypic effect on body size and insulin resistance. In the Yup’ik Eskimos as well as in Greenlandic Inuit L479 has been associated with higher circulating levels of HDL cholesterol [<xref ref-type="bibr" rid="pgen.1006119.ref046">46</xref>,<xref ref-type="bibr" rid="pgen.1006119.ref047">47</xref>], this was not replicated in our study despite our larger sample size. The genomic region containing <italic>CPT1A</italic> seems to have been under increased evolutionary pressure, and to be of particular importance in Arctic populations [<xref ref-type="bibr" rid="pgen.1006119.ref048">48</xref>,<xref ref-type="bibr" rid="pgen.1006119.ref049">49</xref>]. This may be due to the traditional Greenlandic diet, which is enriched with animal fat, accentuating the requirement for FA beta-oxidation facilitated by CPT1A for generating energy.</p>
+<p>In addition to the novel associations and the well-established <italic>FADS2</italic> association discussed above we also replicated the association between rs2110073, near the functional candidate gene <italic>LPCAT3</italic> on chromosome 12, and altered levels of the first precursors for endogenous synthesis of the ω-6 (linoleic acid, <italic>cis-cis-</italic>18:2) and ω-9 (oleic acid, 18:1) FAs [<xref ref-type="bibr" rid="pgen.1006119.ref044">44</xref>], and the association between variation in <italic>CERS4</italic> and levels of arachidic acid (20:0) [<xref ref-type="bibr" rid="pgen.1006119.ref060">60</xref>–<xref ref-type="bibr" rid="pgen.1006119.ref062">62</xref>]. The originally reported <italic>CERS4</italic> SNP, rs2100944 [<xref ref-type="bibr" rid="pgen.1006119.ref060">60</xref>], barely reached nominal significance in our study (p = 0.013), instead we identified another causal candidate SNP in this locus, namely rs11881630. This variant is rare in Europeans (MAF: 0.89%), and is in low LD with rs2100944 both in Europeans and in Greenlanders, thus, indicating that neither of the two is the causal variant, or that there may be two association signals.</p>
+<sec id="sec004">
+<title>Conclusions and perspectives</title>
+<p>We have identified six independent loci associated with erythrocyte membrane FA levels in Greenlanders. The Greenlandic population is characterized by geographical isolation, and has a unique genetic profile shaped by genetic drift due to both founder events and a small population size through thousands of years. Moreover, the Greenlanders have adapted their lifestyle to cold climate and available resources, resulting in a highly specialized diet rich in fat and protein from fish and marine mammals [<xref ref-type="bibr" rid="pgen.1006119.ref020">20</xref>]. This extreme Greenlandic lifestyle has resulted in genetic adaptation, demonstrated by identification of positive selection in the <italic>FADS</italic> genes on chromosome 11 [<xref ref-type="bibr" rid="pgen.1006119.ref021">21</xref>]. The importance of this region in adaption to Arctic lifestyle is further supported by positive selection on <italic>CPT1A</italic> in Siberians [<xref ref-type="bibr" rid="pgen.1006119.ref049">49</xref>]. Besides from the selection signatures in the <italic>FADS</italic> and <italic>CPT1A</italic> loci, we observed no indications of selection acting on the FA-associated regions in our data. Thus, based on our data it seems unlikely that the unique FA composition of the traditional Greenlandic diet has inferred selective pressure on the <italic>ACSL6</italic>, <italic>LPCAT3</italic>, <italic>CERS4</italic>, and <italic>DTD1</italic> gene regions.</p>
+<p>In conclusion, we have identified genetic determinants of FA composition of erythrocyte membrane phospholipids possibly as a result of altered fluxes through FA and lipid metabolic pathways. These alterations may have metabolic consequences, supported by the observed link between FA associated variants and altered glycemic regulation and body composition. The present study provides a framework to further delineate how specific lipid species regulate human metabolic disorders.</p>
+</sec>
+</sec>
+<sec id="sec005" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="sec006">
+<title>Ethics statement</title>
+<p>The study was approved by the Commission for Scientific Research in Greenland (project 2011–13, ref. no. 2011–056978; and project 2013–13, ref.no. 2013–090702), and was conducted in accordance with the ethical standards of the Declaration of Helsinki, second revision. All participants gave informed consent.</p>
+</sec>
+<sec id="sec007">
+<title>Study population</title>
+<p>The study included individuals from three Greenlandic cohorts: the IHIT (n = 3,115) and B99 (n = 1,401) cohorts, which comprise Greenlanders living in Greenland, and the BBH (n = 547) cohort, which comprises Greenlanders living in Denmark. The B99 and the IHIT cohorts were collected as part of a general population health survey of the Greenlandic population during 1999–2001 and 2005–2010, respectively, as described in [<xref ref-type="bibr" rid="pgen.1006119.ref063">63</xref>,<xref ref-type="bibr" rid="pgen.1006119.ref064">64</xref>]. BBH was collected in Denmark during 1998–1999 from people of Greenlandic descent [<xref ref-type="bibr" rid="pgen.1006119.ref064">64</xref>]. There was an overlap of individuals between IHIT and B99, these individuals (n = 295) were assigned to the B99 cohort.</p>
+</sec>
+<sec id="sec008">
+<title>Measurements and assays</title>
+<p>Fatty acids (FAs) in phospholipids of erythrocytes were measured in 2,626 individuals from the IHIT cohort of Greenlanders living in Greenland. FA levels were reported as relative levels compared to the total amount of FAs in each sample. Lipids were separated by thin layer chromatography, after extraction of total lipids with chloroform/methanol, and FAs in the phospholipid fraction were methylated, and subsequently analyzed by capillary GLC using a HP-Packard GC chromatograph equipped with a DB-23 column at The Centre de recherche sur les maladies lipidiques (CRML), Centre hospitalier universitaire de Québec. We restricted the genetic analyses to 22 FAs for which we observed detectable levels for the majority of individuals, and which could be placed in the FA synthesis pathways (<xref ref-type="fig" rid="pgen.1006119.g001">Fig 1</xref>). These FAs comprised ω-3 (18:3, alpha-linolenic acid; 18:4, stearidonic acid; 20:4, eicosatetraenoic acid; 20:5, eicosapentaenoic acid; 22:5, docosapentaenoic acid; 22:6, docosahexaenoic acid), ω-6 (<italic>cis-cis</italic>-18:2, linoleic acid; 18:3, gamma-linolenic acid; 20:3, dihomo-gamma-linolenic acid; 20:4, arachidonic acid; 22:4, adrenic acid; 22:5, docosapentaenoic acid), ω-7 (16:1, palmitoleic acid), ω-9 (18:1, oleic acid; 20:1, 11-eicosenoic acid; 22:1, erucic acid; 24:1, nervonic acid), and SFAs (16:0, palmitic acid; 18:0, stearic acid; 20:0, arachidic acid; 22:0, behenic acid; 24:0, lignoceric acid).</p>
+<p>All IHIT and B99 participants above 35 years of age underwent an oral glucose tolerance test, where blood samples were drawn after an overnight fast of at least 8 hours, and 2 hours after receiving a 75 g glucose bolus. Plasma glucose levels were analyzed with the Hitachi 912 system (Roche Diagnostics), serum insulin with an immunoassay excluding des-31,32 split products and intact proinsulin (AutoDELFIA, PerkinElmer), and Hba1c by ion-exchange HPLC (G7, Tosoh Bioscience). Insulin resistance was estimated by the homeostasis model assessment (HOMA-IR), calculated as [(fasting glucose level x fasting insulin level)/6.945]/22.5, where insulin levels were expressed as pmol/l and glucose levels as mmol/l [<xref ref-type="bibr" rid="pgen.1006119.ref065">65</xref>]. Information about diet was obtained from questionnaires, as described in [<xref ref-type="bibr" rid="pgen.1006119.ref066">66</xref>].</p>
+</sec>
+<sec id="sec009">
+<title>Genotyping</title>
+<p>DNA was purified from blood leukocytes, and all samples were genotyped on the Metabochip (Illumina). This chip is a custom iSelect genotyping array of 196,725 single nucleotide polymorphisms (SNPs) for genetic studies of metabolic, cardiovascular, and anthropometric traits [<xref ref-type="bibr" rid="pgen.1006119.ref067">67</xref>]. Genotyping was performed using the HiScan system (Illumina), and genotypes were called jointly for all cohorts using the GenCall module of the GenomeStudio software (Illumina) using default cluster data. The data set went through a two-step quality control. In step one, duplicate samples and individuals missing &gt;2% genotypes or with gender discrepancy were removed. In step two, we removed SNPs with a minor allele frequency &lt;1% (&lt;5% for case-control transformed phenotypes), with &gt;100 missing genotypes, with a large deviation from Hardy Weinberg equilibrium (p&lt;1.0x10<sup>-10</sup>), as well as SNPs which were polymorphic in the IHIT cohort but not in the B99+BBH cohorts, and SNPs associated with gender (p&lt;1.0x10<sup>-5</sup>). In total, 4,674 individuals (2,791 from IHIT, 1,336 from B99, and 547 from BBH) and 115,182 SNPs passed the quality control.</p>
+<p>MetaboChip data was used to identify loci harboring association signals (p&lt;4.3x10<sup>-7</sup>, corresponding to correction for testing 115,182 SNPs). Based on these data and imputation analyses of the identified loci, three additional SNPs were selected for genotyping (rs76430747, rs11881630, and rs11028474). Moreover, based on previous reports of association with lipid and body composition traits in the Alaskan Yup’ik Eskimos [<xref ref-type="bibr" rid="pgen.1006119.ref047">47</xref>] and high frequency in Canadian and Greenlandic Inuit [<xref ref-type="bibr" rid="pgen.1006119.ref045">45</xref>,<xref ref-type="bibr" rid="pgen.1006119.ref046">46</xref>] an additional candidate SNP in the <italic>CPT1A</italic> locus (rs80356779), was also selected for genotyping (LGC genomics). Analyzing genotype data against MetaboChip data for rs11028474 showed discrepancy, hence, this variant was removed from all analyses.</p>
+</sec>
+<sec id="sec010">
+<title>Imputation</title>
+<p>In order to fine map loci identified to harbor an association signal in the MetaboChip data, we carried out imputation to increase the number of SNPs in these regions. For the imputation we applied Omni5M array (Illumina) genotype data from 20 Greenlandic trios, which was phased using ShapeIt [<xref ref-type="bibr" rid="pgen.1006119.ref068">68</xref>]. The phased data of the 40 Greenlandic parents and 1000 genomes data for 41 Europeans and 40 Han Chinese were applied as reference panel. IMPUTE2 [<xref ref-type="bibr" rid="pgen.1006119.ref069">69</xref>] was used for imputation, where a recombination map for the reference SNPs was inferred with linear interpolation using the hg19 genomic map from IMPUTE2 as a template, and an effective population size of 1,500 [<xref ref-type="bibr" rid="pgen.1006119.ref021">21</xref>]. The imputation generated genotype data (R<sup>2</sup> &gt;0.4) for 1,959,225 variants, which were analyzed as dosages (mean genotype) using GEMMA with the same setup as for the other statistical analyses using a relatedness matrix based on the dosages instead of genotypes, see below.</p>
+</sec>
+<sec id="sec011">
+<title>Statistical analysis</title>
+<p>For association tests we applied a linear mixed model, implemented in the software GEMMA [<xref ref-type="bibr" rid="pgen.1006119.ref070">70</xref>], to account for relatedness and admixture. For each phenotype the tests were applied to data from all individuals across the three cohorts with information about that specific phenotype, and the relatedness matrix required as input to GEMMA was estimated from genotypic data from these individuals only. For all tests we assumed an additive effect and included sex, age, and cohort as covariates, and for tests involving FAs we included dietary intake of marine mammals, and percentage of the diet consisting of traditional Inuit food as additional covariates. The FA association analyses were also run without the adjustment for diet, and with additional adjustment for the use of lipid-lowering drugs to exclude confounding from these factors. These adjustments did not alter the results, but are included in the supplementary tables for the FA-associated variants for comparison (<xref ref-type="supplementary-material" rid="pgen.1006119.s008">S1</xref>–<xref ref-type="supplementary-material" rid="pgen.1006119.s017">S10</xref> Tables).</p>
+<p>Prior to performing association tests, quantitative traits were quantile transformed to a standard normal distribution within each sex. However, six FAs (alpha-linolenic acid (18:3 ω-3), stearidonic acid (18:4 ω-3), eicosatetraenoic acid (20:4 ω-3), gamma-linolenic acid (18:3 ω-6), docosapentaenoic acid (22:5 ω-6), and erucic acid (22:1 ω-9)) had undetectable levels in more than 20% of the samples. We, thus, considered transformation to a standard normal distribution inappropriate. Instead these traits were transformed to case-control like data, by transforming values different from 0 to 1, and they were analyzed as detectable levels (cases) and undetectable levels (controls).</p>
+<p>In analyses of the MetaboChip data, we applied a significance threshold of p&lt;4.3x10<sup>-7</sup>, corresponding to correction for testing 115,182 SNPs, to identify loci harboring association signals. These loci were selected for further analyses, including imputation efforts, and assessment of secondary FA associations and metabolic phenotypes (<xref ref-type="supplementary-material" rid="pgen.1006119.s008">S1</xref>–<xref ref-type="supplementary-material" rid="pgen.1006119.s017">S10</xref> Tables and <xref ref-type="supplementary-material" rid="pgen.1006119.s002">S2 Fig</xref>). All associations are described for the derived alleles, and reported down to the arbitrary p-value cut-off of p&lt;1.0x10<sup>-3</sup>.</p>
+</sec>
+</sec>
+<sec id="sec012">
+<title>Supporting Information</title>
+<supplementary-material id="pgen.1006119.s001" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.s001" xlink:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title>Manhattan and QQ plots from analyses of MetaboChip data, for each of the 22 assessed erythrocyte membrane FAs.</title>
+<p>The dashed line in the Manhattan plots denotes the significance threshold of p&lt;4.3x10<sup>-7</sup>. P-values are calculated based on data transformed either to a standard normal or binary distribution. A) alpha-linolenic acid (18:3 ω-3), B) stearidonic acid (18:4 ω-3), C) eicosatetraenoic acid (20:4 ω-3), D) eicosapentaenoic acid (20:5 ω-3), E) docosapentaenoic acid (22:5 ω-3), F) docosahexaenoic acid (22:6 ω-3), G) linoleic acid (<italic>cis-cis</italic>-18:2 ω-6), H) gamma-linolenic acid (18:3 ω-6), I) dihomo-gamma-linolenic acid (20:3 ω-6), J) arachidonic acid (20:4 ω-6), K) adrenic acid (22:4 ω-6), L) docosapentaenoic acid (22:5 ω-6), M) palmitoleic acid (16:1 ω-7), N) oleic acid (18:1 ω-9), O) 11-eicosenoic acid (20:1 ω-9), P) erucic acid (22:1 ω-9), Q) nervonic acid (24:1 ω-9), R) palmitic acid (16:0), S) stearic acid (18:0), T) arachidic acid (20:0), U) behenic acid (22:0), and V) lignoceric acid (24:0). The rs11028474 variant on chromosome 11 causes the strong but spurious association signals for eicosapentaenoic acid (20:5 ω-3), docosapentaenoic acid (22:5 ω-3), docosahexaenoic acid (22:6 ω-3), and stearic acid (18:0). This variant was removed from all analyzes (see <xref ref-type="sec" rid="sec005">Materials and Methods</xref> section).</p>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pgen.1006119.s002" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.s002" xlink:type="simple">
+<label>S2 Fig</label>
+<caption>
+<title>Flow chart of the study.</title>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pgen.1006119.s003" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.s003" xlink:type="simple">
+<label>S3 Fig</label>
+<caption>
+<title>Association and conditional plots.</title>
+<p>Unconditional and conditional association analyses for rs76430747 in the ACSL6 locus with A) 11-eicosenoic acid (20:1 ω-9) and B) lignoceric acid (24:0).The association results of the unconditional analysis are colored according to the LD, which is calculated for the candidate SNP in the region. Green dots represent the results of the conditional analysis, and the circles denote the SNPs conditioned on. The p-values are based on imputation data.</p>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pgen.1006119.s004" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.s004" xlink:type="simple">
+<label>S4 Fig</label>
+<caption>
+<title>Association and conditional plots.</title>
+<p>Unconditional and conditional association analyses for rs174570 and rs80356779 in the FADS2 and CPT1A loci, respectively, with A) palmitoleic acid (16:1 ω-7), B) stearic acid (18:0), C) oleic acid (18:1 ω-9), D) linoleic acid (cis-cis-18:2 ω-6), E) gamma-linolenic acid (18:3 ω-6), F) arachidic acid (20:0), G) 11-eicosenoic acid (20:1 ω-9), H) dihomo-gamma-linolenic acid (20:3 ω-6), I) arachidonic acid (20:4 ω-6), J) behenic acid (22:0), K) erucic acid (22:1 ω-9), L) adrenic acid (22:4 ω-6), M) docosapentaenoic acid (22:5 ω-3), N) lignoceric acid (24:0), and O) nervonic acid (24:1 ω-9).The association results of the unconditional analysis are colored according to the LD, which is calculated for the candidate SNP in the region. Green dots represent the results of the conditional analysis, and the circles denote the SNPs conditioned on. The p-values are based on imputation data.</p>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pgen.1006119.s005" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.s005" xlink:type="simple">
+<label>S5 Fig</label>
+<caption>
+<title>Association and conditional plots.</title>
+<p>Unconditional and conditional association analyses for rs2110073 in the LPCAT3 locus with A) oleic acid (18:1 ω-9) and B) linoleic acid (cis-cis-18:2 ω-6).The association results of the unconditional analysis are colored according to the LD, which is calculated for the candidate SNP in the region. Green dots represent the results of the conditional analysis, and the circles denote the SNPs conditioned on. The p-values are based on imputation data.</p>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pgen.1006119.s006" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.s006" xlink:type="simple">
+<label>S6 Fig</label>
+<caption>
+<title>Association and conditional plots.</title>
+<p>Unconditional and conditional association analyses for A) rs2913968 and B) rs11881630 in the CERS4 locus with arachidic acid (20:0).The association results of the unconditional analysis are colored according to the LD, which is calculated for the candidate SNP in the region. Green dots represent the results of the conditional analysis, and the circles denote the SNPs conditioned on. The p-values are based on imputation data.</p>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pgen.1006119.s007" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.s007" xlink:type="simple">
+<label>S7 Fig</label>
+<caption>
+<title>Association and conditional plots.</title>
+<p>Unconditional and conditional association analyses for rs6035106 in the DTD1 locus with A) eicosapentaenoic acid (20:5 ω-3), B) docosapentaenoic acid (22:5 ω-3), C) docosahexaenoic acid (22:6 ω-3), D) dihomo-gamma-linolenic acid (20:3 ω-6), E) arachidonic acid (20:4 ω-6), F) adrenic acid (22:4 ω-6), G) oleic acid (18:1 ω-9), H) palmitic acid (16:0), and I) behenic acid (22:0).The association results of the unconditional analysis are colored according to the LD, which is calculated for the candidate SNP in the region. Green dots represent the results of the conditional analysis, and the circles denote the SNPs conditioned on. The p-values are based on imputation data.</p>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pgen.1006119.s008" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.s008" xlink:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Association results for rs251015 (<italic>FNIP1</italic>).</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pgen.1006119.s009" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.s009" xlink:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>Association results for rs76430747 (<italic>ACSL6</italic>).</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pgen.1006119.s010" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.s010" xlink:type="simple">
+<label>S3 Table</label>
+<caption>
+<title>Association results for rs174570 (<italic>FADS2</italic>).</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pgen.1006119.s011" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.s011" xlink:type="simple">
+<label>S4 Table</label>
+<caption>
+<title>Association results for rs1551304 (<italic>TPCN2</italic>).</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pgen.1006119.s012" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.s012" xlink:type="simple">
+<label>S5 Table</label>
+<caption>
+<title>Association results for rs80356779 (<italic>CPT1A</italic>).</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pgen.1006119.s013" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.s013" xlink:type="simple">
+<label>S6 Table</label>
+<caption>
+<title>Association results for rs2110073 (<italic>PHB2</italic>).</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pgen.1006119.s014" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.s014" xlink:type="simple">
+<label>S7 Table</label>
+<caption>
+<title>Association results for rs2913968 (<italic>RAB11B</italic>).</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pgen.1006119.s015" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.s015" xlink:type="simple">
+<label>S8 Table</label>
+<caption>
+<title>Association results for rs11881630 (<italic>CERS4</italic>).</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pgen.1006119.s016" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.s016" xlink:type="simple">
+<label>S9 Table</label>
+<caption>
+<title>Association results for rs6035106 (<italic>DTD1</italic>).</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pgen.1006119.s017" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" xlink:href="info:doi/10.1371/journal.pgen.1006119.s017" xlink:type="simple">
+<label>S10 Table</label>
+<caption>
+<title>Information about SNPs of interest.</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>We would like to thank the staff and participants of in the IHIT, B99, and BBH cohorts facilitating this study.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pgen.1006119.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Siscovick</surname> <given-names>DS</given-names></name>, <name name-style="western"><surname>Raghunathan</surname> <given-names>TE</given-names></name>, <name name-style="western"><surname>King</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Weinmann</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Wicklund</surname> <given-names>KG</given-names></name>, <name name-style="western"><surname>Albright</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Dietary intake and cell membrane levels of long-chain n-3 polyunsaturated fatty acids and the risk of primary cardiac arrest</article-title>. <source>JAMA</source>. <year>1995</year>;<volume>274</volume>: <fpage>1363</fpage>–<lpage>1367</lpage>. <object-id pub-id-type="pmid">7563561</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lemaitre</surname> <given-names>RN</given-names></name>, <name name-style="western"><surname>King</surname> <given-names>IB</given-names></name>, <name name-style="western"><surname>Mozaffarian</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Sotoodehnia</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Rea</surname> <given-names>TD</given-names></name>, <name name-style="western"><surname>Kuller</surname> <given-names>LH</given-names></name>, <etal>et al</etal>. <article-title>Plasma phospholipid trans fatty acids, fatal ischemic heart disease, and sudden cardiac death in older adults: the cardiovascular health study</article-title>. <source>Circulation</source>. <year>2006</year>;<volume>114</volume>: <fpage>209</fpage>–<lpage>215</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1161/CIRCULATIONAHA.106.620336" xlink:type="simple">10.1161/CIRCULATIONAHA.106.620336</ext-link></comment> <object-id pub-id-type="pmid">16818809</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sun</surname> <given-names>Q</given-names></name>, <name name-style="western"><surname>Ma</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Campos</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Rexrode</surname> <given-names>KM</given-names></name>, <name name-style="western"><surname>Albert</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Mozaffarian</surname> <given-names>D</given-names></name>, <etal>et al</etal>. <article-title>Blood concentrations of individual long-chain n-3 fatty acids and risk of nonfatal myocardial infarction</article-title>. <source>Am J Clin Nutr</source>. <year>2008</year>;<volume>88</volume>: <fpage>216</fpage>–<lpage>223</lpage>. <object-id pub-id-type="pmid">18614744</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yamagishi</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Folsom</surname> <given-names>AR</given-names></name>, <name name-style="western"><surname>Steffen</surname> <given-names>LM</given-names></name>. <article-title>Plasma fatty acid composition and incident ischemic stroke in middle-aged adults: the Atherosclerosis Risk in Communities (ARIC) Study</article-title>. <source>Cerebrovasc Dis</source>. <year>2013</year>;<volume>36</volume>: <fpage>38</fpage>–<lpage>46</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1159/000351205" xlink:type="simple">10.1159/000351205</ext-link></comment> <object-id pub-id-type="pmid">23920478</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sala-Vila</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Cofan</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Perez-Heras</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Nunez</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Gilabert</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Junyent</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Fatty acids in serum phospholipids and carotid intima-media thickness in Spanish subjects with primary dyslipidemia</article-title>. <source>Am J Clin Nutr</source>. <year>2010</year>;<volume>92</volume>: <fpage>186</fpage>–<lpage>193</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3945/ajcn.2009.28807" xlink:type="simple">10.3945/ajcn.2009.28807</ext-link></comment> <object-id pub-id-type="pmid">20463042</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Simon</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Hodgkins</surname> <given-names>ML</given-names></name>, <name name-style="western"><surname>Browner</surname> <given-names>WS</given-names></name>, <name name-style="western"><surname>Neuhaus</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Bernert</surname> <given-names>JT</given-names></name>, <name name-style="western"><surname>Hulley</surname> <given-names>SB</given-names></name>. <article-title>Serum fatty acids and the risk of coronary heart disease</article-title>. <source>Am J Epidemiol</source>. <year>1995</year>;<volume>142</volume>: <fpage>469</fpage>–<lpage>476</lpage>. <object-id pub-id-type="pmid">7677125</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Friedberg</surname> <given-names>CE</given-names></name>, <name name-style="western"><surname>Janssen</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Heine</surname> <given-names>RJ</given-names></name>, <name name-style="western"><surname>Grobbee</surname> <given-names>DE</given-names></name>. <article-title>Fish oil and glycemic control in diabetes. A meta-analysis</article-title>. <source>Diabetes Care</source>. <year>1998</year>;<volume>21</volume>: <fpage>494</fpage>–<lpage>500</lpage>. <object-id pub-id-type="pmid">9571330</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Folsom</surname> <given-names>AR</given-names></name>, <name name-style="western"><surname>Zheng</surname> <given-names>Z-J</given-names></name>, <name name-style="western"><surname>Pankow</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Eckfeldt</surname> <given-names>JH</given-names></name>. <article-title>Plasma fatty acid composition and incidence of diabetes in middle-aged adults: the Atherosclerosis Risk in Communities (ARIC) Study</article-title>. <source>Am J Clin Nutr</source>. <year>2003</year>;<volume>78</volume>: <fpage>91</fpage>–<lpage>98</lpage>. <object-id pub-id-type="pmid">12816776</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Warensjö</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Sundström</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Lind</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Vessby</surname> <given-names>B</given-names></name>. <article-title>Factor analysis of fatty acids in serum lipids as a measure of dietary fat quality in relation to the metabolic syndrome in men</article-title>. <source>Am J Clin Nutr</source>. <year>2006</year>;<volume>84</volume>: <fpage>442</fpage>–<lpage>448</lpage>. <object-id pub-id-type="pmid">16895896</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Poudyal</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Brown</surname> <given-names>L</given-names></name>. <article-title>Should the pharmacological actions of dietary fatty acids in cardiometabolic disorders be classified based on biological or chemical function?</article-title> <source>Prog Lipid Res</source>. <year>2015</year>;<volume>59</volume>: <fpage>172</fpage>–<lpage>200</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.plipres.2015.07.002" xlink:type="simple">10.1016/j.plipres.2015.07.002</ext-link></comment> <object-id pub-id-type="pmid">26205317</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sun</surname> <given-names>Q</given-names></name>, <name name-style="western"><surname>Ma</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Campos</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Hankinson</surname> <given-names>SE</given-names></name>, <name name-style="western"><surname>Manson</surname> <given-names>JE</given-names></name>, <name name-style="western"><surname>Stampfer</surname> <given-names>MJ</given-names></name>, <etal>et al</etal>. <article-title>A prospective study of trans fatty acids in erythrocytes and risk of coronary heart disease</article-title>. <source>Circulation</source>. <year>2007</year>;<volume>115</volume>: <fpage>1858</fpage>–<lpage>1865</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1161/CIRCULATIONAHA.106.679985" xlink:type="simple">10.1161/CIRCULATIONAHA.106.679985</ext-link></comment> <object-id pub-id-type="pmid">17389261</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sun</surname> <given-names>Q</given-names></name>, <name name-style="western"><surname>Ma</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Campos</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Hankinson</surname> <given-names>SE</given-names></name>, <name name-style="western"><surname>Hu</surname> <given-names>FB</given-names></name>. <article-title>Comparison between plasma and erythrocyte fatty acid content as biomarkers of fatty acid intake in US women</article-title>. <source>Am J Clin Nutr</source>. <year>2007</year>;<volume>86</volume>: <fpage>74</fpage>–<lpage>81</lpage>. <object-id pub-id-type="pmid">17616765</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jacobs</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Schiller</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Jansen</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Fritsche</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Weikert</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>di Giuseppe</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Association between erythrocyte membrane fatty acids and biomarkers of dyslipidemia in the EPIC-Potsdam study</article-title>. <source>Eur J Clin Nutr</source>. <year>2014</year>;<volume>68</volume>: <fpage>517</fpage>–<lpage>525</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/ejcn.2014.18" xlink:type="simple">10.1038/ejcn.2014.18</ext-link></comment> <object-id pub-id-type="pmid">24569539</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kunesová</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Hainer</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Tvrzicka</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Phinney</surname> <given-names>SD</given-names></name>, <name name-style="western"><surname>Stich</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Parízková</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Assessment of dietary and genetic factors influencing serum and adipose fatty acid composition in obese female identical twins</article-title>. <source>Lipids</source>. <year>2002</year>;<volume>37</volume>: <fpage>27</fpage>–<lpage>32</lpage>. <object-id pub-id-type="pmid">11876260</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kunesová</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Phinney</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Hainer</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Tvrzická</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Stich</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Parízková</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>The responses of serum and adipose Fatty acids to a one-year weight reduction regimen in female obese monozygotic twins</article-title>. <source>Ann N Y Acad Sci</source>. <year>2002</year>;<volume>967</volume>: <fpage>311</fpage>–<lpage>323</lpage>. <object-id pub-id-type="pmid">12079858</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lemaitre</surname> <given-names>RN</given-names></name>, <name name-style="western"><surname>Siscovick</surname> <given-names>DS</given-names></name>, <name name-style="western"><surname>Berry</surname> <given-names>EM</given-names></name>, <name name-style="western"><surname>Kark</surname> <given-names>JD</given-names></name>, <name name-style="western"><surname>Friedlander</surname> <given-names>Y</given-names></name>. <article-title>Familial aggregation of red blood cell membrane fatty acid composition: the Kibbutzim Family Study</article-title>. <source>Metabolism</source>. <year>2008</year>;<volume>57</volume>: <fpage>662</fpage>–<lpage>668</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.metabol.2007.12.011" xlink:type="simple">10.1016/j.metabol.2007.12.011</ext-link></comment> <object-id pub-id-type="pmid">18442630</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Harris</surname> <given-names>WS</given-names></name>, <name name-style="western"><surname>Pottala</surname> <given-names>J V</given-names></name>, <name name-style="western"><surname>Lacey</surname> <given-names>SM</given-names></name>, <name name-style="western"><surname>Vasan</surname> <given-names>RS</given-names></name>, <name name-style="western"><surname>Larson</surname> <given-names>MG</given-names></name>, <name name-style="western"><surname>Robins</surname> <given-names>SJ</given-names></name>. <article-title>Clinical correlates and heritability of erythrocyte eicosapentaenoic and docosahexaenoic acid content in the Framingham Heart Study</article-title>. <source>Atherosclerosis</source>. <year>2012</year>;<volume>225</volume>: <fpage>425</fpage>–<lpage>431</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.atherosclerosis.2012.05.030" xlink:type="simple">10.1016/j.atherosclerosis.2012.05.030</ext-link></comment> <object-id pub-id-type="pmid">22727409</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Moltke</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Fumagalli</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Korneliussen</surname> <given-names>TS</given-names></name>, <name name-style="western"><surname>Crawford</surname> <given-names>JE</given-names></name>, <name name-style="western"><surname>Bjerregaard</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Jørgensen</surname> <given-names>ME</given-names></name>, <etal>et al</etal>. <article-title>Uncovering the Genetic History of the Present-Day Greenlandic Population</article-title>. <source>Am J Hum Genet. The American Society of Human Genetics</source>; <year>2015</year>;<volume>96</volume>: <fpage>54</fpage>–<lpage>69</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.ajhg.2014.11.012" xlink:type="simple">10.1016/j.ajhg.2014.11.012</ext-link></comment></mixed-citation></ref>
+<ref id="pgen.1006119.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Moltke</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Grarup</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Jørgensen</surname> <given-names>ME</given-names></name>, <name name-style="western"><surname>Bjerregaard</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Treebak</surname> <given-names>JT</given-names></name>, <name name-style="western"><surname>Fumagalli</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>A common Greenlandic TBC1D4 variant confers muscle insulin resistance and type 2 diabetes</article-title>. <source>Nature. Nature Publishing Group</source>; <year>2014</year>;<volume>512</volume>: <fpage>190</fpage>–<lpage>193</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nature13425" xlink:type="simple">10.1038/nature13425</ext-link></comment></mixed-citation></ref>
+<ref id="pgen.1006119.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jeppesen</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Jørgensen</surname> <given-names>ME</given-names></name>, <name name-style="western"><surname>Bjerregaard</surname> <given-names>P</given-names></name>. <article-title>Assessment of consumption of marine food in Greenland by a food frequency questionnaire and biomarkers</article-title>. <source>Int J Circumpolar Health</source>. <year>2012</year>;<volume>71</volume>: <fpage>18361</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3402/ijch.v71i0.18361" xlink:type="simple">10.3402/ijch.v71i0.18361</ext-link></comment> <object-id pub-id-type="pmid">22663940</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fumagalli</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Moltke</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Grarup</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Racimo</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Bjerregaard</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Jorgensen</surname> <given-names>ME</given-names></name>, <etal>et al</etal>. <article-title>Greenlandic Inuit show genetic signatures of diet and climate adaptation</article-title>. <source>Science</source>. <year>2015</year>;<volume>349</volume>: <fpage>1343</fpage>–<lpage>1347</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1126/science.aab2319" xlink:type="simple">10.1126/science.aab2319</ext-link></comment> <object-id pub-id-type="pmid">26383953</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Soupene</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Kuypers</surname> <given-names>FA</given-names></name>. <article-title>Mammalian long-chain acyl-CoA synthetases</article-title>. <source>Exp Biol Med (Maywood)</source>. <year>2008</year>;<volume>233</volume>: <fpage>507</fpage>–<lpage>521</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3181/0710-MR-287" xlink:type="simple">10.3181/0710-MR-287</ext-link></comment></mixed-citation></ref>
+<ref id="pgen.1006119.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Grevengoed</surname> <given-names>TJ</given-names></name>, <name name-style="western"><surname>Klett</surname> <given-names>EL</given-names></name>, <name name-style="western"><surname>Coleman</surname> <given-names>RA</given-names></name>. <article-title>Acyl-CoA metabolism and partitioning</article-title>. <source>Annu Rev Nutr</source>. <year>2014</year>;<volume>34</volume>: <fpage>1</fpage>–<lpage>30</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1146/annurev-nutr-071813-105541" xlink:type="simple">10.1146/annurev-nutr-071813-105541</ext-link></comment> <object-id pub-id-type="pmid">24819326</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fujino</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Yamamoto</surname> <given-names>T</given-names></name>. <article-title>Cloning and functional expression of a novel long-chain acyl-CoA synthetase expressed in brain</article-title>. <source>J Biochem</source>. <year>1992</year>;<volume>111</volume>: <fpage>197</fpage>–<lpage>203</lpage>. <object-id pub-id-type="pmid">1569043</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jakobsson</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Westerberg</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Jacobsson</surname> <given-names>A</given-names></name>. <article-title>Fatty acid elongases in mammals: their regulation and roles in metabolism</article-title>. <source>Prog Lipid Res</source>. <year>2006</year>;<volume>45</volume>: <fpage>237</fpage>–<lpage>249</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.plipres.2006.01.004" xlink:type="simple">10.1016/j.plipres.2006.01.004</ext-link></comment> <object-id pub-id-type="pmid">16564093</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Marszalek</surname> <given-names>JR</given-names></name>, <name name-style="western"><surname>Kitidis</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Dirusso</surname> <given-names>CC</given-names></name>, <name name-style="western"><surname>Lodish</surname> <given-names>HF</given-names></name>. <article-title>Long-chain acyl-CoA synthetase 6 preferentially promotes DHA metabolism</article-title>. <source>J Biol Chem</source>. <year>2005</year>;<volume>280</volume>: <fpage>10817</fpage>–<lpage>10826</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1074/jbc.M411750200" xlink:type="simple">10.1074/jbc.M411750200</ext-link></comment> <object-id pub-id-type="pmid">15655248</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Van Horn</surname> <given-names>CG</given-names></name>, <name name-style="western"><surname>Caviglia</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>LO</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Granger</surname> <given-names>DA</given-names></name>, <name name-style="western"><surname>Coleman</surname> <given-names>RA</given-names></name>. <article-title>Characterization of Recombinant Long-Chain Rat Acyl-CoA Synthetase Isoforms 3 and 6: Identification of a Novel Variant of Isoform 6</article-title>. <source>Biochemistry</source>. <year>2005</year>;<volume>44</volume>: <fpage>1635</fpage>–<lpage>1642</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1021/bi047721l" xlink:type="simple">10.1021/bi047721l</ext-link></comment> <object-id pub-id-type="pmid">15683247</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Faergeman</surname> <given-names>NJ</given-names></name>, <name name-style="western"><surname>Knudsen</surname> <given-names>J</given-names></name>. <article-title>Role of long-chain fatty acyl-CoA esters in the regulation of metabolism and in cell signalling</article-title>. <source>Biochem J</source>. <year>1997</year>;<volume>323</volume> <issue>Pt 1</issue>: <fpage>1</fpage>–<lpage>12</lpage>. <object-id pub-id-type="pmid">9173866</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Neess</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Bek</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Engelsby</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Gallego</surname> <given-names>SF</given-names></name>, <name name-style="western"><surname>Færgeman</surname> <given-names>NJ</given-names></name>. <article-title>Long-chain acyl-CoA esters in metabolism and signaling: Role of acyl-CoA binding proteins</article-title>. <source>Prog Lipid Res</source>. <year>2015</year>;<volume>59</volume>: <fpage>1</fpage>–<lpage>25</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.plipres.2015.04.001" xlink:type="simple">10.1016/j.plipres.2015.04.001</ext-link></comment> <object-id pub-id-type="pmid">25898985</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pasaje</surname> <given-names>CFA</given-names></name>, <name name-style="western"><surname>Bae</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Park</surname> <given-names>B-L</given-names></name>, <name name-style="western"><surname>Jang</surname> <given-names>A-S</given-names></name>, <name name-style="western"><surname>Uh</surname> <given-names>S-T</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>M-K</given-names></name>, <etal>et al</etal>. <article-title>Association analysis of DTD1 gene variations with aspirin-intolerance in asthmatics</article-title>. <source>Int J Mol Med</source>. <year>2011</year>;<volume>28</volume>: <fpage>129</fpage>–<lpage>137</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3892/ijmm.2011.669" xlink:type="simple">10.3892/ijmm.2011.669</ext-link></comment> <object-id pub-id-type="pmid">21479357</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schroeder</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Atshaves</surname> <given-names>BP</given-names></name>, <name name-style="western"><surname>McIntosh</surname> <given-names>AL</given-names></name>, <name name-style="western"><surname>Gallegos</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Storey</surname> <given-names>SM</given-names></name>, <name name-style="western"><surname>Parr</surname> <given-names>RD</given-names></name>, <etal>et al</etal>. <article-title>Sterol carrier protein-2: new roles in regulating lipid rafts and signaling</article-title>. <source>Biochim Biophys Acta</source>. <year>2007</year>;<volume>1771</volume>: <fpage>700</fpage>–<lpage>718</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.bbalip.2007.04.005" xlink:type="simple">10.1016/j.bbalip.2007.04.005</ext-link></comment> <object-id pub-id-type="pmid">17543577</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Seedorf</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Ellinghaus</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Roch Nofer</surname> <given-names>J</given-names></name>. <article-title>Sterol carrier protein-2</article-title>. <source>Biochim Biophys Acta</source>. <year>2000</year>;<volume>1486</volume>: <fpage>45</fpage>–<lpage>54</lpage>. <object-id pub-id-type="pmid">10856712</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Edqvist</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Blomqvist</surname> <given-names>K</given-names></name>. <article-title>Fusion and fission, the evolution of sterol carrier protein-2</article-title>. <source>J Mol Evol</source>. <year>2006</year>;<volume>62</volume>: <fpage>292</fpage>–<lpage>306</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s00239-005-0086-3" xlink:type="simple">10.1007/s00239-005-0086-3</ext-link></comment> <object-id pub-id-type="pmid">16501878</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schaeffer</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Gohlke</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Müller</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Heid</surname> <given-names>IM</given-names></name>, <name name-style="western"><surname>Palmer</surname> <given-names>LJ</given-names></name>, <name name-style="western"><surname>Kompauer</surname> <given-names>I</given-names></name>, <etal>et al</etal>. <article-title>Common genetic variants of the FADS1 FADS2 gene cluster and their reconstructed haplotypes are associated with the fatty acid composition in phospholipids</article-title>. <source>Hum Mol Genet</source>. <year>2006</year>;<volume>15</volume>: <fpage>1745</fpage>–<lpage>1756</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/hmg/ddl117" xlink:type="simple">10.1093/hmg/ddl117</ext-link></comment> <object-id pub-id-type="pmid">16670158</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref035"><label>35</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Malerba</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Schaeffer</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Xumerle</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Klopp</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Trabetti</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Biscuola</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>SNPs of the FADS gene cluster are associated with polyunsaturated fatty acids in a cohort of patients with cardiovascular disease</article-title>. <source>Lipids</source>. <year>2008</year>;<volume>43</volume>: <fpage>289</fpage>–<lpage>299</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s11745-008-3158-5" xlink:type="simple">10.1007/s11745-008-3158-5</ext-link></comment> <object-id pub-id-type="pmid">18320251</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref036"><label>36</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rzehak</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Heinrich</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Klopp</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Schaeffer</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Hoff</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Wolfram</surname> <given-names>G</given-names></name>, <etal>et al</etal>. <article-title>Evidence for an association between genetic variants of the fatty acid desaturase 1 fatty acid desaturase 2 (FADS1 FADS2) gene cluster and the fatty acid composition of erythrocyte membranes</article-title>. <source>Br J Nutr</source>. <year>2009</year>;<volume>101</volume>: <fpage>20</fpage>–<lpage>26</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1017/S0007114508992564" xlink:type="simple">10.1017/S0007114508992564</ext-link></comment> <object-id pub-id-type="pmid">18479586</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref037"><label>37</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lattka</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Illig</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Heinrich</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Koletzko</surname> <given-names>B</given-names></name>. <article-title>FADS gene cluster polymorphisms: important modulators of fatty acid levels and their impact on atopic diseases</article-title>. <source>J Nutrigenet Nutrigenomics</source>. <year>2009</year>;<volume>2</volume>: <fpage>119</fpage>–<lpage>128</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1159/000235559" xlink:type="simple">10.1159/000235559</ext-link></comment> <object-id pub-id-type="pmid">19776639</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref038"><label>38</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bokor</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Dumont</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Spinneker</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Gonzalez-Gross</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Nova</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Widhalm</surname> <given-names>K</given-names></name>, <etal>et al</etal>. <article-title>Single nucleotide polymorphisms in the FADS gene cluster are associated with delta-5 and delta-6 desaturase activities estimated by serum fatty acid ratios</article-title>. <source>J Lipid Res</source>. <year>2010</year>;<volume>51</volume>: <fpage>2325</fpage>–<lpage>2333</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1194/jlr.M006205" xlink:type="simple">10.1194/jlr.M006205</ext-link></comment> <object-id pub-id-type="pmid">20427696</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref039"><label>39</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tanaka</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Shen</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Abecasis</surname> <given-names>GR</given-names></name>, <name name-style="western"><surname>Kisialiou</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Ordovas</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Guralnik</surname> <given-names>JM</given-names></name>, <etal>et al</etal>. <article-title>Genome-wide association study of plasma polyunsaturated fatty acids in the InCHIANTI Study</article-title>. <source>PLoS Genet</source>. <year>2009</year>;<volume>5</volume>: <fpage>e1000338</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pgen.1000338" xlink:type="simple">10.1371/journal.pgen.1000338</ext-link></comment> <object-id pub-id-type="pmid">19148276</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref040"><label>40</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lemaitre</surname> <given-names>RN</given-names></name>, <name name-style="western"><surname>Tanaka</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Tang</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Manichaikul</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Foy</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kabagambe</surname> <given-names>EK</given-names></name>, <etal>et al</etal>. <article-title>Genetic loci associated with plasma phospholipid n-3 fatty acids: a meta-analysis of genome-wide association studies from the CHARGE Consortium</article-title>. <source>PLoS Genet</source>. <year>2011</year>;<volume>7</volume>: <fpage>e1002193</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pgen.1002193" xlink:type="simple">10.1371/journal.pgen.1002193</ext-link></comment> <object-id pub-id-type="pmid">21829377</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref041"><label>41</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wu</surname> <given-names>JHY</given-names></name>, <name name-style="western"><surname>Lemaitre</surname> <given-names>RN</given-names></name>, <name name-style="western"><surname>Manichaikul</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Guan</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Tanaka</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Foy</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Genome-wide association study identifies novel loci associated with concentrations of four plasma phospholipid fatty acids in the de novo lipogenesis pathway: results from the Cohorts for Heart and Aging Research in Genomic Epidemiology (CHARGE) consortiu</article-title>. <source>Circ Cardiovasc Genet</source>. <year>2013</year>;<volume>6</volume>: <fpage>171</fpage>–<lpage>183</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1161/CIRCGENETICS.112.964619" xlink:type="simple">10.1161/CIRCGENETICS.112.964619</ext-link></comment> <object-id pub-id-type="pmid">23362303</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref042"><label>42</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Guan</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Steffen</surname> <given-names>BT</given-names></name>, <name name-style="western"><surname>Lemaitre</surname> <given-names>RN</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>JHY</given-names></name>, <name name-style="western"><surname>Tanaka</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Manichaikul</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Genome-wide association study of plasma N6 polyunsaturated fatty acids within the cohorts for heart and aging research in genomic epidemiology consortium</article-title>. <source>Circ Cardiovasc Genet</source>. <year>2014</year>;<volume>7</volume>: <fpage>321</fpage>–<lpage>331</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1161/CIRCGENETICS.113.000208" xlink:type="simple">10.1161/CIRCGENETICS.113.000208</ext-link></comment> <object-id pub-id-type="pmid">24823311</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref043"><label>43</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mozaffarian</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Kabagambe</surname> <given-names>EK</given-names></name>, <name name-style="western"><surname>Johnson</surname> <given-names>CO</given-names></name>, <name name-style="western"><surname>Lemaitre</surname> <given-names>RN</given-names></name>, <name name-style="western"><surname>Manichaikul</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Sun</surname> <given-names>Q</given-names></name>, <etal>et al</etal>. <article-title>Genetic loci associated with circulating phospholipid trans fatty acids: a meta-analysis of genome-wide association studies from the CHARGE Consortium</article-title>. <source>Am J Clin Nutr</source>. <year>2015</year>;<volume>101</volume>: <fpage>398</fpage>–<lpage>406</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3945/ajcn.114.094557" xlink:type="simple">10.3945/ajcn.114.094557</ext-link></comment> <object-id pub-id-type="pmid">25646338</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref044"><label>44</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tintle</surname> <given-names>NL</given-names></name>, <name name-style="western"><surname>Pottala</surname> <given-names>JV</given-names></name>, <name name-style="western"><surname>Lacey</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Ramachandran</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Westra</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Rogers</surname> <given-names>a.</given-names></name>, <etal>et al</etal>. <article-title>A genome-wide association study of saturated, mono- and polyunsaturated red blood cell fatty acids in the Framingham Heart Offspring Study</article-title>. <source>Prostaglandins, Leukot Essent Fat Acids. Elsevier</source>; <year>2015</year>;<volume>94</volume>: <fpage>65</fpage>–<lpage>72</lpage>.</mixed-citation></ref>
+<ref id="pgen.1006119.ref045"><label>45</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Park</surname> <given-names>JY</given-names></name>, <name name-style="western"><surname>Narayan</surname> <given-names>SB</given-names></name>, <name name-style="western"><surname>Bennett</surname> <given-names>MJ</given-names></name>. <article-title>Molecular assay for detection of the common carnitine palmitoyltransferase 1A 1436(C&gt;T) mutation</article-title>. <source>Clin Chem Lab Med</source>. <year>2006</year>;<volume>44</volume>: <fpage>1090</fpage>–<lpage>1091</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1515/CCLM.2006.196" xlink:type="simple">10.1515/CCLM.2006.196</ext-link></comment> <object-id pub-id-type="pmid">16958601</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref046"><label>46</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rajakumar</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Ban</surname> <given-names>MR</given-names></name>, <name name-style="western"><surname>Cao</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Young</surname> <given-names>TK</given-names></name>, <name name-style="western"><surname>Bjerregaard</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Hegele</surname> <given-names>RA</given-names></name>. <article-title>Carnitine palmitoyltransferase IA polymorphism P479L is common in Greenland Inuit and is associated with elevated plasma apolipoprotein A-I</article-title>. <source>J Lipid Res</source>. <year>2009</year>;<volume>50</volume>: <fpage>1223</fpage>–<lpage>1228</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1194/jlr.P900001-JLR200" xlink:type="simple">10.1194/jlr.P900001-JLR200</ext-link></comment> <object-id pub-id-type="pmid">19181627</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref047"><label>47</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lemas</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Wiener</surname> <given-names>HW</given-names></name>, <name name-style="western"><surname>O’Brien</surname> <given-names>DM</given-names></name>, <name name-style="western"><surname>Hopkins</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Stanhope</surname> <given-names>KL</given-names></name>, <name name-style="western"><surname>Havel</surname> <given-names>PJ</given-names></name>, <etal>et al</etal>. <article-title>Genetic polymorphisms in carnitine palmitoyltransferase 1A gene are associated with variation in body composition and fasting lipid traits in Yup’ik Eskimos</article-title>. <source>J Lipid Res</source>. <year>2012</year>;<volume>53</volume>: <fpage>175</fpage>–<lpage>184</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1194/jlr.P018952" xlink:type="simple">10.1194/jlr.P018952</ext-link></comment> <object-id pub-id-type="pmid">22045927</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref048"><label>48</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhou</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Xiong</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Xie</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Ambalavanan</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Bourassa</surname> <given-names>C V.</given-names></name>, <name name-style="western"><surname>Dionne-Laporte</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Increased Missense Mutation Burden of Fatty Acid Metabolism Related Genes in Nunavik Inuit Population</article-title>. <name name-style="western"><surname>Prokunina-Olsson</surname> <given-names>L</given-names></name>, editor. <source>PLoS One</source>. <year>2015</year>;<volume>10</volume>: <fpage>e0128255</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0128255" xlink:type="simple">10.1371/journal.pone.0128255</ext-link></comment> <object-id pub-id-type="pmid">26010953</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref049"><label>49</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Clemente</surname> <given-names>FJ</given-names></name>, <name name-style="western"><surname>Cardona</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Inchley</surname> <given-names>CE</given-names></name>, <name name-style="western"><surname>Peter</surname> <given-names>BM</given-names></name>, <name name-style="western"><surname>Jacobs</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Pagani</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>A Selective Sweep on a Deleterious Mutation in CPT1A in Arctic Populations</article-title>. <source>Am J Hum Genet</source>. <year>2014</year>;<volume>95</volume>: <fpage>584</fpage>–<lpage>589</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.ajhg.2014.09.016" xlink:type="simple">10.1016/j.ajhg.2014.09.016</ext-link></comment> <object-id pub-id-type="pmid">25449608</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref050"><label>50</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>McGarry</surname> <given-names>JD</given-names></name>, <name name-style="western"><surname>Brown</surname> <given-names>NF</given-names></name>. <article-title>The mitochondrial carnitine palmitoyltransferase system. From concept to molecular analysis</article-title>. <source>Eur J Biochem</source>. <year>1997</year>;<volume>244</volume>: <fpage>1</fpage>–<lpage>14</lpage>. <object-id pub-id-type="pmid">9063439</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref051"><label>51</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Swanson</surname> <given-names>ST</given-names></name>, <name name-style="western"><surname>Foster</surname> <given-names>DW</given-names></name>, <name name-style="western"><surname>McGarry</surname> <given-names>JD</given-names></name>, <name name-style="western"><surname>Brown</surname> <given-names>NF</given-names></name>. <article-title>Roles of the N- and C-terminal domains of carnitine palmitoyltransferase I isoforms in malonyl-CoA sensitivity of the enzymes: insights from expression of chimaeric proteins and mutation of conserved histidine residues</article-title>. <source>Biochem J</source>. <year>1998</year>;<volume>335</volume> <issue>Pt 3</issue>: <fpage>513</fpage>–<lpage>519</lpage>. <object-id pub-id-type="pmid">9794789</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref052"><label>52</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brown</surname> <given-names>NF</given-names></name>, <name name-style="western"><surname>Mullur</surname> <given-names>RS</given-names></name>, <name name-style="western"><surname>Subramanian</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Esser</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Bennett</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Saudubray</surname> <given-names>JM</given-names></name>, <etal>et al</etal>. <article-title>Molecular characterization of L-CPT I deficiency in six patients: insights into function of the native enzyme</article-title>. <source>J Lipid Res</source>. <year>2001</year>;<volume>42</volume>: <fpage>1134</fpage>–<lpage>1142</lpage>. <object-id pub-id-type="pmid">11441142</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref053"><label>53</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Akkaoui</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Cohen</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Esnous</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Lenoir</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Sournac</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Girard</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Modulation of the hepatic malonyl-CoA—carnitine palmitoyltransferase 1A partnership creates a metabolic switch allowing oxidation of de novo fatty acids 1</article-title>. <source>Biochem J</source>. <year>2009</year>;<volume>420</volume>: <fpage>429</fpage>–<lpage>438</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1042/BJ20081932" xlink:type="simple">10.1042/BJ20081932</ext-link></comment> <object-id pub-id-type="pmid">19302064</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref054"><label>54</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Voruganti</surname> <given-names>VS</given-names></name>, <name name-style="western"><surname>Higgins</surname> <given-names>PB</given-names></name>, <name name-style="western"><surname>Ebbesson</surname> <given-names>SOE</given-names></name>, <name name-style="western"><surname>Kennish</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Göring</surname> <given-names>HHH</given-names></name>, <name name-style="western"><surname>Haack</surname> <given-names>K</given-names></name>, <etal>et al</etal>. <article-title>Variants in CPT1A, FADS1, and FADS2 are Associated with Higher Levels of Estimated Plasma and Erythrocyte Delta-5 Desaturases in Alaskan Eskimos</article-title>. <source>Front Genet</source>. <year>2012</year>;<volume>3</volume>: <fpage>86</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3389/fgene.2012.00086" xlink:type="simple">10.3389/fgene.2012.00086</ext-link></comment> <object-id pub-id-type="pmid">22701466</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref055"><label>55</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Buckley</surname> <given-names>JD</given-names></name>, <name name-style="western"><surname>Howe</surname> <given-names>PRC</given-names></name>. <article-title>Anti-obesity effects of long-chain omega-3 polyunsaturated fatty acids</article-title>. <source>Obes Rev</source>. <year>2009</year>;<volume>10</volume>: <fpage>648</fpage>–<lpage>659</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1467-789X.2009.00584.x" xlink:type="simple">10.1111/j.1467-789X.2009.00584.x</ext-link></comment> <object-id pub-id-type="pmid">19460115</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref056"><label>56</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>Y-X</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>C-H</given-names></name>, <name name-style="western"><surname>Tiep</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Yu</surname> <given-names>RT</given-names></name>, <name name-style="western"><surname>Ham</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kang</surname> <given-names>H</given-names></name>, <etal>et al</etal>. <article-title>Peroxisome-proliferator-activated receptor delta activates fat metabolism to prevent obesity</article-title>. <source>Cell</source>. <year>2003</year>;<volume>113</volume>: <fpage>159</fpage>–<lpage>170</lpage>. <object-id pub-id-type="pmid">12705865</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref057"><label>57</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zurlo</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Lillioja</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Esposito-Del Puente</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Nyomba</surname> <given-names>BL</given-names></name>, <name name-style="western"><surname>Raz</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Saad</surname> <given-names>MF</given-names></name>, <etal>et al</etal>. <article-title>Low ratio of fat to carbohydrate oxidation as predictor of weight gain: study of 24-h RQ</article-title>. <source>Am J Physiol</source>. <year>1990</year>;<volume>259</volume>: <fpage>E650</fpage>–<lpage>657</lpage>. <object-id pub-id-type="pmid">2240203</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref058"><label>58</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Simoneau</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Veerkamp</surname> <given-names>JH</given-names></name>, <name name-style="western"><surname>Turcotte</surname> <given-names>LP</given-names></name>, <name name-style="western"><surname>Kelley</surname> <given-names>DE</given-names></name>. <article-title>Markers of capacity to utilize fatty acids in human skeletal muscle: relation to insulin resistance and obesity and effects of weight loss</article-title>. <source>FASEB J</source>. <year>1999</year>;<volume>13</volume>: <fpage>2051</fpage>–<lpage>2060</lpage>. <object-id pub-id-type="pmid">10544188</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref059"><label>59</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dobbins</surname> <given-names>RL</given-names></name>, <name name-style="western"><surname>Szczepaniak</surname> <given-names>LS</given-names></name>, <name name-style="western"><surname>Bentley</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Esser</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Myhill</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>McGarry</surname> <given-names>JD</given-names></name>. <article-title>Prolonged inhibition of muscle carnitine palmitoyltransferase-1 promotes intramyocellular lipid accumulation and insulin resistance in rats</article-title>. <source>Diabetes</source>. <year>2001</year>;<volume>50</volume>: <fpage>123</fpage>–<lpage>130</lpage>. <object-id pub-id-type="pmid">11147777</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref060"><label>60</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lemaitre</surname> <given-names>RN</given-names></name>, <name name-style="western"><surname>King</surname> <given-names>IB</given-names></name>, <name name-style="western"><surname>Kabagambe</surname> <given-names>EK</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>JHY</given-names></name>, <name name-style="western"><surname>McKnight</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Manichaikul</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Genetic loci associated with circulating levels of very long-chain saturated fatty acids</article-title>. <source>J Lipid Res</source>. <year>2015</year>;<volume>56</volume>: <fpage>176</fpage>–<lpage>184</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1194/jlr.M052456" xlink:type="simple">10.1194/jlr.M052456</ext-link></comment> <object-id pub-id-type="pmid">25378659</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref061"><label>61</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hicks</surname> <given-names>AA</given-names></name>, <name name-style="western"><surname>Pramstaller</surname> <given-names>PP</given-names></name>, <name name-style="western"><surname>Johansson</surname> <given-names>Å</given-names></name>, <name name-style="western"><surname>Vitart</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Rudan</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Ugocsai</surname> <given-names>P</given-names></name>, <etal>et al</etal>. <article-title>Genetic Determinants of Circulating Sphingolipid Concentrations in European Populations</article-title>. <name name-style="western"><surname>Gibson</surname> <given-names>G</given-names></name>, editor. <source>PLoS Genet</source>. <year>2009</year>;<volume>5</volume>: <fpage>e1000672</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pgen.1000672" xlink:type="simple">10.1371/journal.pgen.1000672</ext-link></comment> <object-id pub-id-type="pmid">19798445</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref062"><label>62</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Demirkan</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>van Duijn</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Ugocsai</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Isaacs</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Pramstaller</surname> <given-names>PP</given-names></name>, <name name-style="western"><surname>Liebisch</surname> <given-names>G</given-names></name>, <etal>et al</etal>. <article-title>Genome-wide association study identifies novel loci associated with circulating phospho- and sphingolipid concentrations</article-title>. <source>PLoS Genet</source>. <year>2012</year>;<volume>8</volume>: <fpage>e1002490</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pgen.1002490" xlink:type="simple">10.1371/journal.pgen.1002490</ext-link></comment> <object-id pub-id-type="pmid">22359512</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref063"><label>63</label><mixed-citation publication-type="other" xlink:type="simple">Bjerregaard P. Inuit Health in Transition Greenland survey 2005–2010 Population sample and survey methods [Internet]. 2011. Available: <ext-link ext-link-type="uri" xlink:href="http://www.si-folkesundhed.dk/upload/inuit_health_in_transition_greenland_methods_5_2nd_revision.pdf" xlink:type="simple">http://www.si-folkesundhed.dk/upload/inuit_health_in_transition_greenland_methods_5_2nd_revision.pdf</ext-link></mixed-citation></ref>
+<ref id="pgen.1006119.ref064"><label>64</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bjerregaard</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Curtis</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Borch-Johnsen</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Mulvad</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Becker</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Andersen</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Inuit health in Greenland: a population survey of life style and disease in Greenland and among Inuit living in Denmark</article-title>. <source>Int J Circumpolar Health</source>. <year>2003</year>;<volume>62</volume> <issue>Suppl 1</issue>: <fpage>3</fpage>–<lpage>79</lpage>. <object-id pub-id-type="pmid">14527126</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref065"><label>65</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Matthews</surname> <given-names>DR</given-names></name>, <name name-style="western"><surname>Hosker</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Rudenski</surname> <given-names>AS</given-names></name>, <name name-style="western"><surname>Naylor</surname> <given-names>BA</given-names></name>, <name name-style="western"><surname>Treacher</surname> <given-names>DF</given-names></name>, <name name-style="western"><surname>Turner</surname> <given-names>RC</given-names></name>. <article-title>Homeostasis model assessment: insulin resistance and beta-cell function from fasting plasma glucose and insulin concentrations in man</article-title>. <source>Diabetologia</source>. <year>1985</year>;<volume>28</volume>: <fpage>412</fpage>–<lpage>419</lpage>. <object-id pub-id-type="pmid">3899825</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref066"><label>66</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bjerregaard</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Pedersen</surname> <given-names>HS</given-names></name>, <name name-style="western"><surname>Mulvad</surname> <given-names>G</given-names></name>. <article-title>The associations of a marine diet with plasma lipids, blood glucose, blood pressure and obesity among the inuit in Greenland</article-title>. <source>Eur J Clin Nutr</source>. <year>2000</year>;<volume>54</volume>: <fpage>732</fpage>–<lpage>737</lpage>. <object-id pub-id-type="pmid">11002386</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref067"><label>67</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Voight</surname> <given-names>BF</given-names></name>, <name name-style="western"><surname>Kang</surname> <given-names>HM</given-names></name>, <name name-style="western"><surname>Ding</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Palmer</surname> <given-names>CD</given-names></name>, <name name-style="western"><surname>Sidore</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Chines</surname> <given-names>PS</given-names></name>, <etal>et al</etal>. <article-title>The metabochip, a custom genotyping array for genetic studies of metabolic, cardiovascular, and anthropometric traits</article-title>. <source>PLoS Genet. Medical Population Genetics, The Broad Institute of Harvard and Massachusetts Institute of Technology, Cambridge, Massachusetts, United States of America</source>.; <year>2012</year>;<volume>8</volume>: <fpage>e1002793</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pgen.1002793" xlink:type="simple">10.1371/journal.pgen.1002793</ext-link></comment>;</mixed-citation></ref>
+<ref id="pgen.1006119.ref068"><label>68</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Delaneau</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Zagury</surname> <given-names>J-F</given-names></name>. <chapter-title>Data Production and Analysis in Population Genomics</chapter-title> [Internet]. <name name-style="western"><surname>Pompanon</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Bonin</surname> <given-names>A</given-names></name>, editors. <source>Methods in molecular biology (Clifton, N.J.)</source>. <publisher-loc>Totowa, NJ</publisher-loc>: <publisher-name>Humana Press</publisher-name>; <year>2012</year>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/978-1-61779-870-2" xlink:type="simple">10.1007/978-1-61779-870-2</ext-link></comment></mixed-citation></ref>
+<ref id="pgen.1006119.ref069"><label>69</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Howie</surname> <given-names>BN</given-names></name>, <name name-style="western"><surname>Donnelly</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Marchini</surname> <given-names>J</given-names></name>. <article-title>A flexible and accurate genotype imputation method for the next generation of genome-wide association studies</article-title>. <source>PLoS Genet</source>. <year>2009</year>;<volume>5</volume>: <fpage>e1000529</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pgen.1000529" xlink:type="simple">10.1371/journal.pgen.1000529</ext-link></comment> <object-id pub-id-type="pmid">19543373</object-id></mixed-citation></ref>
+<ref id="pgen.1006119.ref070"><label>70</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhou</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Stephens</surname> <given-names>M</given-names></name>. <article-title>Genome-wide efficient mixed-model analysis for association studies</article-title>. <source>Nat Genet</source>. <year>2012</year>;<volume>44</volume>: <fpage>821</fpage>–<lpage>824</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/ng.2310" xlink:type="simple">10.1038/ng.2310</ext-link></comment> <object-id pub-id-type="pmid">22706312</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

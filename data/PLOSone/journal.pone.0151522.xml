@@ -1,0 +1,1326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article article-type="research-article" dtd-version="3.0" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0151522</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-15-44791</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Plants</subject><subj-group><subject>Brassica</subject><subj-group><subject>Arabidopsis thaliana</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Model organisms</subject><subj-group><subject>Plant and algal models</subject><subj-group><subject>Arabidopsis thaliana</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>Gene expression</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Molecular biology</subject><subj-group><subject>Molecular biology techniques</subject><subj-group><subject>Sequencing techniques</subject><subj-group><subject>Sequence analysis</subject><subj-group><subject>Sequence motif analysis</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Molecular biology techniques</subject><subj-group><subject>Sequencing techniques</subject><subj-group><subject>Sequence analysis</subject><subj-group><subject>Sequence motif analysis</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Hormones</subject><subj-group><subject>Plant hormones</subject><subj-group><subject>Auxins</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Plant biochemistry</subject><subj-group><subject>Plant hormones</subject><subj-group><subject>Auxins</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Plant science</subject><subj-group><subject>Plant biochemistry</subject><subj-group><subject>Plant hormones</subject><subj-group><subject>Auxins</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Database and informatics methods</subject><subj-group><subject>Biological databases</subject><subj-group><subject>Genomic databases</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Computational biology</subject><subj-group><subject>Genome analysis</subject><subj-group><subject>Genomic databases</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>Genomics</subject><subj-group><subject>Genome analysis</subject><subj-group><subject>Genomic databases</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>Genomics</subject><subj-group><subject>Plant genomics</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biotechnology</subject><subj-group><subject>Plant biotechnology</subject><subj-group><subject>Plant genomics</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Plant science</subject><subj-group><subject>Plant biotechnology</subject><subj-group><subject>Plant genomics</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>Plant genetics</subject><subj-group><subject>Plant genomics</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Plant science</subject><subj-group><subject>Plant genetics</subject><subj-group><subject>Plant genomics</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Agriculture</subject><subj-group><subject>Crop science</subject><subj-group><subject>Crops</subject><subj-group><subject>Cereal crops</subject><subj-group><subject>Maize</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Plants</subject><subj-group><subject>Grasses</subject><subj-group><subject>Maize</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Model organisms</subject><subj-group><subject>Plant and algal models</subject><subj-group><subject>Maize</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Proteins</subject><subj-group><subject>Protein domains</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Genome-Wide Analysis and Characterization of Aux/IAA Family Genes in <italic>Brassica rapa</italic></article-title>
+<alt-title alt-title-type="running-head">Aux/IAA Genes in <italic>B</italic>. <italic>rapa</italic></alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Paul</surname>
+<given-names>Parameswari</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Dhandapani</surname>
+<given-names>Vignesh</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Rameneni</surname>
+<given-names>Jana Jeevan</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Li</surname>
+<given-names>Xiaonan</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Sivanandhan</surname>
+<given-names>Ganesan</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Choi</surname>
+<given-names>Su Ryun</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Pang</surname>
+<given-names>Wenxing</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Im</surname>
+<given-names>Subin</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Lim</surname>
+<given-names>Yong Pyo</given-names>
+</name>
+<xref ref-type="corresp" rid="cor001">*</xref>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+</contrib-group>
+<aff id="aff001"><addr-line>Molecular Genetics and Genomics Laboratory, Department of Horticulture, Chungnam National University, Daejeon, 305764, South Korea</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Li</surname>
+<given-names>Maoteng</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Huazhong university of Science and Technology, CHINA</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="con" id="contrib001">
+<p>Conceived and designed the experiments: PP VD. Performed the experiments: JJR XL GS WP SI. Analyzed the data: PP VD SRC YPL. Contributed reagents/materials/analysis tools: SRC YPL. Wrote the paper: PP VD.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">yplim@cnu.ac.kr</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>6</day>
+<month>4</month>
+<year>2016</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2016</year>
+</pub-date>
+<volume>11</volume>
+<issue>4</issue>
+<elocation-id>e0151522</elocation-id>
+<history>
+<date date-type="received">
+<day>12</day>
+<month>10</month>
+<year>2015</year>
+</date>
+<date date-type="accepted">
+<day>28</day>
+<month>2</month>
+<year>2016</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2016</copyright-year>
+<copyright-holder>Paul et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0151522"/>
+<abstract>
+<p>Auxins are the key players in plant growth development involving leaf formation, phototropism, root, fruit and embryo development. Auxin/Indole-3-Acetic Acid (Aux/IAA) are early auxin response genes noted as transcriptional repressors in plant auxin signaling. However, many studies focus on Aux/ARF gene families and much less is known about the Aux/IAA gene family in <italic>Brassica rapa</italic> (<italic>B</italic>. <italic>rapa</italic>). Here we performed a comprehensive genome-wide analysis and identified 55 Aux/IAA genes in <italic>B</italic>. <italic>rapa</italic> using four conserved motifs of Aux/IAA family (PF02309). Chromosomal mapping of the <italic>B</italic>. <italic>rapa</italic> Aux/IAA (<italic>BrIAA</italic>) genes facilitated understanding cluster rearrangement of the crucifer building blocks in the genome. Phylogenetic analysis of <italic>BrIAA</italic> with <italic>Arabidopsis thaliana</italic>, <italic>Oryza sativa</italic> and <italic>Zea mays</italic> identified 51 sister pairs including 15 same species (<italic>BrIAA</italic>—<italic>BrIAA</italic>) and 36 cross species (<italic>BrIAA</italic>—<italic>AtIAA</italic>) <italic>IAA</italic> genes. Among the 55 <italic>BrIAA</italic> genes, expression of 43 and 45 genes were verified using Genebank <italic>B</italic>. <italic>rapa</italic> ESTs and in home developed microarray data from mature leaves of Chiifu and RcBr lines. Despite their huge morphological difference, tissue specific expression analysis of <italic>BrIAA</italic> genes between the parental lines Chiifu and RcBr showed that the genes followed a similar pattern of expression during leaf development and a different pattern during bud, flower and siliqua development stages. The response of the <italic>BrIAA</italic> genes to abiotic and auxin stress at different time intervals revealed their involvement in stress response. Single Nucleotide Polymorphisms between <italic>IAA</italic> genes of reference genome Chiifu and RcBr were focused and identified. Our study examines the scope of conservation and divergence of Aux/IAA genes and their structures in <italic>B</italic>. <italic>rapa</italic>. Analyzing the expression and structural variation between two parental lines will significantly contribute to functional genomics of <italic>Brassica</italic> crops and we belive our study would provide a foundation in understanding the Aux/IAA genes in <italic>B</italic>. <italic>rapa</italic>.</p>
+</abstract>
+<funding-group>
+<funding-statement>This research was supported by the Golden Seed Project (No. 213002-04-4-SBI30), Ministry of Agriculture, Food and Rural Affairs (MAFRA), Ministry of Oceans and Fisheries (MOF), Rural Development Administration (RDA) and Korea Forest Service (KFS).</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="5"/>
+<table-count count="2"/>
+<page-count count="19"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Auxin is the most important hormone involved in many plant organ development processes like root, flower, leaf and fruit, and regulates plant responses including phototropism, gravitropism, apical dominance and cell elongation [<xref ref-type="bibr" rid="pone.0151522.ref001">1</xref>, <xref ref-type="bibr" rid="pone.0151522.ref002">2</xref>]. Auxin/indole-3-acetic acid (Aux/IAA) hormones are primary responsive auxin genes that are short-lived and localize in nucleus, conversely some Aux/IAA proteins are long-lived and not degraded easily. The Aux/IAA proteins are generally conserved with four characteristic motifs referred to as domain-I, -II, -III and -IV, however proteins lacking one or two of these domains were also included in this gene family [<xref ref-type="bibr" rid="pone.0151522.ref001">1</xref>]. Domain-I contains a leucine rich repeat motif represented by “LxLxL” and functions as a repression domain that interacts with TOPLESS (<italic>TPL</italic>) co-repressor [<xref ref-type="bibr" rid="pone.0151522.ref003">3</xref>]. Domain-II is highly conserved playing a major role in protein stability and it’s required for auxin-regulated signaling by interacting with a component of transport inhibitor response 1 (<italic>TIR1</italic>) [<xref ref-type="bibr" rid="pone.0151522.ref004">4</xref>]. Mutations occurring in this domain affect the interaction and results in low auxin response. Domain-III and -IV are involved in Aux/IAA and/or ARF proteins homo- and hetrodimerization [<xref ref-type="bibr" rid="pone.0151522.ref001">1</xref>]. Aux/IAA proteins bind to the associate ARF proteins by the domains III/IV and repress the ARF activity. Aux/IAA proteins are ubiquitinated through auxin induced SCF<sup>TIR1</sup> complex and degraded by 26S proteasome in active condition [<xref ref-type="bibr" rid="pone.0151522.ref004">4</xref>]. Studying the auxin regulator activity is highly complex due to the large number of Aux/IAA gene families, variations, expression patterns, auxin mediated transcriptional and posttranscriptional regulations.</p>
+<p>To understand the molecular mechanism of Aux/IAA genes, they were isolated and studied in different plant species like soybean, pea, <italic>Arabidopsis thaliana</italic>, <italic>Populus trichocarpa</italic> and Rice [<xref ref-type="bibr" rid="pone.0151522.ref005">5</xref>–<xref ref-type="bibr" rid="pone.0151522.ref008">8</xref>]. In <italic>A</italic>. <italic>thaliana</italic> the Aux/IAA genes were identified to mediate light response. In tomato the genes were noted as active repressors of auxin dependant gene transcription. Recently in cucumber and citrus their association with auxin induction and development of citrus organs have been analyzed and reported. It was also found that Aux/IAA proteins influence root initiation, vascular and organ development, apical dominance, flower and fruit growth of plant system. Other than their involvement in plant development their role during early phase of <italic>Sinorhizobium meliloti</italic> infection were also analyzed in <italic>Medicaga truncatula</italic>. Despite the knowledge of Aux/IAA gene family, in plants like chickpea and soybean they have just been identified and many questions about their function remained unknown. Information of <italic>Aux/IAA</italic> genes in vegetable crops is very limited and uncharacterized especially in <italic>Brassica</italic> genome. Recent publication of the <italic>Brassica rapa</italic> whole genome sequence provided a quantum leap in understanding the genome structure and facilitated the characterization of many genes [<xref ref-type="bibr" rid="pone.0151522.ref009">9</xref>]. Studying the role of Aux/IAA genes in <italic>B</italic>. <italic>rapa</italic>, a model organism for the <italic>Brassica</italic> species, could provide better understanding about the functional attributes of this gene family in <italic>Brassicas</italic> and also stimulate further researches in related organisms. Here we aimed the genome wide identification and organization of Aux/IAA genes, prediction of the related proteins domains and their architechture and furthermore, to identify the single nucleotide polymorphisms (SNPs) between the Aux/IAA genes of Chiifu and Rapid cycling <italic>B</italic>. <italic>rapa</italic> (RcBr) inbred lines. The identified putative candidate genes were utilized to trace the <italic>A</italic>. <italic>thaliana</italic> homologues genes, similar <italic>B</italic>. <italic>rapa</italic> ESTs from GenBank and expressed sequences from in-home developed chip sequences of Chiifu and RcBr inbred lines by bioinformatics using comparative analysis. Expression of multiple <italic>B</italic>. <italic>rapa IAA</italic> genes were checked by Semi quantitative real time PCR (semi qRT-PCR) analysis and an auxin treatment was carried out to analyze the expression pattern of the genes. The obtained would expedite future research to analyze in detail the functions of Aux/IAA genes in <italic>Brassica</italic>.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="sec003">
+<title>Isolation of <italic>B</italic>. <italic>rapa Aux/IAA</italic> family genes</title>
+<p>All 41,019 genes of <italic>B</italic>. <italic>rapa</italic> were downloaded from BRAD database (<ext-link ext-link-type="uri" xlink:href="http://Brassicadb.org/brad/" xlink:type="simple">http://Brassicadb.org/brad/</ext-link>). The alignments of Aux/IAA gene family under Pfam (<ext-link ext-link-type="uri" xlink:href="http://pfam.sanger.ac.uk/" xlink:type="simple">http://pfam.sanger.ac.uk/</ext-link>) accession PF02309 in Stockholm format was used for a Hidden Morkov Model (HMM) search. The PF02309 based domains in <italic>B</italic>. <italic>rapa</italic> proteins were identified using HMMER software with E-value cut off 1.0. Later a Pfam batch search was performed to the filtered <italic>B</italic>. <italic>rapa</italic> genes obtained from HMM search to confirm gene family. Then SMART (<ext-link ext-link-type="uri" xlink:href="http://smart.embl-heidelberg.de/" xlink:type="simple">http://smart.embl-heidelberg.de/</ext-link>) and InterProScan (<ext-link ext-link-type="uri" xlink:href="http://www.ebi.ac.uk/Tools/pfa/iprscan/" xlink:type="simple">http://www.ebi.ac.uk/Tools/pfa/iprscan/</ext-link>) web servers were used to examine the conserved domains from identified <italic>B</italic>. <italic>rapa</italic> genes. Finally the candidate <italic>B</italic>. <italic>rapa</italic> Aux/IAA (<italic>BrIAA</italic>) genes were compared to UniProt Knowledgebase (UniProtKB—<ext-link ext-link-type="uri" xlink:href="http://www.uniprot.org/help/uniprotkb" xlink:type="simple">http://www.uniprot.org/help/uniprotkb</ext-link>) to validate with their homologues in other species.</p>
+</sec>
+<sec id="sec004">
+<title>Motif discovery and Phylogenetic of <italic>B</italic>. <italic>rapa Aux/IAA</italic> proteins</title>
+<p>The conserved motifs of <italic>B</italic>. <italic>rapa</italic>, <italic>A</italic>. <italic>thaliana</italic>, <italic>O</italic>. <italic>sativa</italic> and <italic>Z</italic>. <italic>mays</italic> Aux/IAA genes were identified using MEME web server (<ext-link ext-link-type="uri" xlink:href="http://meme.nbcr.net/" xlink:type="simple">http://meme.nbcr.net</ext-link>). Motifs’ satisfying the following criteria were only considered: (i) the occurrences of a single motif among the sequences allowed to zero or one per sequence; (ii) Optimum width of each motif limits between 5 to 300; (iii) Five maximum number of motifs admitted to search. Multiple sequence alignment was performed by downloading the Aux/IAA genes of <italic>A</italic>. <italic>thaliana</italic>, <italic>O</italic>. <italic>sativa</italic> and <italic>Z</italic>. <italic>mays</italic> and aligning with <italic>BrIAA</italic> genes using ClustalX algorithm. Phylogenetic tree was generated using neighbor-joining method with 1000 bootstrap test by MEGA 5.05 software.</p>
+</sec>
+<sec id="sec005">
+<title>Mapping <italic>BrIAA</italic> in the genome of <italic>B</italic>. <italic>rapa</italic></title>
+<p>Chromosomal distributions of <italic>BrIAA</italic> were determined by comparing the identified sequence of the <italic>BrIAA</italic> to whole genome sequence of <italic>B</italic>. <italic>rapa</italic> downloaded from BRAD database. The comparison was done by BLAT software (<ext-link ext-link-type="uri" xlink:href="http://genome.ucsc.edu/cgi-bin/hgBlat" xlink:type="simple">http://genome.ucsc.edu/cgi-bin/hgBlat</ext-link>). The structure of each gene was retrieved from BRAD database GFF file using our own perl script (The scripts are available on request). Resulted genomic sequence structure was examined by Gene Structure Display Server (<ext-link ext-link-type="uri" xlink:href="http://gsds.cbi.pku.edu.cn/" xlink:type="simple">http://gsds.cbi.pku.edu.cn/</ext-link>).</p>
+</sec>
+<sec id="sec006">
+<title>Comparative analysis and Expression profiling of <italic>BrIAA</italic></title>
+<p>The recent version of <italic>A</italic>. <italic>thaliana</italic> gene models (41,671) was downloaded from TAIR database (<ext-link ext-link-type="uri" xlink:href="http://arabidopsis.org/" xlink:type="simple">http://arabidopsis.org/</ext-link>) for a synteny analysis between genomes since <italic>A</italic>. <italic>thaliana</italic> is close relative of <italic>B</italic>. <italic>rapa</italic>. We performed megaBLAST and annotated similar genes along with the genomic block information by combining the similar <italic>A</italic>. <italic>thaliana</italic> genes and genome location in <italic>B</italic>. <italic>rapa</italic>. Additionally over 200,000 <italic>B</italic>. <italic>rapa</italic> ESTs were downloaded from NCBI GenBank EST database and assembled to find the unigenes by CAP3 software (<ext-link ext-link-type="uri" xlink:href="http://pbil.univ-lyon1.fr/cap3.php" xlink:type="simple">http://pbil.univ-lyon1.fr/cap3.php</ext-link>) after removing repeats and low complexity sequence by RepeatMasker software (<ext-link ext-link-type="uri" xlink:href="http://www.repeatmasker.org/" xlink:type="simple">http://www.repeatmasker.org/</ext-link>) following similar methods of our previous publication [<xref ref-type="bibr" rid="pone.0151522.ref010">10</xref>]. Further another megaBLAST was performed to identify the similar unigenes for <italic>B</italic>. <italic>rapa</italic> Aux/IAA genes. Go annotations were then carried out for the identified unigenes using blast2go utility.</p>
+</sec>
+<sec id="sec007">
+<title>RNA isolation, IAA treatment and RT-PCR</title>
+<p>Total RNA was extracted from 20-day-old leaf, bud, flower and siliqua samples of Chiifu, RcBr lines and semi quantitative RT-PCR analysis was performed using Aux/IAA gene-specific primer pairs listed in <xref ref-type="supplementary-material" rid="pone.0151522.s006">S1 Table</xref>. We used specific primer “BrActin” for <italic>B</italic>. <italic>rapa</italic> actin gene sequence as a control. One μg total RNA was reverse transcribed to first strand cDNAs using oligo (dT) 20 primer and ReverTra Ace reverse transcriptase (ToYoBo co.). The synthesis cDNAs were used as templates for PCR amplification as followed: 94°C for 5 min, 25–30 cycles of 94°C for 30s, 52°C for 30s, 72°C for 1 min, and final extension of 72°C for 7 min. The PCR products were then electrophoreses on a 1.2–1.5% agarose gel.</p>
+<p>For IAA treatment <italic>B</italic>. <italic>rapa</italic> seeds were surface sterilized, rinsed in sterile double distilled water and sown in Magenta vessels containing 50 ml of MS basal medium with 3% (w/v) sucrose and 0.8% (w/v) agar, pH 5.8. Plants were grown under light/dark condition with 24±26°C. After 10 days of culture, the seedlings (approx. 12 cm length) were transferred to MS liquid medium containing constant concentration of IAA (10 μM) and were collected at various time intervals (0, 24, 48, 72, and 96 h). Samples were put in liquid nitrogen and immediately stored in -80°C freezer. Now a semi quantitative RT-PCR was carried out using total RNA from leaf explants of IAA treated <italic>B</italic>. <italic>rapa</italic> and control plants by Trizol method. Semi-quantitative reverse transcription-polymerase chain reaction (RT-PCR) analysis was performed using the Aux gene-specific primer pairs (<xref ref-type="supplementary-material" rid="pone.0151522.s006">S1 Table</xref>). We used the specific primer ‘BraACTIN’ for the <italic>B</italic>. <italic>rapa</italic> actin gene sequences as a control again. One microgram of total RNA was reverse transcribed to the first-strand cDNAs by using an oligo (dT) 20 primer and RevertAid Reverse Transcriptase (Thermo Scientific). The synthesis cDNAs were used as templates for PCR amplification as follows: 94°C for 5 min; 25–30 cycles of 94°C for 30s, 60°C for 30s, and 72°C for 1 min; and a final extension at 72°C for 7 min. The PCR products were then electrophoresed on a 1.0% agarose gel.</p>
+<p>Real Time PCR was performed to quantify the stress treated plants with IAA treated <italic>B</italic>. <italic>rapa</italic> with a comparision to non-treated plants in order to evaluate the aux gene expression pattern. The synthesized cDNA (RevertAid Reverse Transcriptase) was diluted to 1:5 in DEPC water and subjected to qRT PCR analysis using SYBR Green Supermix in Crmatos instrument. BraActin gene was used as an internal control to estimate the relative transcript level of the gene tested. The conditions of the qRT-PCR are as follows 10 min at 95°C, followed by 40 cycles at 95°C for 15 s, 52°C for 20 s, and 72°C for 15 s. Relative fold differences were calculated based on the comparative Ct method (2<sup>-ΔΔCt</sup>). Three replicates were performed for each gene for qRT PCR analysis and heat map representation was illustrated using Ct value in online tool (CIMminer) (<ext-link ext-link-type="uri" xlink:href="http://discover.nci.nih.gov/cimminer/home.do" xlink:type="simple">http://discover.nci.nih.gov/cimminer/home.do</ext-link>).</p>
+</sec>
+<sec id="sec008">
+<title>Microarray analysis of Aux/IAA genes in <italic>B</italic>. <italic>rapa</italic> Chiifu and RcBr lines</title>
+<p>Our in-home developed and unpublished microarray information of Chiifu and RcBr inbred lines of <italic>B</italic>. <italic>rapa</italic> having wide morphological diversity, and was chosen to analyze the expression pattern of <italic>BrIAA</italic> genes. The microarray was prepared by isolating total RNA from mature healthy leaves of Chiifu and RcBr (inbred lines of <italic>B</italic>. <italic>rapa</italic>) and subjected to synthesis of Cy3-labeled target DNA fragments containing <italic>B</italic>. <italic>rapa</italic> 47,548 unigenes, manufactured by NimbleGen, Inc. (<ext-link ext-link-type="uri" xlink:href="http://www.nimblegen.com/" xlink:type="simple">http://www.nimblegen.com/</ext-link>). To assess the reproducibility of the microarray analysis, we repeated the experiment twice using independently prepared total RNAs. The data were normalized and processed with cubic spline normalization using quantiles to adjust signal variations between chips and Robust Multi-Chip Analysis (RMA) using a median polish algorithm implemented in NimbleScan (Workman et al., 2002; Irizarry et al., 2003). The <italic>BrIAA</italic> genes were compared to the microarray chip sequences using locally installed megaBLAST program, sequences with E-value cut-off 0.0001 and &gt;98% similarity were considered as expressed sequences. Redundant sequences were removed and the gene family was confirmed using BLASTx program. Fold values were also calculated for expressed <italic>BrIAA</italic> genes.</p>
+<p>We also utilized the cold, salt and drought treated KBGP-24K microarray to verify the expression of the identified genes [<xref ref-type="bibr" rid="pone.0151522.ref011">11</xref>].</p>
+</sec>
+<sec id="sec009">
+<title>SNP annotation between the genes of <italic>B</italic>. <italic>rapa</italic> Chiifu and RcBr lines</title>
+<p>Whole genome re-sequences of <italic>B</italic>. <italic>rapa</italic> parental line RcBr using Illumina GAII next generation sequencer with 30x coverage. After filtering and trimming low quality reads we achieved over 27x coverage. Draft genome <italic>B</italic>. <italic>rapa</italic> Chiifu line was used as reference genome to assembled RcBr reads with Bowtie2 software (<ext-link ext-link-type="uri" xlink:href="http://bowtie-bio.sourceforge.net/index.shtml" xlink:type="simple">http://bowtie-bio.sourceforge.net/index.shtml</ext-link>). SNPs and other variations were annotated by SAM and BCF tools following the provided manual (<ext-link ext-link-type="uri" xlink:href="http://samtools.sourceforge.net/" xlink:type="simple">http://samtools.sourceforge.net/</ext-link>). Identified <italic>B</italic>. <italic>rapa</italic> Aux/IAA genes were mapped to the RcBr genome and SNPs were mined by our own Perl script and confirmed with BLAT software.</p>
+</sec>
+</sec>
+<sec id="sec010" sec-type="results">
+<title>Results</title>
+<sec id="sec011">
+<title>Identification and characterization of Aux/IAA family genes in <italic>B</italic>. <italic>rapa</italic></title>
+<p>HMM based search for Aux/IAA gene family in <italic>B</italic>. <italic>rapa</italic> with Pfam accession PF02309 resulted in identification of 88 genes with Aux/IAA domain. After a careful verification 23 genes identified with B3 and ARF domains confirming auxin response factor gene family were removed. The resulted sequences were then searched again using Pfam batch search and 55 B. <italic>rapa</italic> genes with confidant Aux/IAA domain were confirmed as representatives of <italic>BrIAA</italic> gene family after a manual curation. All identified genes were searched against UniProt database using megaBLAST to further confirm the identification and found most of the top hits were matching Aux/IAA proteins from <italic>A</italic>. <italic>lyrata</italic> and <italic>A</italic>. <italic>thaliana</italic> genomes. The domains of the candidate genes were examined by SMART and InterProScan web servers. Forty five of the total genes were conserved with only one Aux/IAA domain, the remaining four genes consisted two Aux/IAA domain leaving the rest five with both Aux/IAA and non auxin domains like PB1, Psb28 and AP2 domains. Identified genes were named from <italic>BrIAA</italic>1 to <italic>BrIAA</italic>55 based on their domain conservation (<xref ref-type="table" rid="pone.0151522.t001">Table 1</xref>).</p>
+<table-wrap id="pone.0151522.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0151522.t001</object-id>
+<label>Table 1</label> <caption><title>The index of Aux/IAA genes in <italic>B</italic>. <italic>rapa</italic>.</title></caption>
+<alternatives>
+<graphic id="pone.0151522.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0151522.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"><bold>Gene</bold></th>
+<th align="left">Chr</th>
+<th align="left">BRAD ID</th>
+<th align="center">Exons &amp; Introns</th>
+<th align="left">Length</th>
+<th align="left">Unigene ID</th>
+<th align="left">At ID</th>
+<th align="left">Pfam domain</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><italic>BrIAA1</italic></td>
+<td align="left">A09</td>
+<td align="left">Bra032520</td>
+<td align="center">5&amp;4</td>
+<td align="left">1913</td>
+<td align="left">Contig5385</td>
+<td align="left">AT1G04250</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA2</italic></td>
+<td align="left">A08</td>
+<td align="left">Bra030560</td>
+<td align="center">5&amp;4</td>
+<td align="left">1577</td>
+<td align="left">Contig9475</td>
+<td align="left">AT1G04250</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA3</italic></td>
+<td align="left">A10</td>
+<td align="left">Bra015298</td>
+<td align="center">5&amp;4</td>
+<td align="left">1391</td>
+<td align="left">Contig1004</td>
+<td align="left">AT1G04250</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA4</italic></td>
+<td align="left">A10</td>
+<td align="left">Bra015297</td>
+<td align="center">3&amp;2</td>
+<td align="left">723</td>
+<td align="left">FY418515</td>
+<td align="left">AT1G04240</td>
+<td align="left">Aus/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA5</italic></td>
+<td align="left">A10</td>
+<td align="left">Bra015326</td>
+<td align="center">5&amp;4</td>
+<td align="left">1161</td>
+<td align="left">EX101336</td>
+<td align="left">AT1G04550</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA6</italic></td>
+<td align="left">A09</td>
+<td align="left">Bra032503</td>
+<td align="center">7&amp;6</td>
+<td align="left">2360</td>
+<td align="left">EX106196</td>
+<td align="left">AT1G04550</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA7</italic></td>
+<td align="left">A09</td>
+<td align="left">Bra026755</td>
+<td align="center">3&amp;2</td>
+<td align="left">655</td>
+<td align="left">L37504</td>
+<td align="left">AT1G15580</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA8</italic></td>
+<td align="left">A10</td>
+<td align="left">Bra015289</td>
+<td align="center">4&amp;3</td>
+<td align="left">1219</td>
+<td align="left">Contig7455</td>
+<td align="left">AT1G04100</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA9</italic></td>
+<td align="left">A08</td>
+<td align="left">Bra014303</td>
+<td align="center">5&amp;4</td>
+<td align="left">1409</td>
+<td align="left">EX109423</td>
+<td align="left">AT1G51950</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA10</italic></td>
+<td align="left">A06</td>
+<td align="left">Bra018938</td>
+<td align="center">5&amp;4</td>
+<td align="left">1312</td>
+<td align="left">EX094947</td>
+<td align="left">AT1G51950</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA11</italic></td>
+<td align="left">A06</td>
+<td align="left">Bra018993</td>
+<td align="center">3&amp;2</td>
+<td align="left">1038</td>
+<td align="left">GR720370</td>
+<td align="left">AT1G52830</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA12</italic></td>
+<td align="left">A07</td>
+<td align="left">Bra035185</td>
+<td align="center">4&amp;3</td>
+<td align="left">904</td>
+<td align="left">EX015600</td>
+<td align="left">AT1G80390</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA13</italic></td>
+<td align="left">A03</td>
+<td align="left">Bra001900</td>
+<td align="center">5&amp;4</td>
+<td align="left">1848</td>
+<td align="left">Contig3476</td>
+<td align="left">AT3G23050</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA14</italic></td>
+<td align="left">A05</td>
+<td align="left">Bra033886</td>
+<td align="center">5&amp;4</td>
+<td align="left">1929</td>
+<td align="left">Contig12621</td>
+<td align="left">AT3G23050</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA15</italic></td>
+<td align="left">A01</td>
+<td align="left">Bra040122</td>
+<td align="center">4&amp;3</td>
+<td align="left">1445</td>
+<td align="left">FY419128</td>
+<td align="left">AT3G04730</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA16</italic></td>
+<td align="left">Scaffold000203</td>
+<td align="left">Bra040398</td>
+<td align="center">5&amp;4</td>
+<td align="left">1537</td>
+<td align="left">Contig1782</td>
+<td align="left">AT3G04730</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA17</italic></td>
+<td align="left">A05</td>
+<td align="left">Bra022164</td>
+<td align="center">5&amp;4</td>
+<td align="left">1469</td>
+<td align="left">Contig8735</td>
+<td align="left">AT3G16500</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA18</italic></td>
+<td align="left">A01</td>
+<td align="left">Bra021184</td>
+<td align="center">5&amp;4</td>
+<td align="left">1381</td>
+<td align="left">EX025736</td>
+<td align="left">AT3G16500</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA19</italic></td>
+<td align="left">A01</td>
+<td align="left">Bra021117</td>
+<td align="center">3&amp;2</td>
+<td align="left">1158</td>
+<td align="left">EX089451</td>
+<td align="left">AT3G15540</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA20</italic></td>
+<td align="left">A03</td>
+<td align="left">Bra001598</td>
+<td align="center">3&amp;2</td>
+<td align="left">1090</td>
+<td align="left">EX128302</td>
+<td align="left">AT3G15540</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA21</italic></td>
+<td align="left">A05</td>
+<td align="left">Bra027232</td>
+<td align="center">3&amp;2</td>
+<td align="left">1243</td>
+<td align="left">Contig5848</td>
+<td align="left">AT3G15540</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA22</italic></td>
+<td align="left">A03</td>
+<td align="left">Bra001634</td>
+<td align="center">5&amp;4</td>
+<td align="left">1299</td>
+<td align="left">Contig5860</td>
+<td align="left">AT3G16500</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA23</italic></td>
+<td align="left">A04</td>
+<td align="left">Bra030219</td>
+<td align="center">5&amp;4</td>
+<td align="left">1119</td>
+<td align="left">Contig18210</td>
+<td align="left">AT2G22670</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA24</italic></td>
+<td align="left">A03</td>
+<td align="left">Bra022934</td>
+<td align="center">4&amp;3</td>
+<td align="left">1231</td>
+<td align="left">Contig1521</td>
+<td align="left">AT2G33310</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA25</italic></td>
+<td align="left">A05</td>
+<td align="left">Bra005508</td>
+<td align="center">4&amp;3</td>
+<td align="left">1116</td>
+<td align="left">EX101243</td>
+<td align="left">AT2G33310</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA26</italic></td>
+<td align="left">A04</td>
+<td align="left">Bra040476</td>
+<td align="center">3&amp;2</td>
+<td align="left">862</td>
+<td align="left">NA</td>
+<td align="left">AT2G46990</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA27</italic></td>
+<td align="left">A07</td>
+<td align="left">Bra003484</td>
+<td align="center">3&amp;2</td>
+<td align="left">1005</td>
+<td align="left">NA</td>
+<td align="left">AT3G62100</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA28</italic></td>
+<td align="left">A09</td>
+<td align="left">Bra007661</td>
+<td align="center">3&amp;2</td>
+<td align="left">930</td>
+<td align="left">EE524500</td>
+<td align="left">AT3G62100</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA29</italic></td>
+<td align="left">A04</td>
+<td align="left">Bra014411</td>
+<td align="center">3&amp;2</td>
+<td align="left">890</td>
+<td align="left">Contig15454</td>
+<td align="left">AT3G62100</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA30</italic></td>
+<td align="left">A01</td>
+<td align="left">Bra021257</td>
+<td align="center">3&amp;2</td>
+<td align="left">401</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA31</italic></td>
+<td align="left">A06</td>
+<td align="left">Bra024898</td>
+<td align="center">3&amp;2</td>
+<td align="left">675</td>
+<td align="left">NA</td>
+<td align="left">AT2G01200</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA32</italic></td>
+<td align="left">A02</td>
+<td align="left">Bra020243</td>
+<td align="center">3&amp;2</td>
+<td align="left">649</td>
+<td align="left">NA</td>
+<td align="left">AT5G60450</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA33</italic></td>
+<td align="left">A09</td>
+<td align="left">Bra036557</td>
+<td align="center">4&amp;3</td>
+<td align="left">1128</td>
+<td align="left">EX100611</td>
+<td align="left">AT5G25890</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA34</italic></td>
+<td align="left">A08</td>
+<td align="left">Bra039855</td>
+<td align="center">5&amp;4</td>
+<td align="left">1883</td>
+<td align="left">EX110195</td>
+<td align="left">AT4G14550</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA35</italic></td>
+<td align="left">A08</td>
+<td align="left">Bra039732</td>
+<td align="center">2&amp;1</td>
+<td align="left">599</td>
+<td align="left">EX111917</td>
+<td align="left">AT4G14560</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA36</italic></td>
+<td align="left">A01</td>
+<td align="left">Bra011082</td>
+<td align="center">5&amp;4</td>
+<td align="left">1297</td>
+<td align="left">Contig10439</td>
+<td align="left">AT4G29080</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA37</italic></td>
+<td align="left">A01</td>
+<td align="left">Bra011045</td>
+<td align="center">5&amp;4</td>
+<td align="left">1395</td>
+<td align="left">NA</td>
+<td align="left">AT4G28640</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA38</italic></td>
+<td align="left">A08</td>
+<td align="left">Bra010338</td>
+<td align="center">4&amp;3</td>
+<td align="left">823</td>
+<td align="left">Contig10439</td>
+<td align="left">AT4G29080</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA39</italic></td>
+<td align="left">A01</td>
+<td align="left">Bra011332</td>
+<td align="center">4&amp;3</td>
+<td align="left">1037</td>
+<td align="left">NA</td>
+<td align="left">AT4G32280</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA40</italic></td>
+<td align="left">A03</td>
+<td align="left">Bra023958</td>
+<td align="center">4&amp;3</td>
+<td align="left">1152</td>
+<td align="left">NA</td>
+<td align="left">AT4G32280</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA41</italic></td>
+<td align="left">A09</td>
+<td align="left">Bra027504</td>
+<td align="center">3&amp;2</td>
+<td align="left">755</td>
+<td align="left">EX050560</td>
+<td align="left">AT5G43700</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA42</italic></td>
+<td align="left">A10</td>
+<td align="left">Bra002729</td>
+<td align="center">2&amp;1</td>
+<td align="left">941</td>
+<td align="left">NA</td>
+<td align="left">AT5G57420</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA43</italic></td>
+<td align="left">A09</td>
+<td align="left">Bra037824</td>
+<td align="center">5&amp;4</td>
+<td align="left">909</td>
+<td align="left">FY072042</td>
+<td align="left">AT5G65670</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA44</italic></td>
+<td align="left">A02</td>
+<td align="left">Bra031850</td>
+<td align="center">5&amp;4</td>
+<td align="left">1204</td>
+<td align="left">EX096729</td>
+<td align="left">AT5G65670</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA45</italic></td>
+<td align="left">A06</td>
+<td align="left">Bra024406</td>
+<td align="center">5&amp;4</td>
+<td align="left">1151</td>
+<td align="left">Contig17855</td>
+<td align="left">AT5G65670</td>
+<td align="left">Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA46</italic></td>
+<td align="left">A09</td>
+<td align="left">Bra031069</td>
+<td align="center">5&amp;4</td>
+<td align="left">1878</td>
+<td align="left">Contig3427</td>
+<td align="left">AT1G19220</td>
+<td align="left">Aux/IAA, AP2</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA47</italic></td>
+<td align="left">A09</td>
+<td align="left">Bra032521</td>
+<td align="center">3&amp;2</td>
+<td align="left">734</td>
+<td align="left">FY418515</td>
+<td align="left">AT1G04240</td>
+<td align="left">Aux/IAA, Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA48</italic></td>
+<td align="left">A05</td>
+<td align="left">Bra033890</td>
+<td align="center">2&amp;1</td>
+<td align="left">607</td>
+<td align="left">Contig6739</td>
+<td align="left">AT3G23030</td>
+<td align="left">Aux/IAA, Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA49</italic></td>
+<td align="left">A03</td>
+<td align="left">Bra001899</td>
+<td align="center">2&amp;1</td>
+<td align="left">603</td>
+<td align="left">FY070711</td>
+<td align="left">AT3G23030</td>
+<td align="left">Aux/IAA, Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA50</italic></td>
+<td align="left">A01</td>
+<td align="left">Bra023771</td>
+<td align="center">2&amp;1</td>
+<td align="left">600</td>
+<td align="left">EX111917</td>
+<td align="left">AT3G23030</td>
+<td align="left">Aux/IAA, Aux/IAA</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA51</italic></td>
+<td align="left">A06</td>
+<td align="left">Bra026166</td>
+<td align="center">4&amp;3</td>
+<td align="left">1280</td>
+<td align="left">NA</td>
+<td align="left">AT1G15050</td>
+<td align="left">Aux/IAA, EIIBC-GUT_N, Rhabdo_NV</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA52</italic></td>
+<td align="left">A03</td>
+<td align="left">Bra001670</td>
+<td align="center">5&amp;4</td>
+<td align="left">792</td>
+<td align="left">NA</td>
+<td align="left">AT3G17600</td>
+<td align="left">Aux/IAA, PB1</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA53</italic></td>
+<td align="left">A06</td>
+<td align="left">Bra009867</td>
+<td align="center">4&amp;3</td>
+<td align="left">1131</td>
+<td align="left">EX099226</td>
+<td align="left">AT5G25890</td>
+<td align="left">Aux/IAA, PB1</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA54</italic></td>
+<td align="left">A03</td>
+<td align="left">Bra024187</td>
+<td align="center">5&amp;4</td>
+<td align="left">2750</td>
+<td align="left">Contig13041</td>
+<td align="left">AT4G28640</td>
+<td align="left">Aux/IAA, Psb28</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA55</italic></td>
+<td align="left">A05</td>
+<td align="left">Bra022224</td>
+<td align="center">4&amp;3</td>
+<td align="left">738</td>
+<td align="left">NA</td>
+<td align="left">AT3G17600</td>
+<td align="left">Aux/IAA, Ribosomal_L30,PB1</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>Chr—chromosome; At ID—<italic>A</italic>. <italic>thaliana</italic> ID; NA—not available.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p><italic>BrIAA</italic> genes were mapped to all chromosomes of <italic>B</italic>. <italic>rapa</italic> except <italic>BrIAA</italic>16, which was mapped to scaffold000203 from BRAD database. Maximum number of genes <italic>i</italic>.<italic>e</italic> 8, 8 and 9 genes was localized on A01, A03 and A09 chromosome (<xref ref-type="fig" rid="pone.0151522.g001">Fig 1</xref>). Genome blocks of each gene were identified by comparing with the <italic>A</italic>. <italic>thaliana</italic> genome blocks [<xref ref-type="bibr" rid="pone.0151522.ref012">12</xref>]. Totally 50 genes were mapped to 14 genome blocks with 14 and 11 number of <italic>BrIAA</italic> genes in F and A blocks, respectively. <italic>BrIAA15</italic>, <italic>BrIAA38 and BrIAA53</italic> genes’ blocks were unknown, however, it was mapped in their respective chromosome without block information in <xref ref-type="fig" rid="pone.0151522.g001">Fig 1</xref>. Intronic and exonic regions were identified for each <italic>BrIAA</italic> gene by comparing the genomic sequences to genes and validated by <italic>B</italic>. <italic>rapa</italic> gene gff file. Most number of genes having 3 to 5 exons was conserved with single domain Aux/IAA. However, four genes <italic>BrIAA</italic>47, <italic>BrIAA</italic>48, <italic>BrIAA</italic>49 and <italic>BrIAA</italic>50 found with two IAA domains had lower number of exons and smaller sequence length than the average <italic>BrIAA</italic> genes (<xref ref-type="table" rid="pone.0151522.t001">Table 1</xref>).</p>
+<fig id="pone.0151522.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0151522.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Chromosome positions of <italic>BrIAA</italic> genes.</title>
+<p>From inner to outer ring A) Single Nucleotide Polymorphisms identified between the RcBr and Chiifu line. B) Physical positions of the Aux/IAA genes in the genome. C) GC % per 1Mb is illustrated in 3 different shades lesser GC% lighter the color. D) Shows the homologues crucifier building blocks of each gene and their clusters of the <italic>BrIAA</italic> genes. The colors representing the blocks are described as follows: green- A, B, C, D, E; red- G, H, I, J, K; pink- F, L, M, N; blue-O, P, T, U; brown- Q, R, S, V, W, X and white- nil.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0151522.g001" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec012">
+<title>Phylogeny and motif distribution of <italic>B</italic>. <italic>rapa</italic> Aux/IAA proteins</title>
+<p>In order to examine the phylogenetic relationship among <italic>B</italic>. <italic>rapa</italic>, <italic>A</italic>. <italic>thaliana</italic>, <italic>O</italic>. <italic>sativa and Z</italic>. <italic>mays</italic> Aux/IAA genes, we aligned the amino acid sequences of 144 genes by Clustalx and generated a rooted phylogenetic tree by MEGA software. The generated tree was divided into three groups, namely A, B and C based on their phylogeny. Both the phylogenetic tree and motif conservation are well matched to previously studied plants <italic>A</italic>. <italic>thaliana</italic>, Solanaceae species (potato and tomato) and <italic>Vitis vinifera</italic> [<xref ref-type="bibr" rid="pone.0151522.ref013">13</xref>, <xref ref-type="bibr" rid="pone.0151522.ref014">14</xref>]. Later A and B groups were divided into 4 (A1-A4) and 6 (B1-B6) subgroups for better understanding (<xref ref-type="fig" rid="pone.0151522.g002">Fig 2</xref>). Among A subgroups 14 monocotyledon (<italic>O</italic>. <italic>sativa</italic> and <italic>Z</italic>. <italic>mays</italic>) and 22 dicotyledon (<italic>A</italic>. <italic>thaliana</italic> and <italic>B</italic>. <italic>rapa</italic>) IAA genes belong to group A1. Another subgroup A2 contained 9 monocot and 10 dicot IAA genes. However subgroup A3 and B2 had larger number of IAA genes from dicots than monocots. Also A4, B1 and B6 groups were found with only <italic>A</italic>. <italic>thaliana</italic> and <italic>B</italic>. <italic>rapa</italic> IAA genes. Similarly subgroups B3, B4, B5 and group C contained only <italic>O</italic>. <italic>sativa</italic> and <italic>Z</italic>. <italic>mays</italic> IAA proteins.</p>
+<fig id="pone.0151522.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0151522.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Phylogenetics analysis of full length Aux/IAA protein sequences from <italic>A</italic>. <italic>thaliana</italic>, <italic>B</italic>. <italic>rapa</italic>, <italic>O</italic>. <italic>sativa</italic> and <italic>Z</italic>. <italic>mays</italic> using neighbor-joining method.</title>
+<p>Motifs for each protein were predicted by MEME web server. Group (A, B and C) and their subgroups were distinguished by phylogeny conservation of Aux/IAA genes.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0151522.g002" xlink:type="simple"/>
+</fig>
+<p>In the phylogentic tree, a total of 51 sister pairs were found, that includes 15 from same species (<italic>BrIAA</italic>—<italic>BrIAA</italic>) IAA genes and 36 from cross species (<italic>BrIAA</italic>—<italic>AtIAA</italic>) IAA genes. Total 6 pairs were found for <italic>B</italic>. <italic>rapa</italic> IAA genes (<italic>BrIAA</italic>—<italic>BrIAA</italic>) among same species sister pairs. Also 2 and 7 numbers of pairs were found for <italic>O</italic>. <italic>sativa</italic> (<italic>OsIAA</italic>—<italic>OsIAA</italic>) and <italic>Z</italic>. <italic>mays</italic> (<italic>ZmIAA</italic>—<italic>ZmIAA</italic>) respectively. Between 30 <italic>A</italic>. <italic>thaliana</italic> IAA genes, there is no single sister pair found in the whole tree. However 23 pairs were attained between <italic>B</italic>. <italic>rapa</italic> and <italic>A</italic>. <italic>thaliana</italic> IAA genes (<italic>BrIAA</italic>—AtIAA) as cross species sister pair. Similarly 13 pairs were identified between <italic>O</italic>. <italic>sativa</italic> and Z. <italic>mays</italic> IAA genes (<italic>OsIAA</italic>—<italic>ZmIAA</italic>). Subgroup A1 comprised of all five types of sister pairs (<italic>BrIAA</italic>—<italic>BrIAA</italic>, <italic>OsIAA</italic>—<italic>OsIAA</italic>, <italic>ZmIAA</italic>—<italic>ZmIAA</italic>, <italic>BrIAA</italic>—<italic>AtIAA</italic>, <italic>OsIA</italic>A—<italic>ZmIAA</italic>) one or more than one time (<xref ref-type="fig" rid="pone.0151522.g002">Fig 2</xref>).</p>
+<p>The possible motifs were searched for all 144 IAA proteins incuding 30 <italic>A</italic>. <italic>thaliana</italic>, 55 <italic>B</italic>. <italic>rapa</italic>, 31 <italic>O</italic>. <italic>sativa</italic> and 28 <italic>Z</italic>. <italic>mays</italic> by Multiple Expectation maximization for Motif Elicitation (MEME) web server (<ext-link ext-link-type="uri" xlink:href="http://meme-suite.org/tools/meme" xlink:type="simple">http://meme-suite.org/tools/meme</ext-link>). Predicted five motifs were designated to four conserved domains of Aux/IAA proteins. Domain-I, -II and -III were represented by motif-4, -3 and -2, though longest domain-IV was constituted by motif-1 and -5 (<xref ref-type="fig" rid="pone.0151522.g002">Fig 2</xref>; <xref ref-type="supplementary-material" rid="pone.0151522.s001">S1 Fig</xref>). Totally four and fourteen IAA proteins were conserved with only single and double motifs respectively. Among single motif containing proteins, three were <italic>B</italic>. <italic>rapa</italic> genes namely <italic>BrIAA30</italic>, <italic>BrIAA31 and BrIAA32</italic>, and remaining one was <italic>O</italic>. <italic>sativa</italic> protein LOCOs01g18360.2 conserved with only motif-2 (<xref ref-type="fig" rid="pone.0151522.g002">Fig 2</xref>). The number of sites for each motifs and their e-value were presented in <xref ref-type="supplementary-material" rid="pone.0151522.s001">S1 Fig</xref></p>
+</sec>
+<sec id="sec013">
+<title>Homologues <italic>A</italic>. <italic>thaliana</italic> genes and <italic>B</italic>. <italic>rapa</italic> ESTs</title>
+<p>Identifying homologues <italic>B</italic>. <italic>rapa</italic> genes in model organism <italic>A</italic>. <italic>thaliana</italic> is mandatory since both the genome belongs to Brassicacea family. Discovered <italic>BrIAA</italic> genes were compared to all gene coding sequences of <italic>A</italic>. <italic>thaliana</italic> and identified 31 unique auxin gene models which were highly homolog to 54 <italic>BrIAA</italic> genes except for <italic>BrIAA</italic>30 gene, however it’s well conserved with single Aux/IAA domain. Among the 31 <italic>A</italic>. <italic>thaliana</italic> Aux/IAA genes, 14 and 17 genes have single and two or more than two copies of genes in <italic>B</italic>. <italic>rapa</italic> genome (<xref ref-type="table" rid="pone.0151522.t001">Table 1</xref>).</p>
+<p>Publically available <italic>B</italic>. <italic>rapa</italic> ESTs from NCBI were downloaded and assembled consequencing 46,954 unigenes with 19,234 contigs and 27,720 singlets. We obtained 43 <italic>BrIAA</italic> genes matching 19 contigs and 24 singlets by megaBLAST analysis with over 90% identity and 1e-100 e-value. <italic>BrIAA</italic>36 and <italic>BrIAA</italic>38 were highly matching to Contig10439, likewise EX111917 and FY418515 also matches to two <italic>BrIAA</italic> genes with higher similarity (<xref ref-type="table" rid="pone.0151522.t001">Table 1</xref>). The <italic>BrIAA</italic>30 gene which was non-similar to <italic>A</italic>. <italic>thaliana</italic> was also not found in <italic>B</italic>. <italic>rapa</italic> unigenes. Assembled unigenes are accessible at <ext-link ext-link-type="uri" xlink:href="http://brassest.cnu.ac.kr/unigene/Brunijan2013.fasta" xlink:type="simple">http://brassest.cnu.ac.kr/unigene/Brunijan2013.fasta</ext-link>. <italic>BrIAA</italic> corresponding unigenes were compared to non-redundant database by BLASTx and verified with auxin homologues from different plant species. Gene ontology was carried out for all <italic>BrIAA</italic> unigenes using blast2go utility and their functions were annotated. As biological process, maximum 38 unigenes were response to endogenous stimulus in <italic>B</italic>. <italic>rapa</italic>. Additionally 35, 14, 11, and 9 <italic>BrIAA</italic> unigenes were response to signal transduction, abiotic stimulus, tropism and stress, respectively. In molecular level all the <italic>BrIAA</italic> unigenes were recognized with sequence-specific DNA and protein binding activity (<xref ref-type="supplementary-material" rid="pone.0151522.s002">S2 Fig</xref>).</p>
+</sec>
+<sec id="sec014">
+<title>Aux treatment and Quantification by qRT PCR</title>
+<p>The Aux/IAA genes are highly induced by auxin, to verify this we exposed few of the <italic>BrIAA</italic> genes to Auxin treatment at different time course and validated their expression using sqRT PCR. Each <italic>BrIAA</italic> gene exhibited different expression pattern upon the treatment. In general the genes showed higher expression on lower time exposure and lower expression on higher exposure time. All <italic>BrIAA</italic> genes IAA1, IAA6, IAA14, IAA15, IAA32 and IAA33 expression were upregulated on 48 h of treatment than other exposure time except IAA5 gene (<xref ref-type="fig" rid="pone.0151522.g003">Fig 3A</xref>). On 96 h treatment, all <italic>BrIAA</italic> were down regulated. Meanwhile, five aux genes such as IAA1, IAA6, IAA15, IAA32 and IAA33 were expressed on all the exposure time except 96 h.</p>
+<fig id="pone.0151522.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0151522.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Response of <italic>BrIAA</italic> to Auxin treatment over a time course.</title>
+<p>A) Expression pattern of <italic>BrIAA</italic> genes to auxin treatment at different time points. B) Relative fold changes of the <italic>BrIAA</italic> genes in form of heatmaps. C) Transcript level of the genes during auxin treatment.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0151522.g003" xlink:type="simple"/>
+</fig>
+<p>Also we analyzed the transcripts level using RT-PCR. The transcript levels for most of the aux genes were upregulated by IAA treatment compared to non treated plants irrespective of exposure time. Despite the fact of higher transcript levels in IAA treatment, quantities of transcripts varied depending upon the exposure time which is evident from the data illustrated in <xref ref-type="fig" rid="pone.0151522.g003">Fig 3C</xref>. The transcript levels of IAA15 were recorded moderately as 19.66, 12.87, 24.74, and 12.07 at 24, 48, 72, and 96 h, respectively. In the case of IAA33, the transcript levels exhibited higher (55.61) at 48 h exposure time followed by IAA32 at the same exposure time. Aux gene, IAA1 presented the maximum transcript level (35.85) under 72 h exposure time. Low levels of transcripts were documented for IAA5, IAA6 and IAA14 (<xref ref-type="fig" rid="pone.0151522.g003">Fig 3C</xref>).</p>
+</sec>
+<sec id="sec015">
+<title>Expression of <italic>B</italic>. <italic>rapa</italic> Aux/IAA genes in parental lines Chiifu and RcBr</title>
+<p>To understand the gene expression profiles in matured leafs of <italic>B</italic>. <italic>rapa</italic> Chiifu and RcBr inbred lines, we conducted a microarray experiment and obtained over 47,000 expressed genes with high similarity to <italic>B</italic>. <italic>rapa</italic> and/or <italic>A</italic>. <italic>thaliana</italic> genes. A total of 45 expressed genes were identified for <italic>BrIAA</italic> genes by megaBLAST algorithm with over 98% sequence coverage, &gt;96% identity and 0.0 e-value. From the analysis, 13 genes were found to show over 1.5 fold change between parental lines Chiifu and RcBr (<xref ref-type="table" rid="pone.0151522.t002">Table 2</xref>). A maximum of 8.11 fold change was attained for <italic>BrIAA</italic>51 gene which with high and low expression in RcBr and Chiifu lines respectively. Also 31 <italic>BrIAA</italic> genes were up-regulated and 14 were down regulated (up-regulated in Chiifu line) in RcBr. The maximum expression of 28,030 and 26,450 were obtained from Chiifu and RcBr for <italic>BrIAA</italic>54. The large portion of identified <italic>BrIAA</italic> genes expression level were over 1,000 in both Chiifu and RcBr inbred lines that indicates the involvement of IAA genes in leaf development of <italic>B</italic>. <italic>rapa</italic>. To further relate the involvement of the <italic>BrIAA</italic> to different abiotic stress like cold, salt and drought we performed a BLAST analysis with the stress treated KBGP-24K microarray and identified the differentially expressed genes. From the total <italic>BrIAA</italic> 21genes were found to be differently expressed to the different stress treatment. <italic>BrIAA</italic>43 showed a great expression change in all the cold, drought and salt treatments. During cold treatment <italic>BrIAA</italic>43 gene was upregulated in all time points but in drought and salt treatments the gene was down regulated initially and then upregulated (<xref ref-type="fig" rid="pone.0151522.g004">Fig 4</xref>).</p>
+<fig id="pone.0151522.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0151522.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Stress response of <italic>BrIAA</italic> genes to cold, salt and drought treatments at various time points.</title>
+<p>Differentially expressed genes during A) cold B) drought C) salt treatments during various time. X axis represents the genes and Y axis represents the level of gene expression.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0151522.g004" xlink:type="simple"/>
+</fig>
+<table-wrap id="pone.0151522.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0151522.t002</object-id>
+<label>Table 2</label> <caption><title>Expression ratio of <italic>BrIAA</italic> genes in Chiifu and RcBr inbred lines.</title></caption>
+<alternatives>
+<graphic id="pone.0151522.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0151522.t002" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Gene</th>
+<th align="left">BrEST ID</th>
+<th align="left">Chiifu</th>
+<th align="left">RcBr</th>
+<th align="center">Chiifu/RcBr</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><italic>BrIAA1</italic></td>
+<td align="left">Brapa_ESTC022718</td>
+<td align="left">13,779</td>
+<td align="left">16,075</td>
+<td align="center">1.17</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA2</italic></td>
+<td align="left">Brapa_ESTC021484</td>
+<td align="left">11,472</td>
+<td align="left">12,689</td>
+<td align="center">1.11</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA3</italic></td>
+<td align="left">Brapa_ESTC005647</td>
+<td align="left">3,081</td>
+<td align="left">5,493</td>
+<td align="center">1.78</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA5</italic></td>
+<td align="left">Brapa_ESTC022012</td>
+<td align="left">6,832</td>
+<td align="left">7,052</td>
+<td align="center">1.03</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA6</italic></td>
+<td align="left">Brapa_ESTC039293</td>
+<td align="left">5,237</td>
+<td align="left">7,004</td>
+<td align="center">1.34</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA8</italic></td>
+<td align="left">Brapa_ESTC012149</td>
+<td align="left">7,384</td>
+<td align="left">7,368</td>
+<td align="center">-1.00</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA9</italic></td>
+<td align="left">Brapa_ESTC026941</td>
+<td align="left">21,024</td>
+<td align="left">17,159</td>
+<td align="center">-1.23</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA10</italic></td>
+<td align="left">Brapa_ESTC030931</td>
+<td align="left">24,912</td>
+<td align="left">16,467</td>
+<td align="center">-1.51</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA11</italic></td>
+<td align="left">Brapa_ESTC040927</td>
+<td align="left">612</td>
+<td align="left">782</td>
+<td align="center">1.28</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA12</italic></td>
+<td align="left">Brapa_ESTC015687</td>
+<td align="left">268</td>
+<td align="left">208</td>
+<td align="center">-1.28</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA13</italic></td>
+<td align="left">Brapa_ESTC003176</td>
+<td align="left">3,643</td>
+<td align="left">6,604</td>
+<td align="center">1.81</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA14</italic></td>
+<td align="left">Brapa_ESTC008873</td>
+<td align="left">11,767</td>
+<td align="left">13,829</td>
+<td align="center">1.18</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA15</italic></td>
+<td align="left">Brapa_ESTC027778</td>
+<td align="left">2,535</td>
+<td align="left">1,991</td>
+<td align="center">-1.27</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA16</italic></td>
+<td align="left">Brapa_ESTC013117</td>
+<td align="left">1,475</td>
+<td align="left">1,966</td>
+<td align="center">1.33</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA17</italic></td>
+<td align="left">Brapa_ESTC005402</td>
+<td align="left">5,284</td>
+<td align="left">3,833</td>
+<td align="center">-1.38</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA18</italic></td>
+<td align="left">Brapa_ESTC016467</td>
+<td align="left">5,512</td>
+<td align="left">6,117</td>
+<td align="center">1.11</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA19</italic></td>
+<td align="left">Brapa_ESTC020585</td>
+<td align="left">6,887</td>
+<td align="left">7,869</td>
+<td align="center">1.14</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA20</italic></td>
+<td align="left">Brapa_ESTC031156</td>
+<td align="left">30,595</td>
+<td align="left">19,821</td>
+<td align="center">-1.54</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA21</italic></td>
+<td align="left">Brapa_ESTC012631</td>
+<td align="left">7,285</td>
+<td align="left">6,507</td>
+<td align="center">-1.12</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA22</italic></td>
+<td align="left">Brapa_ESTC012609</td>
+<td align="left">9,687</td>
+<td align="left">10,986</td>
+<td align="center">1.13</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA23</italic></td>
+<td align="left">Brapa_ESTC002335</td>
+<td align="left">9,698</td>
+<td align="left">14,221</td>
+<td align="center">1.47</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA24</italic></td>
+<td align="left">Brapa_ESTC002137</td>
+<td align="left">4,345</td>
+<td align="left">7,230</td>
+<td align="center">1.66</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA25</italic></td>
+<td align="left">Brapa_ESTC033235</td>
+<td align="left">7,884</td>
+<td align="left">15,013</td>
+<td align="center">1.90</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA28</italic></td>
+<td align="left">Brapa_ESTC038343</td>
+<td align="left">5,347</td>
+<td align="left">6,126</td>
+<td align="center">1.15</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA32</italic></td>
+<td align="left">Brapa_ESTC032997</td>
+<td align="left">1,774</td>
+<td align="left">2,792</td>
+<td align="center">1.57</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA33</italic></td>
+<td align="left">Brapa_ESTC004462</td>
+<td align="left">2,747</td>
+<td align="left">6,611</td>
+<td align="center">2.41</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA34</italic></td>
+<td align="left">Brapa_ESTC022797</td>
+<td align="left">4,550</td>
+<td align="left">4,347</td>
+<td align="center">-1.05</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA36</italic></td>
+<td align="left">Brapa_ESTC026362</td>
+<td align="left">10,347</td>
+<td align="left">10,945</td>
+<td align="center">1.06</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA37</italic></td>
+<td align="left">Brapa_ESTC038600</td>
+<td align="left">7,294</td>
+<td align="left">9,785</td>
+<td align="center">1.34</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA38</italic></td>
+<td align="left">Brapa_ESTC030226</td>
+<td align="left">688</td>
+<td align="left">311</td>
+<td align="center">-2.21</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA39</italic></td>
+<td align="left">Brapa_ESTC044790</td>
+<td align="left">755</td>
+<td align="left">1,271</td>
+<td align="center">1.68</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA40</italic></td>
+<td align="left">Brapa_ESTC035154</td>
+<td align="left">472</td>
+<td align="left">1,126</td>
+<td align="center">2.38</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA41</italic></td>
+<td align="left">Brapa_ESTC000071</td>
+<td align="left">11,997</td>
+<td align="left">12,586</td>
+<td align="center">1.05</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA42</italic></td>
+<td align="left">Brapa_ESTC046479</td>
+<td align="left">30</td>
+<td align="left">43</td>
+<td align="center">1.42</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA43</italic></td>
+<td align="left">Brapa_ESTC046694</td>
+<td align="left">10,914</td>
+<td align="left">13,651</td>
+<td align="center">1.25</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA44</italic></td>
+<td align="left">Brapa_ESTC021498</td>
+<td align="left">15,980</td>
+<td align="left">21,485</td>
+<td align="center">1.34</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA45</italic></td>
+<td align="left">Brapa_ESTC012187</td>
+<td align="left">10,415</td>
+<td align="left">13,549</td>
+<td align="center">1.30</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA46</italic></td>
+<td align="left">Brapa_ESTC003213</td>
+<td align="left">6,158</td>
+<td align="left">7,195</td>
+<td align="center">1.17</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA47</italic></td>
+<td align="left">Brapa_ESTC039319</td>
+<td align="left">15,018</td>
+<td align="left">13,084</td>
+<td align="center">-1.15</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA48</italic></td>
+<td align="left">Brapa_ESTC002545</td>
+<td align="left">7,818</td>
+<td align="left">10,890</td>
+<td align="center">1.39</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA49</italic></td>
+<td align="left">Brapa_ESTC043297</td>
+<td align="left">11,884</td>
+<td align="left">11,511</td>
+<td align="center">-1.03</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA50</italic></td>
+<td align="left">Brapa_ESTC022957</td>
+<td align="left">16,659</td>
+<td align="left">15,448</td>
+<td align="center">-1.08</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA51</italic></td>
+<td align="left">Brapa_ESTC033550</td>
+<td align="left">250</td>
+<td align="left">2,023</td>
+<td align="center">8.11</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA53</italic></td>
+<td align="left">Brapa_ESTC021765</td>
+<td align="left">2,687</td>
+<td align="left">4,507</td>
+<td align="center">1.68</td>
+</tr>
+<tr>
+<td align="left"><italic>BrIAA54</italic></td>
+<td align="left">Brapa_ESTC008162</td>
+<td align="left">28,030</td>
+<td align="left">26,450</td>
+<td align="center">-1.06</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>We selected 13 <italic>BrIAA</italic> genes to check their expression in different organs leaf, bud, flower, and siliqua between the parental lines Chiifu and RcBr using semi-quantitative RT-PCR. Primers for all 13 genes were designed by primer3 software and listed in <xref ref-type="supplementary-material" rid="pone.0151522.s006">S1 Table</xref>. The observed results demonstrated that <italic>BrIAA</italic> genes have similar and different expression among different organs as well as between Chiifu and RcBr. Moreover, BrIAA32 gene did not express in any of the selected organs from Chiifu and RcBr, showing the plausible nature of BrIAA32 as a pseudogene or its expression specificity in other organ(s) (<xref ref-type="fig" rid="pone.0151522.g005">Fig 5</xref>).</p>
+<fig id="pone.0151522.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0151522.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>Expression of <italic>BrIAA</italic> genes in the different organs of ‘Chiifu’ and ‘RcBr’ lines were analyzed by semi qRT-PCR.</title>
+<p><italic>BrIAA32</italic> showed no expression in the any organ of ‘Chiifu’ and ‘RcBr’. <italic>BraACTIN</italic> is used as control.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0151522.g005" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec016">
+<title>Mutaions in <italic>BrIAA</italic> genes between <italic>B</italic>. <italic>rapa</italic> inbred lines</title>
+<p><italic>B</italic>. <italic>rapa</italic> Chiifu and RcBr inbred lines are morphologically different and facilitates to study the variations in genome as well as genes wide. The whole genome of RcBr was sequenced by illumina sequencer achieving 27x genome coverage after trimming low quality reads (data is unpublished). Draft genome <italic>B</italic>. <italic>rapa</italic> Chiifu line [<xref ref-type="bibr" rid="pone.0151522.ref008">8</xref>] was utilized as a reference to assemble the re-sequenced RcBr reads using bowtie software and possible SNPs were called by SAM and BCF tools (unpublished). In maximum 17 and 16 SNPs were identified from 5 and 3 <italic>BrIAA</italic> genes from A09 and A03 chromosome of <italic>B</italic>. <italic>rapa</italic>, respectively. There were more than 10 SNPs found in <italic>BrIAA</italic> genes of A01, A03, A05 and A09 chromosome. However, there were no SNP found in <italic>BrIAA</italic>12 and <italic>BrIAA</italic>27 genes of A07 chromosome. The <italic>BrIAA</italic>16 gene from Scaffold000203 which chromosome is unknown has two SNPs. While comparing SNPs block wise we found 24 SNPs from 10 genes of F block and, 16 and 15 SNPs from 2 and 7 genes of U and A blocks as maximum. But there is no SNP from <italic>BrIAA</italic>12 and <italic>BrIAA</italic>41 which are the only one <italic>BrIAA</italic> gene from block E and V (<xref ref-type="supplementary-material" rid="pone.0151522.s007">S2 Table</xref>).</p>
+</sec>
+</sec>
+<sec id="sec017" sec-type="conclusions">
+<title>Discussion</title>
+<p>Indoleacetic acid (IAA) is a plant growth hormone that regulates various plant growth and developmental genes expression [<xref ref-type="bibr" rid="pone.0151522.ref001">1</xref>, <xref ref-type="bibr" rid="pone.0151522.ref015">15</xref>]. Isolation of Aux/IAA gene families in plants supports to understand their function in metabolic and developmental process [<xref ref-type="bibr" rid="pone.0151522.ref016">16</xref>, <xref ref-type="bibr" rid="pone.0151522.ref017">17</xref>]. They are believed to play a vital role in early signaling [<xref ref-type="bibr" rid="pone.0151522.ref016">16</xref>]. Studies state that functions of Aux/IAA genes mainly depend on the expression pattern of the genes as effectively mutated Aux/IAA show expression changes [<xref ref-type="bibr" rid="pone.0151522.ref016">16</xref>]. There are numerous computational methods to identify gene families [<xref ref-type="bibr" rid="pone.0151522.ref010">10</xref>, <xref ref-type="bibr" rid="pone.0151522.ref016">16</xref>, <xref ref-type="bibr" rid="pone.0151522.ref018">18</xref>], however genome-wide searches are more effective in such identification. Hence we followed a genome wide search and identified 55 <italic>B</italic>. <italic>rapa</italic> Aux/IAA genes by HMM method. Reports on Aux/IAA genes have been available earlier, however few genes reported in their study as Aux/IAA genes did not contain the Aux/IAA domain hence they were not considered as members of Aux/IAA gene family [<xref ref-type="bibr" rid="pone.0151522.ref009">9</xref>]. Insilico mapping of genes in genome showed that 54 <italic>BrIAA</italic> genes were present in all 10 chromosomes of <italic>B</italic>. <italic>rapa</italic> while <italic>BrIAA</italic>16 was mapped in scaffold. These number of identified <italic>BrIAA</italic> genes were higher than Arabidopsis (30), rice (31), populus (35), and maize (31) despite their genome size.</p>
+<p>In general <italic>A</italic>. <italic>thaliana</italic> genes are duplicated to multiple copies (in average three) in <italic>B</italic>. <italic>rapa</italic> genome [<xref ref-type="bibr" rid="pone.0151522.ref009">9</xref>], likely we found 54 <italic>BrIAA</italic> genes have higher homology with 30 <italic>A</italic>. <italic>thaliana</italic> genes. <italic>BrIAA</italic>32 is highly similar to <italic>A</italic>. <italic>thaliana</italic> ARF (AT5G60450) gene, however it was conserved with only one domain-IV. Studying the synteny and evolution of gene family becomes necessary after identification since <italic>B</italic>. <italic>rapa</italic> whole genome was triplicated between 13 and 17 million years ago with the complex history. The ancestral karyotype genome building blocks were decided for each <italic>BrIAA</italic> gene based on their <italic>A</italic>. <italic>thaliana</italic> homologs as well as by previously reported marker information [<xref ref-type="bibr" rid="pone.0151522.ref019">19</xref>]. The blocks A and F attained large number of <italic>BrIAA</italic> genes than any other blocks containing IAA genes. The F block was duplicated in A01, A03 and A05 chromosomes with same number of gene clusters except in A01 which missed one gene copy while it corresponds to <italic>BrIAA</italic>13 in A03 and <italic>BrIAA</italic>14 in A05. Few other gene clusters were observed from block A in A09 and A10 indicating the different number of complex segmental duplication event in <italic>B</italic>. <italic>rapa</italic> genome (<xref ref-type="fig" rid="pone.0151522.g001">Fig 1</xref>). Synteny analysis between <italic>BrIAA</italic> represented 16 segmental duplicated genes, among them 10 and 6 were having 2 to 3 copies in different chromosomes, whereas, 16 <italic>BrIAA</italic> genes were unique among all <italic>B</italic>. <italic>rapa</italic> genes (<xref ref-type="supplementary-material" rid="pone.0151522.s008">S3 Table</xref>). Interestingly block A possessed two tandem repeats in their duplicated regions in A09 and A10 while block F contained only one tandem repeat in A03 even though there were three duplicated IAA gene clusters in <italic>B</italic>. <italic>rapa</italic> which confers their importance in genome duplication.</p>
+<p>Further evolutionary analysis of <italic>BrIAA</italic> genes with <italic>A</italic>. <italic>thaliana</italic>, <italic>O</italic>. <italic>sativa</italic> and <italic>Z</italic>. <italic>mays</italic> species elucidated the conservation and divergence of IAA genes among mono- and dicotyledonous plants. The constructed phylogenetic tree showed 3 major groups A, B and C which later divided into 11 subgroups (<xref ref-type="fig" rid="pone.0151522.g002">Fig 2</xref>). The subgroups A1, A2, A3 and B2 were conserved with IAA genes of all four species which denotes that 83 genes of these groups were originated before the divergence of monocots and dicots. However, we could observe 30 IAA genes from only dicot plants <italic>B</italic>. <italic>rapa</italic> and <italic>A</italic>. <italic>thaliana</italic>, whereas, 31 IAA genes from only monocot plants <italic>O</italic>. <italic>sativa</italic> and <italic>Z</italic>. <italic>mays</italic>. These results imply that these genes were either evolved or lost after monocot and dicotyledon divergence. Moreover, these genes confer their vital role in the development of plants of both mono and dicot species. Interestingly group C were completely rooted from mother clade evidencing the complete loss of group C genes in dicot crops and their importance in monocot specific traits. Further insights of phylogeny indicated that there were 23 sister pairs between <italic>BrIAA</italic> and <italic>AtIAA</italic> gene, whereas, no single <italic>AtIAA-AtIAA</italic> sister pair was observed which could represent the genome conservation between <italic>A</italic>. <italic>thaliana</italic> and <italic>B</italic>. <italic>rapa</italic>. Moreover, there were 6 <italic>BrIAA</italic>-<italic>BrIAA</italic> pairs found since this ‘mesohexaploidy’ plant <italic>B</italic>. <italic>rapa</italic> had triplicated genome. Monocotyledon plant IAA genes were found with 13 <italic>OsIAA-ZmIAA</italic> sister pairs while 2 and 7 numbers of <italic>OsIAA-OsIAA</italic> and ZmIAA-ZmIAA sister pairs indicated the evolutionary relationship among them. Overall, no sister pair was observed between mono- and dicot species in phylogentic tree which could indicate the divergence and conservation of IAA genes among these four species.</p>
+<p>Investigation of 55 <italic>BrIAA</italic> proteins using MEME tool revealed the changes in conserved domain and motif architecture, accordingly 37 <italic>BrIAA</italic> proteins were conserved with all four domains, however, eight proteins (<italic>BrIAA</italic>30, <italic>BrIAA</italic>31, <italic>BrIAA</italic>32, <italic>BrIAA</italic>38, <italic>BrIAA</italic>42, <italic>BrIAA</italic>46, <italic>BrIAA</italic>51 and <italic>BrIAA</italic>55) were lacking domain-I and -II (<xref ref-type="fig" rid="pone.0151522.g002">Fig 2</xref>, <xref ref-type="supplementary-material" rid="pone.0151522.s003">S3 Fig</xref> &amp; <xref ref-type="supplementary-material" rid="pone.0151522.s004">S4 Fig</xref>). Domain-I is a repression domain and domain II interacts with the F-box protein TIR1 [<xref ref-type="bibr" rid="pone.0151522.ref004">4</xref>]. Moreover, mutations or absence of these domains could prolong life of these proteins compared to other standard Aux/IAA proteins [<xref ref-type="bibr" rid="pone.0151522.ref008">8</xref>]. Their counterpart proteins from <italic>A</italic>. <italic>thaliana</italic>’s sister pair also lacking either one or both the domain-I and -II suggesting their evolutionarily conservation in both the species. As previous studies on <italic>A</italic>. <italic>thaliana</italic>, these 8 genes of <italic>B</italic>. <italic>rapa</italic> may insensitive to IAA treatment since they have longer half-lives [<xref ref-type="bibr" rid="pone.0151522.ref002">2</xref>].</p>
+<p>Expression profiles of Aux/IAA genes were studied by comparing with ESTs, microarray and conducting semi qRT-PCR analysis for selected genes since functions of the Aux/IAA genes depends on the expression of the genes [<xref ref-type="bibr" rid="pone.0151522.ref015">15</xref>]. Comparative analysis of <italic>BrIAA</italic> genes with ESTs and microarray data showed that there were no any similarity found for seven genes (<italic>BrIAA26</italic>, <italic>BrIAA27</italic>, <italic>BrIAA30</italic>, <italic>BrIAA31</italic>, <italic>BrIAA32</italic>, <italic>BrIAA52</italic>, and BrIAA55) those missing one or more than one domain (<xref ref-type="table" rid="pone.0151522.t001">Table 1</xref>, <xref ref-type="table" rid="pone.0151522.t002">Table 2</xref> &amp; <xref ref-type="supplementary-material" rid="pone.0151522.s003">S3 Fig</xref>). Among the seven genes <italic>BrIAA30</italic> and <italic>BrIAA32</italic> were conserved with only domain-IV and <italic>BrIAA31</italic> with only domain-III. Semi qRT-PCR analysis evidenced <italic>BrIAA30</italic> and <italic>BrIAA31</italic> has very low expression in leafs of Chiifu and RcBr, and no expression in Chiifu siliqua whereas <italic>BrIAA32</italic> showed no expression in any experimented organs(<xref ref-type="supplementary-material" rid="pone.0151522.s005">S5 Fig</xref>). In our study many different <italic>BrIAA</italic> genes showed similar expression pattern which might possibly change expression level after diverse stress treatments like in other plants [<xref ref-type="bibr" rid="pone.0151522.ref013">13</xref>, <xref ref-type="bibr" rid="pone.0151522.ref014">14</xref>]. Eventhough Chiifu and RcBr lines having different phenotypes and growth cycles, showed a similar expression pattern for many of the genes. Conversing in the case of <italic>BrIAA51</italic>, a transcription regulator was highly expressive in bud, leaf and flower of RcBr than Chiifu (<xref ref-type="table" rid="pone.0151522.t002">Table 2</xref>, <xref ref-type="fig" rid="pone.0151522.g004">Fig 4</xref> &amp; <xref ref-type="supplementary-material" rid="pone.0151522.s002">S2 Fig</xref>). Interestingly two sister pairs (<italic>BrIAA24</italic> and <italic>BrIAA25</italic>, <italic>BrIAA33</italic> and <italic>BrIAA53</italic>) were observed with similar expression pattern in both the lines, suggesting that they may perform redundant functions. Another sister pair from semi qRT-PCR result (<italic>BrIAA39</italic> and <italic>BrIAA40</italic>) showed significant expression difference in flower and siliqua indicates that these genes had functional divergence after duplication event. There was no SNP found in <italic>BrIAA39</italic> and <italic>BrIAA40</italic> genes even though they have considerable expression variation between Chiifu and RcBr. Similarly <italic>BrIAA32</italic> which is highly similar to ARF gene family in <italic>A</italic>. <italic>thaliana</italic> has no SNP on full length gene sequence and showed no expression in both the lines which proposes this gene might be organ specific or silenced by some promoter or transcription factor. There is wide expression difference of <italic>BrIAA33</italic> in siliqua and mature leaf of Chiifu and RcBr (<xref ref-type="fig" rid="pone.0151522.g004">Fig 4</xref>, &amp; <xref ref-type="table" rid="pone.0151522.t002">Table 2</xref>), and they found with three SNPs on exon and two on intronic region. The gain-of-functional mutation in <italic>BrIAA33</italic> gene reducing the response to auxin and suppresses the fertility and plant growth which was reported in A. thaliana [<xref ref-type="bibr" rid="pone.0151522.ref018">18</xref>]. The <italic>BrIAA51</italic> gene was highly involved in non-host resistance (NHO1) with bacterial virulence and also it’s responses to cell-specific nitrogen mediate development in plants [<xref ref-type="bibr" rid="pone.0151522.ref020">20</xref>, <xref ref-type="bibr" rid="pone.0151522.ref021">21</xref>]. Even though SNPs in this gene were located in only intronic regions, we found two Indels (-ATGA and +AT) in the two exonic region of RcBr, while the gene showed high expression in bud, flower and siliqua of RcBr and minimal in Chiifu (<xref ref-type="fig" rid="pone.0151522.g004">Fig 4</xref>).</p>
+<p>We have selected few genes in <italic>B</italic>. <italic>rapa</italic> and have analyzed their expression pattern based on IAA treatment. The expression of BrIAA gene was higher than the control upon IAA treatment at various exposure times. From the present study, we conclude that exposure time played an important role in up-regulation/down-regulation of aux gene upon IAA treatment. Expression pattern of gene in specific organs at a given exposure time is the significant requirement to subsequent elucidation of corresponding protein required for proper execution of developmental, metabolic and signalling processes [<xref ref-type="bibr" rid="pone.0151522.ref013">13</xref>]. The mRNA levels of aux genes <italic>BrIAA1</italic>, <italic>BrIAA6</italic>, <italic>BrIAA14</italic>, <italic>BrIAA15</italic>, <italic>BrIAA32</italic> and <italic>BrIAA33</italic> were maximum at 48 h exposure time suggesting that these five aux genes might play an essential role in the development of leaf. The difference in expression levels of Aux/IAA genes is likely due to a variety of factors such as tissue specific auxin reception, cell-type dependence, differential regulation of free auxin concentrations, different modes of auxin-dependent transcriptional and posttranscriptional regulation [<xref ref-type="bibr" rid="pone.0151522.ref022">22</xref>]. It has been reported earlier that the diversity of numbers and locations of auxin signaling transduction-related cis-elements may partially account for the difference in expression patterns of IAAs under IAA treatment in Tomato [<xref ref-type="bibr" rid="pone.0151522.ref023">23</xref>]. Aux/IAA family genes of rice have responded to exogenous IAA in a highly differential fashion with respect to dosage and time [<xref ref-type="bibr" rid="pone.0151522.ref022">22</xref>]. Likewise, the exogenous treatment of IAA had presented differential transcript levels of Aux/IAA genes in Arabidopsis, maize, and tomato [<xref ref-type="bibr" rid="pone.0151522.ref024">24</xref>, <xref ref-type="bibr" rid="pone.0151522.ref025">25</xref>, <xref ref-type="bibr" rid="pone.0151522.ref026">26</xref>]. Besides their association in growth and development the Aux/IAA genes also involved in stress/defense signalling in rice [<xref ref-type="bibr" rid="pone.0151522.ref027">27</xref>, <xref ref-type="bibr" rid="pone.0151522.ref028">28</xref>]. When we analyzed the involvement of BrIAA to abiotic stress we found that 21 of the 55 candidate genes were differently expressed. Alike sorghum, we also observed that IAA (BrIAA) genes in <italic>B</italic>. <italic>rapa</italic> could be involved in abiotic stress response [<xref ref-type="bibr" rid="pone.0151522.ref028">28</xref>]. The genes <italic>BrIAA3</italic>, <italic>BrIAA13</italic>, <italic>BrIAA15</italic>, <italic>BrIAA23</italic>, <italic>BrIAA43</italic>, <italic>BrIAA48</italic> and <italic>BrIAA54</italic> were found to differently express during all the treatments marking their involvement in abiotic stress response.</p>
+</sec>
+<sec id="sec018" sec-type="conclusions">
+<title>Conclusion</title>
+<p>A genome wide analysis and characterization of Aux/IAA family genes in <italic>B</italic>. <italic>rapa</italic> was carried out in the current study. The Aux/IAA gene family was densely populated with 55 genes in <italic>B</italic>. <italic>rapa</italic> than the other plants like arabidopsis, rice, populus and maize. The identified genes were characterized based on phylogeny; motif pattern, expression analysis and their stress response have also been investigated. We found the genes are well conserved among <italic>A</italic>. <italic>thaliana</italic>, <italic>O</italic>. <italic>sativa</italic> and <italic>Z</italic>. <italic>mays</italic>, however, variations were observed in the conservation and divergence of IAA genes among mono- and dicotyledonous plants. Expression analysis revealed the involvement of the <italic>BrIAA</italic> genes in plant development such as leaf growth and flower maturation. Alike other plants, the <italic>BrIAA</italic> family genes were also affected by different stress treatments. Seven genes were analysed for their reponse to Auxin treatment. All the genes were upregulated to lower auxin treatment and down regulated by higher treatment. Among the 55 genes identified, 21 genes were differently expressed to cold, drought and salt stress treatments, especially, the genes <italic>BrIAA</italic>3, <italic>BrIAA</italic>13, <italic>BrIAA</italic>15, <italic>BrIAA</italic>23, <italic>BrIAA</italic>43, <italic>BrIAA</italic>48 and <italic>BrIAA</italic>54 were highly responsive to all three. Identification of SNPs between Chiifu and RcBr are evidencing that functional mutation in IAA genes may play key role in the plant growth cycle. We believe our data would be a major resource for further studies on functional genomics of Aux/IAA genes and open the opportunities in plant genomics and crop breeding.</p>
+</sec>
+<sec id="sec019">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0151522.s001" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0151522.s001" xlink:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title>Five conserved motifs of 144 <italic>Aux/IAA</italic> proteins from <italic>A</italic>. <italic>thaliana</italic>, <italic>B</italic>. <italic>rapa</italic>, <italic>O</italic>. <italic>sativa</italic> and <italic>Z</italic>. <italic>mays</italic>.</title>
+<p>Number of sites corresponds to the number of motif occurrences in 144 proteins. Each Amino acid height in motif logo represents the conservation in the total number of sites.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0151522.s002" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pone.0151522.s002" xlink:type="simple">
+<label>S2 Fig</label>
+<caption>
+<title>Biological process and molecular function of <italic>BrIAA</italic> genes.</title>
+<p>Filtering cutoff was set to 5 in level-2annotation.</p>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0151522.s003" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pone.0151522.s003" xlink:type="simple">
+<label>S3 Fig</label>
+<caption>
+<title>Multiple sequence alignment of 55 <italic>BrIAA</italic> protein sequences.</title>
+<p>Five motifs and four domains are highlighted by red color lines under the amino acid position. Domain IV consist of two motifs, namely, motif 1and 5 in motif logo.</p>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0151522.s004" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0151522.s004" xlink:type="simple">
+<label>S4 Fig</label>
+<caption>
+<title>Phylogenetics analysis and motif distribution of 55 <italic>BrIAA</italic> proteins.</title>
+<p>Phylogenetics tree was constructed by Neighbor-joining method with 1000 bootstrap replications and values were given on each node. Motifs for each protein were predicted by MEME web server and motif height in each gene symbolizes the conservation.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0151522.s005" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0151522.s005" xlink:type="simple">
+<label>S5 Fig</label>
+<caption>
+<title>Semi qRT-PCR analysis of <italic>BrIAA30</italic> and <italic>BrIAA31</italic> in the different organs of ‘Chiifu’ and ‘RcBr’.</title>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0151522.s006" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" xlink:href="info:doi/10.1371/journal.pone.0151522.s006" xlink:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Primer information used for the semi qRT-PCR.</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0151522.s007" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" xlink:href="info:doi/10.1371/journal.pone.0151522.s007" xlink:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>Single Nucleotide Polymorphisms identified between Chiifu and RcBr lines along with the strand and block information.</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0151522.s008" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" xlink:href="info:doi/10.1371/journal.pone.0151522.s008" xlink:type="simple">
+<label>S3 Table</label>
+<caption>
+<title>Synteny analysis between the <italic>BrIAA</italic> genes.</title>
+<p>(XLSX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>This research was supported by Golden Seed Project (No. 213002-04-4-SB130), Ministry of Agriculture, Food and Rural Affairs (MAFRA), Ministry of Oceans and Fisheries (MOF), Rural Development Administration (RDA) and Korea Forest Service (KFS).</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0151522.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hagen</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Guilfoyle</surname> <given-names>T</given-names></name>. <article-title>Auxin-responsive gene expression: genes, promoters and regulatory factors</article-title>. <source>Plant Mol Biol</source>. <year>2002</year>; <volume>49</volume>(<issue>3</issue>): <fpage>373</fpage>–<lpage>385</lpage>.</mixed-citation></ref>
+<ref id="pone.0151522.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jain</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kaur</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Tyagi</surname> <given-names>AK</given-names></name>, <name name-style="western"><surname>Khurana</surname> <given-names>JP</given-names></name>. <article-title>The auxin-responsive GH3 gene family in rice (Oryza sativa)</article-title>. <source>Funct. Integr. Genomics.</source> <year>2006</year>; <volume>6</volume>(<issue>1</issue>): <fpage>36</fpage>–<lpage>46</lpage>. <object-id pub-id-type="pmid">15856348</object-id></mixed-citation></ref>
+<ref id="pone.0151522.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Szemenyei</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Hannon</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Long</surname> <given-names>JA</given-names></name>. <article-title>TOPLESS mediates auxin-dependent transcriptional repression during Arabidopsis embryogenesis</article-title>. <source>Science</source>. <year>2008</year>; <volume>319</volume>(<issue>5868</issue>): <fpage>1384</fpage>–<lpage>1386</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1126/science.1151461" xlink:type="simple">10.1126/science.1151461</ext-link></comment> <object-id pub-id-type="pmid">18258861</object-id></mixed-citation></ref>
+<ref id="pone.0151522.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dharmasiri</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Dharmasiri</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Estelle</surname> <given-names>M</given-names></name>. <article-title>The F-box protein TIR1 is an auxin receptor</article-title>. <source>Nature</source>. <year>2005</year>; <volume>435</volume>(<issue>7041</issue>): <fpage>441</fpage>–<lpage>445</lpage>. <object-id pub-id-type="pmid">15917797</object-id></mixed-citation></ref>
+<ref id="pone.0151522.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Overvoorde</surname> <given-names>PJ</given-names></name>, <name name-style="western"><surname>Okushimaa</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Alonsob</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Chana</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Changa</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Eckerb</surname> <given-names>JR</given-names></name>, <etal>et al</etal>. <article-title>Functional Genomic Analysis of the AUXIN/INDOLE-3-ACETIC ACID Gene Family Members in Arabidopsis thaliana</article-title>. <source>Plant Cell</source>. <year>2005</year>; <volume>17</volume>(<issue>12</issue>): <fpage>3282</fpage>–<lpage>3300</lpage>. <object-id pub-id-type="pmid">16284307</object-id></mixed-citation></ref>
+<ref id="pone.0151522.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Walker</surname> <given-names>JC</given-names></name>, <name name-style="western"><surname>Key</surname> <given-names>JL</given-names></name>. <article-title>Isolation of cloned cDNAs to auxinresponsive poly(A)RNAs of elongating soybean hypocotyl</article-title>. <source>Proc Natl Acad Sci</source>. <year>1982</year>; <volume>79</volume>(<issue>23</issue>): <fpage>7185</fpage>–<lpage>7189</lpage>. <object-id pub-id-type="pmid">16593257</object-id></mixed-citation></ref>
+<ref id="pone.0151522.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Theologis</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Huynh</surname> <given-names>TV</given-names></name>, <name name-style="western"><surname>Davis</surname> <given-names>RW</given-names></name>. <article-title>Rapid induction of specific mRNAs by auxin in pea epicotyl tissue</article-title>. <source>J Mol Biol</source> <year>1985</year>; <volume>183</volume>(<issue>1</issue>): <fpage>53</fpage>–<lpage>68</lpage>. <object-id pub-id-type="pmid">4009721</object-id></mixed-citation></ref>
+<ref id="pone.0151522.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ainley</surname> <given-names>WM</given-names></name>, <name name-style="western"><surname>Walker</surname> <given-names>JC</given-names></name>, <name name-style="western"><surname>Nagao</surname> <given-names>RT</given-names></name>, <name name-style="western"><surname>Key</surname> <given-names>JL</given-names></name>. <article-title>Sequence and characterization of two auxin-regulated genes from soybean</article-title>. <source>J Biol Chem</source>. <year>1988</year>; <volume>263</volume>(<issue>2</issue>): <fpage>10658</fpage>–<lpage>10666</lpage>.</mixed-citation></ref>
+<ref id="pone.0151522.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Sun</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>The genome of the mesopolyploid crop species Brassica rapa</article-title>. <source>Nature Genetics</source>. <year>2011</year>; <volume>43</volume>(<issue>10</issue>): <fpage>1035</fpage>–<lpage>1039</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/ng.919" xlink:type="simple">10.1038/ng.919</ext-link></comment> <object-id pub-id-type="pmid">21873998</object-id></mixed-citation></ref>
+<ref id="pone.0151522.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dhandapani</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Choi</surname> <given-names>SR</given-names></name>, <name name-style="western"><surname>Paul</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>YK</given-names></name>, <name name-style="western"><surname>Ramchiary</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Hur</surname> <given-names>Y</given-names></name>, <etal>et al</etal>. <article-title>Development of EST database and transcriptome analysis in the leaves of <italic>Brassica rapa</italic> using a newly developed pipeline</article-title>, <source>Genes &amp; Genomics</source>. <year>2012</year>; <volume>34</volume>(<issue>6</issue>): <fpage>671</fpage>–<lpage>679</lpage>.</mixed-citation></ref>
+<ref id="pone.0151522.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lee</surname> <given-names>SC</given-names></name>, <name name-style="western"><surname>Lim</surname> <given-names>MH</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>SI</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Jin</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Transcriptome Analysis in <italic>Brassica rapa</italic> under the Abiotic Stresses Using Brassica 24K Oligo Microarray</article-title>. <source>Mol. Cells</source> <year>2008</year>;<volume>26</volume>:<fpage>595</fpage>–<lpage>605</lpage>. <object-id pub-id-type="pmid">18797175</object-id></mixed-citation></ref>
+<ref id="pone.0151522.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schranz</surname> <given-names>ME</given-names></name>, <name name-style="western"><surname>Lysak</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Mitchell-Olds</surname> <given-names>T</given-names></name>. <article-title>The ABC's of comparative genomics in the Brassicaceae: building blocks of crucifer genomes</article-title>, <source>Trends in Plant Science</source>. <year>2006</year>; <volume>11</volume> (<issue>11</issue>): <fpage>535</fpage>–<lpage>542</lpage>. <object-id pub-id-type="pmid">17029932</object-id></mixed-citation></ref>
+<ref id="pone.0151522.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wu</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Peng</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>He</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Cheng</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Kong</surname> <given-names>F</given-names></name>, <etal>et al</etal>. <article-title>Genome-wide analysis of Aux/IAA gene family in Solanaceae species using tomato as a model</article-title>. <source>Mol Genet Genomics</source>. <year>2012</year>; <volume>287</volume>(<issue>4</issue>): <fpage>295</fpage>–<lpage>311</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s00438-012-0675-y" xlink:type="simple">10.1007/s00438-012-0675-y</ext-link></comment> <object-id pub-id-type="pmid">22314799</object-id></mixed-citation></ref>
+<ref id="pone.0151522.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Çakir</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Kiliçkaya</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Olcay</surname> <given-names>AC</given-names></name>. <article-title>Genome-wide analysis of Aux/IAA genes in <italic>Vitis vinifera</italic>: cloning and expression profiling of a grape Aux/IAA gene in response to phytohormone and abiotic stresses</article-title>. <source>Acta Physiol Plant</source>. <year>2013</year>; <volume>35</volume>(<issue>2</issue>): <fpage>365</fpage>–<lpage>377</lpage>.</mixed-citation></ref>
+<ref id="pone.0151522.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Abel</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Oeller</surname> <given-names>PW</given-names></name>, <name name-style="western"><surname>Theologis</surname> <given-names>A</given-names></name>. <article-title>Early auxin-induced gene encode short-lived nuclear proteins</article-title>. <source>Proc natl Acad Sci</source>. <year>1994</year>; <volume>91</volume>(<issue>1</issue>): <fpage>326</fpage>–<lpage>330</lpage>. <object-id pub-id-type="pmid">8278386</object-id></mixed-citation></ref>
+<ref id="pone.0151522.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Muto</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Watahiki</surname> <given-names>MK</given-names></name>, <name name-style="western"><surname>Yamamoto</surname> <given-names>KT</given-names></name>. <article-title>What Makes each Aux/IAA Gene Unique in its Gene Family, Expression Pattern or Properties of the Gene Product?</article-title> <source>Plant Signal Behav</source>. <year>2007</year>; <volume>2</volume>(<issue>5</issue>):<fpage>390</fpage>–<lpage>392</lpage>. <object-id pub-id-type="pmid">19704610</object-id></mixed-citation></ref>
+<ref id="pone.0151522.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Audran-Delalande</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Bassa</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Mila</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Regad</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Zouine</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Bouzayen</surname> <given-names>M</given-names></name>. <article-title>Genome-wide identification, functional analysis and expression profiling of the Aux/IAA gene family in tomato</article-title>, <source>Plant Cell Physiol</source>. <year>2012</year>; <volume>53</volume>(<issue>4</issue>): <fpage>659</fpage>–<lpage>672</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/pcp/pcs022" xlink:type="simple">10.1093/pcp/pcs022</ext-link></comment> <object-id pub-id-type="pmid">22368074</object-id></mixed-citation></ref>
+<ref id="pone.0151522.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Deng</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Bian</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Lv</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Xie</surname> <given-names>Q</given-names></name>. <article-title>Genome-wide analysis of primary auxin-responsive Aux/IAA gene family in maize (Zea mays. L.)</article-title>. <source>Mol Bio Rep</source>. <year>2010</year>; <volume>37</volume>(<issue>8</issue>): <fpage>3991</fpage>–<lpage>4001</lpage>.</mixed-citation></ref>
+<ref id="pone.0151522.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ramchiary</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Nguyen</surname> <given-names>VD</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Hong</surname> <given-names>CP</given-names></name>, <name name-style="western"><surname>Dhandapani</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Choi</surname> <given-names>SR</given-names></name>, <etal>et al</etal>. <article-title>Genic Microsatellite Markers in Brassica rapa: Development, Characterization, Mapping, and Their Utility in Other Cultivated and Wild Brassica Relatives</article-title>. <source>DNA Research</source>. <year>2011</year>; <volume>18</volume> (<issue>5</issue>): <fpage>305</fpage>–<lpage>320</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/dnares/dsr017" xlink:type="simple">10.1093/dnares/dsr017</ext-link></comment> <object-id pub-id-type="pmid">21768136</object-id></mixed-citation></ref>
+<ref id="pone.0151522.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rinaldi</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Enders</surname> <given-names>TA</given-names></name>, <name name-style="western"><surname>Bartel</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Strader</surname> <given-names>LC</given-names></name>. <article-title>A gain-of-function mutation in IAA16 confers reduced responses to auxin and abscisic acid and impedes plant growth and fertility</article-title>. <source>Plant Mol Biol</source>. <year>2012</year>; <volume>79</volume>(<issue>4–5</issue>): <fpage>359</fpage>–<lpage>373</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s11103-012-9917-y" xlink:type="simple">10.1007/s11103-012-9917-y</ext-link></comment> <object-id pub-id-type="pmid">22580954</object-id></mixed-citation></ref>
+<ref id="pone.0151522.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gifford</surname> <given-names>ML</given-names></name>, <name name-style="western"><surname>Dean</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Gutierrez</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Coruzzi</surname> <given-names>GM</given-names></name>, <name name-style="western"><surname>Birnbaum</surname> <given-names>KD</given-names></name> (2008) <article-title>Cell-specific nitrogen responses mediate developmental plasticity</article-title>, <source>Proc Natl Acad Sci</source>. <year>2008</year>; <volume>105</volume>(<issue>2</issue>): <fpage>803</fpage>–<lpage>808</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.0709559105" xlink:type="simple">10.1073/pnas.0709559105</ext-link></comment> <object-id pub-id-type="pmid">18180456</object-id></mixed-citation></ref>
+<ref id="pone.0151522.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kang</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Zhao</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Xiao</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Tang</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Thilmony</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Interplay of the Arabidopsis nonhost resistance gene NHO1 with bacterial virulence</article-title>. <source>Proc Natl Acad Sci</source>. <year>2003</year>; <volume>100</volume>(<issue>6</issue>): <fpage>3519</fpage>–<lpage>3524</lpage>. <object-id pub-id-type="pmid">12626746</object-id></mixed-citation></ref>
+<ref id="pone.0151522.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jain</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kaur</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Garg</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Thakur</surname> <given-names>JK</given-names></name>, <name name-style="western"><surname>Tyagi</surname> <given-names>AK</given-names></name>, <name name-style="western"><surname>Khurana</surname> <given-names>JP</given-names></name>. <article-title>Structure and expression analysis of early auxin-responsive Aux/IAA gene family in rice (Oryza sativa)</article-title>. <source>Functional and Integrative Genomics</source>. <year>2006</year>; <volume>6</volume>(<issue>1</issue>): <fpage>47</fpage>–<lpage>59</lpage>. <object-id pub-id-type="pmid">16200395</object-id></mixed-citation></ref>
+<ref id="pone.0151522.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Li</surname> <given-names>SB</given-names></name>, <name name-style="western"><surname>OuYang</surname> <given-names>WZ</given-names></name>, <name name-style="western"><surname>Hou</surname> <given-names>XJ</given-names></name>, <name name-style="western"><surname>Xie</surname> <given-names>LL</given-names></name>, <name name-style="western"><surname>Hu</surname> <given-names>GC</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>JZ</given-names></name>. <article-title>Genome-wide identification, isolation and expression analysis of auxin response factor (ARF) gene family in sweet orange (Citrus sinensis)</article-title>. <source>Frontiers in Plant Science</source>. <year>2015</year>; <volume>6</volume>.</mixed-citation></ref>
+<ref id="pone.0151522.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dreher</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Brown</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Saw</surname> <given-names>RE</given-names></name>, <name name-style="western"><surname>Callis</surname> <given-names>J</given-names></name>. <article-title>The Arabidopsis Aux/IAA protein family has diversified in degradation and auxin responsiveness</article-title>. <source>The Plant Cell</source>. <year>2006</year>; <volume>18</volume>(<issue>3</issue>): <fpage>699</fpage>–<lpage>714</lpage>. <object-id pub-id-type="pmid">16489122</object-id></mixed-citation></ref>
+<ref id="pone.0151522.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Bai</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Shen</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Jiang</surname> <given-names>D</given-names></name>, <etal>et al</etal>. <article-title>Auxin-related gene families in abiotic stress response in Sorghum bicolor</article-title>. <source>Functional &amp; integrative genomics</source>. <year>2010</year>; <volume>10</volume>(<issue>4</issue>): <fpage>533</fpage>–<lpage>546</lpage>.</mixed-citation></ref>
+<ref id="pone.0151522.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Audran-Delalande</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Bassa</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Mila</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Regad</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Zouine</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Bouzayen</surname> <given-names>M</given-names></name>. <article-title>Genome-wide identification, functional analysis and expression profiling of the Aux/IAA gene family in tomato</article-title>. <source>Plant and Cell Physiology</source>. <year>2012</year>; <volume>53</volume>(<issue>4</issue>): <fpage>659</fpage>–<lpage>672</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/pcp/pcs022" xlink:type="simple">10.1093/pcp/pcs022</ext-link></comment> <object-id pub-id-type="pmid">22368074</object-id></mixed-citation></ref>
+<ref id="pone.0151522.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jain</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Khurana</surname> <given-names>JP</given-names></name>. <article-title>Transcript profiling reveals diverse roles of auxin-responsive genes during reproductive development and abiotic stress in rice</article-title>. <source>FEBS J</source>. <year>2009</year>; <volume>276</volume>:<fpage>3148</fpage>–<lpage>3162</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1742-4658.2009.07033.x" xlink:type="simple">10.1111/j.1742-4658.2009.07033.x</ext-link></comment> <object-id pub-id-type="pmid">19490115</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

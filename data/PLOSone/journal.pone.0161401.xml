@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1d3" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0161401</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-16-04318</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Computer and information sciences</subject><subj-group><subject>Neural networks</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Neuroscience</subject><subj-group><subject>Neural networks</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Mathematical and statistical techniques</subject><subj-group><subject>Statistical methods</subject><subj-group><subject>Forecasting</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Statistics (mathematics)</subject><subj-group><subject>Statistical methods</subject><subj-group><subject>Forecasting</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Oncology</subject><subj-group><subject>Cancers and neoplasms</subject><subj-group><subject>Hematologic cancers and related disorders</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Hematology</subject><subj-group><subject>Hematologic cancers and related disorders</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Surgical and invasive medical procedures</subject><subj-group><subject>Blood and lymphatic system procedures</subject><subj-group><subject>Stem cell transplantation</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Surgical and invasive medical procedures</subject><subj-group><subject>Transplantation</subject><subj-group><subject>Cell transplantation</subject><subj-group><subject>Stem cell transplantation</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Chemistry</subject><subj-group><subject>Chemical elements</subject><subj-group><subject>Oxygen</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Diagnostic medicine</subject><subj-group><subject>Cancer detection and diagnosis</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Oncology</subject><subj-group><subject>Cancer detection and diagnosis</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Mathematical and statistical techniques</subject><subj-group><subject>Statistical methods</subject><subj-group><subject>Test statistics</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Statistics (mathematics)</subject><subj-group><subject>Statistical methods</subject><subj-group><subject>Test statistics</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Cardiology</subject><subj-group><subject>Cardiac arrest</subject></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Prediction of Clinical Deterioration in Hospitalized Adult Patients with Hematologic Malignancies Using a Neural Network Model</article-title>
+<alt-title alt-title-type="running-head">Prediction of Clinical Deterioration in Hematologic Malignancy Hospitalized Patients</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Hu</surname>
+<given-names>Scott B.</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Wong</surname>
+<given-names>Deborah J. L.</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Correa</surname>
+<given-names>Aditi</given-names>
+</name>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Li</surname>
+<given-names>Ning</given-names>
+</name>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Deng</surname>
+<given-names>Jane C.</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Division of Pulmonary/Critical Care, University of California, Los Angeles, Los Angeles, California, United States of America</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Division of Hematology/Oncology, University of California, Los Angeles, Los Angeles, California, United States of America</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Downstate College of Medicine, State University of New York, Albany, New York, United States of America</addr-line></aff>
+<aff id="aff004"><label>4</label> <addr-line>Department of Biomathematics, University of California, Los Angeles, Los Angeles, California, United States of America</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Pappalardo</surname>
+<given-names>Francesco</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Universita degli Studi di Catania, ITALY</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="con">
+<p><list list-type="simple"> <list-item><p><bold>Conceived and designed the experiments:</bold> SH.</p></list-item> <list-item><p><bold>Performed the experiments:</bold> SH DW AC.</p></list-item> <list-item><p><bold>Analyzed the data:</bold> SH.</p></list-item> <list-item><p><bold>Contributed reagents/materials/analysis tools:</bold> NL.</p></list-item> <list-item><p><bold>Wrote the paper:</bold> SH JD.</p></list-item></list>
+</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">scotthu@mednet.ucla.edu</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>17</day>
+<month>8</month>
+<year>2016</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2016</year>
+</pub-date>
+<volume>11</volume>
+<issue>8</issue>
+<elocation-id>e0161401</elocation-id>
+<history>
+<date date-type="received">
+<day>10</day>
+<month>2</month>
+<year>2016</year>
+</date>
+<date date-type="accepted">
+<day>4</day>
+<month>8</month>
+<year>2016</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2016</copyright-year>
+<copyright-holder>Hu et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0161401"/>
+<abstract>
+<sec id="sec001">
+<title>Introduction</title>
+<p>Clinical deterioration (ICU transfer and cardiac arrest) occurs during approximately 5–10% of hospital admissions. Existing prediction models have a high false positive rate, leading to multiple false alarms and alarm fatigue. We used routine vital signs and laboratory values obtained from the electronic medical record (EMR) along with a machine learning algorithm called a neural network to develop a prediction model that would increase the predictive accuracy and decrease false alarm rates.</p>
+</sec>
+<sec id="sec002">
+<title>Design</title>
+<p>Retrospective cohort study.</p>
+</sec>
+<sec id="sec003">
+<title>Setting</title>
+<p>The hematologic malignancy unit in an academic medical center in the United States.</p>
+</sec>
+<sec id="sec004">
+<title>Patient Population</title>
+<p>Adult patients admitted to the hematologic malignancy unit from 2009 to 2010.</p>
+</sec>
+<sec id="sec005">
+<title>Intervention</title>
+<p>None.</p>
+</sec>
+<sec id="sec006">
+<title>Measurements and Main Results</title>
+<p>Vital signs and laboratory values were obtained from the electronic medical record system and then used as predictors (features). A neural network was used to build a model to predict clinical deterioration events (ICU transfer and cardiac arrest). The performance of the neural network model was compared to the VitalPac Early Warning Score (ViEWS). Five hundred sixty five consecutive total admissions were available with 43 admissions resulting in clinical deterioration. Using simulation, the neural network outperformed the ViEWS model with a positive predictive value of 82% compared to 24%, respectively.</p>
+</sec>
+<sec id="sec007">
+<title>Conclusion</title>
+<p>We developed and tested a neural network-based prediction model for clinical deterioration in patients hospitalized in the hematologic malignancy unit. Our neural network model outperformed an existing model, substantially increasing the positive predictive value, allowing the clinician to be confident in the alarm raised. This system can be readily implemented in a real-time fashion in existing EMR systems.</p>
+</sec>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100000002</institution-id>
+<institution>National Institutes of Health</institution>
+</institution-wrap>
+</funding-source>
+<award-id>5T32HL072752</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Hu</surname>
+<given-names>Scott B.</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award002">
+<funding-source>
+<institution>National Center for Advancing Translational Sciences (US)</institution>
+</funding-source>
+<award-id>UL1TR000124</award-id>
+</award-group>
+<funding-statement>The research was supported by NIH 5T32HL072752 (SBH) and NIH/National Center for Advancing Translational Science (NCATS) UCLA CTSI Grant Number UL1TR000124.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="1"/>
+<table-count count="4"/>
+<page-count count="12"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>The authors do not own the data but it is available through the UCLA Institutional Data Access / Ethics Committee for researchers who meet the criteria for access to confidential data. Interested researchers may contact Robert Follett (<email xlink:type="simple">RFollett@mednet.ucla.edu</email>) regarding access to the data.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec008" sec-type="intro">
+<title>Introduction</title>
+<p>Approximately 5–10% of hospitalized patients suffer a significant adverse event after admission, including transfer to the intensive care unit (ICU) or cardiopulmonary arrest.[<xref ref-type="bibr" rid="pone.0161401.ref001">1</xref>] Delays in identification of clinical deterioration along with delayed therapeutic interventions result in increased morbidity and mortality.[<xref ref-type="bibr" rid="pone.0161401.ref002">2</xref>–<xref ref-type="bibr" rid="pone.0161401.ref005">5</xref>] With increasing physician and nursing workloads and more handoffs of care, prompt recognition of a deteriorating patient has become increasingly difficult. Hence, automated systems that alert the medical staff of impending clinical deterioration may enable clinicians to intervene at an earlier time, thereby preventing an arrest or reducing the need for ICU transfer.</p>
+<p>To address this issue, a multitude of early warning systems and scores (EWS) have been developed with the goal of identifying patients who are at risk for imminent cardiac arrest or ICU transfer. Most of these early warning scoring systems (also known as "track and trigger" systems; e.g., <underline>M</underline>odified <underline>E</underline>arly <underline>W</underline>arning <underline>S</underline>core or MEWS, VitalPac EWS or ViEWS, National EWS or NEWS, Rothman index) rely heavily upon vital sign abnormalities and assessment of mental status.[<xref ref-type="bibr" rid="pone.0161401.ref006">6</xref>] With the increase in electronic and automated monitoring of hospitalized patients, EWS-based systems have been adopted by many hospitals in an attempt to identify patients who are deteriorating and require escalation of care. However, accurate prediction of a patient who requires impending ICU transfer is difficult, as many stable patients may reach the "trigger" threshold for an event but not ultimately require ICU transfer. As a result, current early warning system-based prediction models have good sensitivity but poor positive predictive values (e.g., 5–10%).[<xref ref-type="bibr" rid="pone.0161401.ref001">1</xref>, <xref ref-type="bibr" rid="pone.0161401.ref007">7</xref>–<xref ref-type="bibr" rid="pone.0161401.ref013">13</xref>] Current clinical monitoring alarms also suffer from poor specificity, with published studies reporting false alarm rates of 70–95%, potentially resulting in alarm fatigue[<xref ref-type="bibr" rid="pone.0161401.ref010">10</xref>, <xref ref-type="bibr" rid="pone.0161401.ref014">14</xref>–<xref ref-type="bibr" rid="pone.0161401.ref016">16</xref>], which has been associated with patient death.[<xref ref-type="bibr" rid="pone.0161401.ref017">17</xref>] Not surprisingly, subsequent studies have demonstrated that EWS-based alarms only marginally improve outcomes while substantially increasing physician and nursing workloads.[<xref ref-type="bibr" rid="pone.0161401.ref018">18</xref>]</p>
+<p>Given the limitations of currently available monitoring systems, we wanted to develop a novel prediction tool based upon advanced machine learning algorithm called a neural network (or multilayer perceptron) that would utilize readily available vital signs and laboratory values that are routinely obtained during the course of a typical hospital admission.[<xref ref-type="bibr" rid="pone.0161401.ref019">19</xref>] Neural networks are a class of machine learning algorithms that have the ability to discern complex nonlinear patterns and have been used primarily for basic science applications such as gene identification, genetic interaction and protein structure prediction.[<xref ref-type="bibr" rid="pone.0161401.ref019">19</xref>, <xref ref-type="bibr" rid="pone.0161401.ref020">20</xref>] In addition, mathematical modeling of biological systems have been performed in basic science, including that of tumor biology.[<xref ref-type="bibr" rid="pone.0161401.ref021">21</xref>, <xref ref-type="bibr" rid="pone.0161401.ref022">22</xref>] We hypothesized that a neural network (NN)-based model built upon a patient's "static" characteristics (e.g., age, gender, diagnosis), coupled with "dynamic" variables (e.g., an individual's pattern of vital signs and lab results over the duration of hospitalization) would enhance predictive ability of clinical deterioration. We defined clinical deterioration as ICU transfers and cardiac arrests, given that these events are associated with increased in-hospital mortality. ICU transfers and cardiac arrest therefore served as objective outcomes for model training and for prediction, similar to prior studies.[<xref ref-type="bibr" rid="pone.0161401.ref001">1</xref>, <xref ref-type="bibr" rid="pone.0161401.ref007">7</xref>, <xref ref-type="bibr" rid="pone.0161401.ref009">9</xref>] We determined whether our neural network-based prediction model would have increased sensitivity and higher positive predictive value compared to existing scoring systems. For the initial phase of our study, we chose to analyze data obtained from the inpatient unit that primarily cared for patients with hematologic malignancies, as these patients frequently have complex medical problems and are at particular risk for poor outcomes following development of critical illness. [<xref ref-type="bibr" rid="pone.0161401.ref023">23</xref>]</p>
+</sec>
+<sec id="sec009" sec-type="materials|methods">
+<title>Methods</title>
+<sec id="sec010">
+<title>Setting and Study Population</title>
+<p>This retrospective study utilized a cohort of adult patients hospitalized from 2009 to 2010 on an inpatient medical ward at the Ronald Reagan UCLA Medical Center, an academic tertiary medical center with 540 inpatient beds. The majority of these patients had leukemia, lymphoma and plasma cell dyscrasia as the primary diagnosis. In addition, the majority of these admissions were for chemotherapy, stem cell transplantation and neutropenic surveillance.</p>
+</sec>
+<sec id="sec011">
+<title>Ethics</title>
+<p>The study was reviewed and approved by the UCLA Institutional Review Board (IRB# 12–000482). The patient records were anonymized and de-identified prior to analysis.</p>
+</sec>
+<sec id="sec012">
+<title>Neural Network Model</title>
+<p>The features (predictors) used to develop the neural network model included all vital signs and laboratory studies for each patient during his/her hospitalization. Specifically, we analyzed systolic and diastolic blood pressures, heart rate, respiratory rate and temperature. We also incorporated white blood cell count, hemoglobin, platelet count, sodium, potassium, chloride, total CO2, BUN (blood urea nitrogen), creatinine and glucose into our model. These parameters were chosen as they are routinely obtained on all hospitalized patients and frequently monitored (i.e., at least daily up to several times a day). We did not include other laboratory studies such as liver function tests and coagulation studies as they are not routinely obtained in all hospitalized patients. For each admission, we included all the measurements of the vital signs and laboratory values until discharge for the control group and up until 4 hours prior to ICU transfer or cardiac arrest for the group that developed clinical deterioration. For the clinical deterioration group, we included measurements up to 4 hours prior to the clinical deterioration event. We did not include measurements closer than 4 hours because we felt that a warning system that gave at least a 4 hour warning window would allow clinicians sufficient time to act if the model indeed did work. Because laboratory studies are obtained at a lower frequency (typically once to twice a day) than vital signs, there were missing values. To deal with these missing values, we used the last observation carried forward. Otherwise, there was no further preprocessing of the data.</p>
+<p>The entire cohort was randomly split up into the model-building cohort, cross-validation cohort and testing cohort. The random assortment was done by admissions and stratified by clinical deterioration so that the time series and time dependencies were preserved. The model-building cohort (comprised of 50% of admissions) was used to develop the neural network. The cross-validation cohort (comprised of 25% of admissions) was used to fine-tune the neural network parameters (number of hidden nodes and learning rate) and determine the number of interaction terms. After model building and optimization, the final model was then tested on the test cohort (comprised of 25% of admissions) to determine the model’s performance characteristics.</p>
+<p>The neural network was built with 1 hidden layer (representative example shown in <xref ref-type="fig" rid="pone.0161401.g001">Fig 1</xref>). The weights of the neural network were determined by minimizing the mean squared error through gradient descent in a process called standard back propagation.[<xref ref-type="bibr" rid="pone.0161401.ref020">20</xref>] The number of hidden nodes and the learning rate were adjusted for optimal performance by testing the model on the cross-validation cohort. The features used as predictors were age, sex, vital signs and laboratory studies as listed above. Interaction terms were included with systolic blood pressure and the other features, heart rate and the other features, and respiratory rate and the other features. The R package RSNNS was used.[<xref ref-type="bibr" rid="pone.0161401.ref024">24</xref>]</p>
+<fig id="pone.0161401.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0161401.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Representative neural network model demonstrating a simplified version of the neural network used to predict clinical deterioration in hematologic malignancy patients.</title>
+<p>The features (predictors) are listed on the left and represented by the circles which are the input nodes. The middle layer of circles represent the hidden layer with the circles representing the hidden nodes. The far right single circle represents the output node that serves to predict clinical deterioration from the neural network.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0161401.g001" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec013">
+<title>Test Statistics and Comparisons to Existing Models</title>
+<p>After the neural network model was built and optimized, the test statistics were derived by applying the neural network model to the test cohort only. The test statistics did not include model performance on the model cohort or the cross-validation cohort. The test statistics we evaluated were the positive predictive value, area under the curve (AUC) from receiver operating characteristic (ROC) analysis and the unweighted F score. The ROC curve was generated using the ROCR package in R. [<xref ref-type="bibr" rid="pone.0161401.ref025">25</xref>]</p>
+<p>Simulation was also performed on the cohort by randomly resorting the cross-validation and testing cohorts (i.e., 50% of subjects not used for model building). This was performed to generate a mean and 95% confidence interval. The random resorting was performed 100 times.</p>
+<p>Comparison was made between our neural network model and the VitalPac Early Warning System (ViEWS) prediction model.[<xref ref-type="bibr" rid="pone.0161401.ref008">8</xref>] Our hospital did not have a specific protocol in place to record mental status (AVPU [alert, verbal, response to pain, unresponsive]) in our electronic record, as is used in the MEWS and ViEWS models.[<xref ref-type="bibr" rid="pone.0161401.ref008">8</xref>, <xref ref-type="bibr" rid="pone.0161401.ref010">10</xref>] We also did not utilize oxygen saturation and whether the patient used supplemental oxygen. Therefore, in order for us to calculate the ViEWS score, we assigned the maximal score of 3 for mental status (AVPU) to subjects who developed clinical deterioration ("cases") and assigned a score of 0 for those that did not develop clinical deterioration ("controls"). Similarly, we assigned a maximal score of 3 for oxygen saturation to cases and a score of 0 to controls. Finally, the maximum score of 3 was assigned for the category of use of supplemental oxygen to those that developed clinical deterioration and a score of 0 to control subjects. We reasoned that imputing these values would artificially enhance the predictive value of ViEWS (i.e., provide the "best-case" scenario) when comparing the performance of ViEWS against our neural network. The range of positive predictive value reported for the ViEWS model was derived from choosing various cut-points on the ViEWS score to determine the range of sensitivity and specificity.</p>
+<p>As an alternate method of dealing with the missing information of supplemental oxygen and AVPU scores, we performed simulation for these scores and then calculate the performance of the ViEWS score with this simulated data. The simulation was performed 100 times and the results are reported as a mean AUC with a 95% confidence interval.</p>
+</sec>
+</sec>
+<sec id="sec014" sec-type="results">
+<title>Results</title>
+<sec id="sec015">
+<title>Demographics</title>
+<p>Between 2009 and 2010, data were obtained from 565 consecutive admissions to the medical ward that primarily houses admitted adult patients with hematologic malignancies. Patient characteristics, cancer diagnoses and treatments are presented in <xref ref-type="table" rid="pone.0161401.t001">Table 1</xref>. Forty-three admissions (7.6%) resulted in severe clinical deterioration (as defined by ICU transfers and code events) while 522 (92.4%) did not result in clinical deterioration (i.e., the control group). This is similar to other studies, where the rates of clinical deterioration events have been reported to range from 5–10% of admissions.[<xref ref-type="bibr" rid="pone.0161401.ref001">1</xref>, <xref ref-type="bibr" rid="pone.0161401.ref008">8</xref>, <xref ref-type="bibr" rid="pone.0161401.ref010">10</xref>, <xref ref-type="bibr" rid="pone.0161401.ref015">15</xref>, <xref ref-type="bibr" rid="pone.0161401.ref026">26</xref>] The control group and clinical deterioration group had comparable demographics with similar median ages, gender distribution, and median time to discharge or clinical deterioration. In addition, both groups had similar proportions of patients with AML and ALL, and rates of admissions for neutropenic surveillance and chemotherapy. The clinical deterioration group had more allogeneic stem cell transplant admissions while the control group had more autologous stem cell transplant admissions.</p>
+<table-wrap id="pone.0161401.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0161401.t001</object-id>
+<label>Table 1</label> <caption><title>Demographics.</title></caption>
+<alternatives>
+<graphic id="pone.0161401.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0161401.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Characteristic</th>
+<th align="right">Control Group</th>
+<th align="left">Clinical Deterioration Group</th>
+<th align="left">p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Number of admissions</td>
+<td align="right">522</td>
+<td align="right">43</td>
+<td align="left"> </td>
+</tr>
+<tr>
+<td align="left">Median age (range) (in years)</td>
+<td align="right">52 (range: 17–95)</td>
+<td align="right">55 (range: 25–79)</td>
+<td align="right">0.2440</td>
+</tr>
+<tr>
+<td align="left">Percentage male</td>
+<td align="right">54.98%</td>
+<td align="right">55.81%</td>
+<td align="right">1.0000</td>
+</tr>
+<tr>
+<td align="left">Median time to discharge or clinical deterioration (days)</td>
+<td align="right">14.93</td>
+<td align="right">17.53</td>
+<td align="right">0.2019</td>
+</tr>
+<tr>
+<td align="left"><bold>Cancer Diagnosis</bold></td>
+<td align="right"> </td>
+<td align="right"> </td>
+<td align="left"> </td>
+</tr>
+<tr>
+<td align="left">AML</td>
+<td align="right">203 (38.89%)</td>
+<td align="right">20 (46.51%)</td>
+<td align="right">0.4118</td>
+</tr>
+<tr>
+<td align="left">ALL</td>
+<td align="right">58 (11.11%)</td>
+<td align="right">8 (18.60%)</td>
+<td align="right">0.2211</td>
+</tr>
+<tr>
+<td align="left">CML</td>
+<td align="right">13 (2.49%)</td>
+<td align="right">3 (6.98%)</td>
+<td align="right">0.2200</td>
+</tr>
+<tr>
+<td align="left">Myelodysplastic syndrome</td>
+<td align="right">13 (2.49%)</td>
+<td align="right">2 (4.65%)</td>
+<td align="right">0.7236</td>
+</tr>
+<tr>
+<td align="left">T-cell lymphoma/leukemia</td>
+<td align="right">18 (3.45%)</td>
+<td align="right">2 (4.65%)</td>
+<td align="right">1.0000</td>
+</tr>
+<tr>
+<td align="left">CLL</td>
+<td align="right">8 (1.53%)</td>
+<td align="right">1 (2.33%)</td>
+<td align="right">1.0000</td>
+</tr>
+<tr>
+<td align="left">Diffuse large B-cell lymphoma</td>
+<td align="right">47 (9.00%)</td>
+<td align="right">1 (2.33%)</td>
+<td align="right">0.2205</td>
+</tr>
+<tr>
+<td align="left">Hodgkin's lymphoma</td>
+<td align="right">22 (4.21%)</td>
+<td align="right">1 (2.33%)</td>
+<td align="right">0.8406</td>
+</tr>
+<tr>
+<td align="left">Malignant melanoma</td>
+<td align="right">5 (0.96%)</td>
+<td align="right">1 (2.33%)</td>
+<td align="right">0.9465</td>
+</tr>
+<tr>
+<td align="left">Amyloidosis, primary</td>
+<td align="right">2 (0.38%)</td>
+<td align="right">1 (2.33%)</td>
+<td align="right">0.5531</td>
+</tr>
+<tr>
+<td align="left">Aplastic anemia</td>
+<td align="right">20 (3.83%)</td>
+<td align="right">1 (2.33%)</td>
+<td align="right">0.9343</td>
+</tr>
+<tr>
+<td align="left">Biphenotypic leukemia</td>
+<td align="right">2 (0.38%)</td>
+<td align="right">1 (2.33%)</td>
+<td align="right">0.5531</td>
+</tr>
+<tr>
+<td align="left">Renal cell carcinoma</td>
+<td align="right">0 (0.00%)</td>
+<td align="right">1 (2.33%)</td>
+<td align="right">0.1096</td>
+</tr>
+<tr>
+<td align="left">Other cancer diagnoses</td>
+<td align="right">111 (21.26%)</td>
+<td align="right">0 (0.00%)</td>
+<td align="right">0.0015</td>
+</tr>
+<tr>
+<td align="left"><bold>Treatments Received</bold></td>
+<td align="right"> </td>
+<td align="right"> </td>
+<td align="left"> </td>
+</tr>
+<tr>
+<td align="left">Chemotherapy</td>
+<td align="right">207 (39.66%)</td>
+<td align="right">16 (37.21%)</td>
+<td align="right">0.8783</td>
+</tr>
+<tr>
+<td align="left">Allogeneic stem cell transplantation</td>
+<td align="right">64 (12.26%)</td>
+<td align="right">12 (27.91%)</td>
+<td align="right">0.0079</td>
+</tr>
+<tr>
+<td align="left">Neutropenic surveillance</td>
+<td align="right">88 (16.86%)</td>
+<td align="right">8 (18.60%)</td>
+<td align="right">0.9347</td>
+</tr>
+<tr>
+<td align="left">Autologous stem cell transplantation</td>
+<td align="right">90 (17.24%)</td>
+<td align="right">1 (2.33%)</td>
+<td align="right">0.0192</td>
+</tr>
+<tr>
+<td align="left">Other</td>
+<td align="right">73 (13.98%)</td>
+<td align="right">6 (13.95%)</td>
+<td align="right">1.0000</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>Other cancer diagnoses did not have any clinical deterioration and include seminoma, germinoma, gallbladder adenocarcinoma, Waldenstrom macroglobulinemia, sarcoma, and paraganglioma. Other treatments include immunotherapy and interleukin-2 therapy.</p>
+</sec>
+<sec id="sec016">
+<title>Model Construction and Performance</title>
+<p>The neural network was built on 50% of the combined cohort (565 admissions). Cross-validation was performed on a separate 25%. The cross-validation allowed further optimization of the neural network, resulting in a final neural network with 1 hidden layer, 24 hidden nodes and a learning rate of 0.01. The positive predictive value was then determined by applying the optimized final model on the separate 25% test cohort. The positive predictive value on the test cohort was 77.58% in contrast to previous models that report a typical positive predictive value of 5–10%.[<xref ref-type="bibr" rid="pone.0161401.ref010">10</xref>, <xref ref-type="bibr" rid="pone.0161401.ref015">15</xref>] The negative predictive value was 99.19%, with sensitivity 93.33% and specificity 96.85%.</p>
+<p>With prediction, the model frequently suffers when using data further away from the event of concern. Therefore, we examined how analyzing data up to earlier timepoints before clinical deterioration would affect model performance. We found that the performance of the neural network suffers only minimally when using only the data up to 8 hours prior to ICU transfer/cardiac arrest. The positive predictive value decreases to 76.47%, negative predictive value decreases to 98.4%, whereas sensitivity decreases to 86.67% and specificity remains at 96.85%. At 12 hours prior to ICU transfer/cardiac arrest the performance worsens, with a positive predictive value of 63.64% and negative predictive value of 93.89%. The sensitivity decreases to 46.67%, while specificity remains at 96.85%.</p>
+<p><xref ref-type="table" rid="pone.0161401.t002">Table 2</xref> reports the test statistics using simulation from random resorting of the cross-validation and training cohorts. The simulation process resulted in a positive predictive value of 81.98% [95% CI: 72.68–91.27%]. Overall sensitivity of the neural network was 84% [95% CI: 77% –91%], with a specificity of 98% [95% CI: 98%– 99%] and AUC of 0.92 [95% CI: 0.88–0.95].</p>
+<table-wrap id="pone.0161401.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0161401.t002</object-id>
+<label>Table 2</label> <caption><title>Test Performance from Simulation.</title></caption>
+<alternatives>
+<graphic id="pone.0161401.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0161401.t002" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<tbody>
+<tr>
+<td align="left">Positive predictive value (with 95% confidence interval)</td>
+<td align="right">81.98% [95% CI: 72.68% - 91.27%]</td>
+</tr>
+<tr>
+<td align="left">Sensitivity (with 95% confidence interval)</td>
+<td align="right">84% [95% CI: 77% - 91%]</td>
+</tr>
+<tr>
+<td align="left">Specificity (with 95% confidence interval)</td>
+<td align="right">98% [95% CI: 98% - 99%]</td>
+</tr>
+<tr>
+<td align="left">AUC (with 95% confidence interval)</td>
+<td align="right">0.92 [95% CI: 0.88–0.95]</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec017">
+<title>Model Comparison to ViEWS</title>
+<p>We next wanted to compare the performance of our neural network based model against a widely used early warning scoring system. The VitalPAC Early Warning System is a widely adopted model for predicting risk of adverse events in admitted patients.[<xref ref-type="bibr" rid="pone.0161401.ref027">27</xref>, <xref ref-type="bibr" rid="pone.0161401.ref028">28</xref>] We therefore examined the performance of the ViEWS model on our cohort of patients on the hematologic malignancy medical floor. Despite giving optimal scoring to the patients that developed clinical deterioration in the ViEWS model for mental status, oxygen saturation and use of supplemental oxygen, our neural network model performed better than the ViEWS model. (<xref ref-type="table" rid="pone.0161401.t003">Table 3</xref>) The neural network positive predictive value had a range of 73–91% compared to 1–24% in the ViEWS model. The AUC for the neural network model ranged from 0.88–0.95 compared to the AUC of 0.69 using the ViEWS model. The F score was also better for the neural network model (0.81–0.85) compared to the ViEWS model (0.01–0.34).</p>
+<table-wrap id="pone.0161401.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0161401.t003</object-id>
+<label>Table 3</label> <caption><title>Comparison between Neural Network Model and VIEWS Model on Current Data.</title></caption>
+<alternatives>
+<graphic id="pone.0161401.t003g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0161401.t003" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"> </th>
+<th align="right">Neural network based model (95% Confidence Interval)</th>
+<th align="right">ViEWS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Positive predictive value</td>
+<td align="right">72.68–91.27%</td>
+<td align="right">1.14–23.89%</td>
+</tr>
+<tr>
+<td align="left">AUC</td>
+<td align="right">0.88–0.95</td>
+<td align="right">0.69</td>
+</tr>
+<tr>
+<td align="left">F score</td>
+<td align="right">0.81–0.85</td>
+<td align="right">0.01–0.34</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>Using simulation for missing information on supplemental oxygen and AVPU score, we ran 100 simulations and report the performance of the ViEWS score as the mean and 95% confidence interval. The AUC of the ViEWS model was 0.67 [0.65–0.69].</p>
+</sec>
+<sec id="sec018">
+<title>Subset Analysis</title>
+<p>Given that the positive predictive value depends upon the prevalence of clinical deterioration, we analyzed how our model performed in subsets of patients with varying rates of clinical deterioration. The prevalence of clinical deterioration is highest in patients admitted for allogeneic stem cell transplantation, whereas among patients admitted for autologous stem cell transplantation, the rate of clinical deterioration is much lower. <xref ref-type="table" rid="pone.0161401.t004">Table 4</xref> represents the positive predictive value of the neural network if the same test statistics were applied to the different hematologic malignancy subpopulations. Not surprisingly, the positive predictive value was lowest for patients admitted for autologous stem cell transplantation. However, the model generally maintained high performance across patients at average and higher risk for clinical deterioration.</p>
+<table-wrap id="pone.0161401.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0161401.t004</object-id>
+<label>Table 4</label> <caption><title>Comparison of Positive Predictive Value in Different At-Risk Populations Using the Neural Network Based Predictive Model.</title></caption>
+<alternatives>
+<graphic id="pone.0161401.t004g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0161401.t004" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"> </th>
+<th align="center">Positive Predictive Value from Neural Network Model</th>
+<th align="center">Percentage of Patients that Developed Clinical Deterioration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">All patients from hematologic malignancy ward</td>
+<td align="right">77.58%</td>
+<td align="right">7.61%</td>
+</tr>
+<tr>
+<td align="left">Patients admitted that were treated with chemotherapy</td>
+<td align="right">76.45%</td>
+<td align="right">7.17%</td>
+</tr>
+<tr>
+<td align="left">Patients admitted for allogeneic stem cell transplantation</td>
+<td align="right">88.73%</td>
+<td align="right">15.79%</td>
+</tr>
+<tr>
+<td align="left">Patients admitted for autologous stem cell transplantation</td>
+<td align="right">31.82%</td>
+<td align="right">1.10%</td>
+</tr>
+<tr>
+<td align="left">Patients admitted for neutropenic surveillance</td>
+<td align="right">79.25%</td>
+<td align="right">8.33%</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+</sec>
+<sec id="sec019" sec-type="conclusions">
+<title>Discussion</title>
+<p>In this study, we created a type of neural network-based model using multilayer perceptron training, to determine whether this approach could predict significant clinical deterioration events in a cohort of admitted patients with hematological malignancies. The neural network was "trained" using routinely available clinical data (e.g., age, gender, and all of the vital signs and labs obtained during hospitalization) that was input from our EMR. We conjectured that a NN-based model would be able to discern complex patterns, such as changes in heart rate variability, that would forecast clinical deterioration more accurately than one of the best-performing early warning scores (ViEWS). To our knowledge, we are the first to utilize a neural network (multilayer perceptron) based model for the prediction of clinical deterioration on hospitalized patients, utilizing routinely obtained vital signs and laboratory studies. While this is the first step, we have demonstrated the powerful potential of applying machine learning techniques to the vast amount of data recorded in EMRs, which in our hands were able to predict significant clinical deterioration events with high accuracy using data up to 4 hours before the event. Ultimately, if successful, neural networks could be incorporated into hospital EMR systems in real-time to provide ongoing surveillance of inpatient clinical data using more sophisticated pattern recognition analysis, which would provide clinicians with more accurate forecasts of clinical deterioration.</p>
+<p>This study was based on a fairly well-defined cohort of hospitalized patients with primarily hematologic malignancy, and was able to perform with a positive predictive rate of 77.58% on an independent testing cohort, an improvement above that previously reported in literature of approximately 10%.[<xref ref-type="bibr" rid="pone.0161401.ref010">10</xref>, <xref ref-type="bibr" rid="pone.0161401.ref015">15</xref>] The improved performance of this neural network based model is likely based on the ability of the neural network to discriminate non-linear patterns.[<xref ref-type="bibr" rid="pone.0161401.ref020">20</xref>] Furthermore, accurate forecasting of clinical deterioration at an early enough timepoint where therapeutic intervention can have a meaningful impact on outcomes is challenging, even for the most experienced of clinicians. Our study was able to predict events using data up to 4 hours before the event, which would provide time for interventions such as additional testing, and administration of IV fluids, antibiotics, and other therapies. Future studies will examine how well different neural network approaches perform at earlier times before the event (e.g., 8 and 12 hours prior to the event).</p>
+<p>The purpose of designing a predictive model for clinical deterioration should not be to add to the noise of existing alarms that already have low positive predictive values. Rather, they should integrate these existing alarms into a single alarm that can be trusted to give a reliable alarm. Another advantage of a higher positive predictive value (or lower false positive rate) is that there would be fewer false alarms to react to for a rapid response team, reducing clinical workload and potentially reducing costs. Therefore, the major advantage of our neural network model is the improved positive predictive value. We focused on positive predictive value because it is a more clinically useful test statistic for clinicians as it integrates information about prevalence and test performance. The higher positive predictive value allows the clinician to be more confident in the alert when it is sounded as compared to other models where the positive predictive value is on the order of 10%.[<xref ref-type="bibr" rid="pone.0161401.ref010">10</xref>, <xref ref-type="bibr" rid="pone.0161401.ref015">15</xref>] Increased false alarm alerts result in alarm fatigue and alarm desensitization, which decreases the likelihood of a timely response to the alarms.[<xref ref-type="bibr" rid="pone.0161401.ref014">14</xref>, <xref ref-type="bibr" rid="pone.0161401.ref017">17</xref>, <xref ref-type="bibr" rid="pone.0161401.ref029">29</xref>–<xref ref-type="bibr" rid="pone.0161401.ref031">31</xref>] Therefore, a system that predicts clinical deterioration should be focused on a higher positive predictive value. The importance of a higher positive predictive value is supported by studies suggesting that the response rate to an alarm is correlated to the perceived reliability of the alarm.[<xref ref-type="bibr" rid="pone.0161401.ref014">14</xref>, <xref ref-type="bibr" rid="pone.0161401.ref032">32</xref>–<xref ref-type="bibr" rid="pone.0161401.ref034">34</xref>] Therefore, an alarm with a low positive predictive value would be responded to less frequently that one with a higher positive predictive value.</p>
+<p>Pinsky et al have studied the use of an integrated monitor (Visensia OBS Medical) that integrates information from heart rate, respiratory rate, blood pressure, oxygen saturation and temperature to detect cardiorespiratory instability in step down units.[<xref ref-type="bibr" rid="pone.0161401.ref035">35</xref>, <xref ref-type="bibr" rid="pone.0161401.ref036">36</xref>] They reported a sensitivity of 70.5% and a specificity of 71%. Given the higher prevalence of cardiorespiratory instability on these floors (between 25–34%), it would be expected that the positive predictive value would be between 44.76–55.60%.[<xref ref-type="bibr" rid="pone.0161401.ref036">36</xref>, <xref ref-type="bibr" rid="pone.0161401.ref037">37</xref>] The Visensia monitor is a probabilistic monitor that quantifies what is normal (Gaussian) and then identifies cardiorespiratory instability when the vital signs that are fed into it lie outside of a proprietary definition of normal. In a sense, this is a form of anomaly detection, much like what industry uses to determine a defective part in manufacturing or what credit card companies use to find credit fraud. We have also studied the use of an anomaly detection system in the form of a multivariate Gaussian model but found that approach did not perform as well as the neural network (data not shown). The higher prevalence of clinical deterioration in the step-down units noted by Pinsky et al suggests that if our neural network system were optimized to work in a step-down unit, the higher prevalence would lead to an even higher positive predictive value.</p>
+<p>While we wanted to build a prediction model solely based on routinely obtained vital signs and laboratory values, <xref ref-type="table" rid="pone.0161401.t004">Table 4</xref> suggests that the inclusion of additional clinical information would improve the model. For instance, we expect that patients being admitted for allogeneic stem cell transplantation have a higher prevalence of clinical deterioration because of the intensity of the treatment as compared to patients being admitted for autologous stem cell transplantation, as we expect that they will engraft more readily and not develop graft-versus-host disease. As electronic medical record systems start to incorporate such a priori clinical data more readily, they will be included in the prediction model to better refine the model for different population cohorts. Furthermore, the predictors for the neural network would be readily scalable. If, for example, a non-invasive method for determining cardiac output were more readily available, this would be easily incorporated into the neural network model, after sufficient training. Hence, this approach provides enhanced flexibility to customize the warning system to specific patient populations.</p>
+<p>One potential limitation of our study is that it was not developed and tested on a generalized hospital population but rather a more defined population of patients that were primarily admitted with a hematologic malignancy diagnosis. While this was a more focused study, the prevalence of clinical deterioration is similar to other studies.[<xref ref-type="bibr" rid="pone.0161401.ref001">1</xref>, <xref ref-type="bibr" rid="pone.0161401.ref008">8</xref>] However, this may also highlight the importance of condition- or patient-acuity specific algorithms. Instead of developing an overall model for the entire hospital, the performance of the prediction models may be improved by developing different models for different hospital wards, as the type of patient or nursing care may vary depending on the ward that the patient was admitted to.</p>
+<p>There is the potential for overfitting with any model, however we tried to deal with this by setting aside a random cohort only for testing which was not used in model development. In addition, we report the results of simulation/cross-validation as an estimate of the confidence interval of the test statistics. It will depend on future study to further validate the results here.</p>
+<p>Another limitation common in machine learning algorithms is that the prediction system becomes a "black box" and does not lend itself to easy interpretation of physiology, as compared to prediction systems built on methods such as linear regression. While a linear prediction system might be more understandable (e.g., that a certain decrease in systolic blood pressure would lead to a higher chance of clinical deterioration), the neural network is not able to provide such interpretation. We would argue, however, that a busy clinician would readily trade away interpretability for the convenience of a more reliable warning system. In addition, this system might inform the clinician as to which patients might require more attention, allowing them to prioritize their clinical efforts.</p>
+<p>One important issue that remains unaddressed is whether earlier prediction of clinical deterioration will result in earlier interventions that improve overall outcomes. The creation of rapid response teams is an example of a systematic, early intervention that has been implemented in an attempt to improve clinical outcomes, but has had variable results. Certain patients may simply have a fixed trajectory, where any intervention may not alter the course of illness. However, other therapies, such as prompt initiation of antibiotics in patients with pneumonia, achievement of anticoagulation goals, and aggressive hemodynamic resuscitation in patients with early sepsis have demonstrated that timing of therapy remains a critical factor in many clinical situations. Hence, we believe that clinicians and patients will benefit from early warning systems that are accurate, although formal studies are necessary to determine the magnitude of this benefit. Once we have optimized our model, we anticipate initiating a clinical trial where we examine whether our neural-network based warning system leads to earlier intervention, decreases number of ICU transfers and cardiopulmonary arrests, and improves other clinical outcomes compared to current standard practice.</p>
+</sec>
+<sec id="sec020" sec-type="conclusions">
+<title>Conclusion</title>
+<p>We have demonstrated the ability of using a neural network model to predict clinical deterioration in a cohort of hospitalized patients that were primarily admitted for hematologic malignancy diagnoses. The neural network based model performs with a higher positive predictive value compared to other existing models and accomplishes this by employing routinely collected vital signs and laboratory values, precluding the need for specialized training of staff in calculating early warning scores.</p>
+</sec>
+</body>
+<back>
+<ack>
+<p>The research was supported by NIH 5T32HL072752 (S.B.H.) and NIH/National Center for Advancing Translational Science (NCATS) UCLA CTSI Grant Number UL1TR000124</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0161401.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Churpek</surname> <given-names>MM</given-names></name>, <name name-style="western"><surname>Yuen</surname> <given-names>TC</given-names></name>, <name name-style="western"><surname>Park</surname> <given-names>SY</given-names></name>, <name name-style="western"><surname>Gibbons</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Edelson</surname> <given-names>DP</given-names></name>. <article-title>Using Electronic Health Record Data to Develop and Validate a Prediction Model for Adverse Outcomes in the Wards</article-title>. <source>Critical care medicine</source>. <year>2013</year>. Epub 2013/11/20. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/CCM.0000000000000038" xlink:type="simple">10.1097/CCM.0000000000000038</ext-link></comment> <object-id pub-id-type="pmid">24247472</object-id>; PubMed Central PMCID: PMC3959228.</mixed-citation></ref>
+<ref id="pone.0161401.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liu</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Kipnis</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Rizk</surname> <given-names>NW</given-names></name>, <name name-style="western"><surname>Escobar</surname> <given-names>GJ</given-names></name>. <article-title>Adverse outcomes associated with delayed intensive care unit transfers in an integrated healthcare system</article-title>. <source>Journal of hospital medicine: an official publication of the Society of Hospital Medicine</source>. <year>2012</year>;<volume>7</volume>(<issue>3</issue>):<fpage>224</fpage>–<lpage>30</lpage>. Epub 2011/11/01. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/jhm.964" xlink:type="simple">10.1002/jhm.964</ext-link></comment> <object-id pub-id-type="pmid">22038879</object-id>.</mixed-citation></ref>
+<ref id="pone.0161401.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mardini</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Lipes</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Jayaraman</surname> <given-names>D</given-names></name>. <article-title>Adverse outcomes associated with delayed intensive care consultation in medical and surgical inpatients</article-title>. <source>Journal of critical care</source>. <year>2012</year>;<volume>27</volume>(<issue>6</issue>):<fpage>688</fpage>–<lpage>93</lpage>. Epub 2012/06/16. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jcrc.2012.04.011" xlink:type="simple">10.1016/j.jcrc.2012.04.011</ext-link></comment> <object-id pub-id-type="pmid">22699035</object-id>.</mixed-citation></ref>
+<ref id="pone.0161401.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Young</surname> <given-names>MP</given-names></name>, <name name-style="western"><surname>Gooder</surname> <given-names>VJ</given-names></name>, <name name-style="western"><surname>McBride</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>James</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Fisher</surname> <given-names>ES</given-names></name>. <article-title>Inpatient transfers to the intensive care unit: delays are associated with increased mortality and morbidity</article-title>. <source>Journal of general internal medicine</source>. <year>2003</year>;<volume>18</volume>(<issue>2</issue>):<fpage>77</fpage>–<lpage>83</lpage>. Epub 2003/01/25. <object-id pub-id-type="pmid">12542581</object-id>; PubMed Central PMCID: PMC1494814.</mixed-citation></ref>
+<ref id="pone.0161401.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mokart</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Lambert</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Schnell</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Fouche</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Rabbat</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Kouatchet</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Delayed intensive care unit admission is associated with increased mortality in patients with cancer with acute respiratory failure</article-title>. <source>Leukemia &amp; lymphoma</source>. <year>2013</year>;<volume>54</volume>(<issue>8</issue>):<fpage>1724</fpage>–<lpage>9</lpage>. Epub 2012/11/29. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3109/10428194.2012.753446" xlink:type="simple">10.3109/10428194.2012.753446</ext-link></comment> <object-id pub-id-type="pmid">23185988</object-id>.</mixed-citation></ref>
+<ref id="pone.0161401.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Churpek</surname> <given-names>MM</given-names></name>, <name name-style="western"><surname>Yuen</surname> <given-names>TC</given-names></name>, <name name-style="western"><surname>Edelson</surname> <given-names>DP</given-names></name>. <article-title>Risk stratification of hospitalized patients on the wards</article-title>. <source>Chest</source>. <year>2013</year>;<volume>143</volume>(<issue>6</issue>):<fpage>1758</fpage>–<lpage>65</lpage>. Epub 2013/06/05. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1378/chest.12-1605" xlink:type="simple">10.1378/chest.12-1605</ext-link></comment> <object-id pub-id-type="pmid">23732586</object-id>; PubMed Central PMCID: PMC3673668.</mixed-citation></ref>
+<ref id="pone.0161401.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Churpek</surname> <given-names>MM</given-names></name>, <name name-style="western"><surname>Yuen</surname> <given-names>TC</given-names></name>, <name name-style="western"><surname>Edelson</surname> <given-names>DP</given-names></name>. <article-title>Predicting clinical deterioration in the hospital: the impact of outcome selection</article-title>. <source>Resuscitation</source>. <year>2013</year>;<volume>84</volume>(<issue>5</issue>):<fpage>564</fpage>–<lpage>8</lpage>. Epub 2012/10/02. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.resuscitation.2012.09.024" xlink:type="simple">10.1016/j.resuscitation.2012.09.024</ext-link></comment> <object-id pub-id-type="pmid">23022075</object-id>; PubMed Central PMCID: PMC3568438.</mixed-citation></ref>
+<ref id="pone.0161401.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Prytherch</surname> <given-names>DR</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>GB</given-names></name>, <name name-style="western"><surname>Schmidt</surname> <given-names>PE</given-names></name>, <name name-style="western"><surname>Featherstone</surname> <given-names>PI</given-names></name>. <article-title>ViEWS—Towards a national early warning score for detecting adult inpatient deterioration</article-title>. <source>Resuscitation</source>. <year>2010</year>;<volume>81</volume>(<issue>8</issue>):<fpage>932</fpage>–<lpage>7</lpage>. Epub 2010/07/20. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.resuscitation.2010.04.014" xlink:type="simple">10.1016/j.resuscitation.2010.04.014</ext-link></comment> <object-id pub-id-type="pmid">20637974</object-id>.</mixed-citation></ref>
+<ref id="pone.0161401.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Smith</surname> <given-names>GB</given-names></name>, <name name-style="western"><surname>Prytherch</surname> <given-names>DR</given-names></name>, <name name-style="western"><surname>Meredith</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Schmidt</surname> <given-names>PE</given-names></name>, <name name-style="western"><surname>Featherstone</surname> <given-names>PI</given-names></name>. <article-title>The ability of the National Early Warning Score (NEWS) to discriminate patients at risk of early cardiac arrest, unanticipated intensive care unit admission, and death</article-title>. <source>Resuscitation</source>. <year>2013</year>;<volume>84</volume>(<issue>4</issue>):<fpage>465</fpage>–<lpage>70</lpage>. Epub 2013/01/09. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.resuscitation.2012.12.016" xlink:type="simple">10.1016/j.resuscitation.2012.12.016</ext-link></comment> <object-id pub-id-type="pmid">23295778</object-id>.</mixed-citation></ref>
+<ref id="pone.0161401.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Subbe</surname> <given-names>CP</given-names></name>, <name name-style="western"><surname>Kruger</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Rutherford</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Gemmel</surname> <given-names>L</given-names></name>. <article-title>Validation of a modified Early Warning Score in medical admissions</article-title>. <source>QJM: monthly journal of the Association of Physicians</source>. <year>2001</year>;<volume>94</volume>(<issue>10</issue>):<fpage>521</fpage>–<lpage>6</lpage>. Epub 2001/10/06. <object-id pub-id-type="pmid">11588210</object-id>.</mixed-citation></ref>
+<ref id="pone.0161401.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Finlay</surname> <given-names>GD</given-names></name>, <name name-style="western"><surname>Rothman</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>RA</given-names></name>. <article-title>Measuring the modified early warning score and the Rothman Index: Advantages of utilizing the electronic medical record in an early warning system</article-title>. <source>Journal of hospital medicine: an official publication of the Society of Hospital Medicine</source>. <year>2013</year>. Epub 2013/12/21. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/jhm.2132" xlink:type="simple">10.1002/jhm.2132</ext-link></comment> <object-id pub-id-type="pmid">24357519</object-id>.</mixed-citation></ref>
+<ref id="pone.0161401.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Morgan R</surname> <given-names>WF</given-names></name>, <name name-style="western"><surname>Wright</surname> <given-names>M</given-names></name>. <article-title>An early warning scoring system for detecting developing critical illness</article-title>. <source>Clinical Intensive Care</source>. <year>1997</year>;<volume>8</volume>:<fpage>100</fpage>.</mixed-citation></ref>
+<ref id="pone.0161401.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Smith</surname> <given-names>GB</given-names></name>, <name name-style="western"><surname>Prytherch</surname> <given-names>DR</given-names></name>, <name name-style="western"><surname>Schmidt</surname> <given-names>PE</given-names></name>, <name name-style="western"><surname>Featherstone</surname> <given-names>PI</given-names></name>. <article-title>Review and performance evaluation of aggregate weighted 'track and trigger' systems</article-title>. <source>Resuscitation</source>. <year>2008</year>;<volume>77</volume>(<issue>2</issue>):<fpage>170</fpage>–<lpage>9</lpage>. Epub 2008/02/06. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.resuscitation.2007.12.004" xlink:type="simple">10.1016/j.resuscitation.2007.12.004</ext-link></comment> <object-id pub-id-type="pmid">18249483</object-id>.</mixed-citation></ref>
+<ref id="pone.0161401.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cvach</surname> <given-names>M</given-names></name>. <article-title>Monitor alarm fatigue: an integrative review</article-title>. <source>Biomedical instrumentation &amp; technology / Association for the Advancement of Medical Instrumentation</source>. <year>2012</year>;<volume>46</volume>(<issue>4</issue>):<fpage>268</fpage>–<lpage>77</lpage>. Epub 2012/07/31. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.2345/0899-8205-46.4.268" xlink:type="simple">10.2345/0899-8205-46.4.268</ext-link></comment> <object-id pub-id-type="pmid">22839984</object-id>.</mixed-citation></ref>
+<ref id="pone.0161401.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rothman</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Rothman</surname> <given-names>SI</given-names></name>, <name name-style="western"><surname>Beals</surname> <given-names>Jt</given-names></name>. <article-title>Development and validation of a continuous measure of patient condition using the Electronic Medical Record</article-title>. <source>Journal of biomedical informatics</source>. <year>2013</year>;<volume>46</volume>(<issue>5</issue>):<fpage>837</fpage>–<lpage>48</lpage>. Epub 2013/07/09. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jbi.2013.06.011" xlink:type="simple">10.1016/j.jbi.2013.06.011</ext-link></comment> <object-id pub-id-type="pmid">23831554</object-id>.</mixed-citation></ref>
+<ref id="pone.0161401.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tsien</surname> <given-names>CL</given-names></name>, <name name-style="western"><surname>Fackler</surname> <given-names>JC</given-names></name>. <article-title>Poor prognosis for existing monitors in the intensive care unit</article-title>. <source>Critical care medicine</source>. <year>1997</year>;<volume>25</volume>(<issue>4</issue>):<fpage>614</fpage>–<lpage>9</lpage>. Epub 1997/04/01. <object-id pub-id-type="pmid">9142025</object-id>.</mixed-citation></ref>
+<ref id="pone.0161401.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sendelbach</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Funk</surname> <given-names>M</given-names></name>. <article-title>Alarm fatigue: a patient safety concern</article-title>. <source>AACN advanced critical care</source>. <year>2013</year>;<volume>24</volume>(<issue>4</issue>):<fpage>378</fpage>–<lpage>86</lpage>; quiz 87–8. Epub 2013/10/25. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/NCI.0b013e3182a903f9" xlink:type="simple">10.1097/NCI.0b013e3182a903f9</ext-link></comment> <object-id pub-id-type="pmid">24153215</object-id>.</mixed-citation></ref>
+<ref id="pone.0161401.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Alam</surname> <given-names>N HE</given-names></name>, <name name-style="western"><surname>van Tienhoven</surname> <given-names>AJ</given-names></name>, <name name-style="western"><surname>van de Ven</surname> <given-names>PM</given-names></name>, <name name-style="western"><surname>Jansma</surname> <given-names>EP</given-names></name>, <name name-style="western"><surname>Nanayakkara</surname> <given-names>PW</given-names></name>. <article-title>The impact of the use of the Early Warning Score (EWS) on patient outcomes: a systematic review</article-title>. <source>Resuscitation</source>. <year>2014</year>;<volume>85</volume>(<issue>5</issue>):<fpage>587</fpage>–<lpage>94</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.resuscitation.2014.01.013" xlink:type="simple">10.1016/j.resuscitation.2014.01.013</ext-link></comment> <object-id pub-id-type="pmid">24467882</object-id></mixed-citation></ref>
+<ref id="pone.0161401.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Manning</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Sleator</surname> <given-names>RD</given-names></name>, <name name-style="western"><surname>Walsh</surname> <given-names>P</given-names></name>. <article-title>Biologically inspired intelligent decision making: A commentary on the use of artificial neural networks in bioinformatics</article-title>. <source>Bioengineered</source>. <year>2013</year>;<volume>5</volume>(<issue>2</issue>). Epub 2013/12/18. <object-id pub-id-type="pmid">24335433</object-id>.</mixed-citation></ref>
+<ref id="pone.0161401.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Penny</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Frost</surname> <given-names>D</given-names></name>. <article-title>Neural networks in clinical medicine</article-title>. <source>Medical decision making: an international journal of the Society for Medical Decision Making</source>. <year>1996</year>;<volume>16</volume>(<issue>4</issue>):<fpage>386</fpage>–<lpage>98</lpage>. Epub 1996/10/01. <object-id pub-id-type="pmid">8912300</object-id>.</mixed-citation></ref>
+<ref id="pone.0161401.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Motta</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Pappalardo</surname> <given-names>F</given-names></name>. <article-title>Mathematical modeling of biological systems</article-title>. <source>Brief Bioinform</source>. <year>2013</year>;<volume>14</volume>(<issue>4</issue>):<fpage>411</fpage>–<lpage>22</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/bib/bbs061" xlink:type="simple">10.1093/bib/bbs061</ext-link></comment> <object-id pub-id-type="pmid">23063928</object-id>.</mixed-citation></ref>
+<ref id="pone.0161401.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pappalardo AP</surname> <given-names>F.</given-names></name>, <name name-style="western"><surname>Pennisi</surname> <given-names>M.</given-names></name>, <name name-style="western"><surname>Castiglione</surname> <given-names>F.</given-names></name>, <name name-style="western"><surname>Motta</surname> <given-names>S.</given-names></name>. <article-title>Mathematical and Computational Models in Tumor Immunology</article-title>. <source>Mathematical Modelling of Natural Phenomena</source>. <year>2012</year>;<volume>7</volume>(<issue>03</issue>). Epub 6/6/2012.</mixed-citation></ref>
+<ref id="pone.0161401.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lengline</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Raffoux</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Lemiale</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Darmon</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Canet</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Boissel</surname> <given-names>N</given-names></name>, <etal>et al</etal>. <article-title>Intensive care unit management of patients with newly diagnosed acute myeloid leukemia with no organ failure</article-title>. <source>Leukemia &amp; lymphoma</source>. <year>2012</year>;<volume>53</volume>(<issue>7</issue>):<fpage>1352</fpage>–<lpage>9</lpage>. Epub 2012/01/12. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3109/10428194.2011.649752" xlink:type="simple">10.3109/10428194.2011.649752</ext-link></comment> <object-id pub-id-type="pmid">22233111</object-id>.</mixed-citation></ref>
+<ref id="pone.0161401.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bergmeir</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Benitez</surname> <given-names>JM</given-names></name>. <article-title>Neural Networks in R Using the Stuttgart Neural Network Simulator: RSNNS</article-title>. <source>Journal of Statistical Software</source>. <year>2012</year>;<volume>46</volume>(<issue>7</issue>):<fpage>1</fpage>–<lpage>26</lpage>.</mixed-citation></ref>
+<ref id="pone.0161401.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>T. S</surname></name>, <name name-style="western"><surname>O. S</surname></name>, <name name-style="western"><surname>N. B</surname></name>, <name name-style="western"><surname>T. L</surname></name>. <article-title>ROCR: visualizing classifier performance in R</article-title>. <source>Bioinformatics</source>. <year>2005</year>;<volume>21</volume>(<issue>20</issue>):<fpage>7881</fpage>.</mixed-citation></ref>
+<ref id="pone.0161401.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Thiel</surname> <given-names>SW</given-names></name>, <name name-style="western"><surname>Rosini</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Shannon</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Doherty</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Micek</surname> <given-names>ST</given-names></name>, <name name-style="western"><surname>Kollef</surname> <given-names>MH</given-names></name>. <article-title>Early prediction of septic shock in hospitalized patients</article-title>. <source>Journal of hospital medicine: an official publication of the Society of Hospital Medicine</source>. <year>2010</year>;<volume>5</volume>(<issue>1</issue>):<fpage>19</fpage>–<lpage>25</lpage>. Epub 2010/01/12. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/jhm.530" xlink:type="simple">10.1002/jhm.530</ext-link></comment> <object-id pub-id-type="pmid">20063402</object-id>.</mixed-citation></ref>
+<ref id="pone.0161401.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kellett</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>A</given-names></name>. <article-title>Validation of an abbreviated Vitalpac Early Warning Score (ViEWS) in 75,419 consecutive admissions to a Canadian regional hospital</article-title>. <source>Resuscitation</source>. <year>2012</year>;<volume>83</volume>(<issue>3</issue>):<fpage>297</fpage>–<lpage>302</lpage>. Epub 2011/09/13. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.resuscitation.2011.08.022" xlink:type="simple">10.1016/j.resuscitation.2011.08.022</ext-link></comment> <object-id pub-id-type="pmid">21907689</object-id>.</mixed-citation></ref>
+<ref id="pone.0161401.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Opio</surname> <given-names>MO</given-names></name>, <name name-style="western"><surname>Nansubuga</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Kellett</surname> <given-names>J</given-names></name>. <article-title>Validation of the VitalPAC Early Warning Score (ViEWS) in acutely ill medical patients attending a resource-poor hospital in sub-Saharan Africa</article-title>. <source>Resuscitation</source>. <year>2013</year>;<volume>84</volume>(<issue>6</issue>):<fpage>743</fpage>–<lpage>6</lpage>. Epub 2013/02/27. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.resuscitation.2013.02.007" xlink:type="simple">10.1016/j.resuscitation.2013.02.007</ext-link></comment> <object-id pub-id-type="pmid">23438452</object-id>.</mixed-citation></ref>
+<ref id="pone.0161401.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lawless</surname> <given-names>ST</given-names></name>. <article-title>Crying wolf: false alarms in a pediatric intensive care unit</article-title>. <source>Critical care medicine</source>. <year>1994</year>;<volume>22</volume>(<issue>6</issue>):<fpage>981</fpage>–<lpage>5</lpage>. Epub 1994/06/01. <object-id pub-id-type="pmid">8205831</object-id>.</mixed-citation></ref>
+<ref id="pone.0161401.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Siebig</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Kuhls</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Imhoff</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Gather</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Scholmerich</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Wrede</surname> <given-names>CE</given-names></name>. <article-title>Intensive care unit alarms—how many do we need?</article-title> <source>Critical care medicine</source>. <year>2010</year>;<volume>38</volume>(<issue>2</issue>):<fpage>451</fpage>–<lpage>6</lpage>. Epub 2009/12/18. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/CCM.0b013e3181cb0888" xlink:type="simple">10.1097/CCM.0b013e3181cb0888</ext-link></comment> <object-id pub-id-type="pmid">20016379</object-id>.</mixed-citation></ref>
+<ref id="pone.0161401.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chambrin</surname> <given-names>MC</given-names></name>, <name name-style="western"><surname>Ravaux</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Calvelo-Aros</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Jaborska</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Chopin</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Boniface</surname> <given-names>B</given-names></name>. <article-title>Multicentric study of monitoring alarms in the adult intensive care unit (ICU): a descriptive analysis</article-title>. <source>Intensive care medicine</source>. <year>1999</year>;<volume>25</volume>(<issue>12</issue>):<fpage>1360</fpage>–<lpage>6</lpage>. Epub 2000/02/08. <object-id pub-id-type="pmid">10660842</object-id>.</mixed-citation></ref>
+<ref id="pone.0161401.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bliss</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Dunn</surname> <given-names>MC</given-names></name>. <article-title>Behavioural implications of alarm mistrust as a function of task workload</article-title>. <source>Ergonomics</source>. <year>2000</year>;<volume>43</volume>(<issue>9</issue>):<fpage>1283</fpage>–<lpage>300</lpage>. Epub 2000/10/03. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1080/001401300421743" xlink:type="simple">10.1080/001401300421743</ext-link></comment> <object-id pub-id-type="pmid">11014752</object-id>.</mixed-citation></ref>
+<ref id="pone.0161401.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bliss</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Fallon</surname> <given-names>CK</given-names></name>, <name name-style="western"><surname>Nica</surname> <given-names>N</given-names></name>. <article-title>The role of alarm signal duration as a cue for alarm validity</article-title>. <source>Applied ergonomics</source>. <year>2007</year>;<volume>38</volume>(<issue>2</issue>):<fpage>191</fpage>–<lpage>9</lpage>. Epub 2006/06/03. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.apergo.2006.03.004" xlink:type="simple">10.1016/j.apergo.2006.03.004</ext-link></comment> <object-id pub-id-type="pmid">16740247</object-id>.</mixed-citation></ref>
+<ref id="pone.0161401.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Edworthy</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Hellier</surname> <given-names>E</given-names></name>. <article-title>Fewer but better auditory alarms will improve patient safety</article-title>. <source>Quality &amp; safety in health care</source>. <year>2005</year>;<volume>14</volume>(<issue>3</issue>):<fpage>212</fpage>–<lpage>5</lpage>. Epub 2005/06/04. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1136/qshc.2004.013052" xlink:type="simple">10.1136/qshc.2004.013052</ext-link></comment> <object-id pub-id-type="pmid">15933320</object-id>; PubMed Central PMCID: PMC1744044.</mixed-citation></ref>
+<ref id="pone.0161401.ref035"><label>35</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hravnak</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Devita</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Clontz</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Edwards</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Valenta</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Pinsky</surname> <given-names>MR</given-names></name>. <article-title>Cardiorespiratory instability before and after implementing an integrated monitoring system</article-title>. <source>Critical care medicine</source>. <year>2011</year>;<volume>39</volume>(<issue>1</issue>):<fpage>65</fpage>–<lpage>72</lpage>. Epub 2010/10/12. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/CCM.0b013e3181fb7b1c" xlink:type="simple">10.1097/CCM.0b013e3181fb7b1c</ext-link></comment> <object-id pub-id-type="pmid">20935559</object-id>; PubMed Central PMCID: PMC3673290.</mixed-citation></ref>
+<ref id="pone.0161401.ref036"><label>36</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hravnak</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Edwards</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Clontz</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Valenta</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Devita</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Pinsky</surname> <given-names>MR</given-names></name>. <article-title>Defining the incidence of cardiorespiratory instability in patients in step-down units using an electronic integrated monitoring system</article-title>. <source>Archives of internal medicine</source>. <year>2008</year>;<volume>168</volume>(<issue>12</issue>):<fpage>1300</fpage>–<lpage>8</lpage>. Epub 2008/06/25. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1001/archinte.168.12.1300" xlink:type="simple">10.1001/archinte.168.12.1300</ext-link></comment> <object-id pub-id-type="pmid">18574087</object-id>; PubMed Central PMCID: PMC3668698.</mixed-citation></ref>
+<ref id="pone.0161401.ref037"><label>37</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yousef</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Pinsky</surname> <given-names>MR</given-names></name>, <name name-style="western"><surname>DeVita</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Sereika</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Hravnak</surname> <given-names>M</given-names></name>. <article-title>Characteristics of patients with cardiorespiratory instability in a step-down unit</article-title>. <source>American journal of critical care: an official publication, American Association of Critical-Care Nurses</source>. <year>2012</year>;<volume>21</volume>(<issue>5</issue>):<fpage>344</fpage>–<lpage>50</lpage>. Epub 2012/09/04. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.4037/ajcc2012797" xlink:type="simple">10.4037/ajcc2012797</ext-link></comment> <object-id pub-id-type="pmid">22941708</object-id>; PubMed Central PMCID: PMC3679534.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0120793</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-14-46427</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Evaluation of MDCK Cell-Derived Influenza H7N9 Vaccine Candidates in Ferrets</article-title>
+<alt-title alt-title-type="running-head">MDCK Cell-Based Influenza H7N9 Vaccines</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Chia</surname>
+<given-names>Min-Yuan</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Hu</surname>
+<given-names>Alan Yung-Chih</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Tseng</surname>
+<given-names>Yu-Fen</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Weng</surname>
+<given-names>Tsai-Chuan</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Lai</surname>
+<given-names>Chia-Chun</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Lin</surname>
+<given-names>Jun-Yang</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Chen</surname>
+<given-names>Po-Ling</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Wang</surname>
+<given-names>Ya-Fang</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Chao</surname>
+<given-names>Sin-Ru</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Chang</surname>
+<given-names>Jui-Yuan</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Hwang</surname>
+<given-names>Yi-Shiuh</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Yeh</surname>
+<given-names>Chia-Tsui</given-names>
+</name>
+<xref rid="aff002" ref-type="aff"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Yu</surname>
+<given-names>Cheng-Ping</given-names>
+</name>
+<xref rid="aff002" ref-type="aff"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Chen</surname>
+<given-names>Yee-Chun</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Su</surname>
+<given-names>Ih-Jen</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Lee</surname>
+<given-names>Min-Shi</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+<xref rid="cor001" ref-type="corresp">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>National Institute of Infectious Diseases and Vaccinology, National Health Research Institutes, Zhunan, Taiwan</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Institute of Preventive Medicine, National Defense Medical Center, Taipei, Taiwan</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Tompkins</surname>
+<given-names>Stephen Mark</given-names>
+</name>
+<role>Academic Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>University of Georgia, UNITED STATES</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="con" id="contrib001">
+<p>Conceived and designed the experiments: MYC AYCH YSH CTY CPY YCC IJS MSL. Performed the experiments: MYC YFT TCW CCL JYL PLC YFW CTY. Analyzed the data: MYC AYCH JYL MSL. Contributed reagents/materials/analysis tools: SRC JYC. Wrote the paper: MYC MSL.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">minshi@nhri.org.tw</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>23</day>
+<month>3</month>
+<year>2015</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2015</year>
+</pub-date>
+<volume>10</volume>
+<issue>3</issue>
+<elocation-id>e0120793</elocation-id>
+<history>
+<date date-type="received">
+<day>16</day>
+<month>10</month>
+<year>2014</year>
+</date>
+<date date-type="accepted">
+<day>26</day>
+<month>1</month>
+<year>2015</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2015</copyright-year>
+<copyright-holder>Chia et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0120793" xlink:type="simple"/>
+<abstract>
+<p>Avian-origin influenza A (H7N9) viruses emerged as human pathogens in China in early 2013 and have killed &gt;100 persons. Influenza vaccines are mainly manufactured using egg-based technology which could not meet the surging demand during influenza pandemics. In this study, we evaluated cell-based influenza H7N9 vaccines in ferrets. An egg-derived influenza H7N9 reassortant vaccine virus was adapted in MDCK cells. Influenza H7N9 whole virus vaccine antigen was manufactured using a microcarrier-based culture system. Immunogenicity and protection of the vaccine candidates with three different formulations (300μg aluminum hydroxide, 1.5μg HA, and 1.5μg HA plus 300μg aluminum hydroxide) were evaluated in ferrets. In ferrets receiving two doses of vaccination, geometric mean titers of hemagglutination (HA) inhibition and neutralizing antibodies were &lt;10 and &lt;40 for the control group (adjuvant only), 17 and 80 for the unadjuvanted (HA only) group, and 190 and 640 for the adjuvanted group (HA plus adjuvant), respectively. After challenge with wild-type influenza H7N9 viruses, virus titers in respiratory tracts of the adjuvanted group were significantly lower than that in the control, and unadjuvanted groups. MDCK cell-derived influenza H7N9 whole virus vaccine candidate is immunogenic and protective in ferrets and clinical development is highly warranted.</p>
+</abstract>
+<funding-group>
+<funding-statement>This study was funded by the Ministry of Health and Welfare, Taiwan (grant no. MOHW102-TD-B-111-V002) and National Health Research Institutes, Taiwan. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="3"/>
+<table-count count="3"/>
+<page-count count="13"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability" xlink:type="simple">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Avian-origin influenza A (H7N9) viruses emerged as human pathogens in China in early 2013 and 450 laboratory-confirmed human cases, including 165 deaths, have been reported to the World Health Organization (WHO) by 27 June 2014, including 10, 4 and 1 imported cases detected in Hong Kong, Taiwan and Malaysia, respectively [<xref rid="pone.0120793.ref001" ref-type="bibr">1</xref>]. The cases occurred in an initial wave from February to May 2013 (n = 133), and a second wave of epidemics has reemerged from June 2013 to June 2014 (n = 317) [<xref rid="pone.0120793.ref001" ref-type="bibr">1</xref>]. Laboratory analysis of influenza H7N9 viruses isolated from human, animal and environmental samples during the first and second waves indicates that the hemagglutinin (HA) and neuraminidase (NA) genes of the viruses remain similar, and all viruses are antigenically close to A/Anhui/1/2013 (H7N9) virus which was recommended for vaccine development by the WHO. Since much remain unknown about this virus, such as 1) the animal reservoirs in which it is circulating, 2) the main exposures and routes of human transmission, and 3) prevalence of this virus in human and animal populations in endemic areas, it is important to continue strengthening surveillance and national pandemic preparedness including stockpile of antivirals and vaccine development, especially for Asian countries close to China [<xref rid="pone.0120793.ref002" ref-type="bibr">2</xref>–<xref rid="pone.0120793.ref007" ref-type="bibr">7</xref>].</p>
+<p>Current seasonal influenza vaccines are mainly manufactured using egg-based technology. However, the egg-based technology could not meet the surging global demand during an influenza pandemic as proved in the 2009 H1N1 pandemic [<xref rid="pone.0120793.ref008" ref-type="bibr">8</xref>]. Therefore, it is desirable to establish cell-based influenza vaccine production platform for pandemic preparedness [<xref rid="pone.0120793.ref009" ref-type="bibr">9</xref>]. Since A/Anhui/1/2013(H7N9)-like viruses were recommended for vaccine development in April 2013, several egg-derived high growth reassortant vaccine viruses have been generated by the WHO reference laboratories. However, the WHO reference laboratories have not generated cell-derived high growth vaccine viruses, which is the critical step to initiate production of cell-based influenza vaccines. In this study, we adapted the egg-derived influenza H7N9 vaccine viruses in mammalian cells to generate cell-derived vaccine viruses, manufactured influenza whole virus vaccines in a microcarrier cell culture system, and evaluate immunogenicity and protection of the vaccine candidates in ferrets. Based on clinical studies of the influenza H5N1 and H7N1 vaccines, whole virus vaccine antigens are more immunogenic in naive populations than split and subunit vaccine antigens [<xref rid="pone.0120793.ref010" ref-type="bibr">10</xref>, <xref rid="pone.0120793.ref011" ref-type="bibr">11</xref>].</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="sec003">
+<title>Virus, cells, and medium</title>
+<p>An egg-derived influenza H7N9 reassortant vaccine virus (NIBRG-268) was generated using reverse genetics by the UK National Institute of Biological Standard and Control (NIBSC) and supplied to National Health Research Institutes (NHRI), Taiwan. The NIBRG-268 virus contains six internal genes of the egg-adapted high-growth A/PR8 virus and two surface protein genes (HA and NA) of A/Anhui/1/2013(H7N9). At NHRI, the NIBRG-268 virus could not grow well initially in Madin-Darby canine kidney (MDCK) cells (∼10<sup>5</sup> TCID<sub>50</sub>/ml). Therefore, we serially passed the NIBRG-268 virus in MDCK cells to increase its growth efficiency. MDCK cells (ATCC CCL-34) were purchased from the Food Industry Research and Development Institute, Hsinchu, Taiwan. MDCK cells were grown using DMEM (GibcoBRL) plus 5% fetal bovine serum (Moregate) to generate master and working cell banks following cGMP guidelines and have been characterized to fulfill the requirements for continuous cell lines used for manufacture of biological products [<xref rid="pone.0120793.ref012" ref-type="bibr">12</xref>–<xref rid="pone.0120793.ref014" ref-type="bibr">14</xref>]. For vaccine production, serum-free medium (OptiPro, Life Technologies) was used for cell growth and OptiPro supplemented with 2 μg/ml of TPCK-trypsin (Sigma) was used for virus replication.</p>
+</sec>
+<sec id="sec004">
+<title>Virus titration</title>
+<p>HA titrations were conducted in 96-well microplates using turkey red blood cells (RBC) following the standard technique [<xref rid="pone.0120793.ref015" ref-type="bibr">15</xref>]. Virus infectious titers were measured using the 50% tissue culture infectious doses (TCID<sub>50</sub>) assay based on cytopathic effect and plaque assay based on plaque forming unit (PFU) in MDCK cells [<xref rid="pone.0120793.ref015" ref-type="bibr">15</xref>]. A positive control with pre-specified acceptable range was included for conducting HA, TCID<sub>50</sub>, and plaque assays.</p>
+</sec>
+<sec id="sec005">
+<title>Production of vaccine antigens in microcarrier-based cell cultures</title>
+<p>In general, the regulatory hurdle of inactivated influenza vaccines is lower than that of live-attenuated influenza vaccines. In addition, historical data have shown that inactivated whole virus antigens have been more immunogenic in naïve populations than split and subunit vaccine antigens [<xref rid="pone.0120793.ref010" ref-type="bibr">10</xref>, <xref rid="pone.0120793.ref011" ref-type="bibr">11</xref>, <xref rid="pone.0120793.ref016" ref-type="bibr">16</xref>–<xref rid="pone.0120793.ref021" ref-type="bibr">21</xref>]. Therefore, we decided to develop inactivated whole virus as vaccine candidates. Cytodex 1 microcarriers (GE Healthcare) were hydrated, autoclaved, and preconditioned according to the manufacturer’s instructions [<xref rid="pone.0120793.ref012" ref-type="bibr">12</xref>, <xref rid="pone.0120793.ref013" ref-type="bibr">13</xref>]. When the cells were grown confluent on microcarriers, microcarriers were sampled to count cell density and the vaccine viruses were added to infect cells. Supernatants of virus growth were clarified and inactivated with formaldehyde. Virus inactivation was confirmed with TCID<sub>50</sub> and plaque assays. After inactivation and concentration, downstream purification processes comprising of size-exclusion chromatography (Capto Q, GE Healthcare), anion-exchange chromatography (Capto Core, GE Healthcare), and membrane filtration (Hydrosate, GE Healthcare) were used. The HA protein concentrations of purified inactivated vaccine antigens were measured using the standard single radial diffusion (SRD) assay with the standard antigen and antiserum obtained from the US FDA [<xref rid="pone.0120793.ref022" ref-type="bibr">22</xref>].</p>
+</sec>
+<sec id="sec006">
+<title>Electron microscopy analysis</title>
+<p>Viral particles were deposited on a carbon-coated 200 mesh copper grid for 1 min at room temperature and then the copper grid was stained with 2% phosphotungstic acid solution for 1 min. The stained grid was dried for 1 day at room temperature and observed under a JEM 1200EX transmission electron microscopy [<xref rid="pone.0120793.ref023" ref-type="bibr">23</xref>].</p>
+</sec>
+<sec id="sec007">
+<title>Vaccine efficacy in ferrets</title>
+<p>Four- to six-month-old female ferrets were obtained through a laboratory breeding program at Institute of Preventive Medicine, National Defense Medical Center and confirmed to be H7N9 seronegative by hemagglutination inhibition assay. Prior to the animal study, microchip capable of measuring the temperature was implanted beneath the skin between the shoulder blades. Ferrets were numbered and housed separately in animal biosafety level 3 (ABSL3) laboratory with individual temperature control at 22–24°C and 55–60% relative humidity throughout the experiment.</p>
+<p>Ferrets were immunized intramuscularly with 2 doses of vaccine antigen at a 2-week interval. Three treatment groups (4 ferrets per group) with vaccines containing different HA and adjuvant dosages were compared, including 1) 300μg Al(OH)<sub>3</sub>, 2) 1.5μg HA, and 3) 1.5μg HA+300μg Al(OH)<sub>3</sub>. Solicited local symptoms at injection site were evaluated during the 7 days postvaccination period after each dose of H7N9 vaccine. Sera were collected at days 0 (prevaccination), 14 (post dose 1), and 21 (1 week post dose 2) for measuring HI and neutralizing antibody titers. At Day 28, ferrets were intranasally inoculated with wild-type influenza A/Anhui/1/2013 (H7N9) viruses (10<sup>7</sup> TCID<sub>50</sub>/0.5 ml). Clinical signs of body weight and temperature were monitored daily for 7 days post challenge (DPC). At Day 31 (3 DPC) and 35 (7 DPC), two ferrets were sacrificed respectively to collect multiple organs (nasal turbinate, upper respiratory tract, lower respiratory tract, lung, and hilar lymph node) for measuring viral RNA copies by real-time polymerase chain reaction (qPCR). Live infectious virus titers were further quantified for nasal turbinate and other organs with significant viral RNA copies (&gt;3 log<sub>10</sub> RNA copies/mg). In pilot studies, ferrets infected with wild-type influenza A/Anhui/1/2013 (H7N9) viruses did not develop clinical symptoms and only shed viruses in respiratory tract within 7 days post inoculation. Therefore, ferrets were only followed up for 7 days post inoculation in the vaccine protection study.</p>
+</sec>
+<sec id="sec008">
+<title>Real-time RT-PCR</title>
+<p>One hundred milligram of tissue sample was homogenized mechanically in DMEM to make a 10% suspension. After vigorous shaking, the samples were centrifuged at 8000 × <italic>g</italic> for 15 min at 4°C. The viral RNA was extracted from supernatants by QIAamp Viral RNA Kit (Qiagen) according to the manufacturer’s instruction. Each RNA sample was then reversely transcribed using the Random primer (Bioline) and the HiScript I Reverse Transcripase (Bionovas) according to the manufacturer’s instructions. Copy numbers of influenza Matrix (M) gene were determined by a 7500 Real Time PCR System (Applied Biosystems) with Power SYBR Green PCR Master Mix (Applied Biosystems) as described previously [<xref rid="pone.0120793.ref006" ref-type="bibr">6</xref>, <xref rid="pone.0120793.ref024" ref-type="bibr">24</xref>]. Positive and negative reference samples were tested along with the unknown samples and each sample was tested in duplicate.</p>
+</sec>
+<sec id="sec009">
+<title>Pathological examination and immunohistochemical (IHC) staining</title>
+<p>All ferrets were sacrificed at designated time points to collect multi organs for viral titer determination and pathological examination. Ferrets were anesthetized by injection with 7.5 mg/kg Zoletil 50 (Virbac) and inhalation with Isoflurane (Panion &amp; Bf Biotech) and euthanized by taking total amount of blood from heart. Tissue specimens form nasal turbinate, upper respiratory tract, lower respiratory tract, lung, and hilar lymph node were collected for further analysis. Excised tissues of ferret organs were stored at −70°C until titration or fixed with 10% phosphate-buffered formalin at room temperature for pathological examination. Tissues were trimmed, dehydrated, embedded, and cut into 5μm-thick sections in procession. One section from each tissue was stained by a standard histochemistry staining procedure with hematoxylin and eosin (Sigma), whereas another one was deparaffinized with xyline and rehydrated through a series graded alcohol solutions for standard IHC staining with a mouse anti-nucleoprotein (NP) monoclonal antibody (provided by Animal Technology Institute Taiwan). Detection was performed by UltraVision Quanto detection system HRP DAB (Thermo Scientific) according to the manufacturer’s instructions. Sections were counterstained in Mayer’s hematoxylin (ScyTeK Laboratories) and mounted by Surgipath micromount medium (Leica Biosystems).</p>
+</sec>
+<sec id="sec010">
+<title>Serological assays</title>
+<p>Serum HI antibody titers were measured using turkey red blood cells and 4 HA unit of vaccine virus antigen following WHO’s standard procedures [<xref rid="pone.0120793.ref015" ref-type="bibr">15</xref>]. Serum neutralizing antibody titers were determined using MDCK cells and are expressed as the reciprocal of the highest dilution of serum that gave 50% neutralization of 100 TCID<sub>50</sub> of the vaccine virus following the WHO standard procedures [<xref rid="pone.0120793.ref015" ref-type="bibr">15</xref>]. Starting dilutions are 1:10 in the HI assay and 1:40 in the neutralization assay, so undetectable antibody titers were assigned to 5 and 20, respectively. Seroconversion is defined as conversion from seronegative (antibody titers &lt;10 in the HA assay and &lt;40 in the Nt assay) to seropositive (antibody titers ≥20 in the HA assay and ≥80 in the Nt assay). A positive control serum with pre-specified acceptable range was included for HI and neutralization tests.</p>
+</sec>
+<sec id="sec011">
+<title>Statistical analysis</title>
+<p>In HI and neutralization tests, antibody titers were log-transformed to calculate geometric mean titers (GMT) and their 95% confidence intervals (95% CI). Differences in HI and neutralization titers were tested for statistical significance by using the unpaired Student <italic>t</italic> test. For infection study, changes in body temperatures and weights were measured by calculating percentage compared with baseline (prevaccination) in each ferret. A significant change was defined as &gt;5% change and their differences in different treatment groups were tested for statistical significance using the Fisher’s exact test and non-parametric method (Wilcoxon-Mann-Whitney test).</p>
+</sec>
+<sec id="sec012">
+<title>Ethics statement</title>
+<p>All study procedures and animal cares were approved and conducted in accordance with the guidelines and under the supervision of Institutional Committee on Animal Care and Use, Institute of Preventive Medicine, National Defense Medical Center (approval # AV-102-27) following the Institutional Animal Care and Use Committee Guidebook published by the US Office of Laboratory Animal Welfare.</p>
+</sec>
+</sec>
+<sec id="sec013" sec-type="results">
+<title>Results</title>
+<sec id="sec014">
+<title>Adaptation of NIBRG-268 in MDCK cells</title>
+<p>After first passage in MDCK cells, the NIBRG-268 virus could only grow to about 10<sup>5</sup> TCID<sub>50</sub>/ml (NIBRG268-M1). After three passages in MDCK cells, the NIBRG268-M3 virus could reach 10<sup>7</sup> TCID<sub>50</sub>/ml and was then used to generate a master virus bank of 400 vials (HA titer 256, infectious virus titers: 3.16x10<sup>7</sup> TCID<sub>50</sub>/ml and 2.20x10<sup>7</sup> PFU/ml) following cGMP guidelines. Comparing nucleotide sequences of eight genes, the NIBRG268-M4 revealed a G/T polymorphism at 505 base of HA gene but NIBRG-M1 only revealed G at the same base. This single base change resulted in a Alanine/Serine polymorphism at 169 amino acid of HA. In addition, two synonymous mutations (C1369T HA gene and C1242T NA gene) are detected. Despite the polymorphism of the amino acid mutation in HA protein, the NIBRG268-M4 was confirmed to maintain similar antigenicity (&lt;4-fold difference) with NIBRG268-egg by measuring HI antibody titers against the post-infection ferret antisera and standard antisera (US FDA lot # H7-Ab-1317). To confirm genetic stability of HA gene, the NIBRG268-M4 viruses were further cultured for 10 passages in MDCK cells. After 10 passages in MDCK cells, HA gene of the NIBRG268-M14 maintained 1 basic amino acid residue in the cleavage site, which is a genetic signature of low pathogenic avian influenza viruses.</p>
+</sec>
+<sec id="sec015">
+<title>Production of vaccine antigens</title>
+<p>Using 5 g/L of microcarriers, cells grew to confluence in microcarriers at day 5 or 6 and reached approximately 2×10<sup>6</sup> cells/ml. After infecting NIBRG268-M4 viruses, virus titers reached approximately 10<sup>7.5</sup> TCID<sub>50</sub>/ml at day 3. After purification, the bulk vaccine antigen contained whole virus particles which are similar to the egg-derived virus particles in morphology (<xref rid="pone.0120793.g001" ref-type="fig">Fig. 1</xref>).</p>
+<fig id="pone.0120793.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0120793.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Electron micrograph (100,000×) of MDCK cell-derived (A) and egg-derived (B) influenza H7N9 virus particles after purification.</title>
+<p>Egg-derived influenza H7N9 virus particles were obtained from the US FDA as standard antigens of SRD assay.</p>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0120793.g001" position="float" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec016">
+<title>Immunogenicity in ferrets</title>
+<p>Immunization regimens are shown in details in <xref rid="pone.0120793.t001" ref-type="table">Table 1</xref>. Each group contained four ferrets (n = 4) for evaluating HI and neutralization titers at day 0 (prevaccination), day 14 (post dose 1) and day 21 (post dose 2). The GMT and their 95% confidence (95% CI) were calculated for comparison. Without adjuvant, the H7N9 vaccine antigen could not induce antibody responses in ferrets after the first dose of vaccination and only elicited low antibody response after the second vaccination (<xref rid="pone.0120793.t001" ref-type="table">Table 1</xref>). After being adjuvanted with aluminum hydroxide, the H7N9 vaccine antigens could induce dose-dependent antibody response after one (HI GMT 48) and two (HI GMT 190) doses of vaccination using the HI assay, which are all significantly higher than that in the control and unadjuvanted groups. Similar results were observed using the neutralization assay (<xref rid="pone.0120793.t001" ref-type="table">Table 1</xref>). Based on WHO surveillance data, the H7N9 viruses which have circulated in China since late 2013 are antigenically similar to A/Anhui/1/2013 strain. Therefore, only A/Anhui-like viruses have been used to generate H7N9 reassortant vaccine viruses and clinical trials using the A/Anhui-like vaccine viruses only evaluated antibody responses to the homologous vaccine viruses [<xref rid="pone.0120793.ref025" ref-type="bibr">25</xref>–<xref rid="pone.0120793.ref027" ref-type="bibr">27</xref>], which is similar to our study.</p>
+<table-wrap id="pone.0120793.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0120793.t001</object-id>
+<label>Table 1</label> <caption><title>Immunogenicity of inactivated influenza H7N9 whole virus vaccine in ferrets.</title></caption>
+<alternatives>
+<graphic id="pone.0120793.t001g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0120793.t001" xlink:type="simple"/>
+<table>
+<colgroup span="1">
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" rowspan="1" colspan="1"/>
+<th align="left" rowspan="1" colspan="1">Group 1</th>
+<th align="left" rowspan="1" colspan="1">Group 2</th>
+<th align="left" rowspan="1" colspan="1">Group 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">HA (μg/dose)</td>
+<td align="left" rowspan="1" colspan="1">0</td>
+<td align="left" rowspan="1" colspan="1">1.5</td>
+<td align="left" rowspan="1" colspan="1">1.5</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Al(OH)<sub>3</sub> (μg/dose)</td>
+<td align="left" rowspan="1" colspan="1">300</td>
+<td align="left" rowspan="1" colspan="1">0</td>
+<td align="left" rowspan="1" colspan="1">300</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">No. of animals</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">HI Seroconversion</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Prevaccination</td>
+<td align="left" rowspan="1" colspan="1">0/4</td>
+<td align="left" rowspan="1" colspan="1">0/4</td>
+<td align="left" rowspan="1" colspan="1">0/4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Post dose 1</td>
+<td align="left" rowspan="1" colspan="1">0/4</td>
+<td align="left" rowspan="1" colspan="1">0/4</td>
+<td align="left" rowspan="1" colspan="1">4/4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Post dose 2</td>
+<td align="left" rowspan="1" colspan="1">0/4</td>
+<td align="left" rowspan="1" colspan="1">4/4</td>
+<td align="left" rowspan="1" colspan="1">4/4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">HI GMT</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Prevaccination</td>
+<td align="left" rowspan="1" colspan="1">&lt;10</td>
+<td align="left" rowspan="1" colspan="1">&lt;10</td>
+<td align="left" rowspan="1" colspan="1">&lt;10</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Post dose 1</td>
+<td align="left" rowspan="1" colspan="1">&lt;10</td>
+<td align="left" rowspan="1" colspan="1">&lt;10</td>
+<td align="left" rowspan="1" colspan="1">48 (34–67)<xref rid="t001fn001" ref-type="table-fn"><sup>a</sup></xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Post dose 2</td>
+<td align="left" rowspan="1" colspan="1">&lt;10</td>
+<td align="left" rowspan="1" colspan="1">17 (9–33)</td>
+<td align="left" rowspan="1" colspan="1">190 (98–396)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Nt Seroconversion</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Prevaccination</td>
+<td align="left" rowspan="1" colspan="1">0/4</td>
+<td align="left" rowspan="1" colspan="1">0/4</td>
+<td align="left" rowspan="1" colspan="1">0/4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Post dose 1</td>
+<td align="left" rowspan="1" colspan="1">0/4</td>
+<td align="left" rowspan="1" colspan="1">0/4</td>
+<td align="left" rowspan="1" colspan="1">4/4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Post dose 2</td>
+<td align="left" rowspan="1" colspan="1">0/4</td>
+<td align="left" rowspan="1" colspan="1">4/4</td>
+<td align="left" rowspan="1" colspan="1">4/4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Nt GMT</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Prevaccination</td>
+<td align="left" rowspan="1" colspan="1">&lt;40</td>
+<td align="left" rowspan="1" colspan="1">&lt;40</td>
+<td align="left" rowspan="1" colspan="1">&lt;40</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Post dose 1</td>
+<td align="left" rowspan="1" colspan="1">&lt;40</td>
+<td align="left" rowspan="1" colspan="1">&lt;40</td>
+<td align="left" rowspan="1" colspan="1">48 (34–67)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Post dose 2</td>
+<td align="left" rowspan="1" colspan="1">&lt;40</td>
+<td align="left" rowspan="1" colspan="1">80 (30–213)</td>
+<td align="left" rowspan="1" colspan="1">640 (143–2189)</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p><sup>a</sup>Geometric mean titers (95% confidence interval)</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec017">
+<title>Protection in ferrets</title>
+<p>No significant side effect and reactogenicity were observed in the three treatment groups during the 7 days postvaccination period after the first and second doses. Within 7 days post challenge, no clinical symptoms could be observed in the three treatment groups. However, two ferrets in the control group developed significant body weight loss (body weight loss: -5.9%, -12.7%, -1.9%, -1.6%) at 3 DPC. In contrast, no ferret in the unadjuvanted (body weight loss: 3.2%, -2.0%, -0.9%, 0.2%) and adjuvanted (body weight loss: -2.9%, 1.3%, -1.2%, 1.9%) groups developed significant body weight loss (P = 0.06, one side Fisher’s exact test; P = 0.04, one side Wilcoxon-Mann-Whitney test) at 3DPC (<xref rid="pone.0120793.g002" ref-type="fig">Fig. 2</xref>). For body temperature change, ferrets in control and unadjuvanted groups revealed mild increase in body temperature change at 2 DPC than that in adjuvanted group. However, no ferret in the three treatment groups had significant temperature increase (defined as temperature increase &gt;5%) (<xref rid="pone.0120793.g002" ref-type="fig">Fig. 2</xref>).</p>
+<fig id="pone.0120793.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0120793.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Changes in body temperatures and weights in ferrets within 7 days post challenge (DPC) with wild-type influenza H7N9 virus.</title>
+<p>The solid and dotted lines represent changes of body temperatures and weights, respectively. Data are expressed as a percentage of the baseline and the vertical bars represent group standard deviations (mean ± SD). 0–3 DPC: 4 ferrets for each group; 4–7 DPC: 2 ferrets for each group.</p>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0120793.g002" position="float" xlink:type="simple"/>
+</fig>
+<p>Regarding virus replication, virus RNA copies in the control group were detected in multiple organs at day 3 post challenge and were more likely to be detected in nasal turbinates at day 7 post challenge. Similar patterns were observed for measuring live virus titers in the control group. In contrast, low virus RNA copies were detected in the unadjuvanted and adjuvanted vaccine groups, but live viruses were only detected in the unadjuvanted group (<xref rid="pone.0120793.t002" ref-type="table">Table 2</xref>). In addition, histopathology and IHC staining in lung tissues of ferrets at 3 DPC were conducted by microscopic examination. Histopathological examination showed that acute inflammatory cells (neutrophils) and cellular debris infiltrated in the bronchioles and alveoli of lungs in the control group. In IHC staining, viral antigen-positive (brown color) cells were also detected in the epithelial cells of bronchioles in the control group. However, viral antigen-positive cells could not be detected in the unadjuvanted and adjuvanted vaccine groups (<xref rid="pone.0120793.g003" ref-type="fig">Fig. 3</xref>). Overall, the adjuvanted H7N9 vaccine is highly immunogenic and could reduce virus replication against wild-type influenza H7N9 virus challenge in ferrets.</p>
+<fig id="pone.0120793.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0120793.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Histopathological examination and immunohistochemical (IHC) staining in lung tissues of ferrets at 3 days post challenge (DPC) with wild-type influenza H7N9 viruses.</title>
+<p>Top panel is H&amp;E staining with 100-fold magnification (100×), middle panel is IHC staining with 100×, and bottom panel is IHC staining with 400×. Tissue with brown color indicates viral antigen detected by a mouse anti-NP monoclonal antibody in IHC staining.</p>
+</caption>
+<graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0120793.g003" position="float" xlink:type="simple"/>
+</fig>
+<table-wrap id="pone.0120793.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0120793.t002</object-id>
+<label>Table 2</label> <caption><title>Virus titers in vaccinated ferrets at 3 and 7 days post challenge (DPC) with wild-type influenza H7N9 virus.</title></caption>
+<alternatives>
+<graphic id="pone.0120793.t002g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0120793.t002" xlink:type="simple"/>
+<table>
+<colgroup span="1">
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" rowspan="1" colspan="1"/>
+<th colspan="2" align="center" rowspan="1">Group 1</th>
+<th colspan="2" align="center" rowspan="1">Group 2</th>
+<th colspan="2" align="center" rowspan="1">Group 3</th>
+</tr>
+<tr>
+<th align="left" rowspan="1" colspan="1"/>
+<th colspan="2" align="center" rowspan="1">Virus RNA copies</th>
+<th colspan="2" align="center" rowspan="1">Virus RNA copies</th>
+<th colspan="2" align="center" rowspan="1">Virus RNA copies</th>
+</tr>
+<tr>
+<th align="left" rowspan="1" colspan="1"/>
+<th colspan="2" align="center" rowspan="1">(live virus titers)<xref rid="t002fn001" ref-type="table-fn"><sup>a</sup></xref></th>
+<th colspan="2" align="center" rowspan="1">(live virus titers)<xref rid="t002fn001" ref-type="table-fn"><sup>a</sup></xref></th>
+<th colspan="2" align="center" rowspan="1">(live virus titers)<xref rid="t002fn001" ref-type="table-fn"><sup>a</sup></xref></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Ferret ID</td>
+<td align="left" rowspan="1" colspan="1">#180</td>
+<td align="left" rowspan="1" colspan="1">#188</td>
+<td align="left" rowspan="1" colspan="1">#184</td>
+<td align="left" rowspan="1" colspan="1">#187</td>
+<td align="left" rowspan="1" colspan="1">#181</td>
+<td align="left" rowspan="1" colspan="1">#191</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">3 DPC</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Nasal turbinate</td>
+<td align="left" rowspan="1" colspan="1">6.3 (5.6)</td>
+<td align="left" rowspan="1" colspan="1">6.5 (2.2)</td>
+<td align="left" rowspan="1" colspan="1">5.9 (2.6)</td>
+<td align="left" rowspan="1" colspan="1">6.2 (2.3)</td>
+<td align="left" rowspan="1" colspan="1">3.7 (&lt;1)</td>
+<td align="left" rowspan="1" colspan="1">4.3 (&lt;1)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">URT</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">4.2 (1.9)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">4.3 (&lt;1)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">LRT</td>
+<td align="left" rowspan="1" colspan="1">2.4 (ND)</td>
+<td align="left" rowspan="1" colspan="1">4.5 (3.3)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">5.1 (&lt;1)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">HLN</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">2.5 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">2.0 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Lung</td>
+<td align="left" rowspan="1" colspan="1">2.3 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Ferret ID</td>
+<td align="left" rowspan="1" colspan="1">#194</td>
+<td align="left" rowspan="1" colspan="1">#197</td>
+<td align="left" rowspan="1" colspan="1">#190</td>
+<td align="left" rowspan="1" colspan="1">#199</td>
+<td align="left" rowspan="1" colspan="1">#198</td>
+<td align="left" rowspan="1" colspan="1">#201</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">7 DPC</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Nasal turbinate</td>
+<td align="left" rowspan="1" colspan="1">5.9 (2.5)</td>
+<td align="left" rowspan="1" colspan="1">4.2 (&lt;1)</td>
+<td align="left" rowspan="1" colspan="1">3.3 (&lt;1)</td>
+<td align="left" rowspan="1" colspan="1">2.3 (&lt;1)</td>
+<td align="left" rowspan="1" colspan="1">2.4 (&lt;1)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (&lt;1)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">URT</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">LRT</td>
+<td align="left" rowspan="1" colspan="1">2.8 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">HLN</td>
+<td align="left" rowspan="1" colspan="1">2.4 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Lung</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+<td align="left" rowspan="1" colspan="1">&lt;2 (ND)</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p><sup>a</sup>Data are presented as log<sub>10</sub>/mg and quantification limits for virus RNA copies and live virus titers are 100 copies/mg and 10 TCID<sub>50</sub>/mg, respectively.</p></fn>
+<fn id="t002fn002"><p>URT: upper respiratory tract (top 1/3 of trachea); LRT: lower respiratory tract (bottom 1/3 of trachea); HLN: hilar lymph node; ND: not determined.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+</sec>
+<sec id="sec018" sec-type="conclusions">
+<title>Discussion</title>
+<p>Based on online registrations (<ext-link ext-link-type="uri" xlink:href="http://www.clinicaltrials.gov/" xlink:type="simple">www.clinicaltrials.gov/</ext-link>) and reports from the European Center for Disease Prevention and Control (<ext-link ext-link-type="uri" xlink:href="http://www.ecdc.europa.eu" xlink:type="simple">www.ecdc.europa.eu</ext-link>), as of November 2014 as total of thirteen clinical trials of influenza H7N9 vaccines have been conducted (<xref rid="pone.0120793.t003" ref-type="table">Table 3</xref>). Among them, three clinical trials used egg-derived live-attenuated vaccines, four used egg-derived split vaccines, one used recombinant H7 DNA vaccine, two used inactivated A/Shanghai/2/2013 (H7N9) vaccines, two used recombinant virus-like particle (VLP) vaccines, and one used MDCK cell-based inactivated subunit vaccine, which were all different from our vaccine candidate (MDCK cell-derived inactivated whole virus vaccine). Two clinical studies, including one VLP vaccine and one MDCK-derived subunit vaccine, have been completed and published. The influenza H7N9 VLP vaccine study was conducted in healthy Australian adults and evaluated two doses of VLP vaccine antigens with and without adjuvant. The influenza H7N9 VLP vaccine was not immunogenic at low and high HA dosage level (15 vs. 45μg of HA) without adjuvant (HAI antibody seroconversion rates 5.7% vs. 15.6%) but was highly immunogenic when adjuvanted with saponin-based ISCOMATRIX (60 units) at low and intermediate HA dosage level (5 vs. 15μg of HA) (HAI antibody seroconversion rate 80.6% vs. 64.7%) [<xref rid="pone.0120793.ref026" ref-type="bibr">26</xref>]. Interestingly, the VLP vaccine candidate without adjuvant was highly immunogenic in mice, which is inconsistent with the human study [<xref rid="pone.0120793.ref028" ref-type="bibr">28</xref>]. The MDCK cell-based inactivated subunit vaccine study conducted in healthy US adults evaluated two doses of vaccine with and without adjuvant (MF59). The MDCK cell-based subunit vaccine at 15μg of HA dosage level was not immunogenic without adjuvant but was highly immunogenic when adjuvanted with MF59 (HAI antibody seroconversion rates 8% vs. 85%) [<xref rid="pone.0120793.ref025" ref-type="bibr">25</xref>]. Animal studies of the MDCK cell-derived influenza H7N9 vaccine have not been published and it would be desirable to compare animal and human studies to identify suitable animal models for evaluating pandemic influenza vaccines with different formulations.</p>
+<table-wrap id="pone.0120793.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0120793.t003</object-id>
+<label>Table 3</label> <caption><title>Clinical trials of influenza H7N9 vaccines until July 2014.</title></caption>
+<alternatives>
+<graphic id="pone.0120793.t003g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0120793.t003" xlink:type="simple"/>
+<table>
+<colgroup span="1">
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" rowspan="1" colspan="1">Clinical Trial No.</th>
+<th align="left" rowspan="1" colspan="1">Brief Title</th>
+<th align="left" rowspan="1" colspan="1">Sponsor</th>
+<th align="left" rowspan="1" colspan="1">Vaccine Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">1. NCT02151344</td>
+<td rowspan="3" align="left" colspan="1">Evaluating the safety and immune response to a live H7N9 influenza virus vaccine followed by an inactivated H7N9 influenza virus vaccine, given at varying intervals</td>
+<td rowspan="3" align="left" colspan="1">NIAID<xref rid="t003fn001" ref-type="table-fn"><sup>a</sup></xref></td>
+<td rowspan="3" align="left" colspan="1">Egg-derived live attenuated A/Anhui/13 ca virus (H7N9) virus vaccine</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">2. NCT01995695</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">3. NCT02274545</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">4. NCT01938742</td>
+<td rowspan="4" align="left" colspan="1">H7N9 mix and match with AS03 and MF59 in healthy adults</td>
+<td rowspan="4" align="left" colspan="1">NIAID</td>
+<td rowspan="4" align="left" colspan="1">Egg-derived A/Shanghai/2/2013 (H7N9) split vaccine</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">5. NCT01942265</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">6. NCT02251288</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">7. NCT02213354</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">8. NCT02206464</td>
+<td align="left" rowspan="1" colspan="1">Recombinant H7 DNA plasmid Vaccine, VRC-FLUDNA071-00-VP, administered alone or with monovalent influenza subunit virion H7N9vaccine (MIV)</td>
+<td align="left" rowspan="1" colspan="1">NIAID</td>
+<td align="left" rowspan="1" colspan="1">Recombinant H7 DNA plasmid vaccine</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">9. NCT01999842</td>
+<td rowspan="2" align="left" colspan="1">Immunogenicity and safety study of GlaxoSmithKline (GSK) Biologicals’ influenza vaccines GSK3206641A, GSK3206640A, GSK3277510A and GSK3277509A in adults 18 to 60 years of age</td>
+<td rowspan="2" align="left" colspan="1">GSK</td>
+<td rowspan="2" align="left" colspan="1">Inactivated A/Shanghai/2/2013 (H7N9) vaccine</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">10. NCT02177734</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">11. NCT01897701</td>
+<td rowspan="2" align="left" colspan="1">A/H7N9 Virus-Like Particle (VLP) antigen dose-ranging study with Adjuvant 1 or Matrix-M1 adjuvant</td>
+<td rowspan="2" align="left" colspan="1">Novavax</td>
+<td rowspan="2" align="left" colspan="1">Monovalent A/Anhui/1/13 (H7N9) VLP</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">12. NCT02078674</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">13. NCT01928472</td>
+<td align="left" rowspan="1" colspan="1">Dose-finding study of four dosage levels of an H7N9 influenza vaccine in adults between ages of 18 Years and 65 Years</td>
+<td align="left" rowspan="1" colspan="1">Novartis Vaccines</td>
+<td align="left" rowspan="1" colspan="1">Cell-derived (MDCK) inactivated monovalent subunit H7N9 virus vaccine</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t003fn001"><p><sup>a</sup>NIAID: National Institute of Allergy and Infectious Diseases</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>It is well documented that ferrets are suitable animals for evaluating pathology and transmission of influenza viruses [<xref rid="pone.0120793.ref006" ref-type="bibr">6</xref>, <xref rid="pone.0120793.ref029" ref-type="bibr">29</xref>]. However, no standard protocol regarding challenge intervals has been proposed for evaluating immunogenicity and protection of human influenza vaccines in ferrets, which varied significantly in different studies using different formulations [<xref rid="pone.0120793.ref019" ref-type="bibr">19</xref>, <xref rid="pone.0120793.ref030" ref-type="bibr">30</xref>–<xref rid="pone.0120793.ref032" ref-type="bibr">32</xref>]. The interval between the last vaccination of inactivated influenza vaccines and virus challenge varied from 1 to 4 weeks in different studies [<xref rid="pone.0120793.ref019" ref-type="bibr">19</xref>, <xref rid="pone.0120793.ref031" ref-type="bibr">31</xref>, <xref rid="pone.0120793.ref032" ref-type="bibr">32</xref>]. In our study, we selected a 2-week interval for virus challenge and may not exclude the possibility of non-specific innate immune responses contributing to the protection observed in ferrets, which will need further studies to clarify. Besides, it is important to select relevant dosages and formulations for predicting human antibody responses but also no international guidance about the dosage and formulation design is available. In our study, we selected 1/10 of seasonal influenza vaccine dosage (15μg of HA protein) for evaluating MDCK cell-based whole virus antigens adjuvanted with aluminum hydroxide in ferrets. Based on antibody responses in our study, immunogenicity of the whole virus vaccine antigens was suboptimal but could be significantly improved when adjuvanted with aluminum hydroxide. Further studies of the adjuvanted vaccine candidates with different HA dosages in humans are warranted.</p>
+<p>Current egg-based technology could produce about one billion doses of seasonal trivalent influenza vaccines annually but only 500–600 million doses were supplied due to low demand. The egg-based technology requires 6 months to prepare a large amount of embryonated eggs and cannot promptly meet the surging global demand during an influenza pandemic [<xref rid="pone.0120793.ref009" ref-type="bibr">9</xref>]. This was illustrated in the 2009 H1N1 pandemic where only 22% of expected doses were supplied within the first 6 months after the pandemic was declared [<xref rid="pone.0120793.ref008" ref-type="bibr">8</xref>]. Moreover, egg-based manufacturing capacity could be vulnerable during pandemics caused by highly pathogenic avian influenza viruses (HPAIV) which could kill hens rapidly. Therefore, vaccine production using cell-based technology is becoming an attractive alternative. Our study supports the feasibility of manufacturing influenza H7N9 vaccines in a microcarrier-based MDCK cell culture system.</p>
+<p>Currently, the WHO reference laboratories only generate egg-derived high growth reassortant influenza H7N9 vaccine viruses. Therefore, we need to adapt the egg-derived high growth vaccine viruses in MDCK cells to increase growth efficiency, which is time consuming. It would be desirable to establish MDCK cell-derived high growth master donor virus and generate high growth reassortant vaccine viruses for pandemic preparedness through the WHO network. In addition, adjuvant development is also critical to meet surging demand during an influenza pandemic. Due to commercial considerations, we included a traditional alum adjuvant in our study and the alum adjuvant boosted immunogenicity of the influenza H7N9 whole virus antigens in ferrets. It would be desirable to compare different antigen types and adjuvants in ferrets to select the most promising influenza H7N9 vaccine candidates for clinical trials.</p>
+<p>Three nucleotide mutations (2 in HA gene and 1 in NA gene) including one single amino acid change related to the Alanine169Serine polymorphism of HA gene were detected in the NIBRG268-M4 virus which has a better growth efficiency in MDCK cells than the NIBRG268-egg in the present study. The molecular determinants of the MDCK cell-adapted high growth NIBRG268 virus are unknown at the moment, which could be elucidated using reverse genetics in the future.</p>
+<p>In conclusion, avian-origin influenza H7N9 viruses are circulating widely in China and pose increasing threats to global health. Development of influenza H7N9 vaccines for pandemic preparedness is recommended, especially for countries neighboring China. In this study, we have demonstrated immunogenicity and protection in ferrets of the MDCK cell-derived influenza H7N9 whole virus vaccine adjuvanted with aluminum hydroxide. Clinical trials are warranted to evaluate this vaccine candidate.</p>
+</sec>
+</body>
+<back>
+<ack>
+<p>The authors thank Dr Ching-Pin Tsai for providing monoclonal antibody, Dr Lin-Ai Tai at NHRI for taking electron micrograph, the UK NIBSC for supplying the egg-derived vaccine virus (NIBRG-268), the US FDA for providing standard reagents of SRD assay, and Taiwan CDC and China CDC for supplying wild-type influenza H7N9 virus (A/Anhui/1/2013). In addition, we would like to acknowledge team members of Bioproduction Plant, NHRI and Animal Facility, Institute of Preventive Medicine, National Defense Medical Center.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0120793.ref001"><label>1</label><mixed-citation publication-type="book" xlink:type="simple"><collab xlink:type="simple">World Health Organization</collab>. <chapter-title>WHO Risk Assessment: human infections with avian influenza A(H7N9) virus</chapter-title>. <publisher-loc>Geneva</publisher-loc>: <publisher-name>WHO</publisher-name>; <year>2014</year> June 27.</mixed-citation></ref>
+<ref id="pone.0120793.ref002"><label>2</label><mixed-citation publication-type="other" xlink:type="simple">The Lancet Infectious Diseases. A proportionate response to H7N9. Lancet Infect Dis. 2013.</mixed-citation></ref>
+<ref id="pone.0120793.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Osterholm</surname> <given-names>MT</given-names></name>, <name name-style="western"><surname>Ballering</surname> <given-names>KS</given-names></name>, <name name-style="western"><surname>Kelley</surname> <given-names>NS</given-names></name>. <article-title>Major challenges in providing an effective and timely pandemic vaccine for influenza A(H7N9)</article-title>. <source>JAMA</source>. <year>2013</year>; <volume>309</volume>:<fpage>2557</fpage>–<lpage>2558</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1001/jama.2013.6589" xlink:type="simple">10.1001/jama.2013.6589</ext-link></comment> <object-id pub-id-type="pmid">23700117</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Horby</surname> <given-names>P</given-names></name>. <article-title>H7N9 is a virus worth worrying about</article-title>. <source>Nature</source>. <year>2013</year>; <volume>496</volume>:<fpage>399</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/496399a" xlink:type="simple">10.1038/496399a</ext-link></comment> <object-id pub-id-type="pmid">23619655</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chang</surname> <given-names>SY</given-names></name>, <name name-style="western"><surname>Lin</surname> <given-names>PH</given-names></name>, <name name-style="western"><surname>Tsai</surname> <given-names>JC</given-names></name>, <name name-style="western"><surname>Hung</surname> <given-names>CC</given-names></name>, <name name-style="western"><surname>Chang</surname> <given-names>SC</given-names></name>. <article-title>The first case of H7N9 influenza in Taiwan</article-title>. <source>Lancet</source>. <year>2013</year>;<volume>381</volume>:<fpage>1621</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0140-6736(13)61015-6" xlink:type="simple">10.1016/S0140-6736(13)61015-6</ext-link></comment> <object-id pub-id-type="pmid">23663941</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhu</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Kelvin</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Zheng</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Yoon</surname> <given-names>SW</given-names></name>, <etal>et al</etal>. <article-title>Infectivity, transmission, and pathology of human-isolated H7N9 influenza virus in ferrets and pigs</article-title>. <source>Science</source>. <year>2013</year>; <volume>341</volume>:<fpage>183</fpage>–<lpage>186</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1126/science.1239844" xlink:type="simple">10.1126/science.1239844</ext-link></comment> <object-id pub-id-type="pmid">23704376</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><collab xlink:type="simple">Eurosurveillance editorial team</collab>. <article-title>Joint ECDC CNRL and WHO/Europe briefing note on diagnostic preparedness in Europe for detection of avian influenza A(H7N9) viruses</article-title>. <source>Euro Surveill</source>. <year>2013</year>;<volume>18</volume>.</mixed-citation></ref>
+<ref id="pone.0120793.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Partridge</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kieny</surname> <given-names>MP</given-names></name>. <article-title>Global production of seasonal and pandemic (H1N1) influenza vaccines in 2009–2010 and comparison with previous estimates and global action plan targets</article-title>. <source>Vaccine</source>. <year>2010</year>; <volume>28</volume>:<fpage>4709</fpage>–<lpage>4712</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.vaccine.2010.04.083" xlink:type="simple">10.1016/j.vaccine.2010.04.083</ext-link></comment> <object-id pub-id-type="pmid">20488262</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lee</surname> <given-names>MS</given-names></name>, <name name-style="western"><surname>Hu</surname> <given-names>AY</given-names></name>. <article-title>A cell-based backup to speed up pandemic influenza vaccine production</article-title>. <source>Trends Microbiol</source>. <year>2012</year>; <volume>20</volume>:<fpage>103</fpage>–<lpage>105</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.tim.2011.12.002" xlink:type="simple">10.1016/j.tim.2011.12.002</ext-link></comment> <object-id pub-id-type="pmid">22257962</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cox</surname> <given-names>RJ</given-names></name>, <name name-style="western"><surname>Madhun</surname> <given-names>AS</given-names></name>, <name name-style="western"><surname>Hauge</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Sjursen</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Major</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Kuhne</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>A phase I clinical trial of a PER.C6 cell grown influenza H7 virus vaccine</article-title>. <source>Vaccine</source>. <year>2009</year>; <volume>27</volume>:<fpage>1889</fpage>–<lpage>1897</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.vaccine.2009.01.116" xlink:type="simple">10.1016/j.vaccine.2009.01.116</ext-link></comment> <object-id pub-id-type="pmid">19368768</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Baz</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Luke</surname> <given-names>CJ</given-names></name>, <name name-style="western"><surname>Cheng</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Jin</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Subbarao</surname> <given-names>K</given-names></name>. <article-title>H5N1 vaccines in humans</article-title>. <source>Virus Res</source>. <year>2013</year>; <volume>178</volume>:<fpage>78</fpage>–<lpage>98</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.virusres.2013.05.006" xlink:type="simple">10.1016/j.virusres.2013.05.006</ext-link></comment> <object-id pub-id-type="pmid">23726847</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hu</surname> <given-names>AY</given-names></name>, <name name-style="western"><surname>Weng</surname> <given-names>TC</given-names></name>, <name name-style="western"><surname>Tseng</surname> <given-names>YF</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>YS</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>CH</given-names></name>, <name name-style="western"><surname>Hsiao</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Microcarrier-based MDCK cell culture system for the production of influenza H5N1 vaccines</article-title>. <source>Vaccine</source>. <year>2008</year>; <volume>26</volume>:<fpage>5736</fpage>–<lpage>5740</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.vaccine.2008.08.015" xlink:type="simple">10.1016/j.vaccine.2008.08.015</ext-link></comment> <object-id pub-id-type="pmid">18761387</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hu</surname> <given-names>AY</given-names></name>, <name name-style="western"><surname>Tseng</surname> <given-names>YF</given-names></name>, <name name-style="western"><surname>Weng</surname> <given-names>TC</given-names></name>, <name name-style="western"><surname>Liao</surname> <given-names>CC</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Chou</surname> <given-names>AH</given-names></name>, <etal>et al</etal>. <article-title>Production of inactivated influenza H5N1 vaccines from MDCK cells in serum-free medium</article-title>. <source>PloS One</source>. <year>2011</year>; <volume>6</volume>:<fpage>e14578</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0014578" xlink:type="simple">10.1371/journal.pone.0014578</ext-link></comment> <object-id pub-id-type="pmid">21283675</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pan</surname> <given-names>SC</given-names></name>, <name name-style="western"><surname>Kung</surname> <given-names>HC</given-names></name>, <name name-style="western"><surname>Kao</surname> <given-names>TM</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Dong</surname> <given-names>SX</given-names></name>, <name name-style="western"><surname>Hu</surname> <given-names>MH</given-names></name>, <etal>et al</etal>. <article-title>The Madin-Darby canine kidney cell culture derived influenza A/H5N1 vaccine: a phase I trial in Taiwan</article-title>. <source>J Microbiol Immunol Infect</source>. <year>2013</year>; <volume>46</volume>:<fpage>448</fpage>–<lpage>455</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jmii.2012.08.002" xlink:type="simple">10.1016/j.jmii.2012.08.002</ext-link></comment> <object-id pub-id-type="pmid">23022464</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref015"><label>15</label><mixed-citation publication-type="book" xlink:type="simple"><collab xlink:type="simple">World Health Organization</collab>. <chapter-title>WHO manual on animal influenza diagnosis and surveillance</chapter-title>. <publisher-loc>Geneva</publisher-loc>: <publisher-name>WHO</publisher-name>; <year>2002</year> July 12.</mixed-citation></ref>
+<ref id="pone.0120793.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hehme</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Engelmann</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Kuenzel</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Neumeier</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Saenger</surname> <given-names>R</given-names></name>. <article-title>Immunogenicity of a monovalent, aluminum-adjuvanted influenza whole virus vaccine for pandemic use</article-title>. <source>Virus Res</source>. <year>2004</year>; <volume>103</volume>:<fpage>163</fpage>–<lpage>171</lpage>. <object-id pub-id-type="pmid">15163505</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hehme</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Engelmann</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Kunzel</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Neumeier</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Sanger</surname> <given-names>R</given-names></name>. <article-title>Pandemic preparedness: lessons learnt from H2N2 and H9N2 candidate vaccines</article-title>. <source>Med Microbiol Immunol (Berl)</source>. <year>2002</year>; <volume>191</volume>:<fpage>203</fpage>–<lpage>208</lpage>. <object-id pub-id-type="pmid">12458361</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nicholson</surname> <given-names>KG</given-names></name>, <name name-style="western"><surname>Colegate</surname> <given-names>AE</given-names></name>, <name name-style="western"><surname>Podda</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Stephenson</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Wood</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Ypma</surname> <given-names>E</given-names></name>, <etal>et al</etal>. <article-title>Safety and antigenicity of non-adjuvanted and MF59-adjuvanted influenza A/Duck/Singapore/97 (H5N3) vaccine: a randomised trial of two potential vaccines against H5N1 influenza</article-title>. <source>Lancet</source>. <year>2001</year>; <volume>357</volume>:<fpage>1937</fpage>–<lpage>1943</lpage>. <object-id pub-id-type="pmid">11425416</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cox</surname> <given-names>RJ</given-names></name>, <name name-style="western"><surname>Major</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Hauge</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Madhun</surname> <given-names>AS</given-names></name>, <name name-style="western"><surname>Brokstad</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Kuhne</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>A cell-based H7N1 split influenza virion vaccine confers protection in mouse and ferret challenge models</article-title>. <source>Influenza and other respiratory viruses</source>. <year>2009</year>; <volume>3</volume>:<fpage>107</fpage>–<lpage>117</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1750-2659.2009.00082.x" xlink:type="simple">10.1111/j.1750-2659.2009.00082.x</ext-link></comment> <object-id pub-id-type="pmid">19453487</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>van der Velden</surname> <given-names>MV</given-names></name>, <name name-style="western"><surname>Aichinger</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Pollabauer</surname> <given-names>EM</given-names></name>, <name name-style="western"><surname>Low-Baselli</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Fritsch</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Benamara</surname> <given-names>K</given-names></name>, <etal>et al</etal>. <article-title>Cell culture (Vero cell) derived whole-virus non-adjuvanted H5N1 influenza vaccine induces long-lasting cross-reactive memory immune response: homologous or heterologous booster response following two dose or single dose priming</article-title>. <source>Vaccine</source>. <year>2012</year>; <volume>30</volume>:<fpage>6127</fpage>–<lpage>6135</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.vaccine.2012.07.077" xlink:type="simple">10.1016/j.vaccine.2012.07.077</ext-link></comment> <object-id pub-id-type="pmid">22884662</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>van der Velden</surname> <given-names>MV</given-names></name>, <name name-style="western"><surname>Fritz</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Pollabauer</surname> <given-names>EM</given-names></name>, <name name-style="western"><surname>Portsmouth</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Howard</surname> <given-names>MK</given-names></name>, <name name-style="western"><surname>Kreil</surname> <given-names>TR</given-names></name>, <etal>et al</etal>. <article-title>Safety and immunogenicity of a vero cell culture-derived whole-virus influenza A(H5N1) vaccine in a pediatric population</article-title>. <source>J Infect Dis</source>. <year>2014</year>; <volume>209</volume>:<fpage>12</fpage>–<lpage>23</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/infdis/jit498" xlink:type="simple">10.1093/infdis/jit498</ext-link></comment> <object-id pub-id-type="pmid">24041789</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wood</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Schild</surname> <given-names>GC</given-names></name>, <name name-style="western"><surname>Newman</surname> <given-names>RW</given-names></name>, <name name-style="western"><surname>Seagroatt</surname> <given-names>V</given-names></name>. <article-title>An improved single-radial-immunodiffusion technique for the assay of influenza haemagglutinin antigen: application for potency determinations of inactivated whole virus and subunit vaccines</article-title>. <source>J Biol Stand</source>. <year>1977</year>; <volume>5</volume>:<fpage>237</fpage>–<lpage>247</lpage>. <object-id pub-id-type="pmid">408355</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chia</surname> <given-names>MY</given-names></name>, <name name-style="western"><surname>Chung</surname> <given-names>WY</given-names></name>, <name name-style="western"><surname>Chiang</surname> <given-names>PS</given-names></name>, <name name-style="western"><surname>Chien</surname> <given-names>YS</given-names></name>, <name name-style="western"><surname>Ho</surname> <given-names>MS</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>MS</given-names></name>. <article-title>Monitoring Antigenic Variations of Enterovirus 71: Implications for Virus Surveillance and Vaccine Development</article-title>. <source>PLoS Neglected Tropical Diseases</source>. <year>2014</year>; <volume>8</volume>.</mixed-citation></ref>
+<ref id="pone.0120793.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhu</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Song</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Zheng</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Substitution of lysine at 627 position in PB2 protein does not change virulence of the 2009 pandemic H1N1 virus in mice</article-title>. <source>Virology</source>. <year>2010</year>; <volume>401</volume>:<fpage>1</fpage>–<lpage>5</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.virol.2010.02.024" xlink:type="simple">10.1016/j.virol.2010.02.024</ext-link></comment> <object-id pub-id-type="pmid">20303563</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bart</surname> <given-names>SA</given-names></name>, <name name-style="western"><surname>Hohenboken</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Della Cioppa</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Narasimhan</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Dormitzer</surname> <given-names>PR</given-names></name>, <name name-style="western"><surname>Kanesa-Thasan</surname> <given-names>N</given-names></name>. <article-title>A cell culture-derived MF59-adjuvanted pandemic A/H7N9 vaccine is immunogenic in adults</article-title>. <source>Science translational medicine</source>. <year>2014</year>; <volume>6</volume>:<fpage>234ra55</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1126/scitranslmed.3008761" xlink:type="simple">10.1126/scitranslmed.3008761</ext-link></comment> <object-id pub-id-type="pmid">24786323</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fries</surname> <given-names>LF</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>GE</given-names></name>, <name name-style="western"><surname>Glenn</surname> <given-names>GM</given-names></name>. <article-title>A recombinant viruslike particle influenza A (H7N9) vaccine</article-title>. <source>The New England journal of medicine</source>. <year>2013</year>; <volume>369</volume>:<fpage>2564</fpage>–<lpage>2566</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1056/NEJMc1313728" xlink:type="simple">10.1056/NEJMc1313728</ext-link></comment> <object-id pub-id-type="pmid">24369087</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mulligan</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Bernstein</surname> <given-names>DI</given-names></name>, <name name-style="western"><surname>Winokur</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Rupp</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Anderson</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Rouphael</surname> <given-names>N</given-names></name>, <etal>et al</etal>. <article-title>Serological responses to an avian influenza A/H7N9 vaccine mixed at the point-of-use with MF59 adjuvant: a randomized clinical trial</article-title>. <source>Jama</source>. <year>2014</year>; <volume>312</volume>:<fpage>1409</fpage>–<lpage>1419</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1001/jama.2014.12854" xlink:type="simple">10.1001/jama.2014.12854</ext-link></comment> <object-id pub-id-type="pmid">25291577</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Smith</surname> <given-names>GE</given-names></name>, <name name-style="western"><surname>Flyer</surname> <given-names>DC</given-names></name>, <name name-style="western"><surname>Raghunandan</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Wei</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>Y</given-names></name>, <etal>et al</etal>. <article-title>Development of influenza H7N9 virus like particle (VLP) vaccine: homologous A/Anhui/1/2013 (H7N9) protection and heterologous A/chicken/Jalisco/CPA1/2012 (H7N3) cross-protection in vaccinated mice challenged with H7N9 virus</article-title>. <source>Vaccine</source>. <year>2013</year>; <volume>31</volume>:<fpage>4305</fpage>–<lpage>4313</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.vaccine.2013.07.043" xlink:type="simple">10.1016/j.vaccine.2013.07.043</ext-link></comment> <object-id pub-id-type="pmid">23891795</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Belser</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Gustin</surname> <given-names>KM</given-names></name>, <name name-style="western"><surname>Pearce</surname> <given-names>MB</given-names></name>, <name name-style="western"><surname>Maines</surname> <given-names>TR</given-names></name>, <name name-style="western"><surname>Zeng</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Pappas</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Pathogenesis and transmission of avian influenza A (H7N9) virus in ferrets and mice</article-title>. <source>Nature</source>. <year>2013</year>; <volume>501</volume>:<fpage>556</fpage>–<lpage>559</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nature12391" xlink:type="simple">10.1038/nature12391</ext-link></comment> <object-id pub-id-type="pmid">23842497</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kreijtz</surname> <given-names>JH</given-names></name>, <name name-style="western"><surname>Wiersma</surname> <given-names>LC</given-names></name>, <name name-style="western"><surname>De Gruyter</surname> <given-names>HL</given-names></name>, <name name-style="western"><surname>Vogelzang-van Trierum</surname> <given-names>SE</given-names></name>, <name name-style="western"><surname>van Amerongen</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Stittelaar</surname> <given-names>KJ</given-names></name>, <etal>et al</etal>. <article-title>A Single Immunization With Modified Vaccinia Virus Ankara-Based Influenza Virus H7 Vaccine Affords Protection in the Influenza A(H7N9) Pneumonia Ferret Model</article-title>. <source>The Journal of infectious diseases</source>. <year>2015</year>; <volume>211</volume>:<fpage>791</fpage>–<lpage>900</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/infdis/jiu528" xlink:type="simple">10.1093/infdis/jiu528</ext-link></comment> <object-id pub-id-type="pmid">25246535</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Middleton</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Rockman</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Pearse</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Barr</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Lowther</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Klippel</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Evaluation of vaccines for H5N1 influenza virus in ferrets reveals the potential for protective single-shot immunization</article-title>. <source>Journal of virology</source>. <year>2009</year>; <volume>83</volume>:<fpage>7770</fpage>–<lpage>7778</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/JVI.00241-09" xlink:type="simple">10.1128/JVI.00241-09</ext-link></comment> <object-id pub-id-type="pmid">19457991</object-id></mixed-citation></ref>
+<ref id="pone.0120793.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Govorkova</surname> <given-names>EA</given-names></name>, <name name-style="western"><surname>Webby</surname> <given-names>RJ</given-names></name>, <name name-style="western"><surname>Humberd</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Seiler</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Webster</surname> <given-names>RG</given-names></name>. <article-title>Immunization with reverse-genetics-produced H5N1 influenza vaccine protects ferrets against homologous and heterologous challenge</article-title>. <source>The Journal of infectious diseases</source>. <year>2006</year>; <volume>194</volume>:<fpage>159</fpage>–<lpage>167</lpage>. <object-id pub-id-type="pmid">16779721</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

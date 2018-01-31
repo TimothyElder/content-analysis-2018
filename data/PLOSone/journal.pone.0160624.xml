@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1d3" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0160624</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-16-12600</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Engineering and technology</subject><subj-group><subject>Electronics engineering</subject><subj-group><subject>3D printing</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Engineering and technology</subject><subj-group><subject>Fluidics</subject><subj-group><subject>Microfluidics</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Physics</subject><subj-group><subject>Classical mechanics</subject><subj-group><subject>Continuum mechanics</subject><subj-group><subject>Fluid mechanics</subject><subj-group><subject>Fluid dynamics</subject><subj-group><subject>Fluid flow</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Engineering and technology</subject><subj-group><subject>Fluidics</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Physics</subject><subj-group><subject>Classical mechanics</subject><subj-group><subject>Deformation</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Physics</subject><subj-group><subject>Classical mechanics</subject><subj-group><subject>Damage mechanics</subject><subj-group><subject>Deformation</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Physics</subject><subj-group><subject>Classical mechanics</subject><subj-group><subject>Continuum mechanics</subject><subj-group><subject>Fluid mechanics</subject><subj-group><subject>Fluid dynamics</subject><subj-group><subject>Flow rate</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Engineering and technology</subject><subj-group><subject>Manufacturing processes</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical sciences</subject><subj-group><subject>Materials science</subject><subj-group><subject>Material properties</subject><subj-group><subject>Mechanical properties</subject><subj-group><subject>Stiffness</subject></subj-group></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>3D Printed Multimaterial Microfluidic Valve</article-title>
+<alt-title alt-title-type="running-head">3D Printed Multimaterial Microfluidic Valve</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Keating</surname>
+<given-names>Steven J.</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Gariboldi</surname>
+<given-names>Maria Isabella</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Patrick</surname>
+<given-names>William G.</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Sharma</surname>
+<given-names>Sunanda</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Kong</surname>
+<given-names>David S.</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Oxman</surname>
+<given-names>Neri</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Media Lab, Massachusetts Institute of Technology, Cambridge, Massachusetts, United States of America</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Lincoln Laboratory, Massachusetts Institute of Technology, Lexington, Massachusetts, United States of America</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Pisignano</surname>
+<given-names>Dario</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Universita del Salento, ITALY</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="con">
+<p><list list-type="simple"><list-item><p><bold>Conceived and designed the experiments:</bold> SJK DSK.</p></list-item> <list-item><p><bold>Performed the experiments:</bold> MIG SJK WGP DSK.</p></list-item> <list-item><p><bold>Analyzed the data:</bold> MIG SJK.</p></list-item> <list-item><p><bold>Contributed reagents/materials/analysis tools:</bold> MIG SJK WGP SS DSK NO.</p></list-item> <list-item><p><bold>Wrote the paper:</bold> SJK MIG SS NO.</p></list-item></list>
+</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">neri@mit.edu</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>15</day>
+<month>8</month>
+<year>2016</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2016</year>
+</pub-date>
+<volume>11</volume>
+<issue>8</issue>
+<elocation-id>e0160624</elocation-id>
+<history>
+<date date-type="received">
+<day>28</day>
+<month>3</month>
+<year>2016</year>
+</date>
+<date date-type="accepted">
+<day>23</day>
+<month>7</month>
+<year>2016</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2016</copyright-year>
+<copyright-holder>Keating et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0160624"/>
+<abstract>
+<p>We present a novel 3D printed multimaterial microfluidic proportional valve. The microfluidic valve is a fundamental primitive that enables the development of programmable, automated devices for controlling fluids in a precise manner. We discuss valve characterization results, as well as exploratory design variations in channel width, membrane thickness, and membrane stiffness. Compared to previous single material 3D printed valves that are stiff, these printed valves constrain fluidic deformation spatially, through combinations of stiff and flexible materials, to enable intricate geometries in an actuated, functionally graded device. Research presented marks a shift towards 3D printing multi-property programmable fluidic devices in a single step, in which integrated multimaterial valves can be used to control complex fluidic reactions for a variety of applications, including DNA assembly and analysis, continuous sampling and sensing, and soft robotics.</p>
+</abstract>
+<funding-group>
+<funding-statement>The authors have no support or funding to report.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="5"/>
+<table-count count="1"/>
+<page-count count="12"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>Data are fully available in the Supporting Information section.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>The introduction of the first valves fabricated via soft lithography [<xref ref-type="bibr" rid="pone.0160624.ref001">1</xref>] ignited the field of microfluidics, enabling device programmability and automation at a previously unprecedented scale [<xref ref-type="bibr" rid="pone.0160624.ref002">2</xref>]. The simplicity and ease of soft lithography increased the accessibility of programmable microfluidics to non-experts in the area of microfabrication, engaging researchers from diverse fields of science and engineering [<xref ref-type="bibr" rid="pone.0160624.ref003">3</xref>]. However, notable limitations to soft lithography remain. The two-dimensional nature of replica molding makes the production of 3D structures beyond several layers extremely challenging, curtailing the capabilities and therefore the applications associated with the technique. Furthermore, photolithography and the production of molds for replica molding require infrastructure for realization of physical products.</p>
+<p>In recent years, advances in Additive Manufacturing (AM) have enabled new and interesting opportunities associated with the design and digital fabrication of geometrically complex and materially heterogeneous objects with high spatial resolution. For example, AM tools have been implemented to create microfluidic devices. 3D printed milli- and microfluidic systems have been fabricated through fused-deposition modeling (FDM) of thermoplastics [<xref ref-type="bibr" rid="pone.0160624.ref004">4</xref>], as well as stereolithography and inkjet printing of photo-curable polymers [<xref ref-type="bibr" rid="pone.0160624.ref005">5</xref>–<xref ref-type="bibr" rid="pone.0160624.ref007">7</xref>]. Fabrication of digitally designed parts can occur within hours, compared to days for soft lithography [<xref ref-type="bibr" rid="pone.0160624.ref008">8</xref>]. 3D design files can easily be shared online, allowing for collaboration on new designs that can be 3D printed on site or mail-ordered at low costs [<xref ref-type="bibr" rid="pone.0160624.ref008">8</xref>,<xref ref-type="bibr" rid="pone.0160624.ref009">9</xref>].</p>
+<p>3D printing also offers a variety of technical advantages over replica molding. Conventional soft lithography techniques limit achievable microfluidic geometries to two-dimensional (planar) molded forms. Tedious multi-step processes, such as layer-by-layer fabrication, are required to produce 3D geometries. More recently, 3D printing has been used to produce scaffolds with complex geometries that can be embedded in polydimethylsiloxane (PDMS) and subsequently dissolved, leaving behind channels in the shape of the original 3D printed structure [<xref ref-type="bibr" rid="pone.0160624.ref010">10</xref>]. While resolution is still limited, 3D printing enables the design and construction of complex geometries through single-step fabrication [<xref ref-type="bibr" rid="pone.0160624.ref011">11</xref>]. 3D printed materials can also be tailored for specific applications [<xref ref-type="bibr" rid="pone.0160624.ref012">12</xref>–<xref ref-type="bibr" rid="pone.0160624.ref016">16</xref>], circumventing some of the traditional material limitations posed by PDMS, such as incompatibility with many solvents [<xref ref-type="bibr" rid="pone.0160624.ref017">17</xref>].</p>
+<p>Currently, most 3D printed microfluidics are designed and fabricated as passive devices with limited fluid handling capability and programmability [<xref ref-type="bibr" rid="pone.0160624.ref018">18</xref>]. Most recently, 3D printed valves for microfluidic devices have been created that are made of a single material and are actuated via membrane deformation through applied fluidic pressure [<xref ref-type="bibr" rid="pone.0160624.ref019">19</xref>–<xref ref-type="bibr" rid="pone.0160624.ref021">21</xref>]. However, homogeneous material valves are large in size (typical radius of 5 mm [<xref ref-type="bibr" rid="pone.0160624.ref019">19</xref>]) and exhibit global deformation during actuation that restricts device complexity and size.</p>
+<p>Multimaterial 3D printing of valves can be used to fabricate devices that not only overcome these drawbacks but also offer new functionalities. Current multimaterial 3D printers use materials with variable properties such as stiffness, opacity, and color [<xref ref-type="bibr" rid="pone.0160624.ref022">22</xref>]. Single parts can therefore be printed out of multiple materials, with pre-set mechanical and optical properties, and their combinations. This fabrication method has previously been used to print parts with stiffness gradients ranging from rubber-like to hard plastic [<xref ref-type="bibr" rid="pone.0160624.ref023">23</xref>]. We hypothesized that a similar method could be used to create valves by printing hard channel sections separated by flexible layers.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<p>Microfluidic valves were designed using the computer-aided design (CAD) software, SolidWorks (Dassault Systèmes Americas, Waltham, MA), with a geometry modeled after traditional push-up microfluidic valves [<xref ref-type="bibr" rid="pone.0160624.ref001">1</xref>, <xref ref-type="bibr" rid="pone.0160624.ref024">24</xref>]. Single material push-up valves have been widely used and the geometry was chosen to develop a proof-of-concept 3D printed multimaterial valve. Push-up valves comprise a semi-circular ‘flow channel’ and a rectangular ‘control channel’ separated by a membrane (<xref ref-type="fig" rid="pone.0160624.g001">Fig 1</xref>). They operate like those developed by Unger et al. [<xref ref-type="bibr" rid="pone.0160624.ref001">1</xref>]: when pressure is applied to a control channel, the membrane deflects, sealing the flow channel. The valves were 3D printed with a flexible material for the membrane and a stiff material for the external valve structure, in order to reduce global deformation and facilitate valve tuning for different pressures. Dimensions and materials were varied per <xref ref-type="table" rid="pone.0160624.t001">Table 1</xref>, with a standard membrane thickness of 300 μm, control channel width of 800 μm, control channel height of 800 μm, and a semi-circular flow channel radius of 400 μm. Internal tube ports to all channels were printed with a radius of 750 μm in order to fit tubing with an external diameter of 1500 μm. For more information on the physical valve design, please see the Supporting Information for computer design files (in STL file format) of the standard dimension 3D printed multimaterial valve used in this research.</p>
+<fig id="pone.0160624.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0160624.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Multimaterial valve design.</title>
+<p>Design and material breakdown (left). Assembled valve cross-section showing the control and flow channels (right). Applied fluidic pressure to the control channel actuates the valve by deforming the flexible membrane to obstruct the flow channel.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0160624.g001" xlink:type="simple"/>
+</fig>
+<table-wrap id="pone.0160624.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0160624.t001</object-id>
+<label>Table 1</label> <caption><title>Requisite Closure Pressures.</title></caption>
+<alternatives>
+<graphic id="pone.0160624.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0160624.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="11">Parameter Design Variations (all other parameters are held constant according to the standard design)</th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center" colspan="4">Membrane Thickness</th>
+<th align="center" colspan="4">Channel Width</th>
+<th align="center" colspan="3">Membrane Material Stiffness</th>
+</tr>
+<tr>
+<th align="center"/>
+<th align="center">200 μm</th>
+<th align="center">300 μm <xref ref-type="table-fn" rid="t001fn002"><sup>a</sup></xref></th>
+<th align="center">400 μm</th>
+<th align="center">500 μm</th>
+<th align="center">700 μm</th>
+<th align="center">900 μm</th>
+<th align="center">1100 μm</th>
+<th align="center">1300 μm</th>
+<th align="center">Shore 26–28 Scale A<xref ref-type="table-fn" rid="t001fn002"><sup>a</sup></xref></th>
+<th align="center">Shore 35–40 Scale A</th>
+<th align="center">Shore 57–63 Scale A</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Control Pressure for Valve Closure (defined as ≤ 3.5 μL/s full flow) (psi)</td>
+<td align="char" char=".">15.0</td>
+<td align="char" char=".">28.8</td>
+<td align="char" char=".">36.3</td>
+<td align="char" char=".">42.5</td>
+<td align="char" char=".">30.0</td>
+<td align="char" char=".">26.3</td>
+<td align="char" char=".">25.0</td>
+<td align="char" char=".">22.5</td>
+<td align="char" char=".">28.8</td>
+<td align="char" char=".">35.0</td>
+<td align="char" char=".">&gt;73.0<xref ref-type="table-fn" rid="t001fn003"><sup>b</sup></xref></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>Control pressure required for valve closure experimentally found for design variations. Listed stiffness values for the membrane material are sourced from Stratasys, Ltd material data sheets [<xref ref-type="bibr" rid="pone.0160624.ref024">24</xref>]. Closing pressures varied between different samples or different runs. The value represents the average control pressure at which the valve was closed (defined by a flow rate ≤ 3.5 uL/s) for all trials and printed valves. Error of ± 4.4 psi was found between trials of the same printed valve.</p></fn>
+<fn id="t001fn002"><p><sup>a</sup> Same sample data</p></fn>
+<fn id="t001fn003"><p><sup>b</sup> Valve did not close at control pressures tested. Flow measured at 73.4 psi was ~49% total flow and a single trial was conducted for this file.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>All devices were printed using a Stratasys Objet500 Connex multimaterial 3D printer [<xref ref-type="bibr" rid="pone.0160624.ref024">24</xref>]. This printer operates using the Stratasys PolyJet printing technology: droplets of photo-curable liquid polymer are jetted and cured with ultraviolet light, producing ‘digital materials’ made spontaneously by mixing different liquid polymers in known pre-set mechanical combinations. Based on the materials commercially available for the printer, the valves were fabricated with the most flexible material (TangoPlus, FLX930) and a stiff material (VeroWhitePlus, RGD835) [<xref ref-type="bibr" rid="pone.0160624.ref025">25</xref>]. TangoPlus is a rubber-like translucent material and VeroWhitePlus is a rigid opaque white material. The fabrication workflow utilized these two materials to create digitally mixed materials with different tensile strength/tear resistance and translucency based on different proportions of the cartridge materials deposited by the printer. For our printed valves, the printer deposits 30 μm thick layers with gel-like support material to reinforce hollow structures and overhangs while printing. Support material was manually cleared from all internal features using pressurized air and a metal rod. External tubing was inserted in the printed valve ports and sealed with Sil-Poxy silicone adhesive.</p>
+<p>Fabricated valves were characterized using a measurement system built in-house, as shown in <xref ref-type="fig" rid="pone.0160624.g002">Fig 2</xref>. A pressure sensor (MPX5700AP, Freescale Semiconductor, Austin, TX, 2.5% maximum error) was used to measure applied pressure in the control channel alongside a visual pressure gauge. A barometric pressure sensor (BMP180, Bosch Sensortec, Reutlingen, Germany, maximum error of 0.06 psi) was placed in line with a liquid chamber containing a fixed initial volume of water. Tubing was used to connect the liquid chamber to the flow channel, such that upon pressurization of the vessel, the system was completely sealed when the valve was closed. The liquid chamber was pressurized at around 2 psi to initiate fluid flow and the rate-of-change in pressure measured by the barometric pressure sensor was used to calculate fluid flow through the valve using Boyle’s Law. Both pressure sensors were connected to an Arduino UNO microcontroller for recording data and the system temperature was maintained at room temperature (22°C) throughout the experiment. The liquid chamber and control channel pressures were controlled using pneumatic elements and solenoid valves. Prior to collecting data for each valve, the control line was pressurized to completely close the valve for 2 minutes to ensure full membrane deformation after printing. Data was collected in trial runs, incrementally increasing control line pressures, starting at atmospheric pressure. Between each increment in control pressure, the liquid chamber pressure was brought back to 2 psi before beginning each measurement trial. For more information on the experimental workflow, trial data, and data calculations, please see the Supporting Information.</p>
+<fig id="pone.0160624.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0160624.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Experimental setup used to characterize printed fluidic valves.</title>
+<p>Pneumatic regulators were used for control channel actuation and to pressurize the liquid chamber along with solenoid valves. Pressure sensors connected to an Arduino UNO microcontroller were used to record both control channel and liquid chamber pressures.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0160624.g002" xlink:type="simple"/>
+</fig>
+<p>The system measurement error was experimentally found using a precision scale (Mettler Toledo) to compare the weight of the total liquid flow against the calculated flow measured through the change in pneumatic pressure in the liquid chamber during calibration trials (error of ± 3.4%). Two measurement trials at each pressure for the same valve were conducted to measure functional repeatability of a single printed piece (error of ± 4.4 psi, based on 95% confidence interval, from comparing a total of 222 flow measurements). The average flow measurement value from the two trials for each control pressure tested was plotted (<xref ref-type="fig" rid="pone.0160624.g003">Fig 3</xref>, <xref ref-type="table" rid="pone.0160624.t001">Table 1</xref>) with ± 4.4 psi error bars. Multiple valves were printed from the same design file to quantify differences in functionality due to the manual support cleaning process and overall repeatability of the process.</p>
+<fig id="pone.0160624.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0160624.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Fluid flow under various conditions.</title>
+<p>Measurements of fluid flow through the 3D printed multimaterial valve with varying applied pressure to the control channel are plotted. Dimensions and materials were varied according to <xref ref-type="table" rid="pone.0160624.t001">Table 1</xref>, with a standard membrane thickness of 300 μm, control channel width of 800 μm, control channel height of 800 μm, and a semi-circular flow channel radius of 400 μm. Proportional control of the flow rate is demonstrated and the design parameters are explored through varying membrane thickness (top), control channel width (middle), and membrane material (bottom). Connecting lines are shown only for visualization and the charted points and error bars represent the measured data. For membrane thickness and control channel width, two prints of each design file were tested and each is plotted using the average of two trials per print. The bracketed number in the legend indicates a different print of the same design file and both are plotted for clarity with the same color. Membrane material type tests used a single print. Error bars show repeatability between trials at the same pressure for different prints of the same valve specifications (± 4.4 psi, calculated with 95% confidence interval). Listed stiffness values for the membrane material are sourced from Stratasys, Ltd. Material data sheets [<xref ref-type="bibr" rid="pone.0160624.ref025">25</xref>]. Please see the Supporting Information for all of the data from the trials.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0160624.g003" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec003" sec-type="conclusions">
+<title>Results and Discussion</title>
+<p>3D printed multimaterial valves were successfully fabricated, demonstrating proportional control of the flow channel when air pressure was applied to the control channel. Each design was printed with variations in channel width, membrane thickness, and membrane stiffness, as seen in <xref ref-type="table" rid="pone.0160624.t001">Table 1</xref>. Valves were first tested to determine the required closing pressure for each design. As expected, the required pressure to close the valve was higher in designs with relatively narrower control channels, larger membrane thicknesses, and stiffer materials (<xref ref-type="table" rid="pone.0160624.t001">Table 1</xref>). Only three of nine material types tested as membrane materials were flexible enough to deform and function properly with the standard design geometry used. The print time for a single valve was 25 minutes. Multiple valves can be printed in parallel on the same print tray to reduce fabrication time for larger batches. Each valve used 2 grams of stiff material, 2 grams of flexible membrane material, and 4 grams of support material, totaling a per part material cost of $1.85 USD [<xref ref-type="bibr" rid="pone.0160624.ref026">26</xref>]. While the multimaterial 3D printer used for valve fabrication is an expensive and high performance machine, the low material cost per microfluidic device allows for future accessibility through distributed fabrication spaces, such as a TechShop location [<xref ref-type="bibr" rid="pone.0160624.ref027">27</xref>], or consumer-friendly online 3D fabrication services like Shapeways [<xref ref-type="bibr" rid="pone.0160624.ref028">28</xref>] or i.materialise [<xref ref-type="bibr" rid="pone.0160624.ref029">29</xref>], where custom parts can be printed for a fee without ownership of a printer.</p>
+<p>Characterization results for the printed valve are graphically shown in <xref ref-type="fig" rid="pone.0160624.g003">Fig 3</xref>. The results show proportional control over the valve flow rate ranging between 0 and 50 μL/s, as well as trends in the data due to dimensional variations and variations in material properties. Increased membrane thickness–between 200 μm and 500 μm–resulted in higher required control pressures, ranging between 15 psi and 43 psi for a full closure. With wider control channels–between 700 μm and 1300 μm–lower control pressures were required, ranging between 22.5 psi and 30 psi. Finally, for increasing membrane material stiffness–between Shore 26–63 Scale A–higher control pressures were required (between 29 psi and 73 psi).</p>
+<p>Eliminating material deformation during actuation beyond the valve design geometry is of critical importance when constructing systems featuring a high density of valves. In operating the multimaterial valve, there was no visual global deformation due to the applied control pressure during actuation. The membrane deformation during actuation is a local deformation that is constrained by the stiff surrounding material. In contrast, we printed a multichannel single material valve (<xref ref-type="fig" rid="pone.0160624.g004">Fig 4</xref>) that demonstrated large global deformations easily visible by eye (<xref ref-type="supplementary-material" rid="pone.0160624.s007">S1 Video</xref>).</p>
+<fig id="pone.0160624.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0160624.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>3D printed microfluidic valves.</title>
+<p>A) A 3D printed single material multichannel valve system (top left) and a 3D printed multimaterial multichannel valve system (bottom left). The single material valve contains two control channels with square chambers both above and below the flow channels and the multimaterial valve uses the same design methodology previous described in the paper. For the multimaterial multichannel valve, all channel valves are actuated at the same time by the control line. The global deformation of the single material valve system is significantly larger than the multimaterial valve during actuation, as seen in <xref ref-type="supplementary-material" rid="pone.0160624.s007">S1 Video</xref> B) A 3D printed multimaterial valve with chemiluminescent liquid in the control and flow channels for visualization (right).</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0160624.g004" xlink:type="simple"/>
+</fig>
+<p>During fabrication and testing, we discovered an important factor that can lead to variability in performance between printed valves based on the same design file: inconsistent clearing of support material. Support material, in the form of a gel, was manually removed. Significant care had to be taken during cleaning to avoid small tears in the membrane. Water jet cutting and soaking in sodium hydroxide were tested as alternative support material removal techniques. However, both methods were found to significantly increase the likelihood of valve membrane tearing. Any support material that was not removed could impede fluid flow and cause variation in valve performance. Additionally, because an external tool is required to remove this type of support material, there is a limitation to the curvature, complexity, and dimensions of internal channels printed with the technique; straight channels are easier to clear fully due to the tool shape. Repeated use of the device directly after cleaning reduces variability and leads to more consistent performance, but it is conceivable that after a certain point, accumulated wear on the valve will compromise performance.</p>
+<p>Secondly, we found that the initial pressurization of the valve resulted in a small variation in flow rate compared to future pressurization trials. We believe the first pressurization removes some additional support material that causes this variation. To reduce this error, before all data trials, we initially pressurized the control line of each valve for two minutes before releasing pressure and beginning testing. Once this initial pressurization was conducted, repeatable proportional control of the same printed valve was shown within the error bounds of ± 4.4 μL/s (95% confidence interval).</p>
+</sec>
+<sec id="sec004">
+<title>Future Research Directions</title>
+<p>In this paper, we demonstrated the digital fabrication and characterization of 3D printed multimaterial proportional valves, with flexible membranes constrained by stiffer structural flow and control channels. Printed multimaterial valves can exploit variable material properties for enhanced functionality. For example, we have shown how printed multimaterial valves can reduce global deformation during valve actuation through variable material stiffness. By reducing actuation deformation, multiple independently controlled valves can be spatially located in close proximity in a printed system, allowing for complex programmable microfluidic devices. In order to scale the process and 3D print additional complex fluidic devices in large quantities, we must overcome the primary limitation encountered in this work: manual removal of support material [<xref ref-type="bibr" rid="pone.0160624.ref030">30</xref>]. Two alternative support methods, namely, dissolvable wax support and liquid support, hold the potential of overcoming this limitation [<xref ref-type="bibr" rid="pone.0160624.ref031">31</xref>]. Initial investigations of both dissolvable and liquid support materials are being implemented in concurrent work alongside colleagues [<xref ref-type="bibr" rid="pone.0160624.ref032">32</xref>] to create millifluidic channels, also using the Objet500 Connex. Early results point towards exciting potentials, such as a successfully digitally designed and fabricated product-scale wearable fluidic system. Through an experimental liquid support technique, the printed fluidic system in <xref ref-type="fig" rid="pone.0160624.g005">Fig 5</xref> is comprised of a 58-meter long internal channel with variations in diameter, membrane thickness and material properties [<xref ref-type="bibr" rid="pone.0160624.ref032">32</xref>]. In the context of future work, additional characterization and development of such new support methods could enable 3D printing of fluidic devices with integrated valves and detailed internal geometries for novel functionality as well as product applications. For example, multimaterial valves in future wearable devices could control complex fluidic mixing, sensing, filtering, and computation. Additional valve testing is required for long-term use, including; measurements of the durability of the flexible membranes following repeated deformations; functional valve cycle lifetime; compatibility of the materials with commonly used microorganisms and biochemistries; and fidelity of prints with different rigidities and patterning to include biocompatible, semi-permeable, or other materials.</p>
+<fig id="pone.0160624.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0160624.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>A product-scale wearable millifluidic system 3D printed with an experimental liquid support technique.</title>
+<p>The digitally designed and fabrication system was printed with colleagues [<xref ref-type="bibr" rid="pone.0160624.ref032">32</xref>] and future work will look to further characterize this experimental printing method. For the images, a chemiluminescent liquid was pumped through the flow channels for visualization.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0160624.g005" xlink:type="simple"/>
+</fig>
+<p>Accordingly, the software component of design will require improvements, such as the inclusion of finite element analysis for optimizing geometries for fluidic devices. Further developments can be made in the manufacturing process to analyze the robustness over printing cycles, the precision depending on liquids used, relation between liquid viscosity and exerted control, and characterizing the range of different material properties and printers that can be used for similar microfluidics protocols.</p>
+<p>For applications requiring microscopy, it is desirable for programmable 3D printed fluidic devices to be interfaced with glass microscope slides. In an initial study, we exposed 2 cm slabs of digitally mixed materials from <xref ref-type="table" rid="pone.0160624.t001">Table 1</xref> with oxygen plasma (Gasonics) at 300W for 30s, a common treatment for generating covalent bonding between glass and PDMS. Each slab also featured a fluidic channel, 1.6 cm long and 1 mm wide. While applying oxygen plasma treatment did not produce covalent bonds to glass, it was still possible to adhere digitally mixed materials to glass substrates. Slabs composed of mixtures containing higher concentrations of TangoPlus, when clean and free of particulates on the surface, could adhere to glass and maintain fluid pressures in the range of 5–10 psi—a common operating pressure in microfluidics—without generating leaks. Further exploration and characterization of surface treatments and pressure-based bonding techniques are warranted to determine methods for generating bonding between 3D printed structures and glass capable of sustaining fluid pressures greater than 10 psi.</p>
+<p>Results shown carry significant potential for future developments of 3D printed microfluidics with enhanced custom functionality. Compared with conventional fabrication techniques, this manufacturing process lends itself to rapid scalability through automation, paving the way to new applications in a variety of fields. For example, pumping valves could be used in muscle contraction simulations, emulating peristalsis; cell culture devices could have patient-specific stiffness areas for tissue growth and sorting; controllable soft and bio-inspired robotics could be produced without assembly; integrated and highly controllable sensors could provide continuous sampling; and general pneumatic systems could have new dimensions such as chemical-material gradients and integrated actuation.</p>
+</sec>
+<sec id="sec005">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0160624.s001" mimetype="application/zip" position="float" xlink:href="info:doi/10.1371/journal.pone.0160624.s001" xlink:type="simple">
+<label>S1 Additional Files</label>
+<caption>
+<title>Computer-aided Design Files.</title>
+<p>Digital design files (STL format) of the standard dimension multimaterial valve are provided to allow replication, usage, and further development of 3D printed valves.</p>
+<p>(ZIP)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0160624.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0160624.s002" xlink:type="simple">
+<label>S1 Appendix</label>
+<caption>
+<title>Pressure Sensor Data Analysis.</title>
+<p>Details of how barometric pressure sensor data was analyzed, both to convert rate of fluid chamber pressure change to flow rate, and to generate the plots shown.</p>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0160624.s003" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0160624.s003" xlink:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title>Examples of measurement workflow.</title>
+<p>Plotted linear fits of parsed data from liquid chamber pressure at full flow (top) and at valve closing at an absolute pressure of 29.66 psi (left) are shown as examples for the measurement workflow. The plotted data is from Sample 1, run 1 of a printed valve with a membrane thickness of 200 μm (it is the first entry in <xref ref-type="supplementary-material" rid="pone.0160624.s004">S1 Table</xref> below). For the full flow rate as seen in the top plot, the fitted linear trendline has a slope of -2.458E-04 psi per data point, with a R<sup>2</sup> value of 0.9996. For the bottom plot, the fitted trendline slope is -5.380E-06 psi per data point, with a R<sup>2</sup> value of 0.5731 (a low R<sup>2</sup> value as expected due to valve closure resulting in a near-horizontal trendline). Graph pressures plotted as absolute values.</p>
+<p>(TIF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0160624.s004" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pone.0160624.s004" xlink:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Data Processing for Flow Rates for Membrane Thickness.</title>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0160624.s005" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pone.0160624.s005" xlink:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>Data Processing for Flow Rates for Channel Width.</title>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0160624.s006" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pone.0160624.s006" xlink:type="simple">
+<label>S3 Table</label>
+<caption>
+<title>Data Processing for Flow Rates for Membrane Material.</title>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0160624.s007" mimetype="video/quicktime" position="float" xlink:href="info:doi/10.1371/journal.pone.0160624.s007" xlink:type="simple">
+<label>S1 Video</label>
+<caption>
+<title>Demonstration video of 3D Printed Single Material and Multimaterial Valve.</title>
+<p>(MOV)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>The authors wish to thank colleagues who have contributed to the wearable fluidic system shown in <xref ref-type="fig" rid="pone.0160624.g005">Fig 5</xref> including Christoph Bader, Dominik Kolb, Stephanie Hays, Daniel Dikovsky, Boris Belocon, Tal Ely, James Weaver and Prof. Pamela Silver. In addition, the authors wish to thank Stratasys as well as Naomi Kaempfer, Creative Director at Stratasys, Ltd.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0160624.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Unger</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Chou</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Thorsen</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Scherer</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Quake</surname> <given-names>S</given-names></name>. <article-title>Monolithic Microfabricated Valves and Pumps by Multilayer Soft Lithography</article-title>. <source>Science</source>. <year>2000</year> <month>Apr</month> <day>07</day>; <volume>288</volume>(<issue>5463</issue>): <fpage>113</fpage>–<lpage>117</lpage>. <object-id pub-id-type="pmid">10753110</object-id></mixed-citation></ref>
+<ref id="pone.0160624.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Thorsen</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Maerkl</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Quake</surname> <given-names>S</given-names></name>. <article-title>Microfluidic Large-Scale Integration</article-title>. <source>Science</source>. <year>2002</year> <month>Oct</month> <day>18</day>; <volume>298</volume>(<issue>5593</issue>): <fpage>580</fpage>–<lpage>584</lpage>. <object-id pub-id-type="pmid">12351675</object-id></mixed-citation></ref>
+<ref id="pone.0160624.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lee</surname> <given-names>A</given-names></name>. <article-title>The third decade of microfluidics</article-title>. <source>Lab Chip</source>. <year>2013</year> <month>Mar</month> <day>27</day>; <volume>13</volume>(<issue>9</issue>): <fpage>1660</fpage>–<lpage>1661</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1039/c3lc90031b" xlink:type="simple">10.1039/c3lc90031b</ext-link></comment> <object-id pub-id-type="pmid">23532273</object-id></mixed-citation></ref>
+<ref id="pone.0160624.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kitson</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Rosnes</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Sans</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Dragone</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Cronin</surname> <given-names>L</given-names></name>. <article-title>Configurable 3D printed millifluidic and microfluidic “lab on a chip” reactionware devices</article-title>. <source>Lab Chip</source>. <year>2012</year> <month>Sep</month> <day>21</day>; <volume>12</volume>(<issue>18</issue>): <fpage>3267</fpage>–<lpage>3271</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1039/c2lc40761b" xlink:type="simple">10.1039/c2lc40761b</ext-link></comment> <object-id pub-id-type="pmid">22875258</object-id></mixed-citation></ref>
+<ref id="pone.0160624.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Song</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Spencer</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Jander</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Nielsen</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Stasiak</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kasperchik</surname> <given-names>V</given-names></name>, <etal>et al</etal>. <article-title>Inkjet printing of magnetic materials with aligned anisotropy</article-title>. <source>J. Appl. Phys</source>. <year>2014</year>; <volume>115</volume>(<issue>17</issue>): <fpage>E308</fpage>.</mixed-citation></ref>
+<ref id="pone.0160624.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tseng</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Murray</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Di Carlo</surname> <given-names>D</given-names></name>. <article-title>Research highlights: printing the future of microfabrication</article-title>. <source>Lab Chip</source>. <year>2014</year> <month>May</month> <day>07</day>; <volume>14</volume>(<issue>9</issue>): <fpage>1491</fpage>–<lpage>1495</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1039/c4lc90023e" xlink:type="simple">10.1039/c4lc90023e</ext-link></comment> <object-id pub-id-type="pmid">24671475</object-id></mixed-citation></ref>
+<ref id="pone.0160624.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bhargava</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Thompson</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Malmstadt</surname> <given-names>N</given-names></name>. <article-title>Discrete elements for 3D microfluidics</article-title>. <source>Proc. Natl. Acad. Sci. U. S. A</source>. <year>2014</year> <month>Aug</month> <day>21</day>; <volume>111</volume>(<issue>42</issue>): <fpage>15013</fpage>–<lpage>15018</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.1414764111" xlink:type="simple">10.1073/pnas.1414764111</ext-link></comment> <object-id pub-id-type="pmid">25246553</object-id></mixed-citation></ref>
+<ref id="pone.0160624.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Shallan</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Smejkal</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Corban</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Guijt</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Breadmore</surname> <given-names>M</given-names></name>. <article-title>Cost-Effective Three-Dimensional Printing of Visibly Transparent Microchips within Minutes</article-title>. <source>Anal. Chem</source>. <year>2014</year> <month>Feb</month> <day>10</day>; <volume>86</volume>(<issue>6</issue>): <fpage>3124</fpage>–<lpage>3130</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1021/ac4041857" xlink:type="simple">10.1021/ac4041857</ext-link></comment> <object-id pub-id-type="pmid">24512498</object-id></mixed-citation></ref>
+<ref id="pone.0160624.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Au</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Folch</surname> <given-names>A</given-names></name>. <article-title>Mail-order microfluidics: evaluation of stereolithography for the production of microfluidic devices</article-title>. <source>Lab Chip</source>. <year>2014</year> <month>Apr</month> <day>7</day>; <volume>14</volume>(<issue>7</issue>): <fpage>1294</fpage>–<lpage>1301</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1039/c3lc51360b" xlink:type="simple">10.1039/c3lc51360b</ext-link></comment> <object-id pub-id-type="pmid">24510161</object-id></mixed-citation></ref>
+<ref id="pone.0160624.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Saggiomo</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Velders</surname> <given-names>A</given-names></name>. <article-title>Simple 3D Printed Scaffold-Removal Method for the Fabrication of Intricate Microfluidic Devices</article-title>. <source>Adv. Sci</source>., <volume>2</volume>: <fpage>1500125</fpage>.</mixed-citation></ref>
+<ref id="pone.0160624.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lee</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Park</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Seok</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Shin</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Park</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>3D printed modules for integrated microfluidic devices</article-title>. <source>RSC Adv</source>. <year>2014</year> <month>Jul</month> <day>08</day>; <volume>4</volume>: <fpage>32876</fpage>–<lpage>32880</lpage>.</mixed-citation></ref>
+<ref id="pone.0160624.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Erkal</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Selimovic</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Gross</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Lockwood</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Walton</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>McNamara</surname> <given-names>S</given-names></name>, <etal>et al.</etal> <article-title>3D printed microfluidic devices with integrated versatile and reusable electrodes</article-title>. <source>Lab Chip</source>. <year>2014</year> <month>Jun</month> <day>21</day>; <volume>14</volume>(<issue>12</issue>): <fpage>2023</fpage>–<lpage>2032</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1039/c4lc00171k" xlink:type="simple">10.1039/c4lc00171k</ext-link></comment> <object-id pub-id-type="pmid">24763966</object-id></mixed-citation></ref>
+<ref id="pone.0160624.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chen</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Lockwood</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Spence</surname> <given-names>D</given-names></name>. <article-title>3D printed fluidic devices enable quantitative evaluation of blood components in modified storage solutions for use in transfusion medicine</article-title>. <source>Analyst</source>. <year>2014</year> <month>Jul</month> <day>7</day>; <volume>139</volume>(<issue>13</issue>): <fpage>3219</fpage>–<lpage>3226</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1039/c3an02357e" xlink:type="simple">10.1039/c3an02357e</ext-link></comment> <object-id pub-id-type="pmid">24660218</object-id></mixed-citation></ref>
+<ref id="pone.0160624.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Krejcova</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Nejdl</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Rodrigo</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Zurek</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Matousek</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Hynek</surname> <given-names>D</given-names></name>, <etal>et al.</etal> <article-title>3D printed chip for electrochemical detection of influenza virus labeled with CdS quantum dots</article-title>. <source>Biosens. Bioelectron</source>. <year>2014</year> <month>Apr</month> <day>15</day>; <volume>54</volume>: <fpage>421</fpage>–<lpage>427</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.bios.2013.10.031" xlink:type="simple">10.1016/j.bios.2013.10.031</ext-link></comment> <object-id pub-id-type="pmid">24296063</object-id></mixed-citation></ref>
+<ref id="pone.0160624.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kartalov</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Walker</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Taylor</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Anderson</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Scherer</surname> <given-names>A</given-names></name>. <source>Microfluidic vias enable nested bioarrays and autoregulatory devices in Newtonian fluids</source>. <year>2006</year> <month>Aug</month> <day>3</day>; <volume>103</volume>(<issue>33</issue>): <fpage>12280</fpage>–<lpage>12284</lpage>.</mixed-citation></ref>
+<ref id="pone.0160624.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Anderson</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Lockwood</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Martin</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Spence</surname> <given-names>D</given-names></name>. <article-title>A 3D printed fluidic device that enables integrated features</article-title>. <source>Anal. Chem</source>. <year>2013</year> <month>May</month> <day>21</day>; <volume>85</volume>(<issue>12</issue>): <fpage>5622</fpage>–<lpage>5626</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1021/ac4009594" xlink:type="simple">10.1021/ac4009594</ext-link></comment> <object-id pub-id-type="pmid">23687961</object-id></mixed-citation></ref>
+<ref id="pone.0160624.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dragone</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Sans</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Rosnes</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kitson</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Cronin</surname> <given-names>L</given-names></name>. <article-title>3D printed devices for continuous-flow organic chemistry</article-title>. <source>Beilstein J. Org. Chem</source>. <year>2013</year> <month>May</month> <day>16</day>; <volume>9</volume>: <fpage>951</fpage>–<lpage>959</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3762/bjoc.9.109" xlink:type="simple">10.3762/bjoc.9.109</ext-link></comment> <object-id pub-id-type="pmid">23766811</object-id></mixed-citation></ref>
+<ref id="pone.0160624.ref018"><label>18</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Easley</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Landers</surname> <given-names>J</given-names></name>. In: <name name-style="western"><surname>Landers</surname> <given-names>JP</given-names></name>. <source>Handbook of Capillary and Microchip Electrophoresis and Associated Microtechniques</source>. <publisher-loc>Boca Raton</publisher-loc>: <publisher-name>CRC Press</publisher-name>; <year>2007</year>. p. <fpage>1153</fpage>–<lpage>1167</lpage>.</mixed-citation></ref>
+<ref id="pone.0160624.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Au</surname> <given-names>AK</given-names></name>, <name name-style="western"><surname>Bhattacharjee</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Horowitz</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Chang</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Folch</surname> <given-names>A</given-names></name>. <article-title>3D printed microfluidic automation</article-title>. <source>Lab Chip</source>. <year>2015</year> <month>Feb</month> <day>27</day>; <volume>15</volume>: <fpage>1934</fpage>–<lpage>41</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1039/c5lc00126a" xlink:type="simple">10.1039/c5lc00126a</ext-link></comment> <object-id pub-id-type="pmid">25738695</object-id></mixed-citation></ref>
+<ref id="pone.0160624.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rogers</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Qaderi</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Woolley</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Nordin</surname> <given-names>G</given-names></name>. <article-title>3D printed microfluidic devices with integrated valves</article-title>. <source>Biomicrofluidics</source>. <year>2015</year> <month>Jan</month> <day>13</day>; <volume>9</volume>(<issue>1</issue>): <fpage>016501</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1063/1.4905840" xlink:type="simple">10.1063/1.4905840</ext-link></comment> <object-id pub-id-type="pmid">25610517</object-id></mixed-citation></ref>
+<ref id="pone.0160624.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kitson</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Rosnes</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Sans</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Dragone</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Cronin</surname> <given-names>L</given-names></name>. <article-title>Configurable 3D printed millifluidic and microfluidic “lab on a chip” reactionware devices</article-title>. <source>Lab Chip</source>. <year>2012</year> <month>Sep</month> <day>21</day>;<volume>12</volume>(<issue>18</issue>): <fpage>3267</fpage>–<lpage>3271</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1039/c2lc40761b" xlink:type="simple">10.1039/c2lc40761b</ext-link></comment> <object-id pub-id-type="pmid">22875258</object-id></mixed-citation></ref>
+<ref id="pone.0160624.ref022"><label>22</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Keating</surname> <given-names>S</given-names></name>. <chapter-title>Beyond 3D Printing: The New Dimensions of Additive Fabrication</chapter-title>. <source>Designing for Emerging Technologies: UX for Genomics, Robotics, and the Internet of Things</source>. <publisher-name>O’Reilly Media</publisher-name>; <year>2014</year>. p. <fpage>379</fpage>–<lpage>405</lpage>.</mixed-citation></ref>
+<ref id="pone.0160624.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Oxman</surname> <given-names>N</given-names></name>. <article-title>Variable Property Rapid Prototyping</article-title>. <source>Journal of Virtual and Physical Prototyping (VPP)</source>. <year>2011</year> <month>Feb</month>; <volume>6</volume>(<issue>1</issue>): <fpage>3</fpage>–<lpage>31</lpage>.</mixed-citation></ref>
+<ref id="pone.0160624.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Melin</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Quake</surname> <given-names>S</given-names></name>. <article-title>Microfluidic large-scale integration: the evolution of design rules for biological automation</article-title>. <source>Annu. Rev. Biophys. Biomol. Struct</source>. <year>2007</year>; <volume>36</volume>: <fpage>213</fpage>–<lpage>231</lpage>. <object-id pub-id-type="pmid">17269901</object-id></mixed-citation></ref>
+<ref id="pone.0160624.ref025"><label>25</label><mixed-citation publication-type="other" xlink:type="simple">Stratasys Ltd. Digital Materials Data Sheet [Internet]. Stratasys; 2015. Available: <ext-link ext-link-type="uri" xlink:href="http://www.stratasys.com/materials/material-safety-data-sheets" xlink:type="simple">http://www.stratasys.com/materials/material-safety-data-sheets</ext-link>.</mixed-citation></ref>
+<ref id="pone.0160624.ref026"><label>26</label><mixed-citation publication-type="other" xlink:type="simple">Stratasys Ltd. Polyjet Price List [Internet]. Stratasys; 2015. Available: <ext-link ext-link-type="uri" xlink:href="http://www.stratasys.com/materials/material-safety-data-sheets/polyjet" xlink:type="simple">http://www.stratasys.com/materials/material-safety-data-sheets/polyjet</ext-link>.</mixed-citation></ref>
+<ref id="pone.0160624.ref027"><label>27</label><mixed-citation publication-type="other" xlink:type="simple">TechShop Inc. TechShop Locations [Internet]. TechShop; 2016. Available: <ext-link ext-link-type="uri" xlink:href="http://www.techshop.ws/" xlink:type="simple">http://www.techshop.ws/</ext-link></mixed-citation></ref>
+<ref id="pone.0160624.ref028"><label>28</label><mixed-citation publication-type="other" xlink:type="simple">Shapeways. Shapeways– 3D Printing Services and Marketplace [Internet]. Shapeways; 2016. Available: <ext-link ext-link-type="uri" xlink:href="http://www.shapeways.com" xlink:type="simple">www.shapeways.com</ext-link>.</mixed-citation></ref>
+<ref id="pone.0160624.ref029"><label>29</label><mixed-citation publication-type="other" xlink:type="simple">i.materialise. Online 3D Printing Service [Internet]. I materialize; 2016. Available: <ext-link ext-link-type="uri" xlink:href="https://i.materialise.com" xlink:type="simple">https://i.materialise.com</ext-link>.</mixed-citation></ref>
+<ref id="pone.0160624.ref030"><label>30</label><mixed-citation publication-type="other" xlink:type="simple">Slic3r Manual [Internet]. Lulzbot, Aleph Objects, Inc; 2016. Available: <ext-link ext-link-type="uri" xlink:href="http://manual.slic3r.org/" xlink:type="simple">http://manual.slic3r.org/</ext-link>.</mixed-citation></ref>
+<ref id="pone.0160624.ref031"><label>31</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Patrick</surname> <given-names>W</given-names></name>. <source>Growing a Second Skin: Towards Synthetic Biology in Product Design</source> [dissertation]. <publisher-loc>Cambridge (MA)</publisher-loc>: <publisher-name>Massachusetts Institute of Technology</publisher-name>; <year>2015</year>.</mixed-citation></ref>
+<ref id="pone.0160624.ref032"><label>32</label><mixed-citation publication-type="other" xlink:type="simple">Mushtari [Internet]. Bader C, Patrick W, Kolb D, Hays S, Keating S, Sharma S, et al.; 2015. Available: <ext-link ext-link-type="uri" xlink:href="http://matter.media.mit.edu/environments/details/wanderers-living-mushtari" xlink:type="simple">http://matter.media.mit.edu/environments/details/wanderers-living-mushtari</ext-link>.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

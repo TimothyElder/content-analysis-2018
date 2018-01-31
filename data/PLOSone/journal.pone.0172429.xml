@@ -1,0 +1,1429 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0172429</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-16-42539</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Endocrinology</subject><subj-group><subject>Endocrine disorders</subject><subj-group><subject>Diabetes mellitus</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Metabolic disorders</subject><subj-group><subject>Diabetes mellitus</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pharmaceutics</subject><subj-group><subject>Drug therapy</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>Gene expression</subject><subj-group><subject>Gene regulation</subject><subj-group><subject>MicroRNAs</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Nucleic acids</subject><subj-group><subject>RNA</subject><subj-group><subject>Non-coding RNA</subject><subj-group><subject>MicroRNAs</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Endocrinology</subject><subj-group><subject>Endocrine physiology</subject><subj-group><subject>Insulin signaling</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Endocrine physiology</subject><subj-group><subject>Insulin signaling</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Endocrine physiology</subject><subj-group><subject>Insulin signaling</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Endocrinology</subject><subj-group><subject>Endocrine physiology</subject><subj-group><subject>Insulin resistance</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Endocrine physiology</subject><subj-group><subject>Insulin resistance</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Physiology</subject><subj-group><subject>Endocrine physiology</subject><subj-group><subject>Insulin resistance</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Endocrinology</subject><subj-group><subject>Diabetic endocrinology</subject><subj-group><subject>Insulin</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Hormones</subject><subj-group><subject>Insulin</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Mental health and psychiatry</subject><subj-group><subject>Dementia</subject><subj-group><subject>Alzheimer disease</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Neurology</subject><subj-group><subject>Dementia</subject><subj-group><subject>Alzheimer disease</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Neurology</subject><subj-group><subject>Neurodegenerative diseases</subject><subj-group><subject>Alzheimer disease</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Oxidative stress</subject></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Oxidative stress and expression of insulin signaling proteins in the brain of diabetic rats: Role of <italic>Nigella sativa</italic> oil and antidiabetic drugs</article-title>
+<alt-title alt-title-type="running-head">Brain insulin signaling and <italic>Nigella sativa</italic></alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-0876-6604</contrib-id>
+<name name-style="western">
+<surname>Balbaa</surname>
+<given-names>Mahmoud</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"/>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Abdulmalek</surname>
+<given-names>Shaymaa A.</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Khalil</surname>
+<given-names>Sofia</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"/>
+</contrib>
+</contrib-group>
+<aff id="aff001"><addr-line>Biochemistry Department, Faculty of Science, Alexandria University, Alexandria, Egypt</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Holscher</surname>
+<given-names>Christian</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>University of Lancaster, UNITED KINGDOM</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="con">
+<p><list list-type="simple"><list-item><p><bold>Conceptualization:</bold> MB.</p></list-item> <list-item><p><bold>Data curation:</bold> MB SA.</p></list-item> <list-item><p><bold>Formal analysis:</bold> MB SA.</p></list-item> <list-item><p><bold>Funding acquisition:</bold> MB.</p></list-item> <list-item><p><bold>Investigation:</bold> SA SK.</p></list-item> <list-item><p><bold>Methodology:</bold> MB SA.</p></list-item> <list-item><p><bold>Project administration:</bold> MB.</p></list-item> <list-item><p><bold>Resources:</bold> SA.</p></list-item> <list-item><p><bold>Software:</bold> SA SK.</p></list-item> <list-item><p><bold>Supervision:</bold> MB.</p></list-item> <list-item><p><bold>Validation:</bold> SA SK.</p></list-item> <list-item><p><bold>Visualization:</bold> MB SA SK.</p></list-item> <list-item><p><bold>Writing – original draft:</bold> SA SK.</p></list-item> <list-item><p><bold>Writing – review &amp; editing:</bold> MB SA SK.</p></list-item></list>
+</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">mahmoud.balbaa@alexu.edu.eg</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>15</day>
+<month>5</month>
+<year>2017</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2017</year>
+</pub-date>
+<volume>12</volume>
+<issue>5</issue>
+<elocation-id>e0172429</elocation-id>
+<history>
+<date date-type="received">
+<day>26</day>
+<month>10</month>
+<year>2016</year>
+</date>
+<date date-type="accepted">
+<day>3</day>
+<month>2</month>
+<year>2017</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2017</copyright-year>
+<copyright-holder>Balbaa et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0172429"/>
+<abstract>
+<sec id="sec001">
+<title>Background and objectives</title>
+<p>Insulin resistance of the brain is a specific form of type2-diabetes mellitus (T2DM) and the active insulin-signaling pathway plays a neuroprotective role against damaging conditions and Alzheimer’s progression. The present study identifies the mediated emerging effects of the <italic>Nigella sativa</italic> oil (NSO) on the memory enhancing process, its anti-oxidative, acetylcholinestrase (AChE) inhibition, anti-brain insulin resistance and anti-amyloidogenic activities. In addition, the possible role of some anti-diabetic drugs in the neuro-protection processes and their effect in combination with NSO and/or the insulin receptor inhibitor IOMe-AG538 were investigated.</p>
+</sec>
+<sec id="sec002">
+<title>Methods</title>
+<p>T2DM-induced rats were orally and daily administrated 2.0 ml NSO, 100 mg metformin (MT), 0.8 mg glimepiride (GI) and different combinations (100 mg MT &amp; 2.0 ml NSO, 0.8 mg GI &amp; 2.0 ml NSO and 2.0 ml NSO &amp; intraperitoneal injection of 1/100 LD50 of IOMe-AG538) per kg body weight for 21 days.</p>
+</sec>
+<sec id="sec003">
+<title>Results</title>
+<p>A significant increase in the brain lipid peroxidation and decrease in the antioxidant status with peripheral and central production of pro-inflammatory mediators were observed in diabetes-induced rats. The brain AChE was activated and associated with diminished brain glucose level and cholinergic function. In addition, the brain insulin resistance and the attenuated insulin signaling pathway (p-IRS/ p-AKT/p-GSK-3β) were accompanied by an augmentation in GSK-3β level, which in turn may contribute in the extensive alterations of Tau phosphorylation along with changes in PP2A level. Furthermore, neuronal loss and elevation in Aβ-42 plaque formation were observed due to a low IDE formation and an increased expression of p53, BACE1 and APP with diminished ADAM10, SIRT1 and BDNF levels. The expression profile of AD-related miRNAs in sera and brain tissues displayed its neuro-protection role. The treatment of diabetes-induced rats with NSO and the anti-diabetic drugs alone and/or in combination have the potential to suppress the oxidative stress, the pro-inflammatory mediators and amyloidogenic pathway. Moreover, it lowers the insulin receptor inhibitory effect of IOMe-AG538 and modifies the insulin-signaling pathway. Therefore, it prevents the neurotoxicity, amyloid plaque formation and Tau hyper-phosphorylation and restores AD-related miRNA normal levels.</p>
+</sec>
+<sec id="sec004">
+<title>Conclusion</title>
+<p>These data suggest that NSO or its combined treatments with anti-diabetic drugs have a possible benefit as disease modifying agents for the insulin resistance in the brain through enhancing brain insulin signaling pathway.</p>
+</sec>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution>Alexandria University Faculty of Science</institution>
+</funding-source>
+<principal-award-recipient>M Balbaa</principal-award-recipient>
+</award-group>
+<funding-statement>This research work was supported in aid by Alexandria University, Egypt.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="6"/>
+<table-count count="7"/>
+<page-count count="23"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec005" sec-type="intro">
+<title>Introduction</title>
+<p>T2DM and AD shared several pathological features including insulin signaling impairment, oxidative stress and inflammation followed by impaired brain insulin signaling [<xref ref-type="bibr" rid="pone.0172429.ref001">1</xref>]. It was reported that the risk of AD development increased by 45–90% in T2DM [<xref ref-type="bibr" rid="pone.0172429.ref002">2</xref>]. Also, T2DM has a twofold higher risk for AD development when compared to non-diabetic subjects [<xref ref-type="bibr" rid="pone.0172429.ref003">3</xref>]. The brain insulin signaling may be mediated through the activation of phosphorylation of IRS-1 and PI3K/AKT signaling pathway. Consequently, peripheral insulin resistance arises the brain insulin signaling impairment [<xref ref-type="bibr" rid="pone.0172429.ref004">4</xref>] that was described in obese insulin resistance rats [<xref ref-type="bibr" rid="pone.0172429.ref005">5</xref>]. In addition, chronic insulin resistance induces IRS1 phosphorylation at Ser307 and its partial degradation [<xref ref-type="bibr" rid="pone.0172429.ref006">6</xref>]. T2D-associated hyperinsulinemia showed an elevated Aβ accumulation due to a competition between insulin and Aβ for IDE sites and its subsequent inhibition [<xref ref-type="bibr" rid="pone.0172429.ref007">7</xref>]. Also, the hyperglycemia displayed hippocampal damage, elevated p-Tau and GSK3β up-regulation in brain [<xref ref-type="bibr" rid="pone.0172429.ref008">8</xref>]. It is co-existent in brain insulin resistance and deficiency of insulin in AD [<xref ref-type="bibr" rid="pone.0172429.ref003">3</xref>]. Therefore, AD could be faced as brain-specific type of diabetes as type 3 diabetes [<xref ref-type="bibr" rid="pone.0172429.ref003">3</xref>]. Interestingly, AD has insulin and IGF-1 resistance with dysfunctional IRS-1 mediated insulin resistance. The brain insulin resistance may be due to peripheral insulin resistance, reduced insulin uptake by brain and elevated brain Aβ deposition [<xref ref-type="bibr" rid="pone.0172429.ref009">9</xref>]. Several studies investigated the role of insulin resistance and impaired insulin signaling in the AD pathogenesis in brain [<xref ref-type="bibr" rid="pone.0172429.ref010">10</xref>] and neuro-inflammation is mutual interaction between T2DM and AD [<xref ref-type="bibr" rid="pone.0172429.ref011">11</xref>]. Chronic inflammation in T2DM and the leaking of peripheral inflammatory mediators from T2DM to brain induces microglial activation and release of the inflammatory mediators IL-1β, IL-6 and TNF-α in brain [<xref ref-type="bibr" rid="pone.0172429.ref012">12</xref>]. These mediators cause neuronal cell death by elevating the apoptosis rate and decreasing the hippocampal neurogenesis [<xref ref-type="bibr" rid="pone.0172429.ref013">13</xref>]. This activates NF-κB that causes an increase of Aβ levels, prolonged activation of glia cells, cytokines release elevation and reduction in the IDE expression level [<xref ref-type="bibr" rid="pone.0172429.ref014">14</xref>].</p>
+<p>Today, the plant-derived medications became an important way to manage the diabetes in the world to avoid the adverse effect linked with conventional hypoglycemic agents [<xref ref-type="bibr" rid="pone.0172429.ref015">15</xref>]. <italic>Nigella sativa</italic> L. is fitting in with Ranunculaceae family and its active components such as thymoquinone, have therapeutic properties like the anti-inflammatory effect for many inflammatory diseases, including encephalomyelitis, colitis, edema, diabetes, neuro-inflammation and joint inflammation [<xref ref-type="bibr" rid="pone.0172429.ref016">16</xref>]. Further, it was confirmed that NSO has a potent anti-oxidant effect [<xref ref-type="bibr" rid="pone.0172429.ref017">17</xref>]. It can prohibit the damage of memory after administration of scopolamine and decrease the AChE action and oxidative stress of the brain in rats [<xref ref-type="bibr" rid="pone.0172429.ref018">18</xref>]. Currently, there are no available therapies for the effective modification of AD and the diagnostic tools now are not able to detect early changes, which take place for years prior to actual symptoms [<xref ref-type="bibr" rid="pone.0172429.ref019">19</xref>]. Searching for biomarkers for AD pathogenesis is the target of scientists all over the world and miRNA is one of these promising biomarkers. miRNAs are short (18–22 nt), single-stranded RNA molecules, that play a role in “fine-tuning” the gene expression by hybridization to specific mRNA and suppressing its effective translation. They are involved in physiological and pathological processes [<xref ref-type="bibr" rid="pone.0172429.ref020">20</xref>]. Specific miRNAs are expressed in the CNS, where they regulate neuronal differentiation, synaptic plasticity and neurite outgrowth [<xref ref-type="bibr" rid="pone.0172429.ref021">21</xref>].</p>
+<p>We have previously demonstrated that <italic>Nigella sativa</italic> modifies the changed hepatic insulin receptor signaling in STZ-induced diabetic rats fed with a high-fat diet [<xref ref-type="bibr" rid="pone.0172429.ref022">22</xref>]. The present work aimed to highlight the possible therapeutic effects of NSO and its constituents on induced neurotoxicity. It will shed light on the promising use of tissue and circulating miRNAs profiles as biomarkers in the diagnosis, monitoring of disease progression and therapeutic response in T2D model of induced brain insulin resistance, along with other biomarkers. This will potentially provide inexpensive and comprehensive tools for early diagnosis of AD in T2DM.</p>
+</sec>
+<sec id="sec006" sec-type="materials|methods">
+<title>Materials and methods</title>
+<sec id="sec007">
+<title>Materials</title>
+<p>Maxime RT Premix Kit was purchased from INtRon Biotechnology (Catalog # 25082, Korea). DNA Ladder (Catalog # P1473), DEPC-treated water (clear colorless liquid) (Catalog #D5758), Triton<sup>™</sup>X100 (liquid colorless to light yellow, CAS #9002-93-1), STZ (white to yellow powder, CAS #18883-66-4) and the primer sequences (dried in 2 ml screw cap tube) were obtained from Sigma-Aldrich, USA. Antibodies were purchased from Novus Biologicals, USA. MT as Glucophage tablets (500 mg white colored, film-coated tablets) and GI as Amaryl (2 mg light pink colored oval shaped, uncoated tablets) were purchased from Eva Pharma, Egypt. Solvents and other associated biochemical reagents were obtained with high grade from Sigma-Aldrich, USA.</p>
+</sec>
+<sec id="sec008">
+<title>Preparation of NSO</title>
+<p>NSO was prepared as reported from our previous work [<xref ref-type="bibr" rid="pone.0172429.ref022">22</xref>]. The GC-MS analysis of NSO contained thymoquinone, the most active constituent with molecular weight 164, anethole, <italic>p</italic>-cymene, limonene, carvone and ascorbic acid. The oil contained also four saturated and four unsaturated fatty acids [<xref ref-type="bibr" rid="pone.0172429.ref023">23</xref>].</p>
+</sec>
+<sec id="sec009">
+<title>Rat model of T2DM</title>
+<p>Male Wistar albino rats (Rattus norvegicus, n = 180 and BW is 125 ± 20 g) were obtained from the animal house of the Medical Technology Center, Alexandria University. Rats were housed before starting the experiment for 15 days to be adapted to the environment in polycarbonate cages (8 rats/group) in a room with a day-night cycle of 12 hours, temperature of 22±2.0 and humidity of 45% to 46% with a 12 h photoperiod. Food and water were supplied <italic>ad libitum</italic>. All the experimental procedures were run according to the animal protocols approved by the Ethics Committee of Faculty of Science, Alexandria University, Egypt. The rats were fed with a standard balanced commercial diet. To induce T2DM, rats were fed a high-fat diet for 2 weeks (58% fat, 17% carbohydrate and, 25% protein, 310 g/kg butter, 253 g/kg casein, 10 g/kg cholesterol, 60 g/kg vitamins and minerals, 1.0 g/kg yeast powder and 1.0 g/kg sodium chloride). It was freshly prepared per week and stored at 4°C. NPD (365 g/kg) contained 11% fat, 15% carbohydrate and 16% protein [<xref ref-type="bibr" rid="pone.0172429.ref024">24</xref>], which resulted in significant increase in glucose, cholesterol and triacylglycerol levels and the body weights compared to zero day before feeding HFD. On day 14 from HFD, a single intraperitoneal injection of STZ (35 mg/kg) dissolved in 100 mM M sodium citrate buffer, pH 4.5 were given to the overnight fasted rats [<xref ref-type="bibr" rid="pone.0172429.ref025">25</xref>]. The STZ-injected rats showed a significant reduction in body weights of HFD/STZ rats but their weights still higher than zero day before HFD manipulation. Rats had free access to water and food after STZ injection, and in the first 24 hours, 5% glucose was given in their drinking water to counter any initial hypoglycemia. After 72 hours of STZ injection, diabetes was confirmed and the rats with blood glucose level higher than 250 mg/dl were deemed diabetic. Before grouping, out of 90 rats subjected for diabetes induction, 7 rats were died and three rats were eliminated due to sub-diabetic condition (108 mg/dl, 112 mg/dl and 122 mg/dl). Both anthropometric measurement and blood sampling were monitored 4 times during the experimental period (at zero day, after 2 weeks from dietary manipulation, after 3 days from STZ injection and after 12 days from starting the treatment). The levels of blood glucose, TC and TG were determined to sure that diabetes was induced and follow the effect of treatment after 12 days. Rats were subjected to all treatments after confirming diabetes incidence and the treatment endured for 21 days. Diabetic rats treated for 21 days with NSO, MT, GI and combination therapy showed an increase in their body weight compared to untreated rats, whereas a decline of body weight was noticed in all induced groups compared to control group.</p>
+</sec>
+<sec id="sec010">
+<title>Experimental design and animal treatment</title>
+<p>Rats were divided into 3 major groups. Group1: served as control groups (non-diabetic) and subdivided into eight groups; mock-treated, DMSO (2.0 ml/kg), NSO (2.0 ml/kg BW), MT (100 mg/kg BW), GI (0.8 mg/kg BW), NSO-MT (2.0 m/kg—100 mg/kg BW) and NSO-GI (2.0 ml/kg-0.8mg/kg BW). All doses administrated orally by intra-gastric tube for 21 days post diabetes development and NSO-IOMe (oral 2.0 ml/kg BW- i.p.1.0 mg/ml in PBS). Group2: served as induction groups (un-treated) and sub divided into three induced groups; diabetic (D) groups that received HFD for 2 weeks followed by single i.p. injection of STZ (35 mg/kg BW), insulin receptor inhibitor that received IOMe (i.p.1.0 mg / ml in PBS), and D-IOMe-injected. IOMe was prepared as stock as (10 mg/ ml DMSO) and stored at -20°C and injected with a dose of 1/100 LD50 [<xref ref-type="bibr" rid="pone.0172429.ref022">22</xref>]. Group3: served as induced rats treatment groups and subdivided into six groups; NSO, MT, GI, NSO-MT, NSO-GI and NSO- IOMe. At the end of experiment, rats were deprived of food overnight and terminally anaesthetized with sodium pentobarbital (100 mg/kg i.p.) to minimize animal distress and suffering. The brain tissues were rapidly excised, washed with ice cold 0.9% NaCl and dissected into different lobes. Hippocampus were frozen in liquid nitrogen and stored at −80°C for subsequent analyses. The plasma and serum were prepared for different assays.</p>
+</sec>
+<sec id="sec011">
+<title>Serum biochemical assays</title>
+<p>The assays of PGL and lipid profile parameters were determined as recently reported [<xref ref-type="bibr" rid="pone.0172429.ref022">22</xref>]. For oxidant and antioxidant assays, the brain samples were homogenized in 10 ml cold phosphate buffer saline, pH 7.4 per g tissue. All the samples were centrifuged at 6000 rpm for 15 min at 4°C and the total protein levels were determined by the colorimetric assay [<xref ref-type="bibr" rid="pone.0172429.ref026">26</xref>]. The oxidative stress parameters such as TBARS, NO and GSH levels and the activities of XO, SOD, GPx and GST were studied in the brain tissues of all rat groups. Briefly, the lipid peroxidation assays were carried out according to previous method and expressed as TBARS concentration nmol/mg protein [<xref ref-type="bibr" rid="pone.0172429.ref027">27</xref>]. The NO assay was carried out according to preceding description and was expressed as μM/mg protein [<xref ref-type="bibr" rid="pone.0172429.ref028">28</xref>]. The non-enzymatic antioxidant GSH was performed as the previous method and expressed as mg/mg sample protein content [<xref ref-type="bibr" rid="pone.0172429.ref029">29</xref>]. GST was assayed according to preceding method and the activity of GST was expressed as μmol/min/mg protein [<xref ref-type="bibr" rid="pone.0172429.ref030">30</xref>]. The GPx was assayed and the activity of GPx was expressed as nM/min/mg protein [<xref ref-type="bibr" rid="pone.0172429.ref031">31</xref>]. The SOD assay was carried out according to former assay and the activity of SOD was expressed as μg/min/mg protein [<xref ref-type="bibr" rid="pone.0172429.ref032">32</xref>]. The XO was assayed and the activity of XO was expressed as μmol/h/mg protein [<xref ref-type="bibr" rid="pone.0172429.ref033">33</xref>]. Finally, the brain AChE activity was carried as previously described and the obtained values were expressed as μmol/min/mg protein [<xref ref-type="bibr" rid="pone.0172429.ref034">34</xref>].</p>
+</sec>
+<sec id="sec012">
+<title>Preparation of brain lysate for neuro-inflammation cytokines profile</title>
+<p>Frozen brain tissues were homogenized in lysis buffer (150 mM NaCl, 1% Triton X-100 and 10 mM Tris, pH 7.4) containing protease inhibitor, The homogenate was centrifuged at 10,000 g for 10 min at 4°C and the supernatant was collected for measurement of ELISA parameters. Aβ-42, IDE, TNF-α, IL-6, IL-1β, iNOS and AGEs in brain tissues and sera samples were determined by using commercially available kits. All analyses were performed according to the manufacture guidelines. The assay of sera and brain AGEs (Rat AGE) ELISA kit, Cat# STA-817-5, Cell Biolabs, USA), brain Aβ-42 (Rat Aβ1–42 and Aβ1–42 (ELISA kit Cat# E0946r, EIAab, China), sera and brain TNF-α (Rat TNF-alpha ELISA Kit Cat # K0331196, KOMA BIOTECH, Korea), sera and brain IL-6 (Rat IL-6 ELISA Kit Cat# IB39555, Biocompare, USA), brain iNOS (Rat inducible nitric oxide synthase, iNOS ELISA Kit Cat# E0837r, EIAab, China), brain IL-1β (Rat IL-1β ELISA Kit Catalog #: ELR-IL1b, RayBiotech, Norcross GA, US) and brain IDE (Rat IDE ELISA Kit Catalog # RI0339, ABclonal, USA) were performed according the manufacturer's protocols.</p>
+</sec>
+<sec id="sec013">
+<title>Isolation of RNA</title>
+<p>Total RNA was extracted from frozen brain hippocampus tissues using easy-RED<sup>™</sup> total RNA extraction kit. Briefly, 10–100 mg of brain was homogenized in 250 μl PBS, DEPC-treated H2O and 750 μl Easy-RED<sup>™</sup> solution was mixed with the homogenate and processed according to manufacture guidelines. RNA concentration was determined by measuring the absorbance at 260 nm and Purity of the RNA preparation was estimated according to the ratio of absorbance readings 260/280.</p>
+</sec>
+<sec id="sec014">
+<title>Semi-quantitative RT-PCR</title>
+<p>Using one-step RT-PCR (Maxime RT/PCR PreMix kit, INtRON) reaction, the cDNA was synthesized and used for amplification of target gene(s) using specific primer sets as shown in <xref ref-type="table" rid="pone.0172429.t001">Table 1</xref>. Briefly, template RNA (below 500ng) and specific primer (10–20 pmol) were added into the Maxime RT/PCR Premix tubes that contains all the components necessary for cDNA synthesis and amplification. The cDNA synthesis reaction was performed at 45°C for 30 min and then 5 min at 94°C for RTase inactivation. The primers then subjected to PCR cycles, each cycle consisting of denaturation at 94°C for 20–60 sec, annealing at 45–68°C for 20–60 sec, extension at 72°C for 1 min and final extension at 72°C for 5 min. Programs are given as denaturation temperature / times / annealing temperature / times / extension temperature / times / number of cycles (<xref ref-type="table" rid="pone.0172429.t001">Table 1</xref>). RT-PCR products were separated on agarose gel and visualized with UV transilluminator box and the gel bands were quantified by using UVIBAND Image quantification software [<xref ref-type="bibr" rid="pone.0172429.ref035">35</xref>].</p>
+<table-wrap id="pone.0172429.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0172429.t001</object-id>
+<label>Table 1</label> <caption><title>Primer sequences and products size of target genes in expected PCR products for semi-quantitative RT-PCR.</title></caption>
+<alternatives>
+<graphic id="pone.0172429.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0172429.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center">Gene</th>
+<th align="center">Primer sequence</th>
+<th align="center">PCR program</th>
+<th align="center">Size (bp)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" rowspan="2"><bold>APP</bold></td>
+<td align="left"><monospace>F- 5′-AGAGGTCTACCCTGAACTGC-3′</monospace></td>
+<td align="left" rowspan="2">94/30/55/30/72/60/35</td>
+<td align="center" rowspan="2">154</td>
+</tr>
+<tr>
+<td align="left"><monospace>R- 5′-ATCGCTTACAAACTCACCAAC-3′</monospace></td>
+</tr>
+<tr>
+<td align="center" rowspan="2"><bold>BACE1</bold></td>
+<td align="left"><monospace>F: 5′-CGGGAGTGGTATTATGAAGTG-3′</monospace></td>
+<td align="left" rowspan="2">94/30/60/30/72/60/30</td>
+<td align="center" rowspan="2">320</td>
+</tr>
+<tr>
+<td align="left"><monospace>R: 5′-AGGATGGTGATGCGGAAG-3′</monospace></td>
+</tr>
+<tr>
+<td align="center" rowspan="2"><bold>RAGE</bold></td>
+<td align="left"><monospace>F- 5′-CTGGATGCTAGTCCTCAGTCTG-3′</monospace></td>
+<td align="left" rowspan="2">94/60/58/60/72/60/30</td>
+<td align="center" rowspan="2">500</td>
+</tr>
+<tr>
+<td align="left"><monospace>R- 5′-CCTTTGCCATCAGGAATCAGAG-3′</monospace></td>
+</tr>
+<tr>
+<td align="center" rowspan="2"><bold>BDNF</bold></td>
+<td align="left"><monospace>F- 5′-ATGGGACTCTGGAGAGCGTGAA-3′</monospace></td>
+<td align="left" rowspan="2">94/30/60/30/72/60/30</td>
+<td align="center" rowspan="2">574</td>
+</tr>
+<tr>
+<td align="left"><monospace>R- 5′-CGC CAGCCA ATTCTC TTT TTGC-3′</monospace></td>
+</tr>
+<tr>
+<td align="center" rowspan="2"><bold>SIRT1</bold></td>
+<td align="left"><monospace>F: 5′-CTTTGCCTCATCTGCATTTT-3′</monospace></td>
+<td align="left" rowspan="2">94/60/59/60/72/90/30</td>
+<td align="center" rowspan="2">490</td>
+</tr>
+<tr>
+<td align="left"><monospace>R: 5′-ATTAGGCCAGCATTTTCTCA-3′</monospace></td>
+</tr>
+<tr>
+<td align="center" rowspan="2"><bold>ADAM10</bold></td>
+<td align="left"><monospace>F-5′- GTTAATTCTGCTCCTCTCCTGG-3′</monospace></td>
+<td align="left" rowspan="2">94/30/55/30/72/90/30</td>
+<td align="center" rowspan="2">703</td>
+</tr>
+<tr>
+<td align="left"><monospace>R- 5′-TGGATATCTGGGCAATCACAGC-3′</monospace></td>
+</tr>
+<tr>
+<td align="center" rowspan="2"><bold>NF-κB-p65</bold></td>
+<td align="left"><monospace>F: 5'-GCGCATCCAGACCAACAATAA-3'</monospace></td>
+<td align="left" rowspan="2">95/30/56/30/72/30/35</td>
+<td align="center" rowspan="2">424</td>
+</tr>
+<tr>
+<td align="left"><monospace>R: 5'-GCCGAAGCTGCATGGACACT-3'</monospace></td>
+</tr>
+<tr>
+<td align="center" rowspan="2"><bold>p53</bold></td>
+<td align="left"><monospace>F: 5'-ATGGAGGAGTCACAGTCGGATA-3'</monospace></td>
+<td align="left" rowspan="2">94/60/52/60/72/60/30</td>
+<td align="center" rowspan="2">500</td>
+</tr>
+<tr>
+<td align="left"><monospace>R: 5'-GACTTCTTGTAGATGGCCATGG-3'</monospace></td>
+</tr>
+<tr>
+<td align="center"><bold>β-actin</bold></td>
+<td align="left"><monospace>F- 5′-GCCATGTACGTAGCCATCCA-3′</monospace></td>
+<td align="left" rowspan="2">94/30/58/30/72/30/35</td>
+<td align="center" rowspan="2">372</td>
+</tr>
+<tr>
+<td align="center"/>
+<td align="left"><monospace>R- 5′-GAACCGCTCATTGCCGATAG-3′</monospace></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec015">
+<title>Preparation of total brain extract and western blot</title>
+<p>Frozen brain hippocampus tissues were washed with ice-cooled TBS (10 mM Tris HCl and 133 mM NaCl, pH 7.4) and 10% (w/v) and homogenized in lysis buffer (100 mM NaCl, 100 mM EDTA,0.5% Nonidet p-40, 0.5% Na-deoxycholate and 10 mM Tris, pH 7.5) containing protease inhibitors. The homogenates were centrifuged at low speed at 2000 g for 10 min at 4°C and the supernatants were collected for measurement of protein concentrations and Western blot. The primary antibodies of [Tau [p ser356] (NBP1-19906)], [AKT1 (NBP2-01724) &amp; AKT1 [p ser473] (NBP2-35349)], [GSK-3β (MAB2506) &amp; GSK-3β [p Ser9] (NB100-81948)], [IRS1 [p Tyr612] (NBP1-73967)], [PP2A-alpha (MAB1653)] and [β-actin (NB600-501)] immune-blots were performed on the prepared total cell extracts according to the previous described method [<xref ref-type="bibr" rid="pone.0172429.ref036">36</xref>]. The immune-reactive bands were detected by enhanced chemiluminescence (ECL detection kit) and the bands were quantified using UVIBAND Image quantification software.</p>
+</sec>
+<sec id="sec016">
+<title>miRNA isolation and quantitative real time RT-PCR</title>
+<p>Total RNA, including small RNAs, was extracted from frozen hippocampus tissues and biological fluids using miRNeasy Mini miRNA isolation kit (Qiagen). The First-strand cDNA from miRNA was synthesized by using the miScript II RT Kit (Qiagen), finally the detection of mature and noncoding miRNA by real-time PCR using SYBR Green miScript SYPR Green PCR Detection Kit (Qiagen) according to manufacture guidelines. Specific forward primer for <bold>9a:</bold> <monospace>TAGCACCATCTGAAATCGGTTA</monospace>, <bold>103:</bold> <monospace>AGCAGCATTGTACAGGGCTATGA</monospace>, <bold>34a:</bold> <monospace>CGGTATCATTTGGCAGTGTCT</monospace>, <bold>21:</bold> <monospace>CCCGCTAGCTTATCAGACTGATG</monospace>, <bold>107:</bold> <monospace>CAGCATTGTACAGGGCTATCA</monospace>, <bold>26b:</bold> <monospace>GATTTCAAGTAATCCAGGATAGGCT</monospace>, <bold>101:</bold> <monospace>GGGGTACAGTACTGTGATAA</monospace>, <bold>9:</bold> <monospace>GGGTCTTTGGTTATCTAGCT</monospace>, <bold>181c:</bold> <monospace>GGTAAGGTGCATCTAGTGCAGATAG</monospace>, and <bold>U6:</bold> <monospace>CTTCGGCAGCACATATACTAAAAT</monospace>. The relative quantity of each miRNA in the brain tissues and sera of rats was normalized to U6 RNA and the relative expression fold change was calculated as described before [<xref ref-type="bibr" rid="pone.0172429.ref037">37</xref>].</p>
+</sec>
+<sec id="sec017">
+<title>Statistical analyses</title>
+<p>All data are expressed as mean ±SE. The statistical analyses were carried out by using the paired sample T-test (SPSS version 16) and the difference was considered statistically significant when P &lt; 0.05.</p>
+</sec>
+</sec>
+<sec id="sec018" sec-type="results">
+<title>Results</title>
+<p>The data in all illustrated figures were expressed as mean ± SE (n = 8) and significance (p &lt; 0.05) was indicated as “*” and “#” compared to control and diabetic groups, respectively. The educed results from diabetic rats, which received HFD and injected with STZ manifested the symptoms of T2DM. The obtained data for BW, PGL, serum insulin, lipid profile and other parameters were reported in a recently published study [<xref ref-type="bibr" rid="pone.0172429.ref022">22</xref>]. Hyperglycemia was detected by a significant increase in PGL plateau in diabetic rats (581.31 ± 36.31 mg/dl) compared to control normal group (75.53 ± 1.22 mg/dl), whereas I-OMe-AG538-injected rats showed a significant increase of its level (224.62 ± 4.29 mg/dl) compared to control. The treatment of diabetic rats with MT, GI, NSO—MT and NSO—GI showed significant decrease of PGL (265.23 ± 20.67, 359.94 ± 17.29, 112.46 ± 3.94 and 106.62 ± 3.79 mg/dl, respectively) compared to control. Also, serum insulin concentrations of I-OMe-AG538-injected rats showed a marked significant increase (42.80 ± 1.18 μIU/ml) compared to control rats (11.59 ± 1.76 μIU/ml). NSO-treated group showed 1.3-fold increase in insulin level (127.86 ± 1.27 μIU/ml) compared to the diabetic group (101.59 ± 5.78 μIU/ml). I-OMe-AG538-treated non-diabetic and diabetic groups showed 3.7 &amp; 5.5-fold increases in insulin level compared to normal control. Administration of NSO to I-OMe-AG538 group lead to 7.8-fold decreases in insulin level compared to I-OMe-AG538-injected group. The administration of NSO to I-OMe-AG538-injected diabetic group lead to a non-significant effect on insulin level compared to I-OMe-AG538-injected diabetic group. The treatment of diabetic rats with MT, GI, NSO—MT and NSO—GI leads to a reduction of insulin level (1.9, 1.4, 1.1 and 1.3-fold, respectively) compared to control.</p>
+<sec id="sec019">
+<title>Brain oxidant and antioxidant related markers</title>
+<p>Oxidative stress parameters were represented by measuring TBARS, NO levels and XO activities in all experimental rat groups. A highly significant elevation in TBARS, NO levels and XO activities (5.9, 2.3 and 6.5-fold, respectively) were shown in brain tissue of HFD/STZ-induced rats versus the control group confirming neurotoxicity. The treatment of diabetic rats with NSO, anti-diabetic drugs MT, GI or combination therapy of NSO-MT or NSO-GI restored the oxidative stress markers back to normal level in the HFD/STZ in rat brain as indicated by a high significant reduction in TBARS, NO levels and XO activities versus non-treated diabetic groups. TBARS, NO levels and XO activities showed a highly significant elevation in oxidative stress levels in the brain of non-diabetic and diabetic rats injected with IOMe compared to control groups, whereas the oxidative stress markers TBARS, NO and XO after treatment with NSO showed significant decrease in its levels versus diabetic-untreated rats (<xref ref-type="table" rid="pone.0172429.t002">Table 2</xref>). In contrast, HFD/STZ—induced diabetic rats showed significant decreased brain levels of GSH and the GPx, GST and SOD activities compared to control group (3.3, 14, 4, 3.5- fold decrease, respectively). The treatment of diabetic rats with NSO, anti-diabetic reference drugs MT, GI, NSO-MT and NSO-GI showed significant elevations in antioxidant markers versus diabetic non-treated groups confirming the restoration effect of drugs to keep the antioxidant balance. Experimental rats showed a highly significant decreased in antioxidant parameters in non-diabetic rats injected and diabetic rats injected with IOMe compared to control group, a highly significant increase in brain levels of antioxidant markers (GSH, GPx, GST and SOD) were shown after treatment with NSO versus untreated rats (<xref ref-type="table" rid="pone.0172429.t003">Table 3</xref>).</p>
+<table-wrap id="pone.0172429.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0172429.t002</object-id>
+<label>Table 2</label> <caption><title>Changes in oxidative stress parameters in diabetic rat brain after the course of treatment with NSO, antidiabetic drugs, combination therapy and I-OMeAG538.</title></caption>
+<alternatives>
+<graphic id="pone.0172429.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0172429.t002" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center">Groups</th>
+<th align="center">TBARS</th>
+<th align="center">XO</th>
+<th align="center">NO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><bold>Control</bold></td>
+<td align="center">302 ± 16.50<xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">17.20 ± 2.10<xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">553 ± 10.20<xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D</bold></td>
+<td align="center">1789 ± 31.80<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">110.79 ± 3.60<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+<td align="center">1254 ± 57.40<xref ref-type="table-fn" rid="t002fn002">*</xref></td>
+</tr>
+<tr>
+<td align="center"><bold>DMSO</bold></td>
+<td align="center">872 ± 8.25<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">63.95 ± 3.60<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">920 ± 30.90<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>NSO</bold></td>
+<td align="center">424 ± 26.70<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">13.47 ± 0.68<xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">693 ± 28.80<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>MT</bold></td>
+<td align="center">491 ± 33.60<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">30.30 ± 1.50<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">632 ± 31.60<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>NSO-MT</bold></td>
+<td align="center">358 ± 14.50<xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">31.70 ± 1.45<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">666 ± 20.40<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>GI</bold></td>
+<td align="center">504 ± 20.00<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">39.90 ± 3.80<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">839 ± 32.70<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>NSO-GI</bold></td>
+<td align="center">331 ± 11.00<xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">23.16 ± 1.65<xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">628 ± 11.40<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-NSO</bold></td>
+<td align="center">586 ± 27.40<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">36.60 ± 2.90<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">535 ± 17.20<xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-MT</bold></td>
+<td align="center">554 ± 24.40<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">47.80 ± 5.80<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">690 ± 27.90<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-GI</bold></td>
+<td align="center">650 ± 27.00<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">40.70 ± 3.57<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">592 ± 19.10<xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-NSO-MT</bold></td>
+<td align="center">555 ± 26.80<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">38.25 ± 1.90<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">617 ± 11.50<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-NSO-GI</bold></td>
+<td align="center">492 ± 33.00<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">47.80 ± 2.66<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">519 ± 7.70<xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>IOMe</bold></td>
+<td align="center">1089 ± 20.70<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">82.50 ± 2.20<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">990 ± 18.70<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>IOMe-NSO</bold></td>
+<td align="center">328 ± 23.30<xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">30.30 ± 2.08<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">578 ± 18.60<xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-IOMe</bold></td>
+<td align="center">1060 ± 28.00<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">95.55 ± 5.00<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">927 ± 34.60<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-IOMe-NSO</bold></td>
+<td align="center">528 ± 14.30<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">54.60 ± 1.25<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+<td align="center">690 ± 19.20<xref ref-type="table-fn" rid="t002fn002">*</xref><xref ref-type="table-fn" rid="t002fn003"><sup>#</sup></xref></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p>Values are expressed as mean± SE (n = 8). Significance:</p></fn>
+<fn id="t002fn002"><p>*p&lt;0.05 (compared to control) and</p></fn>
+<fn id="t002fn003"><p><sup>#</sup>p&lt;0.05 (compared to diabetics).</p></fn>
+<fn id="t002fn004"><p>TBARS: mmol/mg protein, XO: (μmol/hr/mg protein, NO: μM/mg protein.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<table-wrap id="pone.0172429.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0172429.t003</object-id>
+<label>Table 3</label> <caption><title>Antioxidant markers alterations in the brain of diabetic rats and after treatment with NSO, antidiabetic drugs, combination therapy and I-OMeAG538.</title></caption>
+<alternatives>
+<graphic id="pone.0172429.t003g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0172429.t003" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center">Groups</th>
+<th align="center">GSH</th>
+<th align="center">GPx</th>
+<th align="center">GST</th>
+<th align="center">SOD</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><bold>Control</bold></td>
+<td align="center">3000 ± 20.67<xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">5670 ± 13.30<xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">1880 ± 14.00<xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">8610 ± 28.40<xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D</bold></td>
+<td align="center">1175 ± 14.10<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">400 ± 6.55<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">450 ± 11.00<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">2460 ± 12.50<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+</tr>
+<tr>
+<td align="center"><bold>DMSO</bold></td>
+<td align="center">1245 ± 16.70<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">1370 ± 13.00<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">610 ± 9.00<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">3230 ± 9.89<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>NSO</bold></td>
+<td align="center">3165 ± 15.98<xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">13800 ± 18.95<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">2240 ± 12.00<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">10700 ± 25.6<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>MT</bold></td>
+<td align="center">2075 ± 14.90<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">6460 ± 17.60<xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">1200 ± 15.50<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">5590 ± 14.10<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>NSO-MT</bold></td>
+<td align="center">1850 ± 14.62<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">12400 ± 16.60<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">1000 ± 8.00<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">5110 ± 16.30<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>GI</bold></td>
+<td align="center">1812 ± 12.95<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">6960 ± 13.60<xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">1040 ± 6.00<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">5730 ± 21.60<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>NSO-GI</bold></td>
+<td align="center">1900 ± 12.67<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">6720 ± 12.40<xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">1140 ± 6.20<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">6130 ± 16.50<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-NSO</bold></td>
+<td align="center">3112 ± 18.10<xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">10910 ± 13.40<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">1980 ± 8.00<xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">9020 ± 22.20<xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-MT</bold></td>
+<td align="center">2225 ± 17.25<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">3590 ± 11.80<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">1190 ± 5.00<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">6710 ± 9.20<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-GI</bold></td>
+<td align="center">1537 ± 15.53<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">6480 ± 10.30<xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">1000 ± 7.00<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">4660 ± 15.50<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-NSO-MT</bold></td>
+<td align="center">1687 ± 12.26<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">7660 ± 9.40<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">1097 ± 5.39<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">6920 ± 11.00<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-NSO-GI</bold></td>
+<td align="center">1337 ± 14.60<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">6110 ± 12.90<xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">967 ± 3.40<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">4230 ± 12.30<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>IOMe</bold></td>
+<td align="center">1437 ± 13.75<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">2160 ± 10.97<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">540 ± 7.00<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">3460 ± 6.10<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>IOMe-NSO</bold></td>
+<td align="center">2025 ± 15.26<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">6800 ± 16.10<xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">9140 ± 8.00<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">5750 ± 22.20<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-IOMe</bold></td>
+<td align="center">1325 ± 13.65<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">1500 ± 11.37<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">560 ± 6.00<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+<td align="center">3010 ± 14.60<xref ref-type="table-fn" rid="t003fn002">*</xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-IOMe-NSO</bold></td>
+<td align="center">1725 ± 14.11<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">5320 ± 12.20<xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">958 ± 6.11<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+<td align="center">5490 ± 14.00<xref ref-type="table-fn" rid="t003fn002">*</xref><xref ref-type="table-fn" rid="t003fn003"><sup>#</sup></xref></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t003fn001"><p>Values are expressed as mean± SE (n = 8). Significance:</p></fn>
+<fn id="t003fn002"><p>*p&lt;0.05(compared to control) and</p></fn>
+<fn id="t003fn003"><p><sup>#</sup>p&lt;0.05 (compared to diabetics).</p></fn>
+<fn id="t003fn004"><p>GSH: μg/mg protein, GPx: nmol/min/mg protein, GST: nmol/min/mg protein, SOD: U/mg protein.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec020">
+<title>Neuro-inflammation related mediators</title>
+<p>Microglial activation was associated with elevated oxidative stress markers and Aβ deposition. Sera and brain inflammatory levels were examined by measuring TNF-α, IL-6, IL-1β and iNOS levels in all experimental rats with the determination of expression level of NFκ-Bp65. Serum peripheral TNF-α and IL-6 inflammatory cytokines levels increased significantly (8 and 6-fold, respectively) in diabetic rats confirming the induction of central inflammation that directly correlated with induction of NF-κBp65 expression levels. Significantly, diminished serum anti-inflammatory levels were observed in diabetic rats treated with NSO, MT, GI and combination therapy. A consistent significant elevation in serum levels of TNF-α and IL-6 was showed in IOMe-injected and diabetic IOMe-injected rats compared to control groups, whereas the anti-inflammatory effect of NSO ameliorates peripheral inflammatory cytokines elevation and significantly decreases the serum levels of TNF-α and IL-6 (<xref ref-type="table" rid="pone.0172429.t004">Table 4</xref>). Also, the data indicate a highly significant elevation in all neuro-inflammatory markers TNF-α, IL-6, IL-1β and iNOS levels in the brain of diabetic rats versus control group (6.7, 8.9, 8.7 and 7.9-fold, respectively). Additionally, the levels of brain inflammatory cytokines were significantly decreased in diabetic groups treated with NSO, anti-diabetic drugs MT, GI, NSO-MT and NSO-GI and the values were restored to be near control levels. While the levels of inflammatory cytokines (TNF-α, IL-6, IL-1β and iNOS) showed a highly significant elevation in brain of either control or diabetic rats injected with IOMe compared to control group and the treatment of induced groups with NSO displayed a highly significant reduction in all measured brain inflammatory markers in diabetic versus untreated rats (<xref ref-type="table" rid="pone.0172429.t005">Table 5</xref>).</p>
+<table-wrap id="pone.0172429.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0172429.t004</object-id>
+<label>Table 4</label> <caption><title>Serum TNF-α and IL-6 levels in diabetic rats after treatment with NSO, antidiabetic drugs, combination therapy and I-OMeAG538.</title></caption>
+<alternatives>
+<graphic id="pone.0172429.t004g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0172429.t004" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center">Group</th>
+<th align="center">TNF-α (pg/ml)</th>
+<th align="center">IL-6 (pg/ml)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><bold>Control</bold></td>
+<td align="center">16.60 ± 0.24<xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+<td align="center">100.00 ± 2.11<xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D</bold></td>
+<td align="center">134.00 ± 2.40<xref ref-type="table-fn" rid="t004fn002">*</xref></td>
+<td align="center">610.00 ± 3.00<xref ref-type="table-fn" rid="t004fn002">*</xref></td>
+</tr>
+<tr>
+<td align="center"><bold>DMSO</bold></td>
+<td align="center">75.90 ± 1.90<xref ref-type="table-fn" rid="t004fn002">*</xref></td>
+<td align="center">402.00 ± 5.01<xref ref-type="table-fn" rid="t004fn002">*</xref><xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>NSO</bold></td>
+<td align="center">14.00 ± 0.32<xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+<td align="center">85.50 ± 3.10<xref ref-type="table-fn" rid="t004fn002">*</xref><xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>MT</bold></td>
+<td align="center">16.10 ± 0.93<xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+<td align="center">100.10 ± 3.02<xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>NSO-MT</bold></td>
+<td align="center">15.70 ± 0.47<xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+<td align="center">110.50 ± 3.00<xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>GI</bold></td>
+<td align="center">23.90 ± 1.29<xref ref-type="table-fn" rid="t004fn002">*</xref><xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+<td align="center">182.50 ± 3.00<xref ref-type="table-fn" rid="t004fn002">*</xref><xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>NSO-GI</bold></td>
+<td align="center">19.00 ± 0.27<xref ref-type="table-fn" rid="t004fn002">*</xref><xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+<td align="center">162.30 ± 1.90<xref ref-type="table-fn" rid="t004fn002">*</xref><xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-NSO</bold></td>
+<td align="center">17.01 ± 0.52<xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+<td align="center">120.70 ± 2.91<xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-MT</bold></td>
+<td align="center">24.43 ± 0.83<xref ref-type="table-fn" rid="t004fn002">*</xref><xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+<td align="center">188.10 ± 3.94<xref ref-type="table-fn" rid="t004fn002">*</xref><xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-GI</bold></td>
+<td align="center">30.70 ± 1.22<xref ref-type="table-fn" rid="t004fn002">*</xref><xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+<td align="center">196.50 ± 3.01<xref ref-type="table-fn" rid="t004fn002">*</xref><xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-NSO-MT</bold></td>
+<td align="center">18.90 ± 0.24<xref ref-type="table-fn" rid="t004fn002">*</xref><xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+<td align="center">122.50 ±2.63<xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-NSO-GI</bold></td>
+<td align="center">22.60 ± 0.22<xref ref-type="table-fn" rid="t004fn002">*</xref><xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+<td align="center">250.40 ± 3.99<xref ref-type="table-fn" rid="t004fn002">*</xref><xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>IOMe</bold></td>
+<td align="center">100.50 ± 2.49<xref ref-type="table-fn" rid="t004fn002">*</xref><xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+<td align="center">450.50 ± 3.55<xref ref-type="table-fn" rid="t004fn002">*</xref><xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>IOMe-NSO</bold></td>
+<td align="center">45.80 ± 1.13<xref ref-type="table-fn" rid="t004fn002">*</xref><xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+<td align="center">198.50 ± 2.03<xref ref-type="table-fn" rid="t004fn002">*</xref><xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-IOMe</bold></td>
+<td align="center">127.90 ± 2.84<xref ref-type="table-fn" rid="t004fn002">*</xref></td>
+<td align="center">650.30 ± 5.67<xref ref-type="table-fn" rid="t004fn002">*</xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-IOMe-NSO</bold></td>
+<td align="center">57.20 ± 1.25<xref ref-type="table-fn" rid="t004fn002">*</xref><xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+<td align="center">200.50 ± 3.69<xref ref-type="table-fn" rid="t004fn002">*</xref><xref ref-type="table-fn" rid="t004fn003"><sup>#</sup></xref></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t004fn001"><p>Values are expressed as mean± SE (n = 8). Significance:</p></fn>
+<fn id="t004fn002"><p>*p&lt;0.05 (compared to control) and</p></fn>
+<fn id="t004fn003"><p><sup>#</sup>p&lt;0.05 (compared to diabetics).</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<table-wrap id="pone.0172429.t005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0172429.t005</object-id>
+<label>Table 5</label> <caption><title>Neuro-inflammation cytokines levels (pg/mg protein) in the brain of diabetic rats after treatment with NSO, antidiabetic drugs, combination therapy and I-OMeAG538.</title></caption>
+<alternatives>
+<graphic id="pone.0172429.t005g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0172429.t005" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center">Groups</th>
+<th align="center">TNF-α</th>
+<th align="center">IL-6</th>
+<th align="center">IL-1β</th>
+<th align="center">iNOS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><bold>Control</bold></td>
+<td align="center">14.60 ± 0.22<xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">106.62 ± 2.14<xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">11.50 ± 0.25<xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">10.16 ± 0.09<xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D</bold></td>
+<td align="center">95.50 ± 1.40<xref ref-type="table-fn" rid="t005fn002">*</xref></td>
+<td align="center">572.46 ± 3.76<xref ref-type="table-fn" rid="t005fn002">*</xref></td>
+<td align="center">96.00 ± 0.95<xref ref-type="table-fn" rid="t005fn002">*</xref></td>
+<td align="center">79.40 ± 0.67<xref ref-type="table-fn" rid="t005fn002">*</xref></td>
+</tr>
+<tr>
+<td align="center"><bold>DMSO</bold></td>
+<td align="center">40.90 ± 1.10<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">314.50 ± 5.04<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">41.80 ± 0.33<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">38.30 ± 0.33<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>NSO</bold></td>
+<td align="center">14.20 ± 0.36<xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">92.50 ± 3.60<xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">10.30 ± 0.23<xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">9.00 ± 0.19<xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>MT</bold></td>
+<td align="center">17.10 ± 0.23<xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">128.10 ± 3.62<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">16.40 ± 0.23<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">11.60 ± 0.19<xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>NSO-MT</bold></td>
+<td align="center">18.70 ± 0.17<xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">140.50 ± 3.06<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">13.50 ± 0.20<xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">10.40 ± 0.17<xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>GI</bold></td>
+<td align="center">17.90 ± 0.29<xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">152.50 ± 3.72<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">19.70 ± 0.44<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">12.20 ± 0.14<xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>NSO-GI</bold></td>
+<td align="center">19.20 ± 0.27<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">152.30 ± 1.91<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">15.80 ± 0.30<xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">12.20 ± 0.14<xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-NSO</bold></td>
+<td align="center">16.00 ± 0.32<xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">162.70 ± 3.71<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">17.90 ± 0.32<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">13.40 ± 0.13<xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-MT</bold></td>
+<td align="center">23.40 ± 0.33<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">178.10 ± 3.64<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">23.22 ± 0.34<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">23.90 ± 0.67<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-GI</bold></td>
+<td align="center">22.70 ± 0.22<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">190.50 ± 3.11<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">25.30 ± 0.25<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">17.60 ± 0.25<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-NSO-MT</bold></td>
+<td align="center">18.30 ± 0.24<xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">222.50 ±3.63<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">21.00 ± 0.44<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">13.40 ± 0.42<xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-NSO-GI</bold></td>
+<td align="center">24.70 ± 0.22<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">240.40 ± 3.03<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">22.60 ± 0.50<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">21.24 ± 0.48<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>IOMe</bold></td>
+<td align="center">66.50 ± 0.49<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">440.50 ± 4.55<xref ref-type="table-fn" rid="t005fn002">*</xref></td>
+<td align="center">72.00 ± 0.95<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">62.10 ± 0.39<xref ref-type="table-fn" rid="t005fn002">*</xref></td>
+</tr>
+<tr>
+<td align="center"><bold>IOMe-NSO</bold></td>
+<td align="center">22.80 ± 0.13<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">216.50 ± 2.43<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">24.40 ± 1.00<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">13.70 ± 0.40<xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-IOMe</bold></td>
+<td align="center">75.90 ± 0.84<xref ref-type="table-fn" rid="t005fn002">*</xref></td>
+<td align="center">480.30 ± 5.46<xref ref-type="table-fn" rid="t005fn002">*</xref></td>
+<td align="center">85.00 ± 0.83<xref ref-type="table-fn" rid="t005fn002">*</xref></td>
+<td align="center">50.00 ± 0.60<xref ref-type="table-fn" rid="t005fn002">*</xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-IOMe-NSO</bold></td>
+<td align="center">37.20 ± 0.25<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">228.50 ± 3.68<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">25.20 ± 0.66<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+<td align="center">14.70 ± 0.39<xref ref-type="table-fn" rid="t005fn002">*</xref><xref ref-type="table-fn" rid="t005fn003"><sup>#</sup></xref></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t005fn001"><p>Values are expressed as mean± SE (n = 8). Significance:</p></fn>
+<fn id="t005fn002"><p>*p&lt;0.05 (compared to control) and</p></fn>
+<fn id="t005fn003"><p><sup>#</sup>p&lt;0.05 (compared to diabetics).</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec021">
+<title>Cholinergic function marker</title>
+<p>The activity level of AChE was significantly increased in the brain of diabetes- induced rats versus control (3.3-fold). The brain cholinergic function in diabetic groups treated with NSO, MT, GI and combination therapy were improved significantly by a significant decrease in AChE activity in all treated rats. This decrease was correlated with normalization of brain glucose levels in all rat groups. These observed values are near control levels confirming its neuro-protection role as AChE inhibitor. Also, the rats received IOMe only or diabetic rats injected with IOMe showed a highly significant elevation in AChE activity that was associated with significant diminished in glucose level compared to control groups. Oral administration of NSO to these induced groups showed a significant diminished AChE activity associated with a significant elevation of glucose level in all treated rats (<xref ref-type="table" rid="pone.0172429.t006">Table 6</xref>).</p>
+<table-wrap id="pone.0172429.t006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0172429.t006</object-id>
+<label>Table 6</label> <caption><title>AChE activities and glucose levels in the brain of diabetic rats and after treatment with NSO, antidiabetic drugs, combination therapy and I-OMeAG538-injection.</title></caption>
+<alternatives>
+<graphic id="pone.0172429.t006g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0172429.t006" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center">Groups</th>
+<th align="center">AChE (μmol/min/mg protein)</th>
+<th align="center">Glucose (mg/mg protein)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><bold>Control</bold></td>
+<td align="center">93.60 ± 1.34<xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+<td align="center">0.78 ± 0.04<xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D</bold></td>
+<td align="center">306 ± 9.60<xref ref-type="table-fn" rid="t006fn002">*</xref></td>
+<td align="center">0.13 ± 0.02<xref ref-type="table-fn" rid="t006fn002">*</xref></td>
+</tr>
+<tr>
+<td align="center"><bold>DMSO</bold></td>
+<td align="center">255 ± 6.98<xref ref-type="table-fn" rid="t006fn002">*</xref></td>
+<td align="center">0.25 ± 0.01<xref ref-type="table-fn" rid="t006fn002">*</xref></td>
+</tr>
+<tr>
+<td align="center"><bold>NSO</bold></td>
+<td align="center">68.8 ± 5.20<xref ref-type="table-fn" rid="t006fn002">*</xref><xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+<td align="center">0.71 ± 0.09<xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>MT</bold></td>
+<td align="center">116 ± 4.90<xref ref-type="table-fn" rid="t006fn002">*</xref><xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+<td align="center">0.59 ± 0.01<xref ref-type="table-fn" rid="t006fn002">*</xref><xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>NSO-MT</bold></td>
+<td align="center">166 ± 5.10<xref ref-type="table-fn" rid="t006fn002">*</xref><xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+<td align="center">0.74 ± 0.04<xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>GI</bold></td>
+<td align="center">110 ± 2.90<xref ref-type="table-fn" rid="t006fn002">*</xref><xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+<td align="center">0.44 ± 0.02<xref ref-type="table-fn" rid="t006fn002">*</xref><xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>NSO-GI</bold></td>
+<td align="center">131 ± 1.40<xref ref-type="table-fn" rid="t006fn002">*</xref><xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+<td align="center">0.46 ± 0.01<xref ref-type="table-fn" rid="t006fn002">*</xref><xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-NSO</bold></td>
+<td align="center">81 ± 3.30<xref ref-type="table-fn" rid="t006fn002">*</xref><xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+<td align="center">0.74 ± 0.09<xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-MT</bold></td>
+<td align="center">100 ± 6.60<xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+<td align="center">0.45 ± 0.07<xref ref-type="table-fn" rid="t006fn002">*</xref><xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-GI</bold></td>
+<td align="center">146 ± 6.87<xref ref-type="table-fn" rid="t006fn002">*</xref><xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+<td align="center">0.52 ± 0.01<xref ref-type="table-fn" rid="t006fn002">*</xref><xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-NSO-MT</bold></td>
+<td align="center">122 ± 4.90<xref ref-type="table-fn" rid="t006fn002">*</xref><xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+<td align="center">0.50 ± 0.09<xref ref-type="table-fn" rid="t006fn002">*</xref><xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-NSO-GI</bold></td>
+<td align="center">123 ± 4.70<xref ref-type="table-fn" rid="t006fn002">*</xref><xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+<td align="center">0.49 ± 0.01<xref ref-type="table-fn" rid="t006fn002">*</xref><xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>IOMe</bold></td>
+<td align="center">227 ± 4.30<xref ref-type="table-fn" rid="t006fn002">*</xref></td>
+<td align="center">0.29 ± 0.05<xref ref-type="table-fn" rid="t006fn002">*</xref></td>
+</tr>
+<tr>
+<td align="center"><bold>IOMe-NSO</bold></td>
+<td align="center">149 ± 5.20<xref ref-type="table-fn" rid="t006fn002">*</xref><xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+<td align="center">0.51 ± 0.03<xref ref-type="table-fn" rid="t006fn002">*</xref><xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-IOMe</bold></td>
+<td align="center">265 ± 6.70<xref ref-type="table-fn" rid="t006fn002">*</xref></td>
+<td align="center">0.19 ± 0.06<xref ref-type="table-fn" rid="t006fn002">*</xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-IOMe-NSO</bold></td>
+<td align="center">121 ± 4.80<xref ref-type="table-fn" rid="t006fn002">*</xref><xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+<td align="center">0.45 ± 0.09<xref ref-type="table-fn" rid="t006fn002">*</xref><xref ref-type="table-fn" rid="t006fn003"><sup>#</sup></xref></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t006fn001"><p>Values are expressed as mean± SE (n = 8). Significance:</p></fn>
+<fn id="t006fn002"><p>*p&lt;0.05 (compared to control) and</p></fn>
+<fn id="t006fn003"><p><sup>#</sup>p&lt;0.05 (compared to diabetics).</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec022">
+<title>AGEs and brain insulin resistance</title>
+<p>The results showed a significant increase in sera and brain AGEs concentrations in diabetic rats compared to control (12.5 and 13-fold, respectively). The treatment of diabetes-induced rats with NSO, anti-diabetic drugs MT, GI, NSO-MT and NSO-GI showed a significant reduction in sera and brain concentrations of AGEs. The control and diabetic rats injected with IOMe showed a highly significant elevation in sera and brain AGEs levels, while the treatment of these induced rats with NSO showed a significant decrease in sera and brain levels of AGEs near to normal values (<xref ref-type="table" rid="pone.0172429.t007">Table 7</xref>).</p>
+<table-wrap id="pone.0172429.t007" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0172429.t007</object-id>
+<label>Table 7</label> <caption><title>Alteration in AGEs levels in brain and in serum of diabetic rats after treatment with NSO, antidiabetic drugs, combination therapy and I-OMeAG538.</title></caption>
+<alternatives>
+<graphic id="pone.0172429.t007g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0172429.t007" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center">Groups</th>
+<th align="center">Brain AGEs (U/mg protein)</th>
+<th align="center">Serum AGEs (U/ml)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><bold>Control</bold></td>
+<td align="center">0.10 ± 0.01<xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+<td align="center">2.00 ± 0.09<xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D</bold></td>
+<td align="center">1.32 ± 0.07<xref ref-type="table-fn" rid="t007fn002">*</xref></td>
+<td align="center">25.20 ± 0.19<xref ref-type="table-fn" rid="t007fn002">*</xref></td>
+</tr>
+<tr>
+<td align="center"><bold>DMSO</bold></td>
+<td align="center">0.49 ± 0.06<xref ref-type="table-fn" rid="t007fn002">*</xref><xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+<td align="center">11.70 ± 0.1<xref ref-type="table-fn" rid="t007fn002">*</xref><xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>NSO</bold></td>
+<td align="center">0.07 ± 0.01<xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+<td align="center">1.30 ± 0.06<xref ref-type="table-fn" rid="t007fn002">*</xref><xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>MT</bold></td>
+<td align="center">0.082 ± 0.01<xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+<td align="center">2.20 ± 0.04<xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>NSO-MT</bold></td>
+<td align="center">0.068 ± 0.02<xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+<td align="center">1.80 ± 0.02<xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>GI</bold></td>
+<td align="center">0.18 ± 0.05<xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+<td align="center">2.10 ± 0.05<xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>NSO-GI</bold></td>
+<td align="center">0.11 ± 0.03<xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+<td align="center">1.94 ± 0.09<xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-NSO</bold></td>
+<td align="center">0.094 ± 0.01<xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+<td align="center">0.95 ± 0.03<xref ref-type="table-fn" rid="t007fn002">*</xref><xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-MT</bold></td>
+<td align="center">1.68 ± 0.04<xref ref-type="table-fn" rid="t007fn002">*</xref><xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+<td align="center">3.00 ± 0.04<xref ref-type="table-fn" rid="t007fn002">*</xref><xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-GI</bold></td>
+<td align="center">2.26 ± 0.05<xref ref-type="table-fn" rid="t007fn002">*</xref><xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+<td align="center">5.60 ± 0.04<xref ref-type="table-fn" rid="t007fn002">*</xref><xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-NSO-MT</bold></td>
+<td align="center">0.08 ± 0.01<xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+<td align="center">1.20 ± 0.06<xref ref-type="table-fn" rid="t007fn002">*</xref><xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-NSO-GI</bold></td>
+<td align="center">0.13 ± 0.03<xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+<td align="center">3.80 ± 0.07<xref ref-type="table-fn" rid="t007fn002">*</xref><xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>IOMe</bold></td>
+<td align="center">0.79 ± 0.04<xref ref-type="table-fn" rid="t007fn002">*</xref><xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+<td align="center">19.20 ± 0.13<xref ref-type="table-fn" rid="t007fn002">*</xref></td>
+</tr>
+<tr>
+<td align="center"><bold>IOMe-NSO</bold></td>
+<td align="center">0.26 ± 0.03<xref ref-type="table-fn" rid="t007fn002">*</xref><xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+<td align="center">3.30 ± 0.09<xref ref-type="table-fn" rid="t007fn002">*</xref><xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-IOMe</bold></td>
+<td align="center">1.46 ± 0.06<xref ref-type="table-fn" rid="t007fn002">*</xref></td>
+<td align="center">28.70 ± 0.17<xref ref-type="table-fn" rid="t007fn002">*</xref></td>
+</tr>
+<tr>
+<td align="center"><bold>D-IOMe-NSO</bold></td>
+<td align="center">0.30 ± 0.03<xref ref-type="table-fn" rid="t007fn002">*</xref><xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+<td align="center">5.60 ± 0.04<xref ref-type="table-fn" rid="t007fn002">*</xref><xref ref-type="table-fn" rid="t007fn003"><sup>#</sup></xref></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t007fn001"><p>Values are expressed as mean± SE (n = 8). Significance:</p></fn>
+<fn id="t007fn002"><p>*p&lt;0.05 (compared to control) and</p></fn>
+<fn id="t007fn003"><p><sup>#</sup>p&lt;0.05 (compared to diabetics).</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec023">
+<title>Regulation of Aβ-42 clearance by IDE</title>
+<p>A significant elevation of Aβ-42 levels in the brain of diabetic, IOMe-injected and diabetic IOMe-injected rats was noticed (10, 6 and 7-fold, respectively). It is correlated with a significant reduction in IDE levels (8, 6.5 and 5-fold, respectively) (<xref ref-type="fig" rid="pone.0172429.g001">Fig 1A</xref>). The treatment of the induced groups with NSO exhibited a marked decrease in Aβ-42 levels with values near to control group associated with a significant restoration of IDE levels (<xref ref-type="fig" rid="pone.0172429.g001">Fig 1A</xref>). The treated diabetic rats with NSO, MT, GI and their combination therapy showed a marked inhibition of Aβ-42 deposition in all groups with a significant elevation in brain IDE levels, which clear the Aβ-42 accumulation (<xref ref-type="fig" rid="pone.0172429.g001">Fig 1B</xref>).</p>
+<fig id="pone.0172429.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0172429.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Variations in brain Aβ-42 and IDE content.</title>
+<p>Aβ-42 &amp; IDE levels in brain of diabetic and I-OMeAG-538-injected rats post NSO treatment (A). Aβ-42 &amp; IDE levels in brain homogenate of diabetic rats after the course of treatment with NSO, reference drugs and combination therapy (B).</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0172429.g001" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec024">
+<title>Gene expression biomarkers</title>
+<p>Amyloidgenesis was observed in the diabetes-induced groups received no treatment during the course of induction and IOMe-injected diabetic or non-diabetic rats. They displayed a strong expression of APP, BACE1 and RAGEs in D-induced group, IOMe-injected group and D-IOMe -injected group and linked with very weak expression of BDNF compared to control group (<xref ref-type="fig" rid="pone.0172429.g002">Fig 2A</xref>). NSO treatment exhibited a significant diminishment in APP, BACE1 and RAGEs expression levels in D-induced group, in IOMe -injected and in D-IOMe-injected. A significant elevation of BDNF expression level was displayed compared to diabetic groups confirming the discontinuation role of NSO to the amyloidogenic pathway induced by neurotoxicity of STZ-induction and IOMe (<xref ref-type="fig" rid="pone.0172429.g002">Fig 2A</xref>). The treatment of NSO, MT, GI and their combination therapy of D-induced groups exerted more protection through marked inhibition in the expression levels of APP, BACE1 and RAGEs and a significant elevation in BDNF expression levels (<xref ref-type="fig" rid="pone.0172429.g002">Fig 2B</xref>). On the other hand, HFD/STZ, IOMe-injected rats and D-IOMe-injected group showed a highly significant reduction in SIRT1 expression. In addition, there is a significant depression in ADAM10 levels and a significant induction of p53 and NF-κBp65 levels versus the control group (<xref ref-type="fig" rid="pone.0172429.g002">Fig 2C</xref>). The treatment of these induced rats with NSO restored the expression levels of SIRT1 and its signaling parameters ADAM10 with significant depression in p53 and NF-κBp65 expression levels compared with diabetic rats (<xref ref-type="fig" rid="pone.0172429.g002">Fig 2C</xref>). NSO, MT and GI treatment alone or in combination with NSO significantly induced respectively the expression of SIRT1, and its signaling markers ADAM10. In addition, a significantly respective depression of p53 and NF-κBp65 expression levels compared with untreated diabetic rats were noticed (<xref ref-type="fig" rid="pone.0172429.g002">Fig 2D</xref>). By testing the expression of insulin signaling-related genes, the results showed that HFD/STZ, IOMe-injected and D-IOMe-injected groups showed a highly significant reduction in IR and PI3K expression levels compared to control groups linked with diminished insulin signaling pathway. The treatment of these induced rats with NSO induced the expression of IR and PI3K versus the diabetic rats (<xref ref-type="fig" rid="pone.0172429.g002">Fig 2E</xref>). NSO, MT and GI treatment alone or the combination therapy markedly enhanced the expression of IR and PI3K versus the diabetic group (<xref ref-type="fig" rid="pone.0172429.g002">Fig 2F</xref>).</p>
+<fig id="pone.0172429.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0172429.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Gene expression profiles of brain amyloidogenic, neuro-protection and insulin signaling biomarkers.</title>
+<p>mRNA levels by RT-PCR analysis for APP, BACE1, BDNF and RAGEs in brain tissues of diabetic and I-OMeAG538- injected rats versus NSO- treated rats (A). mRNA levels of APP, BACE1, BDNF and RAGEs in the brain of diabetic rats post the treatment with NSO, reference drugs and combination therapy (B). mRNA levels SIRT1, ADAM10, NF-κBp65 and p53 in the brain of diabetic rats, I-OMe-injected rats versus NSO treated rats (C). mRNA levels of SIRT1, ADAM10, NF-κBp65 and p53 in brain tissues of diabetic rats, and after treatment with NSO, reference drugs and combination therapy for (D). mRNA levels of IR and PI3K in the brain of diabetic rats, I-OMeAG538-injected rats versus NSO treated rats (E). mRNA levels of IR and PI3K in the brain of diabetic rats, and after treatment with NSO, MT, GI and combination therapy for IR and PI3K (F). β-actin was used as an internal control and quantification of bands using UVIBAND Image quantification software.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0172429.g002" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec025">
+<title>Brain insulin resistance-related biomarkers</title>
+<p>Diabetes induced rats, IOMe-injected rats and diabetes- IOMe-injected rats displayed brain insulin resistance. The attenuation of signaling pathway was respectively exhibited by significant inhibition (under-detection) of phosphorylation of signaling proteins (IRS1-pTyr612 (10, 20 and 25-fold), AKT1-pSer473 (6, 15 and 20-fold), GSK-3β-pSer9 (3.6, 25 and 30-fold) compared with control groups) with a significant induction of GSK-3β levels (4, 5 and 10-fold). This was followed by a marked elevation and hyper-phosphorylation of Tau-pSer356 (14, 16 and 20-fold, respectively) that is strongly associated with significant reduction in PP2A levels (4, 4.5 and 3.9-fold, respectively) in brain compared to control group. The treatment of these induced rats with NSO showed a significant activation of brain insulin signaling parameters and marked inhibition of IOMe effect. This was confirmed by a significant respective increase in the protein levels of IRS1-pTyr612, AKT1-pSer473, GSK-3β-pSer9 compared to diabetic group. There is an also a significant decrease in GSK-3β levels linked with marked reduction in Tau-pSer356 levels and an associated increase in its PP2A levels compared to diabetic rats (<xref ref-type="fig" rid="pone.0172429.g003">Fig 3A and 3B</xref>). The treated diabetic rats with NSO, anti-diabetic drugs MT and GI and a combination therapy showed a respective enhancement of insulin signaling pathway demonstrated by the proteins IRS1-pTyr612, AKT1-pSer473 and GSK-3β-pSer9 versus diabetic group. These molecules enhanced the subsequent insulin signaling pathway and caused a significant decline in GSK3β protein level that inhibits its kinase activity and Tau-pSer356 and linked with elevated PP2A level (<xref ref-type="fig" rid="pone.0172429.g003">Fig 3C and 3D</xref>).</p>
+<fig id="pone.0172429.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0172429.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Representative western blotting analyses of brain insulin-induced signaling molecules.</title>
+<p>Protein level profile of p-IRS1-Tyr612 was normalized to the total amount of β-actin protein and p-AKT1-Ser473 level was normalized to the total amount of AKT1. p-GSK3β-Ser9 was normalized to the total amount of GSK3β. p-Tau-Ser356 and PP2A-alpha levels were normalized to the total amount of β-actin protein in the brain tissue of diabetic rats injected with IOMe and treated with NSO (A). Protein profile of diabetic rats after the treatment with NSO, anti-diabetic drugs and combination therapy is shown as (C). The quantification of protein bands is represented as mean ± SE (n = 5/group) (B) and (D).</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0172429.g003" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec026">
+<title>Modification of brain AD-related miRNA expression profile</title>
+<p>Alterations in the expression levels of brain AD-related miRNAs (107, 103, 9, 181c, 21, 101 and 29a), which are normally with higher expression in normal brain tissue showed a significant reduction in their expression levels of miRNAs in diabetic, IOMe-injected non-diabetic and diabetic rats. The administration of NSO to these rats showed a significant elevation in the expression levels of all miRNAs in comparison to diabetes-induced rats (<xref ref-type="fig" rid="pone.0172429.g004">Fig 4A</xref>). On the other hand, the expression level of miRNAs 34a and 26b (normally with low expression levels in normal brain tissue) were significantly elevated in the brain of diabetes-induced and IOMe-injected rats. The diabetic rats injected with IOMe showed a highly significant elevation in the expression levels in compared to diabetes-induced rats. Administration of NSO alone causes a significant reduction in the expression levels of miRNAs in all rat groups compared with diabetes-induced rats (<xref ref-type="fig" rid="pone.0172429.g004">Fig 4B</xref>). In addition, the administration of NSO alone or anti-diabetic drugs MT or GI ameliorate the repression caused by diabetes induction and lead to a significant elevation in the expression of measured miRNAs (107, 103, 9, 181c, 21, 101 and 29a) in comparison to diabetes-induced rats. Moreover, the NSO-MT combination therapy significantly increased the expression of measured miRNAs in brain of diabetic rats in comparison with other treatments (<xref ref-type="fig" rid="pone.0172429.g004">Fig 4C</xref>). In contrast, administration of NSO alone, anti-diabetic drugs or combination therapy caused a significant reduction in the expression levels of miRNAs 34a and 26b in comparison to diabetes-induced rats. The treatment with MT significantly decreased the expression of miRNAs 34a and 26b in the brain of diabetic rats in comparison to other treatments (<xref ref-type="fig" rid="pone.0172429.g004">Fig 4D</xref>).</p>
+<fig id="pone.0172429.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0172429.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Quantitative RT-PCR analyses of brain AD-related miRNAs expression profile.</title>
+<p>Alterations in the expression levels of AD-related miRNAs (107, 103, 9, 181c, 21, 101 and 29a) in the brain homogenate of experimental diabetic rats injected with IOMe and treated with NSO (A). Alterations in the expression level of miRNAs 34a and 26b in the brain of IOMe-injected diabetic rats and treated with NSO (B). Alterations in the expression levels of AD-related miRNAs (107, 103, 9, 181c, 21, 101 and 29a) in the brain of diabetic rats after treatment with NSO, anti-diabetic drugs and combination therapy (C). Alterations in the expression level of miRNAs 34a and 26b in the brain of experimental diabetic rats after treatment with NSO, anti-diabetic drugs and combination therapy (D). Significance is shown as (#p &lt; 0.05) compared to diabetes-induced rats.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0172429.g004" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec027">
+<title>Serum miRNA expression levels in the HFD/STZ-treated rats</title>
+<p>The miRNA expression levels were measured in the blood serum of HFD/STZ-induced, IOMe-injected non-diabetic and IOMe-injected diabetic rats. The expression levels of miR-107, miR-181c, miR-103, miR-101, miR-29a, miR-21 and miR-9 were significantly down regulated in the blood serum of diabetic and IOMe-injected rats (<xref ref-type="fig" rid="pone.0172429.g005">Fig 5A</xref>) whereas, the expression levels of these miRNAs are normally high. The expression levels of miR-34a and miR-26b were significantly up regulated in serum of diabetic and IOMe-injected rats (<xref ref-type="fig" rid="pone.0172429.g005">Fig 5B</xref>), whereas the expression levels of these miRNAs are normally low.</p>
+<fig id="pone.0172429.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0172429.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>Decreased miRNA expression levels in the blood serum of HFD/STZ-induced rats.</title>
+<p>The expression levels of miRNAs miR-107, miR-181c, miR-103, miR-101, miR-29a, miR-21 and miR-9 expression levels were down-regulated in the serum of diabetic rats and IOMe-injected rats (A). The expression levels of miRNAs miR-34a and miR-26b were up-regulated in serum of diabetic and in IOMe-AG538-injected rats (B).</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0172429.g005" xlink:type="simple"/>
+</fig>
+</sec>
+</sec>
+<sec id="sec028" sec-type="conclusions">
+<title>Discussion</title>
+<p>In the present study, oxidative profile was investigated by using two parameters: typical oxidative stress parameters (MDA, NO and XO levels) and the antioxidant capacity parameters (SOD, GPx and GST enzyme activities and GSH level). The results demonstrated a high elevation in XO, NO levels, and TBARS level, which determined by a significant elevation in MDA content in the brain of STZ-induced diabetes compared to control brains. Also, the levels of enzymatic and non-enzymatic antioxidant parameters showed a significant decline in the brain of diabetic rats. The pressure from oxidative stress in combination with lowered antioxidant defense creates a harmful combination that disrupts functions and damage cells, which lead to loss of synapse and cell death. STZ promoted the generation of free radicals and lipid peroxidation in the brain <italic>via</italic> the XO pathway. These results run parallel with previous studies that linked between amyloid plaques formation and oxidative stress including lipid peroxidation markers such as MDA [<xref ref-type="bibr" rid="pone.0172429.ref038">38</xref>] and hyperglycemia activates multiple signaling pathways, which lead to increased ROS generation and induce insulin resistance [<xref ref-type="bibr" rid="pone.0172429.ref039">39</xref>]. Since oxidative stress started early in the disease progression, it is likely that treatment will be most effective if started early as well, before other damaging process takes over in “point of no return”. It is well confirmed in our results that the treatment of diabetic rats with NSO reversed the activities of the antioxidants effectively and reduced the oxidative stress significantly. Therefore, it is reasonable to assume that NSO treatment improves the oxidative balance of brain of T2DM because NSO was able to reduce the levels of XO, NO and MDA and free radical generation and increase levels of antioxidant parameters. The increase in SOD and GSH activities act as a compensatory mechanism for prolonged overproduction of oxidative stress and free radicals [<xref ref-type="bibr" rid="pone.0172429.ref040">40</xref>].</p>
+<p>It was hypothesized that TNF-α educes antagonistic activity toward insulin due to its ability to augment IRS phosphorylation on Ser/Thr residues that leads to an insulin resistance [<xref ref-type="bibr" rid="pone.0172429.ref041">41</xref>]. The inhibition of insulin signaling pathway via TNF-α lead to suppression of the regulatory enzymes of fatty acids and glucose capture producing hyperglycemia [<xref ref-type="bibr" rid="pone.0172429.ref042">42</xref>]. In addition, IL-6 causes insulin resistance due to the defect in IRS phosphorylation leading to decrease in gluconeogenesis and increased glycogenolysis [<xref ref-type="bibr" rid="pone.0172429.ref043">43</xref>]. It was also reported that there is a close integration between pathogenesis of AD and neuro-inflammation involves in the glial cells activation in neurodegenerative diseases such as AD [<xref ref-type="bibr" rid="pone.0172429.ref044">44</xref>]. In our experimental results, the HFD/STZ rats demonstrated an increased in serum levels of pro-inflammatory markers TNF-α and IL-6 as well as increased concentrations of brain pro-inflammatory cytokines IL-1β, IL-6 and TNF-α protein and NF-κBp65 gene expression levels. These findings are consistent with previous data, which suggested that the treatment by STZ caused promoted neuro-inflammatory cytokines and altered redox status in STZ-treated rats leading to neurodegeneration [<xref ref-type="bibr" rid="pone.0172429.ref045">45</xref>].</p>
+<p>Interestingly, the combination therapy of NSO and hypoglycemic drugs (MT and GI) significantly reduced the levels of pro-inflammatory markers and inhibited iNOS levels and NO formation. This combination is effectively thought to improve insulin action in the brain of diabetic rats and reduced the incidence of AD. One of the hallmarks of this mechanism is impaired cholinergic neurotransmission [<xref ref-type="bibr" rid="pone.0172429.ref046">46</xref>]. It was previously known that the metabolism of glucose in brain is associated with acetylcholine synthesis [<xref ref-type="bibr" rid="pone.0172429.ref047">47</xref>] and the reduced glucose levels in the brain may have a negative effect on cognitive function [<xref ref-type="bibr" rid="pone.0172429.ref048">48</xref>]. Also, the insulin resistance is known as a highly related factor associated with depletion of cognitive function in the brain. The impaired insulin signaling pathway is considered to cause improper glucose metabolism in the brain [<xref ref-type="bibr" rid="pone.0172429.ref018">18</xref>]. The treatment of diabetic rats with NSO alone exhibited a significant decline in the AChE activities that may help in restoring the normal level of acetylcholine. This is associated with normalized the brain glucose level, which in turn may help in preserving the cognitive function in brain and regulate the neuronal development. This finding is consistent with a recent study that revealed that <italic>Nigella sativa</italic> can prevent the damage of spatial memory after HFD/STZ-administration and reduced the AChE activity [<xref ref-type="bibr" rid="pone.0172429.ref049">49</xref>]. So, the greater the activity of AChE, the less effective in the cholinergic system.</p>
+<p>In addition, NSO treatment of STZ-diabetic rats decreased significantly the level of Aβ-42 (7-fold), these results in agreement with what was reported before [<xref ref-type="bibr" rid="pone.0172429.ref050">50</xref>] that TQ has neuro-protection potential against Aβ-42 in rat hippocampal and cortical neurons and thus it might be considered as a promising candidate for AD treatment. It is contradictory to what has been suggested that MT alone increased the production of beta amyloid and enhanced the chances of AD [<xref ref-type="bibr" rid="pone.0172429.ref051">51</xref>]. It was found that the combination of NSO and MT displayed a significant decrease in brain Aβ-42 levels (4.5-fold) more than the value when MT was used alone [<xref ref-type="bibr" rid="pone.0172429.ref052">52</xref>]. Furthermore, it has been suggested that GI acts as a novel anti-inflammatory agent that could modify the progression of neurodegenerative diseases that it can reduce Aβ-42 production [<xref ref-type="bibr" rid="pone.0172429.ref053">53</xref>]. Other data showed GI attenuated Aβ production via suppressing BACE1 activity in cortical neurons [<xref ref-type="bibr" rid="pone.0172429.ref054">54</xref>]. Here, the treatment with GI alone decreased the level of Aβ-42 in the brain of STZ-induced rats (1.9-fold). Interestingly, one of our novel findings is the beneficial effect of combination therapy of NSO and GI in reducing the Aβ-42 produced in the brain of STZ-diabetic rats (4.5-fold). So, NSO-GI may serve as a promising drug for the treatment of AD associated with diabetes and brain insulin resistance.</p>
+<p>Since NSO has the most beneficial effects on reducing blood glucose level, this hypoglycemic effect may be accompanied by the decrease of AGEs formation and RAGEs expression. It was found that MT decreased AGEs through reduction of hypoglycemia indirectly via insulin-dependent mechanism directly [<xref ref-type="bibr" rid="pone.0172429.ref055">55</xref>]. Moreover, another study showed that MT treatment decreased the oxidative stress and has a hypoglycemic effect, reduced AGEs and Aβ production and has remarkable role in down-regulation of RAGEs expression. The down-regulation of toxic AGEs levels and RAGEs expression by GI was observed in our present study and in agreement with the previous studies [<xref ref-type="bibr" rid="pone.0172429.ref056">56</xref>]. Accordingly, we suggest that GI has a potential benefit for neurodegeneration in diabetic rats. Importantly, the using of combination therapy of either GI or MT with NSO impaired AGEs formation and down-regulated the gene expression of RAGEs in diabetic rat’s brain of our experimental model.</p>
+<p>In fact, it has been demonstrated that the decreased phosphorylation of similar insulin signaling molecules shown in AD or T2DM patients brains was more severe in the brains of the patients with both AD and T2DM [<xref ref-type="bibr" rid="pone.0172429.ref057">57</xref>]. The decreased in insulin signaling, including altered kinase activity and IRS expression, in AD gets worse with disease progression [<xref ref-type="bibr" rid="pone.0172429.ref058">58</xref>]. The model of HFD/STZ in the current study demonstrated that lowered levels of Tyr phosphorylation of IRS1-pTyr612 associated with decreased protein levels of AKT1-pSer473, and GSK-3β-pSer9 as well as increased GSK-3β levels. It was demonstrated the disruption in the brain insulin signaling pathway is responsible for the limited insulin function and impaired glucose transport in in the brain tissues upon STZ-induction, resulting in brain insulin resistance (diabetic brain/T3D) [<xref ref-type="bibr" rid="pone.0172429.ref059">59</xref>].</p>
+<p>The treatment of T2DM-induced impairment of insulin signaling pathway with NSO decreased insulin resistance and repaired brain insulin signaling pathway. This is demonstrated by increment protein levels of Tyr phosphorylation of IRS1-pTyr612 and elevated levels of AKT1-pSer473, GSK-3β-pSer9 with decreased GSK-3β levels. Importantly, TQ readily crosses the blood-brain barrier due to its small size and facilitates its neuro-protection role in the diabetic brain [<xref ref-type="bibr" rid="pone.0172429.ref060">60</xref>]. The signal of the phosphorylated form of insulin signaling pathway proteins was greater in <italic>Nigella sativa</italic>-treated animals [<xref ref-type="bibr" rid="pone.0172429.ref061">61</xref>].</p>
+<p>The neuroprotective effect of MT exhibited via variety of mechanisms such as reducing phosphorylation of Tau proteins through inhibition of the ubiquitin-dependent degradation of PP2A resulted in an elevation of PP2A level and dephosphorylation of Tau in AD [<xref ref-type="bibr" rid="pone.0172429.ref052">52</xref>]. In our study, we found that the role of anti-diabetic drug GI treatment alone and in combination with NSO caused elevation of GSK3β phosphorylation at Ser9 and normalized the PP2A activity thus inhibited the phosphorylation of Tau protein. Taken together, our observations suggest that NSO, MT and GI in the brain of diabetic rats have a prolonged effect on the PP2A, which is likely to overcome GSK3β counter-regulation of Tau phosphorylation.</p>
+<p>In the present study, neurodegeneration-associated AD was detected in T2D rats. Therefore, we focused on the amyloidogenic-associated parameters and determined whether dysfunctions of these parameters are associated with AD progression in T2D rats. Some miRNAs are possibly related to AD pathology and has been consistently identified as dysregulated in AD. Interestingly, miR-9, which is responsible for neuronal differentiation, neurogenesis and development of brain, is highly expressed in hippocampus while it is down-regulated in AD brains. It has been reported that addition of Aβ42 peptides to primary neuronal cell cultures has been shown to down-regulate this small RNA [<xref ref-type="bibr" rid="pone.0172429.ref062">62</xref>]. In addition, miR-107 down-regulated in an early stage of AD, as it has been proven that it targets BACE1, thus regulating amyloid production as well as neurofibrillary tangles [<xref ref-type="bibr" rid="pone.0172429.ref063">63</xref>]. Furthermore, miR-29a expression is inversely correlated with BACE1 and increased the amyloid <italic>in vitro</italic> production in neuronal cellular models [<xref ref-type="bibr" rid="pone.0172429.ref064">64</xref>]. Moreover, miR-29 has target specific sites on BACE1 mRNA and its down-regulation increases AD progression [<xref ref-type="bibr" rid="pone.0172429.ref065">65</xref>]. In contrast, NF-κB signaling transcriptionally repressed miR-29a/b [<xref ref-type="bibr" rid="pone.0172429.ref066">66</xref>]. Also, HFD/STZ was shown to activate NF-κB expression levels in rats [<xref ref-type="bibr" rid="pone.0172429.ref067">67</xref>]. Our study demonstrated a significant down-regulation in miR-29a expression in brain and sera of induced rats with increased in BACE1 expression as well as Aβ levels in rat brains of T2DM.</p>
+</sec>
+<sec id="sec029" sec-type="conclusions">
+<title>Conclusion</title>
+<p>The present study emphasized that insulin resistance of the brain of HFD/STZ-induced rats displays changes of AD-related biomarkers like APP, BACE1 expression and Aβ42 in addition to p-Tau protein levels with the elevation of inflammatory and oxidative stress markers. The observed abnormal expression of AD-associated miRNAs in the rat brains suggests that miRNAs participate in the process of AD and associated with T2DM. Hence, we suggest a promising use of miRNAs combined with other biomarkers in early diagnosis of AD for monitoring the progression of AD disease in T2DM-insulin resistance model. A schematic representation was designed (<xref ref-type="fig" rid="pone.0172429.g006">Fig 6</xref>) to summarize the modification of brain insulin signaling by NSO combined with the antidiabetic drugs.</p>
+<fig id="pone.0172429.g006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0172429.g006</object-id>
+<label>Fig 6</label>
+<caption>
+<title>Schematic diagram for the effect of NSO combined with the anti-diabetic drugs MT and GI on brain insulin signaling in HFD/STZ-induced rats.</title>
+<p>This effect lowers the amelioration of ROS-induced T2DM and decreases the attenuation of the signaling molecules IR, IRS1, PI3K and AKT. This modifying effect results in Tau dephosphorylation, less neurodegeneration and modulation of AD-related miRNA.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0172429.g006" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec030">
+<title>Supporting information</title>
+<supplementary-material id="pone.0172429.s001" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pone.0172429.s001" xlink:type="simple">
+<label>S1 File</label>
+<caption>
+<title>Manuscript data.</title>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0172429.s002" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pone.0172429.s002" xlink:type="simple">
+<label>S2 File</label>
+<caption>
+<title>Some diabetes parameters.</title>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>The authors thank the technical staff of Department of Biochemistry, Faculty of Science, Alexandria University, Egypt for their helpful assistance.</p>
+</ack>
+<glossary>
+<title>Abbreviations</title>
+<def-list>
+<def-item><term>AChE</term>
+<def><p>acetylcholinesterase</p></def>
+</def-item>
+<def-item><term>AD</term>
+<def><p>Alzheimer’s disease</p></def>
+</def-item>
+<def-item><term>ADAM10</term>
+<def><p>A disintegrin and metalloprotease 10</p></def>
+</def-item>
+<def-item><term>AGE</term>
+<def><p>advanced glycation end product</p></def>
+</def-item>
+<def-item><term>APP</term>
+<def><p>amyloid precursor protein</p></def>
+</def-item>
+<def-item><term>Aβ</term>
+<def><p>Amyloid beta</p></def>
+</def-item>
+<def-item><term>BACE1</term>
+<def><p>Beta site AβPP cleaving enzyme</p></def>
+</def-item>
+<def-item><term>BDNF</term>
+<def><p>brain derived neurotrophic factor</p></def>
+</def-item>
+<def-item><term>BW</term>
+<def><p>body weight</p></def>
+</def-item>
+<def-item><term>DM</term>
+<def><p>diabetes mellitus</p></def>
+</def-item>
+<def-item><term>DMSO</term>
+<def><p>dimethyl sulfoxide</p></def>
+</def-item>
+<def-item><term>GI</term>
+<def><p>glimepiride</p></def>
+</def-item>
+<def-item><term>GPx</term>
+<def><p>glutathione peroxidase</p></def>
+</def-item>
+<def-item><term>GSH</term>
+<def><p>glutathione</p></def>
+</def-item>
+<def-item><term>GSK-3β</term>
+<def><p>glycogen synthase kinase 3 beta</p></def>
+</def-item>
+<def-item><term>GST</term>
+<def><p>glutathione-s-transferase</p></def>
+</def-item>
+<def-item><term>HFD</term>
+<def><p>high fat diet</p></def>
+</def-item>
+<def-item><term>IDE</term>
+<def><p>Insulin degradation enzyme</p></def>
+</def-item>
+<def-item><term>IGF-1</term>
+<def><p>insulin like growth factor-1</p></def>
+</def-item>
+<def-item><term>IL</term>
+<def><p>interleukin</p></def>
+</def-item>
+<def-item><term>iNOS</term>
+<def><p>inducible Nitric oxide synthases</p></def>
+</def-item>
+<def-item><term>IOMe</term>
+<def><p>IOMe-AG538</p></def>
+</def-item>
+<def-item><term>IR</term>
+<def><p>insulin receptor</p></def>
+</def-item>
+<def-item><term>IRS</term>
+<def><p>insulin receptor substrate</p></def>
+</def-item>
+<def-item><term>MDA</term>
+<def><p>malondialdehyde</p></def>
+</def-item>
+<def-item><term>miRNA</term>
+<def><p>Micro RNA</p></def>
+</def-item>
+<def-item><term>MT</term>
+<def><p>metformin</p></def>
+</def-item>
+<def-item><term>NF-κB</term>
+<def><p>nuclear factor kappa-B</p></def>
+</def-item>
+<def-item><term>NO</term>
+<def><p>nitric oxide</p></def>
+</def-item>
+<def-item><term>NSO</term>
+<def><p><italic>Nigella sativa</italic> oil</p></def>
+</def-item>
+<def-item><term>NSO-GI</term>
+<def><p>combination of NSO and GI</p></def>
+</def-item>
+<def-item><term>NSO-MT</term>
+<def><p>combination of NSO and MT</p></def>
+</def-item>
+<def-item><term>PGL</term>
+<def><p>plasma glucose level</p></def>
+</def-item>
+<def-item><term>PI3K</term>
+<def><p>phosphoinositide 3-kinase</p></def>
+</def-item>
+<def-item><term>PP2A</term>
+<def><p>protein phosphatase 2A</p></def>
+</def-item>
+<def-item><term>RAGE</term>
+<def><p>receptor of advanced glycation end product</p></def>
+</def-item>
+<def-item><term>ROS</term>
+<def><p>reactive oxygen species</p></def>
+</def-item>
+<def-item><term>RT</term>
+<def><p>reverse transcriptase</p></def>
+</def-item>
+<def-item><term>RT-PCR</term>
+<def><p>real-time polymerase chain reaction</p></def>
+</def-item>
+<def-item><term>SIRT1</term>
+<def><p>NAD-dependent deacetylase sirtuin-1</p></def>
+</def-item>
+<def-item><term>SOD</term>
+<def><p>superoxide dismutase</p></def>
+</def-item>
+<def-item><term>STZ</term>
+<def><p>streptozotocin</p></def>
+</def-item>
+<def-item><term>T2DM</term>
+<def><p>type 2-diabetes mellitus</p></def>
+</def-item>
+<def-item><term>TBARS</term>
+<def><p>thiobarbituric acid reactive substances</p></def>
+</def-item>
+<def-item><term>TNF-α</term>
+<def><p>tumor necrosis factor-alpha</p></def>
+</def-item>
+<def-item><term>XO</term>
+<def><p>xanthine oxidase</p></def>
+</def-item>
+</def-list>
+</glossary>
+<ref-list>
+<title>References</title>
+<ref id="pone.0172429.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Craft</surname> <given-names>S</given-names></name>. <article-title>Alzheimer disease: insulin resistance and AD-extending the translational path</article-title>. <source>Nat Rev Neurol</source>. <year>2012</year>; <volume>8</volume>(<issue>7</issue>): <fpage>360</fpage>–<lpage>62</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nrneurol.2012.112" xlink:type="simple">10.1038/nrneurol.2012.112</ext-link></comment> <object-id pub-id-type="pmid">22710630</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Woung</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Tsai</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Su</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>C</given-names></name>. <article-title>Risk of Alzheimer’s disease in relation to diabetes: a population-based cohort study</article-title>. <source>Neuroepidemiology</source>. <year>2012</year>. <volume>38</volume>(<issue>4</issue>): p. <fpage>237</fpage>–<lpage>44</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1159/000337428" xlink:type="simple">10.1159/000337428</ext-link></comment> <object-id pub-id-type="pmid">22572745</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kroner</surname> <given-names>Z</given-names></name>. <article-title>The relationship between Alzheimer's disease and diabetes: type 3 diabetes?</article-title> <source>Altern Med Rev</source>. <year>2009</year>; <volume>14</volume>(<issue>4</issue>): <fpage>373</fpage>–<lpage>9</lpage>. <object-id pub-id-type="pmid">20030463</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wada</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Yokoo</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Yanagita</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Kobayashi</surname> <given-names>H</given-names></name>. <article-title>New twist on neuronal insulin receptor signaling in health, disease, and therapeutics</article-title>. <source>J Pharmacol Sci</source>. <year>2005</year>; <volume>99</volume>(<issue>2</issue>): <fpage>128</fpage>–<lpage>43</lpage>. <object-id pub-id-type="pmid">16210778</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Carvalheira</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Ribeiro</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Araujo</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Guimaraes</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Telles</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Torsoni</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Selective impairment of insulin signalling in the hypothalamus of obese Zucker rats</article-title>. <source>Diabetologia</source>. <year>2003</year>; <volume>46</volume>(<issue>12</issue>): <fpage>1629</fpage>–<lpage>40</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s00125-003-1246-x" xlink:type="simple">10.1007/s00125-003-1246-x</ext-link></comment> <object-id pub-id-type="pmid">14600817</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Boura-Halfon</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Zick</surname> <given-names>Y</given-names></name>. <article-title>Phosphorylation of IRS proteins, insulin action, and insulin resistance</article-title>. <source>Am J Physiol Endocrinol Metab</source>. <year>2009</year>; <volume>296</volume>(<issue>4</issue>): <fpage>E581</fpage>–<lpage>E591</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1152/ajpendo.90437.2008" xlink:type="simple">10.1152/ajpendo.90437.2008</ext-link></comment> <object-id pub-id-type="pmid">18728222</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Qiu</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Folstein</surname> <given-names>M</given-names></name>. <article-title>Insulin, insulin-degrading enzyme and amyloid-β peptide in Alzheimer's disease: review and hypothesis</article-title>. <source>Neurobiol Aging</source>. <year>2006</year>; <volume>27</volume>(<issue>2</issue>): <fpage>190</fpage>–<lpage>98</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.neurobiolaging.2005.01.004" xlink:type="simple">10.1016/j.neurobiolaging.2005.01.004</ext-link></comment> <object-id pub-id-type="pmid">16399206</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Querfurth</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>LaFerla</surname> <given-names>F</given-names></name>. <article-title>Alzheimer's disease</article-title>. <source>N Engl J Med</source>. <year>2010</year>; <volume>362</volume>(<issue>4</issue>): <fpage>329</fpage>–<lpage>44</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1056/NEJMra0909142" xlink:type="simple">10.1056/NEJMra0909142</ext-link></comment> <object-id pub-id-type="pmid">20107219</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Talbot</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Kazi</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Han</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Bakshi</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Stucky</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Demonstrated brain insulin resistance in Alzheimer’s disease patients is associated with IGF-1 resistance, IRS-1 dysregulation, and cognitive decline</article-title>. <source>J Clin Invest</source>. <year>2012</year>; <volume>122</volume>(<issue>4</issue>): <fpage>1316</fpage>–<lpage>38</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1172/JCI59903" xlink:type="simple">10.1172/JCI59903</ext-link></comment> <object-id pub-id-type="pmid">22476197</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Aliev</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Shahida</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Hua Gan</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Firoz</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Khan</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Abuzenadah</surname> <given-names>AM</given-names></name>, <etal>et al</etal>. <article-title>Alzheimer disease and type 2 diabetes mellitus: the link to tyrosine hydroxylase and probable nutritional strategies</article-title>. <source>CNS Neurol Disord Drug Targets</source>. <year>2014</year>; <volume>13</volume>(<issue>3</issue>): <fpage>467</fpage>–<lpage>77</lpage>. <object-id pub-id-type="pmid">24059309</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wyss-Coray</surname> <given-names>T</given-names></name>. <article-title>Inflammation in Alzheimer disease: driving force, bystander or beneficial response?</article-title> <source>Nat Med</source>. <year>2006</year>; <volume>12</volume>(<issue>9</issue>): <fpage>1005</fpage>–<lpage>15</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nm1484" xlink:type="simple">10.1038/nm1484</ext-link></comment> <object-id pub-id-type="pmid">16960575</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Breteler</surname> <given-names>M</given-names></name>. <article-title>Vascular risk factors for Alzheimer’s disease: An epidemiologic perspective</article-title>. <source>Neurobiol Aging</source>. <year>2000</year>; <volume>21</volume>(<issue>2</issue>): <fpage>153</fpage>–<lpage>60</lpage>. <object-id pub-id-type="pmid">10867200</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rosenberg</surname> <given-names>P</given-names></name>. <article-title>Clinical aspects of inflammation in Alzheimer's disease</article-title>. <source>Int Rev Psychiatry</source>. <year>2005</year>; <volume>17</volume>(<issue>6</issue>): <fpage>503</fpage>–<lpage>14</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1080/02646830500382037" xlink:type="simple">10.1080/02646830500382037</ext-link></comment> <object-id pub-id-type="pmid">16401549</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yamamoto</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kiyota</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Walsh</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kipnis</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Ikezu</surname> <given-names>T</given-names></name>. <article-title>Cytokine-mediated inhibition of fibrillar amyloid-β peptide degradation by human mononuclear phagocytes</article-title>. <source>J Immunol</source>. <year>2008</year>; <volume>181</volume>(<issue>6</issue>): <fpage>3877</fpage>–<lpage>86</lpage>. <object-id pub-id-type="pmid">18768842</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sheweita</surname> <given-names>SA</given-names></name>, <name name-style="western"><surname>Mashaly</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Newairy</surname> <given-names>AA</given-names></name>, <name name-style="western"><surname>Abdou</surname> <given-names>HM</given-names></name>, <name name-style="western"><surname>Eweda</surname> <given-names>SM</given-names></name>. <article-title>Changes in oxidative stress and antioxidant enzyme activities in streptozotocin-induced diabetes mellitus in rats: Role of Alhagi maurorum extracts</article-title>. <source>Oxid Med Cell Longev</source>. <year>2016</year>; <volume>2016</volume>: <fpage>5264064</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1155/2016/5264064" xlink:type="simple">10.1155/2016/5264064</ext-link></comment> <object-id pub-id-type="pmid">26885249</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hajhashemi</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Ghannadi</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Jafarabadi</surname> <given-names>H</given-names></name>. <article-title>Black cumin seed essential oil, as a potent analgesic and antiinflammatory drug</article-title>. <source>Phytother Res</source>. <year>2004</year>; <volume>18</volume>(<issue>3</issue>): <fpage>195</fpage>–<lpage>99</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/ptr.1390" xlink:type="simple">10.1002/ptr.1390</ext-link></comment> <object-id pub-id-type="pmid">15103664</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kalus</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Pruss</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Bystron</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Jurecka</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Smekalova</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Lichius</surname> <given-names>J</given-names></name> <etal>et al</etal>. <article-title>Effect of Nigella sativa (black seed) on subjective feeling in patients with allergic diseases</article-title>. <source>Phytother Res</source>. <year>2003</year>; <volume>17</volume>(<issue>10</issue>): <fpage>1209</fpage>–<lpage>14</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/ptr.1356" xlink:type="simple">10.1002/ptr.1356</ext-link></comment> <object-id pub-id-type="pmid">14669258</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hosseini</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Mohammadpour</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Karami</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Rajaei</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Reza Sadeghnia</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Soukhtanloo</surname> <given-names>M</given-names></name>. <article-title>Effects of the hydro-alcoholic extract of Nigella Sativa on scopolamine-induced spatial memory impairment in rats and its possible mechanism</article-title>. <source>Chin J Integr Med</source>. <year>2015</year>; <volume>21</volume>(<issue>6</issue>): <fpage>438</fpage>–<lpage>44</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s11655-014-1742-5" xlink:type="simple">10.1007/s11655-014-1742-5</ext-link></comment> <object-id pub-id-type="pmid">24584756</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Johnson</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Noble</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Tartaglia</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Buckley</surname> <given-names>N</given-names></name>. <article-title>Neurodegeneration as an RNA disorder</article-title>. <source>Prog Neurobiol</source>. <year>2012</year>; <volume>99</volume>(<issue>3</issue>): <fpage>293</fpage>–<lpage>315</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.pneurobio.2012.09.006" xlink:type="simple">10.1016/j.pneurobio.2012.09.006</ext-link></comment> <object-id pub-id-type="pmid">23063563</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bartel</surname> <given-names>D</given-names></name>. <article-title>MicroRNAs: genomics, biogenesis, mechanism, and function</article-title>. <source>Cell</source>. <year>2004</year>; <volume>116</volume>(<issue>2</issue>): <fpage>281</fpage>–<lpage>97</lpage>. <object-id pub-id-type="pmid">14744438</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Huang</surname> <given-names>Q</given-names></name>, <name name-style="western"><surname>Hu</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Stromberg</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Nelson</surname> <given-names>P</given-names></name>. <article-title>Patterns of microRNA expression in normal and early Alzheimer’s disease human temporal cortex: white matter versus gray matter</article-title>. <source>Acta Neuropathol</source>. <year>2011</year>; <volume>121</volume>(<issue>2</issue>): <fpage>193</fpage>–<lpage>205</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s00401-010-0756-0" xlink:type="simple">10.1007/s00401-010-0756-0</ext-link></comment> <object-id pub-id-type="pmid">20936480</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Balbaa</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>El-Zeftawy</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ghareeb</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Taha</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Mandour</surname> <given-names>A</given-names></name>. <article-title>Nigella sativa relieves the altered insulin receptor signaling in streptozotocin-induced diabetic rats fed with a high-fat diet</article-title>. <source>Oxid Med Cell Longev</source>. <year>2016</year>; <volume>2016</volume>: <fpage>2492107</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1155/2016/2492107" xlink:type="simple">10.1155/2016/2492107</ext-link></comment> <object-id pub-id-type="pmid">27579151</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dinagaran</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Sridhar</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Eganathan</surname> <given-names>P</given-names></name>. <article-title>Chemical composition and antioxidant activities of black seed oil (Nigella sativa L.)</article-title>. <source>IJPSR</source>, <year>2016</year>; <volume>7</volume>(<issue>11</issue>): <fpage>4473</fpage>–<lpage>79</lpage>.</mixed-citation></ref>
+<ref id="pone.0172429.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Srinivasan</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Viswanad</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Asrat</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Kaul</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Ramarao</surname> <given-names>P</given-names></name>. <article-title>Combination of high-fat diet-fed and low-dose streptozotocin-treated rat: A model for type 2 diabetes and pharmacological screening</article-title>. <source>Pharmacol Res</source>. <year>2005</year>; <volume>52</volume>(<issue>4</issue>): <fpage>313</fpage>–<lpage>20</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.phrs.2005.05.004" xlink:type="simple">10.1016/j.phrs.2005.05.004</ext-link></comment> <object-id pub-id-type="pmid">15979893</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rahman</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Venkatraman</surname> <given-names>S</given-names></name>. <article-title>Evaluation of antidiabetic activity of picrorhiza scrophulariiflora pennell in high fat fed diet with streptozotocin induced type ii diabetic rats</article-title>. <source>Int J Pharm Sci Res</source>. <year>2011</year>; <volume>2</volume>(<issue>7</issue>): <fpage>1829</fpage>–<lpage>35</lpage>.</mixed-citation></ref>
+<ref id="pone.0172429.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Doumas</surname> <given-names>BT</given-names></name>, <name name-style="western"><surname>Bayes</surname> <given-names>DD</given-names></name>, <name name-style="western"><surname>Carter</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Peters</surname> <given-names>T</given-names> <suffix>Jr.</suffix></name>, <name name-style="western"><surname>Schaffer</surname> <given-names>A</given-names></name>. <article-title>A candidate reference method for determination of total protein in serum. I. Development and validation</article-title>. <source>Clin Chem</source>. <year>1981</year>; <volume>27</volume>(<issue>10</issue>): <fpage>1642</fpage>–<lpage>50</lpage>. <object-id pub-id-type="pmid">6169466</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tappel</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Zalkin</surname> <given-names>H</given-names></name>. <article-title>Lipide peroxidation in isolated mitochondria</article-title>. <source>Arch Biochem Biophys</source>. <year>1959</year>; <volume>80</volume>(<issue>2</issue>): <fpage>326</fpage>–<lpage>32</lpage>.</mixed-citation></ref>
+<ref id="pone.0172429.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Montgomery</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Dymock</surname> <given-names>J</given-names></name>. <article-title>Colorimetric determination of nitric oxide</article-title>. <source>Analyst</source>. <year>1961</year>; <volume>86</volume>: <fpage>414</fpage>–<lpage>17</lpage>.</mixed-citation></ref>
+<ref id="pone.0172429.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jollow</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Mitchell</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Zampaglione</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Gillette</surname> <given-names>J</given-names></name>. <article-title>Bromobenzene-induced liver necrosis. Protective role of glutathione and evidence for 3, 4-bromobenzene oxide as the hepatotoxic metabolite</article-title>. <source>Pharmacology</source>. <year>1974</year>; <volume>11</volume>(<issue>3</issue>): <fpage>151</fpage>–<lpage>69</lpage>. <object-id pub-id-type="pmid">4831804</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Habig</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Pabst</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Jakoby</surname> <given-names>W</given-names></name>. <article-title>Glutathione S-transferases the first enzymatic step in mercapturic acid formation</article-title>. <source>J Biol Chem</source>. <year>1974</year>; <volume>249</volume>(<issue>22</issue>): <fpage>7130</fpage>–<lpage>39</lpage>. <object-id pub-id-type="pmid">4436300</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Paglia</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Valentine</surname> <given-names>W</given-names></name>. <article-title>Studies on the quantitative and qualitative characterisation of erythrocyte glutathione peroxidase</article-title>. <source>J Lab Clin Med</source>. <year>1967</year>; <volume>70</volume>(<issue>1</issue>): <fpage>158</fpage>–<lpage>69</lpage>. <object-id pub-id-type="pmid">6066618</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Marklund</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Marklund</surname> <given-names>G</given-names></name>. <article-title>Involvement of the superoxide anion radical in the autoxidation of pyrogallol and a convenient assay for superoxide dismutase</article-title>. <source>Eur J Biochem</source>. <year>1974</year>; <volume>47</volume>(<issue>3</issue>): <fpage>469</fpage>–<lpage>74</lpage>. <object-id pub-id-type="pmid">4215654</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Litwack</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Bothwell</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Williams</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Elvehjem</surname> <given-names>C</given-names></name>. <article-title>A colorimetric assay for xanthine oxidase in rat liver homogenates</article-title>. <source>J Biol Chem</source>. <year>1953</year>; <volume>200</volume>(<issue>1</issue>): <fpage>303</fpage>–<lpage>10</lpage>. <object-id pub-id-type="pmid">13034787</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ellman</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Courtney</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Andres</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Featherstone</surname> <given-names>R</given-names></name>. <article-title>A new and rapid colorimetric determination of acetylcholinesterase activity</article-title>. <source>Biochem Pharmacol</source>. <year>1961</year>; <volume>7</volume>(<issue>2</issue>): <fpage>88</fpage>–<lpage>95</lpage>.</mixed-citation></ref>
+<ref id="pone.0172429.ref035"><label>35</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mitchell</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Iadarola</surname> <given-names>MJ</given-names></name>. <article-title>RT-PCR analysis of pain genes: use of gel-based RT-PCR for studying induced and tissue-enriched gene expression</article-title>. <source>Methods Mol Biol</source>. <year>2010</year>; <volume>617</volume>: <fpage>279</fpage>–<lpage>95</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/978-1-60327-323-7_21" xlink:type="simple">10.1007/978-1-60327-323-7_21</ext-link></comment> <object-id pub-id-type="pmid">20336429</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref036"><label>36</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Burnette</surname> <given-names>W</given-names></name>. <article-title>Western blotting: electrophoretic transfer of proteins from sodium dodecyl sulfate-polyacrylamide gels to unmodified nitrocellulose and radiographic detection with antibody and radioiodinated protein A</article-title>. <source>Anal Biochem</source>. <year>1981</year>; <volume>112</volume>(<issue>2</issue>): <fpage>195</fpage>–<lpage>203</lpage>. <object-id pub-id-type="pmid">6266278</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref037"><label>37</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Livak</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Schmittgen</surname> <given-names>T</given-names></name>. <article-title>Analysis of relative gene expression data using real-time quantitative PCR and the 2− ΔΔCT method</article-title>. <source>Methods</source>. <year>2001</year>; <volume>25</volume>(<issue>4</issue>): <fpage>402</fpage>–<lpage>8</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1006/meth.2001.1262" xlink:type="simple">10.1006/meth.2001.1262</ext-link></comment> <object-id pub-id-type="pmid">11846609</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref038"><label>38</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Padurariu</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ciobica</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Hritcu</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Stoica</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Bild</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Stefanescu</surname> <given-names>C</given-names></name>. <article-title>Changes of some oxidative stress markers in the serum of patients with mild cognitive impairment and Alzheimer's disease</article-title>. <source>Neurosci Lett</source>. <year>2010</year>; <volume>469</volume>(<issue>1</issue>): <fpage>6</fpage>–<lpage>10</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.neulet.2009.11.033" xlink:type="simple">10.1016/j.neulet.2009.11.033</ext-link></comment> <object-id pub-id-type="pmid">19914330</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref039"><label>39</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yu</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Robotham</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Yoon</surname> <given-names>Y</given-names></name>. <article-title>Increased production of reactive oxygen species in hyperglycemic conditions requires dynamic change of mitochondrial morphology</article-title>. <source>Proc Natl Acad Sci USA</source>. <year>2006</year>; <volume>103</volume>(<issue>8</issue>): <fpage>2653</fpage>–<lpage>58</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.0511154103" xlink:type="simple">10.1073/pnas.0511154103</ext-link></comment> <object-id pub-id-type="pmid">16477035</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref040"><label>40</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Aksoy</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Vural</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Sabuncu</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Aksoy</surname> <given-names>S</given-names></name>. <article-title>Effects of melatonin on oxidative–antioxidative status of tissues in streptozotocin-induced diabetic rats</article-title>. <source>Cell Biochem Funct</source>. <year>2003</year>; <volume>21</volume>(<issue>2</issue>): <fpage>121</fpage>–<lpage>25</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/cbf.1006" xlink:type="simple">10.1002/cbf.1006</ext-link></comment> <object-id pub-id-type="pmid">12736900</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref041"><label>41</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Steinberg</surname> <given-names>G</given-names></name>. <article-title>Inflammation in obesity is a common link between defects in fatty acid metabolism and insulin resistance</article-title>. <source>Cell Cycle</source>. <year>2007</year>; <volume>6</volume>(<issue>8</issue>): <fpage>888</fpage>–<lpage>94</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.4161/cc.6.8.4135" xlink:type="simple">10.4161/cc.6.8.4135</ext-link></comment> <object-id pub-id-type="pmid">17438370</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref042"><label>42</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mendivil</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Sierra</surname> <given-names>I</given-names></name>. <article-title>Acción insulínica y resistencia a la insulina: aspectos moleculares</article-title>. <source>Rev Fac Med</source>. <year>2005</year>; <volume>53</volume>(<issue>4</issue>): <fpage>235</fpage>–<lpage>43</lpage>.</mixed-citation></ref>
+<ref id="pone.0172429.ref043"><label>43</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Senn</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Klover</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Nowak</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Zimmers</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Koniaris</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Furlanetto</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>Suppressor of cytokine signaling-3 (SOCS-3), a potential mediator of interleukin-6-dependent insulin resistance in hepatocytes</article-title>. <source>J Biol Chem</source>. <year>2003</year>; <volume>278</volume>(<issue>16</issue>): <fpage>13740</fpage>–<lpage>46</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1074/jbc.M210689200" xlink:type="simple">10.1074/jbc.M210689200</ext-link></comment> <object-id pub-id-type="pmid">12560330</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref044"><label>44</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rai</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Kamat</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Nath</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Shukla</surname> <given-names>R</given-names></name>. <article-title>Glial activation and post-synaptic neurotoxicity: the key events in Streptozotocin (ICV) induced memory impairment in rats</article-title>. <source>Pharmacol Biochem Behav</source>. <year>2014</year>; <volume>117</volume>: <fpage>104</fpage>–<lpage>17</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.pbb.2013.11.035" xlink:type="simple">10.1016/j.pbb.2013.11.035</ext-link></comment> <object-id pub-id-type="pmid">24333387</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref045"><label>45</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rai</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Kamat</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Nath</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Shukla</surname> <given-names>R</given-names></name>. <article-title>A study on neuroinflammation and NMDA receptor function in STZ (ICV) induced memory impaired rats</article-title>. <source>J Neuroimmunol Suppl</source>. <year>2013</year>; <volume>254</volume>(<issue>1</issue>): <fpage>1</fpage>–<lpage>9</lpage>.</mixed-citation></ref>
+<ref id="pone.0172429.ref046"><label>46</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sims</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Bowen</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Neary</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Davison</surname> <given-names>N</given-names></name>. <article-title>Metabolic processes in Alzheimer's disease: adenine nucleotide content and production of 14CO2 from [U-14C] glucose in vitro in human neocortex</article-title>. <source>J Neurochem</source>. <year>1983</year>; <volume>41</volume>(<issue>5</issue>): <fpage>1329</fpage>–<lpage>34</lpage>. <object-id pub-id-type="pmid">6413656</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref047"><label>47</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sorbi</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Bird</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Blass</surname> <given-names>J</given-names></name>. <article-title>Decreased pyruvate dehydrogenase complex activity in Huntington and Alzheimer brain</article-title>. <source>Ann Neurol</source>. <year>1983</year>; <volume>13</volume>(<issue>1</issue>): <fpage>72</fpage>–<lpage>78</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/ana.410130116" xlink:type="simple">10.1002/ana.410130116</ext-link></comment> <object-id pub-id-type="pmid">6219611</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref048"><label>48</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cunnane</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Nugent</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Roy</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Courchesne-Loyer</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Croteau</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Tremblay</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Brain fuel metabolism, aging, and Alzheimer’s disease</article-title>. <source>Nutrition</source>. <year>2011</year>; <volume>27</volume>: <fpage>3</fpage>–<lpage>20</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.nut.2010.07.021" xlink:type="simple">10.1016/j.nut.2010.07.021</ext-link></comment> <object-id pub-id-type="pmid">21035308</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref049"><label>49</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Beheshti</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Khazaei</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Hosseini</surname> <given-names>M</given-names></name>. <article-title>Neuropharmacological effects of Nigella sativa</article-title>. <source>Avicenna J Phytomed</source>. <year>2016</year>; <volume>6</volume>(<issue>1</issue>): <fpage>104</fpage>–<lpage>116</lpage>.</mixed-citation></ref>
+<ref id="pone.0172429.ref050"><label>50</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Alhebshi</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Gotoh</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Suzuki</surname> <given-names>I</given-names></name>. <article-title>Thymoquinone protect cultured rat primary neurons against amyloid β-induced neurotoxicity</article-title>. <source>Biochem Biophys Res Commun</source>. <year>2013</year>. <volume>433</volume> (<issue>4</issue>): <fpage>362</fpage>–<lpage>67</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.bbrc.2012.11.139" xlink:type="simple">10.1016/j.bbrc.2012.11.139</ext-link></comment> <object-id pub-id-type="pmid">23537659</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref051"><label>51</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chen</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Zhou</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Kwak</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Ma</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Antidiabetic drug metformin (GlucophageR) increases biogenesis of Alzheimer's amyloid peptides via up-regulating BACE1 transcription</article-title>. <source>Proc Natl Acad Sci USA</source>. <year>2009</year>; <volume>106</volume>(<issue>10</issue>): <fpage>3907</fpage>–<lpage>12</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.0807991106" xlink:type="simple">10.1073/pnas.0807991106</ext-link></comment> <object-id pub-id-type="pmid">19237574</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref052"><label>52</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kickstein</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Krauss</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Thornhill</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Rutschow</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Zeller</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Sharkey</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Biguanide metformin acts on tau phosphorylation via mTOR/protein phosphatase 2A (PP2A) signaling</article-title>. <source>Proc Natl Acad Sci USA</source>. <year>2010</year>; <volume>107</volume>(<issue>50</issue>): <fpage>21830</fpage>–<lpage>35</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.0912793107" xlink:type="simple">10.1073/pnas.0912793107</ext-link></comment> <object-id pub-id-type="pmid">21098287</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref053"><label>53</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ingham</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Williams</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Bate</surname> <given-names>C</given-names></name>. <article-title>Glimepiride reduces CD14 expression and cytokine secretion from macrophages</article-title>. <source>J Neuroinflammation</source>. <year>2014</year>; <volume>11</volume>:<fpage>115</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1742-2094-11-115" xlink:type="simple">10.1186/1742-2094-11-115</ext-link></comment> <object-id pub-id-type="pmid">24952384</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref054"><label>54</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liu</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Yan</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Pang</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Liao</surname> <given-names>H</given-names></name>. <article-title>Glimepiride attenuates Aβ production via suppressing BACE1 activity in cortical neurons</article-title>. <source>Neurosci Lett</source> <year>2013</year>; <volume>557</volume>: <fpage>90</fpage>–<lpage>94</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.neulet.2013.10.052" xlink:type="simple">10.1016/j.neulet.2013.10.052</ext-link></comment> <object-id pub-id-type="pmid">24184877</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref055"><label>55</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Beisswenger</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Ruggiero-Lopez</surname> <given-names>D</given-names></name>. <article-title>Metformin inhibition of glycation processes</article-title>. <source>Diabetes Metab</source>. <year>2003</year>; <volume>29</volume>(<issue>4</issue>): <fpage>6S95</fpage>–<lpage>6S103</lpage>.</mixed-citation></ref>
+<ref id="pone.0172429.ref056"><label>56</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nakamura</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Oyama</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Komoda</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Shiraki</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Sakamoto</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Taguchi</surname> <given-names>I</given-names></name>, <etal>et al</etal>. <article-title>Possible effects of glimepiride beyond glycemic control in patients with type 2 diabetes: a preliminary report</article-title>. <source>Cardiovasc Diabetol</source>. <year>2014</year>; <volume>13</volume>: <fpage>15</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1475-2840-13-15" xlink:type="simple">10.1186/1475-2840-13-15</ext-link></comment> <object-id pub-id-type="pmid">24423092</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref057"><label>57</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liu</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Grundke-Iqbal</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Iqbal</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Gong</surname> <given-names>C</given-names></name>. <article-title>Deficient brain insulin signalling pathway in Alzheimer's disease and diabetes</article-title>. <source>J Pathol</source>. <year>2011</year>; <volume>225</volume>(<issue>1</issue>): <fpage>54</fpage>–<lpage>62</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/path.2912" xlink:type="simple">10.1002/path.2912</ext-link></comment> <object-id pub-id-type="pmid">21598254</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref058"><label>58</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bosco</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Fava</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Plastino</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Montalcini</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Pujia</surname> <given-names>A</given-names></name>. <article-title>Possible implications of insulin resistance and glucose metabolism in Alzheimer’s disease pathogenesis</article-title>. <source>J Cell Mol Med</source>. <year>2011</year>; <volume>15</volume>(<issue>9</issue>): <fpage>1807</fpage>–<lpage>21</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1582-4934.2011.01318.x" xlink:type="simple">10.1111/j.1582-4934.2011.01318.x</ext-link></comment> <object-id pub-id-type="pmid">21435176</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref059"><label>59</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kruszynska</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Worrall</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Ofrecio</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Frias</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Macaraeg</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Olefsky</surname> <given-names>J</given-names></name>. <article-title>Fatty acid-induced insulin resistance: decreased muscle PI3K activation but unchanged Akt phosphorylation</article-title>. <source>J Clin Endocrinol Metab</source>. <year>2002</year>; <volume>87</volume>(<issue>1</issue>): <fpage>226</fpage>–<lpage>34</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1210/jcem.87.1.8187" xlink:type="simple">10.1210/jcem.87.1.8187</ext-link></comment> <object-id pub-id-type="pmid">11788651</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref060"><label>60</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Al-Majed</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Al-Omar</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Nagi</surname> <given-names>M</given-names></name>. <article-title>Neuroprotective effects of thymoquinone against transient forebrain ischemia in the rat hippocampus</article-title>. <source>Eur J Pharmacol</source>. <year>2006</year>; <volume>543</volume>(<issue>1</issue>): <fpage>40</fpage>–<lpage>47</lpage>.</mixed-citation></ref>
+<ref id="pone.0172429.ref061"><label>61</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Le</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Benhaddou-Andaloussi</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Elimadi</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Settaf</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Cherrah</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Haddad</surname> <given-names>P</given-names></name>. <article-title>The petroleum ether extract of Nigella sativa exerts lipid-lowering and insulin-sensitizing actions in the rat</article-title>. <source>J Ethnopharmacol</source>. <year>2004</year>; <volume>94</volume>(<issue>2–3</issue>): <fpage>251</fpage>–<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jep.2004.04.030" xlink:type="simple">10.1016/j.jep.2004.04.030</ext-link></comment> <object-id pub-id-type="pmid">15325727</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref062"><label>62</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Krichevsky</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>King</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Donahue</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Khrapko</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Kosik</surname> <given-names>K</given-names></name>. <article-title>A microRNA array reveals extensive regulation of microRNAs during brain development</article-title>. <source>RNA</source>. <year>2003</year>; <volume>9</volume>(<issue>10</issue>): <fpage>1274</fpage>–<lpage>81</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1261/rna.5980303" xlink:type="simple">10.1261/rna.5980303</ext-link></comment> <object-id pub-id-type="pmid">13130141</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref063"><label>63</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nelson</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>W</given-names></name>. <article-title>MiR-107 is reduced in Alzheimer's disease brain neocortex: validation study</article-title>. <source>J Alzheimers Dis</source>. <year>2010</year>; <volume>21</volume>(<issue>1</issue>): <fpage>75</fpage>–<lpage>79</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3233/JAD-2010-091603" xlink:type="simple">10.3233/JAD-2010-091603</ext-link></comment> <object-id pub-id-type="pmid">20413881</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref064"><label>64</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hébert</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Horré</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Nicolaï</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Papadopoulou</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Mandemakers</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Silahtaroglu</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Loss of microRNA cluster miR-29a/b-1 in sporadic Alzheimer's disease correlates with increased BACE1/β-secretase expression</article-title>. <source>Proc Natl Acad Sci USA</source>. <year>2008</year>; <volume>105</volume>(<issue>17</issue>): <fpage>6415</fpage>–<lpage>20</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.0710263105" xlink:type="simple">10.1073/pnas.0710263105</ext-link></comment> <object-id pub-id-type="pmid">18434550</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref065"><label>65</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zong</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Dong</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Quan</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Zhu</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Xu</surname> <given-names>Y</given-names></name>, <etal>et al</etal>. <article-title>miR-29c regulates BACE1 protein expression</article-title>. <source>Brain Res</source>. <year>2011</year>; <volume>1395</volume>: <fpage>108</fpage>–<lpage>15</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.brainres.2011.04.035" xlink:type="simple">10.1016/j.brainres.2011.04.035</ext-link></comment> <object-id pub-id-type="pmid">21565331</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref066"><label>66</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mott</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kurita</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Cazanave</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Bronk</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Werneburg</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Fernandez-Zapico</surname> <given-names>M</given-names></name>. <article-title>Transcriptional suppression of mir-29b-1/mir-29a promoter by c-Myc, hedgehog, and NF-kappaB</article-title>. <source>J Cell Biochem</source>. <year>2010</year>; <volume>110</volume>(<issue>5</issue>): <fpage>1155</fpage>–<lpage>64</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/jcb.22630" xlink:type="simple">10.1002/jcb.22630</ext-link></comment> <object-id pub-id-type="pmid">20564213</object-id></mixed-citation></ref>
+<ref id="pone.0172429.ref067"><label>67</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhang</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Dong</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Ren</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Driscoll</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Culver</surname> <given-names>B</given-names></name>. <article-title>High dietary fat induces NADPH oxidase-associated oxidative stress and inflammation in rat cerebral cortex</article-title>. <source>Exp Neurol</source>. <year>2005</year>; <volume>191</volume>(<issue>2</issue>): <fpage>318</fpage>–<lpage>25</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.expneurol.2004.10.011" xlink:type="simple">10.1016/j.expneurol.2004.10.011</ext-link></comment> <object-id pub-id-type="pmid">15649487</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

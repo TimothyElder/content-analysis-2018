@@ -1,0 +1,614 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0181767</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-17-14408</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Clinical genetics</subject><subj-group><subject>Chromosomal disorders</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Chromosome biology</subject><subj-group><subject>Chromosomes</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Plant science</subject><subj-group><subject>Plant anatomy</subject><subj-group><subject>Pollen</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>Departures from diploidy</subject><subj-group><subject>Polyploidy</subject><subj-group><subject>Triploidy</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Cell processes</subject><subj-group><subject>Cell cycle and cell division</subject><subj-group><subject>Cytokinesis</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Plants</subject><subj-group><subject>Trees</subject><subj-group><subject>Poplars</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Evolutionary biology</subject><subj-group><subject>Population genetics</subject><subj-group><subject>Ploidy</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>Population genetics</subject><subj-group><subject>Ploidy</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Population biology</subject><subj-group><subject>Population genetics</subject><subj-group><subject>Ploidy</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Chromosome biology</subject><subj-group><subject>Chromosomes</subject><subj-group><subject>Chromosome structure and function</subject></subj-group></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Abnormal meiosis in an intersectional allotriploid of <italic>Populus</italic> L. and segregation of ploidy levels in 2x × 3x progeny</article-title>
+<alt-title alt-title-type="running-head">Meiosis in allotriploid poplar and ploidy level segregation in progeny</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-0679-1125</contrib-id>
+<name name-style="western">
+<surname>Wang</surname>
+<given-names>Jun</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Huo</surname>
+<given-names>Beibei</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Liu</surname>
+<given-names>Wanting</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Li</surname>
+<given-names>Daili</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+<xref ref-type="fn" rid="currentaff001"><sup>¤</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Liao</surname>
+<given-names>Ling</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Beijing Advanced Innovation Centre for Tree Breeding by Molecular Design, Beijing Forestry University, Beijing, People’s Republic of China</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>National Engineering Laboratory in Tree Breeding, Beijing Forestry University, Beijing, People’s Republic of China</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Key Laboratory of Genetics and Breeding in Forest Trees and Ornamental Plants, MOE, Beijing Forestry University, Beijing, People’s Republic of China</addr-line></aff>
+<aff id="aff004"><label>4</label> <addr-line>College of Biological Sciences and Technology, Beijing Forestry University, Beijing, People’s Republic of China</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Prigent</surname>
+<given-names>Claude</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Institut de Genetique et Developpement de Rennes, FRANCE</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="current-aff" id="currentaff001">
+<label>¤</label>
+<p>Current address: Beijing Huang Fa Nursery, Beijing, People’s Republic of China.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">wangjun@bjfu.edu.cn</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>21</day>
+<month>7</month>
+<year>2017</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2017</year>
+</pub-date>
+<volume>12</volume>
+<issue>7</issue>
+<elocation-id>e0181767</elocation-id>
+<history>
+<date date-type="received">
+<day>13</day>
+<month>4</month>
+<year>2017</year>
+</date>
+<date date-type="accepted">
+<day>6</day>
+<month>7</month>
+<year>2017</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2017</copyright-year>
+<copyright-holder>Wang et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0181767"/>
+<abstract>
+<p>Triploid plants are usually highly aborted owing to unbalanced meiotic chromosome segregation, but limited viable gametes can participate in the transition to different ploidy levels. In this study, numerous meiotic abnormalities were found with high frequency in an intersectional allotriploid poplar (<italic>Populus alba</italic> × <italic>P</italic>. <italic>berolinensis</italic> ‘Yinzhong’), including univalents, precocious chromosome migration, lagging chromosomes, chromosome bridges, micronuclei, and precocious cytokinesis, indicating high genetic imbalance in this allotriploid. Some micronuclei trigger mini-spindle formation in metaphase II and participate in cytokinesis to form polyads with microcytes. Unbalanced chromosome segregation and chromosome elimination resulted in the formation of microspores with aneuploid chromosome sets. Fusion of sister nuclei occurs in microsporocytes with precocious cytokinesis, which could form second meiotic division restitution (SDR)-type gametes. However, SDR-type gametes likely contain incomplete chromosome sets due to unbalanced segregation of homologous chromosomes during the first meiotic division in triploids. Misorientation of spindles during the second meiotic division, such as fused and tripolar spindles with low frequency, could result in the formation of first meiotic division restitution (FDR)-type unreduced gametes, which most likely contain three complete chromosome sets. Although ‘Yinzhong’ yields 88.7% stainable pollen grains with wide diameter variation from 23.9 to 61.3 μm, the pollen viability is poor (2.78% ± 0.38). A cross of ‘Yinzhong’ pollen with a diploid female clone produced progeny with extensive segregation of ploidy levels, including 29 diploids, 18 triploids, 4 tetraploids, and 48 aneuploids, suggesting the formation of viable aneuploidy and unreduced pollen in ‘Yinzhong’. Individuals with different chromosome compositions are potential to analyze chromosomal function and to integrate the chromosomal dosage variation into breeding programs of <italic>Populus</italic>.</p>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100001809</institution-id>
+<institution>National Natural Science Foundation of China</institution>
+</institution-wrap>
+</funding-source>
+<award-id>31470662</award-id>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-0679-1125</contrib-id>
+<name name-style="western">
+<surname>Wang</surname>
+<given-names>Jun</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award002">
+<funding-source>
+<institution>The 12th National Key Technology R&amp;D Program</institution>
+</funding-source>
+<award-id>2015BAD09B02</award-id>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-0679-1125</contrib-id>
+<name name-style="western">
+<surname>Wang</surname>
+<given-names>Jun</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award003">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100004602</institution-id>
+<institution>Program for New Century Excellent Talents in University</institution>
+</institution-wrap>
+</funding-source>
+<award-id>NCET-13-0672</award-id>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-0679-1125</contrib-id>
+<name name-style="western">
+<surname>Wang</surname>
+<given-names>Jun</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award004">
+<funding-source>
+<institution>The Beijing Nova program</institution>
+</funding-source>
+<award-id>Z141105001814007</award-id>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-0679-1125</contrib-id>
+<name name-style="western">
+<surname>Wang</surname>
+<given-names>Jun</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award005">
+<funding-source>
+<institution>The program from the Beijing Municipal Education Commission</institution>
+</funding-source>
+<award-id>CEFF-PXM2017_014207_000043</award-id>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-0679-1125</contrib-id>
+<name name-style="western">
+<surname>Wang</surname>
+<given-names>Jun</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>This work was supported by the National Natural Science Foundation of China (31470662), the 12th National Key Technology R&amp;D Program (2015BAD09B02), Program for New Century Excellent Talents in University (NCET-13-0672), the Beijing Nova program (Z141105001814007), and the program from the Beijing Municipal Education Commission (CEFF-PXM2017_014207_000043). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="6"/>
+<table-count count="2"/>
+<page-count count="16"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Polyploidization is an important driving force in plant speciation and evolution [<xref ref-type="bibr" rid="pone.0181767.ref001">1</xref>,<xref ref-type="bibr" rid="pone.0181767.ref002">2</xref>]. During the evolution process of plants, crosses between different ploidy levels contribute to chromosomal introgression and genetic diversity [<xref ref-type="bibr" rid="pone.0181767.ref003">3</xref>–<xref ref-type="bibr" rid="pone.0181767.ref005">5</xref>]. Interploidy hybridization is also a useful pathway for the creation of new germplasms and crops varieties [<xref ref-type="bibr" rid="pone.0181767.ref006">6</xref>,<xref ref-type="bibr" rid="pone.0181767.ref007">7</xref>]. However, polyploids with odd numbers of chromosome sets, especially triploids, are usually unstable, which can either be sterile to be aborted in the evolution process due to their reproductive barrier, or contribute to production of polyploid gametes, depending on the species [<xref ref-type="bibr" rid="pone.0181767.ref008">8</xref>–<xref ref-type="bibr" rid="pone.0181767.ref010">10</xref>].</p>
+<p>Polyploids with odd ploidy levels have difficulty carrying out regular meiosis owing to their genetic imbalance. Irregular chromosome pairing and unequal meiotic division commonly occur, resulting in unbalanced chromosome segregation and chromosome elimination [<xref ref-type="bibr" rid="pone.0181767.ref011">11</xref>]. Therefore, each spore after asymmetrical cytokinesis contains incomplete chromosome sets, i.e., aneuploidy, and the aneuploid unbalanced chromosomal composition causes high levels of sterility in gametes. Nevertheless, some aneuploid gametes can take part in fertilization to produce aneuploid progeny [<xref ref-type="bibr" rid="pone.0181767.ref012">12</xref>–<xref ref-type="bibr" rid="pone.0181767.ref016">16</xref>]. Additionally, meiotic nuclear division restitution in odd polyploids can also produce unreduced viable gametes, although the production of unreduced gametes is low frequency [<xref ref-type="bibr" rid="pone.0181767.ref017">17</xref>]. The production of viable aneuploidy and unreduced gametes suggests that polyploids with odd ploidy levels also have value in acting as a bridge for the induction of chromosomal number variation [<xref ref-type="bibr" rid="pone.0181767.ref017">17</xref>–<xref ref-type="bibr" rid="pone.0181767.ref019">19</xref>].</p>
+<p>Aneuploids are particularly valuable for chromosome engineering breeding and cytogenetic research. Monosomic, nullisomic, trisomic and tetrasomic wheat lines have all been established to analyze chromosomal function and evolutionary relationships and to locate particular genes [<xref ref-type="bibr" rid="pone.0181767.ref020">20</xref>]. In <italic>Arabidopsis thaliana</italic> (L.) heynh., triploids have produced a group of aneuploids by self-pollination [<xref ref-type="bibr" rid="pone.0181767.ref021">21</xref>], and phenotypic variation is strongly associated with chromosome composition and dosage variation in <italic>A</italic>. <italic>thaliana</italic> aneuploids [<xref ref-type="bibr" rid="pone.0181767.ref022">22</xref>]. Chromosome manipulation based on aneuploids has attracted increasing attention for improving efficiency in plant breeding.</p>
+<p>Poplars are dioecious, beding widely cultivated across the Northern Hemisphere as an important source of fiber, biomass and lumber [<xref ref-type="bibr" rid="pone.0181767.ref023">23</xref>]. They also have been considered a model tree for molecular biological and genetic research in woody plants, owing to the relatively small genome size and short reproductive cycle [<xref ref-type="bibr" rid="pone.0181767.ref024">24</xref>]. Utilization of chromosome number variation is an important approach in <italic>Populus</italic> breeding programs, and many allotriploid poplar cultivars, including triploid <italic>P</italic>. <italic>tomentosa</italic> Carr., <italic>P</italic>. <italic>alba</italic> L. × <italic>P</italic>. <italic>berolinensis</italic> Dippel. ‘Yinzhong’, <italic>P</italic>. <italic>tremula</italic> L. × <italic>P</italic>. <italic>tremuloides</italic> Michx. ‘Astria’, <italic>P</italic>. × <italic>euramericana</italic> (Dode) Guiner CL. ‘Zhonglin-46’, <italic>P</italic>. × <italic>canadensis</italic> Moench cv. ‘Sacrau 79’, and <italic>P</italic>. × <italic>euramericana</italic> (Dode) Guiner cv. ‘Wuhei-1’ [<xref ref-type="bibr" rid="pone.0181767.ref025">25</xref>–<xref ref-type="bibr" rid="pone.0181767.ref028">28</xref>], have been widely used in plantations owing to their favorable growth performance and pulpwood characteristics [<xref ref-type="bibr" rid="pone.0181767.ref029">29</xref>,<xref ref-type="bibr" rid="pone.0181767.ref030">30</xref>]. A series of methods for polyploid induction have been developed to increase the induction efficiency and heterozygosity of polyploid progeny [<xref ref-type="bibr" rid="pone.0181767.ref031">31</xref>–<xref ref-type="bibr" rid="pone.0181767.ref037">37</xref>]. However, chromosomal function and the relationship between chromosome composition and commercial phenotypic variation are poorly characterized in <italic>Populus</italic> owing to the lack of aneuploid germplasms.</p>
+<p><italic>P</italic>. <italic>alba</italic> × <italic>P</italic>. <italic>berolinensis</italic> ‘Yinzhong’ is an artificially synthesized male allotriploid hybrid. The parents <italic>P</italic>. <italic>alba</italic> and <italic>P</italic>. <italic>berolinensis</italic> are both diploid, belonging to two different sections (sect. Populus and sect. Aigeiros, respectively) within the genus <italic>Populus</italic> [<xref ref-type="bibr" rid="pone.0181767.ref038">38</xref>]. It is speculated that ‘Yinzhong’ is derived from the union between a normal gamete and a spontaneous unreduced gamete from one of the parents [<xref ref-type="bibr" rid="pone.0181767.ref026">26</xref>]. Generally, the sect. Populus is reproductively isolated from other sections [<xref ref-type="bibr" rid="pone.0181767.ref039">39</xref>]. Internal transcribed spacer (ITS) sequence analysis showed that sect. Aigeiros and sect. Populus had different evolution ratios [<xref ref-type="bibr" rid="pone.0181767.ref040">40</xref>], suggesting relatively large genetic divergence between the two sections. In this study, we analyzed meiotic abnormalities and pollen variation of the intersectional allotriploid ‘Yinzhong’. A cross between the triploid and a diploid female clone was conducted to produce progeny with ploidy level segregation, aiming to further analyze chromosomal function in <italic>Populus</italic> and integrate the potential for chromosomal dosage variation into <italic>Populus</italic> breeding programs.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and methods</title>
+<sec id="sec003">
+<title>Plant materials</title>
+<p>Floral branches of allotriploid ‘Yinzhong’ were collected from a plantation in Tongliao City (Inner Mongolia Autonomous Region, People’s Republic of China). The plantation was established by the Forestry Research Institute of Tongliao City, the Inner Mongolia Autonomous Region, People’s Republic of China. We got the permission from the institute to collect the branches for research. For sexual hybridization, a diploid female clone of <italic>P</italic>. <italic>tomentosa</italic> Carr. × <italic>P</italic>. <italic>bolleana</italic> Lauche, TB03 (2n = 2x = 38), collected from the campus of China Agricultural University, was used as the female parent. TB03 has usually been used as the female parent in test crosses of section Populus, because it has good fertility and no spontaneous unreduced egg production was found [<xref ref-type="bibr" rid="pone.0181767.ref041">41</xref>,<xref ref-type="bibr" rid="pone.0181767.ref042">42</xref>]. Floral branches of ‘Yinzhong’ and TB03 were cultured in water in a greenhouse (10–20°C) to force floral development.</p>
+</sec>
+<sec id="sec004">
+<title>Cytological observations of microsporogenesis</title>
+<p>Floral buds of ‘Yinzhong’ undergoing meiotic development were collected and immediately fixed in an ethanol-acetic acid fixative solution (3:1 v/v) at 4°C for 24 h, and then they were stored in 70% ethanol until analysis.</p>
+<p>Microsporocytes were pressed out of anthers and stained in 1% aceto-carmine on a microscope slide. To increase chromosome stainability, preparations were heated slightly over a flame before observation. All preparations were observed using a microscope (BX51: Olympus), and photos were taken with an attached video camera (DP70: Olympus). Meiotic pairing configurations were recorded based on 21 early metaphase I cells. The frequency of precocious chromosome migration in metaphase I, laggard chromosomes or bridge formation in anaphase I, the presence of micronuclei in telophase I and II, and the number of parallel, fused and tripolar spindles in anaphase II were analyzed together with the variation of sporad types. The meiotic index was calculated as the fratio of the number of normal sporads to the total number of sporads analyzed per hybrid multiplied by 100 [<xref ref-type="bibr" rid="pone.0181767.ref043">43</xref>].</p>
+</sec>
+<sec id="sec005">
+<title>Indirect immunofluorescence of microtubules</title>
+<p>Indirect immunofluorescence testing was used to analyze the change in the microtubule cytoskeleton according to Wang et al. [<xref ref-type="bibr" rid="pone.0181767.ref044">44</xref>,<xref ref-type="bibr" rid="pone.0181767.ref045">45</xref>]. Anthers were fixed in 4% paraformaldehyde in PEM buffer (50 mM Pipes, 5 mM EGTA, 2 mM MgSO<sub>4</sub>, pH 6.9) for 45 min. After three 5-min rinses in PEM buffer, the anthers were treated with 10% dimethylsulfoxide (DMSO) and 1% Triton X-100 for 15 min each. The anthers were then rinsed in PEM buffer, followed by three 5-min rinses in PBS buffer (137 mM NaCl, 2.7 mM KCl, 7 mM Na<sub>2</sub>HPO<sub>4</sub>, 1.5 mM KH<sub>2</sub>PO<sub>4</sub>, pH 7.3). Subsequently, microsporocytes were squeezed out from the anthers and transferred to a slide coated with 0.1% poly-L-lysine (Sigma-P1274: Sigma-Aldrich, St Louis, MO, USA). The cells were incubated in a monoclonal anti-α-tubulin antibody (Sigma-T9026: Sigma-Aldrich) diluted 1:100 with the PBS buffer for 2 h at 37°C in a moist chamber. Following further washing with the PBS buffer, the microsporocytes were incubated in FITC-conjugated antimouse IgG (Sigma-F0257: Sigma-Aldrich) diluted 1:100 with the PBS buffer for 2 h at 37°C in a dark chamber. After a final wash in the PBS buffer, the microsporocytes were mounted using mounting medium with 4′, 6-diamidino-2-phenylindole (DAPI; Vectashield® H-1200: Vector Laboratories, Inc., Burlingame, CA, USA). The preparations were observed and photographed with a confocal laser scanning microscope (TCS-SP5: Leica, Solms, Germany).</p>
+</sec>
+<sec id="sec006">
+<title>Analysis of pollen size and viability</title>
+<p>A pollen sample was collected from freshly dehiscent anthers on male catkins. The fresh pollen sample was mounted immediately in a drop of 1% aceto-carmine on a microscope slide. Empty and shrunken pollen grains were scored. The diameter of 1,500 stained spherical pollen grains was measured using an ocular micrometer to establish a histogram of the frequency distribution.</p>
+<p>The fresh pollen samples were germinated on agar medium containing 15 g L<sup>−1</sup> agar, 120 g L<sup>−1</sup> sucrose, 60 mg L<sup>−1</sup> boric acid and 80 mg L<sup>−1</sup> calcium nitrate to test its viability. After 24 h of culturing, the germination rates were recorded based on five replications.</p>
+</sec>
+<sec id="sec007">
+<title>Crossing experiment</title>
+<p>When catkins of female parent TB03 acquired stigma receptivity, they were pollinated with fresh ‘Yinzhong’ pollen in a greenhouse. After the catkins matured, seeds were collected and germinated in sterile soil, and the seedlings were transplanted to the field when they reached approximately 30 cm in height.</p>
+</sec>
+<sec id="sec008">
+<title>Analysis of ploidy levels</title>
+<p>Determination of the ploidy level of ‘Yinzhong’ was conducted by somatic chromosome counting. Stem tips were removed from seedlings and pretreated with a saturated solution of paradichlorobenzene for 4 h at 25°C. The materials were then fixed in fresh Farmer’s solution (ethanol/acetic acid, 3:1) for 24 h at 4°C and then hydrolyzed in 38% HCl/ethanol (1:1) for 25 min at room temperature. After washing in distilled water three times for 15 min, the hydrolyzed materials were squashed in a carbol fuchsin solution on a microscope slide. The preparation was observed using an Olympus BX51 microscope.</p>
+<p>For the progeny, when seedlings had more than three leaves, a young leaf was used to analyze the ploidy level by flow cytometry. Flow cytometric analysis was conducted according to Galbraith et al. [<xref ref-type="bibr" rid="pone.0181767.ref046">46</xref>]. Briefly, young leaves of the seedlings were chopped in modified Galbraith’s buffer (45 mM MgCl<sub>2</sub>·6H<sub>2</sub>O, 20 mM MOPS, 30 mM sodium citrate, 0.5% Triton X-100, 1% PVP-10, pH 7.0) using a sharp razor blade on ice. Subsequently, the nuclear suspension was filtered through a 40-μm nylon mesh to remove large debris. Nuclei were stained with 50 μg mL<sup>−1</sup> propidium iodide with RNase at 50 μg mL<sup>−1</sup>. After incubation on ice for 30 min in the dark, samples were analyzed with a BD FACSCalibur flow cytometer. TB03 and ‘Yinzhong’ were used as diploid and triploid criteria, respectively. The somatic chromosome numbers of some seedlings were also checked using the above method.</p>
+</sec>
+</sec>
+<sec id="sec009" sec-type="results">
+<title>Results</title>
+<sec id="sec010">
+<title>Chromosome counting of triploid ‘Yinzhong’</title>
+<p>Although ‘Yinzhong’ was previously determined to be a triploid by Chen et al. [<xref ref-type="bibr" rid="pone.0181767.ref026">26</xref>], the ploidy level of the male clone used in this study was detected to avoid errors. Chromosome counting showed that ‘Yinzhong’ had 57 chromosomes with 3 large ones corresponding to chromosome I of <italic>Populus</italic> (<xref ref-type="fig" rid="pone.0181767.g001">Fig 1</xref>); this indicates that the male clone is a triploid.</p>
+<fig id="pone.0181767.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0181767.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Somatic chromosome counting (2n = 3x = 57) of <italic>P</italic>. <italic>alba</italic> × <italic>P</italic>. <italic>berolinensis</italic> ‘Yinzhong’.</title>
+<p>Arrows indicate the chromosome I. Bar is equal to 10 μm.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0181767.g001" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec011">
+<title>Abnormal chromosome behaviors during microsporogenesis</title>
+<p>Chromosome pairing was examined at early metaphase I, showing the existence of univalents (I), bivalents (II), and trivalents (III) (<xref ref-type="table" rid="pone.0181767.t001">Table 1</xref>, <xref ref-type="fig" rid="pone.0181767.g002">Fig 2A</xref>). The average meiotic configuration was 15.2I + 14.0II + 4.6III. The univalents ranged from 6 to 30, indicating partial failure of uniparental chromosomal pairing and high genomic heterozygosity of ‘Yinzhong’. The trivalents ranged from 1 to 7, suggesting some degree of homology between the two parents of ‘Yinzhong’, although the parents belong to two different sections.</p>
+<fig id="pone.0181767.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0181767.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Meiotic abnormalities of the allotriploid <italic>P</italic>. <italic>alba</italic> × <italic>P</italic>. <italic>berolinensis</italic> ‘Yinzhong’.</title>
+<p>a. Early metaphase I with several univalents and trivalents (arrows); b–c. Metaphase I with a multipolar spindle showing chromosome arrangement (b) and microtubule distribution (c); d. Metaphase I with precociously migrated chromosomes; e. Anaphase I with lagging chromosomes (arrow); f. Telophase I with micronucleus (arrow); g. Telophase II with micronucleus (arrow); h. Anaphase II with chromosome bridge (arrow); i. DAPI stained Telophase II showing chromosome bridge (arrow). a, d–h Bars are equal to 10 μm; b, c, i Bars are equal to 5 μm.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0181767.g002" xlink:type="simple"/>
+</fig>
+<table-wrap id="pone.0181767.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0181767.t001</object-id>
+<label>Table 1</label> <caption><title>Meiotic pairing configuration of the allotriploid <italic>P</italic>. <italic>alba</italic> × <italic>P</italic>. <italic>berolinensis</italic> ‘Yinzhong’.</title></caption>
+<alternatives>
+<graphic id="pone.0181767.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0181767.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" rowspan="2">Clone</th>
+<th align="left" rowspan="2">Chromosome number</th>
+<th align="left" rowspan="2">No. of early metaphase I cells</th>
+<th align="left" colspan="3">Pairing configuration</th>
+</tr>
+<tr>
+<th align="left">Univalents</th>
+<th align="left">Bivalents</th>
+<th align="left">Trivalents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Yinzhong</td>
+<td align="left">57</td>
+<td align="left">21</td>
+<td align="left">15.2 (6–30)</td>
+<td align="left">14.0 (10–18)</td>
+<td align="left">4.6 (1–7)</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>A large number of meiotic abnormalities were recorded in this allotriploid ‘Yinzhong’ (<xref ref-type="table" rid="pone.0181767.t002">Table 2</xref>), showing unbalanced chromosome segregation. At diakinesis, several univalents and multivalents were found (<xref ref-type="fig" rid="pone.0181767.g002">Fig 2A</xref>), suggesting aberrant synapsis in this allotriploid. At metaphase I, abnormal chromosome disposition was observed (<xref ref-type="fig" rid="pone.0181767.g002">Fig 2B</xref>), and as a result, the spindle formed an abnormal structure (<xref ref-type="fig" rid="pone.0181767.g002">Fig 2C</xref>). Moreover, some chromosomes migrated precociously to the poles in almost all cells (<xref ref-type="fig" rid="pone.0181767.g002">Fig 2D</xref>). In anaphase I, lagging chromosomes (<xref ref-type="fig" rid="pone.0181767.g002">Fig 2E</xref>) and chromosome bridges were found with frequencies of 59.07% and 6.56%, respectively. Some lagging chromosomes could form micronuclei at telophase I (<xref ref-type="fig" rid="pone.0181767.g002">Fig 2F</xref>) with a frequency of 68.87%. During the second meiotic division, micronuclei located in the cytoplasm still were observed (<xref ref-type="fig" rid="pone.0181767.g002">Fig 2G</xref>). In anaphase II and telophase II, lagging chromosomes and chromosome bridges were also found (<xref ref-type="fig" rid="pone.0181767.g002">Fig 2H and 2I</xref>).</p>
+<table-wrap id="pone.0181767.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0181767.t002</object-id>
+<label>Table 2</label> <caption><title>Meiotic abnormalities in the allotriploid <italic>P</italic>. <italic>alba</italic> × <italic>P</italic>. <italic>berolinensis</italic> ‘Yinzhong’.</title></caption>
+<alternatives>
+<graphic id="pone.0181767.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0181767.t002" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Phase</th>
+<th align="left">No. of analyzed cells</th>
+<th align="left">No. of abnormal cells (%)</th>
+<th align="left">Abnormalities</th>
+<th align="left">No. of each abnormality</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Metaphase I</td>
+<td align="left">1,026</td>
+<td align="left">1,003 (97.76)</td>
+<td align="left">Precocious chromosome migration</td>
+<td align="left">1,003</td>
+</tr>
+<tr>
+<td align="left" rowspan="2">Anaphase I</td>
+<td align="left" rowspan="2">259</td>
+<td align="left" rowspan="2">162 (62.55)</td>
+<td align="left">Lagging chromosomes</td>
+<td align="left">153</td>
+</tr>
+<tr>
+<td align="left">Chromosome bridge</td>
+<td align="left">17</td>
+</tr>
+<tr>
+<td align="left">Telophase I</td>
+<td align="left">379</td>
+<td align="left">261 (68.87)</td>
+<td align="left">Micronuclei</td>
+<td align="left">261</td>
+</tr>
+<tr>
+<td align="left" rowspan="2">Prophase II</td>
+<td align="left" rowspan="2">233</td>
+<td align="left" rowspan="2">201 (86.27)</td>
+<td align="left">Micronuclei</td>
+<td align="left">174</td>
+</tr>
+<tr>
+<td align="left">Precocious cytokinesis</td>
+<td align="left">49</td>
+</tr>
+<tr>
+<td align="left" rowspan="4">Anaphase II</td>
+<td align="left" rowspan="4">468</td>
+<td align="left" rowspan="4">209 (44.66)</td>
+<td align="left">Parallel spindles</td>
+<td align="left">5</td>
+</tr>
+<tr>
+<td align="left">Fused spindles</td>
+<td align="left">11</td>
+</tr>
+<tr>
+<td align="left">Tripolar spindles</td>
+<td align="left">8</td>
+</tr>
+<tr>
+<td align="left">Precocious cytokinesis</td>
+<td align="left">185</td>
+</tr>
+<tr>
+<td align="left" rowspan="2">Telophase II</td>
+<td align="left" rowspan="2">590</td>
+<td align="left" rowspan="2">468 (79.32)</td>
+<td align="left">Micronuclei</td>
+<td align="left">328</td>
+</tr>
+<tr>
+<td align="left">Precocious cytokinesis</td>
+<td align="left">219</td>
+</tr>
+<tr>
+<td align="left" rowspan="3">Meiotic product</td>
+<td align="left" rowspan="3">1,936</td>
+<td align="left" rowspan="3">263 (13.58)</td>
+<td align="left">Dyad</td>
+<td align="left">38</td>
+</tr>
+<tr>
+<td align="left">Triad</td>
+<td align="left">71</td>
+</tr>
+<tr>
+<td align="left">Polyad</td>
+<td align="left">154</td>
+</tr>
+<tr>
+<td align="left">Meiotic index</td>
+<td align="left"/>
+<td align="left">86.42</td>
+<td align="left"/>
+<td align="left"/>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec012">
+<title>Misorientation of spindles and aberrant cytokinesis</title>
+<p>Precocious cytokinesis was observed in some microsporocytes after the first meiotic division because the cell plate formed in advance to separate the two daughter nuclei into different cytoplasm domains (<xref ref-type="fig" rid="pone.0181767.g003">Fig 3A</xref>). During the second meiotic division, the chromosomes in different domains could be positioned in the equatorial region and separated to two different poles to form daughter nuclei (<xref ref-type="fig" rid="pone.0181767.g003">Fig 3B–3D</xref>). The frequency of precocious cytokinesis increased from 21.03% at prophase II to 37.12% at telophase II, suggesting that precocious cytokinesis also occurred during the second meiotic division. In some cells with precocious cytokinesis, secondary cell plates formed between sister nuclei to achieve second cytokinesis at telophase II (<xref ref-type="fig" rid="pone.0181767.g003">Fig 3E</xref>). The formation of phragmoplasts between sister nuclei defined the position of the cell plate and predicted the occurrence of cytokinesis (<xref ref-type="fig" rid="pone.0181767.g003">Fig 3F</xref>). However, fusion of sister nuclei located in the same cytoplasm domain was also observed in some microsporocytes when secondary cell plates failed to form (<xref ref-type="fig" rid="pone.0181767.g003">Fig 3F and 3G</xref>), resulting in the formation of dyads and triads in meiotic products (<xref ref-type="fig" rid="pone.0181767.g003">Fig 3H and 3I</xref>).</p>
+<fig id="pone.0181767.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0181767.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Precocious cytokinesis and nuclear fusion.</title>
+<p>a–d. Precocious cytokinesis in prophase II (a), metaphase II (b), anaphase II (c) and telophase II (d); e. Completion of successive cytokinesis showing formation of secondary cell plates between sister nuclei (arrows); f. Telophase II with precocious cytokinesis showing a fused nucleus in a daughter cell and separate nuclei by phragmoplast (arrow) in the other cell; g. Telophase II with precocious cytokinesis showing nuclear fusion in both daughter cells; h. Triad with a fused nucleus; i. Dyad with two fused nuclei. Bars are equal to 10 μm.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0181767.g003" xlink:type="simple"/>
+</fig>
+<p>In some microsporocytes without precocious cytokinesis during the second meiotic division, misoriented spindles, including parallel, fused, and tripolar spindles, were observed (<xref ref-type="fig" rid="pone.0181767.g004">Fig 4A–4C</xref>). Fluorescence location analysis showed that there was an organelle layer positioned between two spindles of parallel type (<xref ref-type="fig" rid="pone.0181767.g004">Fig 4D</xref>), which separated the spindle domains. In metaphase II, the micronucleus formed isolated chromosomes located beyond the primary chromosome sets (<xref ref-type="fig" rid="pone.0181767.g004">Fig 4E and 4G</xref>). The isolated chromosomes led to the formation of mini-spindles in the cytoplasm (<xref ref-type="fig" rid="pone.0181767.g004">Fig 4F and 4H</xref>), which gave rise to microcytes in the meiotic products (<xref ref-type="fig" rid="pone.0181767.g004">Fig 4I</xref>). The chromosomes in microcytes were eliminated from daughter nuclei.</p>
+<fig id="pone.0181767.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0181767.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Spindle misorientations and meiotic products.</title>
+<p>a–c. Anaphase II with parallel spindles (a), fused spindles (b) and tripolar spindles (c); d. Metaphase II with an organelle band (arrow) between two spindles; e–f. Metaphase II with a mini-spindle showing chromosome arrangement (e) and microtubule distribution (f); g–h. Anaphase II with a mini-spindle showing chromosome arrangement (g) and microtubule distribution (h); i. Polyad with microcytes (arrow); j–o. Tetrads with different arrangements of daughter cells; p. Tetrad with unbalanced cytokinesis. Bars are equal to 10 μm in (a)–(c), (i)–(p); bars are equal to 5 μm in (d)–(h).</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0181767.g004" xlink:type="simple"/>
+</fig>
+<p>Among the meiotic products, 1.96% dyads, 3.67% triads and 7.95% polyads were recorded. The meiotic index was 86.42%. Tetrads had different arrangement patterns such as tetrahedral, tetragonal, rhombic, linear, and T-type arrangements (<xref ref-type="fig" rid="pone.0181767.g004">Fig 4J–4P</xref>). In some microspores, micronuclei and the primary nucleus were allocated into one microspore (<xref ref-type="fig" rid="pone.0181767.g004">Fig 4O and 4P</xref>), which resulted in unbalanced cytokinesis and chromosome segregation.</p>
+</sec>
+<sec id="sec013">
+<title>Size variation and viability of pollen grains</title>
+<p>In newly collected pollen samples, approximately 11.3% of the pollen grains were empty and shrunken (<xref ref-type="fig" rid="pone.0181767.g005">Fig 5A</xref>). The diameter of the stainable pollen grains ranged from 23.9 to 61.3 μm with an average of 39.6 μm (±4.2). The pollen diameters approximately followed a Gaussian frequency distribution (<xref ref-type="fig" rid="pone.0181767.g005">Fig 5B</xref>), suggesting that most ‘Yinzhong’ pollen grains are aneuploid owing to completion of triploid meiosis, although a few large pollen grains may be unreduced. A germination test showed that just 2.78% (±0.38) of pollen grains germinated for this allotriploid, indicating that the viability of ‘Yinzhong’ pollen is poor. The tubes of the germinated pollen grains underwent normal growth on medium (<xref ref-type="fig" rid="pone.0181767.g005">Fig 5C</xref>).</p>
+<fig id="pone.0181767.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0181767.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>Pollen grains of <italic>P</italic>. <italic>alba</italic> ×<italic>P</italic>. <italic>berolinensis</italic> ‘Yinzhong’ and their germination.</title>
+<p>a. Pollen morphology of ‘Yinzhong’; b. Histogram of frequency distribution of pollen diameter; c. Pollen germination <italic>in vitro</italic>.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0181767.g005" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec014">
+<title>Segregation of ploidy levels among progeny</title>
+<p>Fresh pollen from the allotriploid ‘Yinzhong’ was used to pollinate a highly fertile TB03 female parent. Only 691 seeds were collected from 22 catkins, indicating the low pollen fertility of the allotriploid. After seed sowing, 99 seedlings were obtained.</p>
+<p>The progeny exhibited extensive segregation of ploidy levels, including 29 diploids, 18 triploids, 4 tetraploids and 48 aneuploids (<xref ref-type="fig" rid="pone.0181767.g006">Fig 6A</xref>), suggesting that some aneuploid pollen grains of ‘Yinzhong’ are fertile and that unreduced pollen took part in the fertilization to produce seeds. Based on chromosome number, 39 of the aneuploids were classified into “aneuploid I” (<xref ref-type="fig" rid="pone.0181767.g006">Fig 6B–6D</xref>) with a chromosome number between 38 and 57, and 9 aneuploids were classified into “aneuploid II” (<xref ref-type="fig" rid="pone.0181767.g006">Fig 6E</xref>) with a chromosome number between 57 and 76.</p>
+<fig id="pone.0181767.g006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0181767.g006</object-id>
+<label>Fig 6</label>
+<caption>
+<title>Segregation of ploidy levels in the progeny between <italic>P</italic>. <italic>tomentosa</italic> × <italic>P</italic>. <italic>bolleana</italic> YB03 and <italic>P</italic>. <italic>alba</italic> × <italic>P</italic>. <italic>berolinensis</italic> ‘Yinzhong’.</title>
+<p>a. Histogram of seedling number with different ploidy levels among the progeny (Aneuploid I: containing chromosome number between 38 and 57; Aneuploid II: containing chromosome number between 57 and 76); b–e. Somatic chromosome counting in some aneuploid individuals. The chromosome numbers are 45 (b), 52 (c), 53 (d), and 68 (e).</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0181767.g006" xlink:type="simple"/>
+</fig>
+</sec>
+</sec>
+<sec id="sec015" sec-type="conclusions">
+<title>Discussion</title>
+<p>Meiosis in polyploids is characterized by complex chromosomal pairing and chromosome segregation. Imbalanced chromosome pairing and segregation result in the production of lagging chromosomes and micronuclei [<xref ref-type="bibr" rid="pone.0181767.ref011">11</xref>,<xref ref-type="bibr" rid="pone.0181767.ref047">47</xref>]. In an allotriploid white poplar, multivalents, lagging chromosomes and micronuclei were recorded at high frequencies [<xref ref-type="bibr" rid="pone.0181767.ref044">44</xref>]. In this study, the allotriploid ‘Yinzhong’ showed partial failure of uniparental chromosomal pairing, with an average meiotic configuration of 15.2I + 14.0II + 4.6III. Meiotic abnormalites such as precocious chromosome migration, lagging chromosomes, and micronuclei, were also found with high frequency in the allotriploid ‘Yinzhong’, indicating that intersectional hybridization and polyploidization may induce abnormal chromosome segregation in <italic>Populus</italic>. Moreover, chromosome bridges were also observed during meiosis in this study, suggesting that chromosome structural variation occurred in ‘Yinzhong’.</p>
+<p>Microsporogenesis of <italic>P</italic>. <italic>alba</italic> occurs normally with the sole exception of several laggards in anaphase I and II [<xref ref-type="bibr" rid="pone.0181767.ref048">48</xref>]. In <italic>P</italic>. <italic>berolinensis</italic>, which is a putative natural hybrid between <italic>P</italic>. <italic>laurifolia</italic> and <italic>P</italic>. <italic>nigra</italic> var. <italic>italica</italic>, abnormal meiotic phenomena such as multinuclei, multinucleoli, monads, dyads, and polyads have been observed [<xref ref-type="bibr" rid="pone.0181767.ref049">49</xref>]. Previous studies on diploid <italic>Populus</italic> hybrids also showed that hybridization tends to induce occurrence of meiotic abnormalities [<xref ref-type="bibr" rid="pone.0181767.ref045">45</xref>,<xref ref-type="bibr" rid="pone.0181767.ref050">50</xref>]. However, compared with the diploid species and hybrids of <italic>Populus</italic>, although meiosis in ‘Yinzhong’ showed similar abnormalities, the frequency of abnormalities was high in ‘Yinzhong’, suggesting that more abnormalities might be induced by its distant genomic composition and polyploidization.</p>
+<p>Production of unreduced gametes has been reported in many species and hybrids of the genus <italic>Populus</italic> [<xref ref-type="bibr" rid="pone.0181767.ref044">44</xref>,<xref ref-type="bibr" rid="pone.0181767.ref045">45</xref>,<xref ref-type="bibr" rid="pone.0181767.ref050">50</xref>–<xref ref-type="bibr" rid="pone.0181767.ref054">54</xref>]. There are multiple cytological mechanisms of unreduced gamete formation, which have been reviewed frequently [<xref ref-type="bibr" rid="pone.0181767.ref055">55</xref>,<xref ref-type="bibr" rid="pone.0181767.ref056">56</xref>]. In diploid species of <italic>Populus</italic>, formation of unreduced gametes have been attributed to misorientation of spindles and failure of cytokinesis [<xref ref-type="bibr" rid="pone.0181767.ref052">52</xref>–<xref ref-type="bibr" rid="pone.0181767.ref054">54</xref>], while Wang et al. [<xref ref-type="bibr" rid="pone.0181767.ref044">44</xref>] found that fused and tripolar spindles in the second meiotic division and aberrant cytokinesis result from complete or partial lack of nuclear-based radial microtubule systems (RMSs), leading to unreduced pollen formation in an allotriploid white poplar. In this study, besides fused and tripolar spindles, fusion of sister nuclei within the same cytoplasm domain in microsporocytes with precocious cytokinesis also contributed to nucleus restitution. The fused and tripolar spindles initiated first meiotic division restitution (FDR), and the fusion of sister nuclei induced second meiotic division restitution (SDR). For diploid species, both FDR- and SDR-type unreduced gametes possess complete chromosome sets. For triploids, however, SDR-type gametes are likely to contain incomplete chromosome sets due to unbalanced segregation of homologous chromosomes during the first meiotic division. Therefore, these FDR-type unreduced 3x pollen grains probably resulted in tetraploid production in the progeny, with the triploid functioning as an intermediate in the transition from diploid to tetraploid [<xref ref-type="bibr" rid="pone.0181767.ref018">18</xref>,<xref ref-type="bibr" rid="pone.0181767.ref021">21</xref>].</p>
+<p>Occurrence of parallel spindles does not necessarily lead to unreduced gamete formation in some species, including <italic>P</italic>. <italic>tomentosa</italic> [<xref ref-type="bibr" rid="pone.0181767.ref011">11</xref>,<xref ref-type="bibr" rid="pone.0181767.ref054">54</xref>]. During the second meiotic division, organelles, including mitochondria and plastid, are usually located between the two spindles to form a layer, separating the cytoplasm into dyad domains [<xref ref-type="bibr" rid="pone.0181767.ref057">57</xref>]. In this study, an organelle layer was observed in microsporocytes with normal and parallel spindle orientations, which likely prevented the fusion of spindles [<xref ref-type="bibr" rid="pone.0181767.ref058">58</xref>].</p>
+<p>Generally, gametes of triploid plants are expected to be highly sterile because most are aneuploid with an incomplete or unbalanced chromosome composition [<xref ref-type="bibr" rid="pone.0181767.ref059">59</xref>]. However, in previous studies on blueberry [<xref ref-type="bibr" rid="pone.0181767.ref013">13</xref>], melon [<xref ref-type="bibr" rid="pone.0181767.ref014">14</xref>], <italic>Musa</italic> [<xref ref-type="bibr" rid="pone.0181767.ref015">15</xref>], apple [<xref ref-type="bibr" rid="pone.0181767.ref016">16</xref>], and <italic>Populus</italic> [<xref ref-type="bibr" rid="pone.0181767.ref012">12</xref>], aneuploid progeny were produced by crossing triploids with diploids, suggesting that some aneuploid gametes may be fertile. In the allotriploid studied here, the wide range of pollen diameter may represent the various chromosome numbers of pollen grains. Nevertheless, the germination test showed that the viability of the pollen grains was low, indicating that some special chromosomal combinations are more likely to be fertile than others [<xref ref-type="bibr" rid="pone.0181767.ref060">60</xref>].</p>
+<p>Crossing with polyploids is an effective way to induce variation in ploidy levels. In <italic>Actinidia chinensis</italic> Planch., a cross between a hexaploid and a diploid produced hybrids with extensive ploidy level segregation, including triploids, tetraploids, pentaploids, heptaploids, and octaploids [<xref ref-type="bibr" rid="pone.0181767.ref061">61</xref>]. In aspen, pollen grains from triploid plants have been used to pollinate diploids, resulting in the production of triploids, tetraploids, and aneuploids [<xref ref-type="bibr" rid="pone.0181767.ref012">12</xref>]. In this study, interploidy hybridization between the diploid TB03 and the allotriploid ‘Yinzhong’ also resulted in segregation of ploidy levels among progeny, with diploids, triploids, tetraploids and aneuploids bing produced. This diversity in ploidy levels can be used in polyploidy breeding programs and genetic research into <italic>Populus</italic>.</p>
+<p>In the evolution of polyploid plants, compensated aneuploids can be synthesized such that the loss of one chromosome is compensated for by the gain of a chromosome from another type despite having a “euploid” chromosome number [<xref ref-type="bibr" rid="pone.0181767.ref062">62</xref>–<xref ref-type="bibr" rid="pone.0181767.ref064">64</xref>]. Such compensated aneuploids play important roles in maintaining genome balance and chromosome stability [<xref ref-type="bibr" rid="pone.0181767.ref065">65</xref>,<xref ref-type="bibr" rid="pone.0181767.ref066">66</xref>]. In this study, 18 triploids were produced. Although these triploids had the “euploid” 57 chromosomes, they were unlikely to contain three integrated chromosome sets owing to unbalanced segregation of meiotic chromosomes in triploids. It is inferred that these triploids are likely compensated aneuploids.</p>
+<p>Aneuploids are an important bridge for chromosomal introgression and substitution in crop breeding. Aneuploids have been systematically studied in wheat to reveal the origin and function of different chromosomes and to locate important genes on chromosomes [<xref ref-type="bibr" rid="pone.0181767.ref020">20</xref>]. Furthermore, chromosome engineering based on aneuploids has produced a series of wheat-alien chromosome addition or substitution lines [<xref ref-type="bibr" rid="pone.0181767.ref067">67</xref>]. However, chromosomal introgression and substitution do not occur in trees owing to a lack of aneuploidy series. In this study, <italic>Populus</italic> aneuploids were produced by crossing with the allotriploid ‘Yinzhong’. Aneuploids are valuable for analysis of chromosomal function and chromosome engineering breeding in <italic>Populus</italic>; thus, it is important to clarify the chromosomal composition of each aneuploid in the progeny.</p>
+<p>Karyotypic analysis based on chromosome morphology is difficult for poplar trees because their chromosomes are all small, with the exception of chromosome I. Multicolor fluorescent <italic>in situ</italic> hybridization (McFISH) is a feasible method for analyzing the chromosomal karyotype [<xref ref-type="bibr" rid="pone.0181767.ref068">68</xref>]. Hu et al. [<xref ref-type="bibr" rid="pone.0181767.ref069">69</xref>] located ribosomal DNA and telomere repeat sequence probes in <italic>Populus</italic> chromosomes using McFISH; however, the development of chromosome-specific probes is necessary to identify each chromosome of the <italic>Populus</italic> species. With ongoing advances in molecular biology, array comparative genome hybridization (aCGH), single nucleotide polymorphism (SNP) genotyping, quantitative fluorescent PCR (QF-PCR), and genome sequencing have been used to conduct karyotyping [<xref ref-type="bibr" rid="pone.0181767.ref070">70</xref>–<xref ref-type="bibr" rid="pone.0181767.ref073">73</xref>]. Henry et al. [<xref ref-type="bibr" rid="pone.0181767.ref074">74</xref>] developed a system of dosage-based functional genomics to analyze variations in chromosomal number and structure in poplar, and they precisely detected abundant deletions and insertions of chromosomal segments in poplar progeny derived from crossing with gamma-irradiated pollen. These molecular karyotyping techniques can also be used to investigate features of the chromosomal composition of the aneuploids in this investigation.</p>
+</sec>
+</body>
+<back>
+<ack>
+<p>The authors thank the Forestry Research Institute of Tongliao City, the Inner Mongolia Autonomous Region, P. R. China, for collecting the plant material and for additional help.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0181767.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Van de Peer</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Maere</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Meyer</surname> <given-names>A</given-names></name>. <article-title>The evolutionary significance of ancient genome duplications</article-title>. <source>Nat Rev Genet</source>. <year>2009</year>;<volume>10</volume>:<fpage>725</fpage>–<lpage>732</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrg2600" xlink:type="simple">10.1038/nrg2600</ext-link></comment> <object-id pub-id-type="pmid">19652647</object-id></mixed-citation></ref>
+<ref id="pone.0181767.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>De Storme</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Mason</surname> <given-names>A</given-names></name>. <article-title>Plant speciation through chromosome instability and ploidy change: Cellular mechanisms, molecular factors and evolutionary relevance</article-title>. <source>Curr Plant Biol</source>. <year>2014</year>;<volume>1</volume>:<fpage>10</fpage>–<lpage>33</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Reif</surname> <given-names>JC</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Dreisigacker</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Warburton</surname> <given-names>ML</given-names></name>, <name name-style="western"><surname>van Ginkel</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Hoisington</surname> <given-names>D</given-names></name>, <etal>et al</etal>. <article-title>Wheat genetic diversity trends during domestication and breeding</article-title>. <source>Theor Appl Genet</source>. <year>2005</year>;<volume>110</volume>(<issue>5</issue>):<fpage>859</fpage>–<lpage>864</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00122-004-1881-8" xlink:type="simple">10.1007/s00122-004-1881-8</ext-link></comment> <object-id pub-id-type="pmid">15690175</object-id></mixed-citation></ref>
+<ref id="pone.0181767.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jørgensen</surname> <given-names>MH</given-names></name>, <name name-style="western"><surname>Ehrich</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Schmickl</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Koch</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Brysting</surname> <given-names>AK</given-names></name>. <article-title>Interspecific and interploidal gene flow in Central European <italic>Arabidopsis</italic> (Brassicaceae)</article-title>. <source>BMC Evol Biol</source>. <year>2011</year>;<volume>11</volume>(<issue>1</issue>):<fpage>346</fpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Li</surname> <given-names>DW</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>YF</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>XW</given-names></name>, <name name-style="western"><surname>Rao</surname> <given-names>JY</given-names></name>, <name name-style="western"><surname>Yao</surname> <given-names>XH</given-names></name>, <name name-style="western"><surname>Zhong</surname> <given-names>CH</given-names></name>. <article-title>Genetic diversity in kiwifruit polyploid complexes: insights into cultivar evaluation, conservation, and utilization</article-title>. <source>Tree Genet Genom</source>. <year>2014</year>; <volume>10</volume>(<issue>5</issue>):<fpage>1451</fpage>–<lpage>1463</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Den Nijs</surname> <given-names>TPM</given-names></name>, <name name-style="western"><surname>Peloquin</surname> <given-names>SJ</given-names></name>. <article-title>2n gametes in potato species and their function in sexual polyploidization</article-title>. <source>Euphytica</source>. <year>1977</year>;<volume>26</volume>:<fpage>585</fpage>–<lpage>600</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref007"><label>7</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Lupton</surname> <given-names>FGH</given-names></name>. <chapter-title>Wheat breeding: its scientific basis</chapter-title>. <publisher-loc>London</publisher-loc>: <publisher-name>Chapman and Hall</publisher-name>; <year>1987</year>.</mixed-citation></ref>
+<ref id="pone.0181767.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Comai</surname> <given-names>L</given-names></name>. <article-title>The advantages and disadvantages of being polyploid</article-title>. <source>Nat Rev Genet</source>. <year>2005</year>;<volume>6</volume>:<fpage>836</fpage>–<lpage>846</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrg1711" xlink:type="simple">10.1038/nrg1711</ext-link></comment> <object-id pub-id-type="pmid">16304599</object-id></mixed-citation></ref>
+<ref id="pone.0181767.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Köhler</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Scheid</surname> <given-names>OM</given-names></name>, <name name-style="western"><surname>Erilova</surname> <given-names>A</given-names></name>. <article-title>The impact of the triploid block on the origin and evolution of polyploid plants</article-title>. <source>Trends Genet</source>. <year>2010</year>;<volume>26</volume>(<issue>3</issue>):<fpage>142</fpage>–<lpage>148</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tig.2009.12.006" xlink:type="simple">10.1016/j.tig.2009.12.006</ext-link></comment> <object-id pub-id-type="pmid">20089326</object-id></mixed-citation></ref>
+<ref id="pone.0181767.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schatlowski</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Köhler</surname> <given-names>C</given-names></name>. <article-title>Tearing down barriers: understanding the molecular mechanisms of interploidy hybridizations</article-title>. <source>J Exp Bot</source>. <year>2012</year>;<volume>63</volume>(<issue>17</issue>):<fpage>6059</fpage>–<lpage>6067</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/jxb/ers288" xlink:type="simple">10.1093/jxb/ers288</ext-link></comment> <object-id pub-id-type="pmid">23105129</object-id></mixed-citation></ref>
+<ref id="pone.0181767.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tel-Zur</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Abbo</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Mizrahi</surname> <given-names>Y</given-names></name>. <article-title>Cytogenetics of semi-fertile triploid and aneuploid intergeneric vine cacti hybrids</article-title>. <source>J Heredity</source>. <year>2005</year>;<volume>96</volume>(<issue>2</issue>):<fpage>124</fpage>–<lpage>131</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Johnsson</surname> <given-names>H</given-names></name>. <article-title>Cytological studies of diploid and triploid <italic>Populus tremula</italic> and of crosses between them</article-title>. <source>Hereditas</source>. <year>1940</year>;<volume>26</volume>(<issue>3–4</issue>):<fpage>321</fpage>–<lpage>352</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dweikat</surname> <given-names>IM</given-names></name>, <name name-style="western"><surname>Lyrene</surname> <given-names>PM</given-names></name>. <article-title>Production and viability of unreduced gametes in triploid interspecific blueberry hybrids</article-title>. <source>Theor Appl Genet</source>. <year>1988</year>;<volume>76</volume>:<fpage>555</fpage>–<lpage>559</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/BF00260907" xlink:type="simple">10.1007/BF00260907</ext-link></comment> <object-id pub-id-type="pmid">24232275</object-id></mixed-citation></ref>
+<ref id="pone.0181767.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ezura</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Kikuta</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Oosawa</surname> <given-names>K</given-names></name>. <article-title>Production of aneuploid melon plants following in vitro culture of seeds from a triploid × diploid cross</article-title>. <source>Plant Cell Tissue Organ</source>. <year>1994</year>;<volume>38</volume>:<fpage>61</fpage>–<lpage>63</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Osuji</surname> <given-names>JO</given-names></name>, <name name-style="western"><surname>Vuylsteke</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Ortiz</surname> <given-names>R</given-names></name>. <article-title>Ploidy variation in hybrids from interploid 3x × 2x crosses in <italic>Musa</italic></article-title>. <source>Tropicult</source>. <year>1997</year>;<volume>15</volume>(<issue>1</issue>):<fpage>37</fpage>–<lpage>39</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhang</surname> <given-names>CH</given-names></name>, <name name-style="western"><surname>Park</surname> <given-names>SM</given-names></name>. <article-title>Aneuploid production form crosses with diploid and triploid in apple tree</article-title>. <source>Hort Environ Biotechnol</source>. <year>2009</year>;<volume>50</volume>(<issue>3</issue>):<fpage>203</fpage>–<lpage>207</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mason</surname> <given-names>AS</given-names></name>, <name name-style="western"><surname>Pires</surname> <given-names>JC</given-names></name>. <article-title>Unreduced gametes: meiotic mishap or evolutionary mechanism?</article-title> <source>Trends Genet</source>. <year>2015</year>;<volume>31</volume>:<fpage>5</fpage>–<lpage>10</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tig.2014.09.011" xlink:type="simple">10.1016/j.tig.2014.09.011</ext-link></comment> <object-id pub-id-type="pmid">25445549</object-id></mixed-citation></ref>
+<ref id="pone.0181767.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jackson</surname> <given-names>RC</given-names></name>. <article-title>Evolution and systematic significance of polyploidy</article-title>. <source>Annu Rev Ecol Syst</source>. <year>1976</year>;<volume>7</volume>:<fpage>209</fpage>–<lpage>234</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Husband</surname> <given-names>BC</given-names></name>. <article-title>The role of triploid hybrids in the evolutionary dynamics of mixed-ploidy populations</article-title>. <source>Biol J Linn Soc</source>. <year>2004</year>;<volume>82</volume>:<fpage>537</fpage>–<lpage>546</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref020"><label>20</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Law</surname> <given-names>CN</given-names></name>, <name name-style="western"><surname>Snape</surname> <given-names>JW</given-names></name> and <name name-style="western"><surname>Worland</surname> <given-names>AJ</given-names></name><chapter-title>. Aneuploidy in wheat and its uses in genetic analysis</chapter-title>. In: <name name-style="western"><surname>Lupton</surname> <given-names>FGH</given-names></name>, editor. <source>Wheat Breeding: Its Scientific Basis</source>. <publisher-loc>London</publisher-loc>: <publisher-name>Chapman and Hall</publisher-name>; <year>1987</year>. pp. <fpage>71</fpage>–<lpage>108</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Henry</surname> <given-names>IM</given-names></name>, <name name-style="western"><surname>Dilkes</surname> <given-names>BP</given-names></name>, <name name-style="western"><surname>Young</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Watson</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Comai</surname> <given-names>L</given-names></name>. <article-title>Aneuploidy and genetic variation in the <italic>Arabidopsis thaliana</italic> triploid response</article-title>. <source>Genetics</source>. <year>2005</year>;<volume>170</volume>:<fpage>1979</fpage>–<lpage>1988</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1534/genetics.104.037788" xlink:type="simple">10.1534/genetics.104.037788</ext-link></comment> <object-id pub-id-type="pmid">15944363</object-id></mixed-citation></ref>
+<ref id="pone.0181767.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Henry</surname> <given-names>IM</given-names></name>, <name name-style="western"><surname>Dilkes</surname> <given-names>BP</given-names></name>, <name name-style="western"><surname>Miller</surname> <given-names>ES</given-names></name>, <name name-style="western"><surname>Burkart-Waco</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Comai</surname> <given-names>L</given-names></name>. <article-title>Phenotypic consequences of aneuploidy in <italic>Arabidopsis thaliana</italic></article-title>. <source>Genetics</source>. <year>2010</year>;<volume>186</volume>:<fpage>1231</fpage>–<lpage>1245</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1534/genetics.110.121079" xlink:type="simple">10.1534/genetics.110.121079</ext-link></comment> <object-id pub-id-type="pmid">20876566</object-id></mixed-citation></ref>
+<ref id="pone.0181767.ref023"><label>23</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Rae</surname> <given-names>AM</given-names></name>, <name name-style="western"><surname>Street</surname> <given-names>NR</given-names></name>, <name name-style="western"><surname>Rodríguez-Acosta</surname> <given-names>M</given-names></name>. <chapter-title><italic>Populus</italic> trees</chapter-title>. In: <name name-style="western"><surname>Kole</surname> <given-names>C</given-names></name>, editor. <source>Genome mapping and molecular breeding in plants, vol 7, Forest trees</source>. <publisher-loc>Berlin Heidelberg</publisher-loc>: <publisher-name>Springer</publisher-name>; <year>2007</year>. pp. <fpage>1</fpage>–<lpage>28</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jansson</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Douglas</surname> <given-names>CJ</given-names></name>. <article-title><italic>Populus</italic>: a model system for plant biology</article-title>. <source>Annu Rev Plant Biol</source>. <year>2007</year>;<volume>58</volume>:<fpage>435</fpage>–<lpage>458</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1146/annurev.arplant.58.032806.103956" xlink:type="simple">10.1146/annurev.arplant.58.032806.103956</ext-link></comment> <object-id pub-id-type="pmid">17280524</object-id></mixed-citation></ref>
+<ref id="pone.0181767.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Baumeister</surname> <given-names>G</given-names></name>. <article-title>Beispiele der polyploidie-Züchtung</article-title>. <source>Allg Forestz</source>. <year>1980</year>;<volume>35</volume>:<fpage>697</fpage>–<lpage>699</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chen</surname> <given-names>CB</given-names></name>, <name name-style="western"><surname>Qi</surname> <given-names>LW</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>SG</given-names></name>, <name name-style="western"><surname>Han</surname> <given-names>SY</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>XL</given-names></name>, <name name-style="western"><surname>Song</surname> <given-names>WQ</given-names></name>, <etal>et al</etal>. <article-title>The karyotype analysis of triploid poplar</article-title>. <source>J Wuhan Bot Res</source>. <year>2004</year>;<volume>22</volume>(<issue>6</issue>):<fpage>565</fpage>–<lpage>567</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhang</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Qi</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Song</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>R</given-names></name>, <etal>et al</etal>. <article-title>A report of triploid <italic>Populus</italic> of the section Aigeiros</article-title>. <source>Silvae Genet</source>. <year>2004</year>;<volume>53</volume>:<fpage>69</fpage>–<lpage>75</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhang</surname> <given-names>SG</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>CB</given-names></name>, <name name-style="western"><surname>Han</surname> <given-names>SY</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>XL</given-names></name>, <name name-style="western"><surname>Ren</surname> <given-names>JZ</given-names></name>, <name name-style="western"><surname>Zhou</surname> <given-names>YQ</given-names></name>, <etal>et al</etal>. <article-title>Chromosome numbers of some <italic>Populus</italic> taxa from China</article-title>. <source>Acta Phytotaxon Sin</source>. <year>2005</year>;<volume>43</volume>:<fpage>539</fpage>–<lpage>544</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Weisgerber</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Rau</surname> <given-names>HM</given-names></name>, <name name-style="western"><surname>Gartner</surname> <given-names>EJ</given-names></name>, <name name-style="western"><surname>Baumeister</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Kohnert</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Karner</surname> <given-names>L</given-names></name>. <article-title>25 years of forest tree breeding in Hessen</article-title>. <source>Allg For</source>. <year>1980</year>;<volume>26</volume>:<fpage>665</fpage>–<lpage>712</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhu</surname> <given-names>ZT</given-names></name>, <name name-style="western"><surname>Kang</surname> <given-names>XY</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>ZY</given-names></name>. <article-title>Studies on selection of natural triploid of <italic>Populus tomentosa</italic></article-title>. <source>Sci Silvae Sinicae</source>. <year>1998</year>;<volume>34</volume>:<fpage>22</fpage>–<lpage>31</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Einspahr</surname> <given-names>DW</given-names></name>. <article-title>Production and utilization of triploid hybrid aspen</article-title>. <source>Iowa State J Res</source>. <year>1984</year>;<volume>58</volume>(<issue>4</issue>):<fpage>401</fpage>–<lpage>409</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mashkina</surname> <given-names>OS</given-names></name>, <name name-style="western"><surname>Burdaeva</surname> <given-names>LM</given-names></name>, <name name-style="western"><surname>Belozerova</surname> <given-names>MM</given-names></name>, <name name-style="western"><surname>Vyunova</surname> <given-names>LN</given-names></name>. <article-title>Method of obtaining diploid pollen of woody species</article-title>. <source>Lesovedenie</source>. <year>1989</year>;<volume>1</volume>:<fpage>19</fpage>–<lpage>25</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kang</surname> <given-names>XY</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>DL</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>HW</given-names></name>. <article-title>Induction of diploid eggs with colchicine during embryo sac development in <italic>Populus</italic></article-title>. <source>Silvae Genet</source>. <year>2010</year>;<volume>59</volume>(<issue>1</issue>):<fpage>40</fpage>–<lpage>48</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kang</surname> <given-names>XY</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>DL</given-names></name>. <article-title>High temperature-induced triploid production during embryo sac development in <italic>Populus</italic></article-title>. <source>Silvae Genet</source>. <year>2012</year>;<volume>61</volume>(<issue>3</issue>):<fpage>85</fpage>–<lpage>93</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref035"><label>35</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>DL</given-names></name>, <name name-style="western"><surname>Kang</surname> <given-names>XY</given-names></name>. <article-title>Induction of unreduced megaspores with high temperature during megasporogenesis in <italic>Populus</italic></article-title>. <source>Ann For Sci</source>. <year>2012</year>;<volume>69</volume>(<issue>1</issue>):<fpage>59</fpage>–<lpage>67</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref036"><label>36</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Shi</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Song</surname> <given-names>SY</given-names></name>, <name name-style="western"><surname>Tian</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kang</surname> <given-names>XY</given-names></name>. <article-title>Tetraploid production through zygotic chromosome doubling in <italic>Populus</italic></article-title>. <source>Silva Fenn</source>. <year>2013</year>;<volume>47</volume>(<issue>2</issue>):id 932.</mixed-citation></ref>
+<ref id="pone.0181767.ref037"><label>37</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dong</surname> <given-names>CB</given-names></name>, <name name-style="western"><surname>Suo</surname> <given-names>YJ</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kang</surname> <given-names>XY</given-names></name>. <article-title>Analysis of transmission of heterozygosity by 2n gametes in <italic>Populus</italic> (Salicaceae)</article-title>. <source>Tree Genet Genom</source>. <year>2015</year>;<volume>11</volume>:<fpage>799</fpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref038"><label>38</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhou</surname> <given-names>LJ</given-names></name>, <name name-style="western"><surname>Kang</surname> <given-names>ZX</given-names></name>, <name name-style="western"><surname>Geng</surname> <given-names>LY</given-names></name>, <name name-style="western"><surname>Wen</surname> <given-names>BY</given-names></name>. <article-title>Breeding and utilization of <italic>Populus alba</italic> × <italic>P</italic>. <italic>berolinensis</italic></article-title>. <source>Protect For Sci Technol</source>. <year>1992</year>;<volume>1</volume>:<fpage>23</fpage>–<lpage>27</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref039"><label>39</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Stanton</surname> <given-names>BJ</given-names></name>, <name name-style="western"><surname>Neale</surname> <given-names>DB</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>SW</given-names></name>. <chapter-title><italic>Populus</italic> breeding: from the classical to the genomic approach</chapter-title>. In: <name name-style="western"><surname>Jansson</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Bhalerao</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Groover</surname> <given-names>A</given-names></name>, editors. <source>Genetics and Genomics of <italic>Populus</italic></source>. <publisher-loc>New York</publisher-loc>: <publisher-name>Springer</publisher-name>; <year>2010</year>. pp. <fpage>309</fpage>–<lpage>348</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref040"><label>40</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Shi</surname> <given-names>QL</given-names></name>, <name name-style="western"><surname>Zhuge</surname> <given-names>Q</given-names></name>, <name name-style="western"><surname>Huang</surname> <given-names>MR</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>MX</given-names></name>. <article-title>The characteristic of molecular evolution in <italic>Populus</italic> based on ITS sequence analysis</article-title>. <source>Mol Plant Breed</source>. <year>2006</year>;<volume>4</volume>:<fpage>255</fpage>–<lpage>261</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref041"><label>41</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lin</surname> <given-names>HB</given-names></name>, <name name-style="western"><surname>Zhu</surname> <given-names>ZT</given-names></name>. <article-title>Studies on breeding strategies of <italic>Populus tomentosa</italic></article-title>. <source>J Beijing For Univ</source>. <year>1988</year>;<volume>10</volume>:<fpage>97</fpage>–<lpage>101</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref042"><label>42</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kang</surname> <given-names>XY</given-names></name>, <name name-style="western"><surname>Zhu</surname> <given-names>ZT</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>ZY</given-names></name>. <article-title>Breeding of triploids by the reciprocal crossing of <italic>Populus alba</italic> × <italic>P</italic>. <italic>glandulosa</italic> and <italic>P</italic>. <italic>tomentosa</italic> × <italic>P</italic>. <italic>bolleana</italic></article-title>. <source>J Beijing For Univ</source>. <year>2000</year>;<volume>22</volume>:<fpage>8</fpage>–<lpage>11</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref043"><label>43</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Farco</surname> <given-names>GE</given-names></name>, <name name-style="western"><surname>Dematteis</surname> <given-names>M</given-names></name>. <article-title>Meiotic behavior and pollen fertility in triploid and tetraploid natural populations of <italic>Campuloclinium macrocephalum</italic> (Eupatorieae, Asteraceae)</article-title>. <source>Plant Syst Evol</source>. <year>2014</year>;<volume>300</volume>(<issue>8</issue>):<fpage>1843</fpage>–<lpage>1852</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref044"><label>44</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kang</surname> <given-names>X</given-names></name>, <name name-style="western"><surname>Zhu</surname> <given-names>Q</given-names></name>. <article-title>Variation in pollen formation and its cytological mechanism in an allotriploid white poplar</article-title>. <source>Tree Genet Genom</source>. <year>2010</year>;<volume>6</volume>(<issue>2</issue>):<fpage>281</fpage>–<lpage>290</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref045"><label>45</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>You</surname> <given-names>HL</given-names></name>, <name name-style="western"><surname>Tian</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>YF</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>MH</given-names></name>, <name name-style="western"><surname>Duan</surname> <given-names>WL</given-names></name>. <article-title>Abnormal meiotic chromosome behavior and gametic variation induced by intersectional hybridization in <italic>Populus</italic> L</article-title>. <source>Tree Genet Genom</source>. <year>2015</year>;<volume>11</volume>:<fpage>61</fpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref046"><label>46</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Galbraith</surname> <given-names>DW</given-names></name>, <name name-style="western"><surname>Harkins</surname> <given-names>KR</given-names></name>, <name name-style="western"><surname>Maddox</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Ayres</surname> <given-names>NM</given-names></name>, <name name-style="western"><surname>Sharma</surname> <given-names>DP</given-names></name>, <name name-style="western"><surname>Firoozabady</surname> <given-names>E</given-names></name>. <article-title>Rapid flow cytometric analysis of the cell cycle in intact plant tissues</article-title>. <source>Science</source>. <year>1983</year>;<volume>220</volume>:<fpage>1049</fpage>–<lpage>1051</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1126/science.220.4601.1049" xlink:type="simple">10.1126/science.220.4601.1049</ext-link></comment> <object-id pub-id-type="pmid">17754551</object-id></mixed-citation></ref>
+<ref id="pone.0181767.ref047"><label>47</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Del Bosco</surname> <given-names>SF</given-names></name>, <name name-style="western"><surname>Tusa</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Conicella</surname> <given-names>C</given-names></name>. <article-title>Microsporogenesis in a Citrus interspecific tetraploid somatic hybrid and its fusion parents</article-title>. <source>Heredity</source>. <year>1999</year>;<volume>83</volume>:<fpage>373</fpage>–<lpage>377</lpage>. <object-id pub-id-type="pmid">10583538</object-id></mixed-citation></ref>
+<ref id="pone.0181767.ref048"><label>48</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhang</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Suo</surname> <given-names>YJ</given-names></name>, <name name-style="western"><surname>Kang</surname> <given-names>XY</given-names></name>. <article-title>Pollen chromosome doubling under high temperature in <italic>Populus alba</italic> L</article-title>. <source>J Nucl Agricul Sci</source>. <year>2010</year>;<volume>24</volume>:<fpage>1158</fpage>–<lpage>1165</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref049"><label>49</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liu</surname> <given-names>YH</given-names></name>, <name name-style="western"><surname>Chang</surname> <given-names>HF</given-names></name>, <name name-style="western"><surname>Lu</surname> <given-names>ZH</given-names></name>. <article-title>Microsporogenesis of <italic>Populus berolinensis</italic></article-title>. <source>J North-East For Inst</source>. <year>1979</year>;<volume>2</volume>:<fpage>1</fpage>–<lpage>4</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref050"><label>50</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tian</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>JH</given-names></name>, <name name-style="western"><surname>Dong</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Dai</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>J</given-names></name>. <article-title>Pollen variation as a response to hybridisation in <italic>Populus</italic> L. section <italic>Aigeiros</italic> Duby</article-title>. <source>Euphytica</source>. <year>2015</year>;<volume>206</volume>:<fpage>433</fpage>–<lpage>443</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref051"><label>51</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Seitz</surname> <given-names>FW</given-names></name>. <article-title>The occurrence of triploids after self-pollination of anomalous androgynous flowers of a grey poplar</article-title>. <source>Z Forstgenet</source>. <year>1954</year>;<volume>3</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>6</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref052"><label>52</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kang</surname> <given-names>XY</given-names></name>. <article-title>Mechanism of 2n pollen occurring in Chinese white poplar</article-title>. <source>J Beijing For Univ</source>. <year>2002</year>;<volume>24</volume>(<issue>5/6</issue>):<fpage>67</fpage>–<lpage>70</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref053"><label>53</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kang</surname> <given-names>X</given-names></name>. <article-title>Distribution of microtubular cytoskeletons and organelle nucleoids during microsporogenesis in a 2n pollen producer of hybrid <italic>Populus</italic></article-title>. <source>Silvae Genet</source>. <year>2009</year>;<volume>58</volume>(<issue>5/6</issue>):<fpage>220</fpage>–<lpage>226</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref054"><label>54</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhang</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Kang</surname> <given-names>X</given-names></name>. <article-title>Cytological characteristics of numerically unreduced pollen production in <italic>Populus tomentosa</italic> Carr</article-title>. <source>Euphytica</source>. <year>2010</year>;<volume>173</volume>(<issue>2</issue>):<fpage>151</fpage>–<lpage>159</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref055"><label>55</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bretagnolle</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Thompson</surname> <given-names>JD</given-names></name>. <article-title>Gametes with the somatic chromosome number: mechanisms of their formation and role in the evolution of polyploid plants</article-title>. <source>New Phytol</source>. <year>1995</year>;<volume>129</volume>:<fpage>1</fpage>–<lpage>22</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref056"><label>56</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>De Storme</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Geelen</surname> <given-names>D</given-names></name>. <article-title>Sexual polyploidization in plants–cytological mechanisms and molecular regulation</article-title>. <source>New Phytol</source>. <year>2013</year>;<volume>198</volume>:<fpage>670</fpage>–<lpage>684</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/nph.12184" xlink:type="simple">10.1111/nph.12184</ext-link></comment> <object-id pub-id-type="pmid">23421646</object-id></mixed-citation></ref>
+<ref id="pone.0181767.ref057"><label>57</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brown</surname> <given-names>RC</given-names></name>, <name name-style="western"><surname>Lemmon</surname> <given-names>BE</given-names></name>. <article-title>Nuclear cytoplasmic domains, microtubules and organelles in microsporocytes of the slipper orchid <italic>Cypripedium californicum</italic> A. Gray dividing by simultaneous cytokinesis</article-title>. <source>Sex Plant Reprod</source>. <year>1996</year>;<volume>9</volume>:<fpage>145</fpage>–<lpage>152</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref058"><label>58</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bednara</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Gielwanowska</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Rodkiewicz</surname> <given-names>B</given-names></name>. <article-title>Regular arrangements of mitochondria and plastids during sporogenesis in <italic>Equisetum</italic></article-title>. <source>Protoplasma</source>. <year>1986</year>;<volume>130</volume>:<fpage>145</fpage>–<lpage>152</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref059"><label>59</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ramsey</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Schemske</surname> <given-names>DW</given-names></name>. <article-title>Pathways, mechanisms, and rates of polyploid formation in flowering plants</article-title>. <source>Annu Rev Ecol Syst</source>. <year>1998</year>;<volume>29</volume>:<fpage>467</fpage>–<lpage>501</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref060"><label>60</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Henry</surname> <given-names>IM</given-names></name>, <name name-style="western"><surname>Dilkes</surname> <given-names>BP</given-names></name>, <name name-style="western"><surname>Tyagi</surname> <given-names>AP</given-names></name>, <name name-style="western"><surname>Lin</surname> <given-names>HY</given-names></name>, <name name-style="western"><surname>Comai</surname> <given-names>L</given-names></name>. <article-title>Dosage and parent-of-origin effects shaping aneuploid swarms in <italic>A</italic>. <italic>thaliana</italic></article-title>. <source>Heredity</source>. <year>2009</year>;<volume>103</volume>(<issue>6</issue>):<fpage>458</fpage>–<lpage>468</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/hdy.2009.81" xlink:type="simple">10.1038/hdy.2009.81</ext-link></comment> <object-id pub-id-type="pmid">19603060</object-id></mixed-citation></ref>
+<ref id="pone.0181767.ref061"><label>61</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rao</surname> <given-names>JY</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>YF</given-names></name>, <name name-style="western"><surname>Huang</surname> <given-names>HW</given-names></name>. <article-title>Analysis of ploidy segregation and genetic variation of progenies of different interploidy crosses in <italic>Actinidia chinensis</italic></article-title>. <source>Acta Horticult Sin</source>. <year>2012</year>;<volume>39</volume>(<issue>8</issue>):<fpage>1447</fpage>–<lpage>1456</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref062"><label>62</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ising</surname> <given-names>G</given-names></name>. <article-title>Cytogenetic studies in <italic>Cyrtanthus</italic>, I: Segregation in an allotetraploid</article-title>. <source>Hereditas</source>. <year>1966</year>;<volume>56</volume>:<fpage>27</fpage>–<lpage>53</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref063"><label>63</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Xiong</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Gaeta</surname> <given-names>RT</given-names></name>, <name name-style="western"><surname>Pires</surname> <given-names>JC</given-names></name>. <article-title>Homoeologous shuffling and chromosome compensation maintain genome balance in resynthesized allopolyploid <italic>Brassica napus</italic></article-title>. <source>Proc Natl Acad Sci USA</source>. <year>2011</year>;<volume>108</volume>(<issue>19</issue>):<fpage>7908</fpage>–<lpage>7913</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1073/pnas.1014138108" xlink:type="simple">10.1073/pnas.1014138108</ext-link></comment> <object-id pub-id-type="pmid">21512129</object-id></mixed-citation></ref>
+<ref id="pone.0181767.ref064"><label>64</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chester</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Gallagher</surname> <given-names>JP</given-names></name>, <name name-style="western"><surname>Symonds</surname> <given-names>VV</given-names></name>, <name name-style="western"><surname>Cruz da Silva</surname> <given-names>AV</given-names></name>, <name name-style="western"><surname>Mavrodiev</surname> <given-names>EV</given-names></name>, <name name-style="western"><surname>Leitch</surname> <given-names>AR</given-names></name>, <etal>et al</etal>. <article-title>Extensive chromosomal variation in a recently formed natural allopolyploid species, <italic>Tragopogon miscellus</italic> (Asteraceae)</article-title>. <source>Proc Natl Acad Sci USA</source>. <year>2012</year>;<volume>109</volume>(<issue>4</issue>):<fpage>1176</fpage>–<lpage>1181</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1073/pnas.1112041109" xlink:type="simple">10.1073/pnas.1112041109</ext-link></comment> <object-id pub-id-type="pmid">22228301</object-id></mixed-citation></ref>
+<ref id="pone.0181767.ref065"><label>65</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Birchler</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Riddle</surname> <given-names>NC</given-names></name>, <name name-style="western"><surname>Auger</surname> <given-names>DL</given-names></name>, <name name-style="western"><surname>Veitia</surname> <given-names>RA</given-names></name>. <article-title>Dosage balance in gene regulation: biological implications</article-title>. <source>Trends Genet</source>. <year>2005</year>;<volume>21</volume>(<issue>4</issue>):<fpage>219</fpage>–<lpage>226</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tig.2005.02.010" xlink:type="simple">10.1016/j.tig.2005.02.010</ext-link></comment> <object-id pub-id-type="pmid">15797617</object-id></mixed-citation></ref>
+<ref id="pone.0181767.ref066"><label>66</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Birchler</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Veitia</surname> <given-names>RA</given-names></name>. <article-title>Gene balance hypothesis: Connecting issues of dosage sensitivity across biological disciplines</article-title>. <source>Proc Natl Acad Sci USA</source>. <year>2012</year>;<volume>109</volume>(<issue>37</issue>):<fpage>14746</fpage>–<lpage>14753</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1073/pnas.1207726109" xlink:type="simple">10.1073/pnas.1207726109</ext-link></comment> <object-id pub-id-type="pmid">22908297</object-id></mixed-citation></ref>
+<ref id="pone.0181767.ref067"><label>67</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Gale</surname> <given-names>MD</given-names></name>, <name name-style="western"><surname>Miller</surname> <given-names>TE</given-names></name>. <chapter-title>The introduction of alien genetic variation into wheat</chapter-title>. In: <name name-style="western"><surname>Lupton</surname> <given-names>FGH</given-names></name>, editor. <source>Wheat Breeding: Its Scientific Basis</source>. <publisher-loc>London</publisher-loc>: <publisher-name>Chapman and Hall</publisher-name>; <year>1987</year>. pp. <fpage>173</fpage>–<lpage>210</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref068"><label>68</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liehr</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Starke</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Heller</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Kosyakova</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Mrasek</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Gross</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Multicolor fluorescence in situ hybridization (FISH) applied to FISH-banding</article-title>. <source>Cytogenet Genome Res</source>. <year>2006</year>;<volume>114</volume>:<fpage>240</fpage>–<lpage>244</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1159/000094207" xlink:type="simple">10.1159/000094207</ext-link></comment> <object-id pub-id-type="pmid">16954660</object-id></mixed-citation></ref>
+<ref id="pone.0181767.ref069"><label>69</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hu</surname> <given-names>BQ</given-names></name>, <name name-style="western"><surname>Dong</surname> <given-names>FP</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>CG</given-names></name>, <name name-style="western"><surname>Qi</surname> <given-names>LW</given-names></name>, <name name-style="western"><surname>Song</surname> <given-names>WQ</given-names></name>, <name name-style="western"><surname>Chen</surname> <given-names>CB</given-names></name>. <article-title>Multicolor fluorescence in situ hybridization of seven <italic>Populus</italic> species–ribosomal DNA and telomere repeat sequence</article-title>. <source>Acta Sci Nat Univ Nankai</source>. <year>2012</year>;<volume>45</volume>(<issue>1</issue>):<fpage>58</fpage>–<lpage>64</lpage>.</mixed-citation></ref>
+<ref id="pone.0181767.ref070"><label>70</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hughes</surname> <given-names>TR</given-names></name>, <name name-style="western"><surname>Roberts</surname> <given-names>CJ</given-names></name>, <name name-style="western"><surname>Dai</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Jones</surname> <given-names>AR</given-names></name>, <name name-style="western"><surname>Meyer</surname> <given-names>MR</given-names></name>, <name name-style="western"><surname>Slade</surname> <given-names>D</given-names></name>, <etal>et al</etal>. <article-title>Widespread aneuploidy revealed by DNA microarray expression profiling</article-title>. <source>Nature Genet</source>. <year>2000</year>;<volume>25</volume>(<issue>3</issue>):<fpage>333</fpage>–<lpage>337</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/77116" xlink:type="simple">10.1038/77116</ext-link></comment> <object-id pub-id-type="pmid">10888885</object-id></mixed-citation></ref>
+<ref id="pone.0181767.ref071"><label>71</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rauch</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Rüschendorf</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Huang</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Trautmann</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Becker</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Thiel</surname> <given-names>C</given-names></name>, <etal>et al</etal>. <article-title>Molecular karyotyping using an SNP array for genomewide genotyping</article-title>. <source>J. Med. Genet.</source> <year>2004</year>;<volume>41</volume>(<issue>12</issue>):<fpage>916</fpage>–<lpage>922</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/jmg.2004.022855" xlink:type="simple">10.1136/jmg.2004.022855</ext-link></comment> <object-id pub-id-type="pmid">15591277</object-id></mixed-citation></ref>
+<ref id="pone.0181767.ref072"><label>72</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ogilvie</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Donaghue</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Fox</surname> <given-names>SP</given-names></name>, <name name-style="western"><surname>Docherty</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Mann</surname> <given-names>K</given-names></name>. <article-title>Rapid prenatal diagnosis of aneuploidy using quantitative fluorescence-PCR (QF-PCR)</article-title>. <source>J Histochem Cytochem</source>. <year>2005</year>;<volume>53</volume>(<issue>3</issue>):<fpage>285</fpage>–<lpage>288</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1369/jhc.4B6409.2005" xlink:type="simple">10.1369/jhc.4B6409.2005</ext-link></comment> <object-id pub-id-type="pmid">15750003</object-id></mixed-citation></ref>
+<ref id="pone.0181767.ref073"><label>73</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Henry</surname> <given-names>IM</given-names></name>, <name name-style="western"><surname>Dilkes</surname> <given-names>BP</given-names></name>, <name name-style="western"><surname>Comai</surname> <given-names>L</given-names></name>. <article-title>Molecular karyotyping and aneuploidy detection in Arabidopsis thaliana using quantitative fluorescent polymerase chain reaction</article-title>. <source>Plant J</source>. <year>2006</year>;<volume>48</volume>(<issue>2</issue>):<fpage>307</fpage>–<lpage>319</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1365-313X.2006.02871.x" xlink:type="simple">10.1111/j.1365-313X.2006.02871.x</ext-link></comment> <object-id pub-id-type="pmid">16995901</object-id></mixed-citation></ref>
+<ref id="pone.0181767.ref074"><label>74</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Henry</surname> <given-names>IM</given-names></name>, <name name-style="western"><surname>Zinkgraf</surname> <given-names>MS</given-names></name>, <name name-style="western"><surname>Groover</surname> <given-names>AT</given-names></name>, <name name-style="western"><surname>Comai</surname> <given-names>L</given-names></name>. <article-title>A system for dosage-based functional genomics in poplar</article-title>. <source>Plant Cell</source>. <year>2015</year>;<volume>27</volume>(<issue>9</issue>):<fpage>2370</fpage>–<lpage>2383</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1105/tpc.15.00349" xlink:type="simple">10.1105/tpc.15.00349</ext-link></comment> <object-id pub-id-type="pmid">26320226</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+</article>
