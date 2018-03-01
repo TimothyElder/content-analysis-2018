@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 *.wav
 
+=======
+*.pkl
+*.csv
+>>>>>>> f4873a4e9b1dfcac63253f7abc178a308d7f60b8
 stanford-NLP/
 
 data/SampleJobAds.csv

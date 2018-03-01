@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1d3" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0176727</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-16-43878</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Metabolism</subject><subj-group><subject>Metabolites</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Vascular medicine</subject><subj-group><subject>Vascular diseases</subject><subj-group><subject>Aneurysms</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Metabolism</subject><subj-group><subject>Metabolomics</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pharmacology</subject><subj-group><subject>Pharmacokinetics</subject><subj-group><subject>Drug metabolism</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Molecular biology</subject><subj-group><subject>Molecular biology techniques</subject><subj-group><subject>Molecular biology assays and analysis techniques</subject><subj-group><subject>Amino acid analysis</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Molecular biology techniques</subject><subj-group><subject>Molecular biology assays and analysis techniques</subject><subj-group><subject>Amino acid analysis</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and health sciences</subject><subj-group><subject>Pathology and laboratory medicine</subject><subj-group><subject>Pathogenesis</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Bioassays and physiological analysis</subject><subj-group><subject>Metabolic analysis</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Biomarkers</subject></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Metabolomic profiling of ascending thoracic aortic aneurysms and dissections - Implications for pathophysiology and biomarker discovery</article-title>
+<alt-title alt-title-type="running-head">Thoracic aneurysm metabolomics</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Doppler</surname>
+<given-names>Christian</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Arnhard</surname>
+<given-names>Kathrin</given-names>
+</name>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Dumfarth</surname>
+<given-names>Julia</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Heinz</surname>
+<given-names>Katharina</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Messner</surname>
+<given-names>Barbara</given-names>
+</name>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Stern</surname>
+<given-names>Christian</given-names>
+</name>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Koal</surname>
+<given-names>Therese</given-names>
+</name>
+<xref ref-type="aff" rid="aff005"><sup>5</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Klavins</surname>
+<given-names>Kristaps</given-names>
+</name>
+<xref ref-type="aff" rid="aff005"><sup>5</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Danzl</surname>
+<given-names>Katarina</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Pitterl</surname>
+<given-names>Florian</given-names>
+</name>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Grimm</surname>
+<given-names>Michael</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Oberacher</surname>
+<given-names>Herbert</given-names>
+</name>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Bernhard</surname>
+<given-names>David</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Cardiac Surgery Research Laboratory, University Clinic for Cardiac Surgery, Innsbruck Medical University, Innsbruck, Austria</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Cardiac, Vascular, and Thoracic Surgery, Medical Faculty, Johannes-Kepler University, Linz, Austria</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>Institute of Legal Medicine and Core Facility Metabolomics, Innsbruck Medical University, Innsbruck, Austria</addr-line></aff>
+<aff id="aff004"><label>4</label> <addr-line>Department of Cardiac Surgery, Vienna Medical University, Vienna, Austria</addr-line></aff>
+<aff id="aff005"><label>5</label> <addr-line>Biocrates Life Sciences AG, Innsbruck, Austria</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Lutgens</surname>
+<given-names>Esther</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Universiteit van Amsterdam, NETHERLANDS</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors declare that no competing interests exist. This also includes that the commercial funding source (Biocrates Life Science AG) does not alter our adherence to PLOS ONE policies on sharing data and materials as detailed online in the PLOS guide for authors <ext-link ext-link-type="uri" xlink:href="http://journals.plos.org/plosone/s/data-availability" xlink:type="simple">http://journals.plos.org/plosone/s/data-availability</ext-link>.</p>
+</fn>
+<fn fn-type="con">
+<p><list list-type="simple"><list-item>
+<p><bold>Conceptualization:</bold> CD JD BM MG HO DB.</p></list-item> <list-item>
+<p><bold>Data curation:</bold> CD KA JD KH BM CS TK KK KD FP HO DB.</p></list-item> <list-item>
+<p><bold>Formal analysis:</bold> CD KA BM TK FP HO DB.</p></list-item> <list-item>
+<p><bold>Funding acquisition:</bold> CD BM DB.</p></list-item> <list-item>
+<p><bold>Investigation:</bold> CD KA JD KH BM CS TK KK KD FP HO DB.</p></list-item> <list-item>
+<p><bold>Methodology:</bold> CD KA JD KH BM CS TK KK KD FP HO DB.</p></list-item> <list-item>
+<p><bold>Project administration:</bold> CD JD KH HO DB.</p></list-item> <list-item>
+<p><bold>Resources:</bold> JD TK KK MG.</p></list-item> <list-item>
+<p><bold>Supervision:</bold> FP MG HO DB.</p></list-item> <list-item>
+<p><bold>Validation:</bold> CD KA BM FP HO DB.</p></list-item> <list-item>
+<p><bold>Visualization:</bold> CD KA BM FP TK KK HO DB.</p></list-item> <list-item>
+<p><bold>Writing – original draft:</bold> CD KA JD KH BM CS TK KK KD FP HO DB.</p></list-item> <list-item>
+<p><bold>Writing – review &amp; editing:</bold> CD DB.</p></list-item></list>
+</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">david.bernhard@i-med.ac.at</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>3</day>
+<month>5</month>
+<year>2017</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2017</year>
+</pub-date>
+<volume>12</volume>
+<issue>5</issue>
+<elocation-id>e0176727</elocation-id>
+<history>
+<date date-type="received">
+<day>4</day>
+<month>11</month>
+<year>2016</year>
+</date>
+<date date-type="accepted">
+<day>14</day>
+<month>4</month>
+<year>2017</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2017</copyright-year>
+<copyright-holder>Doppler et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0176727"/>
+<abstract>
+<sec id="sec001">
+<title>Objective</title>
+<p>Our basic understanding of ascending thoracic aortic aneurysm (ATAA) pathogenesis is still very limited, hampering early diagnosis, risk prediction, and development of treatment options. “Omics”-technologies, ideal to reveal tissue alterations from the normal physiological state due to disease have hardly been applied in the field. Using a metabolomic approach, with this study the authors seek to define tissue differences between controls and various forms of ATAAs.</p>
+</sec>
+<sec id="sec002">
+<title>Methods</title>
+<p>Using a targeted FIA-MS/MS metabolomics approach, we analysed and compared the metabolic profiles of ascending thoracic aortic wall tissue of age-matched controls (n = 8), bicuspid aortic valve-associated aneurysms (BAV-A; n = 9), tricuspid aortic valve-associated aneurysms (TAV-A; n = 14), and tricuspid aortic valve-associated aortic dissections (TAV-Diss; n = 6).</p>
+</sec>
+<sec id="sec003">
+<title>Results</title>
+<p>With sphingomyelin (SM) (OH) C22:2, SM C18:1, SM C22:1, and SM C24:1 only 4 out of 92 detectable metabolites differed significantly between controls and BAV-A samples. Between controls and TAV-Diss samples only phosphatidylcholine (PC) ae C32:1 differed. Importantly, our analyses revealed a general increase in the amount of total sphingomyelin levels in BAV-A and TAV-Diss samples compared to controls.</p>
+</sec>
+<sec id="sec004">
+<title>Conclusions</title>
+<p>Significantly increased levels of sphingomyelins in BAV-A and TAV-Diss samples compared to controls may argue for a repression of sphingomyelinase activity and the sphingomyelinase-ceramide pathway, which may result in an inhibition of tissue regeneration; a potential basis for disease initiation and progression.</p>
+</sec>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100004061</institution-id>
+<institution>Oesterreichische Nationalbank</institution>
+</institution-wrap>
+</funding-source>
+<award-id>14745</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Bernhard</surname>
+<given-names>David</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award002">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100004061</institution-id>
+<institution>Oesterreichische Nationalbank</institution>
+</institution-wrap>
+</funding-source>
+<award-id>14590</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Messner</surname>
+<given-names>Barbara</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award003">
+<funding-source>
+<institution>Tiroler Wissenschaftsfonds</institution>
+</funding-source>
+<award-id>TWF-2016-1-9</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Doppler</surname>
+<given-names>Christian</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>This work was supported by the Austrian National Bank [14745 to DB, and 14590 to BM], and the Tiroler Wissenschaftsfonds (TWF) [TWF-2016-1-9 to CD] Further, this study was supported by the Biocrates Life Sciences AG, Tirol, Austria in the form of salaries of the following authors (TK, KK). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="5"/>
+<table-count count="1"/>
+<page-count count="15"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec005" sec-type="intro">
+<title>Introduction</title>
+<p>Aneurysms in general represent a <italic>Damocles sword</italic> in the classical sense for patients diagnosed with one of these diseases, and a hidden version of the sword for the general population. As aneurysms usually occur in the absence of (clear) symptoms, the first detection is often a matter of chance, e.g. as a result of clinical imaging. Due to the devastating consequences of aneurysm-associated arterial dissections and ruptures there is significant interest in the development of tests for early diagnosis. In parallel, also the pathogenesis of many forms of aneurysms is not clear, which has so far hampered personalization of aneurysm treatment. The general wish is to better define the individual time-point when surgical intervention is indicated, and even more, to have specific non-surgical options to slow down or stop disease progression. Both, early diagnosis and improved treatment need a better understanding of these diseases.</p>
+<p>In the past decade the effort to understand the pathogenesis of aneurysms has increased significantly. This knowledge has led to important progress in experimental treatment, early diagnosis, and risk assessment. Despite the progress made, our understanding of the pathogenesis of aneurysms in general and the ascending thoracic aortic aneurysm (ATAA), which make up 51% of all thoracic aortic aneurysms (TAA) [<xref ref-type="bibr" rid="pone.0176727.ref001">1</xref>], in particular, is still poor. Previously, several familial and syndromic genetic factors, associated with slight to very high risk for the development of ATAA, and their genetic basis were defined [<xref ref-type="bibr" rid="pone.0176727.ref002">2</xref>–<xref ref-type="bibr" rid="pone.0176727.ref007">7</xref>]. Importantly, the majority of ATAAs is of unknown origin [<xref ref-type="bibr" rid="pone.0176727.ref002">2</xref>, <xref ref-type="bibr" rid="pone.0176727.ref008">8</xref>].</p>
+<p>The major risk factor for non-syndromic ATAA formation is hypertension, and anti-hypertensive therapy is a <italic>gold standard</italic> in the treatment of ATAA patients. Whereas smoking, atherosclerosis, and inflammation have an influence on abdominal aortic aneurysm (AAA) formation, the role of these risk factors in ATAA formation is much less clear [<xref ref-type="bibr" rid="pone.0176727.ref009">9</xref>, <xref ref-type="bibr" rid="pone.0176727.ref010">10</xref>].</p>
+<p>The central histological findings in non-syndromic ATAA analyses are the loss of smooth muscle cells (media degeneration) and the alteration of elastic fibre structures [<xref ref-type="bibr" rid="pone.0176727.ref011">11</xref>, <xref ref-type="bibr" rid="pone.0176727.ref012">12</xref>]. Importantly, older but also very new results suggest that even these two “hallmarks” of ATAA pathogenesis may not occur generally, and (non-syndromic) ATAA pathogenesis concepts may have to be revisited [<xref ref-type="bibr" rid="pone.0176727.ref013">13</xref>, <xref ref-type="bibr" rid="pone.0176727.ref014">14</xref>]. Most factors analysed so far and thought to have an impact on ATAA formation originate from previous studies on AAA patient samples and from the broader field of cardiovascular research. Major factors are: the MMP2/9-TIMP system, smooth muscle stress and cell death, aging processes (telomere length), alterations in genes and protein expression and function (e.g. SOD, AKT, SMAD, osteopontin, angiotensin), and the factors mentioned above [<xref ref-type="bibr" rid="pone.0176727.ref002">2</xref>, <xref ref-type="bibr" rid="pone.0176727.ref006">6</xref>, <xref ref-type="bibr" rid="pone.0176727.ref007">7</xref>, <xref ref-type="bibr" rid="pone.0176727.ref015">15</xref>].</p>
+<p>Despite the discovery of a significant number of potentially pathogenesis-relevant factors, up to date, reliable clinical markers for the early detection, determination of disease stages and progression of ATAAs are totally absent. The “omics” technologies in general offer great opportunities for the discovery of pathophysiologically relevant factors usable as disease markers and markers for an improved stratification of diseases. These markers may also indicate disease-dependent pathological processes and serve as therapeutic targets in the future. Generally, despite great progress in recent years, this area is still at its beginning. The “omics” era in aneurysm research started in 1999 with a SAGE analysis of intracranial aneurysm [<xref ref-type="bibr" rid="pone.0176727.ref016">16</xref>], followed by the first transcriptome analyses in AAA tissue. Tung et al. revealed 44 genes that were differentially expressed between controls and AAA and suggested a pro-inflammatory, matrix degrading, pro-atherosclerotic, and smooth muscle cell depleting profile [<xref ref-type="bibr" rid="pone.0176727.ref017">17</xref>]. The first study on aneurysm proteome was published in 2007 and compared the proteome of ATAA samples from patients with tricuspid aortic valves and bicuspid aortic valves [<xref ref-type="bibr" rid="pone.0176727.ref018">18</xref>]. Up to date there are only 4 publications dealing with the metabolome of aortic aneurysms, and all have been done on AAA [<xref ref-type="bibr" rid="pone.0176727.ref019">19</xref>–<xref ref-type="bibr" rid="pone.0176727.ref022">22</xref>]. Ciborowski et al. could reveal increased levels of the lipid class of lysophosphatidylcholines in the secretome of <italic>in vitro</italic> incubated AAA tissue compared to controls. Further the authors describe alterations in amino acid metabolism and suggest that the analysis of enzymes relevant to catabolism and anabolism may reveal novel insights [<xref ref-type="bibr" rid="pone.0176727.ref023">23</xref>]. In another study by the same team, Ciborowski et al. demonstrate, that plasma metabolomic analyses has the potential to predict AAA disease stages [<xref ref-type="bibr" rid="pone.0176727.ref020">20</xref>]. In order to also investigate the role of metabolomic alterations in the ATAA we herewith conducted, to our knowledge, the first metabolomic analysis in samples of ATAA patients.</p>
+</sec>
+<sec id="sec006">
+<title>Material and methods</title>
+<sec id="sec007">
+<title>Ethics statement</title>
+<p>This study has been approved by the Ethics Committee of the Medical University of Innsbruck and the Ethics Committee of the Medical University of Vienna and conforms to the Declaration of Helsinki. Written informed consent was obtained from all study participants.</p>
+</sec>
+<sec id="sec008">
+<title>Patients</title>
+<p>For this study ascending thoracic aortic tissue samples from 37 individuals were subjected to metabolomic profiling. The control group consisted of 8 samples, which stem from organ donors or heart transplant recipients. The presence of aneurysms, atherosclerotic or valvular diseases was excluded in the control group. 9 samples stem from BAV-A, 14 samples stem from TAV-A, and 6 samples stem from TAV-Diss, all of which underwent surgery of the ascending thoracic aorta. The 37 samples (out of samples collected from 220 individuals) analyzed in the course of this study were chosen after matching for age and sex and by excluding samples from patients suffering from inflammatory aortic disease and systemic connective tissue disorder.</p>
+</sec>
+<sec id="sec009">
+<title>Sample collection and preparation</title>
+<p>Following surgical extraction, cleaning, and rinsing of ascending thoracic aortic tissue samples, samples were immediately snap frozen in liquid nitrogen and stored at -80°C until further use. For metabolite extraction, per sample 40 mg of aortic tissue were placed in sterile polystyrene tube on dry ice, followed by adding 6 μl ice cold 100% ethanol (ultrapure; Carl Roth, Karlsruhe, Germany) per mg of tissue. Consequently, a 5 mm diameter hardened steel ball (Retsch, Haan, Germany) was added into the tubes, and tubes were placed in a Mixer Mill MM400 (Retsch, Haan, Germany), followed by breaking up of tissue pieces by applying a vibrational frequency of 30 Hz for 3 minutes. In the next step samples were sonicated (15 intervals, cycles: 10%, power: MS72/D; Sonopuls HD 200, Bandelin, Berlin, Germany) and by a centrifugation step (10 min/20,800 x g/4°C) all solid components were separated. Supernatants were collected and stored on dry ice until metabolite analyses.</p>
+</sec>
+<sec id="sec010">
+<title>Analysis of amino acids, acylcarnitines, hexose, sphingomyelins, phosphatidylcholines and lysophosphatidylcholines</title>
+<p>Following extraction, 20 μl of tissue homogenate supernatant was subjected to metabolite quantification using AbsoluteIDQ<sup>®</sup> p150 kit (BIOCRATES Life Sciences AG, Innsbruck, Austria). For the complete analytical procedure see patent US 2007/0004044 (at <ext-link ext-link-type="uri" xlink:href="http://www.freepatentsonline.com/20070004044.html" xlink:type="simple">http://www.freepatentsonline.com/20070004044.html</ext-link>), or manufacturers`instructions. Briefly, the assay system used allows for the simultaneous quantification of 163 metabolites from four different compound classes, i.e. 40 acylcarnitines (Cx:y), hydroxylacylcarnitines (C(OH)x:y), and dicarboxylacylcarnitines (Cx:y-DC), hexose (H1), 14 amino acids, 15 sphingomyelins (SMx:y) and N-hydroxylacyloylsphingosyl-phosphocholine (SM (OH)x:y), 77 phosphatidylcholines (PC, aa = diacyl, ae = acyl-alkyl) and 15 lysophosphatidylcholines. The targeted screening for these metabolites was performed by applying flow injection analysis with tandem mass spectrometric detection (FIA-MS/MS) acquisition with multiple reaction monitoring (MRM) in positive and negative ion mode. Quantification was achieved using internal standards.</p>
+<p>The samples were analysed on a Knauer K-1001 LC pump (Knauer, Berlin, Germany) equipped with a CTC-PAL HTS9 autosampler (CTC Analytics AG, Zwingen, Switzerland) and hyphenated to a QTrap 3200 mass spectrometer (ABSciex, Toronto, Canada). Metabolite concentrations (μM) were automatically calculated by the MetIDQ<sup>®</sup> software package, being a part of the AbsoluteIDQ<sup>®</sup> p150 kit. Metabolites which showed insufficient measurement stability for a reference sample, which was prepared four times spread along the plate (relative standard deviation of metabolite concentrations &gt; 30%) or metabolites which did not exceed a signal intensity of a minimum of 500 counts, were excluded from the analysis. A total of 92 metabolites were quantified in the samples.</p>
+</sec>
+<sec id="sec011">
+<title>Analysis of ceramides and sphingomyelins</title>
+<p>An additional assay for the analysis of ceramides and sphingomyelins was employed to increase the coverage of lipids. To do so, 20 μL of sample aliquot, 50 μL of H2O, 330 μL of 0.01% BHT in methanol and 670 μL CHCl3 were combined in a glass vial. The vial was transferred to ultrasonic bath for 60 seconds. Then the mixture was vortexed for 30 seconds and incubated for 30 min at room temperature. 300 μL of water was added to induce the phase separation. After vortexing the mixture for 10 seconds, it was centrifuged for 10 min at 1800 g. The lower organic phase was collected and evaporated under nitrogen. Finally, the lipid extract was dissolved in 200 μL of hexane/isopropanol/100 mM ammonium acetate (40/50/10, v/v/v).</p>
+<p>The quantitative analyses of ceramides and sphingomyelins were performed using FIA–MS/MS. The analyses were carried out on API 4000 QTRAP triple quadrupole MS/MS system (AB Sciex Deutschland GmbH, Darmstadt, Germany) coupled to an Agilent 1200 Series HPLC systems and CTC Pal auto sampler (CTC Analytics, Zwingen, Switzerland), all controlled by the Analyst 1.6 software (AB Sciex Deutschland GmbH, Darmstadt, Germany). The FIA–MS/MS analysis was performed using hexane/isopropanol/100 mM ammonium acetate (40/50/10, v/v/v) as mobile phase. 10 μL of the sample extract was injected and the following flow gradient was applied: 0.0–1.6 min, 30 μL/min; 1.6–2.4 min, 30–200 μL/min; 2.4–2.5 min, 200–1500 μL/min; 2.5–4.4 min, 1500 μL/min; 4.4–4.5 min, 30 μL/min. MS/MS detection of ceramides and sphingomyelins were performed in negative electrospray ionization mode using multi-reaction monitoring (MRM). The ion source parameters were set as follows: curtain gas, 10 arbitrary units; ion source gas 1, 15 arbitrary units, ion source gas 2, 50 arbitrary units; ion source temperature, 250°C; ion spray voltage, -4500 V; collision gas pressure was set to medium. The dwell time for every MRM was set to 25 msec. Data evaluation and quantification of lipids were carried out using the MetIDQTM software (Biocrates Life Sciences AG, Innsbruck, Austria). Seven point calibration curve and internal standardization with isotopically labelled substances was used for the calculation of the lipid concentration. Note that employed analytical tools detect lipids as sum signals of several possible isobaric lipid species.</p>
+</sec>
+<sec id="sec012">
+<title>Data handling</title>
+<p>For the analysis and comparison of data of this study, different tools of analysis and different levels of data resolution were chosen. Generally, patients were subdivided into the following groups: controls, BAV-A, TAV-A and TAV-Diss, and metabolites between groups were compared. <xref ref-type="fig" rid="pone.0176727.g001">Fig 1</xref> shows volcano blots which provide the ratio of the median concentration of all individual metabolites between two groups. The data from <xref ref-type="fig" rid="pone.0176727.g001">Fig 1</xref> are summarized and ascribed to compound classed in <xref ref-type="fig" rid="pone.0176727.g002">Fig 2</xref>. A comparison of the groups, based on individual metabolites found to differ significantly between groups (Bonferroni corrected) is given in <xref ref-type="fig" rid="pone.0176727.g003">Fig 3</xref>. The tissue content of different metabolite substance classes (i.e. sphingomyelins, glycerophospholipids, amino acids, and ceramides) was calculated by summing up the concentrations of the individual metabolites per compound class per patient. Consequently these sums were then compared between the groups and are given in <xref ref-type="fig" rid="pone.0176727.g004">Fig 4</xref>. A single patient-based heatmap analysis of sphingomyelins is provided in <xref ref-type="fig" rid="pone.0176727.g005">Fig 5</xref>.</p>
+<fig id="pone.0176727.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0176727.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Volcano blot analyses reveal significant shifts in metabolite concentrations between controls and ATAA groups.</title>
+<p>The volcano blots shown in Fig 1 depict the differences between metabolite concentrations between the two groups indicated at the top of each blot. Each dot represents a single metabolite (out of the 92 detectable). On the x-axis the fold change is given (i.e. value (ratio) of the group named second, when group named first is set to one (dashed vertical line)).Values above p = 0.05 (dashed horizontal line) are considered to differ significantly between the two groups. C, control; BAV-A, bicuspid aortic valve-associated thoracic aneurysm; TAV-A, tricuspid aortic valve-associated thoracic aneurysm; TAV-Diss, tricuspid aortic valve-associated thoracic dissection.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0176727.g001" xlink:type="simple"/>
+</fig>
+<fig id="pone.0176727.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0176727.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Differences in metabolites and metabolite compound classes between controls and ATAA forms.</title>
+<p>In the left side of Fig 2 the numbers near the lines which connect group symbols indicate the number of metabolites which differ significantly between groups. C, control (n = 8); BAV-A, bicuspid aortic valve-associated aneurysm (n = 9); TAV-A, tricuspid aortic valve-associated aneurysm (n = 14); TAV-Diss, tricuspid aortic valve-associated dissection (n = 6). Using the letters (a–f) superscripted to the numbers on the left side of Fig 2, metabolites which differ between groups can be assigned to compound classes in the table on the right side of the Figure. Significant differences (p&lt;0.05) in individual metabolite concentration between groups were determined by ANOVA and multiple two-sided t-test comparisons (non-adjusted for maximum sensitivity).</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0176727.g002" xlink:type="simple"/>
+</fig>
+<fig id="pone.0176727.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0176727.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Metabolites with significant differences between controls and ATAA groups.</title>
+<p>Fig 3 shows single metabolites with significant differences in tissue concentration between groups (ANOVA, and multiple two-sided t-test comparisons, Bonferroni adjusted). C, control (n = 8); BAV-A, bicuspid aortic valve-associated aneurysm (n = 9); TAV-A, tricuspid aortic valve-associated aneurysm (n = 14); TAV-Diss, tricuspid aortic valve-associated dissection (n = 6). *, p&lt;0.05. SM: sphingomyelin; PC ae: phosphatidylcholine acyl-alkyl.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0176727.g003" xlink:type="simple"/>
+</fig>
+<fig id="pone.0176727.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0176727.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Total metabolite class concentrations in controls and different ATAA samples.</title>
+<p>Fig 4 shows the disease group-specific concentration of the sum of metabolites per metabolite class. The sums given include only those metabolites per class that were included in the analysis (for details see Table A in <xref ref-type="supplementary-material" rid="pone.0176727.s001">S1 File</xref>). C, control (n = 8); BAV-A, bicuspid aortic valve-associated aneurysm (n = 9); TAV-A, tricuspid aortic valve-associated aneurysm (n = 14); TAV-Diss, tricuspid aortic valve-associated dissection (n = 6). Dots represent median values per patient sample; black line indicates the groups mean value. Asterisks indicate significant differences between groups (ANOVA, Bonferroni adjusted) *, p&lt;0.05.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0176727.g004" xlink:type="simple"/>
+</fig>
+<fig id="pone.0176727.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0176727.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>Hierarchical cluster analysis of total sphingomyelin concentrations.</title>
+<p>Fig 5 shows the distribution of sphingomyelin concentrations per patient tissue sample by hierarchical cluster analysis. Metabolite identity is indicted on the right side. Colours indicate compound concentrations. Colour scale bar (low concentration (dark blue) to high concentration (dark red) and group colour code are given in the upper right. C, control; BAV-A, bicuspid aortic valve-associated thoracic aneurysm; TAV-A, tricuspid aortic valve-associated thoracic aneurysm; TAV-Diss, tricuspid aortic valve-associated thoracic dissection; SM, sphingomyelin.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0176727.g005" xlink:type="simple"/>
+</fig>
+<p>All primary values and data of this study are provided in the online supplement Table A in <xref ref-type="supplementary-material" rid="pone.0176727.s001">S1 File</xref> and Figures A and B in <xref ref-type="supplementary-material" rid="pone.0176727.s001">S1 File</xref>.</p>
+</sec>
+<sec id="sec013">
+<title>Statistical analyses</title>
+<p>All experimental data were analysed using SPSS statistics 22 software (IBM, Armonk, NY, USA). Basically, prior to further statistical analyses, all data were tested for a Gaussian distribution using the Kolmogorov-Smirnov test. Data with a Gaussian distribution (all data) were consequently analysed using one-way ANOVA and two-sided t-test comparisons. Multiple two-sided t-test comparisons were done using Bonferroni adjustment, with the exception of the data presented in Figs <xref ref-type="fig" rid="pone.0176727.g001">1</xref> and <xref ref-type="fig" rid="pone.0176727.g002">2</xref>, where a maximum sensitivity was desired. Data shown in Figs <xref ref-type="fig" rid="pone.0176727.g003">3</xref> and <xref ref-type="fig" rid="pone.0176727.g004">4</xref> are individual values (dots) and the median (line). Groups were defined to differ significantly at a p value &lt; 0.05. Figs <xref ref-type="fig" rid="pone.0176727.g001">1</xref>, <xref ref-type="fig" rid="pone.0176727.g003">3</xref> and <xref ref-type="fig" rid="pone.0176727.g004">4</xref> were generated using GraphPad Prims 7 software (GraphPad Software, Inc., La Jolla, CA, USA). For the presentation of data in <xref ref-type="fig" rid="pone.0176727.g005">Fig 5</xref> a heatmap was generated using the open source software MetaboAnalyst 3.0 (<ext-link ext-link-type="uri" xlink:href="http://www.metaboanalyst.ca/" xlink:type="simple">http://www.metaboanalyst.ca/</ext-link>, Wishart Research Group, University of Alberta, USA) [<xref ref-type="bibr" rid="pone.0176727.ref024">24</xref>].</p>
+</sec>
+</sec>
+<sec id="sec014" sec-type="results">
+<title>Results</title>
+<p>In the course of the present study aortic tissue samples of 220 patients were collected. For each study participant basic clinical parameters were assessed (for details see <xref ref-type="table" rid="pone.0176727.t001">Table 1</xref>), and the concentrations of 92 metabolites per sample were determined. After adjusting for age and gender, study groups were formed out of the 37 participants. With the exception of the potential confounder “diabetes” no significant difference could be observed in the clinical parameters between the groups.</p>
+<table-wrap id="pone.0176727.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0176727.t001</object-id>
+<label>Table 1</label> <caption><title>Aortic sample donor characteristics.</title></caption>
+<alternatives>
+<graphic id="pone.0176727.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0176727.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="justify"/>
+<th align="justify">Control n = 8</th>
+<th align="justify">BAV-A n = 9</th>
+<th align="justify">TAV-A n = 14</th>
+<th align="justify">TAV-Diss n = 6</th>
+<th align="justify"><italic>p</italic>-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="justify">Male gender</td>
+<td align="justify">50.0%</td>
+<td align="justify">77.8%</td>
+<td align="justify">64.3%</td>
+<td align="justify">83.3%</td>
+<td align="char" char=".">0.524</td>
+</tr>
+<tr>
+<td align="justify">Age (years)</td>
+<td align="justify">63.0 (24–69)</td>
+<td align="justify">62.0 (48–77)</td>
+<td align="justify">66.5 (27–75)</td>
+<td align="justify">71.0 (54–78)</td>
+<td align="char" char=".">0.172</td>
+</tr>
+<tr>
+<td align="justify">Aortic diameter</td>
+<td align="justify">n.d.<xref ref-type="table-fn" rid="t001fn002">*</xref></td>
+<td align="justify">54.1±8.9<xref ref-type="table-fn" rid="t001fn003"><sup>1</sup></xref></td>
+<td align="justify">53.9±5.3</td>
+<td align="justify">48.6±4.0</td>
+<td align="char" char=".">0.254</td>
+</tr>
+<tr>
+<td align="justify">BSA (m<sup>2</sup>)</td>
+<td align="justify">1.9±0.2</td>
+<td align="justify">1.9±0.3</td>
+<td align="justify">2.1±0.3</td>
+<td align="justify">1.9±0.2</td>
+<td align="char" char=".">0.287</td>
+</tr>
+<tr>
+<td align="justify">BMI</td>
+<td align="justify">24.5±3.4</td>
+<td align="justify">26.7±5.4</td>
+<td align="justify">29.7±4.7</td>
+<td align="justify">26.8±5.0</td>
+<td align="char" char=".">0.115</td>
+</tr>
+<tr>
+<td align="justify">Diabetes</td>
+<td align="justify">50%</td>
+<td align="justify">0%</td>
+<td align="justify">23.1%<xref ref-type="table-fn" rid="t001fn003"><sup>1</sup></xref></td>
+<td align="justify">0%</td>
+<td align="char" char=".">0.037</td>
+</tr>
+<tr>
+<td align="justify">Hyperlipidemia</td>
+<td align="justify">50%</td>
+<td align="justify">62.5%<xref ref-type="table-fn" rid="t001fn004"><sup>2</sup></xref></td>
+<td align="justify">46.2%<xref ref-type="table-fn" rid="t001fn003"><sup>1</sup></xref></td>
+<td align="justify">33.3%</td>
+<td align="char" char=".">0.758</td>
+</tr>
+<tr>
+<td align="justify">Hypertension</td>
+<td align="justify">37.5%</td>
+<td align="justify">77.8%</td>
+<td align="justify">58.3%<xref ref-type="table-fn" rid="t001fn005"><sup>3</sup></xref></td>
+<td align="justify">83.3%</td>
+<td align="char" char=".">0.236</td>
+</tr>
+<tr>
+<td align="justify">CAD</td>
+<td align="justify">50%</td>
+<td align="justify">25%<sup>2</sup></td>
+<td align="justify">16.7%<xref ref-type="table-fn" rid="t001fn005"><sup>3</sup></xref></td>
+<td align="justify">33.3%</td>
+<td align="char" char=".">0.442</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t001fn001"><p>Table 1 summarizes patient characteristics per disease group and controls. Age is given as median (minimum—maximum), aortic diameter, BSA, and BMI are given in mean values ± SD, all other clinical factors are given in percent. Groups were tested for potential differences using multiple two-sided t-tests (Bonferroni adjusted), and p-values are indicated in the right row. BSA: body surface area, BMI: body mass index, CAD: coronary artery disease.</p></fn>
+<fn id="t001fn002"><p>*, occurrence of an aneurysm was excluded.</p></fn>
+<fn id="t001fn003"><p>(<sup>1</sup> data available for 13 patients,</p></fn>
+<fn id="t001fn004"><p><sup>2</sup> data available for 8 patients,</p></fn>
+<fn id="t001fn005"><p><sup>3</sup> data available for 12 patients,</p></fn>
+<fn id="t001fn006"><p>n.d., no data available; for raw data see online supplement <xref ref-type="supplementary-material" rid="pone.0176727.s002">S2 File</xref>)</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<sec id="sec015">
+<title>Metabolic profiles reveal striking similarities and differences between controls, BAV-A, TAV-A, and TAV-Diss</title>
+<p>To reveal potential differences between the metabolome of control aortas and ATAAs, the concentration of 182 metabolites per sample were determined by FIA-MS/MS. Of those 182 analytes, 92 were detectable (i.e. above the lower level of detection; LOD, see Table A in <xref ref-type="supplementary-material" rid="pone.0176727.s001">S1 File</xref>). The different groups (controls, BAV-A, TAV-A, and TAV-Diss) were then compared by non-adjusted two-sided independent samples two-sided t-tests and volcano blotting to get an overview of existing trends. By comparing the number of metabolites which differed between the groups striking similarities and differences were evident. <xref ref-type="fig" rid="pone.0176727.g001">Fig 1</xref> shows that not a single metabolite (out of 92 detectable metabolites) differs between healthy aortic wall and TAV-A samples. Similarly, also BAV-A and TAV-Diss samples differed only in one metabolite on a significant level (p&lt;0.05). On the contrary, the control group differed in 11 metabolites from the BAV-A group, and in 28 metabolites from the TAV-Diss group. The TAV-A group differed in 8 metabolites from the BAV-A group and in 9 metabolites from the TAV-Diss group. Overall, 38 metabolites were found to differ significantly (with the limitation of a non-adjusted comparison) between at least two groups (see <xref ref-type="fig" rid="pone.0176727.g002">Fig 2</xref> and Table A in <xref ref-type="supplementary-material" rid="pone.0176727.s001">S1 File</xref>). Of note, all metabolites which showed significant differences between the groups stem from the metabolite classes of sphingomyelins, glycerophospholipids and ceramides (<xref ref-type="fig" rid="pone.0176727.g002">Fig 2</xref>).</p>
+</sec>
+<sec id="sec016">
+<title>Single metabolites are of limited usefulness for the differentiation of ATAA groups and controls</title>
+<p>To allow for a single metabolite-based precise and stricter differentiation between groups, multiple Bonferroni-adjusted two-sided t-test comparisons were performed. These analyses resulted in only five metabolites which differed significantly between at least two groups. These metabolites, shown in <xref ref-type="fig" rid="pone.0176727.g003">Fig 3</xref> were: PC ae C32:1, SM (OH) C22:2, SM C18:1, SM C22:1, and SM C24:1. Unfortunately, none of these markers (including the combination of these markers) allowed for a clear cut differentiation between the disease types and controls, as the distribution of values showed significant overlaps between groups.</p>
+</sec>
+<sec id="sec017">
+<title>Differences in aortic wall total sphingomyelin content suggest extended metabolic alterations in BAV-A and TAV-Diss</title>
+<p>To compare the total status of substance groups (i.e. sphingomyelins, glycerophospholipids, amino acids, and ceramides), the absolute concentrations of all individual metabolites from the same compound class per sample were summarized and groups were compared. These analyses, shown in <xref ref-type="fig" rid="pone.0176727.g004">Fig 4</xref>, revealed that sphingomyelins are increased in BAV-A (<italic>p</italic> = 0.018) and TAV-Diss (<italic>p</italic> = 0.012) when compared to the control. Other group comparisons for sphingomyelins did not result in further differences however a trend between BAV-A vs TAV-A was indicated but did not differ significantly (<italic>p</italic> = 0.058). <xref ref-type="fig" rid="pone.0176727.g005">Fig 5</xref> shows a heat map comparison of these data. As we could observe a significantly different proportion of individuals suffering from diabetes between the disease groups and controls (see <xref ref-type="table" rid="pone.0176727.t001">Table 1</xref>), and to control for this potential confounding factor, the same analyses were performed, including only the non-diabetic individuals per disease group. The results showed that the mean value ratios between disease groups remained the same. However, probably due to the smaller number of samples per group, the difference did not reach significance. For details, also see Figure A in <xref ref-type="supplementary-material" rid="pone.0176727.s001">S1 File</xref>.</p>
+<p>The sum of absolute values for all other compound classes (i.e. glycerophospholipids, amino acids, ceramides) did not reveal significant differences (see <xref ref-type="fig" rid="pone.0176727.g004">Fig 4</xref> and Figure B jn <xref ref-type="supplementary-material" rid="pone.0176727.s001">S1 File</xref>).</p>
+</sec>
+</sec>
+<sec id="sec018" sec-type="conclusions">
+<title>Discussion</title>
+<p>The role of alterations in metabolism in general and lipid metabolism in particular, as a potential factor in aneurysm pathogenesis is hardly investigated. In order to address this issue, the current study is–to our knowledge–the first study analysing the metabolomic state of aneurysm tissue in an ATAA setting.</p>
+<p>A central and surprising result of this study was the observation of close similarities between control and TAV-A tissue, with no single metabolite differing between these groups, even using multiple t-test comparisons without correction. Based on these results, and within the limits of our targeted-metabolomics approach, it may be speculated that TAV-A formation may not be related to the metabolic factors analysed in the aortic wall. On the contrary, BAV-A samples and TAV-Diss samples differed significantly from controls in their sphingomyelin content. A confounding role of diabetes in the observed similarities and differences between disease groups is suggested to be unlikely, as a repetition of all analyses in the non-diabetic individuals per disease group gave similar results.</p>
+<p>Sphingomyelins and ceramides are connected via the so called “sphingomyelinase-ceramide pathway”, and ceramides are products of sphingomyelin hydrolysation by the enzyme sphingomyelinase [<xref ref-type="bibr" rid="pone.0176727.ref025">25</xref>]. Generally, the active sphingomyelinase-ceramide pathway is thought to exert pro-inflammatory, pro-oxidative, and cell death-inducing activities, resulting in atherosclerosis, aging and cardiovascular events [<xref ref-type="bibr" rid="pone.0176727.ref026">26</xref>–<xref ref-type="bibr" rid="pone.0176727.ref029">29</xref>]. Importantly, an active sphingomyelinase-ceramide pathway, characterised by increased levels of ceramides and metabolisation of sphingomyelins (e.g. by oxidised LDL-induced sphingomyelinase activity) leads to reduced levels of sphingomyelins [<xref ref-type="bibr" rid="pone.0176727.ref030">30</xref>–<xref ref-type="bibr" rid="pone.0176727.ref033">33</xref>]. The finding of this study, that sphingomyelins are increased in BAV-A and TAV-Diss samples suggests that these classical pro-atherogenic processes may not play a role in these forms of aortic diseases. As a matter of fact, in TAAs (in contrast to AAAs) atherosclerosis risk factors and processes do not seem to constitute central elements in pathogenesis [<xref ref-type="bibr" rid="pone.0176727.ref034">34</xref>]. Nevertheless, the finding of increased levels of sphingomyelins in BAV-A and TAV-Diss aortic samples, and reduced levels of ceramides in BAV-A samples (not significant) suggests that compared to controls (and TAV-A samples), sphingomyelinase activity is reduced/inhibited. Based on these results–even if speculative—we suggest that insufficient activity of the sphingomyelinase-ceramide pathway in BAV-A and TAV-Diss patients may lead to insufficient tissue repair and regeneration processes, both of which need cell death and mild pro-inflammatory stimuli. Of interest is a study by Gabandé-Rodríguez E et al. who reported that increased levels of sphingomyelins in the course of Niemann-Pick disease A (caused by mutations in the gene SMPD1 encoding for the acid sphingomyelinase [<xref ref-type="bibr" rid="pone.0176727.ref035">35</xref>]) lead to inefficient autophago–lysosomal clearance in neurons and fibroblasts. The inefficient autophago–lysosomal clearance leads to (pathologically) reduce degradation of cytoplasmic organelles and cytosolic components [<xref ref-type="bibr" rid="pone.0176727.ref036">36</xref>]. Chen Y. et al. reported on reduced proliferation of hepatocyte cell lines by increased sphingomyelin levels [<xref ref-type="bibr" rid="pone.0176727.ref037">37</xref>], which may also indicate reduced regenerative capabilities under conditions of increased sphingomyelin levels.</p>
+<p>Another interesting result of our analyses is the obvious difference in the metabolome between TAV-A and TAV-Diss, as well as similarity between TAV-Diss and the BAV-A group. A higher risk of suffering from aortic dissections by BAV-A patients compared to TAV-A patients is controversially discussed [<xref ref-type="bibr" rid="pone.0176727.ref038">38</xref>, <xref ref-type="bibr" rid="pone.0176727.ref039">39</xref>], though metabolites differing between controls and TAV-Diss as well as TAV-A and TAV-Diss may be related to the occurrence of a dissection. Without doubt, the differences between the groups observed may well be based on processes other than sphingomyelinase activity, e.g. increased activity of sphingomyelinsynthase and/or increased activity of ceramidase etc. [<xref ref-type="bibr" rid="pone.0176727.ref032">32</xref>, <xref ref-type="bibr" rid="pone.0176727.ref033">33</xref>, <xref ref-type="bibr" rid="pone.0176727.ref040">40</xref>]. In the absence of detailed enzyme activity profiles the above concept is based on the principal of Occam`s razor and clearly is not more than a hypothesis which needs further studies.</p>
+<p>The second goal of this study was to define potential biomarkers for a later follow up serum study. The rationale of analysing aortic tissue samples was to reveal potential pathophysiological differences between the groups (see above), and second (for biomarker search), to reduce the signal-to-noise ratio by analysing the diseased tissue and not serum which mirrors the metabolome of the entire body. The basic hypothesis for the biomarker search was accordingly, to not focus on systemic factors, but to focus on local disease processes and markers in the aorta. In summary, the results show significant differences within aortic tissue that allow the differentiation of BAV-A and TAV-Diss from controls. A differentiation of TAV-A from controls was not possible. As above mentioned, the observation of increased levels of sphingomyelins in BAV-A and TAV-Diss shall form the basis for a deeper analysis of the enzyme network involved in sphingomyelin synthesis and degradation. A clearer view on this network may lead to novel biomarkers (e.g. enzyme expression/activity) and may also reveal novel pathophysiological processes and treatment targets.</p>
+<p>Hammad et al. previously showed good detectability of sphingomyelins in human serum and plasma, whereby SM C16:0 and SM C24:1, were the predominant sphingomyelin species in healthy human serum [<xref ref-type="bibr" rid="pone.0176727.ref041">41</xref>]. In our tissue study these two metabolites were also the main component (44.4%), which makes us hope that the presented results on sphingomyelins can be translated into a serum-based assay. Even though our study shows that single metabolites cannot be used as biomarkers to differentiate between disease groups and controls, a combination of several markers i.e. the analysis of the concentration of an entire substance class may lead to more stable results. Also Ikonomidis et al. recently reported, that a successful differentiation of TAA samples and healthy controls could not be achieved by single proteins, but by a combination of several proteins, resulting in sensitive and specific results [<xref ref-type="bibr" rid="pone.0176727.ref042">42</xref>].</p>
+<p>In this study we chose to stratify ATAAs and to differentiate between BAV-A, TAV-A, and TAV-Diss. Currently, among experts it is controversially discussed whether these potential subtypes of ATAAs reflect in fact subtypes of the same disease (same pathogenetic process) or are in fact different diseases with a similar outcome. There are a number of studies which counter-argue these differences, and could not reveal subtype specific characteristics between BAV-A and TAV-A, neither on the genomic nor the proteomic level [<xref ref-type="bibr" rid="pone.0176727.ref043">43</xref>, <xref ref-type="bibr" rid="pone.0176727.ref044">44</xref>]. However, recent studies could provide new evidence for such a difference by analysing protein expressions in the plasma [<xref ref-type="bibr" rid="pone.0176727.ref042">42</xref>], and by detailed histopathological comparisons [<xref ref-type="bibr" rid="pone.0176727.ref045">45</xref>]. The results of the present study on aortic tissue is also in support for a difference in pathogenesis between TAV-A and BAV-A, and may add to the discussion by showing that TAV associated aneurysms and dissections may form two different disease entities.</p>
+<sec id="sec019">
+<title>Study limitations</title>
+<p>Due to the fact that this study uses aortic tissue instead of serum/plasma and also because of matching the groups by age etc., the group size is relatively small. Also the choice for a targeted metabolomics approach (chosen to know the identity of all analysed metabolites) limits the results and conclusions drawn to these metabolites. As mentioned, due to the analysis of tissue and not serum/plasma the applicability of the observed differences in the metabolomic profiles of groups in blood tests is uncertain, as different profiles of analytes in plasma and tissue were previously observed [<xref ref-type="bibr" rid="pone.0176727.ref042">42</xref>]. Further, by focusing on tissue we excluded certain systemic-driven aspects in disease pathogenesis. Nevertheless, as the aortic wall is the disease site, also systemic processes, relevant to disease metabolism shall be reflected by the aorta tissue.</p>
+<p>Finally, it cannot be excluded that unknown confounders alter the metabolic profile of the individual groups and may be the basis for the observed differences (differences in patients’ medications, body composition etc.).</p>
+</sec>
+</sec>
+<sec id="sec020">
+<title>Supporting information</title>
+<supplementary-material id="pone.0176727.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0176727.s001" xlink:type="simple">
+<label>S1 File</label>
+<caption>
+<title/>
+<p><bold>Table A–Metabolite concentrations and significant differences (non-adjusted) between the groups for all detectable metabolites. S</bold>ummarizes the absolute concentrations of individual metabolites (2<sup>nd</sup> to 5<sup>th</sup> row from left), by metabolite class. Only metabolites above the lower level of detection and metabolites which differed significantly between at least two groups (ANOVA analyses and multiple t-tests (non-adjusted for maximum sensitivity)) are listed. Values are given as median ± SD (in μM). C, control; BAV-A, bicuspid aortic valve-associated thoracic aneurysm; TAV-A, tricuspid aortic valve-associated thoracic aneurysm; TAV-Diss, tricuspid aortic valve-associated thoracic dissection. In the right side of the table the difference between groups is given in %; the corresponding p-values are indicated. “+” prior to the values (in %) indicate that the first group shows higher concentrations compared to the second group. B-C, BAV-A versus C; D-C, TAV-Diss versus C; D-T, TAV-Diss versus TAV-A. Comparisons: TAV-A versus C is not given, because no significant differences between groups were observed. Empty fields indicate the absence of a significant difference. <bold>Figure A- Total sphingomyelin concentrations in non-diabetic controls and different ATAA samples</bold>—shows the disease group-specific concentration of the sum of metabolites for sphingomyelins. The sums given include only those metabolites per class that were included in the analysis (for details see Table A in S1 File). Patients suffering from diabetes were excluded from the analysis. C, control (n = 4); BAV-A, bicuspid aortic valve-associated aneurysm (n = 9); TAV-A, tricuspid aortic valve-associated aneurysm (n = 11); TAV-Diss, tricuspid aortic valve-associated dissection (n = 6). Dots represent median values per patient sample; black line indicates the groups mean value. Asterisks indicate significant differences between groups (ANOVA, Bonferroni adjusted) *, p&lt;0.05. <bold>Figure B—Hierarchical cluster analysis of total metabolite concentrations—</bold>shows the distribution of total metabolite concentrations (i.e. sphingomyelins, glycerophospholipids, amino acids and ceramides) per patient tissue sample by hierarchical cluster analysis. Metabolite identity is indicted on the right side. Colors indicate compound concentrations. Color scale bar (low concentration (dark blue) to high concentration (dark red) and group color code are given in the upper right. C, control; BAV-A, bicuspid aortic valve-associated thoracic aneurysm; TAV-A, tricuspid aortic valve-associated thoracic aneurysm; TAV-Diss, tricuspid aortic valve-associated thoracic dissection.</p>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0176727.s002" mimetype="application/vnd.ms-excel" position="float" xlink:href="info:doi/10.1371/journal.pone.0176727.s002" xlink:type="simple">
+<label>S2 File</label>
+<caption>
+<title>Raw data.</title>
+<p>(XLS)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>The authors thank Dr. Adrian Türkcan, Medical University of Vienna, Vienna, Austria for the correction of the English language.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0176727.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Crawford</surname> <given-names>ES</given-names></name>, <name name-style="western"><surname>Cohen</surname> <given-names>ES</given-names></name>. <article-title>Aortic aneurysm: a multifocal disease. Presidential address</article-title>. <source>Arch Surg</source>. <year>1982</year>;<volume>117</volume>(<issue>11</issue>):<fpage>1393</fpage>–<lpage>400</lpage>. Epub 1982/11/01. <object-id pub-id-type="pmid">7138300</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Goldfinger</surname> <given-names>JZ</given-names></name>, <name name-style="western"><surname>Halperin</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Marin</surname> <given-names>ML</given-names></name>, <name name-style="western"><surname>Stewart</surname> <given-names>AS</given-names></name>, <name name-style="western"><surname>Eagle</surname> <given-names>KA</given-names></name>, <name name-style="western"><surname>Fuster</surname> <given-names>V</given-names></name>. <article-title>Thoracic aortic aneurysm and dissection</article-title>. <source>J Am Coll Cardiol</source>. <year>2014</year>;<volume>64</volume>(<issue>16</issue>):<fpage>1725</fpage>–<lpage>39</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jacc.2014.08.025" xlink:type="simple">10.1016/j.jacc.2014.08.025</ext-link></comment> <object-id pub-id-type="pmid">25323262</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Iakoubova</surname> <given-names>OA</given-names></name>, <name name-style="western"><surname>Tong</surname> <given-names>CH</given-names></name>, <name name-style="western"><surname>Rowland</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Luke</surname> <given-names>MM</given-names></name>, <name name-style="western"><surname>Garcia</surname> <given-names>VE</given-names></name>, <name name-style="western"><surname>Catanese</surname> <given-names>JJ</given-names></name>, <etal>et al</etal>. <article-title>Genetic variants in FBN-1 and risk for thoracic aortic aneurysm and dissection</article-title>. <source>PLoS One</source>. <year>2014</year>;<volume>9</volume>(<issue>4</issue>):<fpage>e91437</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0091437" xlink:type="simple">10.1371/journal.pone.0091437</ext-link></comment> <object-id pub-id-type="pmid">24743685</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ellison</surname> <given-names>JW</given-names></name>, <name name-style="western"><surname>Yagubyan</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Majumdar</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Sarkar</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Bolander</surname> <given-names>ME</given-names></name>, <name name-style="western"><surname>Atkinson</surname> <given-names>EJ</given-names></name>, <etal>et al</etal>. <article-title>Evidence of genetic locus heterogeneity for familial bicuspid aortic valve</article-title>. <source>J Surg Res</source>. <year>2007</year>;<volume>142</volume>(<issue>1</issue>):<fpage>28</fpage>–<lpage>31</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jss.2006.04.040" xlink:type="simple">10.1016/j.jss.2006.04.040</ext-link></comment> <object-id pub-id-type="pmid">17716607</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Foffa</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Ait Ali</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Panesi</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Mariani</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Festa</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Botto</surname> <given-names>N</given-names></name>, <etal>et al</etal>. <article-title>Sequencing of NOTCH1, GATA5, TGFBR1 and TGFBR2 genes in familial cases of bicuspid aortic valve</article-title>. <source>BMC Med Genet</source>. <year>2013</year>;<volume>14</volume>:<fpage>44</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1471-2350-14-44" xlink:type="simple">10.1186/1471-2350-14-44</ext-link></comment> <object-id pub-id-type="pmid">23578328</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tadros</surname> <given-names>TM</given-names></name>, <name name-style="western"><surname>Klein</surname> <given-names>MD</given-names></name>, <name name-style="western"><surname>Shapira</surname> <given-names>OM</given-names></name>. <article-title>Ascending aortic dilatation associated with bicuspid aortic valve: pathophysiology, molecular biology, and clinical implications</article-title>. <source>Circulation</source>. <year>2009</year>;<volume>119</volume>(<issue>6</issue>):<fpage>880</fpage>–<lpage>90</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1161/CIRCULATIONAHA.108.795401" xlink:type="simple">10.1161/CIRCULATIONAHA.108.795401</ext-link></comment> <object-id pub-id-type="pmid">19221231</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Elefteriades</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Pomianowski</surname> <given-names>P</given-names></name>. <article-title>Practical genetics of thoracic aortic aneurysm</article-title>. <source>Prog Cardiovasc Dis</source>. <year>2013</year>;<volume>56</volume>(<issue>1</issue>):<fpage>57</fpage>–<lpage>67</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.pcad.2013.06.002" xlink:type="simple">10.1016/j.pcad.2013.06.002</ext-link></comment> <object-id pub-id-type="pmid">23993238</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kirsch</surname> <given-names>EW</given-names></name>, <name name-style="western"><surname>Radu</surname> <given-names>NC</given-names></name>, <name name-style="western"><surname>Allaire</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Loisance</surname> <given-names>DY</given-names></name>. <article-title>Pathobiology of idiopathic ascending aortic aneurysms</article-title>. <source>Asian Cardiovasc Thorac Ann</source>. <year>2006</year>;<volume>14</volume>(<issue>3</issue>):<fpage>254</fpage>–<lpage>60</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1177/021849230601400320" xlink:type="simple">10.1177/021849230601400320</ext-link></comment> <object-id pub-id-type="pmid">16714709</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Shimizu</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Mitchell</surname> <given-names>RN</given-names></name>, <name name-style="western"><surname>Libby</surname> <given-names>P</given-names></name>. <article-title>Inflammation and cellular immune responses in abdominal aortic aneurysms</article-title>. <source>Arteriosclerosis, thrombosis, and vascular biology</source>. <year>2006</year>;<volume>26</volume>(<issue>5</issue>):<fpage>987</fpage>–<lpage>94</lpage>. Epub 2006/02/25. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1161/01.ATV.0000214999.12921.4f" xlink:type="simple">10.1161/01.ATV.0000214999.12921.4f</ext-link></comment> <object-id pub-id-type="pmid">16497993</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Guo</surname> <given-names>DC</given-names></name>, <name name-style="western"><surname>Papke</surname> <given-names>CL</given-names></name>, <name name-style="western"><surname>He</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Milewicz</surname> <given-names>DM</given-names></name>. <article-title>Pathogenesis of thoracic and abdominal aortic aneurysms</article-title>. <source>Ann N Y Acad Sci</source>. <year>2006</year>;<volume>1085</volume>:<fpage>339</fpage>–<lpage>52</lpage>. Epub 2006/12/22. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1196/annals.1383.013" xlink:type="simple">10.1196/annals.1383.013</ext-link></comment> <object-id pub-id-type="pmid">17182954</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Puck</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Aigner</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Modak</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Cejka</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Blaas</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Stockl</surname> <given-names>J</given-names></name>. <article-title>Expression and regulation of Schlafen (SLFN) family members in primary human monocytes, monocyte-derived dendritic cells and T cells</article-title>. <source>Results in immunology</source>. <year>2015</year>;<volume>5</volume>:<fpage>23</fpage>–<lpage>32</lpage>. Epub 2015/12/02. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.rinim.2015.10.001" xlink:type="simple">10.1016/j.rinim.2015.10.001</ext-link></comment> <object-id pub-id-type="pmid">26623250</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>van den Elzen</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Holten</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Blaas</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>van Wijk</surname> <given-names>JJ</given-names></name>. <article-title>Reducing Snapshots to Points: A Visual Analytics Approach to Dynamic Network Exploration</article-title>. <source>IEEE transactions on visualization and computer graphics</source>. <year>2016</year>;<volume>22</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>10</lpage>. Epub 2015/11/04. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1109/TVCG.2015.2468078" xlink:type="simple">10.1109/TVCG.2015.2468078</ext-link></comment> <object-id pub-id-type="pmid">26529683</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Weiss</surname> <given-names>VU</given-names></name>, <name name-style="western"><surname>Bereszcazk</surname> <given-names>JZ</given-names></name>, <name name-style="western"><surname>Havlik</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kallinger</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Gosler</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Kumar</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Analysis of a common cold virus and its subviral particles by gas-phase electrophoretic mobility molecular analysis and native mass spectrometry</article-title>. <source>Analytical chemistry</source>. <year>2015</year>;<volume>87</volume>(<issue>17</issue>):<fpage>8709</fpage>–<lpage>17</lpage>. Epub 2015/07/30. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1021/acs.analchem.5b01450" xlink:type="simple">10.1021/acs.analchem.5b01450</ext-link></comment> <object-id pub-id-type="pmid">26221912</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Slebos</surname> <given-names>DJ</given-names></name>, <name name-style="western"><surname>Hartman</surname> <given-names>JE</given-names></name>, <name name-style="western"><surname>Klooster</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Blaas</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Deslee</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Gesierich</surname> <given-names>W</given-names></name>, <etal>et al</etal>. <article-title>Bronchoscopic Coil Treatment for Patients with Severe Emphysema: A Meta-Analysis</article-title>. <source>Respiration; international review of thoracic diseases</source>. <year>2015</year>;<volume>90</volume>(<issue>2</issue>):<fpage>136</fpage>–<lpage>45</lpage>. Epub 2015/06/27. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1159/000431384" xlink:type="simple">10.1159/000431384</ext-link></comment> <object-id pub-id-type="pmid">26112380</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>El-Hamamsy</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Yacoub</surname> <given-names>MH</given-names></name>. <article-title>Cellular and molecular mechanisms of thoracic aortic aneurysms</article-title>. <source>Nat Rev Cardiol</source>. <year>2009</year>;<volume>6</volume>(<issue>12</issue>):<fpage>771</fpage>–<lpage>86</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nrcardio.2009.191" xlink:type="simple">10.1038/nrcardio.2009.191</ext-link></comment> <object-id pub-id-type="pmid">19884902</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Peters</surname> <given-names>DG</given-names></name>, <name name-style="western"><surname>Kassam</surname> <given-names>AB</given-names></name>, <name name-style="western"><surname>Yonas</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>O'Hare</surname> <given-names>EH</given-names></name>, <name name-style="western"><surname>Ferrell</surname> <given-names>RE</given-names></name>, <name name-style="western"><surname>Brufsky</surname> <given-names>AM</given-names></name>. <article-title>Comprehensive transcript analysis in small quantities of mRNA by SAGE-lite</article-title>. <source>Nucleic Acids Res</source>. <year>1999</year>;<volume>27</volume>(<issue>24</issue>):<fpage>e39</fpage>. <object-id pub-id-type="pmid">10572191</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tung</surname> <given-names>WS</given-names></name>, <name name-style="western"><surname>Lee</surname> <given-names>JK</given-names></name>, <name name-style="western"><surname>Thompson</surname> <given-names>RW</given-names></name>. <article-title>Simultaneous analysis of 1176 gene products in normal human aorta and abdominal aortic aneurysms using a membrane-based complementary DNA expression array</article-title>. <source>J Vasc Surg</source>. <year>2001</year>;<volume>34</volume>(<issue>1</issue>):<fpage>143</fpage>–<lpage>50</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1067/mva.2001.113310" xlink:type="simple">10.1067/mva.2001.113310</ext-link></comment> <object-id pub-id-type="pmid">11436088</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Matt</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>von Orelli</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Bernet</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Grussenmeyer</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Lefkovits</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Zerkowski</surname> <given-names>HR</given-names></name>. <article-title>Proteomics of ascending aortic aneurysm with bicuspid or tricuspid aortic valve</article-title>. <source>Asian Cardiovasc Thorac Ann</source>. <year>2007</year>;<volume>15</volume>(<issue>3</issue>):<fpage>185</fpage>–<lpage>90</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1177/021849230701500302" xlink:type="simple">10.1177/021849230701500302</ext-link></comment> <object-id pub-id-type="pmid">17540984</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ciborowski</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Martin-Ventura</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Meilhac</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Michel</surname> <given-names>JB</given-names></name>, <name name-style="western"><surname>Ruperez</surname> <given-names>FJ</given-names></name>, <name name-style="western"><surname>Tunon</surname> <given-names>J</given-names></name>, <etal>et al</etal>. <article-title>Metabolites secreted by human atherothrombotic aneurysms revealed through a metabolomic approach</article-title>. <source>J Proteome Res</source>. <year>2011</year>;<volume>10</volume>(<issue>3</issue>):<fpage>1374</fpage>–<lpage>82</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1021/pr101138m" xlink:type="simple">10.1021/pr101138m</ext-link></comment> <object-id pub-id-type="pmid">21166478</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ciborowski</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Teul</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Martin-Ventura</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Egido</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Barbas</surname> <given-names>C</given-names></name>. <article-title>Metabolomics with LC-QTOF-MS permits the prediction of disease stage in aortic abdominal aneurysm based on plasma metabolic fingerprint</article-title>. <source>PLoS One</source>. <year>2012</year>;<volume>7</volume>(<issue>2</issue>):<fpage>e31982</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0031982" xlink:type="simple">10.1371/journal.pone.0031982</ext-link></comment> <object-id pub-id-type="pmid">22384120</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pillai</surname> <given-names>PS</given-names></name>, <name name-style="western"><surname>Leeson</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Porter</surname> <given-names>TF</given-names></name>, <name name-style="western"><surname>Owens</surname> <given-names>CD</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>JM</given-names></name>, <name name-style="western"><surname>Conte</surname> <given-names>MS</given-names></name>, <etal>et al</etal>. <article-title>Chemical mediators of inflammation and resolution in post-operative abdominal aortic aneurysm patients</article-title>. <source>Inflammation</source>. <year>2012</year>;<volume>35</volume>(<issue>1</issue>):<fpage>98</fpage>–<lpage>113</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s10753-011-9294-8" xlink:type="simple">10.1007/s10753-011-9294-8</ext-link></comment> <object-id pub-id-type="pmid">21286796</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ruperez</surname> <given-names>FJ</given-names></name>, <name name-style="western"><surname>Ramos-Mozo</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Teul</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Martinez-Pinna</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Garcia</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Malet-Martino</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Metabolomic study of plasma of patients with abdominal aortic aneurysm</article-title>. <source>Anal Bioanal Chem</source>. <year>2012</year>;<volume>403</volume>(<issue>6</issue>):<fpage>1651</fpage>–<lpage>60</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s00216-012-5982-y" xlink:type="simple">10.1007/s00216-012-5982-y</ext-link></comment> <object-id pub-id-type="pmid">22543712</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ciborowski</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Barbas</surname> <given-names>C</given-names></name>. <article-title>Metabolites secreted by human atherothrombotic aneurysm</article-title>. <source>Methods Mol Biol</source>. <year>2013</year>;<volume>1000</volume>:<fpage>103</fpage>–<lpage>13</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/978-1-62703-405-0_9" xlink:type="simple">10.1007/978-1-62703-405-0_9</ext-link></comment> <object-id pub-id-type="pmid">23585088</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zack</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Rodewald</surname> <given-names>AK</given-names></name>, <name name-style="western"><surname>Blaas</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Buttner</surname> <given-names>A</given-names></name>. <article-title>Histologic spectrum of the cardiac conducting tissue in non-natural deaths under 30 years of age: an analysis of 43 cases with special implications for sudden cardiac death</article-title>. <source>International journal of legal medicine</source>. <year>2016</year>;<volume>130</volume>(<issue>1</issue>):<fpage>173</fpage>–<lpage>8</lpage>. Epub 2015/11/04. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s00414-015-1287-y" xlink:type="simple">10.1007/s00414-015-1287-y</ext-link></comment> <object-id pub-id-type="pmid">26526026</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Otahal</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Fuchs</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Al-Allaf</surname> <given-names>FA</given-names></name>, <name name-style="western"><surname>Blaas</surname> <given-names>D</given-names></name>. <article-title>Release of Vesicular Stomatitis Virus Spike Protein G-Pseudotyped Lentivirus from the Host Cell Is Impaired upon Low-Density Lipoprotein Receptor Overexpression</article-title>. <source>Journal of virology</source>. <year>2015</year>;<volume>89</volume>(<issue>22</issue>):<fpage>11723</fpage>–<lpage>6</lpage>. Epub 2015/09/05. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/JVI.01869-15" xlink:type="simple">10.1128/JVI.01869-15</ext-link></comment> <object-id pub-id-type="pmid">26339060</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Edsfeldt</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Duner</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Stahlman</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Mollet</surname> <given-names>IG</given-names></name>, <name name-style="western"><surname>Asciutto</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Grufman</surname> <given-names>H</given-names></name>, <etal>et al</etal>. <article-title>Sphingolipids Contribute to Human Atherosclerotic Plaque Inflammation</article-title>. <source>Arteriosclerosis, thrombosis, and vascular biology</source>. <year>2016</year>;<volume>36</volume>(<issue>6</issue>):<fpage>1132</fpage>–<lpage>40</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1161/ATVBAHA.116.305675" xlink:type="simple">10.1161/ATVBAHA.116.305675</ext-link></comment> <object-id pub-id-type="pmid">27055903</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bao</surname> <given-names>JX</given-names></name>, <name name-style="western"><surname>Su</surname> <given-names>YT</given-names></name>, <name name-style="western"><surname>Cheng</surname> <given-names>YP</given-names></name>, <name name-style="western"><surname>Zhang</surname> <given-names>HJ</given-names></name>, <name name-style="western"><surname>Xie</surname> <given-names>XP</given-names></name>, <name name-style="western"><surname>Chang</surname> <given-names>YM</given-names></name>. <article-title>Vascular sphingolipids in physiological and pathological adaptation</article-title>. <source>Frontiers in bioscience</source>. <year>2016</year>;<volume>21</volume>:<fpage>1168</fpage>–<lpage>86</lpage>.</mixed-citation></ref>
+<ref id="pone.0176727.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chaurasia</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Summers</surname> <given-names>SA</given-names></name>. <article-title>Ceramides—Lipotoxic Inducers of Metabolic Disorders</article-title>. <source>Trends in endocrinology and metabolism: TEM</source>. <year>2015</year>;<volume>26</volume>(<issue>10</issue>):<fpage>538</fpage>–<lpage>50</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.tem.2015.07.006" xlink:type="simple">10.1016/j.tem.2015.07.006</ext-link></comment> <object-id pub-id-type="pmid">26412155</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Othman</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Saely</surname> <given-names>CH</given-names></name>, <name name-style="western"><surname>Muendlein</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Vonbank</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Drexel</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>von Eckardstein</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Plasma C20-Sphingolipids predict cardiovascular events independently from conventional cardiovascular risk factors in patients undergoing coronary angiography</article-title>. <source>Atherosclerosis</source>. <year>2015</year>;<volume>240</volume>(<issue>1</issue>):<fpage>216</fpage>–<lpage>21</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.atherosclerosis.2015.03.011" xlink:type="simple">10.1016/j.atherosclerosis.2015.03.011</ext-link></comment> <object-id pub-id-type="pmid">25801014</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Holzinger</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Blaas</surname> <given-names>K</given-names></name>. <article-title>Actin-Dynamics in Plant Cells: The Function of Actin-Perturbing Substances: Jasplakinolide, Chondramides, Phalloidin, Cytochalasins, and Latrunculins</article-title>. <source>Methods Mol Biol</source>. <year>2016</year>;<volume>1365</volume>:<fpage>243</fpage>–<lpage>61</lpage>. Epub 2015/10/27. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/978-1-4939-3124-8_13" xlink:type="simple">10.1007/978-1-4939-3124-8_13</ext-link></comment> <object-id pub-id-type="pmid">26498789</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>van den Elzen</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Holten</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Blaas</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>van Wijk</surname> <given-names>JJ</given-names></name>. <article-title>Dynamic Network Visualization withExtended Massive Sequence Views</article-title>. <source>IEEE transactions on visualization and computer graphics</source>. <year>2014</year>;<volume>20</volume>(<issue>8</issue>):<fpage>1087</fpage>–<lpage>99</lpage>. Epub 2015/09/12. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1109/TVCG.2013.263" xlink:type="simple">10.1109/TVCG.2013.263</ext-link></comment> <object-id pub-id-type="pmid">26357363</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Adada</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Luberto</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Canals</surname> <given-names>D</given-names></name>. <article-title>Inhibitors of the sphingomyelin cycle: Sphingomyelin synthases and sphingomyelinases</article-title>. <source>Chemistry and physics of lipids</source>. <year>2016</year>;<volume>197</volume>:<fpage>45</fpage>–<lpage>59</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.chemphyslip.2015.07.008" xlink:type="simple">10.1016/j.chemphyslip.2015.07.008</ext-link></comment> <object-id pub-id-type="pmid">26200918</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bienias</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Fiedorowicz</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Sadowska</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Prokopiuk</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Car</surname> <given-names>H</given-names></name>. <article-title>Regulation of sphingomyelin metabolism</article-title>. <source>Pharmacological reports: PR</source>. <year>2016</year>;<volume>68</volume>(<issue>3</issue>):<fpage>570</fpage>–<lpage>81</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.pharep.2015.12.008" xlink:type="simple">10.1016/j.pharep.2015.12.008</ext-link></comment> <object-id pub-id-type="pmid">26940196</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Blaas</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Heinz</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Wurtinger</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Turkcan</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Tepekoylu</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Grimm</surname> <given-names>M</given-names></name>, <etal>et al</etal>. <article-title>Vein Graft Thrombi, a Niche for Smooth Muscle Cell Colonisation-A Hypothesis to Explain the Asymmetry of Intimal Hyperplasia</article-title>. <source>Journal of thrombosis and haemostasis: JTH</source>. <year>2016</year>. Epub 2016/02/16.</mixed-citation></ref>
+<ref id="pone.0176727.ref035"><label>35</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brady</surname> <given-names>RO</given-names></name>, <name name-style="western"><surname>Kanfer</surname> <given-names>JN</given-names></name>, <name name-style="western"><surname>Mock</surname> <given-names>MB</given-names></name>, <name name-style="western"><surname>Fredrickson</surname> <given-names>DS</given-names></name>. <article-title>The metabolism of sphingomyelin. II. Evidence of an enzymatic deficiency in Niemann-Pick diseae</article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source>. <year>1966</year>;<volume>55</volume>(<issue>2</issue>):<fpage>366</fpage>–<lpage>9</lpage>. <object-id pub-id-type="pmid">5220952</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref036"><label>36</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gabande-Rodriguez</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Boya</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Labrador</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Dotti</surname> <given-names>CG</given-names></name>, <name name-style="western"><surname>Ledesma</surname> <given-names>MD</given-names></name>. <article-title>High sphingomyelin levels induce lysosomal damage and autophagy dysfunction in Niemann Pick disease type A</article-title>. <source>Cell death and differentiation</source>. <year>2014</year>;<volume>21</volume>(<issue>6</issue>):<fpage>864</fpage>–<lpage>75</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/cdd.2014.4" xlink:type="simple">10.1038/cdd.2014.4</ext-link></comment> <object-id pub-id-type="pmid">24488099</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref037"><label>37</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chen</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Xu</surname> <given-names>SC</given-names></name>, <name name-style="western"><surname>Duan</surname> <given-names>RD</given-names></name>. <article-title>Mevalonate inhibits acid sphingomyelinase activity, increases sphingomyelin levels and inhibits cell proliferation of HepG2 and Caco-2 cells</article-title>. <source>Lipids in health and disease</source>. <year>2015</year>;<volume>14</volume>:<fpage>130</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/s12944-015-0137-8" xlink:type="simple">10.1186/s12944-015-0137-8</ext-link></comment> <object-id pub-id-type="pmid">26493087</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref038"><label>38</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Berntorp</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Negrier</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Gozzi</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Blaas</surname> <given-names>PM</given-names></name>, <name name-style="western"><surname>Lethagen</surname> <given-names>S</given-names></name>. <article-title>Dosing regimens, FVIII levels and estimated haemostatic protection with special focus on rFVIIIFc</article-title>. <source>Haemophilia: the official journal of the World Federation of Hemophilia</source>. <year>2016</year>. Epub 2016/02/13.</mixed-citation></ref>
+<ref id="pone.0176727.ref039"><label>39</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zilz</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Blaas</surname> <given-names>SH</given-names></name>, <name name-style="western"><surname>Pfeifer</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Jorres</surname> <given-names>RA</given-names></name>, <name name-style="western"><surname>Budweiser</surname> <given-names>S</given-names></name>. <article-title>Mental health, serum biomarkers and survival in severe COPD: a pilot study</article-title>. <source>Multidisciplinary respiratory medicine</source>. <year>2015</year>;<volume>11</volume>:<fpage>3</fpage>. Epub 2016/01/21. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/s40248-016-0041-8" xlink:type="simple">10.1186/s40248-016-0041-8</ext-link></comment> <object-id pub-id-type="pmid">26788321</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref040"><label>40</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chakravarthy</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Navitskaya</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>O'Reilly</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Gallimore</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Mize</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Beli</surname> <given-names>E</given-names></name>, <etal>et al</etal>. <article-title>Role of Acid Sphingomyelinase in Shifting the Balance Between Proinflammatory and Reparative Bone Marrow Cells in Diabetic Retinopathy</article-title>. <source>Stem cells</source>. <year>2016</year>;<volume>34</volume>(<issue>4</issue>):<fpage>972</fpage>–<lpage>83</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/stem.2259" xlink:type="simple">10.1002/stem.2259</ext-link></comment> <object-id pub-id-type="pmid">26676316</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref041"><label>41</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hammad</surname> <given-names>SM</given-names></name>, <name name-style="western"><surname>Pierce</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Soodavar</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Smith</surname> <given-names>KJ</given-names></name>, <name name-style="western"><surname>Al Gadban</surname> <given-names>MM</given-names></name>, <name name-style="western"><surname>Rembiesa</surname> <given-names>B</given-names></name>, <etal>et al</etal>. <article-title>Blood sphingolipidomics in healthy humans: impact of sample collection methodology</article-title>. <source>J Lipid Res</source>. <year>2010</year>;<volume>51</volume>(<issue>10</issue>):<fpage>3074</fpage>–<lpage>87</lpage>. Epub 2010/07/28. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1194/jlr.D008532" xlink:type="simple">10.1194/jlr.D008532</ext-link></comment> <object-id pub-id-type="pmid">20660127</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref042"><label>42</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ikonomidis</surname> <given-names>JS</given-names></name>, <name name-style="western"><surname>Ivey</surname> <given-names>CR</given-names></name>, <name name-style="western"><surname>Wheeler</surname> <given-names>JB</given-names></name>, <name name-style="western"><surname>Akerman</surname> <given-names>AW</given-names></name>, <name name-style="western"><surname>Rice</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Patel</surname> <given-names>RK</given-names></name>, <etal>et al</etal>. <article-title>Plasma biomarkers for distinguishing etiologic subtypes of thoracic aortic aneurysm disease</article-title>. <source>The Journal of thoracic and cardiovascular surgery</source>. <year>2013</year>;<volume>145</volume>(<issue>5</issue>):<fpage>1326</fpage>–<lpage>33</lpage>. Epub 2013/01/15. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jtcvs.2012.12.027" xlink:type="simple">10.1016/j.jtcvs.2012.12.027</ext-link></comment> <object-id pub-id-type="pmid">23312977</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref043"><label>43</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fedak</surname> <given-names>PW</given-names></name>, <name name-style="western"><surname>Verma</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>David</surname> <given-names>TE</given-names></name>, <name name-style="western"><surname>Leask</surname> <given-names>RL</given-names></name>, <name name-style="western"><surname>Weisel</surname> <given-names>RD</given-names></name>, <name name-style="western"><surname>Butany</surname> <given-names>J</given-names></name>. <article-title>Clinical and pathophysiological implications of a bicuspid aortic valve</article-title>. <source>Circulation</source>. <year>2002</year>;<volume>106</volume>(<issue>8</issue>):<fpage>900</fpage>–<lpage>4</lpage>. Epub 2002/08/21. <object-id pub-id-type="pmid">12186790</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref044"><label>44</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Black</surname> <given-names>KM</given-names></name>, <name name-style="western"><surname>Masuzawa</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Hagberg</surname> <given-names>RC</given-names></name>, <name name-style="western"><surname>Khabbaz</surname> <given-names>KR</given-names></name>, <name name-style="western"><surname>Trovato</surname> <given-names>ME</given-names></name>, <name name-style="western"><surname>Rettagliati</surname> <given-names>VM</given-names></name>, <etal>et al</etal>. <article-title>Preliminary biomarkers for identification of human ascending thoracic aortic aneurysm</article-title>. <source>Journal of the American Heart Association</source>. <year>2013</year>;<volume>2</volume>(<issue>6</issue>):<fpage>e000138</fpage>. Epub 2013/11/16. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1161/JAHA.113.000138" xlink:type="simple">10.1161/JAHA.113.000138</ext-link></comment> <object-id pub-id-type="pmid">24231657</object-id></mixed-citation></ref>
+<ref id="pone.0176727.ref045"><label>45</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Grewal</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Franken</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Mulder</surname> <given-names>BJ</given-names></name>, <name name-style="western"><surname>Goumans</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Lindeman</surname> <given-names>JH</given-names></name>, <name name-style="western"><surname>Jongbloed</surname> <given-names>MR</given-names></name>, <etal>et al</etal>. <article-title>Histopathology of aortic complications in bicuspid aortic valve versus Marfan syndrome: relevance for therapy?</article-title> <source>Heart and vessels</source>. <year>2016</year>;<volume>31</volume>(<issue>5</issue>):<fpage>795</fpage>–<lpage>806</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s00380-015-0703-z" xlink:type="simple">10.1007/s00380-015-0703-z</ext-link></comment> <object-id pub-id-type="pmid">26129868</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+</article>
